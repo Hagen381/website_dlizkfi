@@ -9,2631 +9,2442 @@
   "werkzeug": "faster-whisper (CPU, int8)",
   "sprache": "de",
   "vad_filter": true,
-  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration.",
-  "erstellt": "2026-11-03T04:23:40Z",
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T08:59:41Z",
   "laufzeit_sekunden": {
-   "modell_laden": 24,
-   "transkription": 1887
+   "modell_laden": 6,
+   "transkription": 1902
   },
-  "echtzeitfaktor": 0.96,
-  "anzahl_segmente": 327
+  "echtzeitfaktor": 0.97,
+  "anzahl_segmente": 303,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
  },
  "segmente": [
   {
    "start": 0.72,
    "ende": 13.79,
    "text": "Wir haben die ganze Klasse eingeladen, aber keiner ist gekommen. Also hier ist unsere Adresse. Wer hier aus der Nachbarschaft Zeit hat, weil mein Kind ist so traurig, kommt noch vorbei.",
-   "avg_logprob": -0.098,
-   "no_speech_prob": 0.165,
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.129,
    "compression_ratio": 1.51
   },
   {
    "start": 13.79,
    "ende": 24.5,
    "text": "Hallo und herzlich willkommen zu einer neuen Folge DLIZKFI – Das Leben ist zu kurz für irgendwann.",
-   "avg_logprob": -0.098,
-   "no_speech_prob": 0.165,
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.129,
    "compression_ratio": 1.51
   },
   {
    "start": 24.5,
    "ende": 35.5,
    "text": "Diese Woche hat Heinrich seinen Geburtstag nachgefeiert mit seinen Freunden und das wollte ich mal zum Anlass nehmen, zu erzählen, wie hier auf Koh Samui Kindergeburtstage gefeiert werden.",
-   "avg_logprob": -0.098,
-   "no_speech_prob": 0.165,
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.129,
    "compression_ratio": 1.51
   },
   {
    "start": 35.5,
-   "ende": 44.5,
-   "text": "Denn ich habe in der gleichen Woche ist ein anderes Kind von einer Sportkollegin, sage ich jetzt mal, drei geworden.",
-   "avg_logprob": -0.144,
-   "no_speech_prob": 0.361,
-   "compression_ratio": 1.77
+   "ende": 59.38,
+   "text": "Denn ich habe in der gleichen Woche ist ein anderes Kind von einer Sportkollegin, sage ich jetzt mal, drei geworden. Und da habe ich nämlich so ein Video gesehen von der Geburtstagsparty. Und da ist mir das wieder aufgegangen, wie hier eigentlich Geburtstage gefeiert werden und wie komplett anders das eigentlich ist, als wie wir in Deutschland Kindergeburtstage feiern.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
   },
   {
-   "start": 44.5,
-   "ende": 53.5,
-   "text": "Und da habe ich nämlich so ein Video gesehen von der Geburtstagsparty. Und da ist mir das wieder aufgegangen, wie hier eigentlich Geburtstage gefeiert werden.",
-   "avg_logprob": -0.144,
-   "no_speech_prob": 0.361,
-   "compression_ratio": 1.77
-  },
-  {
-   "start": 53.5,
-   "ende": 59.5,
-   "text": "Und wie komplett anders das eigentlich ist, als wie wir in Deutschland Kindergeburtstage feiern.",
-   "avg_logprob": -0.144,
-   "no_speech_prob": 0.361,
-   "compression_ratio": 1.77
-  },
-  {
-   "start": 59.5,
-   "ende": 63.5,
-   "text": "Und ich finde, in Deutschland ist es ja auch schon krass geworden.",
-   "avg_logprob": -0.144,
-   "no_speech_prob": 0.361,
-   "compression_ratio": 1.77
-  },
-  {
-   "start": 63.5,
-   "ende": 65.5,
-   "text": "Also wenn man das jetzt mal mit dem Video anschaut.",
-   "avg_logprob": -0.144,
-   "no_speech_prob": 0.361,
-   "compression_ratio": 1.77
-  },
-  {
-   "start": 65.5,
-   "ende": 75.5,
-   "text": "Mit so Geburtstagen aus unserer Zeit vergleicht, wo wir Kinder waren, zu was jetzt alles veranstaltet wird, um Kindergeburtstag zu feiern.",
-   "avg_logprob": -0.128,
+   "start": 59.38,
+   "ende": 77.02,
+   "text": "Und ich finde, in Deutschland ist es ja auch schon krass geworden. Also wenn man das jetzt mal mit so Geburtstagen aus unserer Zeit vergleicht, wo wir Kinder waren, zu was jetzt alles veranstaltet wird, um Kindergeburtstag zu feiern, finde ich schon krass.",
+   "avg_logprob": -0.039,
    "no_speech_prob": 0.002,
-   "compression_ratio": 1.72
+   "compression_ratio": 1.48
   },
   {
-   "start": 75.5,
-   "ende": 82.5,
-   "text": "Finde ich schon krass. Also man hat ja schon das Gefühl, dass es irgendwie immer, dass immer irgendwas krasses passieren muss.",
-   "avg_logprob": -0.128,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.72
-  },
-  {
-   "start": 82.5,
-   "ende": 89.5,
-   "text": "Dass man irgendeine krasse Aktivität machen muss oder irgendeine Besonderheit passieren muss oder ein Motto sein muss.",
-   "avg_logprob": -0.128,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.72
-  },
-  {
-   "start": 89.5,
-   "ende": 93.5,
-   "text": "Oder also ich sage mal einfach nur, klar Heinrich ist jetzt auch zu alt für Topfschlagen.",
-   "avg_logprob": -0.128,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.72
-  },
-  {
-   "start": 93.5,
-   "ende": 95.5,
-   "text": "Aber selbst jetzt in Hermines Alter.",
-   "avg_logprob": -0.128,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.72
-  },
-  {
-   "start": 95.5,
-   "ende": 97.5,
-   "text": "Oder wenn die Kinder jünger sind.",
-   "avg_logprob": -0.078,
+   "start": 77.02,
+   "ende": 89.1,
+   "text": "Also man hat ja schon das Gefühl, dass immer irgendwas Krasses passieren muss, dass man irgendeine krasse Aktivität machen muss oder irgendeine Besonderheit passieren muss oder ein Motto sein muss.",
+   "avg_logprob": -0.059,
    "no_speech_prob": 0.001,
-   "compression_ratio": 1.65
+   "compression_ratio": 1.47
   },
   {
-   "start": 97.5,
-   "ende": 105.5,
-   "text": "Einfach wirklich die Kinder kommen nach Hause und man spielt ein paar Spiele wie Topfschlagen oder Goularde in Zeitungspapier packen und mit Handschuhen.",
-   "avg_logprob": -0.078,
+   "start": 89.1,
+   "ende": 109.82,
+   "text": "Oder also ich sage mal einfach nur, klar, Heinrich ist jetzt auch zu alt für Topfschlagen, aber selbst jetzt in Hermines Alter oder wenn die Kinder jünger sind, einfach wirklich die Kinder kommen nach Hause und man spielt ein paar Spiele wie Topfschlagen oder Goulade in Zeitungspapier packen und mit Handschuhen, obwohl tatsächlich Heinrich das mal auf einem Kindergeburtstag gemacht hat.",
+   "avg_logprob": -0.061,
    "no_speech_prob": 0.001,
-   "compression_ratio": 1.65
+   "compression_ratio": 1.58
   },
   {
-   "start": 105.5,
-   "ende": 109.5,
-   "text": "Obwohl tatsächlich Heinrich das mal auf einem Kindergeburtstag gemacht hat.",
-   "avg_logprob": -0.078,
+   "start": 110.58,
+   "ende": 116.46,
+   "text": "Aber halt diese klassischen Kindergeburtstagsspiele, wenn man das heutzutage selbst mit kleinen Kindern nur macht,",
+   "avg_logprob": -0.088,
    "no_speech_prob": 0.001,
-   "compression_ratio": 1.65
+   "compression_ratio": 1.74
   },
   {
-   "start": 109.5,
-   "ende": 112.5,
-   "text": "Aber halt diese klassischen Kindergeburtstagsspiele.",
-   "avg_logprob": -0.078,
+   "start": 116.62,
+   "ende": 120.52,
+   "text": "dann hat man ja irgendwie das Gefühl, dass das halt nicht mehr zeitgemäß ist.",
+   "avg_logprob": -0.088,
    "no_speech_prob": 0.001,
-   "compression_ratio": 1.65
+   "compression_ratio": 1.74
   },
   {
-   "start": 112.5,
-   "ende": 120.5,
-   "text": "Wenn man das heutzutage selbst mit kleinen Kindern nur macht, dann hat man ja irgendwie das Gefühl, dass das halt nicht mehr zeitgemäß ist.",
-   "avg_logprob": -0.078,
-   "no_speech_prob": 0.001,
-   "compression_ratio": 1.65
-  },
-  {
-   "start": 120.5,
-   "ende": 123.5,
+   "start": 120.62,
+   "ende": 123.3,
    "text": "Und dass das irgendwie öde und langweilig und keine Ahnung was ist.",
-   "avg_logprob": -0.078,
+   "avg_logprob": -0.088,
    "no_speech_prob": 0.001,
-   "compression_ratio": 1.65
+   "compression_ratio": 1.74
   },
   {
-   "start": 123.5,
-   "ende": 133.5,
-   "text": "Und plus, was ich auch, bevor wir Kinder hatten, überhaupt nicht mitgekriegt habe oder dann eben erst mitgekriegt habe, als Heinrich so auf den ersten Geburtstagen eingeladen wurde.",
-   "avg_logprob": -0.095,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.76
+   "start": 124.04,
+   "ende": 131.44,
+   "text": "Und plus, was ich auch, bevor wir Kinder hatten, überhaupt nicht mitgekriegt habe oder dann eben erst mitgekriegt habe,",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
   },
   {
-   "start": 133.5,
-   "ende": 137.5,
-   "text": "Dieses, dass die Kinder, die kommen, auch ein Geschenk bekommen.",
-   "avg_logprob": -0.095,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.76
+   "start": 131.44,
+   "ende": 137.22,
+   "text": "als Heinrich so auf den ersten Geburtstagen eingeladen wurde, dieses, dass die Kinder, die kommen, auch ein Geschenk bekommen.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
   },
   {
-   "start": 137.5,
-   "ende": 143.5,
-   "text": "Also nicht nur, dass sie ein Geschenk fürs Geburtstagsgeschenk mitbringen, sondern dass sie halt so kleine Giveaways.",
-   "avg_logprob": -0.095,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.76
+   "start": 137.22,
+   "ende": 156.38,
+   "text": "Also nicht nur, dass sie ein Geschenk fürs Geburtstagsgeschenk mitbringen, sondern dass sie halt so kleine Giveaways. Also ich kenne das halt, ich komme ja aus der Veranstaltungsbranche und ich weiß, dass wir früher halt auf den Schiffstaufen von AIDA und so, da gab es halt immer Giveaways für die Gäste oder sowohl für die Schiffsgäste, aber auch so für Geschäftspartner und so weiter.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.62
   },
   {
-   "start": 143.5,
-   "ende": 151.5,
-   "text": "Also ich kenne das halt, ich komme ja aus der Veranstaltungsbranche und ich weiß, dass wir früher halt auf den Schiffstaufen von AIDA und so, da gab es halt immer Giveaways.",
-   "avg_logprob": -0.095,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.76
-  },
-  {
-   "start": 151.5,
-   "ende": 156.5,
-   "text": "Für die Gäste oder, also sowohl für die Schiffsgäste, aber auch so für Geschäftspartner und so weiter.",
-   "avg_logprob": -0.08,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 2.04
-  },
-  {
-   "start": 156.5,
-   "ende": 162.5,
-   "text": "Und das war schon so ein eigenes, also da gab es einen eigenen Verantwortlichen für die Giveaways, ja.",
-   "avg_logprob": -0.08,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 2.04
+   "start": 156.38,
+   "ende": 162.32,
+   "text": "und das war schon so ein eigenes, also da gab es einen eigenen Verantwortlichen für die Giveaways,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
   },
   {
    "start": 162.5,
-   "ende": 164.5,
-   "text": "Also es war schon eine große Nummer.",
-   "avg_logprob": -0.08,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 2.04
-  },
-  {
-   "start": 164.5,
-   "ende": 170.5,
-   "text": "Aber ich sage mal so, auf Kindergeburtstagen Giveaways mitzugeben, fand ich anfangs schon etwas seltsam.",
-   "avg_logprob": -0.08,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 2.04
-  },
-  {
-   "start": 170.5,
-   "ende": 173.5,
-   "text": "Aber gut, man macht es dann ja einfach trotzdem mit.",
-   "avg_logprob": -0.08,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 2.04
-  },
-  {
-   "start": 173.5,
-   "ende": 180.5,
-   "text": "Weil man ja nicht möchte, dass das eigene Kind dann irgendwie, also dass sich das eigene Kind schlecht fühlt.",
-   "avg_logprob": -0.08,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 2.04
-  },
-  {
-   "start": 180.5,
-   "ende": 181.5,
-   "text": "Weil man ja nicht möchte, dass das eigene Kind dann irgendwie, also dass sich das eigene Kind schlecht fühlt.",
-   "avg_logprob": -0.08,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 2.04
-  },
-  {
-   "start": 181.5,
-   "ende": 183.5,
-   "text": "Weil es das eben nicht bietet, ja.",
-   "avg_logprob": -0.078,
-   "no_speech_prob": 0.006,
-   "compression_ratio": 2.04
-  },
-  {
-   "start": 183.5,
-   "ende": 191.5,
-   "text": "Und dieses, dass man irgendwo unterwegs ist und irgendeine krasse Aktivität macht, muss ich sagen, habe ich allein deshalb angefangen auch.",
-   "avg_logprob": -0.078,
-   "no_speech_prob": 0.006,
-   "compression_ratio": 2.04
-  },
-  {
-   "start": 191.5,
-   "ende": 196.5,
-   "text": "Also krasse Aktivität, ich meine jetzt damit, dass es nicht einfach nur klassisch zu Hause stattfindet.",
-   "avg_logprob": -0.078,
-   "no_speech_prob": 0.006,
-   "compression_ratio": 2.04
-  },
-  {
-   "start": 196.5,
-   "ende": 200.5,
-   "text": "Weil ich tatsächlich auch nicht irgendwie fünf, sechs Kinder in der Bude haben will.",
-   "avg_logprob": -0.078,
-   "no_speech_prob": 0.006,
-   "compression_ratio": 2.04
-  },
-  {
-   "start": 200.5,
-   "ende": 208.5,
-   "text": "Und ich bin nicht so der Typ, der jetzt so super viel Spaß und Freude daran hat, mit Kindern zu basteln.",
-   "avg_logprob": -0.078,
-   "no_speech_prob": 0.006,
-   "compression_ratio": 2.04
-  },
-  {
-   "start": 208.5,
-   "ende": 210.5,
-   "text": "Und mit Kindern irgendwie, also vor allem mit so kleinen Kindern Spiele zu spielen.",
-   "avg_logprob": -0.078,
-   "no_speech_prob": 0.006,
-   "compression_ratio": 2.04
-  },
-  {
-   "start": 210.5,
-   "ende": 211.5,
-   "text": "Und ich bin nicht so der Typ, der jetzt so super viel Spaß und Freude daran hat, mit Kindern zu basteln.",
-   "avg_logprob": -0.078,
-   "no_speech_prob": 0.006,
-   "compression_ratio": 2.04
-  },
-  {
-   "start": 211.5,
-   "ende": 212.5,
-   "text": "Und ich bin nicht so der Typ, der jetzt so super viel Spaß und Freude daran hat, mit Kindern zu basteln.",
-   "avg_logprob": -0.026,
-   "no_speech_prob": 0.009,
-   "compression_ratio": 7.91
-  },
-  {
-   "start": 212.5,
-   "ende": 213.5,
-   "text": "Und ich bin nicht so der Typ, der jetzt so super viel Spaß und Freude daran hat, mit Kindern zu basteln.",
-   "avg_logprob": -0.026,
-   "no_speech_prob": 0.009,
-   "compression_ratio": 7.91
-  },
-  {
-   "start": 213.5,
-   "ende": 214.5,
-   "text": "Und ich bin nicht so der Typ, der jetzt so super viel Spaß und Freude daran hat, mit Kindern zu basteln.",
-   "avg_logprob": -0.026,
-   "no_speech_prob": 0.009,
-   "compression_ratio": 7.91
-  },
-  {
-   "start": 214.5,
-   "ende": 215.5,
-   "text": "Und ich bin nicht so der Typ, der jetzt so super viel Spaß und Freude daran hat, mit Kindern zu basteln.",
-   "avg_logprob": -0.026,
-   "no_speech_prob": 0.009,
-   "compression_ratio": 7.91
-  },
-  {
-   "start": 215.5,
-   "ende": 216.5,
-   "text": "Und ich bin nicht so der Typ, der jetzt so super viel Spaß und Freude daran hat, mit Kindern zu basteln.",
-   "avg_logprob": -0.026,
-   "no_speech_prob": 0.009,
-   "compression_ratio": 7.91
-  },
-  {
-   "start": 216.5,
-   "ende": 217.5,
-   "text": "Und ich bin nicht so der Typ, der jetzt so super viel Spaß und Freude daran hat, mit Kindern zu basteln.",
-   "avg_logprob": -0.026,
-   "no_speech_prob": 0.009,
-   "compression_ratio": 7.91
-  },
-  {
-   "start": 217.5,
-   "ende": 218.5,
-   "text": "Und ich bin nicht so der Typ, der jetzt so super viel Spaß und Freude daran hat, mit Kindern zu basteln.",
-   "avg_logprob": -0.026,
-   "no_speech_prob": 0.009,
-   "compression_ratio": 7.91
-  },
-  {
-   "start": 218.5,
-   "ende": 226.6,
-   "text": "Aber alles in allem ist ja Kindergeburtstag auch in Deutschland inzwischen, sage ich mal, eine größere Angelegenheit.",
-   "avg_logprob": -0.086,
+   "ende": 168.06,
+   "text": "also es war schon eine große Nummer, aber ich sage mal so, auf Kindergeburtstagen Giveaways mitzugeben,",
+   "avg_logprob": -0.143,
    "no_speech_prob": 0.001,
-   "compression_ratio": 1.61
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 168.68,
+   "ende": 172.9,
+   "text": "fand ich anfangs schon etwas seltsam, aber gut, man macht es dann ja einfach trotzdem mit,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 173.66,
+   "ende": 182.82,
+   "text": "weil man ja nicht möchte, dass sich das eigene Kind schlecht fühlt, weil es das eben nicht bietet.",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 182.82,
+   "ende": 200.8,
+   "text": "Ja, und dieses, dass man irgendwo unterwegs ist und irgendeine krasse Aktivität macht, muss ich sagen, habe ich allein deshalb angefangen auch, also krasse Aktivität, ich meine jetzt damit, dass es nicht einfach nur klassisch zu Hause stattfindet, weil ich tatsächlich auch nicht irgendwie fünf, sechs Kinder in der Bude haben will.",
+   "avg_logprob": -0.05,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 200.8,
+   "ende": 217.62,
+   "text": "Und ich bin nicht so der Typ, der jetzt so super viel Spaß und Freude daran hat, mit Kindern zu basteln und mit Kindern irgendwie, also vor allem mit so kleinen Kindern Spiele zu spielen und keine Ahnung was. Deswegen war ich ganz froh über diese Entwicklung, dass man in der Regel irgendwo hingeht.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 217.62,
+   "ende": 226.6,
+   "text": "Und aber alles in allem ist ja Kindergeburtstag auch in Deutschland inzwischen, sage ich mal, eine größere Angelegenheit.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
   },
   {
    "start": 227.02,
-   "ende": 241.32,
-   "text": "Hier auf Koh Samui ist es so und da glaube ich oder bin ich mir ziemlich sicher, ich war jetzt noch nicht auf einem Thai-Kindergeburtstag, aber ich bin mir relativ sicher, dass das eine Farang-Angelegenheit ist, also dass das ausschließlich wir Ausländer hier so zelebrieren.",
-   "avg_logprob": -0.086,
-   "no_speech_prob": 0.001,
-   "compression_ratio": 1.61
+   "ende": 234.46,
+   "text": "Hier auf Koh Samui ist es so und da glaube ich oder bin ich mir ziemlich sicher, ich war jetzt noch nicht auf einem Thai-Kindergeburtstag,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
   },
   {
-   "start": 241.32,
+   "start": 234.52,
+   "ende": 241.3,
+   "text": "aber ich bin mir relativ sicher, dass das eine Farang-Angelegenheit ist, also dass das ausschließlich wir Ausländer hier so zelebrieren.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 241.3,
    "ende": 266.64,
    "text": "Da wird ein Kindergeburtstag so groß gefeiert und so inszeniert, was man vielleicht in Deutschland mit einer Konfirmation oder Jugendweihe oder vielleicht sogar einer Hochzeit irgendwie vergleichen kann, weil hier oft dann in so, hier gibt es ja halt ganz viele Beachclubs und natürlich auch Hotels, die eine Poolanlage haben, wo man sich quasi einmieten kann.",
-   "avg_logprob": -0.038,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.63
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
   },
   {
    "start": 266.64,
-   "ende": 271.3,
-   "text": "Ja, also wo man dann halt auch, wenn man nicht in dem Hotel wohnt, sondern hier normal lebt.",
-   "avg_logprob": -0.038,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.63
+   "ende": 278.1,
+   "text": "Ja, also wo man dann halt auch, wenn man nicht in dem Hotel wohnt, sondern hier normal lebt, kann man trotzdem in verschiedenen Hotels, in deren Beachclubs sozusagen, kann man sich dann einmieten.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.44
   },
   {
-   "start": 271.32,
+   "start": 278.1,
    "ende": 297.7,
-   "text": "Kann man trotzdem in verschiedenen Hotels, in deren Beachclubs sozusagen, kann man sich dann einmieten und dann gibt es ja auch sehr viele, ja, wie soll ich sagen, so Kinder-Spiele-Länder, so ähnlich wie, also die jetzt aus Rostock kommen, so ähnlich wie das Kinderland, aber halt in total unterschiedlichen Varianten, auch eben dann mal in Verbindung mit Pool oder eben nicht und so weiter.",
-   "avg_logprob": -0.081,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.62
+   "text": "Und dann gibt es ja auch sehr viele, wie soll ich sagen, so Kinder-Spiele-Länder, die jetzt aus Rostock kommen, so ähnlich wie das Kinderland, aber halt in total unterschiedlichen Varianten, auch eben dann mal in Verbindung mit Pool oder eben nicht und so weiter.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.45
   },
   {
-   "start": 297.88,
-   "ende": 300.7,
-   "text": "Und das, sowas wird dann halt oft angemietet.",
-   "avg_logprob": -0.081,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.62
+   "start": 297.7,
+   "ende": 325.2,
+   "text": "Und sowas wird dann halt oft angemietet, inklusive Buffet. Also man hat dann nicht nur so einen Bereich und man kann dann den Pool nutzen, gibt es auch. Aber die meisten Farangs feiern hier wirklich dann diesen Geburtstag, diesen Kindergeburtstag in so einer Hotelanlage oder in so einer Beachclub-Anlage, wo diese ganze Anlage gemietet wird.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
   },
   {
-   "start": 301.32,
-   "ende": 331.3,
-   "text": "Das wird inklusive Buffet, also man hat dann nicht nur so, okay, so einen Bereich und man kann dann den Pool da nutzen, gibt es auch, aber die meisten Farangs feiern hier wirklich dann diesen Geburtstag, diesen Kindergeburtstag in so einer Hotelanlage oder in so einer Beachclub-Anlage, wo der ganze, also wo diese ganze Anlage gemietet wird, wo alles krass dekoriert wird mit übelsten Luftballons, also nicht einfach nur Luftballons aufgeblasen,",
-   "avg_logprob": -0.069,
-   "no_speech_prob": 0.202,
-   "compression_ratio": 1.69
+   "start": 325.2,
+   "ende": 331.4,
+   "text": "wo alles krass dekoriert wird mit übelsten Luftballons, also nicht einfach nur Luftballons aufgeblasen,",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
   },
   {
-   "start": 331.32,
+   "start": 331.5,
    "ende": 339.26,
-   "text": "sondern so, halt so Luftballons-Arrangements, sage ich mal, und Buffet halt, was dann auch vom Hotel kommt.",
-   "avg_logprob": -0.064,
-   "no_speech_prob": 0.144,
-   "compression_ratio": 1.68
+   "text": "sondern so Luftballons-Arrangements, sage ich mal, und Buffet halt, was dann auch vom Hotel kommt.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
   },
   {
    "start": 339.4,
-   "ende": 357.16,
-   "text": "Ich habe keine Ahnung, was das kostet, ja, also es ist, man denkt ja immer, ja, naja, gut, in Thailand wird das ja nicht so teuer sein, so ist es auf jeden Fall nicht, das wird auf jeden Fall mehrere hundert Euro kosten, hundertprozentig, weil, ich kann gleich mal sagen, was wir so bezahlt haben für eine ganz andere Variante des Kindergeburtstags,",
-   "avg_logprob": -0.064,
-   "no_speech_prob": 0.144,
+   "ende": 347.1,
+   "text": "Ich habe keine Ahnung, was das kostet, ja, also es ist, man denkt ja immer, ja, naja, gut, in Thailand wird das ja nicht so teuer sein,",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 347.18,
+   "ende": 351.68,
+   "text": "so ist es auf jeden Fall nicht, das wird auf jeden Fall mehrere hundert Euro kosten, hundertprozentig,",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 351.68,
+   "ende": 375.88,
+   "text": "Weil ich kann gleich mal sagen, was wir so bezahlt haben für eine ganz andere Variante des Kindergeburtstags. Aber auf jeden Fall ist das halt ein riesiges Happening und da werden vor allen Dingen dann, wenn die Kinder dann schon in der Schule sind, beziehungsweise auch in der Vorschule, also hier ist ja oft so, also dieses ganz Kindergarten, klassische Kindergarten, da ist dann nur Spielen und dann irgendwann geht man in die Vorschule und dann geht man irgendwann in die Schule.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 375.88,
+   "ende": 400.94,
+   "text": "Das ist, hier gibt es ja ganz unterschiedliche Konzepte und viel ist auch schon, dass die sehr kleinen Kinder in so einer Art Schulkonzept sind, sozusagen. Das heißt, die haben dann auch schon irgendwie Gruppen und Klassen und keine Ahnung. Aber in jedem Fall, wenn die Kinder ganz regulär in die Schule gehen und eine ganz reguläre Schulklasse um sich herum haben, dann wird auch die ganze Klasse eingeladen, inklusive der Eltern.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.001,
    "compression_ratio": 1.68
   },
   {
-   "start": 358.36,
-   "ende": 361.06,
-   "text": "aber auf jeden Fall ist das halt ein riesiges Happening.",
-   "avg_logprob": -0.064,
-   "no_speech_prob": 0.144,
+   "start": 400.94,
+   "ende": 415.8,
+   "text": "Und ich habe letztens gerade auf Instagram tatsächlich, wurde mir so ein Reel eingespielt, da hat so eine Mutter geschrieben, ja, hat so eine Szenerie gefilmt, wo auch alles übelst dekoriert war, alles geburtstagsmäßig vorbereitet mit Hüpfburg und allem Pipapo.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 415.8,
+   "ende": 435.98,
+   "text": "Und dann hat sie dazu geschrieben, wir haben die ganze Klasse eingeladen, aber keiner ist gekommen. Also hier ist unsere Adresse, wer hier aus der Nachbarschaft Zeit hat, weil mein Kind ist so traurig, kommt noch vorbei. Da habe ich so gedacht, hä wie, also wie, ich bereite das doch gar nicht alles vor, wenn ich weiß, dass keiner kommt.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 435.98,
+   "ende": 447.06,
+   "text": "Ja, also wenn ich jetzt, wenn mein Kind irgendjemanden einlädt, dann steht ja, also in Deutschland steht ja meistens darunter, hier ist meine Telefonnummer, meldet euch bis dann und dann zurück. So ganz schön akkurat, ja, machen wir das ja.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.001,
    "compression_ratio": 1.68
   },
   {
-   "start": 361.32,
-   "ende": 389.72,
-   "text": "Da werden vor allen Dingen dann, wenn die Kinder dann schon in der Schule sind, beziehungsweise auch in der Vorschule, also hier ist ja oft so, also dieses ganz Kindergarten, klassische Kindergarten, da ist dann nur Spielen und dann irgendwann geht man in die Vorschule und dann geht man irgendwann in die Schule, das ist, hier gibt es ja ganz unterschiedliche Konzepte und viel ist auch schon, dass die sehr kleinen Kinder in so einer Art Schulkonzept sind, sozusagen, ne, das heißt, die haben dann da auch schon irgendwie Gruppen und Klassen und keine Ahnung,",
-   "avg_logprob": -0.067,
-   "no_speech_prob": 0.152,
-   "compression_ratio": 1.9
+   "start": 447.42,
+   "ende": 458.7,
+   "text": "So und wenn sich dann die Leute, wenn sich gar keiner zurückmeldet, dann in der Regel hat man ja auch mit den Eltern Kontakt, dann würde man ja mal fragen, hey, was ist, kommt ihr oder kommen deine Kinder oder kommen die nicht?",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
   },
   {
-   "start": 390.1,
-   "ende": 391.3,
-   "text": "aber in jedem Fall.",
-   "avg_logprob": -0.067,
-   "no_speech_prob": 0.152,
-   "compression_ratio": 1.9
-  },
-  {
-   "start": 391.32,
-   "ende": 421.3,
-   "text": "Wenn die Kinder ganz regulär in die Schule gehen und eine ganz reguläre Schulklasse um sich herum haben, dann wird auch die ganze Klasse eingeladen, inklusive der Eltern und ich habe letztens gerade auf Instagram tatsächlich, wurde mir so ein Reel eingespielt, da hat so eine Mutter geschrieben, ja, wir, hat so eine Szenerie gefilmt, wo auch alles übelst dekoriert war, alles geburtstagsmäßig vorbereitet mit Hüpfburg und allem Pipapo und dann hat sie dazu geschrieben, wir haben die ganze Klasse eingeladen, also auf Englisch, wir haben die ganze Klasse eingeladen,",
-   "avg_logprob": -0.028,
-   "no_speech_prob": 0.132,
-   "compression_ratio": 1.86
-  },
-  {
-   "start": 421.32,
-   "ende": 450.32,
-   "text": "aber keiner ist gekommen, also hier ist unsere Adresse, wer hier aus der Nachbarschaft Zeit hat, weil mein Kind ist so traurig, kommt noch vorbei, da habe ich so gedacht, hä, wie, also wie, ich bereite das doch gar nicht alles vor, wenn ich weiß, dass keiner kommt, ja, also wenn ich jetzt, wenn mein Kind irgendjemanden einlädt, dann steht ja, also in Deutschland steht ja meistens da drunter, hier ist meine Telefonnummer, meldet euch bis dann und dann zurück, so ganz schön akkurat, ja, machen wir das, ja, so und wenn, wenn sich dann die Leute, wenn sich gar keiner zurückmeldet,",
-   "avg_logprob": -0.032,
-   "no_speech_prob": 0.131,
-   "compression_ratio": 1.83
-  },
-  {
-   "start": 451.32,
+   "start": 459.62,
    "ende": 464.82,
-   "text": "dann in der Regel hat man ja auch mit den Eltern Kontakt, dann würde man ja mal fragen, hey, was ist, kommt ihr oder kommen deine Kinder oder kommen die nicht, so, aber wenn, wenn, wenn wirklich dann keiner sich meldet und keiner sich anmeldet für den Geburtstag,",
+   "text": "Aber wenn wirklich dann keiner sich meldet und keiner sich anmeldet für den Geburtstag,",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 464.92,
+   "ende": 469.72,
+   "text": "dann ist mir ja klar, dass der Geburtstag ausfällt und dann würde ich ja den gar nicht so riesig inszenieren.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 470.4,
+   "ende": 476.0,
+   "text": "Ich habe dann aber herausgelesen, dass das zumindest da in Amerika, ich weiß nicht, ob es komplett in den USA so ist,",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 476.0,
+   "ende": 481.4,
+   "text": "aber dass es da eben auch so üblich ist wie hier, dass man halt einfach die komplette Klasse einlädt,",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 481.44,
+   "ende": 484.6,
+   "text": "inklusive der Eltern und die kennt man es nicht unbedingt.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 484.6,
+   "ende": 500.02,
+   "text": "Also man hat gar nicht unbedingt den Kontakt zu diesen Eltern und kann dann mit denen absprechen, ob sie kommen oder nicht, sondern es ist einfach so üblich, dass ein Klassenkamerad hat Geburtstag und dann wird automatisch die komplette Klasse eingeladen und wer kommt, der kommt und wer nicht kommt, kommt halt nicht.",
+   "avg_logprob": -0.045,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 500.02,
+   "ende": 510.72,
+   "text": "Und ich hatte dann auch da nachgelesen, dass quasi manche Eltern und auch Kinder schon gar nicht mehr zu diesen Geburtstagen gehen, weil es einfach zu viel ist.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.3
+  },
+  {
+   "start": 510.72,
+   "ende": 533.22,
+   "text": "Also weil einfach, wenn jetzt aufs Jahr gesehen irgendwie, ich weiß nicht, keine Ahnung, 20 Leute in der Klasse Geburtstag haben und man auf 20 oder 19 Geburtstagen eingeladen ist von Kindern, wo das eigene Kind vielleicht gar nicht wirklich mit befreundet ist und wo man auch die Eltern nicht kennt, dass man dann sozusagen aus Höflichkeit dahin geht, aber eben manchmal dann nicht, weil man einfach keinen Bock mehr hat.",
    "avg_logprob": -0.031,
-   "no_speech_prob": 0.031,
-   "compression_ratio": 1.82
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
   },
   {
-   "start": 464.82,
-   "ende": 480.82,
-   "text": "dann ist mir ja klar, dass der Geburtstag ausfällt und dann würde ich ja den gar nicht so riesig inszenieren, ich habe dann aber herausgelesen, dass das in, also zumindest da in Amerika, ich weiß nicht, ob es komplett in den USA so ist, aber dass es da eben auch so üblich ist wie hier, dass man halt einfach die komplette Klasse einlädt,",
-   "avg_logprob": -0.031,
-   "no_speech_prob": 0.031,
-   "compression_ratio": 1.82
+   "start": 533.22,
+   "ende": 542.46,
+   "text": "Und dadurch kommt das eben zustande, dass man dann irgendwie so eine Party arrangiert und gar nicht so hundertprozentig weiß, wie viele eigentlich kommen.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
   },
   {
-   "start": 481.32,
-   "ende": 509.36,
-   "text": "inklusive der Eltern und die kennt man es nicht unbedingt, also man hat gar nicht unbedingt den Kontakt zu diesen Eltern und kann dann mit denen absprechen, ob sie kommen oder nicht, sondern es ist einfach so üblich, dass ein Klassenkamerad hat Geburtstag und dann wird automatisch die komplette Klasse eingeladen und wer kommt, der kommt und wer nicht kommt, kommt halt nicht und ich hatte dann auch da nachgelesen, dass quasi manche Eltern halt und auch Kinder schon gar nicht mehr zu diesen Geburtstagen gehen,",
-   "avg_logprob": -0.029,
-   "no_speech_prob": 0.022,
-   "compression_ratio": 1.89
+   "start": 542.98,
+   "ende": 551.16,
+   "text": "Und wir waren vor, in dem Jahr, wo wir hier gelebt haben, deswegen habe ich mich dann durch dieses Video diese Woche auf Instagram, habe ich mich dann wieder daran erinnert.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
   },
   {
-   "start": 509.36,
-   "ende": 510.7,
-   "text": "weil es einfach zu viel ist.",
-   "avg_logprob": -0.029,
-   "no_speech_prob": 0.022,
-   "compression_ratio": 1.89
+   "start": 551.66,
+   "ende": 557.52,
+   "text": "Da waren wir halt auch auf so einer Party von einem, sozusagen von einem Deutschen, den wir hier kennengelernt haben.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
   },
   {
-   "start": 511.32,
-   "ende": 533.4,
-   "text": "Weil einfach, wenn jetzt aufs Jahr gesehen irgendwie, ich weiß nicht, keine Ahnung, 20 Leute in der Klasse Geburtstag haben, ja, und man auf 20 oder 19 Geburtstagen eingeladen ist von Kindern, die man, wo das eigene Kind vielleicht gar nicht wirklich mit befreundet ist und wo man auch die Eltern nicht kennt, dass man dann sozusagen aus Höflichkeit dahin geht, aber eben manchmal dann nicht, weil man einfach keinen Bock mehr hat, ja.",
-   "avg_logprob": -0.03,
-   "no_speech_prob": 0.139,
-   "compression_ratio": 1.68
-  },
-  {
-   "start": 533.4,
-   "ende": 540.4,
-   "text": "Und dadurch kommt das eben zustande, dass man dann irgendwie so eine Party arrangiert und gar nicht so hundertprozentig.",
-   "avg_logprob": -0.03,
-   "no_speech_prob": 0.139,
-   "compression_ratio": 1.68
-  },
-  {
-   "start": 541.32,
-   "ende": 560.46,
-   "text": "Also wie viele eigentlich kommen und wir waren vor, in dem Jahr, wo wir hier gelebt haben, deswegen habe ich mich dann durch dieses Video diese Woche auf Instagram, habe ich mich dann wieder daran erinnert, da waren wir halt auch auf so einer Party von einem, sozusagen von einem Deutschen, den wir hier kennengelernt haben, der ist mit einer Thai verheiratet und die haben eben zwei Kinder.",
-   "avg_logprob": -0.084,
-   "no_speech_prob": 0.186,
-   "compression_ratio": 1.85
-  },
-  {
-   "start": 560.46,
-   "ende": 569.48,
-   "text": "Und die Kinder, also die ältere Tochter und Heinrich waren so ein bisschen befreundet und die haben uns dann eben auch in so ein Hotel, Beachclub eingeladen.",
-   "avg_logprob": -0.084,
-   "no_speech_prob": 0.186,
-   "compression_ratio": 1.85
-  },
-  {
-   "start": 570.2,
-   "ende": 571.28,
-   "text": "Und dann haben wir auch da.",
-   "avg_logprob": -0.084,
-   "no_speech_prob": 0.186,
-   "compression_ratio": 1.85
-  },
-  {
-   "start": 571.32,
-   "ende": 590.6,
-   "text": "Und dann haben wir halt mit ihm so uns unterhalten und dann hat er uns das halt auch so nochmal erklärt, wie das halt ist, dass man das halt hier so macht, dass das halt ein riesiges Happening ist und dass man das auch einfach mitmacht, weil die, also ich sag mal, ich denke 99 Prozent der Verrangkinder, also der Ausländerkinder hier sind in Privatschulen.",
-   "avg_logprob": -0.065,
-   "no_speech_prob": 0.19,
-   "compression_ratio": 1.77
-  },
-  {
-   "start": 590.6,
-   "ende": 600.56,
-   "text": "Man kann theoretisch sein Kind natürlich auch auf eine öffentliche Schule schicken. Ich habe aber bis jetzt tatsächlich noch niemanden kennengelernt, der das macht. Deswegen sage ich 99 Prozent. Ich habe dafür keine Studien oder so.",
-   "avg_logprob": -0.065,
-   "no_speech_prob": 0.19,
-   "compression_ratio": 1.77
-  },
-  {
-   "start": 600.56,
-   "ende": 611.74,
-   "text": "Aber ich habe hier noch niemanden kennengelernt von den Ausländern, der sein Kind auf eine Privat-, auf eine Thai-Schule schickt und selbst die Thais, wenn sie es sich leisten können, schicken ihre Kinder auf eine Privatschule und nicht auf eine öffentliche Thai-Schule.",
-   "avg_logprob": -0.051,
-   "no_speech_prob": 0.006,
-   "compression_ratio": 1.87
-  },
-  {
-   "start": 611.88,
-   "ende": 630.38,
-   "text": "So, das heißt, diese ganze, diese ganze Privatschulen-Community und dieser ganze Klassenverband in diesen Privatschulen, da ist es halt auch einfach so, dass man dann das so macht, weil das alle so machen, ja, und dass man dann nicht diese Familie sein kann, die eben nicht diese fette Party inszeniert.",
-   "avg_logprob": -0.051,
-   "no_speech_prob": 0.006,
-   "compression_ratio": 1.87
-  },
-  {
-   "start": 630.56,
-   "ende": 642.28,
-   "text": "Und die eben nicht die ganze Klasse einlädt, weil die Leute sich dann halt auf den Schlips getreten fühlen würden, obwohl manche ja vielleicht sowieso nicht kommen würden, weil sie halt schon super genervt von den 19 anderen Geburtstagen waren, ja.",
-   "avg_logprob": -0.052,
-   "no_speech_prob": 0.101,
-   "compression_ratio": 1.74
-  },
-  {
-   "start": 642.74,
-   "ende": 651.24,
-   "text": "Aber nichtsdestotrotz wird das halt so gemacht. Dann haben wir dann auch so, ne, es war halt ein riesen, also wie so Pool-Bereiche in Hotelanlagen halt sind. Es ist halt eine riesige Fläche.",
-   "avg_logprob": -0.052,
-   "no_speech_prob": 0.101,
-   "compression_ratio": 1.74
-  },
-  {
-   "start": 651.74,
-   "ende": 657.18,
-   "text": "Und dann haben wir halt gesagt, ja, wer sind denn die, wer sind denn die? Und dann hat er auch gesagt, keine Ahnung, ich habe die alle noch nie gesehen, ja.",
-   "avg_logprob": -0.052,
-   "no_speech_prob": 0.101,
-   "compression_ratio": 1.74
-  },
-  {
-   "start": 660.56,
-   "ende": 667.76,
-   "text": "Und die auf dem Geburtstag seiner Tochter waren überhaupt nicht gekannt. Das Mädchen hat natürlich die Kinder gekannt, weil sie in eine Klasse gegangen sind.",
+   "start": 557.52,
+   "ende": 560.48,
+   "text": "Der ist mit Natal verheiratet und die haben eben zwei Kinder.",
    "avg_logprob": -0.101,
-   "no_speech_prob": 0.03,
-   "compression_ratio": 1.79
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 560.74,
+   "ende": 565.56,
+   "text": "Und die Kinder, also die ältere Tochter und Heinrich waren so ein bisschen befreundet.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 565.88,
+   "ende": 569.48,
+   "text": "Und die haben uns dann eben auch in so ein Hotel, Beachclub eingeladen.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 570.08,
+   "ende": 572.82,
+   "text": "Und dann haben wir auch da halt mit ihm so uns unterhalten.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 572.94,
+   "ende": 576.8,
+   "text": "Und dann hat er uns das halt auch so nochmal erklärt, wie das halt ist, dass man das halt hier so macht.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 576.9,
+   "ende": 580.48,
+   "text": "Dass das halt ein riesiges Happening ist und dass man das auch einfach mitmacht.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 580.48,
+   "ende": 606.7,
+   "text": "Weil die, also ich sag mal, ich denke 99 Prozent der Farangkinder, also der Ausländerkinder hier, sind in Privatschulen. Man kann theoretisch sein Kind natürlich auch auf eine öffentliche Schule schicken. Ich habe aber bis jetzt tatsächlich noch niemanden kennengelernt, der das macht. Deswegen sage ich 99 Prozent. Ich habe dafür keine Studien oder so, aber ich habe hier noch niemanden kennengelernt von den Ausländern, der sein Kind auf eine Teilschule schickt.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 606.7,
+   "ende": 624.86,
+   "text": "Und selbst die Thais, wenn sie es sich leisten können, schicken ihre Kinder auf eine Privatschule und nicht auf eine öffentliche Thaischule. Das heißt, diese ganze Privatschulen-Community und dieser ganze Klassenverband in diesen Privatschulen, da ist es halt auch einfach so, dass man dann das so macht, weil das alle so machen.",
+   "avg_logprob": -0.035,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 624.86,
+   "ende": 642.08,
+   "text": "Und dass man dann nicht diese Familie sein kann, die eben nicht diese fette Party inszeniert und die eben nicht die ganze Klasse einlädt, weil die Leute sich dann halt auf den Schlips getreten fühlen würden, obwohl manche ja vielleicht sowieso nicht kommen würden, weil sie halt schon super genervt von den 19 anderen Geburtstagen waren.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 642.08,
+   "ende": 663.64,
+   "text": "Ja, aber nichtsdestotrotz wird das halt so gemacht. Dann haben wir dann auch so, es war halt ein riesen, also wie so Poolbereiche in Hotelanlagen halt sind. Es ist halt eine riesige Fläche. Und dann haben wir halt gesagt, ja, wer sind denn die, wer sind denn die? Und dann hat er auch gesagt, keine Ahnung, ich habe die alle noch nie gesehen. Ja, also der hat den Großteil der Menschen, die auf dem Geburtstag seiner Tochter waren, überhaupt nicht gekannt.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 664.14,
+   "ende": 667.76,
+   "text": "Das Mädchen hat natürlich die Kinder gekannt, weil sie in eine Klasse gegangen sind.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
   },
   {
    "start": 668.16,
+   "ende": 673.26,
+   "text": "Aber man hat dann eben so Elterngruppen gesehen, sage ich mal, die dann so zusammenstanden.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 673.86,
    "ende": 677.5,
-   "text": "Aber man hat dann eben so Elterngruppen gesehen, sag ich mal, die dann so zusammenstanden, eben wahrscheinlich die, wo sich die Kinder dann untereinander, wo die Kinder untereinander befreundet sind.",
-   "avg_logprob": -0.101,
-   "no_speech_prob": 0.03,
-   "compression_ratio": 1.79
+   "text": "Eben wahrscheinlich die, wo sich die Kinder dann, wo die Kinder untereinander befreundet sind.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
   },
   {
-   "start": 677.78,
+   "start": 677.98,
+   "ende": 681.7,
+   "text": "Aber die Gastgebereltern haben eben nicht alle Eltern gekannt.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 681.7,
    "ende": 688.4,
-   "text": "Aber die Gastgeber-Eltern haben eben nicht alle Eltern gekannt, ne. Und das war schon so richtig crazy für uns, weil wir haben auch gesagt, er kommt ja auch aus Deutschland und er hat das ja auch bestätigt.",
-   "avg_logprob": -0.101,
-   "no_speech_prob": 0.03,
-   "compression_ratio": 1.79
+   "text": "Und das war schon so richtig crazy für uns, weil wir haben auch gesagt, er kommt ja auch aus Deutschland und er hat das ja auch bestätigt.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
   },
   {
-   "start": 688.48,
-   "ende": 690.5,
-   "text": "So, das ist eigentlich so ein Level, wo man...",
-   "avg_logprob": -0.101,
-   "no_speech_prob": 0.03,
-   "compression_ratio": 1.79
-  },
-  {
-   "start": 690.56,
-   "ende": 694.94,
-   "text": "In Deutschland wirklich, also wie gesagt, manche feiern vielleicht ihre Hochzeit so, wenn überhaupt, ja.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.075,
-   "compression_ratio": 1.62
-  },
-  {
-   "start": 695.46,
-   "ende": 699.0,
-   "text": "Aber, und bei anderen vielleicht die Konfirmation Jugendweihe.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.075,
-   "compression_ratio": 1.62
-  },
-  {
-   "start": 699.8,
-   "ende": 705.14,
-   "text": "Auch da, ne, gibt es auch noch genug, die irgendwie eine Gartenparty machen und so weiter, was ja auch mega cool ist.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.075,
-   "compression_ratio": 1.62
-  },
-  {
-   "start": 705.2,
+   "start": 688.4,
    "ende": 706.96,
-   "text": "Also finde ich persönlich sogar wesentlich cooler.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.075,
-   "compression_ratio": 1.62
+   "text": "So das ist eigentlich so ein Level, wo man in Deutschland wirklich, also wie gesagt, manche feiern vielleicht ihre Hochzeit so, wenn überhaupt, ja. Aber und bei anderen vielleicht die Konfirmation Jugendweihe. Auch da gibt es auch noch genug, die irgendwie eine Gartenparty machen und so weiter, was ja auch mega cool ist. Also finde ich persönlich sogar wesentlich cooler.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
   },
   {
-   "start": 707.12,
-   "ende": 714.12,
-   "text": "Aber ich weiß, bei mir auf der Konfirmation haben wir auch so ein Restaurant quasi gemietet, wo es dann Essen gab.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.075,
-   "compression_ratio": 1.62
+   "start": 706.96,
+   "ende": 730.1,
+   "text": "Aber ich weiß, bei mir auf der Konfirmation haben wir auch so ein Restaurant quasi gemietet, wo es dann Essen gab und danach war man dann sozusagen zu Hause. Da wurden dann noch Pavillons und Zelte aufgestellt und so wurde das, sage ich mal, bei uns in der Region, die Konfirmation, gefeiert. Also schon aufwendig und auch kostspielig und eben nicht zu vergleichen mit einem normalen Kindergeburtstag.",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
   },
   {
-   "start": 714.12,
-   "ende": 719.12,
-   "text": "Und danach war man dann sozusagen zu Hause. Da wurden dann noch Pavillons und Zelte aufgestellt und so.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.075,
-   "compression_ratio": 1.62
+   "start": 730.1,
+   "ende": 744.42,
+   "text": "Und hier ist halt ein normaler Kindergeburtstag auf einem Level, wo andere in Deutschland, wie gesagt, noch nicht mal ihre Hochzeit oder Jugendweihe oder sonst was feiern und auch schon in einem kleinen Alter. Also das Kind, was ich jetzt die Woche in dem Video gesehen habe, ist drei geworden.",
+   "avg_logprob": -0.035,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.48
   },
   {
-   "start": 719.52,
-   "ende": 720.48,
-   "text": "So wurde das.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.075,
-   "compression_ratio": 1.62
-  },
-  {
-   "start": 720.56,
-   "ende": 722.64,
-   "text": "Und das ist, sag ich mal, bei uns in der Region die Konfirmation gefeiert.",
-   "avg_logprob": -0.117,
-   "no_speech_prob": 0.097,
-   "compression_ratio": 1.74
-  },
-  {
-   "start": 722.74,
-   "ende": 725.58,
-   "text": "Also schon aufwendig und auch kostspielig.",
-   "avg_logprob": -0.117,
-   "no_speech_prob": 0.097,
-   "compression_ratio": 1.74
-  },
-  {
-   "start": 726.8,
-   "ende": 730.28,
-   "text": "Und eben nicht zu vergleichen mit einem normalen Kindergeburtstag so.",
-   "avg_logprob": -0.117,
-   "no_speech_prob": 0.097,
-   "compression_ratio": 1.74
-  },
-  {
-   "start": 730.34,
-   "ende": 738.74,
-   "text": "Und hier ist halt ein normaler Kindergeburtstag auf einem Level, wo andere in Deutschland, wie gesagt, noch nicht mal ihre Hochzeit oder Jugendweihe oder sonst was feiern.",
-   "avg_logprob": -0.117,
-   "no_speech_prob": 0.097,
-   "compression_ratio": 1.74
-  },
-  {
-   "start": 739.06,
-   "ende": 740.76,
-   "text": "Und auch schon in einem kleinen Alter.",
-   "avg_logprob": -0.117,
-   "no_speech_prob": 0.097,
-   "compression_ratio": 1.74
-  },
-  {
-   "start": 740.9,
-   "ende": 744.68,
-   "text": "Also das Kind, was ich jetzt die Woche in dem Video gesehen habe, ist drei geworden, ja.",
-   "avg_logprob": -0.117,
-   "no_speech_prob": 0.097,
-   "compression_ratio": 1.74
-  },
-  {
-   "start": 744.68,
-   "ende": 750.34,
-   "text": "Also zu einem dreijährigen, also ein dreijähriges Kind hat halt eine riesige Party.",
-   "avg_logprob": -0.117,
-   "no_speech_prob": 0.097,
-   "compression_ratio": 1.74
-  },
-  {
-   "start": 750.56,
+   "start": 744.42,
    "ende": 759.68,
-   "text": "Ja, mit super vielen Leuten und Erwachsenen und Kindern und tausend Stationen, sag ich jetzt mal, wo irgendwas gemacht werden kann.",
-   "avg_logprob": -0.129,
-   "no_speech_prob": 0.096,
-   "compression_ratio": 1.6
+   "text": "Ja, also zu einem dreijährigen, also ein dreijähriges Kind hat halt eine riesige Party mit super vielen Leuten und Erwachsenen und Kindern und tausend Stationen, sage ich jetzt mal, wo irgendwas gemacht werden kann.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.47
   },
   {
    "start": 760.34,
-   "ende": 762.56,
-   "text": "Und das ist schon krass.",
-   "avg_logprob": -0.129,
-   "no_speech_prob": 0.096,
-   "compression_ratio": 1.6
+   "ende": 766.08,
+   "text": "Und das ist schon krass und das ist aber, glaube ich, jetzt kein Kosa-Mui-Phänomen.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.47
   },
   {
-   "start": 763.38,
-   "ende": 766.0,
-   "text": "Und das ist aber, glaube ich, jetzt kein Kosa-Mui-Phänomen.",
-   "avg_logprob": -0.129,
-   "no_speech_prob": 0.096,
-   "compression_ratio": 1.6
-  },
-  {
-   "start": 767.02,
+   "start": 766.08,
    "ende": 773.16,
-   "text": "Ich habe auch im Internet tatsächlich folglich so eine, die in Dubai lebt.",
-   "avg_logprob": -0.129,
-   "no_speech_prob": 0.096,
-   "compression_ratio": 1.6
+   "text": "Nein, ich habe auch im Internet tatsächlich folglich so eine, die in Dubai lebt.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
   },
   {
    "start": 773.54,
    "ende": 775.84,
    "text": "Die hat drei oder vier Kinder, weiß ich gar nicht.",
-   "avg_logprob": -0.129,
-   "no_speech_prob": 0.096,
-   "compression_ratio": 1.6
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
   },
   {
-   "start": 776.64,
-   "ende": 780.46,
-   "text": "Und da ist es auch immer, wenn eins der Kinder Geburtstag hat, auch da ist dann.",
-   "avg_logprob": -0.129,
-   "no_speech_prob": 0.096,
-   "compression_ratio": 1.6
+   "start": 776.36,
+   "ende": 781.58,
+   "text": "Und da ist es auch immer, wenn eins der Kinder Geburtstag hat, auch da ist dann immer eine Motto-Party.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
   },
   {
-   "start": 780.56,
-   "ende": 781.78,
-   "text": "Es ist immer eine Motto-Party, ja.",
-   "avg_logprob": -0.095,
-   "no_speech_prob": 0.012,
-   "compression_ratio": 1.63
-  },
-  {
-   "start": 781.86,
+   "start": 781.78,
    "ende": 787.76,
    "text": "Und da wird auch das ganze Haus oder die Location, die man dann gemietet hat, unter diesem Motto halt geschmückt.",
-   "avg_logprob": -0.095,
-   "no_speech_prob": 0.012,
-   "compression_ratio": 1.63
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
   },
   {
    "start": 787.86,
    "ende": 790.34,
    "text": "Die Gäste kommen alle verkleidet zu diesem Motto.",
-   "avg_logprob": -0.095,
-   "no_speech_prob": 0.012,
-   "compression_ratio": 1.63
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
   },
   {
-   "start": 790.7,
-   "ende": 792.74,
-   "text": "Das Essen ist auf das Motto ausgelegt.",
-   "avg_logprob": -0.095,
-   "no_speech_prob": 0.012,
-   "compression_ratio": 1.63
-  },
-  {
-   "start": 792.74,
-   "ende": 797.12,
-   "text": "Und das eben auch schon wirklich in einem ganz kleinen Kleinkindalter.",
-   "avg_logprob": -0.095,
-   "no_speech_prob": 0.012,
-   "compression_ratio": 1.63
-  },
-  {
-   "start": 798.32,
-   "ende": 802.96,
-   "text": "Was jetzt ja mal ganz abhängig, unabhängig davon, was sowas kostet, ja.",
-   "avg_logprob": -0.095,
-   "no_speech_prob": 0.012,
-   "compression_ratio": 1.63
-  },
-  {
-   "start": 803.06,
+   "start": 790.34,
    "ende": 807.94,
-   "text": "Weil, okay, kann man jetzt sagen, ja, mein Gott, wenn die sich das leisten können, dann sollen sie es machen.",
-   "avg_logprob": -0.095,
-   "no_speech_prob": 0.012,
-   "compression_ratio": 1.63
+   "text": "Das Essen ist auf das Motto ausgelegt und das eben auch schon wirklich in einem ganz kleinen Kleinkindalter, was jetzt ja mal ganz abhängig, unabhängig davon, was sowas kostet. Weil okay, kann man jetzt sagen, ja mein Gott, wenn die sich das leisten können, dann sollen sie es machen.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.46
   },
   {
    "start": 808.62,
-   "ende": 809.74,
-   "text": "Ist das ja aber auch...",
-   "avg_logprob": -0.095,
-   "no_speech_prob": 0.012,
-   "compression_ratio": 1.63
+   "ende": 814.86,
+   "text": "Ist das ja aber auch aus meiner Sicht, also zumindest für so ganz kleine Kinder, völlig überfordernd.",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
   },
   {
-   "start": 810.56,
-   "ende": 814.84,
-   "text": "Aus meiner Sicht, also zumindest für so ganz kleine Kinder, völlig überfordernd.",
-   "avg_logprob": -0.114,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.74
-  },
-  {
-   "start": 814.96,
+   "start": 815.06,
    "ende": 817.76,
-   "text": "Also die, das ist ja einfach viel zu viel.",
-   "avg_logprob": -0.114,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.74
+   "text": "Also das ist ja einfach viel zu viel.",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
   },
   {
    "start": 817.84,
-   "ende": 820.16,
-   "text": "Das ist ja schon alleine die Geschenke, ja.",
-   "avg_logprob": -0.114,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.74
+   "ende": 819.94,
+   "text": "Das ist ja schon alleine die Geschenke.",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
   },
   {
-   "start": 820.16,
+   "start": 820.14,
    "ende": 825.58,
    "text": "Wenn ganz normal Geschenke ausgepackt werden, merkt man ja eigentlich schon bei kleinen Kindern, dass das eigentlich viel zu viel ist.",
-   "avg_logprob": -0.114,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.74
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
   },
   {
    "start": 825.64,
    "ende": 827.0,
    "text": "Die können das alles gar nicht verarbeiten.",
-   "avg_logprob": -0.114,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.74
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
   },
   {
-   "start": 827.9,
+   "start": 827.72,
    "ende": 829.52,
    "text": "Und dann wird irgendwie noch was unternommen.",
-   "avg_logprob": -0.114,
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 830.22,
+   "ende": 832.3,
+   "text": "Sind die ja eigentlich total durch.",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 832.3,
+   "ende": 833.54,
+   "text": "so. Und",
+   "avg_logprob": -0.098,
    "no_speech_prob": 0.005,
-   "compression_ratio": 1.74
+   "compression_ratio": 1.68
   },
   {
-   "start": 830.24,
-   "ende": 832.68,
-   "text": "Sind die ja eigentlich total durch, so, ne.",
-   "avg_logprob": -0.114,
+   "start": 833.54,
+   "ende": 836.3,
+   "text": "deswegen ist es dann",
+   "avg_logprob": -0.098,
    "no_speech_prob": 0.005,
-   "compression_ratio": 1.74
+   "compression_ratio": 1.68
   },
   {
-   "start": 833.18,
-   "ende": 838.86,
-   "text": "Und deswegen ist es dann aber auch, wenn man dann sagt, okay, wer sich leisten kann, kann es ja machen.",
-   "avg_logprob": -0.114,
+   "start": 836.3,
+   "ende": 838.28,
+   "text": "aber auch, wenn man dann sagt, okay, wer sich leisten kann,",
+   "avg_logprob": -0.098,
    "no_speech_prob": 0.005,
-   "compression_ratio": 1.74
+   "compression_ratio": 1.68
   },
   {
-   "start": 838.86,
-   "ende": 846.54,
-   "text": "Ist dann auch nicht die goldene Regel, weil es gibt ja vielleicht eben auch Eltern in diesen Klassenverbänden, die sich das nicht leisten können eigentlich, ja.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.015,
-   "compression_ratio": 1.71
+   "start": 838.32,
+   "ende": 840.26,
+   "text": "kann es ja machen, ist dann auch nicht",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
   },
   {
-   "start": 846.64,
-   "ende": 854.16,
-   "text": "Auch wenn ich jetzt mein Kind auf eine Privatschule schicke, was ja auch schon mal dafür spricht, dass ich eine gewisse Einkommensstruktur habe, weil ich mir sonst hier so...",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.015,
-   "compression_ratio": 1.71
+   "start": 840.26,
+   "ende": 842.24,
+   "text": "die goldene Regel, weil es gibt ja vielleicht eben",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 842.24,
+   "ende": 844.12,
+   "text": "auch Eltern in diesen Klassenverbänden,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 844.2,
+   "ende": 846.1,
+   "text": "die sich das nicht leisten können eigentlich.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 846.46,
+   "ende": 848.32,
+   "text": "Auch wenn ich jetzt mein Kind auf eine Privatschule",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 848.32,
+   "ende": 849.62,
+   "text": "schicke, was ja auch schon mal",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 849.62,
+   "ende": 852.36,
+   "text": "dafür spricht, dass ich eine gewisse Einkommensstruktur",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 852.36,
+   "ende": 854.1,
+   "text": "habe, weil ich mir sonst hier so,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
   },
   {
    "start": 854.16,
-   "ende": 856.46,
-   "text": "Also hier sind ja die Privatschulen, sind ja hier nicht geschenkt, ne.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.015,
-   "compression_ratio": 1.71
+   "ende": 856.32,
+   "text": "also hier sind ja die Privatschulen, sind ja hier nicht geschenkt.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
   },
   {
-   "start": 856.52,
+   "start": 856.48,
+   "ende": 858.08,
+   "text": "Also da, ich glaube,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 858.12,
+   "ende": 860.12,
+   "text": "das geht irgendwie los bei 650 Euro",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 860.12,
    "ende": 861.24,
-   "text": "Also da, ich glaube, das geht irgendwie los bei 650 Euro im Monat aufwärts.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.015,
-   "compression_ratio": 1.71
+   "text": "im Monat aufwärts.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
   },
   {
-   "start": 861.92,
-   "ende": 865.44,
-   "text": "Es gibt auch einige, die sind bereit, weit über 1000 Euro im Monat zu zahlen.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.015,
-   "compression_ratio": 1.71
-  },
-  {
-   "start": 866.06,
-   "ende": 868.68,
-   "text": "Das heißt, ich habe da ja schon mal die gewissen...",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.015,
-   "compression_ratio": 1.71
-  },
-  {
-   "start": 868.86,
+   "start": 861.24,
    "ende": 879.88,
-   "text": "Aber nichtsdestotrotz kann ich mir ja vielleicht gerade das leisten und habe dann eigentlich nicht die Kohle, noch so eine riesige Party für einen, zwei oder auch drei Kinder auszurichten im Jahr.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.01,
-   "compression_ratio": 1.72
+   "text": "Es gibt auch einige, die sind bereit, weit über 1000 Euro im Monat zu zahlen. Das heißt, ich habe da ja schon mal ein gewisses Klientel, aber nichtsdestotrotz kann ich mir ja vielleicht gerade das leisten und habe dann eigentlich nicht die Kohle, noch so eine riesige Party für allen zwei oder auch drei Kinder auszurichten im Jahr.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
   },
   {
-   "start": 881.1,
-   "ende": 883.86,
-   "text": "Muss es dann aber machen, weil ich einfach nicht...",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.01,
-   "compression_ratio": 1.72
-  },
-  {
-   "start": 884.5,
-   "ende": 893.18,
-   "text": "Es geht ja gar nicht mal um das eigene, also wie ich mich als Erwachsener vielleicht auch da mit meinem Selbstwertgefühl trotzdem dagegenstellen würde, ja.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.01,
-   "compression_ratio": 1.72
-  },
-  {
-   "start": 893.22,
+   "start": 879.88,
    "ende": 895.02,
-   "text": "Und sagen würde, okay, ich brauche das nicht.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.01,
-   "compression_ratio": 1.72
+   "text": "Ja, muss es dann aber machen, weil ich einfach nicht, es geht ja gar nicht mal um das eigene, also wie ich mich als Erwachsener vielleicht auch da mit meinem Selbstwertgefühl trotzdem dagegen stellen würde, ja, und sagen würde, okay, ich brauche das nicht.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.8
   },
   {
    "start": 895.02,
-   "ende": 898.84,
-   "text": "Es geht ja bei solchen Sachen immer darum, dass man das für das Kind nicht möchte, ja.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.01,
-   "compression_ratio": 1.72
+   "ende": 906.94,
+   "text": "Es geht ja bei solchen Sachen immer darum, dass man das für das Kind nicht möchte, ja, dass man nicht möchte, dass das Kind das einzige Kind ist, das eben nicht so eine Party veranstaltet und das eben nicht so krasse Sachen irgendwie macht.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.8
   },
   {
-   "start": 898.86,
-   "ende": 906.96,
-   "text": "Dass man nicht möchte, dass das Kind das einzige Kind ist, das eben nicht so eine Party veranstaltet und das eben nicht so krasse Sachen irgendwie macht.",
-   "avg_logprob": -0.08,
-   "no_speech_prob": 0.009,
-   "compression_ratio": 1.67
-  },
-  {
-   "start": 907.76,
+   "start": 907.74,
    "ende": 915.08,
    "text": "Und da bin ich ganz froh tatsächlich, dass wir uns nicht in diesen Kreisen, sage ich jetzt mal, bewegen.",
-   "avg_logprob": -0.08,
-   "no_speech_prob": 0.009,
-   "compression_ratio": 1.67
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
   },
   {
    "start": 915.58,
    "ende": 923.92,
    "text": "Also wir haben natürlich auch Freunde, deren Kinder auf Privatschulen gehen oder wo das in Planung ist, je nach Alter und so weiter.",
-   "avg_logprob": -0.08,
-   "no_speech_prob": 0.009,
-   "compression_ratio": 1.67
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
   },
   {
-   "start": 925.02,
-   "ende": 928.82,
-   "text": "Und wir haben auch, würde ich jetzt mal behaupten, die meisten Leute...",
-   "avg_logprob": -0.08,
-   "no_speech_prob": 0.009,
-   "compression_ratio": 1.67
+   "start": 925.4,
+   "ende": 932.94,
+   "text": "Und wir haben auch, würde ich jetzt mal behaupten, die meisten Leute, die wir hier kennen, haben auch ein höheres Einkommen als wir",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
   },
   {
-   "start": 928.86,
-   "ende": 937.02,
-   "text": "Die wir hier kennen, haben auch ein höheres Einkommen als wir oder eine luxuriösere Wohnsituation oder wie auch immer.",
-   "avg_logprob": -0.083,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.59
+   "start": 932.94,
+   "ende": 937.04,
+   "text": "oder eine luxuriösere Wohnsituation oder wie auch immer.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
   },
   {
-   "start": 938.94,
-   "ende": 943.4,
-   "text": "Aber trotzdem ist man nicht so in diesem...",
-   "avg_logprob": -0.083,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.59
+   "start": 938.08,
+   "ende": 943.06,
+   "text": "Aber trotzdem ist man nicht so in diesem,",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
   },
   {
    "start": 943.4,
-   "ende": 949.5,
-   "text": "Also man kennt dann halt eine Familie aus diesen Kreisen und hat nicht nur so eine Leute um sich quasi, ne.",
-   "avg_logprob": -0.083,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.59
+   "ende": 946.82,
+   "text": "also man kennt dann halt eine Familie aus diesen Kreisen",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
   },
   {
-   "start": 949.84,
+   "start": 946.82,
+   "ende": 949.3,
+   "text": "und hat nicht nur so eine Leute um sich quasi.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 949.58,
+   "ende": 953.3,
+   "text": "Und dadurch haben wir natürlich auch nicht so sehr diese Geburtstagspflicht,",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 954.36,
    "ende": 957.04,
-   "text": "Und dadurch haben wir natürlich auch nicht so sehr diese Geburtstagspflicht in diesem Umfang zu feiern.",
-   "avg_logprob": -0.083,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.59
+   "text": "in diesem Umfang zu feiern.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
   },
   {
-   "start": 957.68,
-   "ende": 958.02,
-   "text": "Und Heinrich...",
-   "avg_logprob": -0.083,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.59
-  },
-  {
-   "start": 958.86,
+   "start": 957.92,
    "ende": 960.52,
-   "text": "Heinrichs Geburtstag lief jetzt so ab.",
-   "avg_logprob": -0.09,
-   "no_speech_prob": 0.043,
-   "compression_ratio": 1.68
+   "text": "Und Heinrichs Geburtstag lief jetzt so ab.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
   },
   {
-   "start": 960.56,
-   "ende": 964.7,
-   "text": "Also nichtsdestotrotz hat man natürlich aber die Situation, dass man sich überlegt, okay, was macht man?",
-   "avg_logprob": -0.09,
-   "no_speech_prob": 0.043,
-   "compression_ratio": 1.68
+   "start": 960.52,
+   "ende": 986.98,
+   "text": "Also nichtsdestotrotz hat man natürlich aber die Situation, dass man sich überlegt, okay, was macht man, weil vorher haben wir in den zwei Bungalows gewohnt, da ist ja kaum die Möglichkeit, sag ich mal, jetzt indoor, also in den Bungalows oder drumherum irgendwas zu machen und jetzt in dem Haus, wo wir jetzt leben, das ist natürlich größer, aber jetzt gerade auch im Heimrechtsalter, ja, gibt da jetzt, also wir haben keinen Pool, keine Ahnung, gibt das jetzt auch nicht so viel her,",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
   },
   {
-   "start": 964.7,
-   "ende": 967.2,
-   "text": "Weil vorher haben wir in den zwei Bungalows gewohnt.",
-   "avg_logprob": -0.09,
-   "no_speech_prob": 0.043,
-   "compression_ratio": 1.68
-  },
-  {
-   "start": 967.96,
-   "ende": 974.84,
-   "text": "Da ist ja kaum die Möglichkeit, sage ich mal, jetzt indoor, also in den Bungalows oder drumherum irgendwas zu machen.",
-   "avg_logprob": -0.09,
-   "no_speech_prob": 0.043,
-   "compression_ratio": 1.68
-  },
-  {
-   "start": 976.1,
-   "ende": 979.84,
-   "text": "Und jetzt in dem Haus, wo wir jetzt leben, das ist natürlich größer.",
-   "avg_logprob": -0.09,
-   "no_speech_prob": 0.043,
-   "compression_ratio": 1.68
-  },
-  {
-   "start": 980.24,
-   "ende": 984.62,
-   "text": "Aber jetzt gerade auch in Heinrichs Alter, ja, gibt da jetzt...",
-   "avg_logprob": -0.09,
-   "no_speech_prob": 0.043,
-   "compression_ratio": 1.68
-  },
-  {
-   "start": 984.62,
-   "ende": 988.7,
-   "text": "Also wir haben keinen Pool, keine Ahnung, gibt das jetzt auch nicht so viel her, dass wir da stundenlang irgendwie...",
-   "avg_logprob": -0.09,
-   "no_speech_prob": 0.043,
-   "compression_ratio": 1.68
-  },
-  {
-   "start": 988.86,
+   "start": 986.98,
    "ende": 991.76,
-   "text": "Kinder beschäftigen können oder Jugendliche oder wie auch immer.",
-   "avg_logprob": -0.092,
-   "no_speech_prob": 0.129,
-   "compression_ratio": 1.63
+   "text": "dass wir da stundenlang irgendwie Kinder beschäftigen können oder Jugendliche oder wie auch immer.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.56
   },
   {
-   "start": 993.18,
+   "start": 993.14,
    "ende": 996.26,
    "text": "Letztes Jahr zu Heinrichs Geburtstag sind wir ja gerade erst angekommen.",
-   "avg_logprob": -0.092,
-   "no_speech_prob": 0.129,
-   "compression_ratio": 1.63
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.56
   },
   {
    "start": 997.0,
    "ende": 1003.12,
    "text": "Da hatte er halt seine Freunde eingeladen, die wir schon aus dem Jahr sozusagen vorher kannten, die ganze Familie.",
-   "avg_logprob": -0.092,
-   "no_speech_prob": 0.129,
-   "compression_ratio": 1.63
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.56
   },
   {
-   "start": 1003.58,
+   "start": 1003.56,
    "ende": 1006.16,
    "text": "Und da waren wir halt natürlich im Paradise Park Farm.",
-   "avg_logprob": -0.092,
-   "no_speech_prob": 0.129,
-   "compression_ratio": 1.63
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.56
   },
   {
    "start": 1006.34,
    "ende": 1011.08,
    "text": "Ich habe bestimmt schon vom Paradise Park Farm erzählt, weil das ist ja der All-Time-Favorite von den Kindern.",
-   "avg_logprob": -0.092,
-   "no_speech_prob": 0.129,
-   "compression_ratio": 1.63
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.56
   },
   {
-   "start": 1011.22,
-   "ende": 1013.48,
-   "text": "Das ist ja so eine Art Tierpark mit Pool und Spielplatz.",
-   "avg_logprob": -0.092,
-   "no_speech_prob": 0.129,
-   "compression_ratio": 1.63
-  },
-  {
-   "start": 1014.34,
-   "ende": 1018.84,
-   "text": "Und sind dann danach tatsächlich zu den Bungalows gefahren und haben dann am Strand noch so eine Art...",
-   "avg_logprob": -0.092,
-   "no_speech_prob": 0.129,
-   "compression_ratio": 1.63
-  },
-  {
-   "start": 1018.86,
-   "ende": 1020.52,
-   "text": "Schnitzeljagd gemacht mit wer...",
-   "avg_logprob": -0.099,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.72
-  },
-  {
-   "start": 1020.52,
-   "ende": 1028.66,
-   "text": "Also wir haben verschiedene Sachen aufgeschrieben und wer als erstes, also welches Team als erstes das meiste davon gefunden hat, hatte gewonnen.",
-   "avg_logprob": -0.099,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.72
-  },
-  {
-   "start": 1028.76,
-   "ende": 1031.28,
-   "text": "Und dann haben wir da noch ein Lagerfeuer am Strand gemacht.",
-   "avg_logprob": -0.099,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.72
-  },
-  {
-   "start": 1031.5,
-   "ende": 1033.38,
-   "text": "Und dann war das auch cool.",
-   "avg_logprob": -0.099,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.72
-  },
-  {
-   "start": 1033.38,
+   "start": 1011.08,
    "ende": 1037.32,
-   "text": "Und zu Hermines Geburtstag waren wir auch im Paradise Park Farm, weil die es halt auch so liebt.",
-   "avg_logprob": -0.099,
+   "text": "Das ist ja so eine Art Tierpark mit Pool und Spielplatz und sind dann danach tatsächlich zu den Bungalows gefahren und haben dann am Strand noch so eine Art Schnitzeljagd gemacht mit wer, also wir haben verschiedene Sachen aufgeschrieben und wer als erstes, also welches Team als erstes das meiste davon gefunden hat, hatte gewonnen und dann haben wir da noch ein Lagerfeuer am Strand gemacht so und dann war das auch cool und zu Hermines Geburtstag waren wir auch im Paradise Park gefahren, weil die es halt auch so liebt.",
+   "avg_logprob": -0.067,
    "no_speech_prob": 0.002,
-   "compression_ratio": 1.72
+   "compression_ratio": 1.75
   },
   {
-   "start": 1037.64,
-   "ende": 1039.34,
-   "text": "Da sind die Kinder ja auch noch kleiner.",
-   "avg_logprob": -0.099,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.72
-  },
-  {
-   "start": 1039.52,
-   "ende": 1043.18,
-   "text": "Das heißt, da haben wir dann einfach den ganzen Tag da verbracht.",
-   "avg_logprob": -0.099,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.72
-  },
-  {
-   "start": 1043.32,
-   "ende": 1045.56,
-   "text": "Und danach war dann Feierabend.",
-   "avg_logprob": -0.099,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.72
-  },
-  {
-   "start": 1046.12,
-   "ende": 1048.84,
-   "text": "Und Heinrich hat immer so ein bisschen den Nachteil, dass er...",
-   "avg_logprob": -0.099,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.72
-  },
-  {
-   "start": 1048.86,
+   "start": 1037.32,
    "ende": 1051.74,
-   "text": "Er hier im Oktober ja Geburtstag hat und hier immer Regenzeit ist.",
-   "avg_logprob": -0.165,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.54
+   "text": "Da sind die Kinder ja auch noch kleiner. Das heißt, da haben wir dann einfach den ganzen Tag da verbracht und danach war dann Feierabend. Und Heinrich hat immer so ein bisschen den Nachteil, dass er hier im Oktober ja Geburtstag hat und hier immer Regenzeit ist.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.44
   },
   {
-   "start": 1052.26,
-   "ende": 1057.5,
-   "text": "Und eigentlich wollten wir in so eine Art Freibad-ähnliches Ding gehen, wo man...",
-   "avg_logprob": -0.165,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.54
+   "start": 1051.74,
+   "ende": 1056.86,
+   "text": "und eigentlich wollten wir in so eine Art Freibad-ähnliches Ding gehen,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
   },
   {
-   "start": 1058.18,
-   "ende": 1060.82,
-   "text": "Also wo so Sprungtürme sind.",
-   "avg_logprob": -0.165,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.54
-  },
-  {
-   "start": 1060.98,
+   "start": 1056.86,
    "ende": 1061.9,
-   "text": "Jumpshack heißt das.",
-   "avg_logprob": -0.165,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.54
+   "text": "wo so Sprungtürme sind, Jumpshack heißt das",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
   },
   {
-   "start": 1062.38,
-   "ende": 1067.16,
-   "text": "Und man kann hier wirklich in vielen Locations auch so Geburtstagspakete buchen.",
-   "avg_logprob": -0.165,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.54
+   "start": 1061.9,
+   "ende": 1067.2,
+   "text": "und man kann hier wirklich in vielen Locations auch so Geburtstagspakete buchen",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
   },
   {
-   "start": 1067.82,
-   "ende": 1070.0,
-   "text": "Und dann bekommt man da eben...",
-   "avg_logprob": -0.165,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.54
+   "start": 1067.2,
+   "ende": 1071.18,
+   "text": "und dann bekommt man da eben, was ist denn jetzt hier los?",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
   },
   {
-   "start": 1070.0,
-   "ende": 1071.16,
-   "text": "Was ist denn jetzt hier los?",
-   "avg_logprob": -0.165,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.54
-  },
-  {
-   "start": 1071.54,
-   "ende": 1072.88,
+   "start": 1071.58,
+   "ende": 1072.92,
    "text": "Hier, jetzt haben wir Alarm draußen.",
-   "avg_logprob": -0.165,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.54
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
   },
   {
-   "start": 1072.88,
-   "ende": 1077.88,
-   "text": "Da bekommt man dann so einen Bereich zugeteilt,",
-   "avg_logprob": -0.165,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.54
+   "start": 1073.4,
+   "ende": 1079.62,
+   "text": "Da bekommt man dann so einen Bereich zugeteilt, der dann auch geschmückt ist,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
   },
   {
-   "start": 1078.86,
-   "ende": 1081.24,
-   "text": "geschmückt ist, wo man dann auch Essen bekommt und so weiter.",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.007,
-   "compression_ratio": 1.66
+   "start": 1079.72,
+   "ende": 1081.26,
+   "text": "wo man dann auch Essen bekommt und so weiter.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
   },
   {
-   "start": 1081.7,
-   "ende": 1085.76,
-   "text": "Das war aber in diesem Schwimmbad-ähnlichen Ding,",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.007,
-   "compression_ratio": 1.66
-  },
-  {
-   "start": 1086.32,
-   "ende": 1092.36,
-   "text": "hat man dieses Paket nur bekommen, wenn man mindestens acht Gäste, also acht Kinder eingeladen hat.",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.007,
-   "compression_ratio": 1.66
-  },
-  {
-   "start": 1092.62,
-   "ende": 1097.66,
-   "text": "Wo ich auch schon wieder dachte, okay, also wir haben in Deutschland die Regelung gehabt,",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.007,
-   "compression_ratio": 1.66
-  },
-  {
-   "start": 1097.98,
+   "start": 1081.26,
    "ende": 1101.22,
-   "text": "so jetzt im Kleinkindalter so viele Kinder, wie alt du wirst.",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.007,
-   "compression_ratio": 1.66
+   "text": "Das war aber in diesem Schwimmbad-ähnlichen Ding, hat man dieses Paket nur bekommen, wenn man mindestens acht Kinder eingeladen hat. Wo ich auch schon wieder dachte, okay, wir haben in Deutschland die Regelung gehabt, jetzt im Kleinkindalter so viele Kinder, wie alt du wirst.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.43
   },
   {
-   "start": 1101.36,
-   "ende": 1105.6,
-   "text": "Also wenn Hermine vier geworden ist, dann durfte sie halt vier Kinder einladen.",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.007,
-   "compression_ratio": 1.66
-  },
-  {
-   "start": 1106.02,
-   "ende": 1108.0,
-   "text": "Und wenn sie fünf wurde, fünf Kinder und so weiter.",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.007,
-   "compression_ratio": 1.66
-  },
-  {
-   "start": 1108.0,
-   "ende": 1108.84,
-   "text": "Ich weiß jetzt nicht.",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.007,
-   "compression_ratio": 1.66
-  },
-  {
-   "start": 1108.86,
-   "ende": 1114.94,
-   "text": "Ob ich das jetzt mit zwölf immer noch so gemacht hätte, ob ich gesagt hätte, okay, Heinrich wirst jetzt zwölf, du kannst jetzt zwölf Jungs einladen.",
-   "avg_logprob": -0.123,
-   "no_speech_prob": 0.009,
-   "compression_ratio": 1.73
-  },
-  {
-   "start": 1115.44,
+   "start": 1101.22,
    "ende": 1122.92,
-   "text": "Aber nichtsdestotrotz ist es ja auch einfach mal so, dass die Kinder nicht zwangsläufig mit acht oder zwölf Kindern befreundet sind.",
-   "avg_logprob": -0.123,
-   "no_speech_prob": 0.009,
-   "compression_ratio": 1.73
+   "text": "Also wenn Hermine vier geworden ist, dann durfte sie halt vier Kinder einladen und wenn sie fünf wurde, fünf Kinder und so weiter. Ich weiß jetzt nicht, ob ich das jetzt mit zwölf immer noch so gemacht hätte, ob ich gesagt hätte, okay, Heinrich, du kannst jetzt zwölf Jungs einladen. Aber nichtsdestotrotz ist es ja auch einfach mal so, dass die Kinder nicht zwangsläufig mit acht oder zwölf Kindern befreundet sind.",
+   "avg_logprob": -0.031,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
   },
   {
-   "start": 1123.1,
-   "ende": 1126.54,
-   "text": "Also es ist ja eine Sache, ich bin auf dem Schulhof mit Leuten zusammen.",
-   "avg_logprob": -0.123,
-   "no_speech_prob": 0.009,
-   "compression_ratio": 1.73
-  },
-  {
-   "start": 1126.64,
-   "ende": 1129.94,
-   "text": "Und die andere Sache, ich habe wirklich Freunde, mit denen ich viel Zeit verbringe.",
-   "avg_logprob": -0.123,
-   "no_speech_prob": 0.009,
-   "compression_ratio": 1.73
-  },
-  {
-   "start": 1130.36,
-   "ende": 1137.86,
-   "text": "Würde ich mal behaupten, haben die wenigsten Kinder zwölf oder sogar auch acht Freunde, wo sie sagen, ja, das sind jetzt acht Kumpels.",
-   "avg_logprob": -0.123,
-   "no_speech_prob": 0.009,
-   "compression_ratio": 1.73
-  },
-  {
-   "start": 1137.86,
-   "ende": 1141.54,
-   "text": "Die stehen mir so nahe, dass sie zu meinem Geburtstag einladen will.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.019,
-   "compression_ratio": 1.72
-  },
-  {
-   "start": 1142.74,
+   "start": 1122.92,
    "ende": 1151.14,
-   "text": "Sodass quasi dieses Geburtstagsarrangement in diesem Jumpshake auch für uns gar nicht möglich war, weil wir keine acht Kinder eingeladen haben.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.019,
+   "text": "Also es ist ja eine Sache, ich bin auf dem Schulhof mit Leuten zusammen und die andere Sache, ich habe wirklich Freunde, mit denen ich viel Zeit verbringe. Würde ich mal behaupten, haben die wenigsten Kinder zwölf oder sogar auch acht Freunde, wo sie sagen, ja, das sind jetzt acht Kumpels, die stehen mir so nah, dass sie zu meinem Geburtstag einladen will, sodass quasi dieses Geburtstagsarrangement in diesem Jumpshake auch für uns gar nicht möglich war, weil wir keine acht Kinder eingeladen haben.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1151.98,
+   "ende": 1155.7,
+   "text": "Letztendlich haben wir gesagt, okay, dann gehen wir da ohne dieses Geburtstagsarrangement hin",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
    "compression_ratio": 1.72
   },
   {
-   "start": 1151.92,
+   "start": 1155.7,
+   "ende": 1158.52,
+   "text": "und zahlen einfach ganz normal Eintritt und bezahlen ganz normal das Essen,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1158.58,
    "ende": 1160.4,
-   "text": "Letztendlich haben wir gesagt, okay, dann gehen wir da ohne dieses Geburtstagsarrangement hin und zahlen einfach ganz normal Eintritt und bezahlen ganz normal das Essen, wenn wir da was bestellen und fertig.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.019,
+   "text": "wenn wir da was bestellen und fertig.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
    "compression_ratio": 1.72
   },
   {
-   "start": 1161.24,
+   "start": 1161.32,
    "ende": 1164.92,
    "text": "Es hat dann aber sich abgezeichnet, dass es in Strömen regnet.",
-   "avg_logprob": -0.091,
-   "no_speech_prob": 0.019,
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
    "compression_ratio": 1.72
   },
   {
-   "start": 1164.92,
+   "start": 1166.04,
+   "ende": 1170.82,
+   "text": "Und letztendlich haben wir uns dann dafür entschieden, dass wir in diese VR-Arena gehen,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1170.82,
    "ende": 1173.94,
-   "text": "Und letztendlich haben wir uns dann dafür entschieden, dass wir in diese VR-Arena gehen, also wo man halt mit diesen VR-Brillen spielen kann.",
-   "avg_logprob": -0.079,
-   "no_speech_prob": 0.003,
-   "compression_ratio": 1.62
+   "text": "also wo man halt mit diesen VR-Brillen spielen kann.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
   },
   {
    "start": 1174.02,
    "ende": 1177.9,
    "text": "Heinrich hatte ja zum Geburtstag eine bekommen, aber da spielt man dann ja halt im Team.",
-   "avg_logprob": -0.079,
-   "no_speech_prob": 0.003,
-   "compression_ratio": 1.62
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
   },
   {
-   "start": 1178.74,
-   "ende": 1187.72,
-   "text": "Und da waren wir vier Kinder, warte mal, ne, ja, fünf Kinder, also mit Hermine fünf.",
-   "avg_logprob": -0.079,
-   "no_speech_prob": 0.003,
-   "compression_ratio": 1.62
+   "start": 1177.9,
+   "ende": 1187.74,
+   "text": "und da waren wir vier Kinder, warte mal, ne, ja, fünf Kinder, also mit Hermine fünf",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
   },
   {
-   "start": 1189.0,
+   "start": 1187.74,
    "ende": 1191.24,
-   "text": "Und Hagen hat auch noch mitgespielt, für mich ist das nichts.",
-   "avg_logprob": -0.079,
-   "no_speech_prob": 0.003,
-   "compression_ratio": 1.62
+   "text": "und Hagen hat auch noch mitgespielt, für mich ist das nichts",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
   },
   {
    "start": 1191.24,
-   "ende": 1194.42,
-   "text": "Und da haben wir schon weit über 100 Euro bezahlt für eine Stunde.",
-   "avg_logprob": -0.079,
+   "ende": 1194.68,
+   "text": "und da haben wir schon weit über 100 Euro bezahlt für eine Stunde, ne,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1194.68,
+   "ende": 1202.18,
+   "text": "also das waren irgendwas über 4000 Baht, keine Ahnung, also knapp 150 Euro um den Dreh,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1202.26,
+   "ende": 1204.14,
+   "text": "ich weiß jetzt gerade nicht genau, wie der Umrechenkurs ist,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1204.14,
+   "ende": 1214.64,
+   "text": "Nur für diese eine Stunde VR-Spiel. Das ist jetzt auf den Tag gesehen ja nicht so, dass das dann irgendwie einen kompletten Nachmittag oder einen kompletten Tag füllen würde.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1214.82,
+   "ende": 1226.32,
+   "text": "Das heißt, im Normalfall müsste man sich dann ja sogar noch was überlegen mit, ja, was macht man danach? Fährt man dann nochmal woanders hin? Ja, man muss sich dann noch irgendwas ausdenken.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1227.08,
+   "ende": 1231.22,
+   "text": "Heinrich wollte gerne mit übernachten machen, sodass wir dann gesagt haben,",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1231.32,
+   "ende": 1234.38,
+   "text": "okay, wir machen dieses VR-Spielen halt gegen späten Nachmittag.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1235.36,
+   "ende": 1241.42,
+   "text": "Und dann fahren wir halt zu uns und haben sozusagen drei Jungs, also er hatte quasi drei Jungs.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1242.16,
+   "ende": 1245.88,
+   "text": "Ja, drei Jungs, also es waren dann insgesamt vier Jungs zwischen zehn.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1246.12,
+   "ende": 1248.76,
+   "text": "Der jüngste war zehn und der älteste wird jetzt 14.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1250.34,
+   "ende": 1252.66,
+   "text": "Waren dann sozusagen hier und haben hier mit übernachtet.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1252.66,
+   "ende": 1271.72,
+   "text": "Dann sind die erstmal hoch in sein Zimmer, haben da noch ein bisschen VR gespielt. Die Kinder, Heinrich und Hermine, dürfen ja eigentlich nicht so viele Medien, aber das war dann sozusagen an seinem Geburtstag dann die Einwilligung, dass sie dann halt die ganze Zeit irgendwie Switch spielen können, Film gucken können, VR spielen können, Handy spielen können.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1271.72,
+   "ende": 1288.42,
+   "text": "Also all diese Sachen, die Hermine und Henrich normalerweise nicht dürfen, also zumindest nicht in dem Umfang. Und dann haben wir hier Burger, also habe ich hier Essen gemacht, habe hier Burger selber überlegt, weil auch das wäre dann, man braucht ja auf so einem Kindergeburtstag, wir essen ja super viel in so Teil-Indes-Straßenküchen, ja.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1288.98,
+   "ende": 1294.54,
+   "text": "Ich brauche auf dem Kindergeburtstag, egal ob das Kind sieben oder zwölf wird, nicht anbieten, hey, wir gehen hier in so eine Straßenküche,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1294.64,
+   "ende": 1302.6,
+   "text": "weil die meisten Ausländerkinder doch, wenn sie es sich aussuchen können, eher, sage ich jetzt mal, Westernfood bevorzugen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1302.6,
+   "ende": 1308.74,
+   "text": "Also ich kenne wirklich wenig, also die Thai-Kinder, die essen immer Thai-Food, die mögen meistens gar nichts anderes,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1308.88,
+   "ende": 1315.24,
+   "text": "aber die ausländischen Kinder, unsere inklusive, essen schon auch Thai-Food.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1315.24,
+   "ende": 1322.16,
+   "text": "Aber wenn sie die Wahl haben zwischen Pizza, Burger, Nudeln, Sandwich, Wrap, keine Ahnung was,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1322.86,
+   "ende": 1328.0,
+   "text": "vorzugen sie halt immer das, als dass sie jetzt jeden Tag, was sie ja sowieso schon jeden Tag machen, Thai-Food essen.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1328.06,
+   "ende": 1333.58,
+   "text": "Das heißt, wenn man dann mit so einer Gruppe dann noch irgendwo essen geht, ja, in ein Western-Food-Restaurant,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1333.68,
+   "ende": 1338.56,
+   "text": "die habe ich ja auch schon erzählt, also die Preise hier für in einer Pizzeria oder sonst wo,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1338.56,
+   "ende": 1346.0,
+   "text": "Also sind nicht so wie in Deutschland, aber schon ein Vielfaches von dem, was man in einem Thai-Restaurant bezahlt.",
+   "avg_logprob": -0.123,
    "no_speech_prob": 0.003,
    "compression_ratio": 1.62
   },
   {
-   "start": 1194.92,
-   "ende": 1202.18,
-   "text": "Also das waren irgendwas über 4000 Baht, keine Ahnung, also knapp 150 Euro um den Dreh.",
-   "avg_logprob": -0.088,
-   "no_speech_prob": 0.007,
-   "compression_ratio": 1.58
+   "start": 1347.02,
+   "ende": 1351.14,
+   "text": "Das heißt, wenn wir jetzt schon irgendwie knapp 150 Euro für diese eine Stunde bezahlt haben",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
   },
   {
-   "start": 1202.28,
-   "ende": 1204.1,
-   "text": "Ich weiß jetzt gerade nicht genau, wie der Umrechenkurs ist.",
-   "avg_logprob": -0.088,
-   "no_speech_prob": 0.007,
-   "compression_ratio": 1.58
+   "start": 1351.14,
+   "ende": 1357.68,
+   "text": "und dann noch irgendwo essen gehen, ist man auch locker noch mal 100 Euro los in der Konstellation.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
   },
   {
-   "start": 1205.48,
-   "ende": 1214.64,
-   "text": "Nur für diese eine Stunde VR-Spiel, ne, das ist jetzt auf den Tag gesehen, ne, ja nicht so, dass das dann irgendwie einen kompletten Nachmittag oder einen kompletten Tag füllen würde.",
-   "avg_logprob": -0.088,
-   "no_speech_prob": 0.007,
-   "compression_ratio": 1.58
-  },
-  {
-   "start": 1215.12,
-   "ende": 1220.94,
-   "text": "Das heißt, im Normalfall müsste man sich dann ja sogar noch was überlegen mit, ja, was macht man danach, ne?",
-   "avg_logprob": -0.088,
-   "no_speech_prob": 0.007,
-   "compression_ratio": 1.58
-  },
-  {
-   "start": 1220.94,
-   "ende": 1223.34,
-   "text": "Fährt man dann nochmal woanders hin?",
-   "avg_logprob": -0.088,
-   "no_speech_prob": 0.007,
-   "compression_ratio": 1.58
-  },
-  {
-   "start": 1223.34,
-   "ende": 1226.3,
-   "text": "Ja, man muss sich dann noch irgendwas ausdenken.",
-   "avg_logprob": -0.09,
-   "no_speech_prob": 0.023,
-   "compression_ratio": 1.71
-  },
-  {
-   "start": 1227.1,
-   "ende": 1234.38,
-   "text": "Heinrich wollte gerne mit übernachten machen, sodass wir dann gesagt haben, okay, wir machen dieses VR-Spielen halt gegen späten Nachmittag.",
-   "avg_logprob": -0.09,
-   "no_speech_prob": 0.023,
-   "compression_ratio": 1.71
-  },
-  {
-   "start": 1235.38,
-   "ende": 1245.9,
-   "text": "Und dann fahren wir halt zu uns und haben sozusagen drei Jungs, also er hatte quasi drei Jungs, ja, drei Jungs, also es waren dann insgesamt vier Jungs zwischen zehn.",
-   "avg_logprob": -0.09,
-   "no_speech_prob": 0.023,
-   "compression_ratio": 1.71
-  },
-  {
-   "start": 1245.9,
-   "ende": 1252.68,
-   "text": "Der Jüngste war zehn und der Älteste wird jetzt 14, waren dann sozusagen hier und haben hier mit übernachtet.",
-   "avg_logprob": -0.09,
-   "no_speech_prob": 0.023,
-   "compression_ratio": 1.71
-  },
-  {
-   "start": 1252.68,
-   "ende": 1256.4,
-   "text": "Dann sind die erstmal hoch in sein Zimmer, haben da noch ein bisschen VR gespielt.",
-   "avg_logprob": -0.071,
-   "no_speech_prob": 0.059,
-   "compression_ratio": 1.75
-  },
-  {
-   "start": 1256.9,
-   "ende": 1271.72,
-   "text": "Die Kinder, Heinrich und Hermine, dürfen ja eigentlich nicht so viele Medien, aber das war dann sozusagen an seinem Geburtstag dann, ja, die Einwilligung, dass die dann halt die ganze Zeit irgendwie Switch spielen können, Film gucken können, VR spielen können, Handy spielen können.",
-   "avg_logprob": -0.071,
-   "no_speech_prob": 0.059,
-   "compression_ratio": 1.75
-  },
-  {
-   "start": 1271.8,
-   "ende": 1276.18,
-   "text": "Also all diese Sachen, die Hermine und Heinrich normalerweise nicht dürfen, also zumindest nicht in dem Umfang.",
-   "avg_logprob": -0.071,
-   "no_speech_prob": 0.059,
-   "compression_ratio": 1.75
-  },
-  {
-   "start": 1277.26,
-   "ende": 1282.48,
-   "text": "Und dann haben wir hier Burger, also habe ich hier Essen gemacht, habe hier Burger selber überlegt, weil auch das wäre dann...",
-   "avg_logprob": -0.071,
-   "no_speech_prob": 0.059,
-   "compression_ratio": 1.75
-  },
-  {
-   "start": 1282.48,
-   "ende": 1302.6,
-   "text": "Man braucht ja auf so einem Kindergeburtstag hier, wir essen ja super viel in so Thai-Indes-Straßenküchen, ja, ich brauche auf einem Kindergeburtstag, egal ob das Kind sieben oder zwölf wird, nicht anbieten, hey, wir gehen hier in so eine Straßenküche, weil die meisten Ausländerkinder doch, wenn sie es sich aussuchen können, eher, sage ich jetzt mal, Western-Food bevorzugen.",
-   "avg_logprob": -0.084,
-   "no_speech_prob": 0.01,
-   "compression_ratio": 1.7
-  },
-  {
-   "start": 1302.6,
-   "ende": 1312.46,
-   "text": "Also ich kenne wirklich wenig, also die Thai-Kinder, die essen immer Thai-Food, die mögen meistens gar nichts anderes, aber die ausländischen Kinder sind unsere Inklusion.",
-   "avg_logprob": -0.084,
-   "no_speech_prob": 0.01,
-   "compression_ratio": 1.7
-  },
-  {
-   "start": 1312.48,
-   "ende": 1328.0,
-   "text": "Inklusive essen schon auch Thai-Food, aber wenn sie die Wahl haben zwischen Pizza, Burger, Nudeln, Sandwich, Wrap, keine Ahnung was, bevorzugen sie halt immer das, als dass sie jetzt jeden Tag, was sie ja sowieso schon jeden Tag machen, Thai-Food essen.",
-   "avg_logprob": -0.047,
-   "no_speech_prob": 0.216,
-   "compression_ratio": 1.61
-  },
-  {
-   "start": 1328.0,
-   "ende": 1342.0,
-   "text": "Das heißt, wenn man dann mit so einer Gruppe dann noch irgendwo essen geht, ja, in ein Western-Food-Restaurant, die habe ich ja auch schon erzählt, also die Preise hier für in einer Pizzeria oder sonst wo, sind nicht so wie in Deutschland, aber schon...",
-   "avg_logprob": -0.047,
-   "no_speech_prob": 0.216,
-   "compression_ratio": 1.61
-  },
-  {
-   "start": 1342.48,
+   "start": 1358.28,
    "ende": 1363.28,
-   "text": "...ein Vielfaches von dem, was man in einem Thai-Restaurant bezahlt. Das heißt, wenn wir jetzt schon irgendwie knapp 150 Euro für diese eine Stunde bezahlt haben und dann noch irgendwo essen gehen, ist man auch, also locker nochmal 100 Euro los in der Konstellation und dann bin ich bei so einem einfachen Kindergeburtstag schon bei 250 Euro locker.",
-   "avg_logprob": -0.076,
-   "no_speech_prob": 0.086,
-   "compression_ratio": 1.69
+   "text": "Und dann bin ich bei so einem einfachen Kindergeburtstag schon bei 250 Euro locker.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
   },
   {
-   "start": 1363.76,
-   "ende": 1372.08,
-   "text": "Und das finde ich persönlich schon viel, also egal, ob jetzt in Thailand oder in Deutschland. Ich finde Kinder, also ich persönlich bin ja eh nicht so eine Geburtstagsmaus.",
-   "avg_logprob": -0.076,
-   "no_speech_prob": 0.086,
-   "compression_ratio": 1.69
+   "start": 1363.74,
+   "ende": 1365.74,
+   "text": "Und das finde ich persönlich schon viel.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
   },
   {
-   "start": 1372.08,
-   "ende": 1385.26,
-   "text": "Das heißt, ich habe meinen letzten Geburtstag, als ich zwölf wurde, gefeiert. Dann habe ich einen mit 16 gefeiert. Da ist mein damaliger Freund 19 geworden und der war Fußballer und wir haben dann sozusagen so ein Fuß-Sportlerheim gemietet.",
-   "avg_logprob": -0.039,
-   "no_speech_prob": 0.032,
-   "compression_ratio": 1.78
+   "start": 1365.92,
+   "ende": 1367.92,
+   "text": "Also egal, ob jetzt in Thailand oder in Deutschland.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
   },
   {
-   "start": 1385.74,
-   "ende": 1400.14,
-   "text": "Und dann habe ich nochmal mit 25 in meiner damaligen Wohnung in Rostock meinen Geburtstag gefeiert. Ansonsten feiere ich meinen Geburtstag nicht, weil mir das Geld schlichtweg zu schade ist und ich von dem Geld, was ich für eine Party ausgeben würde, einfach lieber wegfahre, ja.",
-   "avg_logprob": -0.039,
-   "no_speech_prob": 0.032,
-   "compression_ratio": 1.78
+   "start": 1367.92,
+   "ende": 1390.38,
+   "text": "Ich persönlich bin ja eh nicht so eine Geburtstagsmaus. Das heißt, ich habe meinen letzten Geburtstag, als ich zwölf wurde, gefeiert. Dann habe ich einen mit 16 gefeiert. Da ist mein damaliger Freund 19 geworden und der war Fußballer und wir haben dann sozusagen so ein Fußsportlerheim gemietet. Und dann habe ich nochmal mit 25 in meiner damaligen Wohnung in Rostock meinen Geburtstag gefeiert.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
   },
   {
-   "start": 1400.14,
-   "ende": 1402.02,
-   "text": "Und das habe ich die meisten Geburtstage halt.",
-   "avg_logprob": -0.039,
-   "no_speech_prob": 0.032,
-   "compression_ratio": 1.78
-  },
-  {
-   "start": 1402.08,
+   "start": 1390.38,
    "ende": 1410.56,
-   "text": "Ich habe es einfach so gemacht, dass ich dann an meinen Geburtstag irgendwo hingefahren bin. Entweder eine längere Reise halt oder halt übers Wochenende oder keine Ahnung.",
-   "avg_logprob": -0.077,
-   "no_speech_prob": 0.035,
-   "compression_ratio": 1.67
+   "text": "Ansonsten feiere ich meinen Geburtstag nicht, weil mir das Geld schlichtweg zu schade ist und ich von dem Geld, was ich für eine Party ausgeben würde, einfach lieber wegfahre. Und das habe ich die meisten Geburtstage halt einfach so gemacht, dass ich dann an meinen Geburtstag irgendwo hingefahren bin. Entweder eine längere Reise oder übers Wochenende oder keine Ahnung.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.62
   },
   {
-   "start": 1411.18,
+   "start": 1410.56,
    "ende": 1418.62,
    "text": "Und ich finde deshalb ist vielleicht meine sehr subjektive Meinung, weil ich eben nicht so eine Geburtstagsfeiermaus bin.",
-   "avg_logprob": -0.077,
-   "no_speech_prob": 0.035,
-   "compression_ratio": 1.67
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
   },
   {
-   "start": 1418.72,
-   "ende": 1426.82,
-   "text": "Aber ich finde trotzdem, wenn ich irgendwie 250 Euro für einen Kindergeburtstag mit vier oder fünf Kindern ausgebe, finde ich nicht wenig, ja.",
-   "avg_logprob": -0.077,
-   "no_speech_prob": 0.035,
-   "compression_ratio": 1.67
+   "start": 1418.74,
+   "ende": 1426.46,
+   "text": "Aber ich finde trotzdem, wenn ich irgendwie 250 Euro für einen Kindergeburtstag mit vier oder fünf Kindern ausgebe, finde ich nicht wenig.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
   },
   {
-   "start": 1426.82,
-   "ende": 1431.82,
-   "text": "Und deswegen will ich gar nicht mir ausmalen, was das kostet.",
-   "avg_logprob": -0.077,
-   "no_speech_prob": 0.035,
-   "compression_ratio": 1.67
+   "start": 1426.8,
+   "ende": 1436.48,
+   "text": "Und deswegen will ich gar nicht mir ausmalen, was das kostet, wenn die hier so eine Hotelanlagen oder Beachclubs mieten mit Buffet.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
   },
   {
-   "start": 1432.08,
-   "ende": 1439.28,
-   "text": "Wenn die hier so eine Hotelanlagen oder Beachclubs mieten mit Buffet, alleine diese Luftballons-Arrangements kosten.",
-   "avg_logprob": -0.12,
-   "no_speech_prob": 0.113,
-   "compression_ratio": 1.67
+   "start": 1436.48,
+   "ende": 1438.52,
+   "text": "alleine diese Luftballons-Arrangements",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
   },
   {
-   "start": 1439.7,
-   "ende": 1448.56,
-   "text": "Nee, ich wollte das einmal zu, als wir das Jahr hier waren, wollte ich für Heinrich zum Geburtstag so was bestellen, dass man quasi das nicht selber machen muss.",
-   "avg_logprob": -0.12,
-   "no_speech_prob": 0.113,
-   "compression_ratio": 1.67
+   "start": 1438.52,
+   "ende": 1440.32,
+   "text": "kosten. Nee, ich wollte das",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
   },
   {
-   "start": 1449.2,
-   "ende": 1454.68,
-   "text": "Und ich glaube, da wollten die irgendwie 50 Euro für haben oder so, für so ein paar Luftballons-Arrangements.",
-   "avg_logprob": -0.12,
-   "no_speech_prob": 0.113,
-   "compression_ratio": 1.67
+   "start": 1440.32,
+   "ende": 1442.36,
+   "text": "einmal zu, als wir das Jahr",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1442.36,
+   "ende": 1444.42,
+   "text": "hier waren, wollte ich für Heinrich zum Geburtstag",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1444.42,
+   "ende": 1446.52,
+   "text": "so was bestellen,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1446.66,
+   "ende": 1448.36,
+   "text": "dass man quasi das nicht selber machen",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1448.36,
+   "ende": 1450.28,
+   "text": "muss. Und ich glaube, da",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1450.28,
+   "ende": 1452.46,
+   "text": "wollten die irgendwie 50 Euro für haben oder so",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1452.46,
+   "ende": 1454.7,
+   "text": "für so ein paar Luftballons-Arrangements.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
   },
   {
    "start": 1455.68,
+   "ende": 1456.3,
+   "text": "Am Ende habe ich",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1456.3,
    "ende": 1458.2,
-   "text": "Am Ende habe ich die dann selber aufgeputzt und da hingehangen.",
-   "avg_logprob": -0.12,
-   "no_speech_prob": 0.113,
-   "compression_ratio": 1.67
+   "text": "die dann selber aufgepustet und da hingehangen.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
   },
   {
-   "start": 1459.06,
-   "ende": 1462.04,
-   "text": "Das heißt, das sind, also ich weiß es nicht.",
-   "avg_logprob": -0.12,
-   "no_speech_prob": 0.113,
-   "compression_ratio": 1.67
+   "start": 1459.36,
+   "ende": 1459.82,
+   "text": "Das heißt,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
   },
   {
-   "start": 1462.08,
-   "ende": 1469.58,
-   "text": "Aber wenn man sich das jetzt hochrechnet, würde ich mal sagen, keine Ahnung, 700, 800 Euro für so eine Feierlichkeit.",
-   "avg_logprob": -0.103,
-   "no_speech_prob": 0.015,
-   "compression_ratio": 1.69
+   "start": 1460.48,
+   "ende": 1462.2,
+   "text": "das sind, also ich weiß es nicht,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
   },
   {
-   "start": 1470.3,
-   "ende": 1471.32,
-   "text": "Und das finde ich schon crazy.",
-   "avg_logprob": -0.103,
-   "no_speech_prob": 0.015,
-   "compression_ratio": 1.69
+   "start": 1462.32,
+   "ende": 1463.94,
+   "text": "aber wenn man sich das jetzt hochrechnet,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
   },
   {
-   "start": 1471.46,
-   "ende": 1477.24,
-   "text": "Vor allen Dingen, wie gesagt, wenn ein Kind drei wird, wird das schon genauso aufgezogen, wie wenn ein Kind dann irgendwie zwölf wird oder so.",
-   "avg_logprob": -0.103,
-   "no_speech_prob": 0.015,
-   "compression_ratio": 1.69
+   "start": 1464.14,
+   "ende": 1466.46,
+   "text": "würde ich mal sagen, keine Ahnung,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
   },
   {
-   "start": 1478.36,
+   "start": 1466.48,
+   "ende": 1468.88,
+   "text": "700, 800 Euro für so eine",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1468.88,
+   "ende": 1470.8,
+   "text": "Feierlichkeit. Und das finde ich",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1470.8,
+   "ende": 1472.2,
+   "text": "schon crazy. Vor allen Dingen, wie gesagt,",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1472.66,
+   "ende": 1474.8,
+   "text": "wenn ein Kind drei wird, wird das schon genauso",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1474.8,
+   "ende": 1476.72,
+   "text": "aufgezogen, wie wenn ein Kind dann irgendwie zwölf",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1476.72,
+   "ende": 1478.76,
+   "text": "wird oder so. Ja, und",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1478.76,
    "ende": 1480.58,
-   "text": "Ja, und letztendlich waren die Kinder dann hier.",
-   "avg_logprob": -0.103,
-   "no_speech_prob": 0.015,
-   "compression_ratio": 1.69
+   "text": "letztendlich waren die Kinder dann hier.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
   },
   {
    "start": 1481.18,
    "ende": 1482.84,
    "text": "Wir haben hier Burger selber gemacht.",
-   "avg_logprob": -0.103,
-   "no_speech_prob": 0.015,
-   "compression_ratio": 1.69
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
   },
   {
-   "start": 1483.96,
-   "ende": 1486.1,
-   "text": "Also ich habe halt diese Burger-Patties selber gemacht und so.",
-   "avg_logprob": -0.103,
-   "no_speech_prob": 0.015,
-   "compression_ratio": 1.69
+   "start": 1483.94,
+   "ende": 1484.62,
+   "text": "Also ich habe halt",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
   },
   {
-   "start": 1486.14,
+   "start": 1484.62,
+   "ende": 1486.68,
+   "text": "diese Burger-Patties selber gemacht und so. Und die konnten sich das",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1486.68,
    "ende": 1487.48,
-   "text": "Und die konnten sich das selber alles belegen.",
-   "avg_logprob": -0.103,
-   "no_speech_prob": 0.015,
-   "compression_ratio": 1.69
+   "text": "selber alles belegen.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
   },
   {
-   "start": 1488.2,
-   "ende": 1491.46,
-   "text": "Also weiß ich, fand ich früher auf Geburtstagen auch immer cool.",
-   "avg_logprob": -0.103,
-   "no_speech_prob": 0.015,
-   "compression_ratio": 1.69
+   "start": 1488.56,
+   "ende": 1490.8,
+   "text": "Also weiß ich, fand ich früher auf Geburtstagen",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
   },
   {
-   "start": 1491.46,
-   "ende": 1495.86,
-   "text": "Mit irgendwie irgendwas selber machen und irgendwas selber belegen.",
-   "avg_logprob": -0.111,
-   "no_speech_prob": 0.003,
-   "compression_ratio": 1.72
+   "start": 1490.8,
+   "ende": 1492.22,
+   "text": "auch immer cool mit irgendwie",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
   },
   {
-   "start": 1496.56,
+   "start": 1492.22,
+   "ende": 1494.68,
+   "text": "irgendwas selber machen",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1494.68,
+   "ende": 1495.84,
+   "text": "und irgendwas selber belegen.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1496.48,
    "ende": 1497.96,
    "text": "Und dann haben die halt hier übernachtet.",
-   "avg_logprob": -0.111,
-   "no_speech_prob": 0.003,
-   "compression_ratio": 1.72
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
   },
   {
-   "start": 1498.78,
-   "ende": 1502.36,
-   "text": "Wir haben hier alles umgeräumt, dass die quasi hier unten den ganzen Bereich für sich hatten.",
-   "avg_logprob": -0.111,
-   "no_speech_prob": 0.003,
-   "compression_ratio": 1.72
+   "start": 1498.76,
+   "ende": 1500.16,
+   "text": "Wir haben hier alles umgeräumt,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
   },
   {
-   "start": 1502.58,
+   "start": 1500.2,
+   "ende": 1502.34,
+   "text": "dass die quasi hier unten den ganzen Bereich für sich hatten.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1502.54,
+   "ende": 1504.22,
+   "text": "Und Hagen, Hermine und ich sind dann hochgegangen",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1504.22,
+   "ende": 1506.08,
+   "text": "und haben oben geschlafen, damit die halt auch,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1506.14,
+   "ende": 1507.84,
+   "text": "weil wenn die über uns rumgelaufen wären,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1507.96,
    "ende": 1509.82,
-   "text": "Und Hagen, Hermine und ich sind dann hochgegangen und haben oben geschlafen, damit die halt auch, weil wenn die über uns rumgelaufen wären, da kriegst du einen Knall, das ist super hellhörig.",
-   "avg_logprob": -0.111,
-   "no_speech_prob": 0.003,
-   "compression_ratio": 1.72
+   "text": "da kriegst du einen Knall, das ist super hellhörig.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
   },
   {
-   "start": 1510.54,
+   "start": 1510.52,
    "ende": 1513.78,
    "text": "Und dann wollte Heinrich unbedingt Scream gucken.",
-   "avg_logprob": -0.111,
-   "no_speech_prob": 0.003,
-   "compression_ratio": 1.72
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
   },
   {
    "start": 1514.66,
    "ende": 1517.42,
    "text": "Der ist ja inzwischen, damals war der, glaube ich, als vier.",
-   "avg_logprob": -0.111,
-   "no_speech_prob": 0.003,
-   "compression_ratio": 1.72
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
   },
   {
    "start": 1518.14,
    "ende": 1519.8,
    "text": "Der ist übrigens 30 Jahre alt.",
-   "avg_logprob": -0.111,
-   "no_speech_prob": 0.003,
-   "compression_ratio": 1.72
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
   },
   {
    "start": 1519.8,
-   "ende": 1521.42,
+   "ende": 1521.44,
    "text": "Der Film fand ich irgendwie sehr erschreckend.",
-   "avg_logprob": -0.111,
-   "no_speech_prob": 0.003,
-   "compression_ratio": 1.72
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
   },
   {
-   "start": 1522.46,
-   "ende": 1524.46,
-   "text": "Und damals war der, glaube ich, ab zwölf.",
-   "avg_logprob": -0.116,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.64
+   "start": 1522.56,
+   "ende": 1524.84,
+   "text": "Und damals war der, glaube ich, ab zwölf, weiß ich nicht.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
   },
   {
-   "start": 1524.52,
-   "ende": 1526.32,
-   "text": "Weiß ich nicht, auf jeden Fall ist er jetzt ab 16.",
-   "avg_logprob": -0.116,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.64
+   "start": 1524.84,
+   "ende": 1544.64,
+   "text": "Auf jeden Fall ist er jetzt ab 16, also eigentlich noch nicht in Heinrichs Altersklasse. Heinrich darf solche Filme, die ab 16 sind, mit Hagen zusammen zum Teil gucken. Der eine war ein Jahr älter, der andere zwei Jahre älter und naja, dann haben wir gesagt, okay, dann gucken sie halt hier Scream.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.47
   },
   {
-   "start": 1526.46,
-   "ende": 1528.4,
-   "text": "Also eigentlich noch nicht in Heinrichs Altersklasse.",
-   "avg_logprob": -0.116,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.64
-  },
-  {
-   "start": 1528.52,
-   "ende": 1534.4,
-   "text": "Er wollte den die ganze Zeit, also Heinrich darf solche Filme, die ab 16 sind, mit Hagen zusammen zum Teil gucken.",
-   "avg_logprob": -0.116,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.64
-  },
-  {
-   "start": 1535.22,
-   "ende": 1540.6,
-   "text": "Und nun war er aber auch, der eine war ein Jahr älter, der andere ist zwei Jahre älter.",
-   "avg_logprob": -0.116,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.64
-  },
-  {
-   "start": 1540.86,
-   "ende": 1544.62,
-   "text": "Und naja, dann haben wir gesagt, okay, dann gucken sie halt hier Scream.",
-   "avg_logprob": -0.116,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.64
-  },
-  {
-   "start": 1546.72,
+   "start": 1545.64,
    "ende": 1550.92,
-   "text": "Und ja, dann habe ich aber auch wieder so gemerkt, wie krass da der Unterschied ist.",
-   "avg_logprob": -0.116,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.64
+   "text": "Und ja, dann habe ich aber auch wieder so gemerkt, wie krass da der Unterschied ist,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.62
   },
   {
-   "start": 1550.92,
+   "start": 1551.0,
    "ende": 1553.52,
-   "text": "Weil die haben einfach, die fanden es einfach super öde.",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.016,
-   "compression_ratio": 1.76
+   "text": "weil die haben einfach, die fanden es einfach super öde.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.62
   },
   {
-   "start": 1553.82,
+   "start": 1553.8,
    "ende": 1558.4,
-   "text": "Also ich weiß, wo ich Scream geguckt habe, da haben wir im Kino geschrien wie die Wahnsinnigen.",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.016,
-   "compression_ratio": 1.76
+   "text": "Also ich weiß, wo ich Stream geguckt habe, da haben wir im Kino geschrien wie die Wahnsinnigen.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.62
   },
   {
-   "start": 1558.68,
+   "start": 1558.66,
    "ende": 1561.9,
    "text": "Und dann sage ich so, irgendwann komme ich dann so rein und sage, und wie ist das?",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.016,
-   "compression_ratio": 1.76
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.62
   },
   {
-   "start": 1561.94,
-   "ende": 1562.5,
-   "text": "Ist das gruselig?",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.016,
-   "compression_ratio": 1.76
-  },
-  {
-   "start": 1562.9,
+   "start": 1561.9,
    "ende": 1563.86,
-   "text": "Nee, Hammer, lame.",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.016,
-   "compression_ratio": 1.76
+   "text": "Ist das gruselig? Nee, Hammer, lame.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.62
   },
   {
-   "start": 1564.14,
+   "start": 1564.12,
    "ende": 1568.7,
-   "text": "Die scheiß Maske sieht aus, als ob du sie für fünf Euro an jedem Store kaufen kannst.",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.016,
-   "compression_ratio": 1.76
+   "text": "So, die scheiß Maske sieht aus, als ob du sie für 5 Euro an jedem Store kaufen kannst.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.62
   },
   {
    "start": 1568.84,
-   "ende": 1569.96,
-   "text": "Und es ist ja auch so.",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.016,
-   "compression_ratio": 1.76
+   "ende": 1570.2,
+   "text": "Und es ist ja auch so, ja.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.62
   },
   {
-   "start": 1570.58,
+   "start": 1570.2,
    "ende": 1576.18,
    "text": "Also seit dieser Film rausgekommen war, konnte man ja diese Maske überall kaufen.",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.016,
-   "compression_ratio": 1.76
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.73
   },
   {
    "start": 1576.18,
-   "ende": 1579.86,
-   "text": "Und das ist ja bis heute so, dass man diese Scream-Maske überall kaufen kann.",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.016,
-   "compression_ratio": 1.76
+   "ende": 1580.96,
+   "text": "Und das ist ja bis heute so, dass man diese Screen-Maske überall kaufen kann und immer irgendwie sieht.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.73
   },
   {
-   "start": 1579.94,
-   "ende": 1580.9,
-   "text": "Und immer irgendwie sieht.",
-   "avg_logprob": -0.122,
-   "no_speech_prob": 0.016,
-   "compression_ratio": 1.76
-  },
-  {
-   "start": 1580.92,
+   "start": 1581.44,
    "ende": 1585.96,
-   "text": "Und als der Film damals rauskam, da hatte man diese Maske ja überhaupt noch nie gesehen.",
-   "avg_logprob": -0.105,
-   "no_speech_prob": 0.022,
-   "compression_ratio": 1.75
+   "text": "Als der Film damals rauskam, da hatte man diese Maske ja überhaupt noch nie gesehen.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.73
   },
   {
    "start": 1586.04,
-   "ende": 1588.02,
-   "text": "Man hat sie ja das allererste Mal in diesem Film gesehen.",
-   "avg_logprob": -0.105,
-   "no_speech_prob": 0.022,
-   "compression_ratio": 1.75
-  },
-  {
-   "start": 1588.16,
    "ende": 1592.2,
-   "text": "Und da war das ja schon, also war das ja schon eine seltsame Maskenform.",
-   "avg_logprob": -0.105,
-   "no_speech_prob": 0.022,
-   "compression_ratio": 1.75
+   "text": "Man hat sie ja das allererste Mal in diesem Film gesehen und da war das ja schon eine seltsame Maskenform.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.73
   },
   {
    "start": 1592.72,
    "ende": 1597.32,
-   "text": "Aber für die ist es halt jetzt so, ja, und das Messer sieht auch hammerbillig aus, was der Mörder da hat und so.",
-   "avg_logprob": -0.105,
-   "no_speech_prob": 0.022,
-   "compression_ratio": 1.75
+   "text": "Aber für die ist es halt jetzt so, ja und das Messer sieht auch hammerbillig aus, was der Mörder da hat und so.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.73
   },
   {
-   "start": 1597.94,
+   "start": 1598.18,
+   "ende": 1603.5,
+   "text": "Und Hagen meinte auch, die Filme heutzutage oder der ganze Medienkonsum heutzutage",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1603.5,
    "ende": 1605.7,
-   "text": "Und Hagen meinte auch, die Filme heutzutage oder dieses ganze Medienkonsum heutzutage ist ja so darauf ausgelegt, dass alles super schnell geht.",
-   "avg_logprob": -0.105,
-   "no_speech_prob": 0.022,
-   "compression_ratio": 1.75
+   "text": "ist ja so darauf ausgelegt, dass alles super schnell geht.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.74
   },
   {
-   "start": 1605.7,
-   "ende": 1609.06,
-   "text": "Der Schnitt ist hammer schnell, das Nächste passiert und das und das und das.",
-   "avg_logprob": -0.105,
-   "no_speech_prob": 0.022,
-   "compression_ratio": 1.75
+   "start": 1605.8,
+   "ende": 1609.04,
+   "text": "Der Schnitt ist hammerschnell, das Nächste passiert und das und das und das.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.74
   },
   {
-   "start": 1609.06,
-   "ende": 1613.02,
-   "text": "Und vor 30 Jahren sind die Filme ja einfach noch ganz anders produziert gewesen.",
-   "avg_logprob": -0.197,
-   "no_speech_prob": 0.085,
-   "compression_ratio": 1.81
+   "start": 1609.5,
+   "ende": 1612.98,
+   "text": "Und vor 30 Jahren sind die Filme einfach noch ganz anders produziert gewesen.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.74
   },
   {
-   "start": 1613.02,
-   "ende": 1615.6,
-   "text": "Und deswegen war der Film tatsächlich total langweilig für die.",
-   "avg_logprob": -0.197,
-   "no_speech_prob": 0.085,
-   "compression_ratio": 1.81
+   "start": 1613.1,
+   "ende": 1615.62,
+   "text": "Deswegen war der Film tatsächlich total langweilig für die.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.74
   },
   {
-   "start": 1615.6,
-   "ende": 1617.34,
+   "start": 1615.66,
+   "ende": 1617.12,
    "text": "Die haben sich überhaupt nicht erschreckt.",
-   "avg_logprob": -0.197,
-   "no_speech_prob": 0.085,
-   "compression_ratio": 1.81
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.74
   },
   {
-   "start": 1617.34,
-   "ende": 1623.3,
-   "text": "Ich habe dann einmal die Gardine, wir haben hier hinter dem Fernseher so eine Gardine und dahinter ist noch mal ein Fenster, das von der Küche zur Küche geht.",
-   "avg_logprob": -0.197,
-   "no_speech_prob": 0.085,
-   "compression_ratio": 1.81
+   "start": 1617.12,
+   "ende": 1620.08,
+   "text": "Ich habe dann einmal die Gardine, wir haben hier hinter dem Fernseher so eine Gardine",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.74
   },
   {
-   "start": 1623.3,
-   "ende": 1629.76,
-   "text": "Und dann habe ich einmal halt dieses Fenster hinter der Gardine aufgemacht und habe dann so hinter dem Fernseher so hergeschrien.",
-   "avg_logprob": -0.197,
-   "no_speech_prob": 0.085,
-   "compression_ratio": 1.81
+   "start": 1620.08,
+   "ende": 1622.86,
+   "text": "und dahinter ist nochmal ein Fenster, das von der Küche zur Küche geht.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.74
   },
   {
-   "start": 1629.76,
-   "ende": 1631.42,
-   "text": "Hat die halt gar nicht angehoben.",
-   "avg_logprob": -0.197,
-   "no_speech_prob": 0.085,
-   "compression_ratio": 1.81
+   "start": 1623.34,
+   "ende": 1627.02,
+   "text": "Und dann habe ich einmal halt dieses Fenster hinter der Gardine aufgemacht",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.74
   },
   {
-   "start": 1631.42,
-   "ende": 1632.24,
-   "text": "War auch hammerpeilig.",
-   "avg_logprob": -0.197,
-   "no_speech_prob": 0.085,
-   "compression_ratio": 1.81
-  },
-  {
-   "start": 1632.24,
-   "ende": 1636.64,
-   "text": "Sind, glaube ich, genau die Sachen, die man jetzt als Eltern macht und denkt, es ist total lustig.",
-   "avg_logprob": -0.197,
-   "no_speech_prob": 0.085,
-   "compression_ratio": 1.81
-  },
-  {
-   "start": 1636.64,
-   "ende": 1638.86,
-   "text": "Und als Kind dachte man, boah, wie peinlich ist meine Mutter.",
-   "avg_logprob": -0.197,
-   "no_speech_prob": 0.085,
-   "compression_ratio": 1.81
-  },
-  {
-   "start": 1638.86,
-   "ende": 1640.6,
-   "text": "Meine Mutter, denn was macht sie denn?",
-   "avg_logprob": -0.14,
+   "start": 1627.02,
+   "ende": 1630.98,
+   "text": "und habe dann so hinter dem Fernseher so hergeschrien, hat die halt gar nicht angehoben.",
+   "avg_logprob": -0.095,
    "no_speech_prob": 0.0,
-   "compression_ratio": 1.77
+   "compression_ratio": 1.81
   },
   {
-   "start": 1640.6,
-   "ende": 1643.74,
-   "text": "Warum, warum, warum schreit sie denn da jetzt hinter dem Fernseher?",
-   "avg_logprob": -0.14,
+   "start": 1631.26,
+   "ende": 1635.28,
+   "text": "War auch hammerpeinlich, sind glaube ich genau die Sachen, die man jetzt als Eltern macht",
+   "avg_logprob": -0.095,
    "no_speech_prob": 0.0,
-   "compression_ratio": 1.77
+   "compression_ratio": 1.81
   },
   {
-   "start": 1643.74,
-   "ende": 1644.44,
-   "text": "Wo ist sie denn?",
-   "avg_logprob": -0.14,
+   "start": 1635.28,
+   "ende": 1639.56,
+   "text": "und denkt, das ist total lustig und als Kind dachte man, boah, wie peinlich ist meine Mutter denn?",
+   "avg_logprob": -0.095,
    "no_speech_prob": 0.0,
-   "compression_ratio": 1.77
+   "compression_ratio": 1.81
   },
   {
-   "start": 1644.44,
-   "ende": 1647.08,
-   "text": "Also ich glaube, ja, war war für mich.",
-   "avg_logprob": -0.14,
+   "start": 1639.64,
+   "ende": 1644.36,
+   "text": "Ey, was macht sie denn? Warum schreit sie denn da jetzt hinter dem Fernseher? Wo ist sie denn?",
+   "avg_logprob": -0.095,
    "no_speech_prob": 0.0,
-   "compression_ratio": 1.77
+   "compression_ratio": 1.81
   },
   {
-   "start": 1647.08,
-   "ende": 1654.82,
-   "text": "Ich habe mich fremd, ich habe mich geschämt und ich habe mich extra noch fremd geschämt, um mich in Heinrichs Lage hinein zu versetzen.",
-   "avg_logprob": -0.14,
+   "start": 1644.46,
+   "ende": 1649.02,
+   "text": "Also ich glaube, ja, war für mich, ich habe mich fremd, ich habe mich geschämt",
+   "avg_logprob": -0.095,
    "no_speech_prob": 0.0,
-   "compression_ratio": 1.77
+   "compression_ratio": 1.81
   },
   {
-   "start": 1654.82,
-   "ende": 1662.74,
-   "text": "Also er hat es zwar nicht gesagt, dass es peinlich war, aber ich dachte in dem Moment so krass, sie haben sich halt überhaupt nicht erschreckt, weil sie der Film einfach gar nicht anhebt.",
-   "avg_logprob": -0.14,
+   "start": 1649.54,
+   "ende": 1654.74,
+   "text": "und ich habe mich extra noch fremd geschämt, um mich in Heinrichs Lage hineinzuversetzen.",
+   "avg_logprob": -0.095,
    "no_speech_prob": 0.0,
-   "compression_ratio": 1.77
+   "compression_ratio": 1.81
   },
   {
-   "start": 1662.74,
-   "ende": 1666.7,
+   "start": 1654.74,
+   "ende": 1662.14,
+   "text": "Also er hat das zwar nicht gesagt, dass es peinlich war, aber ich dachte in dem Moment so, krass, die haben sich halt überhaupt nicht erschreckt, weil sie der Film einfach gar nicht anheben.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1662.62,
+   "ende": 1666.42,
    "text": "Naja, auf jeden Fall haben die dann hier die ganze Nacht alle möglichen Sachen gemacht.",
-   "avg_logprob": -0.14,
-   "no_speech_prob": 0.0,
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1666.74,
+   "ende": 1669.76,
+   "text": "Am nächsten Morgen haben die hier noch gefrühstückt und dann wurden die gegen elf abgeholt.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1670.14,
+   "ende": 1676.04,
+   "text": "Es sah aus wie Schweins, die haben diese China-Nudeln, das haben wir schon auch als Kinder immer, weiß ich, in der Schule so.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1676.18,
+   "ende": 1683.32,
+   "text": "Also nicht diese Instant-Nudeln, die man mit Wasser aufgießt, aber nicht mit Wasser aufgießen, sondern so klein quetschen in der Tüte und dann so als Chips essen.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1683.32,
+   "ende": 1700.26,
+   "text": "Es lag hier überall dieses Gewürz rum. Also Hagen und ich haben hier am nächsten Tag aufgeräumt, als hätten irgendwie Erwachsene eine Party gemacht. Nur anstatt, dass Alkohol und Kippen rumlagen, lagen halt Instant-Nudeln und irgendwelche Dosen mit Brause und keine Ahnung was hier rum.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 1700.26,
+   "ende": 1704.36,
+   "text": "ist da echt, also wir haben wirklich mehrere Stunden hier geputzt.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
    "compression_ratio": 1.77
   },
   {
-   "start": 1666.7,
-   "ende": 1668.5,
-   "text": "Am nächsten Morgen haben die hier noch gefrühstückt.",
-   "avg_logprob": -0.14,
-   "no_speech_prob": 0.0,
-   "compression_ratio": 1.77
-  },
-  {
-   "start": 1668.5,
-   "ende": 1670.12,
-   "text": "Dann wurden die gegen elf abgeholt.",
-   "avg_logprob": -0.146,
-   "no_speech_prob": 0.0,
-   "compression_ratio": 1.68
-  },
-  {
-   "start": 1670.12,
-   "ende": 1671.38,
-   "text": "Es sah aus wie Schweins.",
-   "avg_logprob": -0.146,
-   "no_speech_prob": 0.0,
-   "compression_ratio": 1.68
-  },
-  {
-   "start": 1671.38,
-   "ende": 1676.12,
-   "text": "Die haben diese China-Nudeln, das haben wir schon auch als Kinder immer, weiß ich, in der Schule so.",
-   "avg_logprob": -0.146,
-   "no_speech_prob": 0.0,
-   "compression_ratio": 1.68
-  },
-  {
-   "start": 1676.12,
-   "ende": 1683.8,
-   "text": "Also nicht diese, diese Instant-Nudeln, die man mit Wasser aufgießt, aber nicht mit Wasser aufgießen, sondern so klein quetschen in der Tüte und dann so als Chips essen.",
-   "avg_logprob": -0.146,
-   "no_speech_prob": 0.0,
-   "compression_ratio": 1.68
-  },
-  {
-   "start": 1683.8,
-   "ende": 1686.32,
-   "text": "Es lag hier überall dieses Gewürz rum.",
-   "avg_logprob": -0.146,
-   "no_speech_prob": 0.0,
-   "compression_ratio": 1.68
-  },
-  {
-   "start": 1686.32,
-   "ende": 1691.48,
-   "text": "Also Hagen und ich haben hier am nächsten Tag aufgeräumt, als hätten irgendwie Erwachsene eine Party gemacht.",
-   "avg_logprob": -0.146,
-   "no_speech_prob": 0.0,
-   "compression_ratio": 1.68
-  },
-  {
-   "start": 1691.48,
-   "ende": 1698.48,
-   "text": "Nur anstatt, dass Alkohol und Kippen rumlagen, lagen halt Instant-Nudeln und irgendwelche Dosen mit.",
-   "avg_logprob": -0.146,
-   "no_speech_prob": 0.0,
-   "compression_ratio": 1.68
-  },
-  {
-   "start": 1698.5,
-   "ende": 1704.38,
-   "text": "Mit Brause und keine Ahnung was hier rum, ist da echt, also wir haben wirklich mehrere Stunden hier geputzt.",
-   "avg_logprob": -0.155,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.78
-  },
-  {
-   "start": 1704.38,
-   "ende": 1706.52,
+   "start": 1704.46,
+   "ende": 1706.48,
    "text": "Wir mussten ja die ganzen Sachen wieder zurückräumen.",
-   "avg_logprob": -0.155,
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1706.58,
+   "ende": 1708.74,
+   "text": "Wir haben unser Sofa aus der Küche hier reingestellt,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1708.8,
+   "ende": 1710.58,
+   "text": "dass sie dann halt zu viert hier schlafen können.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1711.38,
+   "ende": 1713.64,
+   "text": "Gesaugt, gewischt, die ganzen Sachen gewaschen,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1714.0,
+   "ende": 1715.74,
+   "text": "weil die dann ja in unser Bettzeug,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1715.86,
+   "ende": 1717.78,
+   "text": "dann gehen die da mit ihren Klamotten rein,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1717.86,
+   "ende": 1720.8,
+   "text": "mit denen sie den ganzen Tag in dieser VR-Halle rumgerannt sind,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1720.86,
+   "ende": 1722.14,
+   "text": "den ganzen Tag schon so rumgerannt sind.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1722.2,
+   "ende": 1724.54,
+   "text": "Ich kann mich noch erinnern, als ich jung war,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1724.58,
+   "ende": 1725.38,
+   "text": "habe ich das auch gemacht.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1725.48,
+   "ende": 1727.22,
+   "text": "Meine Mutter hat sich immer darüber aufgeregt und gesagt,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1727.22,
+   "ende": 1729.3,
+   "text": "ich soll nicht mit meinen Sachen, die ich in der Schule anhatte,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1729.3,
+   "ende": 1759.12,
+   "text": "mich in mein Bett legen und ich habe immer gedacht, warum nicht, was stört sie denn daran, sie muss doch nicht darin schlafen, wieso soll ich nicht mit meinen Sachen, da ist doch nichts dran und jetzt so als Erwachsene finde ich das so ekelhaft, ich finde es so ekelhaft mit seinen Straßensachen sich in sein Bettzeug reinzulegen, also vielleicht könnt ihr ja mal was dazu sagen, wie ihr das als Erwachsene seht, ob ich da so ein Splien von meiner Mutter mitgekriegt habe, wobei Hagen da genauso ist, der ist ja noch krasser, also es kann jetzt nicht irgendwas innerfamiliäres",
+   "avg_logprob": -0.063,
    "no_speech_prob": 0.002,
-   "compression_ratio": 1.78
+   "compression_ratio": 1.77
   },
   {
-   "start": 1706.52,
-   "ende": 1710.62,
-   "text": "Wir haben unser Sofa aus der Küche hier reingestellt, dass sie dann halt zu viert hier schlafen können.",
-   "avg_logprob": -0.155,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.78
+   "start": 1759.12,
+   "ende": 1761.12,
+   "text": "bei mir sein, aber wir finden",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.83
   },
   {
-   "start": 1710.62,
-   "ende": 1722.16,
-   "text": "Gesaugt, gewischt, die ganzen Sachen gewaschen, weil die dann ja in unser Bettzeug, ne, dann gehen die da mit ihren Klamotten rein, mit denen sie den ganzen Tag in dieser VR-Halle rumgerannt sind, den ganzen Tag schon so rumgerannt sind.",
-   "avg_logprob": -0.155,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.78
+   "start": 1761.12,
+   "ende": 1763.24,
+   "text": "das ultra, ultra eklig, wenn jemand",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.83
   },
   {
-   "start": 1722.16,
-   "ende": 1725.42,
-   "text": "Ich kann mich noch erinnern, als ich jung war, habe ich das auch gemacht.",
-   "avg_logprob": -0.155,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.78
+   "start": 1763.24,
+   "ende": 1765.18,
+   "text": "mit seinen Anziehsachen in den, also",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.83
   },
   {
-   "start": 1725.42,
-   "ende": 1728.48,
-   "text": "Meine Mutter hat sich immer darüber aufgeregt und gesagt, ich soll nicht mit meinen Sachen nicht in den",
-   "avg_logprob": -0.155,
-   "no_speech_prob": 0.002,
-   "compression_ratio": 1.78
+   "start": 1765.18,
+   "ende": 1767.16,
+   "text": "nicht nur jemand, auch die eigenen Kinder,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.83
   },
   {
-   "start": 1728.5,
-   "ende": 1738.52,
-   "text": "Schule anhatte, mich in mein Bett legen und ich habe immer gedacht, warum nicht, was stört sie denn daran, sie muss doch nicht darin schlafen, wieso soll ich nicht mit meinen Sachen, da ist doch nichts dran.",
-   "avg_logprob": -0.111,
-   "no_speech_prob": 0.015,
-   "compression_ratio": 1.73
+   "start": 1767.28,
+   "ende": 1769.26,
+   "text": "wenn die eigenen Kinder mit ihren eigenen",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.83
   },
   {
-   "start": 1739.0,
-   "ende": 1747.28,
-   "text": "Und jetzt so als Erwachsene finde ich das so ekelhaft, ich finde es so ekelhaft mit seinen Straßensachen, sich in sein Bettzeug reinzulegen.",
-   "avg_logprob": -0.111,
-   "no_speech_prob": 0.015,
-   "compression_ratio": 1.73
+   "start": 1769.26,
+   "ende": 1771.32,
+   "text": "Sachen in ihren eigenen Betten liegen,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.83
   },
   {
-   "start": 1747.28,
-   "ende": 1756.9,
-   "text": "Also vielleicht könnt ihr ja mal was dazu sagen, wie ihr das als Erwachsene seht, ob ich da so ein Splien von meiner Mutter mitgekriegt habe, wobei Hagen da genauso ist, der ist ja noch krasser.",
-   "avg_logprob": -0.111,
-   "no_speech_prob": 0.015,
-   "compression_ratio": 1.73
-  },
-  {
-   "start": 1756.9,
+   "start": 1771.52,
    "ende": 1773.44,
-   "text": "Also es kann jetzt nicht irgendwas innerfamiliäres bei mir sein, aber wir finden das ultra, ultra eklig, wenn jemand mit seinen Anziehsachen in den, also nicht nur jemand, auch die eigenen Kinder, wenn die eigenen Kinder mit ihren eigenen Sachen in ihren eigenen Betten liegen, also Straßensachen, finden wir ultra eklig.",
-   "avg_logprob": -0.053,
-   "no_speech_prob": 0.02,
-   "compression_ratio": 1.82
+   "text": "also Straßensachen, finden wir ultra eklig.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.83
   },
   {
-   "start": 1773.44,
-   "ende": 1785.22,
-   "text": "Deswegen waren dann natürlich hier vier Jugendliche mit ihren Klamotten, die dann mit den, wie gesagt, Kappnudeln und Getränken und alles in dem ganzen Bettzeug, deswegen haben wir halt den ganzen Tag auch gewaschen.",
-   "avg_logprob": -0.053,
-   "no_speech_prob": 0.02,
-   "compression_ratio": 1.82
+   "start": 1773.56,
+   "ende": 1775.26,
+   "text": "Deswegen waren dann natürlich hier",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.83
   },
   {
-   "start": 1785.94,
-   "ende": 1786.76,
-   "text": "Und ja.",
-   "avg_logprob": -0.053,
-   "no_speech_prob": 0.02,
-   "compression_ratio": 1.82
+   "start": 1775.26,
+   "ende": 1776.86,
+   "text": "vier Jugendliche",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.83
   },
   {
-   "start": 1786.9,
-   "ende": 1790.26,
-   "text": "So ist dann sein Geburtstag abgelaufen und er fand es aber cool.",
-   "avg_logprob": -0.093,
-   "no_speech_prob": 0.026,
-   "compression_ratio": 1.62
+   "start": 1776.86,
+   "ende": 1778.88,
+   "text": "mit ihren Klamotten, die dann",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.83
   },
   {
-   "start": 1791.0,
-   "ende": 1802.64,
-   "text": "Er hat jetzt auch nie, also dadurch, dass wir jetzt nicht 19 Mal im Jahr auf solchen Feiern sind, wo das in so einem Hotel und so stattfindet, hat er natürlich auch überhaupt nicht jetzt den Anspruch zu sagen, ja, können wir das auch so machen.",
-   "avg_logprob": -0.093,
-   "no_speech_prob": 0.026,
-   "compression_ratio": 1.62
+   "start": 1778.88,
+   "ende": 1781.08,
+   "text": "mit den, wie gesagt, Kappnudeln und",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.83
   },
   {
-   "start": 1803.74,
+   "start": 1781.08,
+   "ende": 1783.16,
+   "text": "Getränken und alles in dem ganzen Bett",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1783.16,
+   "ende": 1785.2,
+   "text": "zeugen, deswegen haben wir halt den ganzen Tag auch gewaschen",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1785.2,
+   "ende": 1787.06,
+   "text": "und ja, so",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1787.06,
+   "ende": 1789.02,
+   "text": "ist dann sein Geburtstag abgelaufen",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1789.02,
    "ende": 1806.5,
-   "text": "Hätten sie wahrscheinlich, wenn sie das ständig miterleben würden.",
-   "avg_logprob": -0.093,
-   "no_speech_prob": 0.026,
-   "compression_ratio": 1.62
+   "text": "Und er fand es aber cool. Er hat jetzt auch nie, also dadurch, dass wir jetzt nicht 19 Mal im Jahr auf solchen Feiern sind, wo das in so einem Hotel und so stattfindet, hat er natürlich auch überhaupt nicht jetzt den Anspruch zu sagen, ja, können wir das auch so machen. Hätten sie wahrscheinlich, wenn sie das ständig miterleben würden.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.48
   },
   {
-   "start": 1806.96,
+   "start": 1806.88,
    "ende": 1814.48,
    "text": "Aber so haben wir jetzt, sage ich mal, einen relativ normalen Geburtstag gefeiert für sein Alter aus meiner Sicht.",
-   "avg_logprob": -0.093,
-   "no_speech_prob": 0.026,
-   "compression_ratio": 1.62
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
   },
   {
-   "start": 1814.64,
-   "ende": 1816.22,
-   "text": "Und er war auch total zufrieden.",
-   "avg_logprob": -0.093,
-   "no_speech_prob": 0.026,
-   "compression_ratio": 1.62
+   "start": 1814.92,
+   "ende": 1817.72,
+   "text": "Und er war auch total zufrieden und es hat ihm auch Spaß gemacht.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
   },
   {
-   "start": 1816.22,
-   "ende": 1817.7,
-   "text": "Und es hat eben auch Spaß gemacht.",
-   "avg_logprob": -0.058,
-   "no_speech_prob": 0.006,
-   "compression_ratio": 1.64
-  },
-  {
-   "start": 1818.08,
+   "start": 1818.1,
    "ende": 1822.22,
    "text": "Und wie gesagt, mit Hermine waren wir ja da in dieser Paradise Park Farm.",
-   "avg_logprob": -0.058,
-   "no_speech_prob": 0.006,
-   "compression_ratio": 1.64
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
   },
   {
    "start": 1822.28,
    "ende": 1823.2,
    "text": "Es hat ja auch Spaß gemacht.",
-   "avg_logprob": -0.058,
-   "no_speech_prob": 0.006,
-   "compression_ratio": 1.64
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
   },
   {
    "start": 1823.3,
    "ende": 1827.38,
    "text": "Auch da zahlt man auch weit über 10 Euro pro Person schon Eintritt.",
-   "avg_logprob": -0.058,
-   "no_speech_prob": 0.006,
-   "compression_ratio": 1.64
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
   },
   {
-   "start": 1827.62,
+   "start": 1827.86,
    "ende": 1833.16,
    "text": "Plus, dass natürlich das Essen in solchen Anlagen auch teurer ist, als wenn man irgendwo anders essen geht.",
-   "avg_logprob": -0.058,
-   "no_speech_prob": 0.006,
-   "compression_ratio": 1.64
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
   },
   {
    "start": 1833.6,
-   "ende": 1844.64,
-   "text": "Aber ich sage mal so, bei ihr sind wir dann so mit roundabout, ich glaube, 150 Euro oder so rausgekommen mit Essen und allem drum und dran und Eintritt und Tierfutter kaufen und so weiter.",
-   "avg_logprob": -0.058,
-   "no_speech_prob": 0.006,
-   "compression_ratio": 1.64
+   "ende": 1839.9,
+   "text": "Aber ich sage mal so, bei ihr sind wir dann so mit roundabout, ich glaube, 150 Euro oder so rausgekommen.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
   },
   {
-   "start": 1846.22,
+   "start": 1840.06,
+   "ende": 1844.64,
+   "text": "Mit Essen und allem drum und dran und Eintritt und Tierfutter kaufen und so weiter.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1846.28,
    "ende": 1852.62,
    "text": "Und ja, das ist, sage ich mal, auch so der Rahmen, glaube ich, den man in Deutschland bei so einem Kindergeburtstag einplant,",
-   "avg_logprob": -0.085,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.61
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
   },
   {
-   "start": 1852.7,
+   "start": 1852.62,
    "ende": 1859.86,
    "text": "wenn man jetzt irgendwie in die Trampolinhalle geht oder zum Bowlen geht oder ins Schwimmbad oder ins Kino oder keine Ahnung.",
-   "avg_logprob": -0.085,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.61
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
   },
   {
-   "start": 1860.5,
-   "ende": 1862.92,
+   "start": 1860.36,
+   "ende": 1862.94,
    "text": "So ähnlich halten wir das jetzt hier auch.",
-   "avg_logprob": -0.085,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.61
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
   },
   {
-   "start": 1862.92,
-   "ende": 1876.14,
-   "text": "Aber grundsätzlich werden die Kindergeburtstage hier, wie gesagt, in den ganzen Privatschulkontext inklusive Kinder-Kleinkind-Alter-Kontext,",
-   "avg_logprob": -0.085,
-   "no_speech_prob": 0.005,
-   "compression_ratio": 1.61
-  },
-  {
-   "start": 1876.64,
+   "start": 1863.16,
    "ende": 1889.1,
-   "text": "werden halt hier wirklich, wie würde man sagen, bombfortionös, wäre so ein Thüringen-Wort für übelster Aufriss für so einen Geburtstag.",
-   "avg_logprob": -0.114,
-   "no_speech_prob": 0.004,
-   "compression_ratio": 1.56
+   "text": "Aber grundsätzlich werden die Kindergeburtstage hier, wie gesagt, in den ganzen Privatschulkontext, inklusive Kinder-, Kleinkindalter-Kontext, werden halt hier wirklich, wie würde man sagen, bombfortionös, ja, wäre so ein Thüringen-Wort für übelster Aufriss für so einen Geburtstag.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.44
   },
   {
    "start": 1889.1,
-   "ende": 1896.0,
-   "text": "Und da sind wir tatsächlich ganz froh, dass wir da nicht integriert sind insofern,",
-   "avg_logprob": -0.114,
-   "no_speech_prob": 0.004,
-   "compression_ratio": 1.56
-  },
-  {
-   "start": 1896.22,
    "ende": 1904.16,
-   "text": "als dass man dann die Erwartungshaltung bei den Kindern eben in die Richtung geschürt werden würde und sie das dann eben auch so machen wollen würden.",
-   "avg_logprob": -0.114,
-   "no_speech_prob": 0.004,
-   "compression_ratio": 1.56
+   "text": "Und da sind wir tatsächlich ganz froh, dass wir da nicht integriert sind insofern, als dass man dann die Erwartungshaltung bei den Kindern eben in die Richtung geschürt werden würde und sie das dann eben auch so machen wollen würden.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.47
   },
   {
-   "start": 1905.16,
-   "ende": 1906.1,
-   "text": "Und ja.",
-   "avg_logprob": -0.114,
-   "no_speech_prob": 0.004,
-   "compression_ratio": 1.56
+   "start": 1904.16,
+   "ende": 1908.44,
+   "text": "und ja, also wie gesagt, es ist, glaube ich, kein reines",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
   },
   {
-   "start": 1906.22,
-   "ende": 1909.28,
-   "text": "Ja, also wie gesagt, es ist, glaube ich, kein reines Cosa-Mui-Phänomen.",
-   "avg_logprob": -0.1,
-   "no_speech_prob": 0.019,
-   "compression_ratio": 1.61
+   "start": 1908.44,
+   "ende": 1912.7,
+   "text": "Cosa-Mui-Phänomen, ich habe das jetzt aus den USA, habe ich wie gesagt letztens da was gelesen",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
   },
   {
-   "start": 1909.42,
-   "ende": 1913.2,
-   "text": "Ich habe das jetzt aus den USA, habe ich, wie gesagt, letztens da was gelesen und gesehen.",
-   "avg_logprob": -0.1,
-   "no_speech_prob": 0.019,
-   "compression_ratio": 1.61
+   "start": 1912.7,
+   "ende": 1916.48,
+   "text": "und gesehen, aus Dubai, weiß ich, ist das so, gibt bestimmt auch noch andere Länder",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
   },
   {
-   "start": 1913.34,
-   "ende": 1914.7,
-   "text": "Aus Dubai, weiß ich, ist es so.",
-   "avg_logprob": -0.1,
-   "no_speech_prob": 0.019,
-   "compression_ratio": 1.61
+   "start": 1916.48,
+   "ende": 1920.7,
+   "text": "ja, wer die Folge hört, kann ja gerne mal entweder hier unter",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
   },
   {
-   "start": 1915.08,
-   "ende": 1916.46,
-   "text": "Gibt bestimmt auch noch andere Länder.",
-   "avg_logprob": -0.1,
-   "no_speech_prob": 0.019,
-   "compression_ratio": 1.61
-  },
-  {
-   "start": 1917.06,
+   "start": 1920.7,
    "ende": 1924.52,
-   "text": "Ja, wer die Folge hört, kann ja gerne mal entweder hier unter der Folge oder auch bei Instagram irgendwie ein paar Kommentare ablassen,",
-   "avg_logprob": -0.1,
-   "no_speech_prob": 0.019,
-   "compression_ratio": 1.61
+   "text": "der Folge oder auch bei Instagram irgendwie ein paar Kommentare ablassen",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
   },
   {
-   "start": 1924.74,
-   "ende": 1929.14,
-   "text": "wie ihr so einen Kindergeburtstag gefeiert, wie ihr dieses ganze Kindergeburtstagsthema seht.",
-   "avg_logprob": -0.1,
-   "no_speech_prob": 0.019,
-   "compression_ratio": 1.61
+   "start": 1924.52,
+   "ende": 1928.72,
+   "text": "wie ihr so einen Kindergeburtstag gefeiert, wie ihr dieses ganze Kindergeburtstagsthema",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
   },
   {
-   "start": 1929.24,
-   "ende": 1935.44,
-   "text": "Ob das aus eurer Sicht ist so, ja, wir können uns das heutzutage vielleicht dann eher leisten als früher unsere Eltern.",
-   "avg_logprob": -0.1,
-   "no_speech_prob": 0.019,
-   "compression_ratio": 1.61
+   "start": 1928.72,
+   "ende": 1932.66,
+   "text": "seht, ob das aus eurer Sicht ist so, ja, wir können uns",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
   },
   {
-   "start": 1936.22,
-   "ende": 1938.84,
-   "text": "Es ist ja cool, dass das jetzt alles so hochgepusht wird.",
-   "avg_logprob": -0.184,
+   "start": 1932.66,
+   "ende": 1934.72,
+   "text": "das heutzutage vielleicht dann eher leisten als früher",
+   "avg_logprob": -0.11,
    "no_speech_prob": 0.0,
-   "compression_ratio": 1.37
+   "compression_ratio": 1.48
   },
   {
-   "start": 1939.3,
+   "start": 1934.72,
+   "ende": 1936.78,
+   "text": "unsere Eltern und eigentlich ist es ja cool,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1936.9,
+   "ende": 1938.64,
+   "text": "dass das jetzt alles so hochgepusht",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1938.64,
+   "ende": 1940.32,
+   "text": "wird oder seid ihr eher",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1940.32,
    "ende": 1941.96,
-   "text": "Oder seid ihr eher Kategorie Topfschlagen?",
-   "avg_logprob": -0.184,
+   "text": "Kategorie Topfschlagen?",
+   "avg_logprob": -0.11,
    "no_speech_prob": 0.0,
-   "compression_ratio": 1.37
+   "compression_ratio": 1.48
   },
   {
    "start": 1942.92,
    "ende": 1944.16,
    "text": "Genau, könnt ihr ja mal schreiben.",
-   "avg_logprob": -0.184,
+   "avg_logprob": -0.11,
    "no_speech_prob": 0.0,
-   "compression_ratio": 1.37
+   "compression_ratio": 1.48
   },
   {
    "start": 1944.54,
    "ende": 1946.22,
    "text": "So, das war's für diese Woche.",
-   "avg_logprob": -0.184,
+   "avg_logprob": -0.11,
    "no_speech_prob": 0.0,
-   "compression_ratio": 1.37
+   "compression_ratio": 1.48
   },
   {
    "start": 1946.46,
-   "ende": 1949.26,
-   "text": "Wir hören uns nächste Woche oder sehen uns nächste Woche.",
-   "avg_logprob": -0.184,
+   "ende": 1948.36,
+   "text": "Wir hören uns nächste Woche oder",
+   "avg_logprob": -0.11,
    "no_speech_prob": 0.0,
-   "compression_ratio": 1.37
+   "compression_ratio": 1.48
   },
   {
-   "start": 1949.86,
-   "ende": 1951.42,
-   "text": "Und ja, bis dann.",
-   "avg_logprob": -0.184,
+   "start": 1948.36,
+   "ende": 1950.08,
+   "text": "sehen uns nächste Woche und",
+   "avg_logprob": -0.11,
    "no_speech_prob": 0.0,
-   "compression_ratio": 1.37
+   "compression_ratio": 1.48
   },
   {
-   "start": 1951.52,
+   "start": 1950.08,
    "ende": 1951.84,
-   "text": "Tschüss.",
-   "avg_logprob": -0.184,
+   "text": "ja, bis dann. Tschüss!",
+   "avg_logprob": -0.11,
    "no_speech_prob": 0.0,
-   "compression_ratio": 1.37
+   "compression_ratio": 1.48
   }
  ]
 }

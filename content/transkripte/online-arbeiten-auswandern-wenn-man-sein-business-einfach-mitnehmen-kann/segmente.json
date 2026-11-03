@@ -1,0 +1,2082 @@
+{
+ "meta": {
+  "slug": "online-arbeiten-auswandern-wenn-man-sein-business-einfach-mitnehmen-kann",
+  "titel": "Online arbeiten & auswandern – wenn man sein Business einfach mitnehmen kann",
+  "datum": "2025-11-17T05:12:54.000Z",
+  "dauer_sekunden": 2024,
+  "guid": "676b7321-972d-469c-9120-ff5b4cff0e15",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T07:51:38Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 5,
+   "transkription": 1275
+  },
+  "echtzeitfaktor": 0.63,
+  "anzahl_segmente": 257,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.72,
+   "ende": 23.31,
+   "text": "Ich hatte früher nie unbedingt so den Drang, mich selbstständig zu machen, aber es hat mich dann irgendwie schon gereizt, etwas zu machen, wo ich niemandem Rechenschaft schulde.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.189,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 23.91,
+   "ende": 37.8,
+   "text": "Willkommen zurück bei Das Leben ist zu kurz für irgendwann. Heute mit einer Folge, die ein bisschen noch an die Folge von letzter Woche anknüpft.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.189,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 38.3,
+   "ende": 44.74,
+   "text": "Ich hatte ja bei Instagram gesagt, dass Hagen und ich mal wieder zusammen eine Folge machen und ihr Fragen stellen könnt.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.189,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 44.74,
+   "ende": 52.96,
+   "text": "und da kamen einige Fragen rein und ja, die meisten davon haben wir dann letzte Woche in der Folge schon zusammen beantwortet,",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 53.6,
+   "ende": 58.2,
+   "text": "aber unter anderem war noch eine offen und zwar, was wir jetzt eigentlich beruflich machen",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 58.2,
+   "ende": 65.4,
+   "text": "und ich werde da jetzt erstmal hauptsächlich von mir reden, weil ich aktuell die Einzige bin,",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 65.4,
+   "ende": 70.8,
+   "text": "die, wenn man das so klassisch verstehen will, im Moment einen Beruf hat in dem Sinne",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 70.8,
+   "ende": 80.44,
+   "text": "und zwar habe ich, also hat sich für mich tatsächlich durch den Umzug nach Koh Samui rein gar nichts geändert,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 80.44,
+   "ende": 85.46,
+   "text": "was meine Arbeit angeht und das liegt jetzt nicht an Thailand oder Koh Samui,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 85.58,
+   "ende": 90.12,
+   "text": "das wäre im Grunde egal, wo wir hingezogen wären, ob wir jetzt innerhalb Deutschlands umgezogen wären",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 90.12,
+   "ende": 94.48,
+   "text": "oder sonst irgendwo auf der Welt, weil ich ein reines Online-Business habe.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 94.48,
+   "ende": 101.78,
+   "text": "Das heißt, meine komplette Arbeit findet digital statt, also am Computer letztendlich.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 102.26,
+   "ende": 110.16,
+   "text": "Ich brauche nichts anderes außer meinen Laptop und mein Handy und Internet, also Dinge, die man heutzutage eigentlich überall hat.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 111.26,
+   "ende": 116.68,
+   "text": "Und meine Kunden sind auch überall verteilt.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 116.68,
+   "ende": 124.2,
+   "text": "Also ich habe natürlich in erster Linie deutschsprachige Kunden, aber auch die wohnen nicht zwangsläufig in Deutschland.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 124.48,
+   "ende": 139.62,
+   "text": "Ich habe auch Kunden in der Schweiz, ich habe eine Kundin, die lebt in Portugal, ist aber selbst auch öfters auf Reisen unterwegs, habe auch Kunden in Deutschland, aber wir haben uns noch nie persönlich getroffen.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 139.62,
+   "ende": 162.22,
+   "text": "Ach doch, mit einer Kundin habe ich mich letztens in Hamburg getroffen. Da gibt es auch eine Folge, das ist die Dani. Aber ja, das ist Zufall gewesen und wir haben auch da schon zwei Jahre zusammengearbeitet. Für die Arbeit, die ich mache, ist es absolut nicht wichtig, wo ich bin, wo die Kunden sind und ob wir uns persönlich kennen oder mal persönlich getroffen haben oder mal persönlich ein Meeting abgehalten haben.",
+   "avg_logprob": -0.053,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 162.22,
+   "ende": 169.3,
+   "text": "und ich habe mich vor rund etwas mehr als drei Jahren selbstständig gemacht mit dem Online-Business",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 169.3,
+   "ende": 176.32,
+   "text": "und habe da eben auch schon im Hinterkopf gehabt, okay, wenn es denn irgendwann mal so passieren sollte,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 176.98,
+   "ende": 182.56,
+   "text": "dass wir vielleicht doch mal auswandern, was ja vor drei Jahren eben noch sehr weit entfernt war.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 182.9,
+   "ende": 190.82,
+   "text": "Also in meinem Kopf natürlich nicht, aber ihr kennt ja die Story, bis vor einem halben, dreiviertel Jahr,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 190.82,
+   "ende": 211.84,
+   "text": "Ja, war das ja für Hagen schon sehr abwegig und ja, aber ich hatte natürlich trotzdem irgendwie immer die Hoffnung, dass das irgendwann mal passiert und habe dann damals schon länger, also auch bevor ich mich selbstständig gemacht habe, kam dann so irgendwann dieser Begriff digitale Nomaden auf und ich habe mich dann auch erstmal gefragt, okay, was ist denn das?",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 211.84,
+   "ende": 229.02,
+   "text": "Und fand das irgendwie spannend. Vor allem der Begriff Nomade hat mich stark getriggert, weil ich ja, ich weiß nicht, ob ich das schon mal, ich glaube, ich habe es auch schon mal erwähnt in einer Folge, weil ich ja irgendwie so das Gefühl habe, dass ich in einem früheren Leben mal einem Nomadenvolk angehört habe.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 229.88,
+   "ende": 240.8,
+   "text": "Und ja, digitale Nomaden sind halt Menschen, die rein digital arbeiten und wie früher die Nomaden halt immer weiterziehen und nicht an einem Ort fest verankert sind.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 240.8,
+   "ende": 245.2,
+   "text": "und das war für mich natürlich ein absolutes Traum-Lebensmodell,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 246.46,
+   "ende": 249.38,
+   "text": "wohl wissend, dass das aber sehr weit entfernt liegt.",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 250.32,
+   "ende": 255.44,
+   "text": "Und ja, als es damals vor, ja, dreieinhalb Jahre ist das jetzt, glaube ich,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 255.5,
+   "ende": 258.18,
+   "text": "ja, zur Debatte stand, wie es für mich beruflich weitergeht,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 258.18,
+   "ende": 262.36,
+   "text": "ich hatte ja, als ich mit Hermine in Elternzeit gegangen bin,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 262.56,
+   "ende": 267.1,
+   "text": "bei AIDA damals gearbeitet und während der Elternzeit",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 267.1,
+   "ende": 268.74,
+   "text": "oder während dem ersten Jahr Elternzeit",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 268.74,
+   "ende": 275.98,
+   "text": "war ja dann diese ganze Corona-Nummer und bei AIDA war ich zuständig für Schulungen und Events",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 275.98,
+   "ende": 282.86,
+   "text": "und ja, ich hatte es auch in meiner Folge zwischen Lebenslauf und Fernweh auch schon angedeutet,",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 283.0,
+   "ende": 288.02,
+   "text": "dass natürlich diese Kombination denkbar ungünstig in der Corona-Zeit war.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 288.48,
+   "ende": 294.28,
+   "text": "Also Events und Kreuzfahrt, ja, ist ja quasi fast zum Erliegen gekommen",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 294.28,
+   "ende": 299.6,
+   "text": "und dann habe ich erst mal ein Jahr Elternzeit verlängert,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 299.72,
+   "ende": 302.0,
+   "text": "habe nebenbei in einem Antiquitätenladen gearbeitet",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 302.0,
+   "ende": 307.5,
+   "text": "und nach dem Jahr hatte sich ja noch immer das Weltgeschehen noch nicht verändert",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 307.5,
+   "ende": 310.3,
+   "text": "und dann habe ich mich erst mal arbeitslos gemeldet,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 310.42,
+   "ende": 312.74,
+   "text": "damit einfach wieder ein bisschen Geld reinkommt",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 312.74,
+   "ende": 317.22,
+   "text": "und durch den Status des Arbeitslosseins hatte man dann die Möglichkeit,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 317.4,
+   "ende": 319.58,
+   "text": "einen Existenzgründerzuschuss zu beantragen.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 320.5,
+   "ende": 323.06,
+   "text": "Und ich habe mich dann halt gefragt, okay, was will ich machen?",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 323.06,
+   "ende": 346.78,
+   "text": "Will ich wieder mir einen Job suchen oder will ich mich selbstständig machen? Ich hatte früher nie unbedingt so den Drang, mich selbstständig zu machen, aber es hat mich dann irgendwie schon gereizt, etwas zu machen, wo ich niemandem Rechenschaft schulde, weil durch diese ganze Schließung von Kitas, Schulen und so weiter man ja damals sowohl als Arbeitnehmer als auch als Arbeitgeber ja sehr flexibel sein musste.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 346.78,
+   "ende": 355.28,
+   "text": "und mich hätte das irgendwie gestresst, zu wissen, dass ich jetzt eigentlich zu Hause bleiben muss,",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 355.36,
+   "ende": 360.38,
+   "text": "weil die Kita zu hat, aber eigentlich auch mein Arbeitgeber auch möchte, dass ich da Leistung zeige,",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 360.62,
+   "ende": 365.86,
+   "text": "weil ich auch jemand bin, der sehr gerne arbeitet und sich dann da auch gut reinsteigern kann",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 365.86,
+   "ende": 370.68,
+   "text": "und immer Vollgas gibt und so entstand dann die Idee zur Selbstständigkeit",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 370.68,
+   "ende": 373.96,
+   "text": "und es war dann noch nicht sofort, okay, ja, ich mache mich dann online selbstständig,",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 373.96,
+   "ende": 401.94,
+   "text": "Weil ich möchte ja irgendwann auswandern, sondern ich hatte dann auch noch ein, zwei andere Ideen, die ja stationär gewesen wären. Unter anderem war ich inspiriert durch unsere Namibia-Reisen, wo ja die Campingplätze nicht so sind, wie man sie klassisch in Deutschland oder Europa kennt, sondern wo im Grunde jeder Campingplatz oder Wagen, Campground, also der Platz im Sinne von, wo ich mit meinem Campingmobil stehe, hat immer so kleine Häuschen.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 401.94,
+   "ende": 407.14,
+   "text": "Manchmal aus Stein, manchmal aus Wellblech, aber auf jeden Fall hat jeder so eine eigene Dusche, eine eigene Toilette und eine eigene kleine Küche.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 407.9,
+   "ende": 414.62,
+   "text": "Und der Nachbar ist meistens auch relativ weit entfernt, sodass man da irgendwie so ein Wildlife-Gefühl hat.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 415.02,
+   "ende": 423.92,
+   "text": "Und so eine Idee hatte ich dann in Rostock aufzumachen, weil da ja einfach auch in Rostock viel Tourismus ist und auch viel Durchgangstourismus für die Fähren nach Schweden und Dänemark.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 423.92,
+   "ende": 429.0,
+   "text": "und hatte dann so eine Idee, eben da so einen Platz mit nur wenig Stellplätzen zu machen,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 429.12,
+   "ende": 432.56,
+   "text": "wo aber jeder so einen kleinen Container hat mit Küche und Bad",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 432.56,
+   "ende": 435.0,
+   "text": "und man dann vielleicht auch noch gut arbeiten kann.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 435.62,
+   "ende": 438.38,
+   "text": "Habe aber einfach nichts gefunden, also keine Fläche dafür.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 439.04,
+   "ende": 444.38,
+   "text": "Dann durch meine Zeit im Antiquitätenladen hatte ich auch so eine Idee von Second Hand,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 444.38,
+   "ende": 446.28,
+   "text": "also mit Klamotten und Antiquitäten.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 446.54,
+   "ende": 453.48,
+   "text": "Also das heißt, die Möbel im Laden, wo dann auch die Klamotten draufliegen oder einsortiert sind,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 453.92,
+   "ende": 455.84,
+   "text": "eben auch zum Verkauf anzubieten.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 455.96,
+   "ende": 458.26,
+   "text": "Da habe ich mir auch verschiedene Ladenlokale angeguckt.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 458.96,
+   "ende": 461.22,
+   "text": "Aber dann kam irgendwie die nächste Regelung mit,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 461.42,
+   "ende": 464.66,
+   "text": "der darf geimpft dies nicht, der darf ungeimpft das nicht.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 464.66,
+   "ende": 467.1,
+   "text": "Und die dürfen entladen und die dürfen nicht entladen.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 467.2,
+   "ende": 469.66,
+   "text": "Und die dürfen nur entladen, wenn Montag ist.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 469.98,
+   "ende": 472.3,
+   "text": "Und ach, das war mir alles irgendwie viel zu kompliziert,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 472.88,
+   "ende": 474.82,
+   "text": "diese ganzen Regularien da zu beachten.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 475.1,
+   "ende": 476.82,
+   "text": "Und dann habe ich irgendwann gedacht,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 476.92,
+   "ende": 479.6,
+   "text": "okay, das hat, glaube ich, aktuell keinen Sinn, etwas zu machen,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 479.6,
+   "ende": 500.7,
+   "text": "wo man auf die politischen Launen angewiesen ist. Und so entstand dann eben die Idee mit der Online-Selbstständigkeit, was dann natürlich zeitgleich auch in meinem Kopf dann so Klick gemacht hat mit, naja, das würde ja auch viel besser zu mir passen und zu der Idee, dass man vielleicht irgendwann auch mal auswandert.",
+   "avg_logprob": -0.041,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 500.7,
+   "ende": 514.9,
+   "text": "Und die Sachbearbeiterin, die ich damals vom Arbeitsamt hatte, hat mir auch gesagt, dass so eine Online-Selbstständigkeit auch mit dem Gründungszuschuss gefördert werden kann, weil auch ich zu dem Zeitpunkt noch dachte, ja, das ist ja keine richtige Selbstständigkeit.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 514.9,
+   "ende": 519.08,
+   "text": "und da meinte sie aber, nö, das wird ganz normal so behandelt",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 519.08,
+   "ende": 524.96,
+   "text": "und ja, dann habe ich so eine, mal so eine, zufällig glaube ich auch bei Facebook oder so,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 525.0,
+   "ende": 529.3,
+   "text": "so eine Anzeige gesehen, dass man so eine Woche so eine Challenge mitmachen kann",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 529.3,
+   "ende": 533.52,
+   "text": "für virtuelle Assistenten, hatte ich vorher auch noch nie was von gehört",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 533.52,
+   "ende": 537.28,
+   "text": "und da habe ich einfach mal mitgemacht und ja, habe dann so gesehen,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 537.28,
+   "ende": 541.1,
+   "text": "okay, was es eigentlich alles für Möglichkeiten gibt, online zu arbeiten.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 541.4,
+   "ende": 544.56,
+   "text": "Ich war zwar selber nie irgendwie Assistenz der Geschäftsführung oder so,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 544.9,
+   "ende": 562.18,
+   "text": "Aber am Ende ist das halt auch nur so ein Oberbegriff und was man dann genau darunter fasst, ist eigentlich fast jedem selbst überlassen. Und ja, dann habe ich mich dazu entschlossen, das zu machen. Damals stand dann auch schon im Raum, dass wir eben dieses eine Jahr nach Thailand gehen.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 562.82,
+   "ende": 568.2,
+   "text": "was natürlich dann auch ganz gut war, weil ich wusste, okay, ich kann halt die Selbstständigkeit beantragen",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 568.2,
+   "ende": 574.24,
+   "text": "und ja, anfangen die auszubauen, habe erstmal den Gründungszuschuss und kann das eben auch in Thailand machen",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 574.24,
+   "ende": 579.06,
+   "text": "und ja, habe dann irgendwie nicht das Problem, dass ich zu Hause was organisieren muss,",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 579.1,
+   "ende": 583.44,
+   "text": "sodass ich im Grunde genommen wirklich meine Selbstständigkeit auch in Thailand gestartet habe.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 583.44,
+   "ende": 588.98,
+   "text": "Also ich glaube, ich hatte zum 1.3. gekündigt und dann sind wir irgendwie, gekündigt, gegründet",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 588.98,
+   "ende": 596.34,
+   "text": "und dann sind wir ja irgendwie Mitte April oder so los, sodass das eigentlich damals da so gestartet ist",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 596.34,
+   "ende": 600.16,
+   "text": "und so richtig eine Vorstellung hatte ich noch nicht, was ich jetzt genau anbieten kann.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 600.24,
+   "ende": 608.24,
+   "text": "Ich wusste halt, was ich gut kann. Das ist halt organisieren und strukturieren und so das große Ganze im Blick haben",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 608.24,
+   "ende": 615.42,
+   "text": "und ja, was man häufig unter Projektmanagement zusammenfasst, gefühlt nennt sich aber irgendwie auch jeder",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 615.42,
+   "ende": 634.74,
+   "text": "Oder damals zumindest hatte ich das Gefühl, jeder nennt sich irgendwie Projektmanager und dachte mir dann, naja, da bin ich ja nur eine von vielen. Und habe dann noch nach etwas gesucht, wo ich so ein kleines Alleinstellungsmerkmal hatte. Ja, und bin dann auch, ich glaube, über Instagram, über so eine Familie auf Pinterest-Marketing aufmerksam geworden.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 634.74,
+   "ende": 651.32,
+   "text": "Ich habe selber nie irgendwie vorher was mit Pinterest zu tun gehabt, auch privat nicht genutzt, aber mir hat so die Vorstellung gefallen, so wie die das dargestellt haben, dass man da relativ autark arbeiten kann und sehr flexibel seine Zeit einteilen kann und das war halt eigentlich genau das, was ich gesucht habe.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 651.32,
+   "ende": 667.3,
+   "text": "Und dann habe ich so eine Weiterbildung gebucht und die dann eben absolviert und dann habe ich angefangen, meine Webseite zu bauen, habe mir einen Steuerberater gesucht und ja, habe dann so langsam angefangen, meine Selbstständigkeit aufzubauen.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 667.3,
+   "ende": 672.26,
+   "text": "Und tatsächlich hatte ich dann die erste Kundin erst im darauffolgenden Januar.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 673.16,
+   "ende": 679.4,
+   "text": "Und da habe ich auch erstmal für die Hälfte des Preises gearbeitet, um ja auch reinzukommen und so.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 679.4,
+   "ende": 684.0,
+   "text": "Und es fühlte sich halt auch für mich alles noch ein bisschen surreal an.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 684.64,
+   "ende": 688.76,
+   "text": "Denn auch für mich war es nicht so richtig greifbar, ob das jetzt wirklich Arbeit ist.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 689.82,
+   "ende": 692.74,
+   "text": "Denn man hat ja keinen Gegenpart mehr.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 692.96,
+   "ende": 694.28,
+   "text": "Man ist im Grunde ganz alleine.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 694.44,
+   "ende": 696.08,
+   "text": "Man trifft alleine seine Entscheidungen.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 696.08,
+   "ende": 721.3,
+   "text": "Man hat alleine seine Ideen, man weiß nicht, ob die Idee gut oder schlecht ist, man fängt dann einfach an, irgendwas umzusetzen und da ist halt niemand, der sagt, ja, das ist gut, das ist nicht so gut oder probier es doch mal so oder weil auch einfach in meinem Umfeld niemand war, der eine Online-Selbstständigkeit hatte und eigentlich auch niemand war, der so in irgendeiner Form selbstständig ist, also in meinem direkten Umfeld.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 721.3,
+   "ende": 728.94,
+   "text": "und ja, dann fühlt sich das alles so ein bisschen an, so ein bisschen waberig, wie in so einer Blase",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 728.94,
+   "ende": 732.54,
+   "text": "und man weiß irgendwie nicht so, okay, schwebt sie weiter oder platzt sie irgendwann.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 732.7,
+   "ende": 736.34,
+   "text": "Und als ich meine erste Rechnung gestellt habe an die damalige Kundin,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 736.4,
+   "ende": 742.02,
+   "text": "da habe ich mich auch irgendwie so gefühlt, als ob ich eine Betrügerin oder eine Hochstaplerin bin,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 742.02,
+   "ende": 747.14,
+   "text": "weil ich halt hier in Thailand saß, ich habe hier an meinem Computer irgendwas gemacht,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 747.14,
+   "ende": 762.38,
+   "text": "was ich in dieser Weiterbildung gelernt hatte. Und dann habe ich das für jemanden gemacht, den ich noch nie gesehen habe, also außer über ein Zoom-Meeting. Dann habe ich eine Rechnung gestellt und dieser Person per E-Mail geschickt und dann war das Geld irgendwann auf meinem Konto.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 762.38,
+   "ende": 784.34,
+   "text": "Und das war alles so, irgendwie konnte ich mir das nicht vorstellen, diese rein kreative Arbeit, ich schaffe etwas aus meinem Kopf, ich habe jetzt diese Idee, ich setze die selber an meinem Computer um, da entsteht was, aber das ist ja nichts Handfestes, was ich in die Hand nehmen kann, sondern es ist eben auch nur so eine digitale Datei.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 784.34,
+   "ende": 787.78,
+   "text": "und dann mache ich das und dann kriege ich dafür Geld",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 787.78,
+   "ende": 790.18,
+   "text": "und das hat sich irgendwie total strange angefühlt",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 790.18,
+   "ende": 794.6,
+   "text": "und es ist auch nach wie vor so, für mich nicht mehr,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 794.72,
+   "ende": 799.96,
+   "text": "aber für die Außenwelt, die nicht in so einer Online-Selbstständigkeit ist,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 800.12,
+   "ende": 802.82,
+   "text": "dass viele sich fragen, was macht Jad eigentlich",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 802.82,
+   "ende": 804.78,
+   "text": "und ist das eigentlich richtige Arbeit",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 804.78,
+   "ende": 807.8,
+   "text": "oder auch mich fragen, suchst du dir, also inzwischen nicht mehr,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 807.8,
+   "ende": 811.9,
+   "text": "aber so anfangs auch, suchst du dir dann auch wieder einen richtigen Job",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 811.9,
+   "ende": 813.7,
+   "text": "und kann man denn davon leben",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 813.7,
+   "ende": 830.96,
+   "text": "Und ich weiß nicht, vielleicht ist das auch so allgemein, so Menschen, die jetzt zum Beispiel in handwerklichem Beruf sind und, weiß nicht, Tischler sind oder Dachdecker oder keine Ahnung, ja, für die ist das wahrscheinlich auch total schwierig vorzustellen, den ganzen Tag im Büro zu sitzen.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 830.96,
+   "ende": 849.76,
+   "text": "Und vielleicht fragen die sich auch, okay, ist das jetzt richtige Arbeit, wenn man den ganzen Tag an seinem Computer sitzt und die, die den ganzen Tag am Computer im Büro sitzen, denken sich vielleicht auch, ja, okay, die ganze Zeit nur irgendwas mit den Händen zu machen und jetzt gar nicht irgendwie im Kopf irgendwelche produktiven Ideen umsetzen.",
+   "avg_logprob": -0.045,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 849.76,
+   "ende": 861.44,
+   "text": "Das ist ja auch keine richtige Arbeit. Also vielleicht ist das allgemein so ein Ding, dass man einfach, weil man es nicht kennt, weil man es nicht greifen kann, sich auch nicht so richtig vorstellen kann, dass es richtige Arbeit ist.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 861.44,
+   "ende": 881.3,
+   "text": "Ich kann auf jeden Fall bestätigen, dass es richtige Arbeit ist und alle die Menschen, die selbstständig sind, egal ob jetzt mit einer Dienstleistung oder mit einem Produkt, können mir wahrscheinlich zustimmen, dass man als Selbstständiger einfach auch noch viel mehr Arbeit hat, die von außen gar nicht sichtbar ist.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 881.3,
+   "ende": 901.74,
+   "text": "Also das Produkt oder die Dienstleistung, die man verkauft, ist eigentlich nur die Spitze des Eisberges. Die eigentliche Arbeit bekommt halt keiner mit und damit meine ich nicht nur die eigentliche Arbeit an dem Produkt oder der Dienstleistung, also das, was für den Kunden gemacht wird, sondern die eigentliche Arbeit halt auch, um das Business halt weiterzuführen.",
+   "avg_logprob": -0.017,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 901.74,
+   "ende": 928.08,
+   "text": "Und das geht bei Buchhaltung los und das geht eben mit Marketing weiter und mit Kontakten knüpfen. Und da sind so viele Komponenten, die man als Angestellter einfach nicht hat. Und ich glaube, man arbeitet als Selbstständiger auch wesentlich effektiver, weil man natürlich weiß, dass man es für sich macht und dass jede Sache, die man nicht macht, halt am Ende dem Business schaden kann.",
+   "avg_logprob": -0.024,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 928.08,
+   "ende": 953.72,
+   "text": "Wenn man angestellt ist, bekommt man seinen Gehalt, ob man gut oder schlecht arbeitet. Und ich war ja die meiste Zeit meines beruflichen Werdegangs angestellt und weiß, dass es auch, wenn Menschen offensichtlich schlechte Ergebnisse abliefern und keine gute Arbeitsmoral haben und keine gute Arbeitseinstellung haben, dass es sehr schwer ist, solchen Personen zu kündigen oder die irgendwie rauszukriegen, vor allem in größeren Konzernen.",
+   "avg_logprob": -0.041,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 953.72,
+   "ende": 977.34,
+   "text": "Und ja, demnach gibt es da natürlich auch viele schwarze Schafe, die Ende des Monats fett ihr Gehalt absahnen, aber eigentlich nicht so viel dafür getan haben. Ich war immer jemand, wie gesagt, der sehr in seiner Arbeit aufgegangen ist und das kommt mir jetzt, glaube ich, auch zugute, dass ich meinen Ehrgeiz auch dann so in meine Selbstständigkeit mitnehmen konnte.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 977.34,
+   "ende": 992.82,
+   "text": "Ja, für alle, die sich jetzt fragen, was ist überhaupt Pinterest-Marketing? Letztendlich kann man sich das, nicht jeder, wie gesagt, nutzt Pinterest, auch ich nicht, aber nutzt Pinterest nicht, jeder nutzt Pinterest, auch ich nicht.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 992.82,
+   "ende": 1011.62,
+   "text": "So, jetzt nochmal langsam und die großen Buchstaben zuerst. Aber ich glaube, die meisten können sich inzwischen was unter Social Media Management vorstellen, also Menschen, die ja für Firmen oder auch Einzelunternehmen das Social Media managen, sprich Instagram betreuen, TikTok, Facebook und so weiter.",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 1011.62,
+   "ende": 1032.98,
+   "text": "Da werden Grafiken erstellt, da werden Texte geschrieben, da wird ein Contentplan erstellt, also was wird wann zu welchem Thema wo gepostet, da werden zum Teil Videos geschnitten und so weiter. Und Pinterest ist im Grunde auch ein weiterer Marketingkanal. Es ist kein Social-Media-Kanal, das wird oft verwechselt, sondern Pinterest ist im Grunde eine Suchmaschine, genauso wie Google.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1033.84,
+   "ende": 1042.66,
+   "text": "Nur mit dem Unterschied, dass bei Google werden ja dann die kleinen Snippets, die kleinen Texte angezeigt mit dem Link und bei Pinterest bekommt man halt Bilder angezeigt.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1042.66,
+   "ende": 1057.58,
+   "text": "Aber diese Bilder sind am Ende auch einfach nur das Cover für den Link. Das heißt, wenn ich auf die Bilder raufklicke, lande ich auf einem Ziel, wo mich derjenige, der den Pin eingestellt hat, hinhaben wollte.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1057.58,
+   "ende": 1074.8,
+   "text": "Und das ist für Unternehmen natürlich sehr interessant, weil sie ja entscheiden können, okay, möchte ich jetzt vielleicht, ich habe einen großen Blog, da möchte ich mehr Leute darauf aufmerksam machen, dann kann ich ganz viele Pins bei Pinterest hochladen, wo ich halt jeden einzelnen Blogartikel verlinke.",
+   "avg_logprob": -0.05,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1074.8,
+   "ende": 1097.44,
+   "text": "Oder ich habe vielleicht einen Online-Shop und möchte auf die einzelnen Produkte aufmerksam machen, werde aber bei Google einfach noch nicht so gut gerankt, weil ich vielleicht auch noch nicht so groß bin oder so. Und dann kann ich eben auch bei Pinterest auf die einzelnen Produkte verlinken oder eben jegliche Dienstleistungen. Also alles, was einen Link hat, kann bei Pinterest verpinnt werden.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1097.44,
+   "ende": 1117.32,
+   "text": "Und ja, Pinterest wird oft mit privaten Themen verknüpft und mit, ich sag mal, do-it-yourself-Sachen oder mit Einrichtungen oder eben auch Reisetipps und so weiter. Aber auch für Unternehmen ist das eben sehr interessant, weil sie dort sehr langfristige Reichweite erzielen.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 1117.32,
+   "ende": 1142.2,
+   "text": "Bei Social Media ist es ja so, wenn mein Reel jetzt nicht in den ersten paar Tagen durch die Decke geht, dann verpufft es halt irgendwann im Feed und in der Regel guckt sich das keiner mehr an. Bei Google ist es ja so, dass wenn ich da gerankt, also wenn ich da gefunden werde, dann werde ich da gefunden, dann werde ich heute gefunden, dann werde ich in einer Woche gefunden und dann werde ich halt auch in einem Jahr noch gefunden, wenn ich das halt alles gut aufgestellt habe.",
+   "avg_logprob": -0.021,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.97
+  },
+  {
+   "start": 1142.2,
+   "ende": 1155.42,
+   "text": "Und so ist Pinterest im Grunde genommen auch. Man wird halt immer gefunden oder kann immer gefunden werden und die ganzen Pins, die man da einstellt mit den Texten und den Links und so weiter, die sind im Grunde ewig da.",
+   "avg_logprob": -0.033,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1155.42,
+   "ende": 1178.4,
+   "text": "Und man, ja, das ist eben das Interessante für Unternehmen, man nennt das organischen Traffic, also organisch heißt ohne Werbebudget, ohne Werbemaßnahmen, sondern rein organisch wächst dann dieser Account und bringt einem Traffic, also Traffic im Sinne von Besucher auf meine Webseite, auf meinen Blog, auf meinen Podcast, auf meinen Online-Shop und so weiter und so fort.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1178.4,
+   "ende": 1195.8,
+   "text": "Und das ist natürlich trotz allem so wie Marketing generell Arbeit. Das heißt, die meisten haben dann diese klassischen Marketingkanäle im Kopf wie Unternehmen und haben nicht unbedingt noch Kapazität für weitere Aktivitäten.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.34
+  },
+  {
+   "start": 1195.8,
+   "ende": 1199.18,
+   "text": "und deshalb ist das meine Dienstleistung, die ich anbiete,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1199.74,
+   "ende": 1202.72,
+   "text": "dass wenn ein Unternehmen, ob groß oder klein, sagt,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1202.8,
+   "ende": 1204.72,
+   "text": "ich möchte gerne auf Pinterest aktiv sein",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1204.72,
+   "ende": 1206.8,
+   "text": "und ich möchte Pinterest als Plattform nutzen,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1207.5,
+   "ende": 1210.96,
+   "text": "dann biete ich komplett den Aufbau",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1210.96,
+   "ende": 1213.18,
+   "text": "dieses ganzen Pinterest-Accounts an",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1213.18,
+   "ende": 1216.0,
+   "text": "und kümmere mich dann eben auch um die monatliche Pflege,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1216.16,
+   "ende": 1218.56,
+   "text": "erstelle eben die Pins, also die Grafiken dazu,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1219.58,
+   "ende": 1222.12,
+   "text": "erstelle die Titel, die Texte dazu,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1222.54,
+   "ende": 1224.98,
+   "text": "verpinne das alles, scheiße, ich plane das alles ein,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1224.98,
+   "ende": 1242.74,
+   "text": "Ich mache im Vorfeld auch eine Keyword-Recherche und so weiter, sodass das Unternehmen oder mein Auftraggeber eigentlich nichts weiter damit zu tun haben müssen, außer die anfängliche Abstimmung. Und zudem ergibt sich dann auch das ein oder andere Mal aus der Zusammenarbeit, dass ich dann auch andere Dinge übernehme.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1242.74,
+   "ende": 1270.2,
+   "text": "Ich habe auch einen Kunden, die haben dann so ein wöchentliches Facebook-Quiz, das habe ich dann irgendwann auch übernommen und ich habe aber auch Kunden, die gar nichts mit Pinterest machen, die mich dann eher so als Online-Business-Managerin engagieren, die haben also ein gewisses Stundenkontingent im Monat, wo ich für die arbeite und das zahlen sie dann auch pro Stunde und in dieser Zeit können sie mich eben mit Dingen beauftragen, was sie für ihr Business für relevant halten.",
+   "avg_logprob": -0.029,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1270.2,
+   "ende": 1290.0,
+   "text": "Das kann dann eben auch mal Social Media Management sein, dass ich auch für Instagram zum Beispiel die ganzen Posts plane, die Grafik dafür erstelle, die Texte dafür schreibe. Das kann aber auch jemand sein, der eben Podcast hat und das alles, den Schnitt oder die Shownotes nicht alleine machen will und das nicht einplanen will und was da alles dran hängt.",
+   "avg_logprob": -0.031,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1290.0,
+   "ende": 1294.66,
+   "text": "Kann aber auch sowas sein wie Terminkoordinierung, Kooperationsvereinbarung, Aushandeln und so weiter.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1295.86,
+   "ende": 1305.16,
+   "text": "Das ist natürlich noch ein bisschen aufwendiger, weil man da wirklich so im 1 zu 1 arbeitet und nicht immer hundertprozentig flexibel seine Zeit gestalten kann.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1306.0,
+   "ende": 1315.98,
+   "text": "Ja, sodass ich aktuell eher meinen Fokus auf das Pinterest-Marketing lege und nur für ausgewählte Kunden das Online-Business-Management noch anbiete.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1316.98,
+   "ende": 1321.46,
+   "text": "Und ja, wenn man jetzt so vielleicht nicht alles verstanden hat, was ich gesagt habe,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1321.54,
+   "ende": 1325.88,
+   "text": "aber zumindest wahrscheinlich so viel, dass man merkt, dass ich das tatsächlich von überall machen kann",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1325.88,
+   "ende": 1328.9,
+   "text": "und es halt total egal ist, wo wir wohnen.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1328.9,
+   "ende": 1332.56,
+   "text": "Und auch jetzt zum Beispiel mit der Zeitverschiebung, das eigentlich überhaupt kein Problem darstellt.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1332.64,
+   "ende": 1338.64,
+   "text": "Ganz im Gegenteil, ich persönlich finde diese Zeitverschiebung, die jetzt hier nach Asien geht, total super.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1339.28,
+   "ende": 1343.82,
+   "text": "Denn man ist ja sechs Stunden, jetzt in der Zeit ist sechs Stunden, in der Sommerzeit,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1343.82,
+   "ende": 1345.46,
+   "text": "mit deutscher Sommerzeit sind es fünf Stunden.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1346.0,
+   "ende": 1347.66,
+   "text": "Das heißt, ich bin ja schon sechs Stunden,",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1348.42,
+   "ende": 1351.68,
+   "text": "sag ich mal, kann schon sechs Stunden was machen,",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1351.98,
+   "ende": 1353.12,
+   "text": "am Business arbeiten,",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1353.42,
+   "ende": 1355.1,
+   "text": "bevor meine Kunden überhaupt aufstehen",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1355.1,
+   "ende": 1356.64,
+   "text": "oder im Büro sind.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1358.14,
+   "ende": 1361.86,
+   "text": "Und ja, ich habe jetzt nicht die Sache,",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1361.96,
+   "ende": 1364.28,
+   "text": "dass ich ständig Kundenkontakt habe täglich",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1364.28,
+   "ende": 1365.52,
+   "text": "oder ständig Meetings habe,",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1365.58,
+   "ende": 1367.04,
+   "text": "wo man sich mit Zeiten abstimmen muss.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1367.7,
+   "ende": 1370.52,
+   "text": "Und deshalb ist das natürlich super,",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1370.52,
+   "ende": 1372.04,
+   "text": "weil ich dann, selbst wenn ich jetzt weiß,",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1372.04,
+   "ende": 1375.46,
+   "text": "okay, ich hätte gestern noch was für den Kunden machen müssen und ich habe es einfach nicht geschafft,",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1375.88,
+   "ende": 1382.64,
+   "text": "dann mache ich es halt morgen früh, weil ich dann ja immer noch mindestens sechs Stunden in der Zukunft bin.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1383.5,
+   "ende": 1391.16,
+   "text": "Genau. Und bisher war es ja so in Deutschland, dass wir eben meine Selbstständigkeit hatten",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1391.16,
+   "ende": 1396.16,
+   "text": "und Hagen im Angestelltenverhältnis war und wir eben auch dann sein Gehalt hatten",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1396.16,
+   "ende": 1398.14,
+   "text": "und das von meiner Selbstständigkeit.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1398.14,
+   "ende": 1407.0,
+   "text": "Nur von meiner Selbstständigkeit, von dem, was jetzt da reinkam, hätten wir zu viert in Deutschland auf jeden Fall nicht leben können",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1407.0,
+   "ende": 1409.1,
+   "text": "Was ja aber auch gar nicht zur Debatte stand",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1409.1,
+   "ende": 1416.2,
+   "text": "Ich glaube, es ist allgemein inzwischen schwer, nur von einem Gehalt in Deutschland zu leben als Familie",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1417.54,
+   "ende": 1426.14,
+   "text": "Hier jetzt in Thailand war, also es war von Anfang an klar, dass wenn wir hierher gehen, dass wir eben dann erstmal nur mein Einkommen haben",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1426.78,
+   "ende": 1428.68,
+   "text": "was aus meiner Selbstständigkeit generiert wird.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1429.3,
+   "ende": 1433.9,
+   "text": "Und das reicht, ich sage jetzt mal gerade so, also das war uns auch vorher klar.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1435.18,
+   "ende": 1439.08,
+   "text": "Aber es war natürlich auch klar, dass wenn wir dann da sind, auch wir gucken,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1439.24,
+   "ende": 1443.22,
+   "text": "okay, was kann Hagen da machen, weil wir schon in dem Jahr gemerkt haben,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1443.7,
+   "ende": 1447.34,
+   "text": "dass es viele Sachen leichter sind, wenn man sie hier vor Ort auscheckt",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1447.34,
+   "ende": 1451.06,
+   "text": "und nicht versucht, das von Deutschland irgendwie schon festzumachen.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1451.9,
+   "ende": 1455.3,
+   "text": "Es ist ja so, dass wir unser Visum, was wir haben, das DTV-Visum,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1455.3,
+   "ende": 1459.34,
+   "text": "kein Arbeitsvisum ist. Das heißt, keiner von uns kann hier ganz klassisch in Thailand",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1459.34,
+   "ende": 1465.08,
+   "text": "irgendwo als Angel arbeiten. Mal abgesehen davon, dass die Einkommensstruktur hier in",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1465.08,
+   "ende": 1472.86,
+   "text": "Thailand natürlich fernab von dem ist, was wir so kennen. Und natürlich auch hier, wenn",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1472.86,
+   "ende": 1477.56,
+   "text": "man acht, neun Stunden hier arbeiten geht für das, was man dafür an Gehalt bekäme,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1477.8,
+   "ende": 1482.76,
+   "text": "man hier auf jeden Fall auch nicht leben könnte. Sodass da auch gar nicht so das Ansinnen war,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1482.76,
+   "ende": 1487.48,
+   "text": "okay, einer von uns sucht sich dann hier wieder einen festen Job oder wir beide oder wie auch immer.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1488.92,
+   "ende": 1493.7,
+   "text": "Wir hatten die Idee sowas wie, das habt ihr vielleicht auch schon, wenn ihr mal in Thailand wart,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1493.84,
+   "ende": 1501.82,
+   "text": "also hier werden ja viele Unterkünfte auch von Privatpersonen vermietet, was dann bei Airbnb ist oder zum Teil aber auch bei Booking.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1502.38,
+   "ende": 1511.1,
+   "text": "Das heißt, auch Ausländer oft, also Touristen fanden das hier toll, mieten, kaufen dann entweder ein Haus oder mieten das langfristig an",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1511.1,
+   "ende": 1514.5,
+   "text": "und vermieten es dann an Touristen wesentlich teurer weiter,",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1514.5,
+   "ende": 1519.78,
+   "text": "weil die Langzeitmieten hier natürlich, wenn man monatlich über einen längeren Zeitraum was anmietet,",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1519.88,
+   "ende": 1523.98,
+   "text": "das dann günstiger ist und ich es ja an einen Touristen, der drei, vier, fünf Nächte bleibt,",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1524.38,
+   "ende": 1526.68,
+   "text": "pro Nacht deutlich teurer weiter vermieten kann.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1527.48,
+   "ende": 1532.22,
+   "text": "Das war so eine Idee, die wir für Hagen auch hatten, weil er grundsätzlich ja auch,",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1532.28,
+   "ende": 1536.62,
+   "text": "er hat ja im Außendienst gearbeitet und alle seine ehemaligen Kunden, die hier zuhören,",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1536.62,
+   "ende": 1541.5,
+   "text": "wissen ja, dass er das auch gut kann, also gut verkaufen kann, gut reden kann und auch",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1541.5,
+   "ende": 1546.44,
+   "text": "eigentlich so diesen Austausch mit Menschen braucht. Also er, während ich ja tatsächlich",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1546.44,
+   "ende": 1550.82,
+   "text": "die ganze Zeit für mich alleine an meinem Laptop sitze, ist Hagen eigentlich jemand,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1550.82,
+   "ende": 1557.52,
+   "text": "der raus muss und unter Leute muss. Und ich bin halt das Gegenteil. Und genau, deswegen",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1557.52,
+   "ende": 1561.6,
+   "text": "haben wir gedacht, wenn wir sowas mit der Vermietung machen, dann hat er so diese Gästekommunikation.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1561.72,
+   "ende": 1563.86,
+   "text": "Grundsätzlich kommen wir ja auch beide aus der Tourismusbranche.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1564.76,
+   "ende": 1567.82,
+   "text": "Und es ist aber nicht so ganz sauber hier diese Nummer.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1568.06,
+   "ende": 1572.5,
+   "text": "Also das ist so ein Graubereich, weil das eigentlich nicht so richtig erlaubt ist.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1572.6,
+   "ende": 1574.0,
+   "text": "Aber irgendwie machen es trotzdem alle.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1574.28,
+   "ende": 1576.3,
+   "text": "So eine Dinge hat man ja viel in Thailand.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1577.68,
+   "ende": 1579.7,
+   "text": "Wir haben jetzt aber hier auch einen Nachbarn.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1579.86,
+   "ende": 1583.26,
+   "text": "Das ist auch ein Deutscher mit einer thailändischen Frau, die das gemacht haben.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1583.34,
+   "ende": 1585.02,
+   "text": "Und das Business läuft eben auf die Thai-Frau.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1585.02,
+   "ende": 1588.5,
+   "text": "Und die haben auch gesagt, dass das nicht ohne ist.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1588.5,
+   "ende": 1591.7,
+   "text": "sondern dass sie auch die Erfahrung tatsächlich selber in Bangkok gemacht haben.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1592.34,
+   "ende": 1596.8,
+   "text": "Die haben das zuvor in Bangkok gemacht, dass dann jemand kam und, also die Polizei kam, nicht jemand,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1597.26,
+   "ende": 1602.22,
+   "text": "und die Gäste dann aus der Ferienwohnung rausgeholt hat, weil es eben nicht erlaubt ist,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1602.22,
+   "ende": 1607.16,
+   "text": "an Touristen sowas weiter zu vermieten, was man eigentlich privat hat.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1607.76,
+   "ende": 1612.14,
+   "text": "Und dann konnten sie das da halt nicht weitermachen, haben auch natürlich einige Kosten gehabt,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1612.3,
+   "ende": 1613.72,
+   "text": "auf denen sie dann sitzen geblieben sind.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1613.72,
+   "ende": 1628.86,
+   "text": "Und er hat auch gesagt, er hat ja sozusagen das zumindest offiziell vom Business, weil seine Teilfrau das angemeldet hat, er sagte, er würde es rein als Ausländer nicht machen, zumindest nicht zur Zeit, weil sie da halt stark gegen vorgehen.",
+   "avg_logprob": -0.045,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 1628.86,
+   "ende": 1643.9,
+   "text": "Sodass, ja, diese Geschäftsidee, nenne ich jetzt mal auch so ein bisschen, ja, geplatzt ist. Genau. Und deshalb ist es im Moment so, dass Hagen erst mal ein bisschen bei mir mit mich unterstützt.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.35
+  },
+  {
+   "start": 1643.9,
+   "ende": 1659.08,
+   "text": "Und bisher gab es ja auch keinen Grund, dass er da irgendwie groß was von dem versteht, was ich da mache und eigentlich auch nicht so richtig Bock darauf hatte. Aber ja, jetzt haben wir halt gesagt, er guckt halt immer mal mit rein, was ich so mache.",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 1659.08,
+   "ende": 1680.06,
+   "text": "Ich übergebe ihm immer mal ein paar Dinge, die ja anfangs erstmal nicht so, also ich sage jetzt mal so abarbeiten Themen sind und so, dass wir halt einfach beide dann, also ich dann auch mehr Zeit habe und nicht jetzt ich den ganzen Tag arbeite und er dann mit den Kindern irgendwie alleine was macht, sondern dass wir das so ein bisschen aufteilen.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1680.06,
+   "ende": 1702.9,
+   "text": "Und ja, tatsächlich im Moment noch nicht so 100 Prozent entschieden haben, ob wir den Fokus darauf legen, dass Hagen gänzlich mit einsteigt und wir dadurch dann auch versuchen, noch mehr Kunden zu gewinnen, sodass wir tatsächlich beide diesen Job machen, weil es eben eigentlich nicht so richtig das für ihn ist, die ganze Zeit nur am Computer zu arbeiten.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1702.9,
+   "ende": 1721.36,
+   "text": "Wobei man auch sagen muss, man darf sich das ja auch nicht so vorstellen, das ist ja das Schöne, man sitzt ja nicht irgendwie mehrere Stunden in irgendeinem Büro, sondern wenn ich sage, den ganzen Tag am Computer arbeiten, dann heißt das, ich sitze halt auch morgens draußen und gucke auf die Palmen oder wenn man was am Handy machen muss, kann man das auch mal von unterwegs machen.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1722.2,
+   "ende": 1729.86,
+   "text": "Wir haben hier natürlich auch einen Schreibtisch, aber ja, es ist, sage ich mal, es gibt auf jeden Fall schlimmere Arbeitsbedingungen.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1730.56,
+   "ende": 1733.44,
+   "text": "Ja, sodass er jetzt auch nicht super unzufrieden damit ist.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1734.26,
+   "ende": 1741.94,
+   "text": "Ja, aber wie gesagt, wir haben jetzt noch nicht final entschieden, ob wir den Fokus wirklich darauf legen, das weiter auszubauen und das einfach zusammen zu machen.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1741.94,
+   "ende": 1747.78,
+   "text": "Oder ob Hagen sich halt selbst etwas sucht, womit er sich selbstständig macht.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1747.78,
+   "ende": 1768.82,
+   "text": "Und da auch schon ein, zwei, drei Ideen sind, die wir jetzt aber im Moment trotzdem erstmal hinten angestellt haben, weil aus meiner Erfahrung oder jeder, der selbstständig ist, es ist natürlich schon schwierig, ein komplett neues Business von null anzufangen und aufzubauen.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 1768.82,
+   "ende": 1794.92,
+   "text": "Es kostet unglaublich viel Zeit, Kosten nicht unbedingt, weil in dieser Online-Selbstständigkeit hat man zumindest sehr wenig Fixkosten, aber es kostet trotzdem Zeit sehr viel und an der einen oder anderen Stelle auch Geld und ja, wir sind ja jetzt gerade mal zwei Monate hier und haben dann halt auch gesagt, okay, wie realistisch ist es jetzt nebenbei noch, wo man sich hier mit seinem Alltag irgendwie erstmal eingrooven muss, wirklich eine komplett neue Selbstständigkeit aufzubauen.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1794.92,
+   "ende": 1802.36,
+   "text": "und genau, deshalb haben wir die Ideen, aber bisher sind wir sie noch nicht aktiv angegangen",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1802.36,
+   "ende": 1808.18,
+   "text": "und ja, um die Frage dann zu beantworten, was machen wir eigentlich jetzt beruflich,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1808.96,
+   "ende": 1812.82,
+   "text": "ich eben alles das, was ich schon die letzten dreieinhalb Jahre mache",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1812.82,
+   "ende": 1819.3,
+   "text": "und Hagen unterstützt mich ein bisschen und wir sind dann aber noch auf der Suche,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1819.3,
+   "ende": 1845.78,
+   "text": "Was heißt auf der Suche? Wir gucken halt mal, wie sich das so in den nächsten Monaten ergibt. Fakt ist trotz allem, dass so aktuell wie der Stand jetzt ist mit dem Kundenstamm und dem, was wir haben, wir hier klarkommen, aber auch nicht großartig große Sprünge machen können oder jetzt auch nicht noch zweimal im Jahr nach Deutschland fliegen können oder mal Urlaub vor dem Urlaub machen können und so weiter.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1845.78,
+   "ende": 1862.16,
+   "text": "Oder wenn es hier nochmal eine Mieterhöhung gäbe. Also hatten wir auch schon gesagt, Cosamo ist ja sehr teuer geworden. Also es ist halt alles im Rahmen, aber man möchte natürlich jetzt auch nicht die ganze Zeit irgendwie so einen Zustand von dem Gefühl haben, man ist so auf Kante genäht.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 1862.16,
+   "ende": 1882.36,
+   "text": "Natürlich haben wir auch einen Puffer, auch das haben wir ja schon mal gesagt, aber der sollte jetzt eigentlich nur für Notfälle sein und nicht irgendwie uns jetzt die nächsten zwei Jahre täglich, dass wir uns täglich daraus bedienen, sodass natürlich trotzdem das Ziel ist, dass auch Hagen irgendwas findet oder eben wir das bei mir weiter ausbauen.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1882.36,
+   "ende": 1903.4,
+   "text": "Genau. So viel zu, was machen wir eigentlich beruflich? Wenn jetzt jemand hier zugehört hat und sich gedacht hat, Mensch, das, was die dir über Pinterest erzählt hat, das hört sich ja spannend an. Ich bin selber ein Unternehmen, ich möchte das auch. Oder ich kenne jemanden, für den das spannend sein könnte, dann leitet das gerne mal weiter.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1903.4,
+   "ende": 1925.26,
+   "text": "Ich verlinke in den Shownotes auch nochmal meine Webseite. Da sind auch alle meine Angebote drauf. Und wenn jetzt jemand zuhört, der sagt, ich bräuchte halt eigentlich jemanden, der mich so allgemein im Business unterstützt in Richtung Online-Business-Management oder virtuelle Assistenz, könnt ihr mich auch gerne anschreiben.",
+   "avg_logprob": -0.038,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1925.26,
+   "ende": 1949.58,
+   "text": "Wie gesagt, wir gucken dann einfach, inwieweit das passt. Ich habe da inzwischen auch einen gewissen Anspruch an meine Kunden, weil ich auch schon ein, zwei, drei faule Äpfel dabei hatte, die wenig investieren wollen und gerne möchten, dass man irgendwie in fünf Stunden im Monat ihr ganzes Unternehmen leitet, was natürlich nicht funktioniert.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1949.58,
+   "ende": 1967.44,
+   "text": "Deshalb bin ich da inzwischen einfach ein bisschen anspruchsvoller. Aber die meisten, die aktuell noch den Podcast hören, haben ja irgendwie einen Bezug zu mir oder ich zu euch oder man kennt sich irgendwie über fünf Ecken, sodass man da bestimmt eine Lösung finden würde, wenn ihr tatsächlich jemanden wie mich bräuchtet.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1967.44,
+   "ende": 1988.42,
+   "text": "Ja, und ansonsten könnt ihr auch gerne mal Vorschläge machen. Ich gucke mal, ob das so eine Umfrage ist. Ja, ich glaube, ich hatte letzte Woche auch schon einen drin. Also, wenn ihr Ideen habt, was Hagen machen könnte, schreibt das doch mal irgendwo hin, in die Kommentare vielleicht oder uns so.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1988.42,
+   "ende": 1992.08,
+   "text": "genau, Fakt ist halt, dass wir auf jeden Fall",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1992.08,
+   "ende": 1994.08,
+   "text": "nichts machen können, beide, wo wir hier",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1994.08,
+   "ende": 1995.6,
+   "text": "irgendwie in Thailand eine",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1995.6,
+   "ende": 1997.34,
+   "text": "Arbeitserlaubnis bräuchten",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1997.34,
+   "ende": 1999.56,
+   "text": "okay, gut, dann",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1999.56,
+   "ende": 2002.12,
+   "text": "eine sehr informative Folge heute",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 2002.12,
+   "ende": 2003.94,
+   "text": "glaube ich, vielleicht auch für den einen",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 2003.94,
+   "ende": 2006.04,
+   "text": "anderen so, boah, ich habe nur die Hälfte verstanden",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 2006.04,
+   "ende": 2007.16,
+   "text": "von dem, was die da erzählt",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 2007.16,
+   "ende": 2009.54,
+   "text": "ja, und dann",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 2009.54,
+   "ende": 2011.62,
+   "text": "hören wir uns nächste Woche wieder",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 2011.62,
+   "ende": 2012.62,
+   "text": "bis bald",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  }
+ ]
+}

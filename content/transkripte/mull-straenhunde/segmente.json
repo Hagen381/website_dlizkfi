@@ -1,0 +1,2250 @@
+{
+ "meta": {
+  "slug": "mull-straenhunde",
+  "titel": "Müll & Straßenhunde",
+  "datum": "2025-10-27T06:00:00.000Z",
+  "dauer_sekunden": 2208,
+  "guid": "70680886-c596-4988-9db1-0907f406e964",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T08:12:40Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 6,
+   "transkription": 2336
+  },
+  "echtzeitfaktor": 1.06,
+  "anzahl_segmente": 278,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.27,
+   "ende": 14.26,
+   "text": "Eben, wer das auf Instagram vielleicht verfolgt hat, hat hier der Archie eine Schlange erlegt. Das haben wir schon mal beobachtet.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.44,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 14.4,
+   "ende": 25.36,
+   "text": "Der nimmt die dann quasi in der Mitte ins Maul und schüttelt den Kopf, also wirft seinen Kopf richtig schnell von links nach rechts, dass die Schlange quasi erschüttelt wird, würde ich jetzt mal sagen.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.44,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 25.36,
+   "ende": 33.15,
+   "text": "Hallo, herzlich willkommen bei Glitzkvieh.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.696,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 34.25,
+   "ende": 40.79,
+   "text": "Ich habe heute mal ein etwas nicht so erfreuliches Thema mitgebracht,",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.696,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 41.05,
+   "ende": 48.39,
+   "text": "beziehungsweise habe ich ja gedacht, dass wir auch mal über die Schattenseiten vom Paradies reden können.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.696,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 48.39,
+   "ende": 51.19,
+   "text": "Und da gibt es sicherlich einige.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.696,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 51.47,
+   "ende": 58.75,
+   "text": "Ich werde mich jetzt mal auf die Bereiche Müll und Straßenhunde beziehen,",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.696,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 58.75,
+   "ende": 86.71,
+   "text": "Weil das einfach so die beiden Themenbereiche sind, mit denen wir eigentlich am meisten konfrontiert sind. Und ich denke, ja, im Grunde ist es ja klar, dass nicht überall, wo es schön ist, alles schön ist. Das ist halt nicht alles nur Palm und türkises Wasser und strahlend blauer Himmel und Sonnenschein und Urlaubsfeeling und Beachvibes und alle haben gute Laune und alles ist immer schön.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 86.71,
+   "ende": 108.11,
+   "text": "Also ich denke, das ist generell wahrscheinlich auch jedem klar, dass es auch andere Seiten in jedem Land gibt und natürlich auch in Thailand und eben vor allem auch in paradiesischen Orten, Inseln, wo auch viel Tourismus ist, dass das eben auch den einen oder anderen Nachteil mit sich bringt.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 109.11,
+   "ende": 114.95,
+   "text": "Und ich denke, die meisten, die schon mal irgendwo in Südostasien unterwegs waren,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 114.95,
+   "ende": 118.05,
+   "text": "denen wird vermutlich, wenn sie wieder zu Hause waren,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 118.19,
+   "ende": 124.27,
+   "text": "auch als negativer Beigeschmack oft in Erinnerung der Müll geblieben sein.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 125.13,
+   "ende": 128.35,
+   "text": "Denn das ist tatsächlich nicht wegzugucken.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 128.77,
+   "ende": 133.85,
+   "text": "Also wenn man in Thailand Urlaub macht, sieht man eigentlich überall,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 133.85,
+   "ende": 150.07,
+   "text": "Also an jeder Straßenecke, an jedem Hang, an jedem Strand, eigentlich liegt überall Müll rum. Wir persönlich finden, dass Thailand da noch okay ist. Also wir waren in Ländern wie Kambodscha, wo das deutlich schlimmer ist.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.32
+  },
+  {
+   "start": 150.07,
+   "ende": 178.07,
+   "text": "Also ich denke, so von den südostasiatischen Ländern ist Thailand da noch ganz gut aufgestellt. Nichtsdestotrotz ist das auch ein bisschen jahreszeitenabhängig. Also je nachdem, wie so die Winde stehen, ob Regenzeit ist und so weiter, wie die Meeresströmungen sind, ist dann auch nochmal ein bisschen mehr Müll, vor allem an den Stränden, aber auch im Inneren einfach durch die Regenfälle, was vom Berg runterkommt, als zu anderen Jahreszeiten.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 178.07,
+   "ende": 193.49,
+   "text": "Das heißt, je nachdem, zu welcher Jahreszeit man hier ist, empfindet man das vielleicht als schlimmer. Also dann sagt vielleicht einer, der in Thailand im Urlaub war, Mensch, das war ja total krass mit dem Müll und jemand anderes sagt halt, hä, so schlimm fand ich das gar nicht.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.037,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 193.49,
+   "ende": 218.25,
+   "text": "Also das kann durchaus wirklich sein, je nachdem wann man hier war. Aber Fakt ist, dass natürlich ein Müllproblem hier herrscht, keine Frage. Und es ist jetzt nicht so, dass es keine Müllabfuhr gibt. Also wir hatten auch, ich weiß gar nicht, ob das in Vietnam oder in Kambodscha war, da gab es halt auch einfach Orte, wo gesagt wurde, es gibt schlicht und ergreifend kein Entsorgungssystem, keine Müllabfuhr, gar nichts.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 218.25,
+   "ende": 239.75,
+   "text": "Also die Leute wissen einfach überhaupt nicht, was sie mit dem Müll machen sollen. Das ist jetzt hier auf Koh Samui zum Beispiel nicht so. Es gibt hier eine Müllabfuhr. Auch bei uns, wo wir wohnen, die kommen jeden Abend gegen 22.30 Uhr eigentlich. Es ist aber nicht so wie in Deutschland, dass die Müllabfuhr quasi zu jedem Haus kommt und jedes Haus irgendwie eine eigene Mülltonne hat.",
+   "avg_logprob": -0.039,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 239.75,
+   "ende": 257.61,
+   "text": "Oder in Deutschland ja sogar mehrere Mülltonnen, passend zur Mülltrennung. Also Mülltrennung in dem Sinne gibt es hier schon mal gar nicht. Aber es gibt halt, es sind eben so Sammelstellen. Das heißt, wer seinen Müll entsorgt haben möchte, muss den dann eben auch zu dieser Sammelstelle hinbringen.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 258.13,
+   "ende": 263.77,
+   "text": "Bei uns ist das jetzt so, dass die wirklich, ja, weiß ich nicht, so 30 Meter entfernt ist.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 263.87,
+   "ende": 266.23,
+   "text": "Das heißt, es ist überhaupt kein Problem, da seinen Müll hinzubringen.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 266.89,
+   "ende": 270.67,
+   "text": "Aber es gibt dann halt auch natürlich, je nachdem, wo man wohnt,",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 270.67,
+   "ende": 275.11,
+   "text": "ist es schon auch mit Aufwand verbunden, seinen Müll dort zu diesen Sammelstellen zu bringen.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 275.27,
+   "ende": 278.97,
+   "text": "Und das macht halt im Zweifel einfach nicht jeder, also vor allem eben auch die Einheimischen.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 279.81,
+   "ende": 284.79,
+   "text": "Und für die ist dann eben die Alternative, dass sie den Müll einfach verbrennen.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 284.79,
+   "ende": 300.71,
+   "text": "Und da macht sich natürlich auch keiner wie zu Hause beim Lagerfeuer Gedanken, ja darf ich das jetzt, ist der Wind gut, ist da auch wirklich nur reines Holz drauf, ist das auch durchgetrocknet, damit es nicht raucht oder keine Ahnung, sondern hier wird halt einfach alles verbrannt.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 300.71,
+   "ende": 320.85,
+   "text": "Ja, also ob das Autoreifen sind oder Dosen, da liegen Flaschen drauf, dann natürlich auch die Palmblätter und so, hier entsteht ja auch viel Laub durch die ganzen Palmblätter, aber es wird dann einfach alles vermischt und in größeren oder kleineren Haufen verbrannt und das ist auch ganz üblich.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 320.85,
+   "ende": 334.01,
+   "text": "Und es gibt halt auch Jahreszeiten, wo die Luftqualität da auch einfach darunter leidet, weil einfach so viel Müll verbrannt wird, dass man das auch wirklich merkt so in der Luft und auch natürlich konstant riecht.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 334.99,
+   "ende": 343.73,
+   "text": "Aber ja, ich wollte mal an so einem kleinen Beispiel, damit man mal so eine Vorstellung hat, also woher kommt denn auch der Müll? Warum ist denn überhaupt so viel Müll da?",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 343.73,
+   "ende": 352.17,
+   "text": "und Thailand hat ja so eine sehr ausgeprägte Streetfood-Kultur",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 352.17,
+   "ende": 356.25,
+   "text": "und ist ja da auch einfach für die thailändische Küche ein bisschen bekannt",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 356.25,
+   "ende": 361.83,
+   "text": "und hier ist es einfach üblich, dass die Menschen, also auch die Einheimischen,",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 362.61,
+   "ende": 363.93,
+   "text": "sich oft Essen holen.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 363.93,
+   "ende": 370.63,
+   "text": "Also es ist tatsächlich in der Regel, also wenn man jetzt von klassischem Thai-Streetfood-Stand ausgeht",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 370.63,
+   "ende": 377.03,
+   "text": "und nicht irgendwelche fancy Sachen, die dann auch Burger oder so mal Pizza verkaufen",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 377.03,
+   "ende": 383.99,
+   "text": "oder die jetzt irgendwie den, keine Ahnung, neuen Klassiker-Smoothie super pimpen.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 384.37,
+   "ende": 387.25,
+   "text": "Das meine ich jetzt nicht. Das gibt es natürlich hier auf Koh Samui auch alles.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 387.39,
+   "ende": 389.21,
+   "text": "Also es gibt auch alles in super teuer.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 389.99,
+   "ende": 393.85,
+   "text": "Aber wenn man jetzt mal so von so einer ganz klassischen thailändischen Garküche ausgeht,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 393.85,
+   "ende": 397.61,
+   "text": "ist es auch für die Einheimischen in der Regel billiger, sich das Essen zu holen,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 397.67,
+   "ende": 399.35,
+   "text": "als es zu Hause selber zu kochen.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 400.03,
+   "ende": 407.77,
+   "text": "Und auch wir rechnen das teilweise auch jetzt immer so hin und her und kochen mal, holen was und rechnen uns dann raus,",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 407.77,
+   "ende": 413.65,
+   "text": "okay, was ist denn jetzt günstiger gewesen, lohnt es sich überhaupt zu kochen?",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 413.89,
+   "ende": 419.27,
+   "text": "Sodass also die ganze Esskultur darauf ausgelegt ist, dass man sich Essen eben mitnimmt.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 419.77,
+   "ende": 428.19,
+   "text": "Und der klassische Garküchenbetreiber hat in der Regel nicht das Geld, bei seinen Verpackungsmaterialien auf Nachhaltigkeit zu achten.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 428.19,
+   "ende": 447.37,
+   "text": "Also Nachhaltigkeit ist ja einfach mal ein Luxusproblem. Und dann wird das eben in Plastiktüten und Asietten verkauft. Und auch da ist dann noch nicht so das Bewusstsein da, okay, vielleicht kann ich das ja irgendwie sinnvoller kombinieren, dass ich eben nicht so viel Plastik rausgebe.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 447.95,
+   "ende": 455.15,
+   "text": "Sondern da ist es dann auch so, und das habe ich hier mal an so einem Beispiel, wenn wir uns eine Suppe holen, wir essen ganz gerne so eine Hühnersuppe.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.98
+  },
+  {
+   "start": 455.73,
+   "ende": 463.93,
+   "text": "Wir sind ja vier Personen, also wenn wir für vier Personen Suppe holen, dann sind das schon mal acht Beutel nur für die Brühe und die Nudeln.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.98
+  },
+  {
+   "start": 463.93,
+   "ende": 473.57,
+   "text": "Das heißt, die Brühe wird in einen separaten Plastikbeutel gemacht, der wird mit einem Gummi zugemacht und die Nudeln werden in einen separaten Beutel gemacht, die auch mit einem Gummi zugemacht werden.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.98
+  },
+  {
+   "start": 473.67,
+   "ende": 477.25,
+   "text": "Und diese beiden Beutel werden dann nochmal mit einem Gummi zusammengebunden.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.98
+  },
+  {
+   "start": 477.93,
+   "ende": 482.09,
+   "text": "Das heißt, in unserem Fall sind das schon mal acht Beutel, nur für die Brühe und die Nudeln.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 482.65,
+   "ende": 488.71,
+   "text": "Dann gibt es vier so eine kleinen Beutelchen, die jeweils auch mit einem Gummi zugebunden sind, mit so scharfer Soße.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 489.43,
+   "ende": 494.81,
+   "text": "Dann gibt es vier so eine kleinen Säckchen, wo links Chili drin ist und rechts Zucker.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 495.27,
+   "ende": 498.09,
+   "text": "Die sind nicht nochmal mit einem Gummi verschlossen, die sind quasi zugeschweißt.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 498.63,
+   "ende": 503.37,
+   "text": "Dann gibt es viermal Holzstäbchen in einer jeweiligen Plastikverpackung.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 503.37,
+   "ende": 509.33,
+   "text": "und dann gibt es da noch so eine Bittermelone, heißt das, das ist nochmal in einem Extrabeutel,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 509.43,
+   "ende": 512.29,
+   "text": "weil das nicht jeder mag, sind auch nochmal vier Beutel",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 512.29,
+   "ende": 517.25,
+   "text": "und dann gibt es natürlich noch ein bis zwei große Beutel, wo all diese Beutel reinkommen.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 517.79,
+   "ende": 522.83,
+   "text": "Das heißt jetzt in unserem Fall, wenn wir für eine Mahlzeit für vier Personen eine Suppe holen,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 522.83,
+   "ende": 527.87,
+   "text": "also vier Suppen holen, sind das 30 Plastiktüten-Verpackungen",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 527.87,
+   "ende": 531.25,
+   "text": "und damit haben wir halt nur eine Mahlzeit abgedeckt.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 531.25,
+   "ende": 551.93,
+   "text": "Da haben wir auch noch nichts getrunken, wenn man sich dann zum Beispiel noch einen Shake, einen Obstshake dazu holt oder einen Eiskaffee oder einen Eistee, was auch immer, dann ist der halt auch nochmal in einer Plastikverpackung, die wiederum in einen Plastikbeutel gemacht wird mit Henkeln, mit einem Plastikstrohhalm, der in Plastik verpackt ist.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 552.69,
+   "ende": 567.39,
+   "text": "Denn die meisten hier, also sowohl die Touristen als auch die Einheimischen, also die Touristen, die hier unterwegs sind, viele fahren ja dann auch mit Hoteltransfers und so, aber die sich selbst fortbewegen und auch die Einheimischen eben fahren halt eben die meisten mit Roller.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 567.39,
+   "ende": 574.29,
+   "text": "Das heißt, wenn die sich unterwegs Sachen holen, muss das halt auch alles so in den Händen, sage ich mal, transportierbar sein.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 574.83,
+   "ende": 580.11,
+   "text": "Und da nützt dann nicht so eine Viererpackung, wie wir das von McDonalds kennen, wo man dann die vier Becher reinstellen kann,",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 580.19,
+   "ende": 585.07,
+   "text": "sondern dann muss ich halt auch den Shake-Becher irgendwie transportieren können.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 585.17,
+   "ende": 588.07,
+   "text": "Am besten so, dass ich ihn an den Rollerlenker hängen kann.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 588.83,
+   "ende": 594.01,
+   "text": "Und dadurch entsteht das halt, dass eben auch die Getränke nochmal extra in so Plastiktüten sind,",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 594.01,
+   "ende": 601.25,
+   "text": "die extra für so eine Becher quasi entworfen sind, um die eben alle in mehrere Sachen in die Hand zu nehmen.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 601.25,
+   "ende": 610.49,
+   "text": "Also man sieht dann auch auf den Rollern, dann sitzen, also der eine Teil fährt halt und der andere sitzt halt hinten und hat halt wirklich beide Hände voll mit ganz vielen Tüten.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 610.87,
+   "ende": 624.97,
+   "text": "Und ja, so entsteht natürlich schon mal per se einfach viel mehr Müll als in der Esskultur, wie wir sie vielleicht aus Deutschland kennen, wo natürlich in der Regel zu Hause gegessen wird oder wenn man essen geht, dann im Restaurant isst.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 624.97,
+   "ende": 654.59,
+   "text": "Aber jeder, der halt sich mal bei McDonald's was geholt hat, weiß ja, wie viel Müll man da schon in der Hand hat, was zum größten Teil ja Papier ist. Und das ist hier aber einfach, also wenn man sich jetzt überlegt, dass irgendwie der Großteil der Deutschen sich bei McDonald's oder allen anderen Anbietern, was auch immer, ich will hier keine McDonald's Werbung machen, aber wenn man überlegt, wie viel man da an Verpackungsmaterial hat und wenn man das zwei, dreimal am Tag macht,",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 654.59,
+   "ende": 670.03,
+   "text": "Weil man eben immer auswärts ist und sich das immer mitnimmt und das täglich, hätten wir ja auch, also auch in Deutschland ein anderes Müllproblem. Und hier ist das halt so, hier gehört das halt zur Kultur, dass alles, sag ich mal, vor Take-away irgendwie aufbereitet ist.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 670.03,
+   "ende": 676.87,
+   "text": "und jeder halt immer schnell alles überall mit hinnehmen kann zu diesen Straßenständen,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 676.95,
+   "ende": 679.81,
+   "text": "wo sich viel Essen geholt wird, gibt es ja auch unglaublich viele Märkte,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 680.39,
+   "ende": 686.45,
+   "text": "Frühstücksmärkte, Nachtmärkte, Wochenendmärkte und auch da geht natürlich jeder rüber,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 686.45,
+   "ende": 690.63,
+   "text": "da stehen auch in der Mitte immer Tische und man könnte theoretisch da auch was essen,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 691.17,
+   "ende": 695.67,
+   "text": "aber selbst wenn sie das dort essen, ist der Ablauf trotzdem so,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 695.67,
+   "ende": 704.37,
+   "text": "dass man erst komplett über den Markt geht, sich jeder alles holt, eben in Tüten und sich dann alle irgendwo an irgendeinen Tisch setzen oder auf dem Boden.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 704.57,
+   "ende": 709.91,
+   "text": "Die essen ja auch viel auf dem Boden, also machen wir auch. Und man das da dann halt alles wieder auspackt.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 710.27,
+   "ende": 721.35,
+   "text": "Und ja, das heißt, es entsteht halt einfach super viel Müll. Jetzt kann man natürlich sagen, ja gut, man kann ja auch dann das halt nicht mitmachen, in Anführungszeichen.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 721.35,
+   "ende": 747.51,
+   "text": "Ich versuche auch zum Beispiel darauf zu achten, wenn wir jetzt was holen und ich weiß, wir essen halt von den vier Chili-Saucen, brauche nur ich ein Päckchen, ja, dann lege ich die anderen Päckchen wieder raus oder wenn ich jetzt mir den Tee, den Eistee hole und weiß, ich gehe mit dem Becher direkt ins Auto und trinke den da aus, dann nehme ich die Tüte auch wieder weg und lege der Verkäuferin die Tüte wieder hin, dass sie die halt für einen anderen Tee benutzen kann.",
+   "avg_logprob": -0.032,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 747.51,
+   "ende": 763.13,
+   "text": "Und ich habe auch mal versucht, jetzt nicht, wo wir jetzt hier sind, sondern früher mal mir wirklich Topa-Schalen zu kaufen und wenigstens die, also ich meine, das ist auch Plastik, aber die dann halt mitzunehmen, damit die da das Take-Away-Essen reinmachen, damit ich es dann wieder abwaschen kann.",
+   "avg_logprob": -0.044,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 763.13,
+   "ende": 778.33,
+   "text": "Das ist aber einfach super unpraktisch, habe ich dann festgestellt, weil zum einen weiß man nicht immer, dass man sich jetzt was zu essen holt. Also oft entsteht das sowohl bei uns selbst als auch eben bei den Einheimischen, dass man einfach unterwegs entscheidet, okay, wir holen uns jetzt hier was.",
+   "avg_logprob": -0.019,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 778.33,
+   "ende": 800.89,
+   "text": "Das heißt, man hat ja dann nicht immer ein Vorrat an Topaschalen im Auto oder im Roller. Plus, dass natürlich auch die Verkäufer an den Straßenküchen ihre Abläufe haben, wie viel Portion macht man in eine Tüte. Also die wissen ja genau, okay, das ist halt jetzt eine kleine Portion oder eine große Portion oder das ist das, was ich für mich so bemessen habe, wie meine Portionen sind.",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 800.89,
+   "ende": 817.13,
+   "text": "Und wenn ich dann halt mit Topaschalen komme, dann ist es schon für die schwierig, das irgendwie einzuschätzen, vor allen Dingen für vier Leute. Also es ist halt nicht üblich, dass die Gerichte alle zusammen in einen Pott gematscht werden, sage ich jetzt mal.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 818.05,
+   "ende": 821.93,
+   "text": "Und deswegen hat sich das tatsächlich als nicht sonderlich praktikabel rausgestellt.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 823.47,
+   "ende": 832.11,
+   "text": "Aber ja, man macht sich natürlich schon Gedanken, inwieweit man das irgendwie nicht unterstützen kann, sozusagen.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 833.29,
+   "ende": 837.53,
+   "text": "Man hat aber auch irgendwie das Gefühl, dass man dann gegen Windmühlen kämpft.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 837.79,
+   "ende": 842.81,
+   "text": "Also ich habe auch mich damals, wo wir in dem Jahr hier waren, der Illusion hingegeben,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 842.89,
+   "ende": 847.03,
+   "text": "dass wenn wir halt jeden Tag einmal mit einem Müllbeutel bei uns am Strand lang gehen",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 847.03,
+   "ende": 852.23,
+   "text": "und Müll einsammeln, dass wir das dann irgendwie zumindest an unserem Strandabschnitt in den Griff kriegen.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 852.33,
+   "ende": 859.31,
+   "text": "Und es gibt ja auch so offizielle Beach-Clean-Ups, aber es ist halt wirklich nicht, also es ist völlig utopisch.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 859.31,
+   "ende": 864.67,
+   "text": "Ich habe das mit den Kindern mal angefangen und also so einen Müllbeutel, selbst wenn man einen großen,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 865.05,
+   "ende": 872.99,
+   "text": "also ich habe dann auch so große schwarze Säcke gekauft, die sind halt innerhalb von, also sagen wir mal drei bis fünf Minuten",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 872.99,
+   "ende": 880.05,
+   "text": "so voll und demnach dann auch schwer, dass man das Gefühl hat und man guckt dann, was",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 880.05,
+   "ende": 884.37,
+   "text": "habe ich jetzt in diesem Sack und was ist noch um mich herum und dann guckt man sich",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 884.37,
+   "ende": 888.87,
+   "text": "den Strandabschnitt an, der hier echt nicht groß ist und verzweifelt eigentlich sofort,",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 889.03,
+   "ende": 893.67,
+   "text": "weil einem klar ist, dass man, selbst wenn man jeden Tag Müll sammeln würde, es nicht",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 893.67,
+   "ende": 898.97,
+   "text": "schaffen würde, den Strand komplett müllfrei zu machen zu gewissen Jahreszeiten, die wir",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 898.97,
+   "ende": 900.93,
+   "text": "jetzt auch gerade haben, weil einfach",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 900.93,
+   "ende": 902.79,
+   "text": "durch jede Flut wieder neuer Müll",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 902.79,
+   "ende": 905.15,
+   "text": "dazukommt, also es ist wirklich eine Sisyphus",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 905.15,
+   "ende": 906.65,
+   "text": "Arbeit und",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 906.65,
+   "ende": 908.33,
+   "text": "ja, das",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 908.33,
+   "ende": 910.99,
+   "text": "ja, da ist man auch relativ schnell",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 910.99,
+   "ende": 912.93,
+   "text": "wieder geerdet, was so",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 912.93,
+   "ende": 914.63,
+   "text": "das Thema angeht, nichtsdestotrotz, wenn",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 914.63,
+   "ende": 916.79,
+   "text": "wir jetzt am Strand langlaufen und",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 916.79,
+   "ende": 918.77,
+   "text": "Müll ganz offensichtlich sehen, vor allem",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 918.77,
+   "ende": 920.75,
+   "text": "Styropor ist ja besonders schlimm,",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 921.53,
+   "ende": 922.89,
+   "text": "dann nehmen wir",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 922.89,
+   "ende": 924.79,
+   "text": "das schon mit, also es ist jetzt nicht so, dass uns das",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 924.79,
+   "ende": 926.63,
+   "text": "gar nicht mehr interessiert, aber man",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 926.63,
+   "ende": 928.73,
+   "text": "gibt halt schneller relativ",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 928.73,
+   "ende": 930.87,
+   "text": "schnell den Gedanken auf, dass man das",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 930.87,
+   "ende": 933.01,
+   "text": "wirklich komplett verändern",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 933.01,
+   "ende": 934.83,
+   "text": "kann oder bereinigen kann.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 935.91,
+   "ende": 937.09,
+   "text": "Und genauso",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 937.09,
+   "ende": 938.91,
+   "text": "ist es halt auch mit Getränken,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 938.99,
+   "ende": 940.87,
+   "text": "also mit Wasser. Es wird ja alles in",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 940.87,
+   "ende": 942.91,
+   "text": "Plastikflaschen verkauft. Wir machen",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 942.91,
+   "ende": 944.63,
+   "text": "es dann schon so, dass wir quasi Kanister",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 944.63,
+   "ende": 946.59,
+   "text": "kaufen. Das sind 6-Liter-Kanister",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 946.59,
+   "ende": 948.73,
+   "text": "und die dann in Plastikflaschen,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 948.93,
+   "ende": 951.27,
+   "text": "in die 1,5-Liter-Wasserflaschen",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 951.27,
+   "ende": 952.89,
+   "text": "umfüllen und",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 952.89,
+   "ende": 955.47,
+   "text": "diese 1,5-Liter-",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 955.47,
+   "ende": 956.69,
+   "text": "Wasserflaschen dann mehrmals",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 956.69,
+   "ende": 958.71,
+   "text": "benutzen und halt immer wieder neu befüllen",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 958.71,
+   "ende": 975.03,
+   "text": "Bis man halt irgendwie nach zwei, drei Tagen sagt, okay, jetzt haben wir da so oft draus gedrucken, jetzt wird es langsam eklig, dann schmeißen wir sie halt weg und kaufen neue Flaschen. Aber trotzdem, auch mit dieser Methode produziert man unglaublich viel Plastikflaschen, Plastikkontainermüll.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 975.03,
+   "ende": 980.89,
+   "text": "Wir können das hier bei uns auf dem Gelände bei der Vermieterin in so einen großen Sack schmeißen",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 980.89,
+   "ende": 988.63,
+   "text": "Dann wird das zu so einer Anlage gebracht, die das aber auch ehrlicherweise einfach nur sammelt",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 988.63,
+   "ende": 991.25,
+   "text": "Aber immerhin liegt es halt nicht rum",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 991.25,
+   "ende": 999.99,
+   "text": "Jetzt sind wir gerade darauf umgestiegen, so einen ganz großen, diese Kanister, die man auch in Deutschland manchmal in Arztpraxen",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 999.99,
+   "ende": 1004.17,
+   "text": "Oder wo so Wasserspender, sage ich jetzt mal, da sind ja oben so eine riesige Bottiche drauf",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1004.17,
+   "ende": 1024.49,
+   "text": "Da sind 18 Liter drin und da zahlt man halt einmal Pfand auf diesen Bottich und immer wenn der leer ist, wird der dann halt ausgetauscht und da ersetzen wir dann zumindest schon mal drei Plastikkanister und auch die befüllen wir dann. Wir haben da so eine Pumpe dran und dann können wir damit halt auch die Gläser oder die Wasserflaschen befüllen.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1025.09,
+   "ende": 1033.99,
+   "text": "Es kommt ja auch hinzu, dass man hier nicht mit dem normalen Leitungswasser kochen kann, also man kann das Leitungswasser nicht trinken, es sei denn, man hat sich da eine Filteranlage eingebaut.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1034.55,
+   "ende": 1042.05,
+   "text": "Das heißt aber auch, dass man eben nicht nur das Wasser einrechnen muss oder die Wasserflaschen fürs Trinken, sondern eben auch fürs Zähneputzen und fürs Kochen.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1042.05,
+   "ende": 1046.91,
+   "text": "und ja, auch da entsteht dann halt sehr viel Müll",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1046.91,
+   "ende": 1049.71,
+   "text": "und wenn man dann so überlegt,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1050.47,
+   "ende": 1053.17,
+   "text": "dass wir teilweise, weiß nicht, aus einer Capri-Sonne",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1053.17,
+   "ende": 1057.57,
+   "text": "mit unserem Pappstrohhalm man sich beeilen muss,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1057.61,
+   "ende": 1059.21,
+   "text": "dass man die Capri-Sonne ausgetrunken hat,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1059.33,
+   "ende": 1061.69,
+   "text": "bevor der Pappstrohhalm aufgeweicht ist",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1061.69,
+   "ende": 1063.99,
+   "text": "und man dann hier das sieht,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1064.21,
+   "ende": 1066.21,
+   "text": "dann hat man irgendwie auch das Gefühl,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1066.39,
+   "ende": 1068.67,
+   "text": "okay, es bringt irgendwie gefühlt gar nichts,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1068.75,
+   "ende": 1070.09,
+   "text": "wenn wir auf der einen Seite der Welt",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1070.09,
+   "ende": 1072.15,
+   "text": "uns total",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1072.15,
+   "ende": 1073.81,
+   "text": "verrückt machen und jetzt an",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1073.81,
+   "ende": 1076.23,
+   "text": "einen, ich meine die Capri-Sonnen-Verpackung",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1076.23,
+   "ende": 1078.03,
+   "text": "an sich ist ja eigentlich auch schon",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1078.03,
+   "ende": 1079.91,
+   "text": "also ich finde es super lächerlich",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1079.91,
+   "ende": 1081.95,
+   "text": "an so einer Verpackung wie einer Capri-Sonne",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1081.95,
+   "ende": 1082.59,
+   "text": "einen",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1082.59,
+   "ende": 1085.83,
+   "text": "Pappstrohhalm in einer",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1085.83,
+   "ende": 1087.73,
+   "text": "Plastikfolie anzuheften",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1087.73,
+   "ende": 1089.71,
+   "text": "und dann zu denken, dass ich jetzt besonders viel für die",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1089.71,
+   "ende": 1090.95,
+   "text": "Umwelt getan habe, aber",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1090.95,
+   "ende": 1093.65,
+   "text": "egal, also das ist meine persönliche Meinung",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1093.65,
+   "ende": 1095.35,
+   "text": "aber wenn man dann hier ist",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1095.35,
+   "ende": 1097.59,
+   "text": "hat man einfach das Gefühl, dass das",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1097.59,
+   "ende": 1099.87,
+   "text": "einfach nur ein Tropfen auf einen heißen Stein",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1099.87,
+   "ende": 1127.61,
+   "text": "Und ja, unabhängig jetzt davon, dass eben durch diese Esskultur auch einfach viel Müll produziert wird, ist es dann gerade in solchen Regionen, die sehr touristisch sind, wie eben auch Koh Samui ist, wird das durch den Tourismus halt noch forciert, weil einfach natürlich noch viel mehr Menschen hier sind, die Hotels und Anlagen, also alles, was dann auf den Tourismus ausgelegt ist, ja noch mehr Müll produziert.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1127.61,
+   "ende": 1145.75,
+   "text": "Und ja, noch mehr Komfort auch. Also auch da ist es dann, wird einfach nicht so darauf geachtet, ob dann vielleicht nochmal die Zahnbürste nochmal extra in eine Folie eingepackt ist oder ob dann die Duschhaube dann wirklich genutzt wird oder weggeschmissen wird.",
+   "avg_logprob": -0.041,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1145.75,
+   "ende": 1159.65,
+   "text": "Also auch in Deutschland in den Hotels ist man ja auch irgendwann dazu übergegangen zu sagen, okay, muss das Handtuch wirklich jeden Tag gewaschen werden oder muss ich halt immer diese kleinen Plastik Shampoos haben oder mache ich halt einen Seifenspender in die Dusche.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1159.65,
+   "ende": 1182.09,
+   "text": "So und hier ist das eben noch nicht so ausgeprägt. Das heißt, dadurch entsteht auch viel Müll. Und dann ist es auf so einer Insel auch einfach so, dass schlichtweg nicht genug Platz für den ganzen Müll ist. Es gibt genau eine Müllentsorgung in dem Sinne. Eine klassische, die einfach schon seit Jahren überfüllt ist.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1182.09,
+   "ende": 1203.93,
+   "text": "Es war wohl früher auch so, dass der Müll mal zum Festland gebracht wurde, was aber wohl viel zu teuer geworden ist inzwischen. Und somit wird der da einfach gestapelt oder eben verbrannt. Und das, was dann vom Meer noch reingespült wird, was dann eben durch vom Festland oder auch von den Schiffen.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1204.65,
+   "ende": 1208.81,
+   "text": "Und natürlich gibt es auch genug, also da kann ich jetzt aber nicht sagen,",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1208.89,
+   "ende": 1213.53,
+   "text": "dass es jetzt irgendwie mehr Thais oder mehr Touristen, das ist wie überall.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1213.53,
+   "ende": 1216.73,
+   "text": "Es gibt halt Menschen, die machen sich darüber Gedanken und andere nicht.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1217.01,
+   "ende": 1222.31,
+   "text": "Und manche lassen halt am Strand ihren ganzen Müll stehen oder schmeißen aus dem Auto ihren Müll",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1222.31,
+   "ende": 1224.81,
+   "text": "und da schmeißen von der Fähre den Müll runter.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1225.51,
+   "ende": 1227.91,
+   "text": "Solche Menschen haben wir ja überall.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1228.25,
+   "ende": 1232.77,
+   "text": "Also das finde ich, kann man jetzt hier nicht sagen, dass das hier jetzt besonders krass ist.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1232.77,
+   "ende": 1257.83,
+   "text": "Aber das kommt natürlich auch noch hinzu und ja, so wird dann halt so ein Land auch schnell als oder auch so eine Region wie Südostasien kriegt dann natürlich auch immer so diesen Müllstempel aufgedrückt und es fehlt dann auch zum Teil an der Bildung zu dem Thema, dass den Menschen eben auch klar ist, was das halt anrichtet.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1257.83,
+   "ende": 1281.95,
+   "text": "Und dass dann die Frage ist, müssen die Nudeln in einem separaten Beutel sein wie die Suppe und muss dann nochmal beides mit einem Gummi extra verbunden werden. Darüber machen die sich einfach keine Gedanken. Und natürlich gibt es auch immer mehr Startups hier, die sich dem Thema widmen, aber das ist halt dann trotzdem noch einfach auch da am Ende ein Tropfen auf den heißen Stein.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1282.65,
+   "ende": 1298.39,
+   "text": "Ich habe dafür auch keine Lösung. Ich kann jetzt auch nicht sagen, hey, wenn ihr das nächste Mal hier im Urlaub seid, dann macht es doch mal so oder achtet mal darauf, damit ihr nicht so viel Müll produziert, weil ich einfach merke, dass es auch wirklich nicht leicht ist, diesen Müll eben nicht zu produzieren.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1298.39,
+   "ende": 1319.49,
+   "text": "Ja, so das war es dann erstmal zum Thema Müll. Jetzt komme ich zur zweiten Schattenseite und das sind die Straßenhunde. Auch die, glaube ich, kennt jeder aus den Ländern Südostasien und auch hier ist es ja nicht ein südostasiatisches Problem.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 1319.49,
+   "ende": 1335.33,
+   "text": "Ich habe auch zwei Freundinnen, die innerhalb von Europa aus dem Tierschutz Hunde aufgenommen haben. Also auch in Europa gibt es ja genug Straßenhunde und Tierleid. Also ich will das jetzt gar nicht hier irgendwie sagen, dass das nur hier gibt.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1335.33,
+   "ende": 1359.87,
+   "text": "Aber hier ist es halt einfach wirklich sehr, sehr krass. Dadurch, dass es eine Insel ist, kann ja hier auch kein Tier irgendwo hin. Die bleiben dann einfach hier und sind eben sehr viele Tiere auf einer sehr kleinen Fläche. Schätzungen zufolge sollen es wohl ungefähr 10.000 Straßenhunde sein, die im Großen und Ganzen auch friedlich sind.",
+   "avg_logprob": -0.024,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1359.87,
+   "ende": 1375.95,
+   "text": "Also es ist eigentlich nicht so, dass man Angst haben muss vor denen. Und es gibt auch Hunde, die aus unserer Sicht hier ein wirklich super gutes Hundeleben führen, wie zum Beispiel die beiden Hunde, die hier bei uns auf der Anlage leben.",
+   "avg_logprob": -0.046,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1376.41,
+   "ende": 1377.89,
+   "text": "Die waren auch vor drei Jahren schon da.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1378.03,
+   "ende": 1382.47,
+   "text": "Das sind zwei und die sind hier auch auf diesem Gelände alleine.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1382.65,
+   "ende": 1383.95,
+   "text": "Also es ist einfach deren Revier.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1384.45,
+   "ende": 1386.73,
+   "text": "Sobald da ein anderer Hund von links oder rechts kommt,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1386.81,
+   "ende": 1391.13,
+   "text": "der wird halt auch wirklich sofort verscheucht mit Beißen und allem, was dazugehört.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1391.29,
+   "ende": 1393.03,
+   "text": "Also da kennen die auch überhaupt keinen Spaß.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1394.03,
+   "ende": 1396.55,
+   "text": "Aber die gehen halt hier vom Bungalow zu Bungalow,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1396.55,
+   "ende": 1400.37,
+   "text": "werden gestreichelt, werden gefüttert, können sich halt frei bewegen.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1400.67,
+   "ende": 1403.01,
+   "text": "Die haben noch nie in ihrem Leben eine Hundeleine gesehen.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1403.17,
+   "ende": 1405.41,
+   "text": "Die haben noch nie irgendwelche Kommandos ausführen müssen",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1405.41,
+   "ende": 1429.25,
+   "text": "Oder mussten darauf warten, dass jemand mit ihnen Gassi geht oder sonst was. Sie leben halt aus unserer Sicht das Leben, was einem wilden Tier, was der Hund ja irgendwann mal war, der Wolf, ja aus unserer Sicht eigentlich das perfekte Hundeleben ist, weil sie, wenn sie wollen, eben trotzdem den Anschluss zu den Menschen haben und ansonsten aber wirklich frei sind.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1429.25,
+   "ende": 1444.57,
+   "text": "Aber das ist natürlich hier dann auch die optimale Situation. Viele Hunde leben natürlich auch unmittelbar an der Straße, haben viele Verletzungen, weil sie angefahren werden, weil sie auch da Revierkämpfe haben und sich untereinander beißen.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1444.57,
+   "ende": 1461.79,
+   "text": "Weil sie eben vielleicht nicht hier gefüttert werden, sondern sich von Müll ernähren müssen oder gar nichts zu fressen bekommen. Und denen geht es da natürlich nicht so gut. Da würde ich jetzt nicht sagen, die führen freies Hundeleben, sondern die tun einem einfach nur unendlich leid.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1461.79,
+   "ende": 1469.83,
+   "text": "und dann gibt es eben auch Hunde, uns ist hier letztens auch einer zugelaufen am Strand, der war dann alleine,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1470.61,
+   "ende": 1474.97,
+   "text": "das ist eben auch nicht so optimal, also es ist in der Regel schon so, dass die im Rudel leben,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1475.77,
+   "ende": 1480.89,
+   "text": "vor allen Dingen, wenn sie dann eben auch an den Straßen und so sind, wo sie auf sich gestellt sind,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1480.89,
+   "ende": 1489.55,
+   "text": "dann sind es meistens mehrere Hunde, die zusammengehören und ein Hund alleine hat es schon nicht leicht,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1489.55,
+   "ende": 1515.77,
+   "text": "weil er sich auch einfach schlechter verteidigen kann, Nahrungssuche und halt schlichtweg eben keinen Rudel hat, also gehört halt zu niemandem und dieser Hund, der uns hier so aus dem Gebüsch gesprungen kam, der war auch gleich super zutraulich, war auch noch relativ jung, ich schätze mal maximal ein Jahr und der ist uns dann eben halt auch hinterher gelaufen bis hier zu unserer Anlage und wir hätten ihn auch super gerne mitgenommen und hier einfach integriert,",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1515.77,
+   "ende": 1530.63,
+   "text": "Aber das hat eben der Archie, das ist hier so einer von den beiden Hunden, der Älteste, der das hier alles managt. Der hat ihn halt sofort gebissen, richtig schlimm, hat ihn auch direkt umgeworfen und an der Kehle genommen.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 1530.63,
+   "ende": 1551.59,
+   "text": "Und ja, der ist dann natürlich zum Glück schnell weggelaufen und wir sind dann, also bis heute gehen wir eigentlich fast jeden Tag am Strand lang und füttern ihn. Jetzt war er schon einige Tage nicht mehr da. Dann weiß man halt nie, okay, ist der jetzt gestorben? Hat der irgendwo einen anderen Platz gefunden? Hat der irgendwo Anschluss gefunden?",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1552.55,
+   "ende": 1562.03,
+   "text": "Er ist uns dann auch immer nur bis zu unserem Eingang sozusagen gefolgt und wusste dann halt, dass er hier einfach nicht aufs Gelände darf.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1563.07,
+   "ende": 1569.73,
+   "text": "Und ja, als wir das Jahr hier waren, haben wir auch am Strand drei Hundewelpen gefunden ohne Mutter.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1569.91,
+   "ende": 1572.11,
+   "text": "Auch da wusste keiner, wo die herkamen.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1573.25,
+   "ende": 1574.77,
+   "text": "Auch die haben wir dann gefüttert.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1574.87,
+   "ende": 1581.13,
+   "text": "Die sind dann aber irgendwann an die Hotelanlage nebenan gegangen und wurden da, glaube ich, auch mitversorgt.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1581.13,
+   "ende": 1594.25,
+   "text": "Auch von den Touristen und irgendwann waren sie nicht mehr da. Da kann es auch immer mal sein, dass es dann ein paar Touristen gibt, die sich erbarmt haben und sie vielleicht wirklich mitgenommen haben. Aber es kann halt auch sein, dass ihnen was passiert ist.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1594.25,
+   "ende": 1615.03,
+   "text": "Und es gibt hier auch sehr viele gemeinnützige Organisationen, ich werde auch in den Shownotes nochmal ein paar verlinken, falls jemand Lust hat vielleicht dazu spenden, die eben diese Straßenhunde aufnehmen, die sie pflegen, die sie zum Teil medizinisch versorgen, die sie füttern.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1615.03,
+   "ende": 1640.67,
+   "text": "Also ich sage jetzt mal so wie ein Tierheim, nur sind das eben keine staatlich geförderten Tierheime, die auch irgendwie finanziell unterstützt werden, sondern es gibt dann zum Teil auch wirklich Privatpersonen, die das machen und ihr ganzes Leben diesen Tieren widmen und auch ihr ganzes Geld und letztendlich auch darauf angewiesen sind, dass sie da Futter kaufen können, die Miete zahlen können.",
+   "avg_logprob": -0.028,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1640.67,
+   "ende": 1659.05,
+   "text": "Das sind ja immer sehr große Areale, die die dann brauchen. Da wohnen ja zum Teil hunderte von Hunden. Und dann gibt es auch so Organisationen, die zum Beispiel kommen, also entweder kann man sie anrufen und sie kommen oder man kann die Hunde dorthin bringen, dass sie kastriert oder sterilisiert werden.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1659.05,
+   "ende": 1678.31,
+   "text": "Weil das ist natürlich der einzige Weg, um das ein bisschen vielleicht einzudämmen, denn ansonsten vermehren sie sich halt einfach wie die Kanickel. Und ja, das heißt, es gibt hier schon, ja, das Thema ist schon hier etwas, was in die Hand genommen wird.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 1678.31,
+   "ende": 1702.45,
+   "text": "Aber auch da ist es halt ein Kämpfen gegen Windmühlen, weil man eben nicht jeden Hund sofort kastrieren oder sterilisieren kann und es einfach immer mehr werden und die natürlich auch zum Teil nicht nur jetzt, dass sie, die humpeln dann und so und dann denkt man, okay, vielleicht wurden die mal angefahren und so, aber sie sind natürlich auch oft krank und auch das verbreitet sich dann natürlich.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1702.45,
+   "ende": 1724.41,
+   "text": "Und dann haben wir jetzt den Fall hier bei uns auf dem, also wie ich gerade schon sagte, haben wir ja den Archie und der andere Hund, der hier noch mitlebt, der heißt Deng. Und der hat dann zum Beispiel, ja, letztende, Anfang der Woche oder letztes Wochenende, ich weiß nicht mehr genau, hatte der auf einmal einen dicken Kopf, also erstmal unten am Hals was Dickes.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1724.41,
+   "ende": 1737.53,
+   "text": "Und dann sagte hier die eine Mitarbeiterin, ja, mir ist das auch schon aufgefallen, wir warten mal noch ein, zwei Tage ab und wir dachten dann halt, ja, okay, die wird es ja wissen, wenn man da jetzt nochmal ein, zwei Tage abwarten kann.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1737.53,
+   "ende": 1763.89,
+   "text": "Und dann am nächsten Tag war aber auch der ganze Kopf super angeschwollen und am Abend sah es dann auch im Dunkeln so aus, als ob da irgendeine Flüssigkeit rauskommt und dann haben wir halt hier mit, wir sind hier ja in der Bungalow-Anlage sind acht Bungalows und mit zwei Bewohnern, also sage ich mal zwei Nachbarn, verstehen wir uns auch ganz gut und die kümmern sich halt auch mit um die Hunde und füttern die mit und so.",
+   "avg_logprob": -0.028,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1763.89,
+   "ende": 1789.67,
+   "text": "Und dann haben wir halt besprochen, okay, wir bringen ihn am nächsten Tag eben in so eine Einrichtung, die zum einen Tierheim ist, aber auch medizinisch versorgen kann. Und wir hatten da ja auch den Pickup schon. Und am nächsten Morgen, wo wir uns dann verabredet hatten und da auch mit der Tierklinik das abgesprochen haben, dass wir kommen, war es schon super schwer, ihn unter so einem Bungalow überhaupt hervorzulocken, weil er kaum noch laufen konnte und der ganze Kopf eben komplett angeschwollen war.",
+   "avg_logprob": -0.024,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1789.67,
+   "ende": 1811.49,
+   "text": "Und dann haben wir ihn da jetzt hingebracht und ja, jeden Tag ist einer von uns, also wir oder einer der Nachbarn fährt halt hin und guckt nach ihm. Wir waren heute jetzt gerade wieder da und es sieht halt super schlimm aus. Also sie wissen nicht hundertprozentig, was es ist. Es ist irgendeine ganz schlimme Infektion, die, sage ich mal, die Hälfte des Kopfes eigentlich weggefault hat.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1811.49,
+   "ende": 1819.97,
+   "text": "und er wird jetzt nochmal ein zweites Mal operiert, wo halt diese ganze abgestorbene Haut entfernt wird",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1819.97,
+   "ende": 1826.05,
+   "text": "und es ist, diese Schwellung war ein Tag nachdem, wer das auf Instagram vielleicht verfolgt hat,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1826.05,
+   "ende": 1830.25,
+   "text": "hat hier der Archie eine Schlange erlegt, das haben wir schon mal beobachtet,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1830.39,
+   "ende": 1834.27,
+   "text": "der nimmt die dann quasi in der Mitte ins Maul und schüttelt den Kopf,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1834.69,
+   "ende": 1840.27,
+   "text": "also wirft seinen Kopf richtig schnell von links nach rechts, dass die Schlange quasi erschüttelt wird,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1840.35,
+   "ende": 1841.35,
+   "text": "würde ich jetzt mal sagen.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1841.49,
+   "ende": 1845.55,
+   "text": "und den Tag danach war diese Schwellung bei dem Deng",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1845.55,
+   "ende": 1847.57,
+   "text": "und ich habe dann schon gedacht,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1847.69,
+   "ende": 1849.29,
+   "text": "ja vielleicht hat ihn ja die Schlange gebissen",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1849.29,
+   "ende": 1850.67,
+   "text": "und entweder war sie giftig",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1850.67,
+   "ende": 1852.83,
+   "text": "oder der Biss hat sich halt infiziert.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1853.61,
+   "ende": 1855.23,
+   "text": "Dann gibt es hier noch so eine Fliege,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1855.39,
+   "ende": 1856.25,
+   "text": "die irgendwelche Eier,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1856.37,
+   "ende": 1858.49,
+   "text": "das macht sie halt nur bei Hunden in Wunden legt,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1858.53,
+   "ende": 1859.55,
+   "text": "das wurde auch vermutet.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1860.07,
+   "ende": 1862.27,
+   "text": "Letztendlich können die das da in der Klinik nicht sagen.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1863.05,
+   "ende": 1865.29,
+   "text": "Was es war, ist es auf jeden Fall irgendetwas,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1865.29,
+   "ende": 1867.73,
+   "text": "was eine wahnsinnige Infektion ausgelöst hat.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1867.95,
+   "ende": 1869.63,
+   "text": "Und auch das ist halt was,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1869.63,
+   "ende": 1885.91,
+   "text": "Und wenn man jetzt zu Hause alle die Hunde haben, da merkt man ja, es ist ja wie bei Kindern, man merkt ja jede Veränderung, man merkt jeden Zieper, jedes bisschen kleine Aua, sage ich jetzt mal, merkt man und kann dann sofort reagieren oder eben zum Tierarzt gehen.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1885.91,
+   "ende": 1911.61,
+   "text": "Und das ist hier halt nicht. Erstens sieht man die, weil sie eben frei sind, die Hunde jetzt auch nicht nonstop. Das heißt, wenn man den mal ein paar Stunden nicht sieht, weil er unterm Bungalow liegt, dann ist das nicht ungewöhnlich. Und dann kennt man das Tier ja trotzdem nicht so gut wie vielleicht sein eigenes und kann das dann auch einfach noch nicht so einschätzen, weil wir uns dann auch gesagt haben, wären wir früher da hingefahren, dann würde es ihm vielleicht besser gehen, weil wir faktisch im Moment noch nicht wissen, ob er das überleben wird.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1912.59,
+   "ende": 1918.93,
+   "text": "Und auf der einen Seite ist es natürlich gut, dass dann Leute wie unsere Nachbarn und wir hier sind",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1918.93,
+   "ende": 1921.75,
+   "text": "und die anderen haben zum Beispiel auch alle nur einen Roller,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1921.81,
+   "ende": 1924.97,
+   "text": "die hätten ihn halt gar nicht zu diesem Tierheim bringen können.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1925.91,
+   "ende": 1930.81,
+   "text": "Und die Besitzer hier, unsere Vermieterinnen, auch die Mitarbeiter hätten auch nicht ihn zum Tierarzt gebracht.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1931.37,
+   "ende": 1934.93,
+   "text": "Die kümmern sich um die Hunde und geben denen was zu fressen, aber es sind halt Straßenhunde.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1935.47,
+   "ende": 1937.39,
+   "text": "Mit denen fährt keiner zum Tierarzt.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1937.39,
+   "ende": 1952.63,
+   "text": "Und letztendlich, klar, kann man dann sagen, okay, hat er noch Glück gehabt, wäre das Gleiche jetzt einem Hund an der Straße passiert, wo es keiner so groß mitkriegt, der wäre hundertprozentig gestorben. Ob er das jetzt überlebt, wissen wir nicht.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 1952.63,
+   "ende": 1965.55,
+   "text": "Aber trotzdem ist es, ja, es ist halt traurig, das zu sehen, sodass, und man denkt sich halt, wären wir bloß früher gefahren, aber ja, das ist dann eben das Leid.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.25
+  },
+  {
+   "start": 1965.55,
+   "ende": 1992.01,
+   "text": "Wenn er es wirklich nicht schafft, kann man sich bei ihm aus meiner Sicht trotzdem noch damit trösten, dass man einfach weiß, er hat ein richtig gutes Hundeleben hier, aber man weiß natürlich auch, dass es unfassbar vielen anderen Hunden auf dieser Insel genauso geht wie ihm, weil sie auch irgendwelche Infektionen haben oder irgendwelche Schlangen, Skorpionen, Bisse, was es noch alles gibt.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1992.01,
+   "ende": 2017.91,
+   "text": "Und sich gegenseitig beißen, andere Krankheiten haben und da halt keiner ist, der sie mit dem Pickup zur Tierklinik bringt. Und dieses Tierheim-Klinik, die machen das komplett auf Spendenbasis, weil ihnen natürlich auch klar ist, dass sie, wenn sie dafür noch Geld nehmen würden, noch weniger die Tiere bringen würden.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2017.91,
+   "ende": 2046.73,
+   "text": "Und das finde ich natürlich sehr faszinierend und bewundernswert, wie aufopferungsvoll die da sind. Auf der anderen Seite ist das natürlich auch so, da sind so viele Hunde, das heißt der Deng liegt da halt in einem Käfig, der hat da auch Wasser und hat da Futter, aber wenn er es nicht schafft alleine zu dem Wasser- oder Futternapf zu gehen, wo auch in dem Futter ist auch die Medizin und wenn er es nicht schafft alleine da hinzugehen und das aufzunehmen, dann kann ihm auch keiner helfen,",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2046.73,
+   "ende": 2075.95,
+   "text": "weil die gar nicht vom Personal, also wir waren jetzt schon zweimal da, da habe ich da drei Leute gesehen mit, ich weiß nicht, da sind bestimmt 200 oder 300 Hunde, also denen geht es nicht allen schlecht, die sind da in Zwingern und rennen da rum und die sind aus meiner Sicht dort auch sicherer als auf der Straße, aber trotzdem ist es halt super wenig Personal, um da wirklich sich, um alle zu kümmern.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2076.73,
+   "ende": 2087.51,
+   "text": "Und ja, das ist auch einerseits ein bedrückender Ort da, wir hatten auch die Kinder mit, weil wir natürlich auch trotzdem wichtig finden, das auch zu sehen.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2087.51,
+   "ende": 2098.25,
+   "text": "Also klar, er hatte zwischendurch auch Tage, wir haben da auch Videos von unseren Nachbarn gekommen, das haben wir den Kindern nicht gezeigt, das ist wirklich richtig, ja, sieht nicht gut aus.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2099.01,
+   "ende": 2102.91,
+   "text": "Aber ja, jetzt heute ging es, sie waren dann aber auch nicht lange da.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2103.09,
+   "ende": 2105.55,
+   "text": "Es ist natürlich auch ein furchtbarer Geruch, super laut.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2107.51,
+   "ende": 2111.27,
+   "text": "Aber trotzdem finden wir es halt auch wichtig, dass sie halt auch das mitkriegen und sehen,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2111.39,
+   "ende": 2115.89,
+   "text": "okay, hier sind diese zwei Hunde, die leben und die kommen dann immer abends und legen sich vom Bungalow",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2115.89,
+   "ende": 2117.25,
+   "text": "und kriegen mal ein Leckerli und so.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2117.43,
+   "ende": 2122.61,
+   "text": "Aber deren Leben kann eben auch auf diese Art und Weise ganz schnell enden.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2122.61,
+   "ende": 2139.89,
+   "text": "Und ja, den meisten anderen Hunden, denen sowas widerfährt, für die war es das dann halt. Ja, also ja, das sind so aus meiner Sicht die zwei größten Schattenseiten, die so ganz augenscheinlich sind.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.34
+  },
+  {
+   "start": 2139.89,
+   "ende": 2167.45,
+   "text": "Wie gesagt, es gibt da ja noch deutlich mehr und auch kleinere und größere, sage ich jetzt mal. Aber das ist das, womit wir jetzt so am meisten konfrontiert sind, Müll und Straßenhunde. Und ja, ist einfach was, wo ich dachte, sollte man vielleicht auch mal drüber sprechen, weil eben nicht alles nur Friede, Freude, Eierkuchen ist und alles nur super paradiesisch.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 2167.45,
+   "ende": 2170.51,
+   "text": "ich hoffe, das hält jetzt niemanden davon ab",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2170.51,
+   "ende": 2172.29,
+   "text": "nach Thailand zu kommen oder nach",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2172.29,
+   "ende": 2174.29,
+   "text": "Koh Samui zu kommen, weil",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2174.29,
+   "ende": 2176.33,
+   "text": "es natürlich trotzdem paradiesisch",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2176.33,
+   "ende": 2178.33,
+   "text": "ist, aber ja",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2178.33,
+   "ende": 2180.27,
+   "text": "also wie gesagt, ich werde in den",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2180.27,
+   "ende": 2181.57,
+   "text": "Shownotes auch noch so ein paar",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2181.57,
+   "ende": 2183.55,
+   "text": "verlinken, die",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2183.55,
+   "ende": 2185.97,
+   "text": "wo man vielleicht spenden kann, wenn man das möchte",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2185.97,
+   "ende": 2188.31,
+   "text": "und ja, ansonsten",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2188.31,
+   "ende": 2190.27,
+   "text": "freue ich mich auf nächste Woche",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2190.27,
+   "ende": 2192.31,
+   "text": "mal schauen, was es",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2192.31,
+   "ende": 2194.39,
+   "text": "da zu berichten gibt und wünsche euch",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2194.39,
+   "ende": 2196.03,
+   "text": "eine schöne Zeit, bis dahin",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2196.03,
+   "ende": 2197.45,
+   "text": "Tschüss!",
+   "avg_logprob": -0.462,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 0.53
+  }
+ ]
+}

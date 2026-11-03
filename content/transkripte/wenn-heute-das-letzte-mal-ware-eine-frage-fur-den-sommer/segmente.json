@@ -1,0 +1,1346 @@
+{
+ "meta": {
+  "slug": "wenn-heute-das-letzte-mal-ware-eine-frage-fur-den-sommer",
+  "titel": "Wenn heute das letzte Mal wäre … Eine Frage für den Sommer",
+  "datum": "2026-07-20T02:00:00.000Z",
+  "dauer_sekunden": 896,
+  "guid": "d87a6341-a059-4569-9274-a265f4261ca9",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T06:26:46Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 6,
+   "transkription": 949
+  },
+  "echtzeitfaktor": 1.06,
+  "anzahl_segmente": 165,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.0,
+   "ende": 11.84,
+   "text": "Ich bin ja im Osten groß geworden und da gab es den Intershop. Also alle, die auch aus dem Osten kommen, können sich vielleicht daran erinnern.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.176,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 12.36,
+   "ende": 21.98,
+   "text": "Und meine Eltern haben dann einmal im Monat, haben die sich meistens zu Beginn, wenn es den Lohn gab, haben die sich im Intershop so eine Dose Ananas gekauft.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.176,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 22.08,
+   "ende": 24.92,
+   "text": "Weil wir hatten ja jetzt keine Ananas, so einfach vom Laden frei verkäufen.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.176,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 25.52,
+   "ende": 35.95,
+   "text": "Hallo und herzlich willkommen zu einer neuen Folge DLIZKFI. Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.176,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 36.61,
+   "ende": 38.89,
+   "text": "Heute mit der dritten Frage für den Sommer.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 39.47,
+   "ende": 44.13,
+   "text": "Doch bevor ich die Frage stelle, habe ich noch einen Grußwunsch übermittelt bekommen.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 44.37,
+   "ende": 49.87,
+   "text": "Ich hatte ja in einer, weiß nicht, drei, vier Folgen vorher mal gesagt,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 49.99,
+   "ende": 54.55,
+   "text": "wenn jemand jemanden grüßen möchte oder von mir gegrüßt werden will,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 55.05,
+   "ende": 56.51,
+   "text": "möge er mir das doch bitte schreiben.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 56.51,
+   "ende": 65.75,
+   "text": "Und heute möchte gerne die Sabine K. aus Rostock Caroline H. aus Minden grüßen.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 65.95,
+   "ende": 77.87,
+   "text": "Ich betone die Namen deshalb so, weil sowohl Sabine als auch Karolin ja Namen sind, wo vielleicht der ein oder andere Hörer auch so heißt und sich denkt, hä, ich kenne gar keine Karolin oder hä, ich kenne doch gar keine Sabine.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 79.39,
+   "ende": 81.79,
+   "text": "Deswegen habe ich das nochmal so spezifiziert.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 81.95,
+   "ende": 87.93,
+   "text": "Und die Sabine K. aus Rostock möchte gerne Karolin aus Minden grüßen, obwohl die beiden sich überhaupt nicht kennen.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 88.75,
+   "ende": 92.59,
+   "text": "Ich bin sozusagen der einzige gemeinsame Nenner zwischen den beiden.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 92.59,
+   "ende": 105.91,
+   "text": "Aber sie haben jeweils unabhängig voneinander schon mitbekommen durch zum Beispiel Facebook, Quatsch, Instagram oder auch meinen WhatsApp-Status, dass sie häufig auf die gleichen Sachen reagieren, wenn ich was poste.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.28
+  },
+  {
+   "start": 105.91,
+   "ende": 124.85,
+   "text": "Also scheinen sie einen ähnlichen Humor zu haben und haben auch sich sozusagen unter einem Post dadurch auch schon mal kennengelernt, weil ich der einen oder der anderen gesagt habe, ja, ich dachte mir schon, dass du oder Sabine darauf reagieren oder andersrum, wie auch immer das war.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 125.11,
+   "ende": 135.17,
+   "text": "Naja, auf jeden Fall kennen sie sich nicht persönlich, sind auch geografisch recht weit voneinander entfernt, werden sich wahrscheinlich auch nie persönlich kennenlernen, aber Sabine möchte die Carolin heute grüßen.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 135.17,
+   "ende": 138.07,
+   "text": "Ich finde dieses Gruß-Dingsbums total cool.",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 138.25,
+   "ende": 141.11,
+   "text": "Also ich wäre auch offen für Heiratsanträge.",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 142.01,
+   "ende": 143.81,
+   "text": "Also nicht ich möchte Heiratsanträge,",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 143.99,
+   "ende": 147.95,
+   "text": "aber wenn jemand über den Podcast jemanden einen Heiratsantrag machen möchte,",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 148.19,
+   "ende": 149.19,
+   "text": "das wäre doch cool.",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 149.89,
+   "ende": 154.39,
+   "text": "Oder irgendwelche anderen tollen Botschaften übermitteln möchte,",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 154.57,
+   "ende": 156.03,
+   "text": "muss natürlich sichergestellt sein,",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 156.03,
+   "ende": 160.53,
+   "text": "dass derjenige weiß, dass die andere Person auch in jedem Fall jede Folge hört",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 160.53,
+   "ende": 165.35,
+   "text": "oder dann eben denjenigen dazu bringt, speziell diese Folge zu hören.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 165.55,
+   "ende": 169.97,
+   "text": "Also wenn ihr irgendwelche coolen, ausgefallenen Grußbotschaften loswerden wollt,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 169.97,
+   "ende": 174.75,
+   "text": "ich muss so ein bisschen daran denken, wie früher, wenn man, ich hatte das letztens mit den Kindern,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 175.55,
+   "ende": 179.19,
+   "text": "die haben ja, die wüssten ja gar nicht mehr, wie das früher war mit einem Festnetzanschluss",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 179.19,
+   "ende": 184.19,
+   "text": "und dann hat man irgendwie Freunde anrufen wollen und dann gingen natürlich in der Regel erstmal die Eltern dran",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 184.19,
+   "ende": 188.77,
+   "text": "und dann musste man ja die Eltern fragen, ob der Kumpel oder die Freundin zu Hause ist",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 188.77,
+   "ende": 189.85,
+   "text": "und ob die rauskommen können.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 190.33,
+   "ende": 191.99,
+   "text": "Und für Henrich war es total unvorstellbar,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 192.09,
+   "ende": 195.71,
+   "text": "dass er mit irgendwelchen anderen Eltern kommunizieren muss,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 195.87,
+   "ende": 198.09,
+   "text": "wenn er eigentlich mit seinen Freunden kommunizieren will.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 198.15,
+   "ende": 200.05,
+   "text": "Weil heutzutage machen die das ja einfach über WhatsApp.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 200.87,
+   "ende": 202.01,
+   "text": "Und dann habe ich halt gesagt,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 202.15,
+   "ende": 204.75,
+   "text": "dass man eben früher manchmal auch die Stimme verstellt hat,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 204.81,
+   "ende": 205.99,
+   "text": "wenn man irgendwie nicht wollte.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 206.09,
+   "ende": 208.47,
+   "text": "Weißt du, wenn man beim Schwarm angerufen hat,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 208.91,
+   "ende": 211.65,
+   "text": "wollte man irgendwie nicht, dass die wissen, wer man ist.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 211.71,
+   "ende": 213.69,
+   "text": "Dann hat man so hammerpeinlich die Stimme verstellt,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 213.69,
+   "ende": 216.15,
+   "text": "als ob Erwachsene sowas nicht raffen würden.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 216.43,
+   "ende": 218.09,
+   "text": "Aber hat man halt so gedacht als Kind.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 218.77,
+   "ende": 222.81,
+   "text": "Und diese ganze, ich grüße jemanden übers Radio und so weiter, erinnert mich so ein bisschen daran.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 223.53,
+   "ende": 226.81,
+   "text": "Deswegen finde ich das irgendwie herrlich, dass wir das hier so ein bisschen aufleben lassen.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 226.81,
+   "ende": 232.27,
+   "text": "So, nun genug, damit wir hier mit meinen 10 bis 15 Minuten dann auch hinkommen,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 232.37,
+   "ende": 235.87,
+   "text": "wenn ich so viel über Gruß und Grüße denen, Grüße denen rede.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 236.49,
+   "ende": 239.01,
+   "text": "Meine heutige Frage für den Sommer lautet,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 240.13,
+   "ende": 245.75,
+   "text": "was würdest du tun, wenn du wüsstest, dass du es heute zum letzten Mal machst?",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 246.53,
+   "ende": 251.97,
+   "text": "Das soll jetzt nicht in die Richtung gehen, lebe jeden Tag so, als wäre es dein letzter.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 252.47,
+   "ende": 256.97,
+   "text": "Das habe ich ja auch schon mal gesagt, das finde ich eine sehr schwierige Aufforderung.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 258.07,
+   "ende": 264.95,
+   "text": "Ich weiß, die ganzen Motivationscoaches und spirituellen Führer, die sowas sagen,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 265.67,
+   "ende": 272.49,
+   "text": "meinen das eben positiv, dass man einfach mehr im Jetzt sein soll",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 272.49,
+   "ende": 276.01,
+   "text": "und einfach die Zeit nutzen soll, die man hat auf der Erde.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 276.41,
+   "ende": 280.39,
+   "text": "Aber ich finde diese Haltung, also diese Erwartungshaltung an sich selbst,",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 280.49,
+   "ende": 284.63,
+   "text": "an die eigene Stimmung, an den eigenen Alltag, an die eigenen Dinge,",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 284.75,
+   "ende": 288.91,
+   "text": "die halt im Leben so passieren, wenn man da die ganze Zeit in diesem Modus wäre,",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 289.53,
+   "ende": 291.75,
+   "text": "ja, es könnte ja sein, dass ich morgen sterbe,",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 291.83,
+   "ende": 294.97,
+   "text": "deswegen muss ich heute jeden Tag so leben, als wäre es mein letzter.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 295.43,
+   "ende": 299.13,
+   "text": "Glaube ich, wird ganz schön anstrengend und auch sehr herausfordernd,",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 299.13,
+   "ende": 305.89,
+   "text": "Im Sinne ergo dann auch enttäuschend, weil man meines Erachtens dieses Level nicht dauerhaft aufrechterhalten kann.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 306.93,
+   "ende": 313.19,
+   "text": "Deshalb ist die Frage, was würdest du tun, wenn du wüsstest, es wäre heute dein letztes Mal, gar nicht so riesengroß gedacht.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 314.49,
+   "ende": 326.71,
+   "text": "Ich kam aber darauf, weil ich letztens ein Video gesehen habe und da ging es darum, dass man vor allen Dingen bei Kindern oft sich daran erinnert, wann sie etwas zum ersten Mal gemacht haben.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 326.71,
+   "ende": 330.95,
+   "text": "Also wann ist das Kind zum ersten Mal gekrabbelt? Wann ist es zum ersten Mal gelaufen?",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 331.55,
+   "ende": 333.15,
+   "text": "Wann hat es den ersten Zahn verloren?",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 333.43,
+   "ende": 337.65,
+   "text": "Ich kann mich sogar bei mir selber noch daran erinnern, wann ich meinen ersten Zahn verloren habe.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 338.19,
+   "ende": 343.99,
+   "text": "Das war nämlich in einer Ananas, also einem Ananasring aus der Dose.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 344.59,
+   "ende": 348.19,
+   "text": "Meine Eltern sind ja im Osten groß geworden und da gab es den Intershop.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 348.45,
+   "ende": 351.99,
+   "text": "Also alle, die auch aus dem Osten kommen, können sich vielleicht daran erinnern.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 351.99,
+   "ende": 365.25,
+   "text": "Und meine Eltern haben dann einmal im Monat, haben die sich meistens zu Beginn, wenn es den Lohn gab, haben die sich im Intershop so eine Dose Ananas gekauft, weil wir hatten ja jetzt keine Ananas, so einfach im Laden, frei verkäuflich.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 365.91,
+   "ende": 381.65,
+   "text": "So, wenn das jetzt irgendjemand aus meiner Familie hört, also aus meiner ostdeutschen Familie, die freuen sich bestimmt, aber wenn meine Kinder es jetzt hören würden oder Hagen oder irgendwie mein Bruder oder so, die denken, oh Gott, wie peinlich, die finden das immer super peinlich, wenn ich so rede.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 381.99,
+   "ende": 392.31,
+   "text": "Also lange Rede, kurzer Sinn, es gab dann immer eben einmal im Monat diese Ananas aus der Dose und da habe ich meinen ersten Zahn verloren und ich habe ganz, ganz lange gedacht, dass man beim Ananasessen Zähne verliert.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 392.39,
+   "ende": 394.49,
+   "text": "Deswegen habe ich dann lange keine Ananas mehr gegessen.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 395.21,
+   "ende": 406.81,
+   "text": "Worauf ich hinaus will, ist, dass man sich oft an die ersten Male von etwas erinnern kann, aber gar nicht mal so oft an, wann man etwas das Letzte, also wann hat man zum Beispiel seinen letzten Zahn verloren.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 406.81,
+   "ende": 428.83,
+   "text": "Ja, ist jetzt vielleicht nicht super wichtig zu wissen, wenn man seinen letzten Zahn verloren hat, aber in dem Video, was ich gesehen habe, ging es dann darum, nochmal zurück auf Kinder bezogen, dass man nicht mehr weiß, wann man das letzte Mal sein Kind auf den Arm genommen hat, weil irgendwann die Körpergröße ja es einfach nicht mehr möglich macht.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 428.83,
+   "ende": 447.81,
+   "text": "Das heißt, ich kann Heinrich jetzt natürlich nicht mehr, also wahrscheinlich könnte ich es kurz, jetzt wo ich so viel zum Highbox gehe, könnte ich ihn wahrscheinlich nochmal kurz so halten, wenn er das überhaupt wollen würde. Und ja, wenn man jetzt im Wasser ist, im Pool oder so, dann kann man sich auch mal so gegenseitig tragen, dann kann er mich ja auch auf den Arm nehmen.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 448.43,
+   "ende": 453.43,
+   "text": "Aber diese Momente, die ich zum Beispiel jetzt mit Hermine noch habe,",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 453.53,
+   "ende": 456.39,
+   "text": "dass sie einfach auf meinen Schoß klettern kann und wieder so kuscheln kann",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 456.39,
+   "ende": 458.89,
+   "text": "oder dass, wenn sie nicht mehr laufen kann, ich sie noch tragen kann,",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 458.97,
+   "ende": 461.01,
+   "text": "Hagen sie noch tragen kann, dass wir sie theoretisch,",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 461.65,
+   "ende": 465.85,
+   "text": "wenn sie mal heimlich einschlafen will, noch abends ins andere Bett rübertragen können",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 465.85,
+   "ende": 469.75,
+   "text": "und solche Sachen, die sind halt jetzt so selbstverständlich.",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 470.21,
+   "ende": 472.49,
+   "text": "Aber irgendwann wird das halt nicht mehr gehen.",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 472.49,
+   "ende": 473.91,
+   "text": "Ja, liegt in der Natur der Sache.",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 473.91,
+   "ende": 488.69,
+   "text": "Und dieses letzte Mal, wo man jetzt sein Kind so bewusst wirklich im kindlichen Kuschel, ich beschütze dich, trage dich, Sinne auf dem Arm hatte, dieses letzte Mal kann man eigentlich nicht mehr erinnern.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 488.81,
+   "ende": 493.13,
+   "text": "Also falls sich daran jemand bei seinen eigenen Kindern erinnern kann, sagt mir gerne Bescheid.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 493.21,
+   "ende": 496.37,
+   "text": "Ich kann mich nicht daran erinnern, wann das bei Heinrich das letzte Mal war.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 496.79,
+   "ende": 503.81,
+   "text": "Und als ich dieses Video so sah, habe ich so gedacht, ja stimmt, das ist irgendwie, also irgendwie auf eine gewisse Art und Weise auch irgendwie traurig.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 503.91,
+   "ende": 508.05,
+   "text": "weil, ja, weil so manche Sachen dann einfach halt nicht wiederkommen, ne?",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 508.35,
+   "ende": 513.31,
+   "text": "Und deshalb, Podcast, Hagen wollte gerade reinkommen,",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 513.51,
+   "ende": 515.65,
+   "text": "weil er hat gesehen, dass ich immer in der Kamera sitze.",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 517.35,
+   "ende": 520.67,
+   "text": "Genau, und deshalb habe ich gedacht,",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 520.81,
+   "ende": 524.07,
+   "text": "kann man sich vielleicht bei anderen Sachen mal die Frage stellen,",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 524.31,
+   "ende": 527.11,
+   "text": "was würde man jetzt speziell heute, ne?",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 527.11,
+   "ende": 530.11,
+   "text": "Man muss ja auch da wieder, man muss jetzt nicht jeden Tag denken,",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 530.63,
+   "ende": 532.19,
+   "text": "ah ja, vielleicht, was mache ich denn heute?",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 532.33,
+   "ende": 533.87,
+   "text": "Und vielleicht mache ich das jetzt zum letzten Mal.",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 533.91,
+   "ende": 536.19,
+   "text": "und jetzt muss ich dies nochmal stellen und jenes nochmal stellen,",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 536.29,
+   "ende": 539.11,
+   "text": "aber einfach den Tag, wo ihr diese Podcast-Folge jetzt hört,",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 539.19,
+   "ende": 540.39,
+   "text": "wann auch immer das sein wird, ja,",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 540.93,
+   "ende": 545.57,
+   "text": "einfach mal fragen, was würde ich heute nochmal machen,",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 546.33,
+   "ende": 548.15,
+   "text": "wenn ich mir nicht ganz sicher sein könnte,",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 548.29,
+   "ende": 549.87,
+   "text": "ob es vielleicht das letzte Mal ist.",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 550.53,
+   "ende": 553.41,
+   "text": "Also das kann, also jetzt in meinem Fall zum Beispiel,",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 553.77,
+   "ende": 557.77,
+   "text": "ich würde jetzt heute, rufe ich dann vielleicht einfach nochmal meine Oma an,",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 557.87,
+   "ende": 560.37,
+   "text": "weil wir haben uns nicht nochmal gesehen,",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 560.45,
+   "ende": 562.57,
+   "text": "bevor wir jetzt ausgewandert sind, die wohnen ja in Thüringen.",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 563.37,
+   "ende": 568.47,
+   "text": "Also ich habe die dann inzwischen, ich glaube, ich habe zwei Jahre oder so nicht gesehen oder anderthalb.",
+   "avg_logprob": -0.146,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 570.41,
+   "ende": 575.87,
+   "text": "Und die sind jetzt auch schon weit über 80, also schon fast an die 90.",
+   "avg_logprob": -0.146,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 576.67,
+   "ende": 581.11,
+   "text": "Und das heißt, ich weiß ja nicht, ob ich sie überhaupt noch mal sehen werde.",
+   "avg_logprob": -0.146,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 581.11,
+   "ende": 587.55,
+   "text": "Aber ich weiß natürlich auch nicht, ob ich halt jederzeit anrufen kann und beide noch rangehen.",
+   "avg_logprob": -0.146,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 587.71,
+   "ende": 591.21,
+   "text": "Es ist nicht so, dass sie jetzt irgendwas haben, wo davon auszugehen wäre.",
+   "avg_logprob": -0.146,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 591.21,
+   "ende": 604.73,
+   "text": "Aber das sind halt so Sachen, wo man im Zweifel dann nicht mehr weiß, wann habe ich das das letzte Mal gemacht und so sich nochmal bewusst einfach, vielleicht ich rufe sie heute an, vielleicht rufe ich sie auch in zwei Wochen, alles ist gut.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 604.73,
+   "ende": 609.63,
+   "text": "Ja, aber falls nicht, dann habe ich heute das nochmal ganz bewusst getan.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 610.27,
+   "ende": 615.55,
+   "text": "Oder, also muss ja jetzt nicht nur eine Oma sein, kann natürlich auch Freunde und so weiter.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 615.73,
+   "ende": 621.45,
+   "text": "Also vielleicht nochmal jemanden irgendwie bewusst anrufen oder jemandem bewusst irgendwas sagen,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 621.67,
+   "ende": 624.21,
+   "text": "wo man auch nicht weiß, wann habe ich das das letzte Mal eigentlich gemacht.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 624.31,
+   "ende": 629.61,
+   "text": "Oder bewusst irgendwie nochmal was essen, vielleicht irgendwas, was man früher total gerne.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 629.71,
+   "ende": 634.05,
+   "text": "Ich habe zum Beispiel, ich weiß nicht mehr, wann ich meinen letzten richtigen Döner gegessen habe.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 634.05,
+   "ende": 639.87,
+   "text": "Ja, es ist jetzt vielleicht auch nicht so eine super Errungenschaft, unbedingt Döner zu essen.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 640.01,
+   "ende": 642.71,
+   "text": "Aber ich meine halt, man muss gar nicht so groß denken.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 642.85,
+   "ende": 647.69,
+   "text": "Aber ich kann mich nicht erinnern, wann, weil hier auf Koh Samui gibt es auch Döner,",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 648.09,
+   "ende": 650.29,
+   "text": "aber die sind nicht zu vergleichen mit dem deutschen Döner.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 650.41,
+   "ende": 655.99,
+   "text": "Es ist auch mal lustig, wenn man deutscher Döner sagt, weil irgendwie eigentlich ist es ja eine türkische Angelegenheit.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 656.11,
+   "ende": 661.49,
+   "text": "Wobei ja alle sagen, in der Türkei gibt es das in der Form gar nicht so, wie wir das in Deutschland halt essen.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 662.19,
+   "ende": 667.51,
+   "text": "Aber auf jeden Fall kann ich mich eben nicht erinnern, wann ich das letzte Mal so einen richtig deutschen Döner gegessen habe.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 668.59,
+   "ende": 674.41,
+   "text": "Und wenn ich jetzt die Möglichkeit hätte, dann würde ich vielleicht sagen, hey, ich esse jetzt heute nochmal Döner so ganz bewusst,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 674.65,
+   "ende": 677.25,
+   "text": "weil wer weiß, wann ich das das nächste Mal machen kann.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 677.87,
+   "ende": 687.07,
+   "text": "Und so gibt es ja vielleicht viele kleine Dinge, kleine oder auch größere Dinge, wo man die entweder völlig normal sind,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 687.07,
+   "ende": 689.87,
+   "text": "Also für einen einfach zum Beispiel, wie sein Kind hochheben.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 689.95,
+   "ende": 694.95,
+   "text": "Für mich ist es jetzt noch komplett normal, dass ich Hermine tragen kann.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 696.57,
+   "ende": 697.89,
+   "text": "Oder es sind halt Saftungen.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 697.97,
+   "ende": 699.95,
+   "text": "Übrigens, das trifft ja auch auf manche Hunde halt dazu.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 700.17,
+   "ende": 702.27,
+   "text": "Also wenn ich das jetzt zum Beispiel bei meinen Eltern, die haben einen Labrador,",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 702.35,
+   "ende": 705.55,
+   "text": "wenn ich manchmal die Bilder sehe, wo das halt so ein kleiner, süßer Knuddel war,",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 706.35,
+   "ende": 708.23,
+   "text": "wo den jeder halt durch die Gegend schleppen konnte.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 708.77,
+   "ende": 710.29,
+   "text": "Und jetzt ist der halt total groß.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 710.43,
+   "ende": 715.11,
+   "text": "Also wahrscheinlich könnte mein Vater ihn noch tragen, aber halt auch nur so zur Not.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 715.11,
+   "ende": 718.81,
+   "text": "Es ist eben nicht mehr so, dass man jetzt diesen großen Hund so zum Kuscheln auf den Arm nimmt.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 720.49,
+   "ende": 726.55,
+   "text": "Also es können halt so Sachen sein, die jetzt noch total selbstverständlich sind und für euch oder für dich alltäglich sind.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 726.65,
+   "ende": 731.07,
+   "text": "Und du so denkst, das mache ich heute, das mache ich morgens, habe ich vorgestern gemacht, das mache ich auch noch in zwei Wochen.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 731.63,
+   "ende": 736.39,
+   "text": "Kann sein, trotzdem machst du dir dann heute, wenn du die Folge hörst, nochmal bewusst, dass du das machst.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 736.95,
+   "ende": 743.07,
+   "text": "Aber es können halt auch Sachen sein, die man eben nicht so oft macht, weil man vielleicht nicht so oft die Gelegenheit dazu hat.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 743.07,
+   "ende": 761.47,
+   "text": "Oder wenn man gar nicht so im Kopf hat, dass man das eigentlich gerne macht, aber dass man es viel zu selten macht. Und deshalb denkt auch mal in diese Richtung, was ist da noch, was man machen könnte, um das dann einfach mal heute bewusst umzusetzen.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 761.47,
+   "ende": 780.23,
+   "text": "Vielleicht sind es auch zwei, drei, vier Sachen, die man einfach ganz bewusst heute nochmal macht, auch wenn man weiß, dass man sie morgen vielleicht wieder machen wird. Aber sich das einfach mal klar zu machen und wenn es jetzt Dinge sind, die einem vielleicht total wichtig sind oder man sogar schon realisiert hat.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 780.23,
+   "ende": 809.67,
+   "text": "Ja, ich habe vor sechs Wochen das das letzte Mal gemacht und ich weiß auch, dass das das letzte Mal war, weil aus welchen Gründen auch immer, vielleicht auch jemand, der jetzt umzieht und sagt, ich war vor sechs Wochen das letzte Mal in diesem Wald spazieren und ich weiß ganz genau, das habe ich immer total gerne gemacht und das hat mir total viel gegeben, aber ich weiß ganz genau, ich kann es jetzt nicht mehr machen, weil ich jetzt, keine Ahnung, ans andere Ende der Stadt gezogen bin oder ans andere Ende des Landes oder ein ganz anderes Land, wie auch immer.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 2.01
+  },
+  {
+   "start": 810.23,
+   "ende": 816.07,
+   "text": "Dann kann man sich das ja vielleicht einfach nochmal irgendwo hinschweiben und einfach notieren.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 816.21,
+   "ende": 822.05,
+   "text": "So, dann und dann habe ich halt das letzte Mal diese Aktivität gemacht und sich das nochmal so verinnerlichen im Kopf",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 822.05,
+   "ende": 827.73,
+   "text": "und sich denken, hey, cool, das habe ich gemacht so und das war aber da wahrscheinlich das letzte Mal",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 827.73,
+   "ende": 832.89,
+   "text": "und ich gehe da nochmal bewusst durch und schieße das dann sozusagen auch ab.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 832.89,
+   "ende": 848.99,
+   "text": "Ja, genau. Also das ist die Frage für heute, also für den Sommer beziehungsweise für den Tag, an dem ihr diese Podcast-Folge hört. Was würdest du heute tun, wenn du wüsstest, dass du es heute zum letzten Mal machen kannst?",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.36
+  },
+  {
+   "start": 849.67,
+   "ende": 855.67,
+   "text": "Und wer Lust hat, kann ja gerne mal schreiben, was das war oder was das ist oder woran er sich erinnert hat",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 855.67,
+   "ende": 859.03,
+   "text": "oder was er vielleicht halt wirklich auch nochmal ganz bewusst getan hat.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 859.63,
+   "ende": 864.83,
+   "text": "Entweder in den Kommentaren beim Podcast oder auch gerne mir persönlich oder bei Instagram, wo auch immer.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 865.81,
+   "ende": 868.03,
+   "text": "Ja, würde ich spannend finden.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 868.03,
+   "ende": 872.17,
+   "text": "Ich werde selber, wie gesagt, auch nochmal, also ich werde meine Oma anrufen, das steht fest.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 872.75,
+   "ende": 877.55,
+   "text": "Und werde aber trotzdem nochmal darüber, vielleicht nehme ich Hermine heute nochmal ganz bewusst",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 877.55,
+   "ende": 879.29,
+   "text": "auch auf den Arm, wobei",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.26
+  },
+  {
+   "start": 879.29,
+   "ende": 881.67,
+   "text": "wie gesagt, das ist hoffentlich noch",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.26
+  },
+  {
+   "start": 881.67,
+   "ende": 882.65,
+   "text": "ein bisschen hin, aber",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.26
+  },
+  {
+   "start": 882.65,
+   "ende": 885.75,
+   "text": "mal schauen, was mir noch so einfällt.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.26
+  },
+  {
+   "start": 886.15,
+   "ende": 887.75,
+   "text": "Dann, danke fürs",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.26
+  },
+  {
+   "start": 887.75,
+   "ende": 889.41,
+   "text": "Zuhören und wir sehen uns nächste Woche.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.26
+  },
+  {
+   "start": 889.97,
+   "ende": 890.39,
+   "text": "Tschüss!",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.26
+  }
+ ]
+}

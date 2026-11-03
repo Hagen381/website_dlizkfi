@@ -1,0 +1,914 @@
+{
+ "meta": {
+  "slug": "was-geschah-nach-deiner-letzten-krise-eine-frage-fur-den-sommer",
+  "titel": "Was geschah nach deiner letzten Krise? Eine Frage für den Sommer",
+  "datum": "2026-07-13T01:59:00.000Z",
+  "dauer_sekunden": 739,
+  "guid": "23ca772c-5100-42f5-9f14-2c1cf728208c",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T06:16:55Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 4,
+   "transkription": 359
+  },
+  "echtzeitfaktor": 0.49,
+  "anzahl_segmente": 111,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.7,
+   "ende": 24.34,
+   "text": "Man kann das dann ja nicht immer so umsetzen, aber mein Gedanke war jetzt auch so, eigentlich müsste man so eine Krise begrüßen, ja, und sagen, hallo, da bist du endlich wieder, herzlich willkommen, Krise, weil man sich, während man drin ist, dann schon darauf freuen kann, was danach ist.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.061,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 24.34,
+   "ende": 34.04,
+   "text": "Hallo und herzlich willkommen zu einer neuen Folge Glitzkvieh. Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.146,
+   "no_speech_prob": 0.071,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 35.14,
+   "ende": 40.6,
+   "text": "Die zweite Woche mit meiner kleinen Miniserie, eine Frage für den Sommer.",
+   "avg_logprob": -0.146,
+   "no_speech_prob": 0.071,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 41.6,
+   "ende": 48.78,
+   "text": "Und heute möchte ich euch fragen, oder dich, was geschah nach deiner letzten Krise?",
+   "avg_logprob": -0.146,
+   "no_speech_prob": 0.071,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 49.68,
+   "ende": 55.86,
+   "text": "Also wenn du jetzt an die letzte Krise zurückdenkst, die du hattest. Das kann wirklich eine große Krise sein.",
+   "avg_logprob": -0.146,
+   "no_speech_prob": 0.071,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 55.86,
+   "ende": 60.32,
+   "text": "Also sowas wie, der Freund sagt plötzlich, er möchte nicht mehr auswandern.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 61.4,
+   "ende": 65.96,
+   "text": "Oder wirklich noch dramatischer, ja, das kann eine Trennung sein.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 66.58,
+   "ende": 69.54,
+   "text": "Das kann vielleicht irgendwie ein Jobverlust sein.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 69.68,
+   "ende": 74.08,
+   "text": "Also das kann schon irgendwas sein, was dich richtig runtergezogen hat.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 74.9,
+   "ende": 76.58,
+   "text": "Und natürlich auch über einen längeren Zeitraum.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 76.7,
+   "ende": 79.66,
+   "text": "Also ich rede jetzt nicht von, ich habe mich gestern geärgert-Krise,",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 79.82,
+   "ende": 83.84,
+   "text": "sondern ich rede wirklich von Krisen, die einfach ein bisschen länger auch anhalten.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 84.3,
+   "ende": 88.4,
+   "text": "Das kann eben was ganz Großes sein, also ich sage jetzt mal eine Lebenskrise sein",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 88.4,
+   "ende": 91.58,
+   "text": "und das kann aber auch einfach so eine Phase sein,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 91.74,
+   "ende": 96.82,
+   "text": "wo es wirklich über mehrere Wochen oder sogar Monate einfach nicht rund lief.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 96.96,
+   "ende": 99.84,
+   "text": "Also es muss ja dann nicht immer irgendwie lebensverändernd sein,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 99.96,
+   "ende": 103.36,
+   "text": "aber es gibt ja manchmal so Phasen, wo man so denkt,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 103.48,
+   "ende": 106.12,
+   "text": "okay, jetzt kommt das noch oben drauf und das kommt noch oben drauf",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 106.12,
+   "ende": 108.28,
+   "text": "und naja, war ja klar, dass das jetzt auch noch passieren muss.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 108.38,
+   "ende": 111.94,
+   "text": "Also wo man einfach eine längere Zeit so das Gefühl hatte,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 111.94,
+   "ende": 126.02,
+   "text": "Irgendwie läuft nichts rund und ständig kommt was Neues dazu und es nervt alles und ich bin darüber auch irgendwie ganz schön down und es hemmt mich dann auch in meinen Handlungen und so, weil man halt einfach irgendwie frustriert ist, deprimiert ist, wie auch immer.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 126.02,
+   "ende": 131.9,
+   "text": "Also wenn du daran denkst, vielleicht bist du gerade mittendrin, kann ja auch sein, ich hoffe nicht,",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 132.08,
+   "ende": 140.84,
+   "text": "aber wenn du halt daran denkst, wann das das letzte Mal war, dann überleg dir bitte, was danach kam.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 141.44,
+   "ende": 148.38,
+   "text": "Also wenn du daran denkst, irgendwann gibt es ja diesen Punkt, wo ich jetzt sagen würde, die Krise ist überwunden.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 148.9,
+   "ende": 151.62,
+   "text": "Man redet ja auch immer so schön von dieser Berg- und Talfahrt.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 151.62,
+   "ende": 165.66,
+   "text": "Und wenn du jetzt daran denkst, als die Krise überwunden war und die Wochen und Monate danach oder seitdem das sozusagen dann eben auch war, wie hat sich dein Leben da verändert? Also was ist danach so passiert?",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 166.58,
+   "ende": 173.9,
+   "text": "Weil meine Erfahrung ist eigentlich, dass nach einer Krise eigentlich immer was Größeres entsteht, was Besseres ist.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 174.1,
+   "ende": 178.4,
+   "text": "Irgendetwas danach ist dann besser, als es vorher war.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 178.4,
+   "ende": 183.18,
+   "text": "Und natürlich ist es jetzt nicht schwer, dass irgendwas da besser ist als die Krise als solche.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 183.86,
+   "ende": 186.78,
+   "text": "Aber in der Regel auch vielleicht der Zustand, den man vor der Krise hatte.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 187.16,
+   "ende": 194.34,
+   "text": "Es hat sich meistens, so ist zumindest meine Erfahrung, wirklich gravierend etwas verändert und in der Regel zum Guten.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 195.08,
+   "ende": 200.82,
+   "text": "Weil ich bin davon überzeugt, dass eine Krise oder das halt ein längerer Zeitraum,",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 200.82,
+   "ende": 207.36,
+   "text": "in dem es einem nicht gut ging oder in dem man irgendwie verschiedene Sachen bewältigen musste,",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 208.26,
+   "ende": 212.88,
+   "text": "dass einen das eigentlich oft erst in die richtige Handlungskraft bringt.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 213.36,
+   "ende": 217.68,
+   "text": "Weil solange alles irgendwie klappt und solange, vielleicht ist nicht immer alles toll,",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 217.8,
+   "ende": 223.44,
+   "text": "vielleicht ist man auch nicht immer super glücklich, aber solange das alles so ein Mittelmaß hat,",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 223.44,
+   "ende": 232.18,
+   "text": "Und hat man selten wirklich den Drang oder die Energie oder diesen Drive, irgendwas jetzt richtig anzupacken und auch durchzuziehen.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 233.08,
+   "ende": 245.66,
+   "text": "Und ich finde, wenn man in einer Krise steckt, dann gibt es natürlich auch unterschiedliche Charaktere und der eine kommt da vielleicht schneller raus und wird vielleicht schneller aktiv und der andere lässt sich da vielleicht noch ein bisschen länger treiben oder suhlt sich im Selbstmitleid.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 245.66,
+   "ende": 253.16,
+   "text": "Oder ich finde immer dieses Beispiel gut, man liegt so wie ein Käfer auf dem Rücken und schrammelt mit den Beinen und hat so das Gefühl, man kann nichts machen.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 253.44,
+   "ende": 273.98,
+   "text": "Und wie gesagt, da ist jeder sicherlich anders. Aber irgendwann kommt ja in der Regel der Tag, wo das so nicht weitergehen kann und wo man dann aktiv wird. Und selbst wenn man der Mensch ist, der das nicht alleine bewältigen kann und der nicht alleine aus so einer Krise rauskommt, kommt vielleicht irgendwann der Tag, wo man sich Hilfe gesucht hat.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 273.98,
+   "ende": 297.18,
+   "text": "Entweder durch Familie, Freunde und so weiter oder vielleicht auch psychologische Hilfe, also externe Hilfe, wie auch immer die aussah. Aber normalerweise kommt man irgendwann ins Handeln und bringt dann auch eine andere Energie mit und ein anderes Commitment, als wenn halt alles immer in diesem Semi-Modus ist oder sogar im positiven Modus.",
+   "avg_logprob": -0.039,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 297.18,
+   "ende": 311.32,
+   "text": "Ich meine, wenn man im positiven Modus und alles gut ist, sollte man ja auch nichts ändern. Warum auch? Aber ich glaube, man ist halt oft eher so in diesem Mittelbereich und hat da vielleicht auch so ein paar Sachen, die man gerne irgendwie verändern würde.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 311.32,
+   "ende": 330.48,
+   "text": "Aber so richtig aus dem Arsch kommt man meines Erachtens erst, wenn irgendwo die Kacke richtig doll am Dampfen ist oder am Dampfen war. Und dann entsteht daraus meistens was Gutes, weil man dann wirklich die Sache in die Hand genommen hat und einfach was daraus gemacht hat.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 330.48,
+   "ende": 336.26,
+   "text": "Und manche Veränderungen, die daraus entstanden sind, man vielleicht sogar vorher dachte, ja, ich will aber gehen.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 336.38,
+   "ende": 344.52,
+   "text": "Also ich habe da mal ein Beispiel. Als wir damals für vier Monate unterwegs auf Reise waren, als Hermine geboren wurde,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 345.18,
+   "ende": 348.24,
+   "text": "während dieser Reise ist diese ganze Corona-Nummer entstanden.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 349.08,
+   "ende": 352.24,
+   "text": "Und wir haben ja beide im Kreuzfahrtsektor gearbeitet.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 352.98,
+   "ende": 356.92,
+   "text": "Und ich hatte dann zwar, als wir zurückkamen, noch ein paar Monate Ehelternzeit.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 356.92,
+   "ende": 365.16,
+   "text": "Für mich war es erstmal nicht super dramatisch, aber für Hagen war schon am Ende dieser Reise klar, wenn wir zurückkommen, hat er eigentlich keinen Job mehr.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 365.28,
+   "ende": 371.44,
+   "text": "Also er hat natürlich auf dem Papier den Job, aber er war Reiseberater und hat Kreuzfahrten verkauft und das auf Provision und hat damit sein Geld verdient.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 371.52,
+   "ende": 374.0,
+   "text": "Ich habe das, glaube ich, auch schon mal irgendwo in einer Folge erzählt.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 374.7,
+   "ende": 382.64,
+   "text": "Und das heißt, es war halt klar, dadurch, dass die Reisen nicht verkauft werden können, weil sie nicht stattfinden, kann er die Provision nicht bekommen.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 382.64,
+   "ende": 393.84,
+   "text": "Und das Grundgehalt, was er hatte, plus mein Elterngeld, hat dazu geführt, dass wir auch wussten, dass wir uns die Wohnung, die wir zu dem Zeitpunkt in der Innenstadt von Rostock hatten, eigentlich nicht mehr leisten können.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 394.28,
+   "ende": 399.02,
+   "text": "Das heißt, wir wussten, okay, wir kommen nach Hause und eigentlich muss er sich einen neuen Job suchen.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 399.14,
+   "ende": 400.68,
+   "text": "Eigentlich müssen wir uns eine neue Wohnung suchen.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 402.2,
+   "ende": 404.52,
+   "text": "Plus es war dann Kita-Zeit.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 404.62,
+   "ende": 406.12,
+   "text": "Wir hatten da Kita-Schließung.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 406.32,
+   "ende": 409.98,
+   "text": "Also Heinrich, wir hatten die Kinder ja dann vier Monate zu Hause, weil wir unterwegs waren.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 410.26,
+   "ende": 411.5,
+   "text": "Hermine war eh noch nicht so weit.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 411.5,
+   "ende": 438.52,
+   "text": "Aber auch Heinrich war dann zu Hause. Wir hatten nur eine Drei-Zimmer-Wohnung mit vier Leuten, keine Küche und Wohnzimmer separiert. Es war Homeoffice. Er saß am Küchentisch und hat da seine Calls gemacht, die ja eigentlich sich nur um Blabla drehten, weil er konnte ja nichts verkaufen, sodass wir dann, dass er sich zum einen einen neuen Job suchen musste, was damals, also an sich hatte ich auch vorletzte Folge, glaube ich, also Fragen sind ja solche Entscheidungen viel schwieriger, sich einen neuen Job zu suchen.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 438.52,
+   "ende": 455.78,
+   "text": "Also das war auf jeden Fall für ihn schon mal so ein großer Akt, das zu machen, obwohl das auch vorher schon schlecht bezahlt war und man immer gesagt hat, hey, guck dich doch mal um und eigentlich, das war Schichtdienst, er musste samstags arbeiten, abends arbeiten und so weiter und hat aber trotzdem, ist er nicht so richtig in den Quark gekommen.",
+   "avg_logprob": -0.046,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 455.78,
+   "ende": 485.38,
+   "text": "Plus auch die Wohnsituation haben wir auch schon immer die ganzen Jahre, habe ich geguckt und gesagt, hey, lass uns doch ein bisschen außerhalb von Rostock ziehen, das ist viel günstiger, da kriegt man eine viel größere Wohnung und so. Ist aber immer irgendwie nicht dazu gekommen, weil Hagen auch so ein Stadtkind war und so weiter. Und nun war aber diese Krise so, dass wir eigentlich keine Wahl mehr hatten und daraus entstanden ist, dass wir dann sieben Kilometer außerhalb von Rostock gezogen sind, eine viel, viel größere Wohnung hatten für viel weniger Geld, einen Garten hatten.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 485.78,
+   "ende": 504.36,
+   "text": "Und gerade als das dann sich weiter durch, also als diese ganze Corona-Zeit dann war, wo man nichts mehr durfte und so, hatten wir natürlich da mit diesem Garten, wo man auch mal hinten sitzen konnte und auch mal mit den Nachbarn zusammen sitzen konnte, wo das alles gar nicht so, jeder so mitgekriegt hat, wie das vielleicht in Stadtwohnungen war.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 504.36,
+   "ende": 507.98,
+   "text": "und man in der Stadt ja auch viel isolierter war,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 508.4,
+   "ende": 512.3,
+   "text": "hatten wir eigentlich genau zum richtigen Zeitpunkt halt diese andere Wohnung gefunden.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 512.92,
+   "ende": 515.42,
+   "text": "Und Hagen hat letztendlich einen neuen Job gefunden,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 515.62,
+   "ende": 520.92,
+   "text": "der bei dem, glaube ich, ich weiß gar nicht, das Doppelte oder so verdient hat von dem, was er vorher hatte.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 521.1,
+   "ende": 524.3,
+   "text": "Und das war dann der Job bei Hilti, wo er ja jetzt auch bis zum Schluss war.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 524.94,
+   "ende": 530.66,
+   "text": "Das ist jetzt nur mal so ein kleines Beispiel von, es ist also etwas, was man irgendwie im Kopf hatte,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 530.78,
+   "ende": 533.68,
+   "text": "aber was man irgendwie vor sich her geschoben hat, weil man irgendwie doch Angst hatte,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 533.68,
+   "ende": 536.76,
+   "text": "Ja, was ist dann mit einem neuen Job? Wie ist dann so der Alltag?",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 537.06,
+   "ende": 538.92,
+   "text": "Oder was ist dann, wenn man nicht mehr in der Stadt wohnt?",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 539.0,
+   "ende": 540.46,
+   "text": "Findet man das dann doof und so weiter?",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 540.98,
+   "ende": 544.26,
+   "text": "Und trotzdem ist dann am Ende aber was Positives daraus entstanden.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 544.48,
+   "ende": 548.66,
+   "text": "Nämlich es hat uns, wir haben uns dann gefragt, warum haben wir überhaupt so lange in der Stadt gewohnt?",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 548.66,
+   "ende": 552.2,
+   "text": "Ja, also es war dann, als wir dann einmal so ein bisschen ländlicher gewohnt hatten,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 552.86,
+   "ende": 557.76,
+   "text": "war gar nicht mehr nachvollziehbar, warum, wie wir das überhaupt so lange mitten in der Stadt ausgehalten haben.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 558.38,
+   "ende": 562.66,
+   "text": "Und genauso mit dem Job, wo man so dachte, ey, einen besseren Job,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 562.66,
+   "ende": 565.72,
+   "text": "Und er wäre ja auch immer noch da, wenn wir jetzt nicht ausgewandert wären.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 566.04,
+   "ende": 569.86,
+   "text": "Ich könnte aber jetzt wirklich jede Krise durchgehen.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 570.48,
+   "ende": 575.5,
+   "text": "Vielleicht, bestimmt werde ich das auch nochmal in anderen Folgen immer mal, passt das ja in irgendwelche Situationen rein.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 575.58,
+   "ende": 582.08,
+   "text": "Aber ich kann auf jeden Fall sagen, dass jede Sache, die war, dazu geführt hat, dass es danach besser wurde.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 582.08,
+   "ende": 586.76,
+   "text": "Und dass danach Dinge entstanden sind, die eigentlich viel besser waren als vor dieser Krise.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 587.52,
+   "ende": 593.54,
+   "text": "sodass ich jetzt schon gedacht habe, für mich, also ich versuche das so ein bisschen,",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 593.92,
+   "ende": 596.74,
+   "text": "man kann das dann ja nicht immer so umsetzen, aber mein Gedanke war jetzt auch so,",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 596.84,
+   "ende": 603.62,
+   "text": "eigentlich müsste man so eine Krise begrüßen und sagen, hallo, da bist du endlich wieder, herzlich willkommen, Krise,",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 604.22,
+   "ende": 609.62,
+   "text": "weil man sich, während man drin ist, dann schon darauf freuen kann, was danach ist.",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 609.62,
+   "ende": 617.5,
+   "text": "Ich weiß, als die Kinder, also wenn Babys so, haben wir immer so eine Wachstumsschübe",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 617.5,
+   "ende": 619.64,
+   "text": "Und die sind furchtbar anstrengend, ja",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 619.64,
+   "ende": 623.74,
+   "text": "Und dann sagt man immer, und das ist dann auch so, nach diesen Schüben",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 623.74,
+   "ende": 627.04,
+   "text": "Oder auch wenn die dann krank sind, können die danach irgendwas Neues",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 627.04,
+   "ende": 631.2,
+   "text": "Und so anstrengend halt diese Phasen dann auch sind",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 631.2,
+   "ende": 634.84,
+   "text": "So sehr weiß man aber, dass danach halt was Cooles ist",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 634.84,
+   "ende": 637.92,
+   "text": "Weil sie dann irgendwas können, was sie vorher noch nicht kannten konnten",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 637.92,
+   "ende": 641.84,
+   "text": "was ja so in der Interaktion dann auch einfach mehr Spaß macht.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 641.92,
+   "ende": 645.34,
+   "text": "Dann können sie vielleicht plötzlich sitzen oder dann können sie vielleicht mal ein paar Wörter sagen",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 645.34,
+   "ende": 647.44,
+   "text": "oder dann können sie plötzlich einen Ball fangen und so weiter.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 648.26,
+   "ende": 653.46,
+   "text": "Und so müsste man das eigentlich auch mit Krisen sehen, dass man halt sie wirklich willkommen heißt.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 653.58,
+   "ende": 657.94,
+   "text": "Und auch natürlich kann man jetzt nicht den ganzen Tag wahrscheinlich wie ein Honigkuchen fährt",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 657.94,
+   "ende": 662.58,
+   "text": "durch so eine Krise rennen über Wochen oder Monate und sich denken, ja, bald wird es richtig geil.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 662.58,
+   "ende": 676.12,
+   "text": "Ja, das ist mir auch klar. Nicht umsonst ist eine Krise eine Krise, dass es einem natürlich da auch schlecht geht und einen Sachen runterziehen und man auch zweifelt und man auch manchmal vielleicht denkt, das geht nie zu Ende, weil jetzt die nächste Scheiße wieder oben drauf kommt.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 676.88,
+   "ende": 682.68,
+   "text": "Aber wenn man wirklich mal dann versucht, in diesen Momenten, und das habe ich ja letzte Woche schon gesagt,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 683.04,
+   "ende": 689.76,
+   "text": "dass eben in Momenten, wo es einem gut geht, man halt auch sich reflektieren sollte und über solche Sachen nachdenken sollte.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 689.84,
+   "ende": 693.42,
+   "text": "Und nicht immer erst, wenn es schon zu spät ist oder wenn man mittendrin steckt.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 693.42,
+   "ende": 700.56,
+   "text": "Das heißt, wenn man sich jetzt im Sommer, im Sommerfeeling, wirklich mal klar macht, was ist danach entstanden",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 700.56,
+   "ende": 706.52,
+   "text": "und wie habe ich mich weiterentwickelt, wie hat sich irgendetwas in meinem Leben weiterentwickelt,",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 707.12,
+   "ende": 712.06,
+   "text": "dann kann man das vielleicht, wenn man in die nächste Krise rutscht, vielleicht auch abrufen",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 712.06,
+   "ende": 718.84,
+   "text": "und schon so ein bisschen gespannt sein, was denn danach das Leben für einen bereithält.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 719.32,
+   "ende": 723.72,
+   "text": "Ja, so, das war es schon wieder. Ich habe ja gesagt, ich halte mich kurz.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 724.12,
+   "ende": 729.42,
+   "text": "Deshalb eine Frage für den Sommer dieses Mal. Was geschah nach deiner letzten Krise?",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 730.56,
+   "ende": 732.76,
+   "text": "Dann bis nächste Woche. Tschüss!",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 0.81
+  }
+ ]
+}

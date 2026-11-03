@@ -1,0 +1,7474 @@
+{
+ "meta": {
+  "slug": "warum-nicht-jetzt-interview-mit-daniela-batista-dos-santos",
+  "titel": "Warum nicht jetzt? - Interview mit Daniela Batista dos Santos",
+  "datum": "2025-08-25T05:00:00.000Z",
+  "dauer_sekunden": 3452,
+  "guid": "06658788-29d7-4172-af3d-13fbdf830a37",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T08:19:40Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 3,
+   "transkription": 1618
+  },
+  "echtzeitfaktor": 0.47,
+  "anzahl_segmente": 931,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.72,
+   "ende": 20.41,
+   "text": "Da bist du dieses Thema in die Welt zu tragen, weil das Leben zu kurz, da auch dein persönliches Leben eine Endlichkeit hat, in der du Zeit hast, das zu transportieren.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.178,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 21.23,
+   "ende": 38.26,
+   "text": "Herzlich willkommen bei DLIZKFI. Das Leben ist zu kurz für irgendwann. Heute mit einem ganz besonderen Gast, nämlich Dani.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.178,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 38.86,
+   "ende": 42.74,
+   "text": "Dani und ich kennen uns seit, haben wir gerade festgestellt, ziemlich genau zwei Jahren.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.178,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 43.36,
+   "ende": 49.32,
+   "text": "Denn sie arbeitet als Coachin und ich arbeite quasi für sie und unterstütze sie in ihrem Business.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 50.32,
+   "ende": 55.22,
+   "text": "Und es geht jetzt nicht primär nur ums Auswandern, obwohl Dani auch ausgewandert ist.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 55.22,
+   "ende": 61.08,
+   "text": "Da wird sie bestimmt gleich mehr zu erzählen, sondern eher um die Frage oder um das Motto dieses Podcasts.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 61.1,
+   "ende": 63.08,
+   "text": "Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 63.54,
+   "ende": 63.98,
+   "text": "Ich freue mich.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 64.06,
+   "ende": 65.12,
+   "text": "Ja, ich freue mich auch.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 65.14,
+   "ende": 68.1,
+   "text": "Ich freue mich, dass wir das aufnehmen werden. Wir sollen das also mal sehen.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 68.1,
+   "ende": 74.96,
+   "text": "Ja, und es ist auch das erste Mal, dass ich überhaupt eine Podcast-Folge im Interview mit einer realen Person vor mir sitzend aufnehme.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 75.22,
+   "ende": 81.66,
+   "text": "Ich hoffe, ich bin ein guter Interviewgast, weil ich weiß, wenn man einen richtig scheiß Interviewgast hat, das macht einen so nervös.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 81.78,
+   "ende": 86.94,
+   "text": "Da hatte ich auch schon dieses Nervös, wenn es Menschen dir schwer machen, Fragen zu stellen oder zu beantworten.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 87.04,
+   "ende": 90.84,
+   "text": "Ach, ich glaube, der Vibe passt.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 92.8,
+   "ende": 96.46,
+   "text": "Ich weiß noch, wo ich dir erzählt habe, wie ich den Podcast nennen werde.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 97.46,
+   "ende": 99.94,
+   "text": "Wenn du hörst, das Leben ist zu kurz für irgendwann,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 100.04,
+   "ende": 102.42,
+   "text": "was ist so das Erste, was dir dazu einfällt?",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 102.48,
+   "ende": 103.66,
+   "text": "Ich glaube, das war ein Lied, ne?",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 105.14,
+   "ende": 107.8,
+   "text": "Warte, also erst einmal habe ich Gänsehaut gerade gekriegt,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 107.98,
+   "ende": 108.96,
+   "text": "als du es gesagt hast.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 109.3,
+   "ende": 112.32,
+   "text": "Und das Lied, darüber haben wir, glaube ich, gesprochen,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 112.82,
+   "ende": 114.78,
+   "text": "ist von Bosse, ein großer Bosse-Fan.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 115.46,
+   "ende": 117.84,
+   "text": "Und es gibt dieses sehr bekannte Lied von ihm,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 117.94,
+   "ende": 118.88,
+   "text": "das heißt Wartesaal.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 119.16,
+   "ende": 122.94,
+   "text": "Und ich bringe diese Metapher super, super oft auch in den Coachings,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 122.94,
+   "ende": 125.46,
+   "text": "weil ich habe immer das Gefühl,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 125.46,
+   "ende": 133.18,
+   "text": "dass sehr viele Menschen im Wartesaal sitzen, also im Wartesaal quasi, leben nicht ihre Träume, sagen wir es mal so.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 133.3,
+   "ende": 137.84,
+   "text": "Und das war für mich immer so ein ganz großer Schmerzpunkt, weil für mich war es immer wichtig,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 138.74,
+   "ende": 144.34,
+   "text": "ich möchte nicht im Wartesaal sitzen, weil ich finde das am schmerzvollsten.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 145.06,
+   "ende": 154.58,
+   "text": "Und ich hatte immer dieses auch, also auch wenn schwierige Momente sind oder Dinge wirklich gerade challenging sind,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 154.58,
+   "ende": 156.66,
+   "text": "das ist das, was ich mich immer zurückbringe",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 156.66,
+   "ende": 158.88,
+   "text": "von okay, wenn ich 90 bin",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 158.88,
+   "ende": 160.76,
+   "text": "und",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 160.76,
+   "ende": 162.02,
+   "text": "mich angucke im Spiegel,",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 162.38,
+   "ende": 164.72,
+   "text": "was will ich sehen oder wie will",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 164.72,
+   "ende": 166.52,
+   "text": "ich mich gegenüber diesen Menschen fühlen",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 166.52,
+   "ende": 168.78,
+   "text": "und das motiviert mich immer auch",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 168.78,
+   "ende": 169.84,
+   "text": "weiterzumachen,",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 170.06,
+   "ende": 172.84,
+   "text": "und nicht irgendwie aufzugeben",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 172.84,
+   "ende": 174.46,
+   "text": "und",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 174.46,
+   "ende": 176.62,
+   "text": "das Lied erinnert mich daran immer,",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 176.78,
+   "ende": 178.26,
+   "text": "weil es ist genau das,",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 178.88,
+   "ende": 180.18,
+   "text": "weil Warteseit ist ja auch,",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 180.18,
+   "ende": 181.94,
+   "text": "ich meine, du lebst ja am Ende nicht.",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 182.92,
+   "ende": 183.06,
+   "text": "Ja.",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 183.06,
+   "ende": 193.54,
+   "text": "Egal, ob du jetzt sozusagen einen unkonventionellen Weg gehst oder nicht, du sitzt im Wartesaal und die Emotionen sind eben auch dann dementsprechend.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 193.54,
+   "ende": 205.24,
+   "text": "Hast du einen Moment, wenn du jetzt an den Wartesaal denkst, wo du dich zurückerinnerst und dachtest, da saß ich eigentlich viel zu lange im Wartesaal oder bist du eigentlich immer gleich rausgegangen?",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 206.06,
+   "ende": 212.24,
+   "text": "Also meistens bin ich schon schnell, aber es war nicht immer so.",
+   "avg_logprob": -0.168,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 212.9,
+   "ende": 220.46,
+   "text": "Also ich glaube, das, wo ich mich am meisten erinnere, ist tatsächlich in meiner Beziehung.",
+   "avg_logprob": -0.168,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 220.46,
+   "ende": 223.38,
+   "text": "Es ist witzig, weil ich habe ihn gestern gesehen, das war bis ich war fünf Minuten her,",
+   "avg_logprob": -0.168,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 223.58,
+   "ende": 230.26,
+   "text": "und mein Ex-Mann kam mir entgegen im Auto und ich dachte mir so, Hamburg, was willst du mir sagen?",
+   "avg_logprob": -0.168,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 230.62,
+   "ende": 231.64,
+   "text": "Also richtig krass.",
+   "avg_logprob": -0.168,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 231.64,
+   "ende": 252.02,
+   "text": "Okay, vielleicht müssen wir nochmal ganz kurz Zeit mir dazu einsagen. Du bist jetzt seit drei Jahren das erste Mal wieder zurück in Hamburg und hast hier 14 Jahre gelebt. Und bist jetzt gestern, also wir nehmen das Interview an einem Sonntag auf und bist quasi jetzt am Samstag angereist und hast dann innerhalb von kürzester Zeit deinen Ex-Mann hier gesehen. Das ist crazy.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 252.46,
+   "ende": 257.74,
+   "text": "Also ich war zwei Minuten im Auto oder fünf Minuten und dann ist er uns entgegen gefahren.",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 257.88,
+   "ende": 258.82,
+   "text": "Hat er dich auch gesehnt?",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 259.38,
+   "ende": 259.96,
+   "text": "Glaube ich nicht.",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 259.96,
+   "ende": 263.1,
+   "text": "Als ich es überhaupt gesehen habe, war es so, wow, das ist krass.",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 263.3,
+   "ende": 267.24,
+   "text": "Aber das ist genau die Repräsentation von meinem alten Leben.",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 267.7,
+   "ende": 272.48,
+   "text": "Und wenn du jetzt auf mein Leben schaust, ist es einfach so anders oder auch die Beziehung, die ich habe.",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 272.66,
+   "ende": 274.5,
+   "text": "Und also zurückzukommen zu deiner Frage.",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 275.2,
+   "ende": 281.74,
+   "text": "Ich glaube, das war wirklich ein Moment in meinem Leben, wo ich länger gewartet habe als normalerweise.",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 282.02,
+   "ende": 303.92,
+   "text": "Und ich wusste eigentlich schon zwei Jahre vorher, bevor ich mich getrennt habe, dass ich mich trennen sollte. Aber das war für mich wirklich, wirklich schwer, mich zu trennen und das auch mir einzugestehen. Und das war ein Moment in meinem Leben, wo ich gemerkt habe, hier wartest du länger, als du normalerweise wartest.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 303.92,
+   "ende": 318.92,
+   "text": "Okay. Und das war, also ich habe mich getrennt, als ich wirklich krank geworden bin. Also wo mein Körper, ich hatte dann fast zwei Bandscheibenvorfälle in der Zeit. In jungen Jahren dann ja auch.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.26
+  },
+  {
+   "start": 318.92,
+   "ende": 337.12,
+   "text": "Wo ich mich nicht bewegen konnte, die mussten mich abholen zu Hause. Und er wurde auch immer kränker und ich habe das realisiert von, ja, wir sind beide unglücklich, aber so treue Seelen und mögen uns als Menschen ja super, super gerne, aber eben mehr freundschaftlich.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 337.12,
+   "ende": 356.76,
+   "text": "Aber wir beide wollten uns das nicht eingestehen. Und wir sind aber beide dadurch krank geworden. Das war für mich dann wirklich wie so ein Aha-Moment. Und ich bin morgens aufgestanden. Das war wirklich so wie ein Film. Ich bin morgens aufgestanden und wusste heute. Und bin ins Wohnzimmer und er war schon da und hat mich gedrängt.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 356.76,
+   "ende": 357.36,
+   "text": "Okay.",
+   "avg_logprob": -0.26,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.17
+  },
+  {
+   "start": 357.78,
+   "ende": 367.64,
+   "text": "Ja, das war so, wenn dein Körper wirklich nicht mehr kann und dich richtig raushaut, so war es. Also es musste so weit kommen.",
+   "avg_logprob": -0.26,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.17
+  },
+  {
+   "start": 367.64,
+   "ende": 387.16,
+   "text": "Und hattest du denn in diesen zwei Jahren, wo du das schon gefühlt hast, auch eben so eine Gedanken von, will ich das jetzt mein Leben lang so machen und eigentlich ist es ja zu kurz, um in so einer Situation auszuharren, wo man schon weiß, es fühlt sich nicht gut an.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 387.16,
+   "ende": 403.58,
+   "text": "Ja, und das ist für mich halt auch. Also ich stehe ja für Wahrheit. Also ob das jetzt im Business oder privat, das bin ja, wer ich bin. Und das ist so das Schlimmste eigentlich, was passieren kann in meinem Leben, wenn ich das Gefühl habe, etwas ist nicht wahr.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 403.58,
+   "ende": 417.62,
+   "text": "Erst recht eine Beziehung oder eine Partnerschaft. Und für mich war wirklich, also ich habe so gestruggelt diese zwei Jahre und es war immer dieses, okay, vielleicht haben wir nicht alles versucht. Wir waren dann auch bei der Paartherapie tatsächlich.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 417.62,
+   "ende": 442.8,
+   "text": "Also wir haben sozusagen aus meiner Sicht alles versucht, weil ich glaube, das war für mich dann wichtig auch, weil es ist ja immer so ein Ding zwischen, gebe ich hier zu schnell auf oder ist es wirklich der Moment, das ist das, finde ich, was am herausforderndsten ist und ich wollte einfach nochmal sicher gehen, ob ich wirklich einen Effort eingegeben habe.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 442.8,
+   "ende": 465.78,
+   "text": "Und das war so. Ich denke, die zwei Jahre waren vielleicht aus vielen Gründen wichtig, aber vielleicht wichtig auch wirklich so, okay, es ist wirklich sicher. Da kannst du rumeiern, wie du willst, das wird nicht besser. Aber zwei Jahre würde ich es vielleicht nicht mehr machen.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 465.78,
+   "ende": 483.04,
+   "text": "Wollte ich gerade fragen, also war das für dich dann auch nochmal so ein Moment, obwohl du schon jemand bist, der nicht lange im Wartesaal bleibt, aber wo es dir nochmal diesen Schub gegeben hat, wenn irgendetwas sich in deinem Leben verändern soll und du nicht damit zufrieden bist, wie es ist, dann raus damit sozusagen.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 483.04,
+   "ende": 501.52,
+   "text": "Das war sehr prägsam für mich. Und das ist so mein Learning. Wie gesagt, ich denke, okay, ich wollte mal sicher gehen, aber ich würde es heute nicht mehr so machen. Also ich bin immer sehr aware bei solchen Sachen, auch in Beziehungen, auch in der Partnerschaft, auch in Freundschaft.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 501.52,
+   "ende": 506.64,
+   "text": "Ich bin sehr, mein Bewusstsein ist sehr dafür geschärft von, okay, wie ist es hier gerade?",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 506.86,
+   "ende": 510.04,
+   "text": "Ist alles okay? Fühlt es sich wirklich ehrlich wahr an?",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 510.16,
+   "ende": 513.14,
+   "text": "Wenn nicht, warum? Das muss ja auch nicht immer die Base sein, richtig?",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 513.96,
+   "ende": 522.42,
+   "text": "Und ich würde keine zwei Jahre mehr warten, weil es ist wirklich, du fügst dir selber Schmerz zu.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 522.72,
+   "ende": 524.62,
+   "text": "Das ist das, was du tust und jemand anderem.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 525.86,
+   "ende": 530.34,
+   "text": "Und das ist das, was für mich dann wichtig war, weil wir waren beide an einem Punkt,",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 530.34,
+   "ende": 543.0,
+   "text": "wo wir gemerkt haben, wir wollen auch Familie und wo ich auch so gefühlt habe, es ist nicht fair, es ist mir gegenüber nicht fair, das sozusagen zu verzögern und ihm gegenüber auch nicht fair.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 543.0,
+   "ende": 563.66,
+   "text": "Ja, okay. Und dieses immer verzögern, um happy zu sein, das funktioniert nicht für mich, weil ich weiß, dass das eigentlich nur noch mehr Chaos, zu mehr Chaos führt und zu mehr Schmerz. Und das versuche ich zu verhindern, diese unnötigen Schmerzen.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 563.66,
+   "ende": 583.34,
+   "text": "Ja, okay. Und hat die Trennung unmittelbar damit im Zusammenhang gestanden, dass du dich entschlossen hast, auszuwandern? Würdest du es als auswandern auch bezeichnen? Weil ich finde das Wort auswandern tatsächlich, ich mag es eigentlich nicht, weil es fühlt sich so endgültig an.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 583.34,
+   "ende": 585.38,
+   "text": "so hier, ich nehme etwas hier raus",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 585.38,
+   "ende": 587.28,
+   "text": "und pflanze es dort ein und dann bleibt es",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 587.28,
+   "ende": 589.04,
+   "text": "auch dort, weil ich habe es da ja eingepflanzt.",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 589.14,
+   "ende": 591.3,
+   "text": "Ich bin ja ausgewandert und somit irgendwo",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 591.3,
+   "ende": 592.2,
+   "text": "eingewandert.",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 593.4,
+   "ende": 595.48,
+   "text": "Ich benutze tatsächlich das Wort nur, weil",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 595.48,
+   "ende": 597.56,
+   "text": "jeder was damit anfangen kann.",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 599.0,
+   "ende": 599.3,
+   "text": "Würdest",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 599.3,
+   "ende": 601.52,
+   "text": "du dein, du lebst ja in Lissabon",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 601.52,
+   "ende": 602.76,
+   "text": "jetzt seit drei Jahren?",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 603.22,
+   "ende": 604.7,
+   "text": "Vier schon? Okay.",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 605.84,
+   "ende": 607.56,
+   "text": "Also wie kam es dazu",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 607.56,
+   "ende": 609.66,
+   "text": "und steht das in Verbindung mit dem",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 609.66,
+   "ende": 611.64,
+   "text": "auch? Ja, das ist ja das Verrückte.",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 611.64,
+   "ende": 613.06,
+   "text": "Okay. Weil",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 613.06,
+   "ende": 615.44,
+   "text": "ich habe mich dann getrennt",
+   "avg_logprob": -0.226,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 615.44,
+   "ende": 616.86,
+   "text": "und geschieden.",
+   "avg_logprob": -0.226,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 617.16,
+   "ende": 619.68,
+   "text": "Ich muss mir scheinen lassen.",
+   "avg_logprob": -0.226,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 620.06,
+   "ende": 621.0,
+   "text": "Ihr wart verheiratet?",
+   "avg_logprob": -0.226,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 621.02,
+   "ende": 622.08,
+   "text": "Genau. Also, ja.",
+   "avg_logprob": -0.226,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 622.84,
+   "ende": 624.48,
+   "text": "Wir waren muslimisch verheiratet.",
+   "avg_logprob": -0.226,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 624.56,
+   "ende": 626.82,
+   "text": "Ah, okay. Und das hat aber",
+   "avg_logprob": -0.226,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 626.82,
+   "ende": 629.14,
+   "text": "trotzdem... Also im deutschen Recht",
+   "avg_logprob": -0.226,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 629.14,
+   "ende": 630.78,
+   "text": "bist du nicht verheiratet. Deswegen ist ja auch",
+   "avg_logprob": -0.226,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 630.78,
+   "ende": 632.74,
+   "text": "so ein Zwischending, bin ich wirklich verheiratet.",
+   "avg_logprob": -0.226,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 633.06,
+   "ende": 633.88,
+   "text": "Ach so, okay.",
+   "avg_logprob": -0.226,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 634.62,
+   "ende": 636.74,
+   "text": "Aber nach diesem Prozess",
+   "avg_logprob": -0.226,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 636.74,
+   "ende": 638.08,
+   "text": "war dann so für mich,",
+   "avg_logprob": -0.226,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 638.76,
+   "ende": 640.94,
+   "text": "ha, ich muss ja dann gar nicht",
+   "avg_logprob": -0.226,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 640.94,
+   "ende": 642.72,
+   "text": "mehr in Hamburg sein. Aber für mich war immer, ich war in",
+   "avg_logprob": -0.226,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 642.72,
+   "ende": 644.46,
+   "text": "Hamburg, weil mein Partner",
+   "avg_logprob": -0.204,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 644.46,
+   "ende": 646.66,
+   "text": "in Hamburg",
+   "avg_logprob": -0.204,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 646.66,
+   "ende": 648.64,
+   "text": "sein musste, wegen seiner Arbeit.",
+   "avg_logprob": -0.204,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 649.46,
+   "ende": 650.74,
+   "text": "Und für mich war damals schon,",
+   "avg_logprob": -0.204,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 650.86,
+   "ende": 652.3,
+   "text": "ich habe online gearbeitet,",
+   "avg_logprob": -0.204,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 652.58,
+   "ende": 654.88,
+   "text": "durch Covid, ich hätte überall sein können.",
+   "avg_logprob": -0.204,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 656.58,
+   "ende": 658.92,
+   "text": "Und ich hatte ja immer den Ruf gespürt,",
+   "avg_logprob": -0.204,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 659.0,
+   "ende": 660.6,
+   "text": "entweder Lissabon oder Bali,",
+   "avg_logprob": -0.204,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 660.72,
+   "ende": 662.32,
+   "text": "das war ja schon immer so ein Raum.",
+   "avg_logprob": -0.204,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 663.02,
+   "ende": 664.86,
+   "text": "Was heißt schon immer? Also wann hast du",
+   "avg_logprob": -0.204,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 664.86,
+   "ende": 667.08,
+   "text": "das erste Mal den Ruf gespürt,",
+   "avg_logprob": -0.204,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 667.12,
+   "ende": 669.2,
+   "text": "dass du weiter weg willst?",
+   "avg_logprob": -0.204,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 669.76,
+   "ende": 670.78,
+   "text": "Oder aus Deutschland",
+   "avg_logprob": -0.204,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 670.78,
+   "ende": 671.9,
+   "text": "weg willst, sagen wir mal so.",
+   "avg_logprob": -0.204,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 671.9,
+   "ende": 683.46,
+   "text": "Ja, man muss halt zu mir sagen, ich komme ja ursprünglich aus Portugal und es ist immer ein Ding, wenn du sozusagen mit zwei Kulturen aufwächst, es ist immer so ein Ding.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.3
+  },
+  {
+   "start": 683.46,
+   "ende": 704.18,
+   "text": "Ja, also wo gehörst du hin, wo nicht. Und ich hatte schon bestimmt, weiß ich nicht, zehn Jahre oder acht Jahre vorher gemerkt, als ich mal alleine in Lissabon war, ich habe so eine Liebe zu Lissabon gefühlt.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 704.18,
+   "ende": 708.84,
+   "text": "Und ich konnte mir das nicht so richtig erklären und dachte, ja gut, du kommst ja irgendwie von der Ecke.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 709.84,
+   "ende": 715.8,
+   "text": "Also es war deswegen immer im Raum, weil ich immer wieder mal in Ferien diese Momente hatte mit Lissabon,",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 715.9,
+   "ende": 718.14,
+   "text": "wo ich zurückgekommen bin und völlig verliebt war.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 718.4,
+   "ende": 719.9,
+   "text": "Und oh mein Gott, das ist so toll da.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 720.9,
+   "ende": 723.82,
+   "text": "Und deswegen schwingte das irgendwie immer da.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 724.66,
+   "ende": 728.8,
+   "text": "Und ich habe ja auch immer gesagt, mit 60 gehe ich nach Lissabon öffnen, einen Kaffee.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 729.08,
+   "ende": 729.92,
+   "text": "Mit 60?",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 729.92,
+   "ende": 732.32,
+   "text": "Mit 60. Ich wurde irgendwie 60. Keine Ahnung.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 732.32,
+   "ende": 734.7,
+   "text": "mit 60, wenn die Kinder aus dem Haus sind",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 734.7,
+   "ende": 736.56,
+   "text": "so in der Art, gehe ich nach Lissabon",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 736.56,
+   "ende": 737.6,
+   "text": "öffne einen Café",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 737.6,
+   "ende": 740.74,
+   "text": "einen Café mit Poeten",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 740.74,
+   "ende": 742.88,
+   "text": "wo Leute dann ihre Porte lesen können",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 742.88,
+   "ende": 744.22,
+   "text": "und so weiter, das war ja der Plan",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 744.22,
+   "ende": 746.98,
+   "text": "und als ich",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 746.98,
+   "ende": 748.76,
+   "text": "dann aber mich getrennt habe, dann war",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 748.76,
+   "ende": 750.84,
+   "text": "so, da war plötzlich alles so offen",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 750.84,
+   "ende": 752.54,
+   "text": "und ich saß da in meiner",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 752.54,
+   "ende": 753.62,
+   "text": "wunderschönen Wohnung",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 753.62,
+   "ende": 756.48,
+   "text": "und war so, warte mal, ihr könnt jetzt",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 756.48,
+   "ende": 758.56,
+   "text": "ihr könnt ja jetzt eigentlich",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 758.56,
+   "ende": 760.62,
+   "text": "Du musst nicht warten bis 60",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 760.62,
+   "ende": 762.3,
+   "text": "Genau, das war wieder",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 763.16,
+   "ende": 764.06,
+   "text": "Und ich so, geil.",
+   "avg_logprob": -0.237,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 764.86,
+   "ende": 766.24,
+   "text": "Und dann war ich erst mal völlig überfordert.",
+   "avg_logprob": -0.237,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 767.2,
+   "ende": 768.02,
+   "text": "Ich so, hm.",
+   "avg_logprob": -0.237,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 768.24,
+   "ende": 769.28,
+   "text": "Und war so, okay, wo gehe ich hin?",
+   "avg_logprob": -0.237,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 769.38,
+   "ende": 771.54,
+   "text": "Waren wir in Lissabon und habe gespielt in Lissabon.",
+   "avg_logprob": -0.237,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 771.68,
+   "ende": 774.5,
+   "text": "Und weil natürlich meine Family auch mittlerweile in Portugal ist.",
+   "avg_logprob": -0.237,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 775.08,
+   "ende": 778.4,
+   "text": "Und ich so, ah ja, dann lass uns doch einfach mal für drei Monate da hin.",
+   "avg_logprob": -0.237,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 778.7,
+   "ende": 780.6,
+   "text": "Der Plan war für drei Monate da hin.",
+   "avg_logprob": -0.237,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 781.44,
+   "ende": 781.8,
+   "text": "Okay.",
+   "avg_logprob": -0.237,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 782.14,
+   "ende": 783.46,
+   "text": "Und dann war ich da einen Monat.",
+   "avg_logprob": -0.237,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 783.46,
+   "ende": 786.2,
+   "text": "Und ich hoffe, sonst schneidet es raus.",
+   "avg_logprob": -0.237,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 787.52,
+   "ende": 788.5,
+   "text": "Ich hoffe, ich darf das sagen.",
+   "avg_logprob": -0.237,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 788.64,
+   "ende": 791.76,
+   "text": "Meine Reaktion, als ich verstanden habe, ich möchte da leben, war,",
+   "avg_logprob": -0.237,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 791.76,
+   "ende": 793.66,
+   "text": "Fuck, ich will hier leben.",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 794.74,
+   "ende": 796.88,
+   "text": "Weil ich dachte, oh, das ist neu.",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 796.98,
+   "ende": 800.16,
+   "text": "Also neu in dem Sinn, dass ich jetzt schon da sein will.",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 800.32,
+   "ende": 800.58,
+   "text": "Ja.",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 801.28,
+   "ende": 802.04,
+   "text": "Und so hat es begonnen.",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 802.86,
+   "ende": 809.08,
+   "text": "Wie lange war dieser Moment, dieser Fuck, ich will hier leben Moment, zu du lebst da?",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 809.3,
+   "ende": 810.86,
+   "text": "Wie die Zeit war dazwischen?",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 811.22,
+   "ende": 812.98,
+   "text": "Ich bin dann quasi geblieben.",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 813.42,
+   "ende": 816.48,
+   "text": "Ich bin dann nie wieder, ich bin eigentlich nie wieder zurück.",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 816.66,
+   "ende": 820.16,
+   "text": "Ich habe meine Wohne untervermietet und habe sie einfach verlängert.",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 820.4,
+   "ende": 820.64,
+   "text": "Okay.",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 820.64,
+   "ende": 839.44,
+   "text": "Und bin dann ein paar Monate im August eben vor drei Jahren dann eben zurück und habe dann die Wohnung aufgelöst. Das ist dann der Moment wirklich im physischen von, okay, jetzt gebe ich dir wirklich die Wohnung ab. Aber ich bin quasi nie zurückgegangen. Ich bin einfach geblieben.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 839.9,
+   "ende": 840.14,
+   "text": "Wow.",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 840.44,
+   "ende": 840.54,
+   "text": "Ja.",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 841.46,
+   "ende": 841.76,
+   "text": "Krass.",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 841.84,
+   "ende": 842.56,
+   "text": "Also es ist ja auch so,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 842.7,
+   "ende": 843.94,
+   "text": "also eigentlich dann in dem Sinne",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 843.94,
+   "ende": 845.58,
+   "text": "auch ein smoother Übergang von",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 845.58,
+   "ende": 846.94,
+   "text": "ich gehe dann erstmal gar nicht mehr zurück,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 847.06,
+   "ende": 848.72,
+   "text": "dann hat man nicht so diesen harten Cut,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 848.8,
+   "ende": 850.72,
+   "text": "so jetzt entscheide ich Tag X",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 850.72,
+   "ende": 851.36,
+   "text": "und gehen wir,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 851.44,
+   "ende": 852.58,
+   "text": "ich verlasse die Stadt so.",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 852.72,
+   "ende": 853.18,
+   "text": "Das ist auch,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 853.8,
+   "ende": 854.54,
+   "text": "das wird dann auch,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 854.6,
+   "ende": 856.62,
+   "text": "das merke ich auch gerade so groß irgendwie,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 856.82,
+   "ende": 857.6,
+   "text": "so ein Datum",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 857.6,
+   "ende": 859.68,
+   "text": "und die ganze Zeit hat man zum letzten Mal dies,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 859.78,
+   "ende": 860.58,
+   "text": "zum letzten Mal das,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 860.68,
+   "ende": 861.38,
+   "text": "zum letzten Mal hier,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 861.48,
+   "ende": 862.28,
+   "text": "zum letzten Mal da.",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 862.76,
+   "ende": 864.16,
+   "text": "Aber so ist man,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 864.24,
+   "ende": 865.24,
+   "text": "hat man das umgangen",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 865.24,
+   "ende": 867.7,
+   "text": "und dann ist man ein bisschen geschmeidiger.",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.059,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 867.7,
+   "ende": 873.8,
+   "text": "Aber es ist ja trotzdem eine Entscheidung, sich zu trauen, zu sagen, ich muss ja nicht zurück.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 873.98,
+   "ende": 877.24,
+   "text": "Und nur weil ich gesagt habe, mit 60, also ich glaube, es gibt auch Menschen, die sagen,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 877.84,
+   "ende": 879.6,
+   "text": "nee, ich habe ja gesagt, mit 60 gehe ich dahin.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 879.74,
+   "ende": 886.32,
+   "text": "Was auch immer das jetzt für eine Spinnerei in meinem Kopf ist, 60 und jetzt bin ich, keine Ahnung, Mitte, Anfang 30.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 886.84,
+   "ende": 887.92,
+   "text": "Das passt ja nicht.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 887.92,
+   "ende": 894.54,
+   "text": "Also dann trotzdem auch den Mut zu haben und zu sagen, ich fühle das jetzt, ich kann es machen, why not?",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 895.02,
+   "ende": 896.56,
+   "text": "Ich habe es nicht erwartet.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 896.56,
+   "ende": 916.36,
+   "text": "Ich habe wirklich das Gefühl gehabt, mit 60, aber das ist der Punkt, ich war immer offen. Ich habe nicht gesagt, es muss 60 oder whatever sein oder überhaupt sein, aber es hat mich überrascht. Ich war dann da und ich habe es nicht erwartet. Es macht natürlich Sinn, aber ich habe es nicht erwartet, dass es so früh ist.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 916.36,
+   "ende": 918.24,
+   "text": "und um auf deine Frage zurückzukommen,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 918.46,
+   "ende": 919.54,
+   "text": "weil ich es noch gar nicht beantwortet habe,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 919.6,
+   "ende": 920.78,
+   "text": "das mit dem Auswandern ist.",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 921.4,
+   "ende": 923.82,
+   "text": "Für mich, witzigerweise, ich sage nie auswandern.",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 924.46,
+   "ende": 925.58,
+   "text": "Für mich ist es immer,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 926.44,
+   "ende": 931.7,
+   "text": "wenn du wirklich an den Ort hingehst,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 932.04,
+   "ende": 933.54,
+   "text": "wo deine Seele zu Hause ist.",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 933.74,
+   "ende": 936.5,
+   "text": "Und für mich ist es eine gewisse Rückkehr.",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 936.96,
+   "ende": 939.02,
+   "text": "Ich würde eher Rückkehr sagen.",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 941.28,
+   "ende": 942.02,
+   "text": "Nach Hause.",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 943.04,
+   "ende": 944.66,
+   "text": "Zu Hause, ja, ist das Wort,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 944.78,
+   "ende": 946.14,
+   "text": "was dir zu Lissabon einfällt.",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 946.36,
+   "ende": 970.46,
+   "text": "Ja, das ist das erste Mal in meinem Leben, weil ich habe immer super gestruggelt mit Orten. Also ich habe immer gefühlt, also so sehr ich Hamburg liebe und Stuttgart sehr, sehr liebe, ich habe immer, also wenn du meine alten Freunde fragst, das Thema, was immer präsent war, wo ich es nie wirklich 100 Prozent gefühlt habe.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 970.46,
+   "ende": 984.85,
+   "text": "Also ich habe super gestruggelt damit und habe mich so ein bisschen damit abgefunden, vielleicht ein bisschen, dass es so ist, wie es ist, weil ich mein Leben lang das Gefühl hatte.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 985.87,
+   "ende": 997.85,
+   "text": "Und als ich dann aber wirklich in Lissabon war und begonnen habe, so mein Leben aufzubauen, war so, boah, das ist das erste Mal, dass ich fühle, dass ich auch an einem Ort bin, wo ich überhaupt was aufbauen will, langfristig.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 997.85,
+   "ende": 1001.19,
+   "text": "und das ist das erste Mal",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1001.19,
+   "ende": 1002.95,
+   "text": "ja, ich sag, das ist",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1002.95,
+   "ende": 1003.71,
+   "text": "wirklich zu Hause",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1003.71,
+   "ende": 1006.91,
+   "text": "nur hast du ja Bali auch",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1006.91,
+   "ende": 1008.39,
+   "text": "mit eingeworfen, ich weiß ja jetzt auch",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1008.39,
+   "ende": 1010.73,
+   "text": "durch unsere Zusammenarbeit, also was",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1010.73,
+   "ende": 1012.65,
+   "text": "Bali für eine Rolle spielt",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1012.65,
+   "ende": 1014.43,
+   "text": "in deinem Leben, weil ich",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1014.43,
+   "ende": 1016.85,
+   "text": "soweit ich das jetzt so",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1016.85,
+   "ende": 1018.77,
+   "text": "zurückverfolgen kann, ja Bali",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1018.77,
+   "ende": 1021.07,
+   "text": "auch einen Moment inne hatte",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1021.07,
+   "ende": 1022.73,
+   "text": "in dem eine Entscheidung",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1022.73,
+   "ende": 1024.81,
+   "text": "gefallen ist von, die ist",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1024.81,
+   "ende": 1026.87,
+   "text": "ja, betrifft dein ganzes Leben",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1026.87,
+   "ende": 1028.59,
+   "text": "und eben auch zu",
+   "avg_logprob": -0.242,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1028.59,
+   "ende": 1030.19,
+   "text": "das Leben ist zu kurz für irgendwann",
+   "avg_logprob": -0.242,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1030.19,
+   "ende": 1031.77,
+   "text": "einfach mal machen.",
+   "avg_logprob": -0.242,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1032.31,
+   "ende": 1034.09,
+   "text": "Magst du das mal erzählen?",
+   "avg_logprob": -0.242,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1034.53,
+   "ende": 1036.11,
+   "text": "Also Bali wird natürlich immer",
+   "avg_logprob": -0.242,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1036.11,
+   "ende": 1038.43,
+   "text": "einen special Platz in meinem Herz",
+   "avg_logprob": -0.242,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1038.43,
+   "ende": 1038.85,
+   "text": "haben.",
+   "avg_logprob": -0.242,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1040.23,
+   "ende": 1042.37,
+   "text": "Also ich bin ja in Hamburg,",
+   "avg_logprob": -0.242,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1042.37,
+   "ende": 1044.35,
+   "text": "habe studiert und",
+   "avg_logprob": -0.242,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1044.35,
+   "ende": 1046.11,
+   "text": "während des Studiums wusste ich,",
+   "avg_logprob": -0.242,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1046.33,
+   "ende": 1048.39,
+   "text": "fuck, Corporate, das wird",
+   "avg_logprob": -0.242,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1048.39,
+   "ende": 1050.19,
+   "text": "nichts mit mir. Ich habe",
+   "avg_logprob": -0.242,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1050.19,
+   "ende": 1052.29,
+   "text": "richtig gefühlt, das ist",
+   "avg_logprob": -0.242,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1052.29,
+   "ende": 1054.21,
+   "text": "nicht mein Ort, das ist nicht",
+   "avg_logprob": -0.242,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1054.21,
+   "ende": 1054.91,
+   "text": "meine Arbeit.",
+   "avg_logprob": -0.242,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1054.91,
+   "ende": 1058.93,
+   "text": "und habe meinen Master abgeschlossen.",
+   "avg_logprob": -0.294,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1059.75,
+   "ende": 1060.63,
+   "text": "Was hast du studiert?",
+   "avg_logprob": -0.294,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1061.25,
+   "ende": 1065.21,
+   "text": "Ich habe Sustainable Marketing and Leadership",
+   "avg_logprob": -0.294,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1065.21,
+   "ende": 1067.19,
+   "text": "in Hamburg studiert.",
+   "avg_logprob": -0.294,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1067.77,
+   "ende": 1068.29,
+   "text": "Master.",
+   "avg_logprob": -0.294,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1068.63,
+   "ende": 1070.17,
+   "text": "Das Beste war Medienkommunikation.",
+   "avg_logprob": -0.294,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1071.29,
+   "ende": 1072.95,
+   "text": "Und ich habe es abgeschlossen",
+   "avg_logprob": -0.294,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1072.95,
+   "ende": 1074.15,
+   "text": "und dann war so,",
+   "avg_logprob": -0.294,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1075.41,
+   "ende": 1077.33,
+   "text": "okay, ich werde nicht das tun,",
+   "avg_logprob": -0.294,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1077.75,
+   "ende": 1079.11,
+   "text": "was ich normalerweise mache",
+   "avg_logprob": -0.294,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1079.11,
+   "ende": 1080.53,
+   "text": "und was jeder gemacht hat.",
+   "avg_logprob": -0.294,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1080.97,
+   "ende": 1081.89,
+   "text": "Alle meine Kollegen",
+   "avg_logprob": -0.294,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1081.89,
+   "ende": 1083.93,
+   "text": "bewerben uns jetzt einfach mal randomly",
+   "avg_logprob": -0.294,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1083.93,
+   "ende": 1085.87,
+   "text": "mit Plätzen, die so im Studium",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1085.87,
+   "ende": 1087.63,
+   "text": "passen. Und ich so,",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1087.69,
+   "ende": 1089.87,
+   "text": "nee, ich werde reisen.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1090.27,
+   "ende": 1091.93,
+   "text": "Das habe ich nie gemacht. Ich habe immer gearbeitet",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1091.93,
+   "ende": 1093.71,
+   "text": "und studiert und",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1093.71,
+   "ende": 1095.43,
+   "text": "also es gab nie, wo ich länger",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1095.43,
+   "ende": 1097.35,
+   "text": "wirklich mal weg war. Und ich so, okay, ich",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1097.35,
+   "ende": 1098.49,
+   "text": "gehe reisen.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1099.77,
+   "ende": 1100.25,
+   "text": "Und",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1100.25,
+   "ende": 1103.29,
+   "text": "damals war",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1103.29,
+   "ende": 1105.63,
+   "text": "so zwischen Brasilien",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1105.63,
+   "ende": 1107.67,
+   "text": "und Bali. Und Brasilien wollte",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1107.67,
+   "ende": 1109.41,
+   "text": "ich nicht alleine als Frau, weil",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1109.41,
+   "ende": 1111.91,
+   "text": "meine Eltern mir mein Leben lang eingeprägt",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1111.91,
+   "ende": 1113.39,
+   "text": "haben, das ist zu gefährlich, es hat",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1113.39,
+   "ende": 1114.05,
+   "text": "funktioniert.",
+   "avg_logprob": -0.223,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1115.63,
+   "ende": 1117.47,
+   "text": "Nämlich nach Bali. Und ich habe wirklich",
+   "avg_logprob": -0.223,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1117.47,
+   "ende": 1119.65,
+   "text": "das Gefühl gehabt, ich werde Antworten",
+   "avg_logprob": -0.223,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1119.65,
+   "ende": 1121.51,
+   "text": "finden. Ich wusste, ich werde es",
+   "avg_logprob": -0.223,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1121.51,
+   "ende": 1122.13,
+   "text": "da wissen.",
+   "avg_logprob": -0.223,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1123.01,
+   "ende": 1125.47,
+   "text": "Mein erstes Mal alleine, so weit weg",
+   "avg_logprob": -0.223,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1125.47,
+   "ende": 1126.85,
+   "text": "und in Bali.",
+   "avg_logprob": -0.223,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1128.27,
+   "ende": 1130.33,
+   "text": "Und ich war zwei Monate",
+   "avg_logprob": -0.223,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1130.33,
+   "ende": 1131.39,
+   "text": "da. Aber die",
+   "avg_logprob": -0.223,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1131.39,
+   "ende": 1133.31,
+   "text": "Entscheidung, ich buche jetzt den Flug.",
+   "avg_logprob": -0.223,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1133.63,
+   "ende": 1134.73,
+   "text": "Erinnerst du dich daran noch?",
+   "avg_logprob": -0.223,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1134.73,
+   "ende": 1136.01,
+   "text": "Oh ja, ich saß",
+   "avg_logprob": -0.223,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1136.01,
+   "ende": 1138.65,
+   "text": "am wunderschönsten Starbucks",
+   "avg_logprob": -0.223,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1138.65,
+   "ende": 1140.97,
+   "text": "in Hamburg an der Binnenalster.",
+   "avg_logprob": -0.223,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1142.41,
+   "ende": 1142.63,
+   "text": "Ja,",
+   "avg_logprob": -0.223,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1142.63,
+   "ende": 1145.13,
+   "text": "da hab ich's gebucht, ja, uff, ja.",
+   "avg_logprob": -0.268,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1147.65,
+   "ende": 1149.33,
+   "text": "Ich hatte ja auch damals meinen Partner.",
+   "avg_logprob": -0.268,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1150.13,
+   "ende": 1151.17,
+   "text": "Also dein, mit dem",
+   "avg_logprob": -0.268,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1151.17,
+   "ende": 1152.15,
+   "text": "Wettbewerb, okay.",
+   "avg_logprob": -0.268,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1153.05,
+   "ende": 1155.17,
+   "text": "Er wollte nicht mit, sollte wirklich so sein,",
+   "avg_logprob": -0.268,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1155.23,
+   "ende": 1157.05,
+   "text": "dass ich alleine, der so, nee, aber geh mal,",
+   "avg_logprob": -0.268,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1157.13,
+   "ende": 1157.97,
+   "text": "geh mal, ne? Okay.",
+   "avg_logprob": -0.268,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1160.57,
+   "ende": 1161.17,
+   "text": "Ich hab,",
+   "avg_logprob": -0.268,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1161.29,
+   "ende": 1162.95,
+   "text": "es war halt so stark, weißt du,",
+   "avg_logprob": -0.268,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1162.95,
+   "ende": 1164.95,
+   "text": "also es war so stark,",
+   "avg_logprob": -0.268,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1165.37,
+   "ende": 1166.83,
+   "text": "weil ich wusste, ich wollte",
+   "avg_logprob": -0.268,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1166.83,
+   "ende": 1168.57,
+   "text": "schon immer länger reisen, so,",
+   "avg_logprob": -0.268,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1168.77,
+   "ende": 1170.93,
+   "text": "und ich wusste, wenn ich's jetzt nicht mach,",
+   "avg_logprob": -0.268,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1171.03,
+   "ende": 1172.13,
+   "text": "ich werd's nicht später machen.",
+   "avg_logprob": -0.268,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1172.63,
+   "ende": 1176.67,
+   "text": "Es wird schwieriger, es wird schwieriger, wenn ich, keine Ahnung, ich weiß auch nicht, ich wusste noch nicht mal, was ich machen will,",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1176.67,
+   "ende": 1183.27,
+   "text": "aber wenn ich irgendwo anfange zu arbeiten, dann zwei Monate rauszugehen, ich weiß ja, wie es ist.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1183.35,
+   "ende": 1185.37,
+   "text": "Es ist schwierig, das muss jetzt sein.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1186.39,
+   "ende": 1194.67,
+   "text": "Und ich will einfach auch den richtigen Schritt machen, wenn ich jetzt wieder in die Arbeitswelt reingehe.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1195.39,
+   "ende": 1198.11,
+   "text": "Und dann hatte ich auch eine Freundin, die sehr viel gereist ist.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1198.11,
+   "ende": 1221.13,
+   "text": "Ich denke, die hat mich auch ein bisschen inspiriert, die Jessie, und hat auch viel über Bali erzählt. Ich glaube, das war auch noch ein bisschen der Einfluss und ich so, okay, ich lasse uns da mal hin. Und dann, ich weiß noch, ich saß da, habe das Gemüse und dachte so, alleine nach Bali und ich hatte schon Angst, also ich hatte wirklich Angst.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1221.13,
+   "ende": 1223.99,
+   "text": "ich kannte dieses Reisen nicht, weißt du",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1223.99,
+   "ende": 1225.95,
+   "text": "von, naja, du weißt noch nicht, wo du die ganzen",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1225.95,
+   "ende": 1227.49,
+   "text": "zwei Monate bleibst und so.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1227.97,
+   "ende": 1229.39,
+   "text": "Das war für mich ganz, ganz neu.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1229.85,
+   "ende": 1232.37,
+   "text": "Natürlich, dann hatte ich immer meine Eltern so im Nacken",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1232.37,
+   "ende": 1234.03,
+   "text": "von, wie, zwei",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1234.03,
+   "ende": 1236.25,
+   "text": "Monate alleine, so weit weg und wie.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1236.45,
+   "ende": 1237.87,
+   "text": "Also auch dieses, Leute",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1237.87,
+   "ende": 1240.13,
+   "text": "alle so, what the fuck is going on with her?",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1242.05,
+   "ende": 1244.01,
+   "text": "Aber ich habe es gefühlt, also das war es schon",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1244.01,
+   "ende": 1245.65,
+   "text": "immer und ich glaube, vielleicht auch",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1245.65,
+   "ende": 1247.87,
+   "text": "so ein cooler Tipp, für die Leute, die zuhören.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1248.71,
+   "ende": 1249.93,
+   "text": "Ich glaube, eine Sache, die mein Leben",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1249.93,
+   "ende": 1251.67,
+   "text": "sehr, sehr verändert hat,",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1251.79,
+   "ende": 1253.19,
+   "text": "mein Leben lang",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1253.19,
+   "ende": 1256.03,
+   "text": "sich durchzieht, ist meine Intuition.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1256.43,
+   "ende": 1257.87,
+   "text": "Ich habe so oft",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1257.87,
+   "ende": 1260.25,
+   "text": "Dinge gefühlt,",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1260.43,
+   "ende": 1261.81,
+   "text": "die überhaupt nicht zu meinem Leben",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1261.81,
+   "ende": 1263.35,
+   "text": "gepasst haben und wo",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1263.35,
+   "ende": 1265.65,
+   "text": "man denken könnte, das ist doch jetzt verrückt,",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1265.75,
+   "ende": 1267.87,
+   "text": "das zu machen oder es macht keinen Sinn,",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1268.01,
+   "ende": 1268.73,
+   "text": "das zu machen.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1269.59,
+   "ende": 1271.81,
+   "text": "Und ich habe immer gewusst, ich muss",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1271.81,
+   "ende": 1273.59,
+   "text": "das machen. Auch nach Hamburg zu gehen,",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1273.59,
+   "ende": 1274.67,
+   "text": "war auch dasselbe.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1274.83,
+   "ende": 1277.57,
+   "text": "Ich fühle, es ist wichtig, dass ich",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1277.57,
+   "ende": 1278.39,
+   "text": "das mache für mich.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1279.23,
+   "ende": 1281.25,
+   "text": "Und ich habe dem einfach immer vertraut.",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1281.45,
+   "ende": 1284.79,
+   "text": "Egal, was Leute gesagt haben oder ob ich richtig Angst hatte,",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1285.49,
+   "ende": 1286.39,
+   "text": "ich habe es immer gemacht.",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1286.51,
+   "ende": 1288.59,
+   "text": "Und das waren immer die wichtigsten Momente in meinem Leben,",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1288.67,
+   "ende": 1289.63,
+   "text": "die alles verändert haben.",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1289.73,
+   "ende": 1292.25,
+   "text": "Und Bali hat es eben verändert, weil ich dann auf Bali war",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1292.25,
+   "ende": 1297.43,
+   "text": "und in Ubud war, in der Yoga-Bahn für alle Bali-Leute.",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1298.35,
+   "ende": 1300.89,
+   "text": "Und zum ersten Mal in einem Mormon-Zirkel saß,",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1300.99,
+   "ende": 1303.11,
+   "text": "was in Deutschland absolut nicht bekannt war",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1303.11,
+   "ende": 1304.47,
+   "text": "und ich noch nie erlebt hatte.",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1304.59,
+   "ende": 1307.35,
+   "text": "Und ich saß da und ich bin schon nicht jemand,",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1307.35,
+   "ende": 1313.77,
+   "text": "der auch sehr schnell zu begeistern ist, saß da und war aber sehr schnell ziemlich begeistert von dem,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1313.89,
+   "ende": 1321.49,
+   "text": "was ich da erlebt habe. Und ich wusste, ich wusste, das muss ich machen und das muss ich nach Hamburg bringen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1321.65,
+   "ende": 1328.29,
+   "text": "Und genau so war es. Ich war dann da noch einen Monat und habe so Ideen aufgeschrieben,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1328.39,
+   "ende": 1333.09,
+   "text": "bin aber nach Hamburg und habe in meiner kleinen Einzimmerwohnung angefangen, Wummelzirkel zu machen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1333.09,
+   "ende": 1337.01,
+   "text": "Und das war der Moment, wo ich, aber auch andere Kolleginnen von mir,",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1337.21,
+   "ende": 1340.37,
+   "text": "überhaupt das Thema Women's Circle in Deutschland groß gemacht haben.",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1340.37,
+   "ende": 1342.43,
+   "text": "Weil das kannten Leute nicht. Jetzt ist es normal.",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1342.67,
+   "ende": 1348.37,
+   "text": "Aber willst du trotzdem kurz mal sagen, was Frauenkreis übersetzt?",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1349.41,
+   "ende": 1352.77,
+   "text": "Aber wie war der, den du da besucht hast?",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1352.97,
+   "ende": 1357.37,
+   "text": "Und warum dachtest du, dass Deutschland das braucht sozusagen?",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1358.13,
+   "ende": 1359.67,
+   "text": "Boah, gut, das ist eine sehr gute Frage.",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1359.67,
+   "ende": 1378.35,
+   "text": "Ja, also man kann sich vorstellen, es gibt unterschiedliche Arten und Weisen, die zu machen, aber der Circle, den ich erlebt habe, da waren 20 Frauen und es ging um ein Thema, ich weiß nicht mehr, was das Thema war,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.36
+  },
+  {
+   "start": 1378.35,
+   "ende": 1392.51,
+   "text": "Aber ich weiß, dass in dem Moment, also jeder hat gesprochen und etwas geteilt und du hast es nicht kommentiert. Es wurde nicht darüber geredet, sondern du hattest einfach nur diesen Raum, es auszusprechen.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.35
+  },
+  {
+   "start": 1393.43,
+   "ende": 1395.85,
+   "text": "Ich habe schon gedacht, ja, ein bisschen hier sprechen.",
+   "avg_logprob": -0.186,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1396.29,
+   "ende": 1399.67,
+   "text": "Als ich dann aber dran war und ich hatte mir Notizen gemacht,",
+   "avg_logprob": -0.186,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1399.75,
+   "ende": 1402.89,
+   "text": "guck mal, das will ich sagen, ich war vorbereitet.",
+   "avg_logprob": -0.186,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1403.57,
+   "ende": 1407.41,
+   "text": "Und dann kam ich dran und habe etwas gesagt, was mir nicht bewusst war.",
+   "avg_logprob": -0.186,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1407.51,
+   "ende": 1411.03,
+   "text": "Und es war so tief und so entscheidend,",
+   "avg_logprob": -0.186,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1412.05,
+   "ende": 1414.91,
+   "text": "also ich habe wirklich diese Kraft gespürt,",
+   "avg_logprob": -0.186,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1414.91,
+   "ende": 1418.89,
+   "text": "wenn Frauen zusammenkommen, die sich nicht kennen",
+   "avg_logprob": -0.186,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1418.89,
+   "ende": 1421.11,
+   "text": "und du so einen heftigen, ehrlichen",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1421.11,
+   "ende": 1423.19,
+   "text": "Space hast,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1423.41,
+   "ende": 1424.95,
+   "text": "wo du Dinge teilen kannst,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1425.09,
+   "ende": 1426.81,
+   "text": "die du vielleicht noch nicht mal mit deinen",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1426.81,
+   "ende": 1428.87,
+   "text": "besten Freundinnen teilst, weil du Angst hast,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1428.99,
+   "ende": 1430.63,
+   "text": "was die denken oder whatever.",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1431.31,
+   "ende": 1433.25,
+   "text": "Und das ist das, was mir passiert ist.",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1433.67,
+   "ende": 1435.07,
+   "text": "Und das macht",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1435.07,
+   "ende": 1436.85,
+   "text": "so einen richtigen emotionalen Shift",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1436.85,
+   "ende": 1439.07,
+   "text": "in dir und ich war überwältigt",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1439.07,
+   "ende": 1440.97,
+   "text": "über diese Kraft, die ich selber,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1441.03,
+   "ende": 1443.07,
+   "text": "ich musste selber leben, um zu",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1443.07,
+   "ende": 1444.77,
+   "text": "merken, wie krass das eigentlich ist.",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1444.89,
+   "ende": 1446.91,
+   "text": "Hätte mir das jemand erzählt, hätte ich gesagt,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1446.91,
+   "ende": 1466.99,
+   "text": "Ja, okay, ein bisschen Kredit da, okay. Aber es ging richtig tief und ich so, wow. Und der Moment, wo ich verstanden habe, ich nehme das mit nach Hamburg, war tatsächlich, als der Host, der das gemacht hat, sich eine Frau gesagt hat, nehmt es mit, wenn ihr den Ruf spürt, das zu machen, bringt es in eure Städte.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1466.99,
+   "ende": 1468.69,
+   "text": "Und ich habe mich super angesprochen gefühlt.",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1469.21,
+   "ende": 1470.45,
+   "text": "Ich wusste, sie redet gerade mit mir.",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1471.69,
+   "ende": 1475.41,
+   "text": "Und ich wusste nicht, ob Hamburg das braucht.",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1476.09,
+   "ende": 1478.91,
+   "text": "Meine Frage war eher, wird das Hamburg verstehen?",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1479.99,
+   "ende": 1482.65,
+   "text": "Weil Bali ist ja völlig anders.",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1483.09,
+   "ende": 1486.21,
+   "text": "Ich meine, Bali, Spiritualität war damals sehr normal.",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1486.93,
+   "ende": 1489.51,
+   "text": "In Deutschland vor neun Jahren war das absolut noch nicht normal.",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1490.89,
+   "ende": 1493.57,
+   "text": "Aber auch da wieder, ich fühlte, ich muss es machen.",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1493.57,
+   "ende": 1495.31,
+   "text": "Ich kann mich nicht so verlieren.",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1495.91,
+   "ende": 1497.45,
+   "text": "Ich probiere es einfach.",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1497.99,
+   "ende": 1498.71,
+   "text": "Das war mein Ding.",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1498.93,
+   "ende": 1501.27,
+   "text": "Also ich probiere es, gucke mal, was passiert.",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1502.35,
+   "ende": 1504.29,
+   "text": "Ich würde es eher bereuen, hätte ich es nicht gemacht.",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1504.43,
+   "ende": 1506.15,
+   "text": "Also ich gehe sehr viel mit dem Bereuen.",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1506.61,
+   "ende": 1509.57,
+   "text": "Weißt du, das funktioniert für mich sehr, sehr gut mit dem Bereuen.",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1510.41,
+   "ende": 1516.51,
+   "text": "Also für mich das Schlimmste ist, wenn ich 90 bin und etwas bereue.",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1516.85,
+   "ende": 1518.95,
+   "text": "Zum Entschluss komme, ich habe irgendwas bereut.",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1518.95,
+   "ende": 1528.25,
+   "text": "Das ist für mich so mein Enttäuschungsmoment, was ich Failure nennen würde.",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1530.01,
+   "ende": 1535.79,
+   "text": "Und das ist das, wenn solche Momente sind, dann verstehe ich, ich muss sie machen,",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1535.79,
+   "ende": 1538.23,
+   "text": "sondern ich weiß, ich werde mich immer fragen, was wäre, wenn.",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1539.49,
+   "ende": 1542.29,
+   "text": "Deswegen habe ich einfach gemacht, ich hatte nicht so viel Leben, war in einer Wohnung.",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1543.39,
+   "ende": 1547.45,
+   "text": "Und es war gut. Also es war super. Kann ich das überhaupt? Kann ich das überhaupt machen?",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1547.45,
+   "ende": 1548.91,
+   "text": "Keine Ahnung. War super.",
+   "avg_logprob": -0.162,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1549.29,
+   "ende": 1554.67,
+   "text": "Hattest du vorher jemals den Gedanken, als Coach oder in Persönlichkeitsentwicklung",
+   "avg_logprob": -0.162,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1554.67,
+   "ende": 1558.57,
+   "text": "oder auch in der Art der Spiritualität zu arbeiten?",
+   "avg_logprob": -0.162,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1558.83,
+   "ende": 1560.93,
+   "text": "Oder ist das wirklich alles in diesem Moment so?",
+   "avg_logprob": -0.162,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1561.27,
+   "ende": 1566.35,
+   "text": "Ja, also ich, natürlich jetzt rückblickend gesehen, macht das alles unfassbar Sinn.",
+   "avg_logprob": -0.162,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1566.57,
+   "ende": 1568.55,
+   "text": "Ja, weil ich war schon immer so.",
+   "avg_logprob": -0.162,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1568.81,
+   "ende": 1573.01,
+   "text": "Ja, also ich war immer die Freundin, die die Freundinnen supportet hat,",
+   "avg_logprob": -0.162,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1573.01,
+   "ende": 1577.35,
+   "text": "Raum gehalten hat oder auch in der Family ein gutes Feingefühl hatte.",
+   "avg_logprob": -0.162,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1577.45,
+   "ende": 1579.43,
+   "text": "immer relativ schnell erkennen konnte, geht es",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1579.43,
+   "ende": 1580.57,
+   "text": "jemand gut oder nicht. Also",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1580.57,
+   "ende": 1583.41,
+   "text": "ich war mein Leben lang ein",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1583.41,
+   "ende": 1584.77,
+   "text": "Coach für andere. Natürlich",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1584.77,
+   "ende": 1586.69,
+   "text": "war mir das aber nicht klar.",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1587.65,
+   "ende": 1589.77,
+   "text": "Und zum Thema Spiritualität",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1589.77,
+   "ende": 1591.03,
+   "text": "haben das",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1591.03,
+   "ende": 1593.43,
+   "text": "es",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1593.43,
+   "ende": 1595.35,
+   "text": "kamen so ein, zwei",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1595.35,
+   "ende": 1597.17,
+   "text": "Menschen in meinem Leben, die das Thema",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1597.17,
+   "ende": 1598.81,
+   "text": "so reingebracht haben.",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1598.99,
+   "ende": 1601.79,
+   "text": "Wie jetzt Wiebke, meine alte Mitbewohnerin,",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1601.93,
+   "ende": 1603.29,
+   "text": "die ich bei ihr jetzt bleiben werde",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1603.29,
+   "ende": 1605.39,
+   "text": "die Tage auch. Sie war",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1605.39,
+   "ende": 1607.71,
+   "text": "super mit Spiritualität in Verbindung",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1607.71,
+   "ende": 1609.63,
+   "text": "oder das Thema Manifestation.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1610.33,
+   "ende": 1611.47,
+   "text": "Dann kurz bevor ich nach",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1611.47,
+   "ende": 1613.07,
+   "text": "Bali bin, hatte ich einen",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1613.07,
+   "ende": 1615.33,
+   "text": "Promo-Job. Ich habe Promo-Jobs",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1615.33,
+   "ende": 1617.31,
+   "text": "gemacht, dann hat einer angefangen mit mir",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1617.31,
+   "ende": 1619.31,
+   "text": "über das Buch The Secret zu sprechen",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1619.31,
+   "ende": 1620.83,
+   "text": "und ich muss das unbedingt lesen.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1621.15,
+   "ende": 1623.39,
+   "text": "Also es kam halt immer so in meinem Leben",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1623.39,
+   "ende": 1625.17,
+   "text": "und dann habe ich immer gespürt, boah, das ist voll",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1625.17,
+   "ende": 1627.61,
+   "text": "mein Ding, aber ich hätte nie gedacht,",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1627.73,
+   "ende": 1629.23,
+   "text": "ich werde damit arbeiten",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1629.23,
+   "ende": 1631.33,
+   "text": "in dem Sinn. Deswegen war es auch für mich",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1631.33,
+   "ende": 1632.45,
+   "text": "so, okay, kann ich das überhaupt?",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1633.09,
+   "ende": 1635.27,
+   "text": "Ich probiere halt immer gerne aus. Für mich",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1635.27,
+   "ende": 1636.87,
+   "text": "ist immer so, ich versuche,",
+   "avg_logprob": -0.216,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1637.07,
+   "ende": 1639.13,
+   "text": "ich gucke mal, was passiert, bin ehrlich zu mir,",
+   "avg_logprob": -0.216,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1639.39,
+   "ende": 1640.53,
+   "text": "bin ehrlich, okay, mache ich",
+   "avg_logprob": -0.216,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1640.53,
+   "ende": 1643.17,
+   "text": "das gut oder nicht, was denken die Leute,",
+   "avg_logprob": -0.216,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1643.35,
+   "ende": 1644.49,
+   "text": "finden die das gut oder nicht",
+   "avg_logprob": -0.216,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1644.49,
+   "ende": 1646.47,
+   "text": "und that's it.",
+   "avg_logprob": -0.216,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1647.49,
+   "ende": 1649.01,
+   "text": "Aber spannenderweise,",
+   "avg_logprob": -0.216,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1649.17,
+   "ende": 1650.37,
+   "text": "immer wenn ich so denke,",
+   "avg_logprob": -0.216,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1650.99,
+   "ende": 1652.95,
+   "text": "sind es immer die Sachen, die ich sehr gut kann.",
+   "avg_logprob": -0.216,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1653.19,
+   "ende": 1654.71,
+   "text": "Also, I don't know why,",
+   "avg_logprob": -0.216,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1655.01,
+   "ende": 1656.01,
+   "text": "aber es ist wirklich,",
+   "avg_logprob": -0.216,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1656.95,
+   "ende": 1657.15,
+   "text": "ja,",
+   "avg_logprob": -0.216,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1658.59,
+   "ende": 1660.89,
+   "text": "Leute, also es hat einen richtig",
+   "avg_logprob": -0.216,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1660.89,
+   "ende": 1662.25,
+   "text": "nervt der Zeit getroffen,",
+   "avg_logprob": -0.216,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1662.67,
+   "ende": 1664.55,
+   "text": "weil viele Leute, also Frauen",
+   "avg_logprob": -0.216,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1664.55,
+   "ende": 1665.65,
+   "text": "natürlich da unter sich.",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1667.73,
+   "ende": 1668.93,
+   "text": "Die wollten das.",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1669.13,
+   "ende": 1670.45,
+   "text": "Also es waren ja auch die Menschen, ich habe es ja",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1670.45,
+   "ende": 1672.53,
+   "text": "kostenlos gemacht, aber es waren ja die Menschen, die dann",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1672.53,
+   "ende": 1674.45,
+   "text": "gesagt haben, Dani, mach mal ein richtiges",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1674.45,
+   "ende": 1676.25,
+   "text": "Business draus. Also die haben eigentlich nicht",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1676.25,
+   "ende": 1678.35,
+   "text": "supportet, dass ich es so richtig mache.",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1679.89,
+   "ende": 1680.57,
+   "text": "Aber das",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1680.57,
+   "ende": 1682.51,
+   "text": "war wirklich in nass der Zeit.",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1682.51,
+   "ende": 1684.43,
+   "text": "Und dann ist das ja auch alles groß geworden.",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1684.61,
+   "ende": 1686.39,
+   "text": "Das war dann der Moment, wo Podcasts groß",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1686.39,
+   "ende": 1688.81,
+   "text": "geworden sind, Coaching, Spiritualität.",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1688.97,
+   "ende": 1689.15,
+   "text": "Ja.",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1690.27,
+   "ende": 1692.11,
+   "text": "Wenn du jetzt gerade sagst, das Thema Business,",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1692.29,
+   "ende": 1694.29,
+   "text": "weil ich glaube, viele Menschen, unabhängig",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1694.29,
+   "ende": 1695.83,
+   "text": "jetzt, ob es ums Business geht, ums",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1695.83,
+   "ende": 1697.99,
+   "text": "Auswandern, Hausbauen,",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1698.15,
+   "ende": 1699.61,
+   "text": "Trennung, egal welche",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1699.61,
+   "ende": 1701.65,
+   "text": "größeren Entscheidungen vermeintlich",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1701.65,
+   "ende": 1703.89,
+   "text": "bevorstehen, ist glaube ich ja",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1703.89,
+   "ende": 1705.77,
+   "text": "oft das Thema Sicherheit ein Punkt,",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1705.89,
+   "ende": 1707.83,
+   "text": "warum die Menschen irgendeinen Traum",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1707.83,
+   "ende": 1708.89,
+   "text": "vielleicht nicht leben.",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1709.63,
+   "ende": 1711.81,
+   "text": "Wenn du jetzt sagst, du hast studiert und",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1711.81,
+   "ende": 1713.93,
+   "text": "erstmal haben sich alle auf was beworben und du bist",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1713.93,
+   "ende": 1715.77,
+   "text": "dann aber erstmal nach Bali und hast erstmal",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1715.77,
+   "ende": 1717.01,
+   "text": "Geld rausgehauen.",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1717.19,
+   "ende": 1720.05,
+   "text": "Ich habe meinen Bausparvertrag auch aufgelöst.",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1720.05,
+   "ende": 1722.15,
+   "text": "Das macht man, alle Money Coaches",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1722.15,
+   "ende": 1723.13,
+   "text": "gehen jetzt richtig",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1723.13,
+   "ende": 1725.35,
+   "text": "an der Decke, ich habe meinen Börsensparvertrag",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1725.35,
+   "ende": 1727.35,
+   "text": "aufgelöst und habe den Rest des Geldes",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1727.35,
+   "ende": 1729.15,
+   "text": "genommen für Baden. Wusste nicht, was",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1729.15,
+   "ende": 1731.11,
+   "text": "danach finanziert passiert. Ja, und dann",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1731.11,
+   "ende": 1733.05,
+   "text": "kommst du wieder, machst dich",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1733.05,
+   "ende": 1735.05,
+   "text": "selbst, also noch nicht mal richtig selbstständig,",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1735.09,
+   "ende": 1736.71,
+   "text": "weil du hast es ja erst mal umsonst angeboten.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1737.35,
+   "ende": 1738.81,
+   "text": "Also nimmst auf jeden Fall aber keinen",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1738.81,
+   "ende": 1741.29,
+   "text": "festen Job mit einem festen Einkommen",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1741.29,
+   "ende": 1743.13,
+   "text": "an, was",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1743.13,
+   "ende": 1745.05,
+   "text": "ja auch nach dem Studium ist man ja noch",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1745.05,
+   "ende": 1746.95,
+   "text": "relativ jung und dann ist ja, also es gibt",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1746.95,
+   "ende": 1748.89,
+   "text": "ja Menschen, die machen sich nach dem Studium selbstständig,",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1748.99,
+   "ende": 1750.97,
+   "text": "aber die meisten brauchen ja trotzdem erst mal",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1750.97,
+   "ende": 1752.69,
+   "text": "die Sicherheit eines festen Jobs.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1752.69,
+   "ende": 1771.47,
+   "text": "Also woher, also was heißt für dich Sicherheit und warum hast du es nicht als Unsicherheit empfunden oder woher hast du in der Zeit, in dem Alter, mit den Rahmenbedingungen die Kraft genommen, den Mut genommen zu sagen, ich mache das jetzt einfach.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1771.47,
+   "ende": 1790.45,
+   "text": "Ja. Das Witzige an mir ist, was wahrscheinlich noch nicht mal dir bewusst ist, dass Sicherheit mir richtig wichtig ist. Und dass es mein größter Struggle im Leben ist, mich sicher zu fühlen. Also ich habe unfassbar viel zum Thema Sicherheit gelernt während meines Lebens und lerne immer noch.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1790.45,
+   "ende": 1791.99,
+   "text": "und",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1791.99,
+   "ende": 1794.39,
+   "text": "also bei mir ist immer Sicherheit und Freiheit",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1794.39,
+   "ende": 1796.73,
+   "text": "und",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1796.73,
+   "ende": 1798.73,
+   "text": "ich glaube",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1798.73,
+   "ende": 1800.61,
+   "text": "durch all das, was ich erlebt",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1800.61,
+   "ende": 1802.93,
+   "text": "habe, weil ich war ja vorher in Corporate Jobs",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1802.93,
+   "ende": 1804.61,
+   "text": "ich hatte ja diese Sicherheit und",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1804.61,
+   "ende": 1806.07,
+   "text": "alles und habe gemerkt",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1806.07,
+   "ende": 1808.51,
+   "text": "wie unglücklich ich war und wie",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1808.51,
+   "ende": 1810.11,
+   "text": "sehr mich das belastet hat",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1810.11,
+   "ende": 1812.49,
+   "text": "und ich habe gemerkt, okay ja Sicherheit",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1812.49,
+   "ende": 1814.69,
+   "text": "aber irgendwie so funktioniert es für mich auch nicht",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1814.69,
+   "ende": 1818.75,
+   "text": "und das was mich immer wieder",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1818.75,
+   "ende": 1821.03,
+   "text": "rettet, wenn du so willst, ist",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1821.03,
+   "ende": 1823.03,
+   "text": "wirklich meine Intuition.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1825.03,
+   "ende": 1827.01,
+   "text": "Also hätte ich nicht diesen Halt, es muss",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1827.01,
+   "ende": 1829.15,
+   "text": "in mir sein, das ist nicht irgendjemand",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1829.15,
+   "ende": 1831.07,
+   "text": "anderes, sondern diesen Halt",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1831.07,
+   "ende": 1833.19,
+   "text": "in mir, dass ich weiß, ich muss diesen Weg",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1833.19,
+   "ende": 1835.03,
+   "text": "gehen und ich weiß auch, dass",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1835.03,
+   "ende": 1836.63,
+   "text": "alles gut wird, wenn ich das mache.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1836.99,
+   "ende": 1839.15,
+   "text": "Auch mit dem Thema Sicherheit. Aber was",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1839.15,
+   "ende": 1840.31,
+   "text": "sagen wir jetzt mal ganz",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1840.31,
+   "ende": 1843.07,
+   "text": "banal, was bringt denn",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1843.07,
+   "ende": 1844.87,
+   "text": "dein Brötchen auf den Tisch in solchen",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1844.87,
+   "ende": 1847.09,
+   "text": "Lebenssituationen? Also für alle, die vielleicht",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1847.09,
+   "ende": 1848.93,
+   "text": "auch denken, okay, ich vertraue",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1848.93,
+   "ende": 1851.07,
+   "text": "eigentlich meiner Intuition und ich würde",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1851.07,
+   "ende": 1853.01,
+   "text": "gerne, aber so ganz klassische",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1853.01,
+   "ende": 1854.91,
+   "text": "Sachen, wie bezahle ich meine",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1854.91,
+   "ende": 1856.85,
+   "text": "Intuition? Ja, also um",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1856.85,
+   "ende": 1858.85,
+   "text": "klar zu sagen, wie habe ich es gemacht? Also",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1858.85,
+   "ende": 1860.77,
+   "text": "ich kam zurück, ich habe",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1860.77,
+   "ende": 1862.83,
+   "text": "also ich kam zurück aus Bali,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1863.05,
+   "ende": 1864.85,
+   "text": "habe das gemacht und",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1864.85,
+   "ende": 1866.97,
+   "text": "habe parallel meine Promo-Jobs gemacht.",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1866.97,
+   "ende": 1868.89,
+   "text": "Ich habe ganz viel Promotions gemacht",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1868.89,
+   "ende": 1870.73,
+   "text": "und habe für die Emotion gearbeitet,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1870.97,
+   "ende": 1872.65,
+   "text": "also gearbeitet in dem Sinn, ich war,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1873.15,
+   "ende": 1874.07,
+   "text": "habe für die",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1874.07,
+   "ende": 1876.79,
+   "text": "Texte geschrieben und so weiter. Also es war",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1876.79,
+   "ende": 1878.97,
+   "text": "nichts, kein Angestellt,",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1879.07,
+   "ende": 1880.25,
+   "text": "you know, also mehr Freelance.",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1880.37,
+   "ende": 1882.61,
+   "text": "Ich habe das gemacht, ein paar Monate",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1882.61,
+   "ende": 1884.35,
+   "text": "und habe Parallel-Women-Circles gemacht.",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1884.87,
+   "ende": 1886.81,
+   "text": "Und dann kam ich zu dem Punkt, wo ich gemerkt habe,",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1887.25,
+   "ende": 1888.31,
+   "text": "das Baby will wachsen.",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1889.11,
+   "ende": 1890.59,
+   "text": "Also ich stand so dieses, okay,",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1891.49,
+   "ende": 1892.89,
+   "text": "ich",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1892.89,
+   "ende": 1894.39,
+   "text": "muss da voll rein.",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1894.91,
+   "ende": 1896.61,
+   "text": "Und dann hatte ich mit Menschen gesprochen,",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1896.75,
+   "ende": 1898.39,
+   "text": "habe überlegt, okay, was ist für mich",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1898.39,
+   "ende": 1900.59,
+   "text": "wirklich hier die",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1900.59,
+   "ende": 1902.81,
+   "text": "Lösung? Und was ich gemacht",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1902.81,
+   "ende": 1904.75,
+   "text": "habe, ist ja, ich habe mich dann ja arbeitslos",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1904.75,
+   "ende": 1906.41,
+   "text": "gemeldet. Das war damals meine",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1906.41,
+   "ende": 1908.49,
+   "text": "Option. Würde ich vielleicht heute nicht mehr",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1908.49,
+   "ende": 1910.53,
+   "text": "machen, aber ich habe mich",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1910.53,
+   "ende": 1912.83,
+   "text": "arbeitslos gemeldet, bin aus allem raus",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1912.83,
+   "ende": 1914.77,
+   "text": "und habe dann den Gründungszuschuss",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1914.77,
+   "ende": 1916.59,
+   "text": "beantragt. Habe das auch alles",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1916.59,
+   "ende": 1918.61,
+   "text": "wirklich manifestiert, dass alles glatt läuft.",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1918.73,
+   "ende": 1919.97,
+   "text": "Es ist auch alles glatt gelaufen.",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1921.41,
+   "ende": 1922.45,
+   "text": "Und das hat mir",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1922.45,
+   "ende": 1924.21,
+   "text": "sozusagen diese Sicherheit,",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1925.05,
+   "ende": 1926.39,
+   "text": "dieses, okay, das ist",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1926.39,
+   "ende": 1927.61,
+   "text": "greifbar für meinen Kopf,",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1928.33,
+   "ende": 1930.35,
+   "text": "gegeben. Ich habe",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1930.35,
+   "ende": 1932.65,
+   "text": "aber diese Zeit auch sehr, sehr genutzt",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1932.65,
+   "ende": 1933.53,
+   "text": "von",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1933.53,
+   "ende": 1941.05,
+   "text": "Das Aufbauen, Netzwerken und so weiter. Das war damals meine Lösung.",
+   "avg_logprob": -0.187,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.31
+  },
+  {
+   "start": 1941.83,
+   "ende": 1955.91,
+   "text": "Also ich glaube schon, klar, das ist halt immer diese Gratwanderung, weißt du, mit dem Thema, dass du schon einen gewissen Plan für dich hast, dass dein Nervensystem beruhigt,",
+   "avg_logprob": -0.187,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.31
+  },
+  {
+   "start": 1955.91,
+   "ende": 1958.67,
+   "text": "aber dass du nicht dich einfach",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1958.67,
+   "ende": 1960.37,
+   "text": "darauf verlässt, sondern dass du",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1960.37,
+   "ende": 1962.77,
+   "text": "in dieser Sicherheit in dir arbeitest",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1962.77,
+   "ende": 1964.33,
+   "text": "das ist das, was ich gelernt habe",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1964.33,
+   "ende": 1965.05,
+   "text": "über die Jahre",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1965.05,
+   "ende": 1968.85,
+   "text": "wenn du dich in dir sicher fühlst",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1968.85,
+   "ende": 1970.29,
+   "text": "wird",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1970.29,
+   "ende": 1972.73,
+   "text": "dir deine Außenwelt das genau",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1972.73,
+   "ende": 1974.75,
+   "text": "so manifestieren und zeigen",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1974.75,
+   "ende": 1976.65,
+   "text": "so, wenn ich mich",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1976.65,
+   "ende": 1978.73,
+   "text": "unsicher in mir fühle, zeigt mir",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1978.73,
+   "ende": 1979.37,
+   "text": "das mein Leben",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1979.37,
+   "ende": 1982.21,
+   "text": "in allem, in Beziehungen",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1982.21,
+   "ende": 1983.55,
+   "text": "im Geld, in allem",
+   "avg_logprob": -0.17,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1983.55,
+   "ende": 2002.01,
+   "text": "Ja. So, ich weiß ganz genau, wenn ich im Außen irgendwas sehe, was chaotisch ist, weiß ich, dass in mir im Inneren irgendwas gerade chaotisch ist. Deswegen ist mittlerweile so mein Blick auf die Realität so ein bisschen eine andere, weil ich gehe immer sofort nach innen.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2002.01,
+   "ende": 2026.77,
+   "text": "Und dann passieren so die verrücktesten Sachen, wo ich dann sehe, guck mal, wenn ich mich im Inneren beruhigt habe, wenn ich mich im Inneren sicher fühle, dann passieren diese Miracles, die man manchmal sagt, von, guck mal, jetzt plötzlich kommt da jemand um die Ecke oder ein Projekt kommt oder ein neuer Kunde und dann plötzlich ist das alles da, wovor du so Angst hast, dass es nicht da ist.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2026.77,
+   "ende": 2048.01,
+   "text": "Hast du, als du dann anfingst, das erstmal kostenfrei und dann gedacht, okay, ich mache jetzt ein Business, weil in der Selbstständigkeit, du bist ja jetzt dann seit neun Jahren letztendlich, vor neun Jahren waren diese Momente und du bist ja noch da und erfolgreicher denn je, aber trotzdem ist ja so eine Selbstständigkeit.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.034,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2048.01,
+   "ende": 2069.85,
+   "text": "Ich weiß nicht, ob das nur im Online-Business ist. Ich frage mich das manchmal, ob das so, ich sage jetzt mal Handwerkerbetriebe oder so auch haben. Also ich habe das, dass ich jetzt seit über drei Jahren mich frage, gibt es irgendwann den Punkt, wo man nicht mehr denkt, was ist wenn so und so, was ist wenn so und so, sondern ich fühle mich komplett safe in meiner Selbstständigkeit.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2069.85,
+   "ende": 2098.25,
+   "text": "Und das ist klar, dass das sozusagen der Weg ist und man nicht immer noch so denkt, was ist, wenn nicht oder was ist, wenn irgendwann nicht mehr genug zahlende Kunden da sind. Also gab es bei dir irgendwann auch nochmal so einen Moment, wo du dachtest, okay, ich habe das jetzt ausprobiert mit den Women's Circle und jetzt weiß ich aber hundertprozentig, dass das auch mein Weg bleiben wird, weil es war ja erstmal nur so ein Testballon. Aber wann warst du dir sicher, das ist auf jeden Fall dein Lebensweg sozusagen?",
+   "avg_logprob": -0.044,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2098.25,
+   "ende": 2117.79,
+   "text": "Das ist eine gute Frage. Ich erinnere mich nicht mehr an den exakten Moment. Ich glaube, der kam relativ schnell, weil ich im Tun gemerkt habe, das bin so ich. Das ist so krass, wie ich das bin und es immer war. Und auch dieses Unternehmer sein, das war voll ich.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 2118.65,
+   "ende": 2119.77,
+   "text": "Also ich war überrascht.",
+   "avg_logprob": -0.198,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2119.95,
+   "ende": 2121.55,
+   "text": "Es waren viele Überraschungen für mich,",
+   "avg_logprob": -0.198,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2121.67,
+   "ende": 2124.49,
+   "text": "aber es hat sich so authentisch angefühlt.",
+   "avg_logprob": -0.198,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2125.55,
+   "ende": 2128.97,
+   "text": "Und ich weiß, dass ich dann diese Phase hatte,",
+   "avg_logprob": -0.198,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2129.25,
+   "ende": 2131.73,
+   "text": "oder doch auch, wo ich gemerkt habe,",
+   "avg_logprob": -0.198,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2131.85,
+   "ende": 2133.11,
+   "text": "ich wusste vorher schon,",
+   "avg_logprob": -0.198,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2133.39,
+   "ende": 2135.29,
+   "text": "angestellt sein ist nicht mein Ding.",
+   "avg_logprob": -0.198,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2136.07,
+   "ende": 2137.49,
+   "text": "Und für mich war immer,",
+   "avg_logprob": -0.198,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2137.75,
+   "ende": 2140.47,
+   "text": "ich will nicht in das Angestelltenverhältnis zurück.",
+   "avg_logprob": -0.198,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2140.67,
+   "ende": 2141.03,
+   "text": "Okay.",
+   "avg_logprob": -0.198,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2142.09,
+   "ende": 2145.83,
+   "text": "Und als ich dann das Unternehmersein ausprobiert habe",
+   "avg_logprob": -0.198,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2145.83,
+   "ende": 2146.53,
+   "text": "und gemerkt habe,",
+   "avg_logprob": -0.198,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2146.53,
+   "ende": 2150.71,
+   "text": "boah, das ist voll mein Ding, war für mich klar, okay, das ist mein Weg.",
+   "avg_logprob": -0.173,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 2151.21,
+   "ende": 2155.35,
+   "text": "Ich weiß aber auch, und das ist das, was ich bei vielen Unternehmern sehe,",
+   "avg_logprob": -0.173,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 2156.53,
+   "ende": 2162.27,
+   "text": "es ist wichtig, dass du dich dazu committest und dass du es auch Teil deiner Identität machst.",
+   "avg_logprob": -0.173,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 2163.25,
+   "ende": 2167.97,
+   "text": "Weil ich glaube, wenn du immer so mit der Frage, okay, ist es das jetzt oder nicht,",
+   "avg_logprob": -0.173,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 2168.11,
+   "ende": 2169.83,
+   "text": "das bringt Chaos rein.",
+   "avg_logprob": -0.173,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 2169.83,
+   "ende": 2174.03,
+   "text": "Du bist nicht verankert in dieser Entscheidung.",
+   "avg_logprob": -0.173,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 2174.03,
+   "ende": 2197.83,
+   "text": "Und wenn du nicht verankert daran bist, dann wirst du dich auch dementsprechend so verhalten. Also für mich, das kann sein, dass du in 20 Jahren denkst, boah, ich habe Bock auf was anderes. That's fine. Aber wenn du ständig, sage ich mal, aus diesem Commitment gedanklich rausgehst, dann fängst du an zu wackeln.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 2198.69,
+   "ende": 2203.91,
+   "text": "Und für mich war wichtig, dass ich mich committe, dass ich wirklich sage, das ist mein Ding.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2204.37,
+   "ende": 2210.25,
+   "text": "Und ich bleibe da, auch wenn es vielleicht mal wild wird, weil das ist der Weg für mich.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2210.37,
+   "ende": 2213.97,
+   "text": "Das ist auch mein Wachstum darin.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2215.39,
+   "ende": 2220.55,
+   "text": "Und ich merke, und das ist ein Unterschied, das ich sehr oft sehe, wo Menschen, glaube ich,",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2220.57,
+   "ende": 2222.65,
+   "text": "manchmal auch, wenn sie mit mir reden, sind sie verwundet.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2222.65,
+   "ende": 2242.87,
+   "text": "Ich bin halt committed zu dem, auch in Zeiten, die nicht gut sind oder wo es mir nicht gut geht. Und die Art und Weise, wie ich dann reagiere und bin, manchmal gucke ich zurück und denke, wow, wo kam der her? Also es ist wirklich dieser Commitment darin.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 2242.87,
+   "ende": 2263.83,
+   "text": "Aber ich denke, man muss fühlen, also du musst fühlen, dass es wirklich dein Ding ist. Ich würde nicht sagen, dass jeder ein Unternehmer ist oder jeder ein Business haben muss. Ich bin jetzt alle digitalen Nomaden. Quatsch, sondern sei ehrlich zu dir und wirklich ehrlich, ist es wirklich dein Ding?",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2263.83,
+   "ende": 2267.67,
+   "text": "Nicht, weil es trendy ist, sondern weil du fühlst, das ist deine DNA.",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2268.01,
+   "ende": 2268.81,
+   "text": "Ja, ja.",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2269.05,
+   "ende": 2272.97,
+   "text": "Und das ist bei mir, war relativ schnell klar, das ist voll, bin ich voll echt.",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2272.97,
+   "ende": 2284.77,
+   "text": "Deine DNA, das finde ich gut, weil, was ich auch spannend finde und ich habe das jetzt oft natürlich in Bezug mit den Kindern, mit Schule, sie gehen erstmal nicht zur Schule, was verbaue ich ihnen damit und so weiter.",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2285.55,
+   "ende": 2287.89,
+   "text": "was bei dir ja auch interessant ist,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2288.03,
+   "ende": 2292.01,
+   "text": "dass du ja eigentlich keine Ausbildung jemals als Coach gemacht hast",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2292.01,
+   "ende": 2294.23,
+   "text": "und eigentlich das, was du jetzt beruflich machst,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2294.71,
+   "ende": 2297.55,
+   "text": "nichts mit deinem Studium oder nichts mit dem zu tun hat,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2298.03,
+   "ende": 2300.49,
+   "text": "was du jetzt, sage ich mal, so klassisch gelernt hast.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2300.73,
+   "ende": 2303.35,
+   "text": "Und das finde ich halt auch interessant,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2303.47,
+   "ende": 2306.17,
+   "text": "weil gerade, ich glaube, es ist in der Online-Welt tatsächlich",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2306.17,
+   "ende": 2308.71,
+   "text": "noch ein bisschen einfacher als in stationären Betrieben,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2308.81,
+   "ende": 2311.51,
+   "text": "zumindest gerade in Deutschland, wo es so viele Vorschriften gibt",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2311.51,
+   "ende": 2314.75,
+   "text": "und Ausbildungszertifikate und Zeugnisse und keine Ahnung was.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2314.77,
+   "ende": 2327.63,
+   "text": "Ich glaube tatsächlich, dass es in der Online-Welt etwas einfacher ist, sich als Experte, Profi und so weiter zu etablieren, ohne eine lange Liste von teuren Weiterbildungen, Zertifikaten und Ausbildungen zu haben.",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2330.01,
+   "ende": 2344.17,
+   "text": "Ich komme darauf wegen deiner DNA, weil wenn ich etwas verkörpere oder für etwas brenne, dann kann ich mir gewisse Kompetenzen auch aneignen, ohne dass ich jahrelang das studiert haben muss oder jahrelang eine Ausbildung und irgendwas gemacht haben muss.",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2344.17,
+   "ende": 2361.39,
+   "text": "Das heißt, alle Menschen, die vielleicht eine Ausbildung gemacht haben und ein Studium und vielleicht auch irgendwo gearbeitet haben, aber trotzdem spüren, dass sie, ich habe letztens mit einem geschrieben, der arbeitet als Unternehmensberater und sagt, eigentlich habe ich gar keinen Bock da drauf, weil ich möchte lieber Autos waschen.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2361.77,
+   "ende": 2364.73,
+   "text": "Oder musste ich so lachen und dachte, wie crazy, oder?",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2364.89,
+   "ende": 2365.53,
+   "text": "Wie geil ist das denn?",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2365.55,
+   "ende": 2366.37,
+   "text": "Ich finde es auch so geil.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2366.79,
+   "ende": 2369.03,
+   "text": "Also es ist da wohl, ich kenne mich da nicht aus,",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2369.05,
+   "ende": 2373.61,
+   "text": "es gibt da so eine ganz bestimmte Art, Autos so ganz lupenrein zu kleben.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2373.73,
+   "ende": 2374.99,
+   "text": "Das hat irgendwie so einen Namen auch.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2375.11,
+   "ende": 2377.03,
+   "text": "Das sind richtige Liebhaber, ja.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2377.03,
+   "ende": 2377.59,
+   "text": "Ja, genau.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2377.85,
+   "ende": 2380.13,
+   "text": "Und sowas meint ihr, das würde eigentlich keiner machen.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2380.23,
+   "ende": 2382.41,
+   "text": "Und ich fand das so geil, auch das auszusprechen.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2382.51,
+   "ende": 2385.69,
+   "text": "Weißt du, überhaupt sich zu trauen, ob er das macht, ist ja eine Sache.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2385.69,
+   "ende": 2388.45,
+   "text": "Aber sich erst mal selber auch auszusprechen und zu sagen,",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2388.91,
+   "ende": 2390.87,
+   "text": "ich bin erfolgreicher Unternehmensberater,",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2390.87,
+   "ende": 2408.63,
+   "text": "Aber eigentlich möchte ich Autos waschen und das merke ich aber schon, dass wir da langsam immer mehr auch in so eine Zeit kommen, wo Leute an sich sagen, hey, ich kann auch das und das machen und das finde ich auch wichtig jetzt für meine Kinderschulbildung und so weiter, dass es erstmal der Bildungsweg egal ist.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2408.63,
+   "ende": 2410.61,
+   "text": "heutzutage kriegen wir überall Wissen her.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2411.55,
+   "ende": 2412.63,
+   "text": "Sogar kostenfrei",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2412.63,
+   "ende": 2414.61,
+   "text": "meistens. Und wenn ich etwas wirklich will,",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2415.09,
+   "ende": 2416.55,
+   "text": "dann ist erstmal egal, was ich",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2416.55,
+   "ende": 2418.63,
+   "text": "in der Grundschule für ein Zeugnis hatte und was",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2418.63,
+   "ende": 2420.55,
+   "text": "ich irgendwann mal studiert habe. Im Zweifel brauche",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2420.55,
+   "ende": 2422.47,
+   "text": "ich das noch nicht mal. Ja, ich glaube, ich bin",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2422.47,
+   "ende": 2424.47,
+   "text": "ein gutes Beispiel. Also ich meine, man muss auch sagen, dass",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2424.47,
+   "ende": 2426.45,
+   "text": "natürlich Deutschland ist da richtig krass mit",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2426.45,
+   "ende": 2428.53,
+   "text": "Ausbildung. Das sehe ich dann immer, wenn ich dann in Portugal",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2428.53,
+   "ende": 2430.37,
+   "text": "bin. Den Unterschied,",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2430.57,
+   "ende": 2432.49,
+   "text": "wir sind sehr, sehr fokussiert auf",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2432.49,
+   "ende": 2434.71,
+   "text": "alles. Wir brauchen für alles ein Zertifikat.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2434.93,
+   "ende": 2436.63,
+   "text": "Also so weit, dass es schon ein bisschen",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2436.63,
+   "ende": 2438.13,
+   "text": "übertrieben ist, ehrlicherweise.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2438.63,
+   "ende": 2454.87,
+   "text": "Und ich meine, für mich war diese Ausbildungssachen und schulische Sachen sowieso immer eine Sache, weil ich nicht den klassischen Weg gegangen bin. Ich habe in der Hauptschule begonnen und habe dann sozusagen mich hochgearbeitet auf die Fach- und Schulreife und dann, dass ich überhaupt studieren kann.",
+   "avg_logprob": -0.038,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 2454.87,
+   "ende": 2472.69,
+   "text": "Also ich war dann, ich habe dann Ausbildung, Master, also ich habe dann so, war eigentlich so qualifiziert. Ich hatte dann sozusagen alles, außer den Doktor. Und dann zu dem Moment zu kommen, okay, warte mal, so auf den ersten Blick will ich das gar nicht machen.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 2473.57,
+   "ende": 2474.79,
+   "text": "Ein großer Schock für alle.",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2476.17,
+   "ende": 2477.97,
+   "text": "Und ich habe dann ganz lange,",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2478.21,
+   "ende": 2479.13,
+   "text": "das ist ganz lange,",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2479.77,
+   "ende": 2481.11,
+   "text": "weiß ich nicht, ein, zwei Monate,",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2481.87,
+   "ende": 2484.01,
+   "text": "diese Frage mit mir rumgetragen,",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2484.09,
+   "ende": 2484.97,
+   "text": "was mache ich jetzt?",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2485.53,
+   "ende": 2489.71,
+   "text": "Weil das war damals ein sehr kritischer Punkt,",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2489.71,
+   "ende": 2491.35,
+   "text": "dass du als Coach,",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2491.55,
+   "ende": 2495.37,
+   "text": "wurdest du einfach sehr als unprofessionell gesehen,",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2495.49,
+   "ende": 2498.17,
+   "text": "wenn du keine systemische Coaching-Ausbildung hattest.",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2499.09,
+   "ende": 2500.37,
+   "text": "Und ich war so hin und her gerissen,",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2500.51,
+   "ende": 2501.51,
+   "text": "weil ich nicht gefühlt habe,",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2501.51,
+   "ende": 2521.83,
+   "text": "Also ich hatte das Gefühl, irgendwie ist das nicht mein Weg. Aber dann mein Kopf von, na warte mal. Und dann habe ich mit einem Menschen gesprochen, dem ich sehr vertraut habe und die bereits schon sehr viel im Coaching-Bereich gemacht hat hier in Hamburg und habe ihr gesagt, hey, ich weiß nicht, wie ich entscheiden soll.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2521.83,
+   "ende": 2523.49,
+   "text": "und hatte schon aber ein paar",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2523.49,
+   "ende": 2525.57,
+   "text": "Women's Circus schon gemacht und dann stand sie vor mir",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2525.57,
+   "ende": 2527.39,
+   "text": "und sagte, ja, aber das, was du machst,",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2527.63,
+   "ende": 2529.55,
+   "text": "funktioniert. Kannst du den Raum halten?",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2529.69,
+   "ende": 2531.03,
+   "text": "Ich so, ja, halt so.",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2531.53,
+   "ende": 2532.35,
+   "text": "Was ist dann das Problem?",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2533.11,
+   "ende": 2535.51,
+   "text": "Und ich danke ihr bis heute,",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2535.79,
+   "ende": 2537.63,
+   "text": "weil sie war der ausschlagende Punkt",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2537.63,
+   "ende": 2539.65,
+   "text": "für mich, weil ich mir da vertraut habe.",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2539.77,
+   "ende": 2541.63,
+   "text": "Vertraut, okay. Weil ich habe gefühlt,",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2541.69,
+   "ende": 2543.69,
+   "text": "wenn ich jetzt eine Ausbildung mache, das wird eigentlich",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2543.69,
+   "ende": 2545.65,
+   "text": "eher meine Fähigkeiten verzerren.",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2546.93,
+   "ende": 2547.83,
+   "text": "Das war mein Struggle.",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2548.91,
+   "ende": 2549.53,
+   "text": "Also bin ich",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2549.53,
+   "ende": 2551.57,
+   "text": "diesen mutigen Weg gegangen und sage, okay, ich mache es",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2551.57,
+   "ende": 2553.51,
+   "text": "nicht, guck mal. Ich war",
+   "avg_logprob": -0.221,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2553.51,
+   "ende": 2555.47,
+   "text": "immer sehr aware, sehr vorsichtig mit",
+   "avg_logprob": -0.221,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2555.47,
+   "ende": 2557.67,
+   "text": "solchen Sachen. Das war sicher ein riesiges Spektrum,",
+   "avg_logprob": -0.221,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2557.81,
+   "ende": 2558.45,
+   "text": "was ich davon gehabt habe.",
+   "avg_logprob": -0.221,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2560.55,
+   "ende": 2561.45,
+   "text": "Und dann jetzt,",
+   "avg_logprob": -0.221,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2561.49,
+   "ende": 2563.47,
+   "text": "und das ist natürlich jetzt das Witzige an meiner Geschichte,",
+   "avg_logprob": -0.221,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2563.73,
+   "ende": 2565.51,
+   "text": "weil ich habe dann später eine Ausbildung",
+   "avg_logprob": -0.221,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2565.51,
+   "ende": 2567.11,
+   "text": "gemacht bei Bahá'í Yilmaz, aber",
+   "avg_logprob": -0.221,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2567.11,
+   "ende": 2568.77,
+   "text": "das ist eine andere Form von Ausbildung,",
+   "avg_logprob": -0.221,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2568.83,
+   "ende": 2571.43,
+   "text": "mehr auf die",
+   "avg_logprob": -0.221,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2571.43,
+   "ende": 2573.09,
+   "text": "spirituelle Ebene.",
+   "avg_logprob": -0.221,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2574.27,
+   "ende": 2575.49,
+   "text": "Und das, was ich da gelernt",
+   "avg_logprob": -0.221,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2575.49,
+   "ende": 2577.33,
+   "text": "habe, waren Dinge, die ich intuitiv gemacht habe.",
+   "avg_logprob": -0.221,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2577.43,
+   "ende": 2579.41,
+   "text": "Ich habe sie gemacht, sage ich mal, mit 10%",
+   "avg_logprob": -0.221,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2579.41,
+   "ende": 2580.35,
+   "text": "habe ich davon gelernt.",
+   "avg_logprob": -0.221,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2581.35,
+   "ende": 2592.61,
+   "text": "Und was ich natürlich jetzt verstehe, erst seit zwei Jahren oder drei, ist, ja natürlich, weil ich bin ja hier, ich bin dafür da, um eine neue Art von Ausbildung hier auf den Markt zu bringen.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2592.61,
+   "ende": 2606.69,
+   "text": "Und zwar, wie du mit deinen Hälsinnen arbeitest. Und das systemische Coaching arbeitet eigentlich dagegen, weil es sind nur das Gelernte, das, was du gelernt hast, nicht was du erfahren hast oder verkörperst, sondern was du lernst.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2606.69,
+   "ende": 2627.27,
+   "text": "Und das wäre genau konträr zu dem gewesen, was ich damals schon gefühlt habe. Und das ist ja das Verrückte, wenn du jetzt überlegst, weil jetzt bilde ich ja Leuten aus, dass sie von in sich intrinsisch ihre Hellsinne aktivieren, damit arbeiten können und auf einem sehr hohen Level.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 2628.19,
+   "ende": 2630.91,
+   "text": "Willst du kurz mal erklären, Hellsinne?",
+   "avg_logprob": -0.202,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 2631.09,
+   "ende": 2631.27,
+   "text": "Ja.",
+   "avg_logprob": -0.202,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 2632.47,
+   "ende": 2641.75,
+   "text": "Hellsinne, bevor wir uns kannten, kannte ich nur den Begriff Hellseher, also als Person, gar nicht so auf die Sinne bezogen.",
+   "avg_logprob": -0.202,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 2643.17,
+   "ende": 2647.95,
+   "text": "Und das hat sich ja auch, überhaupt das Thema Spiritualität hat sich sehr verändert, hast du ja auch schon gesagt.",
+   "avg_logprob": -0.202,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 2647.95,
+   "ende": 2658.37,
+   "text": "Und natürlich auch das Thema Hellseher, sage ich jetzt mal, was aber glaube ich trotzdem für einen Großteil, wenn man nicht in unserer Welt unterwegs ist, noch nicht wirklich greifbar ist.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2658.37,
+   "ende": 2675.15,
+   "text": "Und wenn du es erklärst, dann vielleicht noch additional meine Frage. Glaubst du, dass es für Menschen, die mit ihren Hellsinnen arbeiten, schwieriger oder leichter ist, Entscheidungen zu treffen im Kontext, das Leben ist zu kurz für irgendwann, ich mache das einfach?",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2675.15,
+   "ende": 2678.29,
+   "text": "Ja, es ist alles die Base in meiner Hellsinne.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2678.43,
+   "ende": 2683.25,
+   "text": "Ich habe es Intuition genannt, weil jeder kann was damit beginnen.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2683.83,
+   "ende": 2685.77,
+   "text": "Aber was dahinter steckt, sind unsere Hellsinne.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2685.89,
+   "ende": 2687.41,
+   "text": "Also Intuition ist Hellfühlen.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2687.61,
+   "ende": 2689.15,
+   "text": "Ich erkläre aber gleich nochmal dazu.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2689.15,
+   "ende": 2695.41,
+   "text": "Aber all meine Entscheidungen, auch meine mutigen Entscheidungen, basieren auf meiner Hellsinne.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2696.67,
+   "ende": 2701.37,
+   "text": "Und wenn ich die nicht so ausgeprägt hätte, würde ich nicht das Leben leben, das ich heute lebe.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2701.41,
+   "ende": 2701.85,
+   "text": "Niemals.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2702.15,
+   "ende": 2703.39,
+   "text": "Niemals wäre ich nach Lissabon.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2704.05,
+   "ende": 2705.09,
+   "text": "Niemals werde ich nach Hamburg.",
+   "avg_logprob": -0.234,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2705.21,
+   "ende": 2706.87,
+   "text": "Niemals werde ich spielen. Niemals.",
+   "avg_logprob": -0.234,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2707.57,
+   "ende": 2708.03,
+   "text": "Niemals.",
+   "avg_logprob": -0.234,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2709.21,
+   "ende": 2710.87,
+   "text": "Also das Thema Hellsinn,",
+   "avg_logprob": -0.234,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2710.93,
+   "ende": 2712.67,
+   "text": "das hat ja immer noch so einen sehr",
+   "avg_logprob": -0.234,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2712.67,
+   "ende": 2713.91,
+   "text": "unsexy",
+   "avg_logprob": -0.234,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2713.91,
+   "ende": 2716.39,
+   "text": "Touch, Leute.",
+   "avg_logprob": -0.234,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2716.85,
+   "ende": 2718.69,
+   "text": "Das ist alles unsexy. Alles, was ich gehört habe,",
+   "avg_logprob": -0.234,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2718.75,
+   "ende": 2720.33,
+   "text": "vergesse ich, ist alles super unsexy.",
+   "avg_logprob": -0.234,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2720.97,
+   "ende": 2722.81,
+   "text": "Das ist meine Aufgabe, das sexy zu machen.",
+   "avg_logprob": -0.234,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2724.25,
+   "ende": 2725.21,
+   "text": "Also vielleicht kennst du",
+   "avg_logprob": -0.234,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2725.21,
+   "ende": 2727.11,
+   "text": "Channeling, vielleicht kennst du Medium,",
+   "avg_logprob": -0.234,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2727.81,
+   "ende": 2728.89,
+   "text": "vielleicht kennst du",
+   "avg_logprob": -0.234,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2728.89,
+   "ende": 2731.21,
+   "text": "Hellseher, Psychic, je nachdem,",
+   "avg_logprob": -0.234,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2731.21,
+   "ende": 2732.23,
+   "text": "wo du unterwegs bist.",
+   "avg_logprob": -0.234,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2732.23,
+   "ende": 2755.41,
+   "text": "Also wenn dein siebter Sinn geschärft ist, wir haben alle einen siebten Sinn. Es gibt ja auch Menschen, die sagen Hochsensibilität, Feinfühligkeit, sind sehr sensitive. Das sind deine Hellsinnen. Wir haben fünf Hellsinne. Wir haben das Sehen, das Riechen, das Schmecken, das Hören, das Wissen, das Sehen, habe ich alle gesagt.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2755.41,
+   "ende": 2775.75,
+   "text": "Danke. Wir haben sie alle. Und bei manchen sind das eine oder das andere ein bisschen mehr ausgeprägt und bei anderen nicht. Das Typische ist, dass viele sehr viel fühlen. Ich habe das Gefühl, dir geht es nicht gut, aber du sagst, nee, mir geht es super. Also das ist das meiste ausgeprägt.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2776.75,
+   "ende": 2785.45,
+   "text": "Und wir sind in einer Zeit, wo das verschärft wird, weil das Leben so ist, wie es ist, sagen wir es mal so.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2786.43,
+   "ende": 2792.65,
+   "text": "Und das hat ein Riesenpotenzial, weil wenn dein siebter Sinn geschärft ist,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2793.81,
+   "ende": 2796.91,
+   "text": "dann siehst du die Welt auch ein bisschen anders oder dich selbst.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2797.43,
+   "ende": 2800.97,
+   "text": "Viele sagen, das ist ja auch sozusagen die multidimensionale Form von dir.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2800.97,
+   "ende": 2806.53,
+   "text": "Also deine ganz, das, was du komplett bist, als dein Energiefeld und whatever.",
+   "avg_logprob": -0.256,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 2809.01,
+   "ende": 2810.87,
+   "text": "Und da sind wir gerade in unserer Zeit.",
+   "avg_logprob": -0.256,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 2811.65,
+   "ende": 2814.79,
+   "text": "Es fängt ja jetzt an in Deutschland, kommt das Wort Channeling bei euch an.",
+   "avg_logprob": -0.256,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 2814.89,
+   "ende": 2817.71,
+   "text": "Das freut mich natürlich sehr. Wir channeln meine Ideen.",
+   "avg_logprob": -0.256,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 2818.33,
+   "ende": 2819.41,
+   "text": "Das gehört alles dazu.",
+   "avg_logprob": -0.256,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 2819.69,
+   "ende": 2823.21,
+   "text": "Ja, es ist alles so dieser Mix von Energie, Arbeit.",
+   "avg_logprob": -0.256,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 2824.33,
+   "ende": 2827.89,
+   "text": "Medium hat einen sehr super bad touch, I know.",
+   "avg_logprob": -0.256,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 2827.89,
+   "ende": 2830.29,
+   "text": "aber es ist alles",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2830.29,
+   "ende": 2832.99,
+   "text": "deine Verbindung zum Universum",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2832.99,
+   "ende": 2834.79,
+   "text": "deine Verbindung zur Energie",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2834.79,
+   "ende": 2836.93,
+   "text": "ja",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2836.93,
+   "ende": 2838.03,
+   "text": "so kann man das sagen",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2838.03,
+   "ende": 2839.47,
+   "text": "und weil ich",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2839.47,
+   "ende": 2842.93,
+   "text": "das schon als Kind sehr stark",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2842.93,
+   "ende": 2844.63,
+   "text": "war und dann",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2844.63,
+   "ende": 2846.79,
+   "text": "irgendwann mal nicht mehr und dann kam das eben wieder",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2846.79,
+   "ende": 2847.47,
+   "text": "zu mir",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2847.47,
+   "ende": 2850.71,
+   "text": "das ist der Grund warum ich",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2850.71,
+   "ende": 2852.09,
+   "text": "bin, wer ich bin",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2852.09,
+   "ende": 2854.95,
+   "text": "niemals hätte ich diese Entscheidung getroffen",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2854.95,
+   "ende": 2856.07,
+   "text": "weil das ist mein, weil weißt du",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2856.07,
+   "ende": 2871.09,
+   "text": "Ich hatte immer ein Umfeld, ich hatte immer sehr viele ängstliche Menschen um mich herum und alles, was kannst du nicht machen und allein nach Hamburg oder allein nach Bali und ich wäre ja ganz ehrlich, ich wäre untergegangen da.",
+   "avg_logprob": -0.233,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 2871.09,
+   "ende": 2895.53,
+   "text": "Und für mich war aber dieses starke Gefühl in mir, was eben ein Hellfühlen ist, Intuition, ich muss es machen. Und erst dann sind diese Sachen entstanden. Oder überhaupt, Programme, die wir machen, diese innovative Ideen, wir sind sehr innovativ unterwegs, würde ich so ja gar nicht machen, würde ich nicht fühlen, dass es so wichtig ist.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2895.53,
+   "ende": 2911.79,
+   "text": "Und das ist das natürlich mit der Zeit dann und mit den Jahren. Und jetzt rückblickend neun Jahre zurück kann ich sehen, guck mal, Dinge, die ich gewusst habe, dass sie trendy werden oder wichtig werden, sind dann ein, zwei Jahre später wirklich sehr Mainstream geworden.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2911.79,
+   "ende": 2925.65,
+   "text": "Oder was gerade eben mit Channeling auch passiert, was wir schon seit drei Jahren, glaube ich, so teachen, wird jetzt Mainstream. Und das wusste ich, weil ich es gefühlt habe und nicht, weil mein Kopf mir das gesagt hat.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 2925.65,
+   "ende": 2950.39,
+   "text": "Und deswegen basiert alles, also das ganze Unternehmen, was wir haben, basiert auf meiner Hellsinne. Alles. Wie viele Menschen dabei sind, wer dabei ist, Branding, Energie, die Frequenz, wie wir reden, wie wir nicht reden, wo wir kommunizieren, wann wir was tun, alles basiert darauf.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2951.29,
+   "ende": 2972.03,
+   "text": "Aber das ist ja auch letztendlich auch immer wieder dadurch, ich weiß nicht, ob du es noch so empfindest, aber du triffst ja einfach dadurch auch immer wieder neue Entscheidungen, die nicht so, ich sag jetzt mal, Mainstream sind und wo man vielleicht dann auch wieder eine Unsicherheit eventuell spüren könnte oder sich überlegt, kann ich das jetzt machen?",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2972.03,
+   "ende": 2977.85,
+   "text": "und du hast dir ja schon zur Aufgabe gemacht, dass du dafür da bist, dieses Thema in die Welt zu tragen,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2977.97,
+   "ende": 2982.61,
+   "text": "weil das Leben zu kurz, auch dein persönliches Leben eine Endlichkeit hat,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2982.61,
+   "ende": 2988.39,
+   "text": "in der du Zeit hast, das zu transportieren und jetzt nicht eben warten kannst, bis du 60 bist,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2988.49,
+   "ende": 2991.73,
+   "text": "weil dir dann von jetzt an irgendwie fast 20 Jahre fehlen würden.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2992.61,
+   "ende": 2996.99,
+   "text": "Also man hat ja nicht immer nur, wenn man jetzt denkt, das Leben ist zu kurz,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2997.07,
+   "ende": 3001.91,
+   "text": "für irgendwann verbindet man so mit ganz großen lebensverändernden Entscheidungen,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 3002.03,
+   "ende": 3020.85,
+   "text": "Aber muss es ja auch nicht immer sein. Es gibt so viele kleine Entscheidungen im Alltag, auf die das zutrifft. Und jetzt du sowohl als Person, die ja, wie wir jetzt gerade die ganze Zeit gehört haben, sehr viele Entscheidungen aus diesem Gedanken heraus getroffen hat,",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 3020.85,
+   "ende": 3032.37,
+   "text": "Aber auch als Coach hast du so noch so zum Ende hin jetzt ein paar Tipps für die Zuhörer, so gewisse Schritte, die sie vielleicht gehen können, weil du sagst ja, jeder hat auch diese Hälsine.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3033.05,
+   "ende": 3041.15,
+   "text": "Vielleicht fühlt man sich auch besser damit, wenn man Intuition sagt, aber wie kann ich da reinhören?",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3041.29,
+   "ende": 3048.17,
+   "text": "Egal, ob es jetzt um sowas geht, wie ich will mich scheiden lassen oder ich will auswandern oder ich möchte irgendwie mir die Haare kurz schneiden.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3048.17,
+   "ende": 3051.15,
+   "text": "Ja, also selbst das ist ja für manche eine Riesenentscheidung.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 3051.15,
+   "ende": 3056.35,
+   "text": "Ja, vielleicht so mehrere Sachen.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 3056.51,
+   "ende": 3063.25,
+   "text": "Vielleicht fällt es den Leuten einfacher, mit folgender Frage zu beginnen.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 3063.37,
+   "ende": 3064.51,
+   "text": "Was macht mir denn Freude?",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 3065.03,
+   "ende": 3068.67,
+   "text": "Also ich hatte eine Phase, wo ich mich jeden Tag bewusst gefragt habe,",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 3068.77,
+   "ende": 3070.01,
+   "text": "was macht mir heute Freude?",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 3070.65,
+   "ende": 3073.37,
+   "text": "Weil das führt dich ja zur Wahrheit.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 3073.73,
+   "ende": 3075.13,
+   "text": "Weil am Ende geht es ja immer um Wahrheit.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 3075.21,
+   "ende": 3077.09,
+   "text": "Was ist wirklich wahr für dich gerade?",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 3077.09,
+   "ende": 3093.85,
+   "text": "Also, dass du ehrlich zu dir bist. Darum geht es ja. Und dass du überhaupt erkennst, okay, was will ich überhaupt gerade? Und die Frage hat mir sehr, sehr geholfen. Okay, was macht mir wirklich Freude und was nicht?",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 3093.85,
+   "ende": 3096.29,
+   "text": "und für mich war dann der Moment,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 3096.41,
+   "ende": 3097.61,
+   "text": "wo ich aufgehört, sehr viel zu",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 3097.61,
+   "ende": 3099.89,
+   "text": "tun. Also ich habe ganz viel",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 3099.89,
+   "ende": 3102.05,
+   "text": "dann nicht mehr getan. Natürlich den Mut",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 3102.05,
+   "ende": 3104.33,
+   "text": "zu haben, es nicht zu tun. Also Kleinigkeiten",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 3104.33,
+   "ende": 3106.13,
+   "text": "wie zum Beispiel, ich habe keine",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 3106.13,
+   "ende": 3108.11,
+   "text": "offizielle E-Mail-Adresse. Das war für mich ein dickes",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 3108.11,
+   "ende": 3110.21,
+   "text": "Ding. Alle E-Mails landen nicht bei mir.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 3111.29,
+   "ende": 3111.69,
+   "text": "Oder",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 3111.69,
+   "ende": 3113.65,
+   "text": "ich",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 3113.65,
+   "ende": 3115.95,
+   "text": "bin eine Katze zum Beispiel.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 3117.87,
+   "ende": 3119.47,
+   "text": "Das hat mir super geholfen",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 3119.47,
+   "ende": 3121.79,
+   "text": "und",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 3121.79,
+   "ende": 3124.11,
+   "text": "es geht um Ehrlichkeit.",
+   "avg_logprob": -0.194,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 3124.83,
+   "ende": 3126.25,
+   "text": "Zu dich sehen. Ja, dass du",
+   "avg_logprob": -0.194,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 3126.25,
+   "ende": 3128.25,
+   "text": "dich in den Spiegel schaust und",
+   "avg_logprob": -0.194,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 3128.25,
+   "ende": 3129.75,
+   "text": "wirklich ehrlich zu dir bist.",
+   "avg_logprob": -0.194,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 3130.41,
+   "ende": 3132.35,
+   "text": "Weil ich glaube,",
+   "avg_logprob": -0.194,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 3132.97,
+   "ende": 3134.11,
+   "text": "dass die meisten Menschen",
+   "avg_logprob": -0.194,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 3134.11,
+   "ende": 3134.47,
+   "text": "wissen,",
+   "avg_logprob": -0.194,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 3135.73,
+   "ende": 3137.43,
+   "text": "du weißt es.",
+   "avg_logprob": -0.194,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 3138.39,
+   "ende": 3140.05,
+   "text": "Du weißt, was jetzt dran ist.",
+   "avg_logprob": -0.194,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 3140.47,
+   "ende": 3142.11,
+   "text": "Du weißt, was",
+   "avg_logprob": -0.194,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 3142.11,
+   "ende": 3144.05,
+   "text": "du loslassen solltest. Du weißt,",
+   "avg_logprob": -0.194,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 3144.15,
+   "ende": 3145.65,
+   "text": "was du nicht loslassen solltest.",
+   "avg_logprob": -0.194,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 3146.67,
+   "ende": 3147.95,
+   "text": "Und wenn du wirklich",
+   "avg_logprob": -0.194,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 3147.95,
+   "ende": 3150.01,
+   "text": "ehrlich zu dir bist und dir das eingestehst,",
+   "avg_logprob": -0.194,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 3150.17,
+   "ende": 3151.15,
+   "text": "dann siehst du deinen Weg.",
+   "avg_logprob": -0.194,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 3151.79,
+   "ende": 3154.73,
+   "text": "und dann ja diese Angst",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 3154.73,
+   "ende": 3156.19,
+   "text": "und diese Unsicherheit,",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 3156.81,
+   "ende": 3158.25,
+   "text": "das ist, finde ich,",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 3158.71,
+   "ende": 3160.39,
+   "text": "eher eigentlich so eine sehr intime",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 3160.39,
+   "ende": 3162.43,
+   "text": "Geschichte mit dir selbst. Gar nicht, also es ist",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 3162.43,
+   "ende": 3164.23,
+   "text": "gut, wenn du Leute um dich herum hast, die dich",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 3164.23,
+   "ende": 3166.41,
+   "text": "supporten, um Gottes willen, of course.",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 3167.23,
+   "ende": 3168.61,
+   "text": "Aber was ich gelernt habe,",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 3168.93,
+   "ende": 3170.21,
+   "text": "ist, das Entscheidende",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 3170.21,
+   "ende": 3171.99,
+   "text": "bist du und du.",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 3171.99,
+   "ende": 3174.41,
+   "text": "Und wie du dich selbst so hältst",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 3174.41,
+   "ende": 3176.09,
+   "text": "in dieser Angst und in diesem",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 3176.09,
+   "ende": 3178.21,
+   "text": "Moment, wo du merkst, fuck, das ist die Wahrheit.",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 3178.93,
+   "ende": 3180.33,
+   "text": "Und vielleicht weinst,",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 3180.33,
+   "ende": 3182.53,
+   "text": "vielleicht erstmal ausrastest, weil du",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3182.53,
+   "ende": 3184.85,
+   "text": "Angst hast, aber wirklich für dich da bist",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3184.85,
+   "ende": 3186.45,
+   "text": "und dich in den Arm nimmst",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3186.45,
+   "ende": 3188.45,
+   "text": "und Mitgefühl auch für dich hast, auch für",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3188.45,
+   "ende": 3190.51,
+   "text": "deine Angst, weil Angst ist",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3190.51,
+   "ende": 3192.35,
+   "text": "ja menschlich, es geht ja auch nicht darum, dass wir sie irgendwie",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3192.35,
+   "ende": 3194.07,
+   "text": "wegschieben, sondern dass wir sie integrieren.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3195.55,
+   "ende": 3195.99,
+   "text": "Und",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3195.99,
+   "ende": 3198.53,
+   "text": "wenn das so zusammenkommt,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3198.81,
+   "ende": 3199.93,
+   "text": "dann sieht plötzlich die Welt",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3199.93,
+   "ende": 3201.43,
+   "text": "ein bisschen leichter aus.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3202.65,
+   "ende": 3204.55,
+   "text": "Also auch sozusagen diese Gefühle",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3204.55,
+   "ende": 3206.47,
+   "text": "zuzulassen. Du fängst",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3206.47,
+   "ende": 3208.41,
+   "text": "an klarer zu sehen und das gibt",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3208.41,
+   "ende": 3210.21,
+   "text": "dir Sicherheit. Das",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3210.33,
+   "ende": 3213.33,
+   "text": "Das Unsicherste in meiner Welt ist, wenn ich nicht klar bin.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 3214.03,
+   "ende": 3214.77,
+   "text": "Voll, ja.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 3214.89,
+   "ende": 3216.67,
+   "text": "Das ist das, was mich richtig frustriert.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 3216.81,
+   "ende": 3219.21,
+   "text": "Ja, das stimmt. Das geht mir auch so.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 3219.41,
+   "ende": 3223.91,
+   "text": "Also ich habe auch mal irgendwann so gesagt, am Anfang steht immer eine Entscheidung.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 3224.23,
+   "ende": 3230.99,
+   "text": "Weil wenn ich die einmal klar getroffen habe, dann gehe ich den Weg, um diese Entscheidung auch wahr werden zu lassen.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 3231.01,
+   "ende": 3232.31,
+   "text": "Und wie fühlst du dich dann auch?",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 3232.85,
+   "ende": 3235.71,
+   "text": "Auch erleichtert, auch wenn es dann steinig wird.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 3235.71,
+   "ende": 3239.81,
+   "text": "Weil ich weiß ja, ich habe am Anfang diese Entscheidung getroffen.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 3239.81,
+   "ende": 3260.55,
+   "text": "Und ich finde, man kann auch manchmal sagen, ich treffe keine Entscheidung. Auch das ist eine Entscheidung. Aber Hü und Hot, Hü und Trott ist das, was einen Mürbe macht. Und deswegen, was habe ich auch schon ab und an hier im Podcast gesagt, diese Aussage, ich würde gerne, aber. Das ist das, was ich sehr schädlich finde.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 3260.55,
+   "ende": 3280.43,
+   "text": "Weil wenn der Satz anfängt mit ich würde gerne, dann findet man den Weg für das Aber. Und sich darüber klar zu werden, oder sage ich, ich würde gerne nur, weil, wie du sagst, weil es gerade cool ist, weil ich denke, ich muss nur, weil jetzt derjenige mit Baby drei Wochen fliegt, muss ich das auch machen.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 3280.95,
+   "ende": 3283.39,
+   "text": "Eigentlich habe ich gar keinen Bock. Ist jetzt cool.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 3283.39,
+   "ende": 3302.39,
+   "text": "Genau, ja und deshalb da wirklich, wie du sagst, es geht dann um Wahrheit und um Ehrlichkeit zu sich selbst und reinzufühlen, ist das wirklich auch mein Bedürfnis und wenn es wirklich mein Bedürfnis ist, dann den Weg zu finden und der muss dann auch nicht morgen sein oder in einer Woche, das kann trotzdem ein, zwei Jahre dauern oder wann auch immer.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 3303.37,
+   "ende": 3305.63,
+   "text": "Du wirst schon wissen, wann der Zeitpunkt ist.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 3306.01,
+   "ende": 3308.83,
+   "text": "Auch da ist wirklich alles basiert auf Ehrlichkeit.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 3309.49,
+   "ende": 3310.29,
+   "text": "Und wir wissen das.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 3310.39,
+   "ende": 3313.09,
+   "text": "Du weißt, wann der richtige Moment ist für etwas.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 3313.25,
+   "ende": 3315.41,
+   "text": "Nicht dieses Ausreden von ein Jahr später.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 3315.53,
+   "ende": 3316.41,
+   "text": "Nein, nein, ganz ehrlich.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 3316.95,
+   "ende": 3320.09,
+   "text": "Du weißt, ob es in einem Monat ist, in sechs Monaten oder in einem Jahr.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 3322.63,
+   "ende": 3326.03,
+   "text": "Und für mich, und das ist auch zum Thema Klarheit,",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 3326.37,
+   "ende": 3330.27,
+   "text": "für mich das Sicherste ist, wenn du dich nicht verlässt.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 3330.27,
+   "ende": 3346.69,
+   "text": "Und in dem Moment, wo du unehrlich zu dir bist, verlässt du dich. Das ist wie so ein Abundament. Du verlässt deine Bedürfnisse, deine Wünsche und das, was du brauchst. Und das ist das Unsicherste, was wir tun können.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 3346.69,
+   "ende": 3347.75,
+   "text": "ist das.",
+   "avg_logprob": -0.275,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3348.47,
+   "ende": 3350.35,
+   "text": "Also es bedeutet, wenn du ehrlich wirst",
+   "avg_logprob": -0.275,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3350.35,
+   "ende": 3353.11,
+   "text": "zu dir, ist es wie als würdest du",
+   "avg_logprob": -0.275,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3353.11,
+   "ende": 3354.07,
+   "text": "dir näher kommen.",
+   "avg_logprob": -0.275,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3354.07,
+   "ende": 3356.13,
+   "text": "Passiert ja, näher kommen",
+   "avg_logprob": -0.275,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3356.13,
+   "ende": 3358.99,
+   "text": "und dich auch selber halten.",
+   "avg_logprob": -0.275,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3360.13,
+   "ende": 3360.39,
+   "text": "Das können wir ja",
+   "avg_logprob": -0.275,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3360.39,
+   "ende": 3361.75,
+   "text": "in der Kindheit, das können wir ja richtig hier",
+   "avg_logprob": -0.275,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3361.75,
+   "ende": 3363.31,
+   "text": "Coaching-Ding aufmachen.",
+   "avg_logprob": -0.275,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3363.97,
+   "ende": 3365.89,
+   "text": "Aber das ist das, was",
+   "avg_logprob": -0.275,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3365.89,
+   "ende": 3368.73,
+   "text": "da fühlen wir uns alle unsicher.",
+   "avg_logprob": -0.275,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3369.37,
+   "ende": 3370.79,
+   "text": "Im inneren Kind.",
+   "avg_logprob": -0.275,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3371.19,
+   "ende": 3372.93,
+   "text": "Und wenn wir diesen inneren Kind",
+   "avg_logprob": -0.275,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3372.93,
+   "ende": 3374.59,
+   "text": "umarmen, und das ist eben",
+   "avg_logprob": -0.275,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3374.59,
+   "ende": 3376.53,
+   "text": "all das mit Bedürfnissen und so weiter,",
+   "avg_logprob": -0.275,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3376.69,
+   "ende": 3378.67,
+   "text": "da plötzlich von einem Moment auf den anderen",
+   "avg_logprob": -0.181,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 3378.67,
+   "ende": 3380.67,
+   "text": "fühlst du dich sicher, auch wenn sich im Außen",
+   "avg_logprob": -0.181,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 3380.67,
+   "ende": 3382.57,
+   "text": "noch nichts verändert hat. Das ist faszinierend.",
+   "avg_logprob": -0.181,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 3383.65,
+   "ende": 3384.33,
+   "text": "Und das ist das.",
+   "avg_logprob": -0.181,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 3385.63,
+   "ende": 3385.79,
+   "text": "Ja.",
+   "avg_logprob": -0.181,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 3387.29,
+   "ende": 3388.73,
+   "text": "Cool. Hast du zum",
+   "avg_logprob": -0.181,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 3388.73,
+   "ende": 3390.61,
+   "text": "Abschluss, hast du ein Lieblingszitat?",
+   "avg_logprob": -0.181,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 3391.01,
+   "ende": 3392.83,
+   "text": "Was mir jetzt",
+   "avg_logprob": -0.181,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 3392.83,
+   "ende": 3394.63,
+   "text": "spontan kommt, ist, warum nicht jetzt?",
+   "avg_logprob": -0.181,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 3395.15,
+   "ende": 3396.05,
+   "text": "Ja, schön.",
+   "avg_logprob": -0.181,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 3396.93,
+   "ende": 3398.71,
+   "text": "Cool. Meins ist, there is life on the",
+   "avg_logprob": -0.181,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 3398.71,
+   "ende": 3399.77,
+   "text": "other side of fear.",
+   "avg_logprob": -0.181,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 3400.41,
+   "ende": 3402.73,
+   "text": "Und das, ja, finde ich, spiegelt",
+   "avg_logprob": -0.181,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 3402.73,
+   "ende": 3404.67,
+   "text": "eigentlich auch alles, was wir jetzt besprochen",
+   "avg_logprob": -0.181,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 3404.67,
+   "ende": 3406.21,
+   "text": "haben wieder, wenn man",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 3406.21,
+   "ende": 3408.43,
+   "text": "auf die andere Seite der Angst schaut,",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 3408.57,
+   "ende": 3410.53,
+   "text": "da ist das Leben und das kann für",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 3410.53,
+   "ende": 3412.51,
+   "text": "jeden komplett anders aussehen und",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 3412.51,
+   "ende": 3414.25,
+   "text": "man muss halt nur mal luschern.",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 3414.41,
+   "ende": 3416.45,
+   "text": "Man muss durchgehen und dann",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 3416.45,
+   "ende": 3417.19,
+   "text": "kommt immer Licht.",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 3417.57,
+   "ende": 3419.85,
+   "text": "Das verspreche ich dir,",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 3420.15,
+   "ende": 3422.53,
+   "text": "das öfters gemacht, immer wenn du durch die",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 3422.53,
+   "ende": 3424.53,
+   "text": "Angst gehst, was auf dich wartet,",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 3424.85,
+   "ende": 3426.51,
+   "text": "ist immer was Besseres und ist immer",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 3426.51,
+   "ende": 3427.79,
+   "text": "Licht. Schön.",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 3428.73,
+   "ende": 3430.75,
+   "text": "Ich danke dir für das tolle Gespräch.",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 3431.15,
+   "ende": 3432.59,
+   "text": "Ich hoffe, wir konnten ein paar Leute",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 3432.59,
+   "ende": 3433.59,
+   "text": "inspirieren.",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 3434.67,
+   "ende": 3439.55,
+   "text": "Und ja, dann sehen wir uns gleich in deiner Podcast-Folge.",
+   "avg_logprob": -0.195,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.08
+  },
+  {
+   "start": 3440.37,
+   "ende": 3442.03,
+   "text": "Ich freue mich. Ich danke euch.",
+   "avg_logprob": -0.195,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.08
+  },
+  {
+   "start": 3442.13,
+   "ende": 3443.41,
+   "text": "Bis dann. Tschüss.",
+   "avg_logprob": -0.195,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.08
+  }
+ ]
+}

@@ -1,0 +1,1490 @@
+{
+ "meta": {
+  "slug": "reden-wir-deutschland-schlecht-ehrliche-antwort-auf-euer-feedback",
+  "titel": "Reden wir Deutschland schlecht? Ehrliche Antwort auf euer Feedback",
+  "datum": "2026-04-27T04:00:00.000Z",
+  "dauer_sekunden": 1419,
+  "guid": "b013a251-fefc-430c-ad97-50925fc67612",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T07:02:20Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 6,
+   "transkription": 1476
+  },
+  "echtzeitfaktor": 1.04,
+  "anzahl_segmente": 183,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.4,
+   "ende": 18.41,
+   "text": "Wir in Deutschland nicht schlecht reden, weil aus unserer Sicht und ich irgendwie denke, dass das eigentlich auch jeder andere so sieht, die Dinge, wie sie sich in Deutschland entwickeln, einfach nicht gut sind.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 18.41,
+   "ende": 25.61,
+   "text": "Ja, das ist aus meiner Sicht eine Tatsache. Nichts, worüber man unterschiedlicher Meinung sein kann.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 26.35,
+   "ende": 35.84,
+   "text": "Hallo und herzlich willkommen zu einer neuen Folge DLIZKFI. Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 35.84,
+   "ende": 55.84,
+   "text": "Heute wollte ich nochmal auf die letzte Folge eingehen, die Folge mit Hagen. Sie nennt sich Auswandern mit Hagen und Juliette, wo wir eigentlich ja so ein bisschen über unsere Idee gebrainstormt haben, anderen Auswanderwilligen beim Auswandern zu helfen.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.047,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 56.84,
+   "ende": 61.5,
+   "text": "Aber man kommt natürlich in dem Zusammenhang auch irgendwie nicht umhin, darüber zu sprechen,",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 61.74,
+   "ende": 67.64,
+   "text": "warum sollten Leute denn überhaupt auswandern wollen oder warum gehen wir davon aus, dass da vielleicht ein Bedarf ist.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 68.36,
+   "ende": 75.04,
+   "text": "Und wenn man darüber spricht, dann kommt man eben auch darauf, dass eventuell die Umstände in Deutschland dazu führen,",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 75.04,
+   "ende": 77.08,
+   "text": "dass Menschen dort nicht mehr leben wollen.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 78.2,
+   "ende": 84.44,
+   "text": "Und im Zusammenhang zu der letzten Folge kam von außen dann die Frage, warum wir Deutschland jetzt so schlecht reden",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 84.44,
+   "ende": 87.3,
+   "text": "oder warum wir unsere Heimat jetzt plötzlich so schlecht reden müssen.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 88.16,
+   "ende": 91.98,
+   "text": "Und da wollte ich gerne nochmal drauf eingehen oder Bezug drauf nehmen,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 92.72,
+   "ende": 98.7,
+   "text": "weil sicherlich jeder auch so eine andere Definition von Schlechtreden hat.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 98.7,
+   "ende": 105.4,
+   "text": "Aber für mich ist Schlechtreden eigentlich etwas, wenn ich etwas ganz offensichtlich Gutes versuche,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 105.62,
+   "ende": 109.86,
+   "text": "negativ darzustellen, weil ich persönlich mir das irgendwie nicht gefällt.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 109.96,
+   "ende": 114.26,
+   "text": "Das können Klamotten sein, das kann Musik sein, das kann Kunst sein.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 114.44,
+   "ende": 118.28,
+   "text": "das kann das Wetter sein, das können auch einzelne Länder sein und so weiter.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 118.44,
+   "ende": 124.04,
+   "text": "Aber wenn ich jetzt ganz offensichtlich, also wenn etwas wirklich schön und gut ist",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 124.04,
+   "ende": 128.14,
+   "text": "und jemand versucht bewusst, das schlecht zu reden, das ist für mich schlecht reden.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 128.14,
+   "ende": 131.4,
+   "text": "Das hat ja immer irgendwie so einen negativen Beiklang, ja.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 131.54,
+   "ende": 134.54,
+   "text": "Also, dass ich über etwas schlecht rede, was eigentlich gar nicht schlecht ist.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 135.5,
+   "ende": 144.68,
+   "text": "Und ich wollte das einmal nochmal aufgreifen, weil aus meiner Sicht wir in Deutschland nicht schlecht reden,",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 145.62,
+   "ende": 151.64,
+   "text": "weil aus unserer Sicht und ich irgendwie denke, dass das eigentlich auch jeder andere so sieht,",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 152.44,
+   "ende": 155.6,
+   "text": "die Dinge, wie sie sich in Deutschland entwickeln, einfach nicht gut sind.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 155.6,
+   "ende": 162.8,
+   "text": "Ja, das ist aus meiner Sicht eine Tatsache. Nichts, worüber man unterschiedlicher Meinung sein kann.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 162.8,
+   "ende": 175.94,
+   "text": "Man kann natürlich unterschiedlicher Meinung darüber sein, ob man gerne in Deutschland lebt oder nicht gerne in Deutschland lebt. Und man kann auch ganz subjektive Denkweisen zu verschiedenen Punkten haben.",
+   "avg_logprob": -0.034,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 175.94,
+   "ende": 199.8,
+   "text": "Aber dass grundsätzlich die Entwicklung, wie sie sich in den letzten Jahren in Deutschland und Europa und natürlich auch weltweit, aber wir reden nun mal von Deutschland, weil wir aus Deutschland kommen und der Podcast deutschsprachig ist, dass diese Entwicklungen sich sowohl wirtschaftlich negativ auswirken als auch auf die deutschen Bürger als solches, ist aus meiner Sicht ein Fakt.",
+   "avg_logprob": -0.018,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 199.8,
+   "ende": 216.66,
+   "text": "Also demnach nichts, was man schlechtreden kann, sondern einfach ein Umstand, der ganz offensichtlich ist. Und deshalb möchte ich mich eigentlich irgendwie davon distanzieren, dass mir vorgeworfen wird, dass ich deutschlandschlecht rede.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 216.66,
+   "ende": 227.0,
+   "text": "Aber sicherlich sind manche Sichtweisen oder Denkweisen mögen vielleicht dem einen oder anderen als zu harsch rüberkommen",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 227.0,
+   "ende": 232.26,
+   "text": "oder zu, wie wir es ja auch schon gesagt haben, zu verschwörungstheoretisch, wie auch immer.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 233.54,
+   "ende": 238.24,
+   "text": "Und ich glaube, alle, die halt auch den Podcast hören und mich kennen und auch Hagen kennen,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 238.74,
+   "ende": 243.68,
+   "text": "haben auch schon mitbekommen, dass wir da auch nicht immer 100 Prozent einer Meinung sind",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 243.68,
+   "ende": 251.54,
+   "text": "beziehungsweise wir sind grundsätzlich schon einer Meinung, aber ich zum Beispiel beschäftige mich relativ wenig mit Deutschland, seit wir hier sind.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 251.7,
+   "ende": 258.66,
+   "text": "Ich höre keine Nachrichten, ich lese keine Nachrichten, ich lese wirklich maximal oder höre mir maximal was an,",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 258.78,
+   "ende": 261.96,
+   "text": "wenn Hagen mir mal was schickt, wo er sagt, okay, das wäre vielleicht auch mal für dich interessant.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 262.86,
+   "ende": 270.66,
+   "text": "Ich muss es vielleicht auch nicht machen, weil Hagen wiederum sich super viel damit beschäftigt und ich dadurch einfach auch den Input bekomme.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 270.66,
+   "ende": 288.0,
+   "text": "Aber nichtsdestotrotz gibt es immer wieder Situationen, wo ich etwas milder sehe, sage ich jetzt mal, als er das sieht oder ich auch mal sage, mein Gott, ja, jetzt steigere dich doch da nicht so rein oder findest du nicht, dass das jetzt ein bisschen krass ist, die Ansicht?",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 288.0,
+   "ende": 297.1,
+   "text": "Ich muss aber auch sagen, dass immer, wenn ich denke, dass seine Sicht auf die Dinge zu krass ist, sich das letztendlich dann doch irgendwann bewahrheitet hat.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 297.1,
+   "ende": 304.1,
+   "text": "Und so, das heißt, ich bin auch eher ein bisschen naiver und ich glaube auch immer eher erstmal an das Gute in allem.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 304.8,
+   "ende": 313.44,
+   "text": "Aber dass die Entwicklung halt nicht positiv ist, das kriegt man ja auch mit, wenn man nicht den ganzen Tag so,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 313.44,
+   "ende": 317.26,
+   "text": "also es gibt ja Menschen, so wie Hagen vielleicht, der sich sehr viel mit Politik beschäftigt.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 317.62,
+   "ende": 323.72,
+   "text": "Und dann gibt es so Menschen wie mich eher, die das grundlegend erstmal gar nicht interessiert und auch noch nie interessiert hat.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 323.72,
+   "ende": 337.6,
+   "text": "Aber selbst wenn man sich sehr wenig für Politik interessiert und auch wenn man sehr wenig Ahnung von Politik hat, merkt man es ja. Also man sieht es ja. Jeder ist ja als Person in irgendeiner Form davon betroffen.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 337.6,
+   "ende": 360.72,
+   "text": "Und deshalb ist es mir schon wichtig zu sagen, dass wir nicht per se Deutschland schlechtreden wollen, weil wir irgendwie jetzt rechtfertigen müssen, dass wir da nicht mehr leben, sondern dass wir halt einfach an der einen oder anderen Stelle aussprechen, was aus meiner Sicht, glaube ich, die meisten denken oder auch wissen.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 360.72,
+   "ende": 367.7,
+   "text": "und dadurch halt einfach auch die, die vielleicht eben in diesem Denkprozess sind,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 368.3,
+   "ende": 372.68,
+   "text": "auch da einfach abholen, dass man merkt, okay, es gibt auch Leute, die das genauso sehen",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 372.68,
+   "ende": 378.32,
+   "text": "und es gibt Leute, die das auch laut aussprechen und da gerade in Social Media gibt es ja immer mehr,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 378.32,
+   "ende": 384.06,
+   "text": "die wesentlich krasser noch denken und urteilen, als wir das jetzt gemacht haben in der letzten Folge.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 384.06,
+   "ende": 406.32,
+   "text": "Also auch das, ich fand jetzt gar nicht mal, dass die letzte Folge unter dem Motto lief, wir betreiben die ganze Zeit Deutschland-Bashing. Auch das habe ich ja sogar bewusst nochmal gesagt oder Hagen und ich auch kurz erörtert, weil ich eben auch die Tendenz bei ihm so kenne und eben nicht will, dass dieser ganze Podcast sich jetzt nur noch darum dreht, dass Deutschland irgendwie kacke ist.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 406.32,
+   "ende": 424.16,
+   "text": "Man muss aber auch dazu sagen, wenn Menschen ein Land verlassen und dabei ist es egal, ob es Deutschland ist oder irgendein anderes, wenn ich auswandere, dann ist das immer gekoppelt an irgendeine Unzufriedenheit. Sonst würde ich ja nicht gehen. Und diese Unzufriedenheit ist natürlich bei jedem komplett anders.",
+   "avg_logprob": -0.039,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 424.16,
+   "ende": 434.54,
+   "text": "Es gibt manche Menschen, die haben einen Punkt, wo sie sagen, das ist genau dieser eine Faktor in meinem Land, der mich dazu bewegt, auszuwandern.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 434.64,
+   "ende": 438.04,
+   "text": "Und dann gibt es halt andere, die haben mehrere Faktoren, die zusammenkommen.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 438.74,
+   "ende": 442.98,
+   "text": "Gefühlt ist ja aber immer irgendwie die Basis eine gewisse Unzufriedenheit.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 443.16,
+   "ende": 448.78,
+   "text": "Denn wenn ich total glücklich und zufrieden wäre in meinem Land und alles genauso wäre, wie ich mein Leben leben möchte,",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 449.2,
+   "ende": 451.7,
+   "text": "dann würde ich ja gar nicht auf die Idee kommen, dieses Land zu verlassen.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 452.32,
+   "ende": 456.7,
+   "text": "Also liegt es in der Natur der Sache, dass die Menschen, die ausgewandert sind,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 456.82,
+   "ende": 460.08,
+   "text": "auch einfach diese negativen Aspekte ansprechen.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 460.76,
+   "ende": 466.26,
+   "text": "Aber irgendwie ist ja kein Grund, also für die, die das nicht spüren,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 466.32,
+   "ende": 468.58,
+   "text": "die das nicht fühlen, die keinen Bock haben auszuwandern",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 468.58,
+   "ende": 471.34,
+   "text": "und die das vielleicht auch nicht verstehen können, warum man auswandert,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 471.9,
+   "ende": 476.1,
+   "text": "für die Menschen ist ja auch nichts von all den Gründen ein plausibler Grund.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 476.22,
+   "ende": 478.42,
+   "text": "Gehen wir jetzt mal zum Beispiel, nehmen wir mal das Wetter.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 478.42,
+   "ende": 500.5,
+   "text": "Ja, wenn jetzt jemand sagt, ich wandere aus, weil ich das Wetter in Deutschland einfach nicht mehr aushalte. Und nochmal, natürlich ist das Wetter in England genauso kacke wie in Deutschland. Und der Nächste sagt, ja, in Skandinavien ertrage ich das nicht, dass da so viel Dunkelheit ist. Also Deutschland ist am Ende das Synonym für ein Land. Ich bin in einem Land und gehe weg. Ja, so in dem Fall jetzt.",
+   "avg_logprob": -0.045,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 500.5,
+   "ende": 515.14,
+   "text": "Wenn also jemand sein Land wegen des Wetters verlässt, dann sagt der Deutsche, der gehen möchte, ich kann das nicht mehr ab, dass von Oktober bis April eigentlich eine Jahreszeit ist und die ist 15 Grad und Regen oder 6 Grad und Regen, je nachdem.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 515.14,
+   "ende": 524.14,
+   "text": "Es gab Silvesterabende, da habe ich eben bei 15 Grad auf der Terrasse gesessen und trotzdem war es aber dunkel und viel Regen, viel Matsch und so weiter.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 524.52,
+   "ende": 529.0,
+   "text": "Ich möchte einfach irgendwo leben, wo viel Sonne ist. Das ist für viele Menschen kein Grund.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 529.42,
+   "ende": 542.88,
+   "text": "Die denken sich dann, wie kann man, also naja, das Wetter ist halt wie es ist und so ist das nun mal in Deutschland und da muss man halt durch und nur weil man den ganzen Tag am Strand liegen will, kann man ja hier nicht alles aufgeben und hinter sich lassen.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 543.32,
+   "ende": 546.74,
+   "text": "Dabei geht es in solchen Entscheidungen gar nicht darum, den ganzen Tag am Strand zu liegen.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 546.84,
+   "ende": 551.02,
+   "text": "Auch das habe ich ja schon mehrmals gesagt, das passiert äußerst selten, dass wir am Strand liegen.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 552.3,
+   "ende": 555.64,
+   "text": "Sondern es geht einfach darum, was das Wetter mit dem Gemüt macht.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 555.64,
+   "ende": 561.28,
+   "text": "Und ich habe ja gerade Besuch von meiner Mutter und meinem Bruder gehabt und die haben das auch nochmal bestätigt.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 561.36,
+   "ende": 564.82,
+   "text": "Es ist einfach ein komplett, man ist ein komplett anderer Mensch.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 564.82,
+   "ende": 577.7,
+   "text": "Das Energielevel, der Geisteszustand, die Empfindungen, die Gefühle, die man hat, die sind komplett anders, wenn es warm ist und den ganzen Tag Sonne ist, als wenn man über Monate grau hat, Regen hat, Dunkelheit hat.",
+   "avg_logprob": -0.043,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 578.46,
+   "ende": 590.56,
+   "text": "Aber nichtsdestotrotz ist das Wetter, wenn man sagt, ja, ich wandere jetzt aus und ich habe keinen Bock mehr auf das scheiß Wetter in Deutschland, ist es ja auch schon eigentlich gemein, Deutschland gegenüber, dass man die ganze Zeit sagt, wie kacke das Wetter da ist.",
+   "avg_logprob": -0.043,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 590.56,
+   "ende": 606.5,
+   "text": "Der nächste wandert vielleicht wegen des Schulsystems aus, weil er sagt, ich möchte nicht, dass meine Kinder in Deutschland zur Schule gehen. Warum auch immer, weil ich mit dem System nicht zufrieden bin, weil ich mit dem Lehrstoff nicht zufrieden bin, weil ich mit den Abläufen nicht zufrieden bin, weil ich mit dieser krassen Schulpflicht unzufrieden bin.",
+   "avg_logprob": -0.043,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 606.5,
+   "ende": 622.1,
+   "text": "Auch dann, wenn man das benennt oder das der Grund ist, auch dann bekommt man negatives Feedback, weil dann ist man ja unverantwortlich, was man seinen Kindern antut, dass man ihnen eben diesen guten Bildungsweg verwehrt und dass man ihnen die Zukunft verbaut und so weiter.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 622.68,
+   "ende": 627.82,
+   "text": "So, der Nächste wandert dann vielleicht aus, weil er schon immer davon geträumt hat.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 627.92,
+   "ende": 629.38,
+   "text": "Seit er Kind ist, wollte er auswandern.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 629.38,
+   "ende": 636.26,
+   "text": "Ist auch kein richtiger Grund, weil das ist dann ja vielleicht Traumtänzerei und es ist ja dann so ein privilegierter Wunsch.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 636.34,
+   "ende": 642.88,
+   "text": "Das kann sich ja auch nicht jeder leisten und man muss ja auch, wenn jetzt alle gehen würden, wie soll das denn funktionieren?",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 643.42,
+   "ende": 649.16,
+   "text": "So, wenn man jetzt aus politischen Gründen auswandert, dann ist es auch nicht richtig, weil man ja eigentlich zu seinem Land stehen muss",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 649.16,
+   "ende": 655.74,
+   "text": "und weil man halt auch nicht negativ über seine Heimat reden soll und weil man ja dann vielleicht auch mitwirken soll,",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 655.82,
+   "ende": 657.18,
+   "text": "dass sich was ändert und so weiter.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 657.52,
+   "ende": 660.58,
+   "text": "Wenn man aus steuerlichen Gründen auswandert, ist es auch nicht richtig,",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 660.68,
+   "ende": 665.1,
+   "text": "weil man dann schon so einen leichten Touch von Steuerhinterziehung immer mitschwingt",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 665.1,
+   "ende": 670.16,
+   "text": "und ja, die Leute müssen mal Steuern zahlen, wenn keiner mehr Steuern zahlt, wie soll das Land dann überleben?",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 670.74,
+   "ende": 675.66,
+   "text": "Also letztendlich ist es völlig egal, aus welchen Gründen man ausgewandert ist.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 675.66,
+   "ende": 682.74,
+   "text": "Erstmal ist es für die meisten, die sowas nicht nachvollziehen können, wo dieser Wunsch nicht da ist",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 682.74,
+   "ende": 687.9,
+   "text": "Und die das auch ein Stück weit verurteilen, ist sowieso kein Grund gut genug",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 687.9,
+   "ende": 696.52,
+   "text": "Und zweitens ist es, wie ich gerade schon aufgezählt habe, ja alles verbunden mit einer Unzufriedenheit in dem Bereich oder in mehreren Bereichen",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 696.52,
+   "ende": 702.7,
+   "text": "Und natürlich redet man dann eben auch über diese Sachen, die einen da gestört haben, kritisch",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 702.7,
+   "ende": 730.7,
+   "text": "Ja, und spricht auch einfach damit die Menschen an, die das auch, mir ist ja klar und das habe ich auch letzte Woche in dem Podcast gesagt, dass die meisten, die aktuell den Podcast hören, vermutlich eben nicht die Zielgruppe sind in Form von, hey, wir helfen dir beim Auswandern, weil viele den Podcast, glaube ich, immer noch hören, weil sie uns irgendwie kennen oder jemanden kennen, der uns kennt und deshalb einfach interessant finden, wie wir hier leben und was wir so zu erzählen haben.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 730.7,
+   "ende": 736.54,
+   "text": "Aber die wenigsten Zuhörer sind, glaube ich, an dem Punkt, dass sie wirklich auswandern wollen",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 736.54,
+   "ende": 741.48,
+   "text": "Und ich kriege ja auch immer mal wieder zurückgespielt, ich finde das total toll, wie ihr das macht",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 741.48,
+   "ende": 742.84,
+   "text": "Aber für mich wäre das gar nichts",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 742.84,
+   "ende": 745.44,
+   "text": "Oder ich könnte mir das nicht vorstellen, Deutschland zu verlassen",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 745.44,
+   "ende": 746.54,
+   "text": "Das ist ja auch vollkommen okay",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 746.54,
+   "ende": 750.56,
+   "text": "Aber die Menschen, die sich vorstellen können, Deutschland zu verlassen",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 750.56,
+   "ende": 754.94,
+   "text": "Die stellen sich das ja auch vor, weil sie mit irgendetwas nicht zufrieden sind",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 754.94,
+   "ende": 759.78,
+   "text": "Und das ist inzwischen eben einfach oft die politische und wirtschaftliche Situation",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 759.78,
+   "ende": 783.64,
+   "text": "Und ich verstehe tatsächlich nicht, wie man das nicht sehen kann. Also wir waren ja mal ein Land, das einfach wirtschaftlich gesehen, obwohl wir weltweit betrachtet ja ein relativ kleines Land sind und von den Ländern, die wirklich an der wirtschaftlichen Spitze stehen, auch in diesem Kontext sind wir schon immer ein relativ kleines Land gewesen.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 784.2,
+   "ende": 789.12,
+   "text": "Nichtsdestotrotz waren wir immer ein Land, das mit Stolz erfüllt war,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 789.36,
+   "ende": 793.22,
+   "text": "beziehungsweise wo auch von außen mit Bewunderung drauf geschaut wurde.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 793.72,
+   "ende": 796.26,
+   "text": "Das sind wir aber nicht mehr, schon lange nicht mehr.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 796.54,
+   "ende": 800.72,
+   "text": "Deutschland ist schon lange ein Land, wo im Außen der Kopf geschüttelt wird",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 800.72,
+   "ende": 802.64,
+   "text": "und sich gefragt wird, was geht da ab.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 803.16,
+   "ende": 807.94,
+   "text": "Und wir haben gerade gestern wieder Menschen kennengelernt,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 807.94,
+   "ende": 814.46,
+   "text": "zufällig in dem Katzencafé, die aus, ich glaube, aus Israel oder so kamen,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 814.46,
+   "ende": 820.44,
+   "text": "die auch ähnliche politische Strukturen haben, aber die dann uns zum Beispiel",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 820.44,
+   "ende": 824.32,
+   "text": "gefragt haben, warum hat Deutschland eigentlich so ein großes Migrationsproblem",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 824.32,
+   "ende": 827.66,
+   "text": "und haben dann auch gesagt, ja, das ist ja generell in Europa ein Problem,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 828.04,
+   "ende": 831.8,
+   "text": "aber in Deutschland ganz besonders. Das heißt, also auch Menschen,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 831.8,
+   "ende": 835.72,
+   "text": "die überhaupt nicht in Europa leben, geschweige denn in Deutschland leben,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 835.72,
+   "ende": 839.76,
+   "text": "ja sehen von draußen, dass da irgendwas nicht rund läuft.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 839.88,
+   "ende": 842.28,
+   "text": "Und natürlich geht es jetzt auch nicht nur, wenn jetzt alle kommen,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 842.52,
+   "ende": 844.6,
+   "text": "ja immer nur alles auf die Migranten und so weiter.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 845.12,
+   "ende": 847.8,
+   "text": "Dann ist man ja auch gleich irgendwie wieder ausländerfeindlich,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 847.96,
+   "ende": 850.68,
+   "text": "was auch aus meiner Sicht vollkommener Bullshit ist.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 850.82,
+   "ende": 852.5,
+   "text": "Also jetzt speziell auch in meinem Fall.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 853.04,
+   "ende": 857.02,
+   "text": "Ja, ich habe selbst meine allerbeste Freundin, meine längste Freundin,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 857.16,
+   "ende": 862.02,
+   "text": "ja ist selbst mal irgendwann Migrantin gewesen, weil sie eben aus Kasachstan kommt.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 862.02,
+   "ende": 880.46,
+   "text": "So, also wir haben auch, wenn wir unterwegs sind, wir schließen ja auch schon immer auf den Reisen Freundschaften mit natürlich Menschen aus den unterschiedlichsten Nationalitäten. Es geht überhaupt gar nicht darum, ausländerfeindlich per se zu sein, nur weil man nicht gut heißt, was die ganze Migrationspolitik angeht.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 880.46,
+   "ende": 900.28,
+   "text": "Aber auch wie gesagt, es geht auch nicht nur darum. Es sind einfach so viele Dinge, wo man das Gefühl hat, Deutschland wird mehr oder weniger runtergewirtschaftet und ist eben nicht mehr dieses Weltwirtschaftswunder, dass es eigentlich aus meiner Sicht fast unmöglich ist, das nicht zu sehen.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 900.94,
+   "ende": 905.04,
+   "text": "Und nur weil man es sieht, muss man natürlich auch nicht gleich auswandern.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 905.14,
+   "ende": 912.16,
+   "text": "Aber sich, sage ich mal, in eine Position zu bringen und andere, die klar aussprechen, was Fakt ist,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 912.84,
+   "ende": 919.18,
+   "text": "dann in so eine Rechtfertigungsposition zu bringen, warum macht ihr euer Land so schlecht,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 920.06,
+   "ende": 926.02,
+   "text": "finde ich tatsächlich, ich weiß gar nicht, was das ist, ob das Naivität ist,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 926.02,
+   "ende": 945.36,
+   "text": "Ob diese Menschen das wirklich nicht sehen oder nicht sehen wollen oder ob es dann auch irgendwie so ein Trigger einfach für solche Menschen ist, dass sie es eigentlich doch sehen und trotzdem die Heimatliebe aber so groß ist, dass sie eigentlich gar nicht wollen, dass laut darüber gesprochen wird.",
+   "avg_logprob": -0.046,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 945.36,
+   "ende": 962.72,
+   "text": "Ich weiß es nicht. Aber ja, ich wollte das einmal nochmal auch ein Stück weit klarstellen. Natürlich muss ich das nicht. Genauso habe ich auch noch Feedback bekommen zu dieser Folge mit dem Minishitstorm, dass ich mir das nicht so zu Herzen nehmen soll.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 962.72,
+   "ende": 970.62,
+   "text": "Und dass jeder immer irgendwie was zu kritisieren hat, was man sagt oder nicht sagt.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 971.28,
+   "ende": 974.72,
+   "text": "Und es geht auch nicht darum, dass ich mich rechtfertigen will oder so.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 975.48,
+   "ende": 983.18,
+   "text": "Aber am Ende ist es halt nun mal mein Podcast, der mehr oder weniger eine, ich sage jetzt mal eine Art Tagebuch, will ich jetzt auch nicht sagen.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 983.4,
+   "ende": 987.62,
+   "text": "Ich mache ja nicht jeden Montag so, so war die letzte Woche das und das ist passiert.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 987.62,
+   "ende": 1004.04,
+   "text": "Aber es geht ja schon in erster Linie in diesem Podcast darum, was ich denke, was ich fühle, wie ich Dinge sehe. Und sicherlich gibt es auch mal ein paar mehr Fakten. Also wenn ich jetzt über ein Elefantencamp zum Beispiel spreche, dann geht es mir natürlich auch darum, mich zu informieren und zu sagen, hey, das und das sind die Fakten.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1004.52,
+   "ende": 1007.86,
+   "text": "Vielleicht überlegt ihr beim nächsten Mal so und so, wenn ihr euch für sowas entscheidet.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1008.2,
+   "ende": 1012.88,
+   "text": "Aber die meiste Zeit geht es ja darum, was in mir vorgeht, was ich denke, wie meine Sicht auf die Dinge ist.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1012.98,
+   "ende": 1016.36,
+   "text": "Und eben teilweise dann auch mit Hagen zusammen, wie seine Sicht auf die Dinge ist.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1016.86,
+   "ende": 1023.02,
+   "text": "Und dann ist es schon so, dass wenn ich gefragt werde, warum ich meine Heimat so schlecht rede, dass mich das beschäftigt.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1023.02,
+   "ende": 1030.44,
+   "text": "Also ich finde es ja gut, wenn so eine Fragen kommen, weil man dann einfach auch die Möglichkeit hat, noch mal was dazu zu sagen.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1030.56,
+   "ende": 1033.66,
+   "text": "Ja, anstatt einfach gleich im Stillen irgendwie verurteilt zu werden.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1034.76,
+   "ende": 1039.82,
+   "text": "Deswegen weiß ich, dass ich grundsätzlich mich nicht dafür rechtfertigen muss, was wir letzte Woche im Podcast gesagt haben.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1039.94,
+   "ende": 1052.2,
+   "text": "Aber trotz allem war es mir nochmal ein Bedürfnis, darüber zu sprechen, warum wir manche Dinge so denken, wie wir sie denken, warum wir sie so sagen, warum wir eben auf manche Sachen aufmerksam machen.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1052.2,
+   "ende": 1061.4,
+   "text": "Und warum es natürlich gerade im Zusammenhang mit einem eventuell entstehenden Angebot, nämlich wir helfen euch bei der Auswanderung, gar kein...",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1061.4,
+   "ende": 1090.5,
+   "text": "Wir kommen dann gar nicht drum herum, in diesem Kontext auch darüber zu sprechen, was in Deutschland schiefläuft, um eben Menschen, die vielleicht noch zögern oder die sich nicht sicher sind oder die vielleicht eben auch im Freundeskreis dann eher negatives Feedback bekommen, wenn sie sich kritisch äußern, dass solche Menschen mit Leuten wie uns oder vielen anderen Auswandern, die ja sowas anbieten, jemanden haben, der sie da abholt, wo sie gerade stehen.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1090.5,
+   "ende": 1119.46,
+   "text": "Ich kann das auch sagen, es gibt ja auch ganz viele Menschen, die eben anbieten, in der Selbstständigkeit zu helfen, weil auch da ist es, wenn man alleine in einem Freundes- und Bekanntenkreis oder Familienkreis, wenn man die einzige Person ist, die selbstständig ist und diesen Weg noch keiner gegangen ist, dann ist es manchmal wirklich schwer, sich mitzuteilen, sich auszutauschen, über Ängste, Sorgen, Nöte und so weiter zu sprechen, weil es einfach niemand nachvollziehen kann, weil eben keiner diesen Weg gegangen ist.",
+   "avg_logprob": -0.041,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1119.46,
+   "ende": 1140.06,
+   "text": "Und auch da gibt es ja viele Anbieter, die diese Menschen eben auffangen und in dem Zusammenhang natürlich auch zum Beispiel oft darüber gesprochen wird, dass das Angestelltenverhältnis negativ ist, weil natürlich die Menschen, die sich selbstständig machen, aus irgendeinem Grund ja nicht ins Angestelltenverhältnis gehen wollten oder daraus rausgekommen sind.",
+   "avg_logprob": -0.022,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1140.06,
+   "ende": 1158.7,
+   "text": "Also weil sie ja irgendwie eine Unzufriedenheit oder in meinem Fall war es jetzt gar nicht die Unzufriedenheit im Angestelltenverhältnis, sondern es waren die äußeren Umstände durch Corona und Co., Kitaschließung und so weiter, dass ich für mich gar nicht mehr wirklich die Möglichkeit gesehen habe, in einem klassischen Angestelltenverhältnis zu sein.",
+   "avg_logprob": -0.043,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1159.46,
+   "ende": 1165.2,
+   "text": "Egal, wie man es dreht und wendet, es ist in irgendeiner Form eine Unzufriedenheit mit dem Ist-Zustand.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1165.6,
+   "ende": 1168.32,
+   "text": "Und wenn dann jemand da rausgeht und zum Beispiel sich selbstständig macht",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1168.32,
+   "ende": 1171.9,
+   "text": "und dann Unterstützung möchte von Menschen, die den Weg schon gegangen sind,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1172.22,
+   "ende": 1177.76,
+   "text": "dann kommt man nicht umhin, auch über die Nachteile des Angestelltenverhältnisses zu reden.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1177.76,
+   "ende": 1181.1,
+   "text": "Weil sonst wäre man ja noch da und nicht selbstständig.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1181.2,
+   "ende": 1184.32,
+   "text": "Und genauso ist das am Ende, wenn man über das Auswandern spricht.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1184.82,
+   "ende": 1188.16,
+   "text": "Dann liegt es an der Natur der Sache, dass man eben auch über die negativen Dinge spricht,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1188.16,
+   "ende": 1195.42,
+   "text": "die das Heimatland, in unserem Fall Deutschland, betrifft, die einen ja auch schon länger stören, auch in dem Zusammenhang, wo das jetzt kam.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1195.5,
+   "ende": 1200.34,
+   "text": "Das kam auch von jemandem, den wir vor einigen Jahren hier tatsächlich auch auf Koh Samui kennengelernt haben.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1201.64,
+   "ende": 1203.8,
+   "text": "Und auch da war unsere Meinung schon kritisch.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1204.1,
+   "ende": 1208.8,
+   "text": "Auch da haben wir schon Dinge und auch da waren wir schon unterschiedlicher Meinung als diese Personen.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1208.9,
+   "ende": 1212.5,
+   "text": "Diese Person hat zum Beispiel eine komplett konträre Haltung zu Corona gehabt.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1212.7,
+   "ende": 1217.32,
+   "text": "Also wirklich, wir stehen hier mit unserer Corona-Sicht und diese Person stand da.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1217.32,
+   "ende": 1246.02,
+   "text": "Ja, und das ist ja auch okay. Wir haben trotzdem, wir fanden uns trotzdem alle cool und haben uns öfters getroffen und konnten auch über sowas sprechen, ohne den anderen vom Gegenteil überzeugen zu wollen. Nichtsdestotrotz war auch da unsere Haltung. Ja, jeder, der uns kennt, hat das ja auch mitbekommen. Wir haben auch da natürlich in der Zeit Kontakte verloren, weil keiner verstehen konnte, warum wir uns eben nicht impfen lassen, warum wir so denken, wie wir denken.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1246.7,
+   "ende": 1271.12,
+   "text": "Aber gut, das hat ja jeder diese Situation damals gehabt, dass er dann auch einfach sich Kontakte irgendwie getrennt haben oder Konflikte da entstanden sind. Auf jeden Fall ist auch damals schon unsere Einstellung so gewesen, wie sie war und aus unserer Sicht hat sich, das war vor vier Jahren, hat sich seitdem nichts zum Besseren gewendet.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1271.12,
+   "ende": 1289.78,
+   "text": "Und das, ja, ich kann mich nur wiederholen, ist für uns fast gar nicht begreifbar, dass man die Sachen nicht so sieht. Ja, also jeder gerne auch da ganz ehrlich jetzt nochmal, wenn jemand hier zuhört und sagt, ich verstehe überhaupt nicht, was du sagst.",
+   "avg_logprob": -0.027,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 1289.78,
+   "ende": 1312.64,
+   "text": "Ich finde, Deutschland ist ein tolles Land. Es macht viel für seine Bürger. Ich fühle mich wohl. Ich habe eine gute Work-Life-Balance. Ich kann für das Geld, was ich bekomme, mein Leben so finanzieren, wie ich es möchte. Ich bin mit mir, meiner Familie, meinem Beruf, meiner wirtschaftlichen Situation, meiner privaten Situation. Ich bin mit allem total zufrieden und kann mir kein besseres Land vorstellen.",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1312.64,
+   "ende": 1332.38,
+   "text": "Und aus meiner Sicht kann hier auch nichts besser gemacht werden, weil es halt eben perfekt ist. Gerne melden, ja, gerne mir mich, also eines Besseren belehren ist jetzt Quatsch, weil das wird nicht klappen im Sinne von, ich ändere meine Meinung dazu komplett, aber mich würden einfach mal die Argumente eben auch in die andere Richtung interessieren.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1332.38,
+   "ende": 1342.82,
+   "text": "Was dazu führt, dass jemand sagt, ich sehe das alles nicht. Ich sehe nicht, dass es runtergewirtschaftet wird. Ich sehe nicht, dass das Volk immer mehr leidet und die Wirtschaft auch immer mehr leidet.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1343.66,
+   "ende": 1356.04,
+   "text": "Würde mich auf jeden Fall interessieren. Es muss auch nicht jeder irgendwelche öffentlichen Kommentare schreiben. Jeder hat die Möglichkeit, mir auch bei Instagram zum Beispiel eine direkte Nachricht zu schreiben.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1356.04,
+   "ende": 1374.62,
+   "text": "Oder eigentlich ist auch überall, glaube ich, wo der Podcast ist, die Möglichkeit, mir eine E-Mail zu schreiben. Ich mache sonst die E-Mail-Adresse auch gerne nochmal in die Shownotes. Wenn jetzt jemand sagt, ich habe weder eine Nummer von dir noch, bin ich bei Instagram noch sonst was, aber ich würde trotzdem gerne was dazu sagen, will es aber nicht öffentlich schreiben, kann man mir auch gerne eine E-Mail schreiben. Bin ich auf jeden Fall mal gespannt.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1374.62,
+   "ende": 1377.22,
+   "text": "Und ja, das war es auch schon.",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1377.36,
+   "ende": 1379.4,
+   "text": "Gar nicht so lange heute.",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1380.04,
+   "ende": 1383.16,
+   "text": "So viel gibt es ja auch eigentlich nicht dazu zu sagen,",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1383.28,
+   "ende": 1385.5,
+   "text": "obwohl ich irgendwie schon wieder ganz schön viel dazu jetzt gesagt habe.",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1386.86,
+   "ende": 1390.02,
+   "text": "Aber ja, ich hatte eigentlich heute was anderes vor, ein anderes Thema.",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1390.42,
+   "ende": 1391.96,
+   "text": "Das verschiebe ich dann auf nächste Woche.",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1392.8,
+   "ende": 1395.94,
+   "text": "Aber so, ja, hatte ich einfach nochmal die Nähe zur letzten Folge gehabt.",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1396.04,
+   "ende": 1397.94,
+   "text": "Wer jetzt diese Folge als erstes hört und denkt so,",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1397.94,
+   "ende": 1399.02,
+   "text": "hey, wovon redet die eigentlich?",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1400.34,
+   "ende": 1403.08,
+   "text": "Dann gerne nochmal in die Folge davor reinhören.",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1403.08,
+   "ende": 1405.32,
+   "text": "wie gesagt, sie nennt sich Auswandern mit",
+   "avg_logprob": -0.173,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.33
+  },
+  {
+   "start": 1405.32,
+   "ende": 1407.14,
+   "text": "Jett und Hagen und",
+   "avg_logprob": -0.173,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.33
+  },
+  {
+   "start": 1407.14,
+   "ende": 1409.5,
+   "text": "ja, dann freue ich mich, dass",
+   "avg_logprob": -0.173,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.33
+  },
+  {
+   "start": 1409.5,
+   "ende": 1410.96,
+   "text": "ihr wie immer wieder zuhört",
+   "avg_logprob": -0.173,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.33
+  },
+  {
+   "start": 1410.96,
+   "ende": 1413.54,
+   "text": "und zuschaut und wir sehen uns nächste Woche",
+   "avg_logprob": -0.173,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.33
+  },
+  {
+   "start": 1413.54,
+   "ende": 1414.82,
+   "text": "bis dann, ciao",
+   "avg_logprob": -0.173,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.33
+  }
+ ]
+}

@@ -1,0 +1,7042 @@
+{
+ "meta": {
+  "slug": "7-thai-foods-abseits-vom-touri-teller-kulinarische-reise-mit-hagen-juliette",
+  "titel": "7 Thai-Foods abseits vom Touri-Teller – Kulinarische Reise mit Hagen & Juliette",
+  "datum": "2026-01-26T06:00:00.000Z",
+  "dauer_sekunden": 2649,
+  "guid": "65621f0d-5fd4-4a69-8272-f8ab0e6f2565",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T07:50:54Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 6,
+   "transkription": 2543
+  },
+  "echtzeitfaktor": 0.96,
+  "anzahl_segmente": 877,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 10.51,
+   "ende": 22.57,
+   "text": "Es zwingt einen richtig zum Husten, man kann nicht Luft holen. Es ist ganz, ganz strange, ganz crazy irgendwie und ja, deswegen ist das auch nicht meins, weil das halt ein Essen ist, was durchweg scharf ist.",
+   "avg_logprob": -0.187,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 22.83,
+   "ende": 26.73,
+   "text": "Man kann das nicht, also es ist alles scharf da dran, es ist richtig scharf.",
+   "avg_logprob": -0.187,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 27.63,
+   "ende": 41.97,
+   "text": "Herzlich willkommen zu einer neuen Folge DLIZKFI. Das Leben ist zu kurz für irgendwann. Heute einfach mal Vogelgeräusche für euch.",
+   "avg_logprob": -0.187,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 46.33,
+   "ende": 47.69,
+   "text": "Nein, Quatsch.",
+   "avg_logprob": -0.196,
+   "no_speech_prob": 0.046,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 48.29,
+   "ende": 49.87,
+   "text": "Ich habe Hagen heute wieder mit dabei",
+   "avg_logprob": -0.196,
+   "no_speech_prob": 0.046,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 49.87,
+   "ende": 52.15,
+   "text": "und wir wollen euch mal ein paar",
+   "avg_logprob": -0.196,
+   "no_speech_prob": 0.046,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 52.15,
+   "ende": 53.77,
+   "text": "kulinarische Highlights",
+   "avg_logprob": -0.196,
+   "no_speech_prob": 0.046,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 53.77,
+   "ende": 56.17,
+   "text": "näher bringen, die ihr",
+   "avg_logprob": -0.196,
+   "no_speech_prob": 0.046,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 56.17,
+   "ende": 58.13,
+   "text": "vielleicht, ich frage mich, ob man überhaupt was hört.",
+   "avg_logprob": -0.196,
+   "no_speech_prob": 0.046,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 58.25,
+   "ende": 60.01,
+   "text": "Das ist ballerlaut mit diesen Vögeln.",
+   "avg_logprob": -0.196,
+   "no_speech_prob": 0.046,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 60.25,
+   "ende": 61.21,
+   "text": "Ist das bei dir auch so laut?",
+   "avg_logprob": -0.196,
+   "no_speech_prob": 0.046,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 61.75,
+   "ende": 63.59,
+   "text": "Die schlaue KI,",
+   "avg_logprob": -0.196,
+   "no_speech_prob": 0.046,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 63.81,
+   "ende": 65.61,
+   "text": "die nimmt das hinterher raus.",
+   "avg_logprob": -0.196,
+   "no_speech_prob": 0.046,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 66.85,
+   "ende": 67.23,
+   "text": "Okay.",
+   "avg_logprob": -0.196,
+   "no_speech_prob": 0.046,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 67.75,
+   "ende": 69.87,
+   "text": "Oder die nimmt halt unsere Stimme raus",
+   "avg_logprob": -0.196,
+   "no_speech_prob": 0.046,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 69.87,
+   "ende": 71.33,
+   "text": "und die Leute hören auf die Vögel.",
+   "avg_logprob": -0.196,
+   "no_speech_prob": 0.046,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 71.33,
+   "ende": 73.71,
+   "text": "Das kriegen wir schon suppressed mit",
+   "avg_logprob": -0.196,
+   "no_speech_prob": 0.046,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 73.71,
+   "ende": 75.85,
+   "text": "Kompressoren und so, da bearbeiten wir hinterher ein bisschen",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 75.85,
+   "ende": 77.99,
+   "text": "und hört man die Vögel nicht, das zeigt",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 77.99,
+   "ende": 79.71,
+   "text": "die Erfahrung. Aber es ist wirklich",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 79.71,
+   "ende": 80.51,
+   "text": "sehr laut heute.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 81.67,
+   "ende": 83.91,
+   "text": "Wir sind nämlich heute mal in unterschiedlichen",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 83.91,
+   "ende": 85.37,
+   "text": "Räumen, weil wir die letzten",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 85.37,
+   "ende": 88.01,
+   "text": "Folgen, die wir zusammen aufgenommen haben, festgestellt",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 88.01,
+   "ende": 89.63,
+   "text": "haben, dass das wirklich sehr, sehr viel",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 89.63,
+   "ende": 91.59,
+   "text": "Nachbearbeitung bedurfte,",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 91.79,
+   "ende": 93.57,
+   "text": "weil dann doch die",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 93.57,
+   "ende": 95.05,
+   "text": "Mikrofone sich überlagern.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 95.89,
+   "ende": 97.75,
+   "text": "Und jetzt sind wir",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 97.75,
+   "ende": 99.67,
+   "text": "in getrennten Bungalows und",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 99.67,
+   "ende": 101.35,
+   "text": "sehen uns quasi über die Kamera.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 102.27,
+   "ende": 103.57,
+   "text": "Herzlich willkommen",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 103.57,
+   "ende": 105.79,
+   "text": "Herz, Herzchen.",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 106.59,
+   "ende": 107.83,
+   "text": "Herzlichen Dank.",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 108.83,
+   "ende": 110.13,
+   "text": "Wir wollen heute mal,",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 110.13,
+   "ende": 112.01,
+   "text": "wie schon erwähnt, euch",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 112.01,
+   "ende": 114.25,
+   "text": "ein paar kulinarische Highlights näher bringen,",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 114.41,
+   "ende": 116.19,
+   "text": "die ihr nicht unbedingt vielleicht kennt.",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 116.31,
+   "ende": 117.81,
+   "text": "Es sei denn, ihr wart auch schon mal in Thailand",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 117.81,
+   "ende": 120.35,
+   "text": "und seid vertraut mit der thailändischen Küche.",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 120.77,
+   "ende": 121.81,
+   "text": "Aber neben",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 121.81,
+   "ende": 123.85,
+   "text": "Fried Rice und Green Curry",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 123.85,
+   "ende": 125.65,
+   "text": "gibt es natürlich noch eine ganze Menge",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 125.65,
+   "ende": 128.25,
+   "text": "anderer cooler Sachen, die man hier essen kann",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 128.25,
+   "ende": 129.71,
+   "text": "und auch trinken.",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 129.81,
+   "ende": 131.17,
+   "text": "Ein Getränk haben wir auch mit dabei.",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 131.17,
+   "ende": 139.71,
+   "text": "Und genau, da habe ich gedacht, nehme ich Hagen nochmal mit dazu, sonst wird es vielleicht ein bisschen eintönig, wenn eine Person irgendwie eine halbe Stunde über Essen redet.",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 140.67,
+   "ende": 146.87,
+   "text": "Und wir fangen gleich mal an mit dem Lieblingsessen von Hagen und das ist, was ist es?",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 147.51,
+   "ende": 148.75,
+   "text": "Das ist Kaukamu.",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 150.31,
+   "ende": 150.79,
+   "text": "Kaukamu.",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 150.89,
+   "ende": 151.75,
+   "text": "Schrei bitte nicht so.",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 152.71,
+   "ende": 153.69,
+   "text": "Wieso schreie ich?",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 154.69,
+   "ende": 155.69,
+   "text": "Du schreist aber laut.",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 156.15,
+   "ende": 157.85,
+   "text": "Ich habe aber die Ohren gerade geklingelt.",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 158.93,
+   "ende": 159.23,
+   "text": "Achso.",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 160.47,
+   "ende": 160.91,
+   "text": "Kaukamu.",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 161.17,
+   "ende": 162.05,
+   "text": "Khao Khamu.",
+   "avg_logprob": -0.182,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 162.79,
+   "ende": 164.29,
+   "text": "Was heißt denn Khao Khamu?",
+   "avg_logprob": -0.182,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 164.67,
+   "ende": 169.39,
+   "text": "Khao Khamu heißt, also Khao ist das Wort für Reis, unter anderem.",
+   "avg_logprob": -0.182,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 170.07,
+   "ende": 176.65,
+   "text": "Kha ist das Wort für Bein und Mu ist das Wort für Schwein, also Reis, Bein, Schwein.",
+   "avg_logprob": -0.182,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 177.49,
+   "ende": 180.49,
+   "text": "So läuft das übrigens bei fast allen thailändischen Gerichten.",
+   "avg_logprob": -0.182,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 180.49,
+   "ende": 185.65,
+   "text": "Das ist einfach nur die Aneinanderreihung der Hauptingredienzien beinhaltet das Wort.",
+   "avg_logprob": -0.182,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 186.79,
+   "ende": 189.71,
+   "text": "Muss man sich ein bisschen vorstellen, ein Bekannter hier auf der Insel,",
+   "avg_logprob": -0.182,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 189.71,
+   "ende": 192.13,
+   "text": "der hat letztens gesagt, es erinnert mich ein bisschen an Pulled Pork.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 192.31,
+   "ende": 195.33,
+   "text": "Ich finde, das Fleisch ist so ein bisschen,",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 195.33,
+   "ende": 198.17,
+   "text": "ist halt Schweinefleisch, so ein bisschen so wie Kassler",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 198.17,
+   "ende": 201.53,
+   "text": "oder Spanferkel oder so von der Konsistenz her.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 201.61,
+   "ende": 204.35,
+   "text": "Das wird ganz lange gekocht, das setzen die schon am Vortag an",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 204.35,
+   "ende": 208.35,
+   "text": "und dann kocht das Schweinebein sozusagen ganz lange",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 208.35,
+   "ende": 211.27,
+   "text": "in so einem braunen Soßensud.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 212.03,
+   "ende": 215.25,
+   "text": "Da drin werden gleichzeitig auch Eier ganz hart gekocht",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 215.25,
+   "ende": 217.39,
+   "text": "und dann wird das serviert,",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 217.39,
+   "ende": 218.89,
+   "text": "das ist hier so ein typisches Mittagsgericht,",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 218.89,
+   "ende": 230.69,
+   "text": "Wird das serviert mit Reis, dieser schwarzen Soße, zwei halben Eiern und so einem eingelegten scharfen Kohl.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 231.65,
+   "ende": 239.69,
+   "text": "In der Regel gibt es dann immer noch Knoblauchzehen dazu und ein bisschen scharfe Soße und allerhand Soßenbeilagen noch.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 239.83,
+   "ende": 247.35,
+   "text": "Je nachdem, wo man das kauft, ist das dann scharf oder schmeckt man mehr intensiv oder weniger intensiv.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 247.35,
+   "ende": 250.23,
+   "text": "ja, aber ich glaube am ehesten das Fleisch",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 250.23,
+   "ende": 252.13,
+   "text": "kann man mit Spanfäcken oder Pultpork",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 252.13,
+   "ende": 254.55,
+   "text": "vergleichen, das ist einfach ein großartiges",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 254.55,
+   "ende": 255.99,
+   "text": "Essen, das ist eigentlich, ich glaube, wenn ich mir",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 255.99,
+   "ende": 257.79,
+   "text": "was aussuchen müsste, wovon ich mich hier",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 257.79,
+   "ende": 259.91,
+   "text": "nur noch ernähren",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 259.91,
+   "ende": 261.93,
+   "text": "dürfte, dann wäre es glaube ich das",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 261.93,
+   "ende": 264.13,
+   "text": "Ja, und wenn man jetzt",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 264.13,
+   "ende": 264.71,
+   "text": "den",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 264.71,
+   "ende": 268.11,
+   "text": "thailändischen Begriff sich nicht",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 268.11,
+   "ende": 270.21,
+   "text": "gemerkt hat, Khao Kamu, kann man auch einfach",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 270.21,
+   "ende": 272.25,
+   "text": "Pork Leg bestellen, also so",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 272.25,
+   "ende": 273.39,
+   "text": "steht es dann auch meistens",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 273.39,
+   "ende": 276.11,
+   "text": "auf der Karte und",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 276.11,
+   "ende": 278.57,
+   "text": "das gibt es oft in Foodcourts,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 278.65,
+   "ende": 280.37,
+   "text": "aber auch viel an so Straßenständen",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 280.37,
+   "ende": 282.33,
+   "text": "und man erkennt das, wenn ihr jetzt",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 282.33,
+   "ende": 284.35,
+   "text": "irgendwo mal Urlaub macht und",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 284.35,
+   "ende": 285.61,
+   "text": "denkt, ich will das mal essen, aber",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 285.61,
+   "ende": 288.29,
+   "text": "woher weiß ich denn auch wirklich, dass das das ist?",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 288.35,
+   "ende": 290.39,
+   "text": "Weil es gibt es nicht immer überall.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 291.39,
+   "ende": 292.33,
+   "text": "Das erkennt man eigentlich",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 292.33,
+   "ende": 294.35,
+   "text": "ganz gut an so ganz, ganz",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 294.35,
+   "ende": 296.35,
+   "text": "riesigen Bottichen",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 296.35,
+   "ende": 298.15,
+   "text": "aus Metall, wo dann eben",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 298.15,
+   "ende": 300.71,
+   "text": "dieses Fleisch drin liegt, was so ein bisschen an eine Schweinehaxe",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 300.71,
+   "ende": 301.41,
+   "text": "auch erinnert.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 302.09,
+   "ende": 304.49,
+   "text": "Und dann wird es halt vom Knochen abgelöst",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 304.49,
+   "ende": 305.87,
+   "text": "und es liegt quasi in diesem",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 305.87,
+   "ende": 310.55,
+   "text": "Es sieht tatsächlich nicht wirklich appetitlich aus, wenn man das so das erste Mal sieht.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 310.55,
+   "ende": 315.01,
+   "text": "Und das habe ich eben noch vergessen, der geneigte Thailänder, und das müssen wir immer dazu sagen,",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 315.13,
+   "ende": 320.37,
+   "text": "weil weder du noch ich noch die Kinder mögen das, mein Nacken, also keine Haut dazu.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 320.51,
+   "ende": 330.09,
+   "text": "Weil normalerweise tun sie Hälfte Fleisch drauf und Hälfte fettige, glibbrige, schleimige Schweinehaut mit Unterfett und so.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 330.19,
+   "ende": 331.67,
+   "text": "Also die Thailänder, die lieben das.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 331.67,
+   "ende": 335.33,
+   "text": "Der geneigte Thailänder, der kennt das gar nicht anders, aber für uns ist es nichts.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 335.33,
+   "ende": 336.91,
+   "text": "und deswegen bestellen wir es immer ohne Haut.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 338.19,
+   "ende": 339.23,
+   "text": "Und weil du es gesagt hast,",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 339.29,
+   "ende": 340.45,
+   "text": "wollte ich auch noch kurz einmal anfügen,",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 340.83,
+   "ende": 342.83,
+   "text": "Foodcourt, ich kann es überhaupt nicht haben mit dem Foodcourt,",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 342.93,
+   "ende": 344.01,
+   "text": "wir haben hier bei uns in die Ecke,",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 344.49,
+   "ende": 346.23,
+   "text": "einmal über den Berg mit dem Roller,",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 346.29,
+   "ende": 348.37,
+   "text": "drei Minuten von hier,",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 348.55,
+   "ende": 350.61,
+   "text": "da ist ein Kaukamu-Stand, das ist so ein altes Ehepaar,",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 350.67,
+   "ende": 352.23,
+   "text": "die machen jeden Tag nichts anderes,",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 352.37,
+   "ende": 355.33,
+   "text": "außer die Leute von 10 bis 14 Uhr mit Kaukamu zu versorgen",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 356.01,
+   "ende": 357.57,
+   "text": "und das schmeckt so großartig,",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 357.63,
+   "ende": 359.57,
+   "text": "das ist wirklich, und das habe ich auch nirgendwo in Thailand",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 359.57,
+   "ende": 361.41,
+   "text": "so bekommen,",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 361.69,
+   "ende": 362.99,
+   "text": "wie die beiden das da machen",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 362.99,
+   "ende": 364.39,
+   "text": "und ich habe ein Foodcourt und so,",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 364.39,
+   "ende": 366.29,
+   "text": "Das ist, finde ich, immer relativ geschmackseutral.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 366.47,
+   "ende": 367.47,
+   "text": "Wobei ihr das ja anders seht.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 367.57,
+   "ende": 369.51,
+   "text": "Ihr mögt das besonders gerne im Food Court.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 369.61,
+   "ende": 370.71,
+   "text": "Ich mag das nicht so.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 370.71,
+   "ende": 372.17,
+   "text": "Aber das ist dann wahrscheinlich geschmackseutral.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 372.79,
+   "ende": 374.77,
+   "text": "Das ist wie eigentlich mit allem.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 374.85,
+   "ende": 377.93,
+   "text": "Das ist auch am Ende mit dem grünen Curry und auch mit dem Fried Rice so.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 378.07,
+   "ende": 380.61,
+   "text": "Egal, wo man es isst, es schmeckt halt immer ein bisschen anders,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 380.73,
+   "ende": 385.59,
+   "text": "weil es immer nach so einer Art Familienrezept in Anführungszeichen ist.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 385.97,
+   "ende": 389.23,
+   "text": "Wir haben auch in Chiang Mai sehr leckeres Kaukamu mal gegessen.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 389.71,
+   "ende": 393.71,
+   "text": "Also auch das ist etwas, was wirklich thailandweit verbreitet ist,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 393.71,
+   "ende": 398.69,
+   "text": "Weil es gibt auch ein paar Gerichte, die gibt es halt im Süden weniger und dafür mehr im Norden und andersrum.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 398.91,
+   "ende": 404.87,
+   "text": "Aber Khao Kamu oder Pork Leg, das könnt ihr eigentlich überall in Thailand bekommen, auch in ländlichen Regionen.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 405.51,
+   "ende": 406.53,
+   "text": "Das ist sehr verbreitet.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 407.11,
+   "ende": 412.31,
+   "text": "Und wir wollen euch auch immer dazu sagen, was so die Gerichte ungefähr kosten,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 412.47,
+   "ende": 417.15,
+   "text": "damit ihr dann auch, wenn ihr selber auf Reisen seid, so ein Gespür dafür bekommt.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 417.71,
+   "ende": 421.01,
+   "text": "Was sagst du, sollte so ein Khao Kamu maximal sein?",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 421.01,
+   "ende": 423.33,
+   "text": "Hier beim modernen Pöt",
+   "avg_logprob": -0.298,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 423.33,
+   "ende": 425.13,
+   "text": "kostet es 80 Baht.",
+   "avg_logprob": -0.298,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 425.47,
+   "ende": 428.55,
+   "text": "Also ungefähr 2,25 Euro",
+   "avg_logprob": -0.298,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 428.55,
+   "ende": 429.25,
+   "text": "würde ich sagen.",
+   "avg_logprob": -0.298,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 429.37,
+   "ende": 430.55,
+   "text": "Eine Sattel Mahlzeit.",
+   "avg_logprob": -0.298,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 430.65,
+   "ende": 431.89,
+   "text": "Da gibt es immer noch ein Süppchen dazu.",
+   "avg_logprob": -0.298,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 432.53,
+   "ende": 434.41,
+   "text": "Und wenn man vor Ort ist bei den Leuten,",
+   "avg_logprob": -0.298,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 434.65,
+   "ende": 436.89,
+   "text": "dann ist immer noch Wasser und Eis",
+   "avg_logprob": -0.298,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 436.89,
+   "ende": 437.81,
+   "text": "halt auch dazu.",
+   "avg_logprob": -0.298,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 438.45,
+   "ende": 439.65,
+   "text": "Aber im Food Court",
+   "avg_logprob": -0.298,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 439.65,
+   "ende": 441.55,
+   "text": "zwischen 70 und",
+   "avg_logprob": -0.298,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 441.55,
+   "ende": 443.65,
+   "text": "100 Baht ist schon viel.",
+   "avg_logprob": -0.298,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 445.11,
+   "ende": 445.15,
+   "text": "Also",
+   "avg_logprob": -0.298,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 445.15,
+   "ende": 446.01,
+   "text": "es war super.",
+   "avg_logprob": -0.298,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 447.51,
+   "ende": 448.99,
+   "text": "Es sei denn, man ist",
+   "avg_logprob": -0.298,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 448.99,
+   "ende": 451.07,
+   "text": "ja, es sei denn, man ist halt in einem",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 451.07,
+   "ende": 453.15,
+   "text": "richtigen Restaurant, also das müssen wir auch dazu",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 453.15,
+   "ende": 454.89,
+   "text": "sagen, die Preise, die wir jetzt so nennen, das",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 454.89,
+   "ende": 457.11,
+   "text": "bezieht sich in der Regel auf Straßenstände,",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 457.71,
+   "ende": 459.17,
+   "text": "einfache Teillokale",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 459.17,
+   "ende": 461.09,
+   "text": "und Foodcourts.",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 462.33,
+   "ende": 463.01,
+   "text": "Restaurantpreise sind",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 463.01,
+   "ende": 464.53,
+   "text": "natürlich immer höher,",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 465.35,
+   "ende": 466.47,
+   "text": "das ist ja ganz normal.",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 466.93,
+   "ende": 467.69,
+   "text": "Aber Kamu,",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 467.79,
+   "ende": 470.47,
+   "text": "kriegst du auch nicht im Restaurant, das ist ja kein",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 470.47,
+   "ende": 472.61,
+   "text": "Restaurantessen, also es gibt ja,",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 472.71,
+   "ende": 474.41,
+   "text": "ich hab's noch nirgendwo, also egal, wo wir",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 474.41,
+   "ende": 475.45,
+   "text": "jetzt hinlegen. Noch in Chiang Mai,",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 476.25,
+   "ende": 478.43,
+   "text": "in Chiang Mai, wo wir waren, das war ein Restaurant, ja.",
+   "avg_logprob": -0.219,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 478.43,
+   "ende": 483.61,
+   "text": "Das war aber auch tatsächlich ein Kaukamu-Restaurant, also da gab es auch nichts anderes außer Kaukamu.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 483.95,
+   "ende": 491.99,
+   "text": "Ja, weil das halt wirklich auch eine lange, also das kocht, die setzen das dann vorab an, das kocht stundenlang, da simmert das vor sich hin.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 491.99,
+   "ende": 503.29,
+   "text": "Ja, ich mache mal weiter mit einem Getränk und zwar mein Lieblingsgetränk, wobei man es leider nicht so oft trinken kann, nämlich Cha Manao.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 503.95,
+   "ende": 507.77,
+   "text": "Cha steht für Tee und Manao steht für Lemon oder Zitrone.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 508.43,
+   "ende": 512.99,
+   "text": "Und der ein oder andere kennt vielleicht den Klassiker Thai Tea.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 513.15,
+   "ende": 517.33,
+   "text": "Das ist eben thailändischer Schwarz, so eine Schwarzteemischung mit Milch.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 517.33,
+   "ende": 523.73,
+   "text": "Das wird hier in erster Linie natürlich kalt auf Eis, also als Eistee serviert, auch wenn es mit Milch ist.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 524.41,
+   "ende": 532.73,
+   "text": "Und davon gibt es eben, also von dem gleichen Tee, das ist so eine, also die Original Marke ist so eine rot-weiße Marke.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 533.17,
+   "ende": 538.13,
+   "text": "Das nennt sich Chatra Mue oder Chatra Mue. Wir wissen noch nicht so richtig, wie man es ausspricht.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 538.43,
+   "ende": 551.41,
+   "text": "Und das ist eben nicht reiner schwarzer Tee wie jetzt Assam oder Darjeeling oder so, sondern das ist so eine Mischung, das riecht auch anders und der ist auch nicht so dunkelbraun, wie man das so kennt von einem Schwarztee, sondern eher so ein bisschen orange-rötlich.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 552.19,
+   "ende": 564.19,
+   "text": "Und dieser Tee wird quasi in so einer Teesocke aufgegossen mit heißem Wasser, dann kommt da etwas Zitronensaft rein und etwas Zucker oder etwas mehr Zucker.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 564.19,
+   "ende": 574.05,
+   "text": "Das ist ja immer so eine Sache, wenn man nicht aufpasst, machen die immer sehr viel Zucker, auch übrigens in die Fruchtshakes, auch wenn man immer denkt, die sind so super gesund, aber da ist auch viel Zucker oder Zuckersirup drin.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 574.87,
+   "ende": 583.73,
+   "text": "Und dann wird das Ganze sozusagen im heißen Zustand vermischt und wird dann auf so einen riesigen Shakebecher mit Eiswürfeln drüber gegossen.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 583.89,
+   "ende": 592.19,
+   "text": "Also der heiße Tee dann sozusagen wird durchs Reingießen auf die Eiswürfel abgekühlt und das ist ein guter Kaffeeersatz.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 592.19,
+   "ende": 594.03,
+   "text": "Kaffeeersatz. Also wir müssen auch aufpassen,",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.07,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 594.15,
+   "ende": 596.17,
+   "text": "dass wir das nicht nach 16 Uhr oder so",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.07,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 596.17,
+   "ende": 598.25,
+   "text": "trinken, weil das schon...",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.07,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 598.25,
+   "ende": 599.83,
+   "text": "Also Hagen ist wirklich abgehärtet.",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.07,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 599.87,
+   "ende": 601.57,
+   "text": "Der trinkt ja auch hier Red Bull",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.07,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 601.57,
+   "ende": 603.99,
+   "text": "dosenweise, wenn er da Lust zaubert.",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.07,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 604.01,
+   "ende": 604.65,
+   "text": "Na, na, na.",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.07,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 605.53,
+   "ende": 607.67,
+   "text": "Naja, also dich schockt das jetzt zumindest nicht,",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.07,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 607.75,
+   "ende": 609.45,
+   "text": "wenn du viel Red Bull trinkst oder",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.07,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 609.45,
+   "ende": 611.65,
+   "text": "Red Bull-ähnliche Getränke. Aber auch nicht",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.07,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 611.65,
+   "ende": 613.71,
+   "text": "am Nachmittag. Also",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.07,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 613.71,
+   "ende": 615.69,
+   "text": "da müssen wir schon aufpassen,",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.07,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 615.69,
+   "ende": 617.71,
+   "text": "dass wir nicht zu spät die Sachen trinken.",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.07,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 617.95,
+   "ende": 620.45,
+   "text": "Aber was würdest du denn",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.07,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 620.45,
+   "ende": 621.55,
+   "text": "jetzt als Red Bull-Trinker",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.07,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 621.55,
+   "ende": 623.81,
+   "text": "sagen, Charmanau oder Red Bull knallt mehr?",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.261,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 625.85,
+   "ende": 627.79,
+   "text": "Also von dem Zeug, was es",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.261,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 627.79,
+   "ende": 630.23,
+   "text": "hier gibt, von dem Zeug, was es hier gibt",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.261,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 630.23,
+   "ende": 632.11,
+   "text": "im 7-Eleven,",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.261,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 632.19,
+   "ende": 633.59,
+   "text": "die Kleinte ist jetzt schon kräftiger.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.261,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 634.77,
+   "ende": 635.51,
+   "text": "Ja? Okay.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.261,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 635.97,
+   "ende": 637.55,
+   "text": "Aber in Charmanau ist es auf alle Fälle",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.261,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 637.55,
+   "ende": 639.81,
+   "text": "so wie ein Kaffee. Und dann auch",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.261,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 639.81,
+   "ende": 641.53,
+   "text": "dadurch, dass da halt Zucker drin ist, wie gesagt,",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.261,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 641.63,
+   "ende": 643.69,
+   "text": "mal mehr, mal weniger, lässt einem das",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.261,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 643.69,
+   "ende": 646.17,
+   "text": "schon gerade stehen, auf alle Fälle. Das ist wie ein Kaffee.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.261,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 646.55,
+   "ende": 647.69,
+   "text": "Und gibt auf alle Fälle so",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.261,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 647.69,
+   "ende": 649.37,
+   "text": "gerade nach dem Mittag irgendwie oder so,",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.261,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 650.05,
+   "ende": 651.21,
+   "text": "bringt einem das schon nach vorne.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.261,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 651.55,
+   "ende": 674.33,
+   "text": "Ja, und das ist auf jeden Fall super lecker. Und das gibt es oft an so kleinen Ständen. Also wenn man durch Thailand fährt, sieht man manchmal so ganz, ganz kleine Ministände aus Wellblech oder teilweise auch aus Holz. Da stehen dann oft viele bunte Flaschen oder viele bunte Plastikbehälter mit bunten Pulvern drin.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 674.33,
+   "ende": 676.79,
+   "text": "und da bekommt man ganz viele",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 676.79,
+   "ende": 678.55,
+   "text": "verschiedene Getränke, eben auch",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 678.55,
+   "ende": 680.63,
+   "text": "ein Eiskaffee oder ein Charmanau oder",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 680.63,
+   "ende": 682.75,
+   "text": "verschiedene Sodasorten, also",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 682.75,
+   "ende": 684.51,
+   "text": "heißt Mineralwasser mit irgendwelchen",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 684.51,
+   "ende": 686.89,
+   "text": "Siruparten drin und",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 686.89,
+   "ende": 688.69,
+   "text": "da schmeckt auch",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 688.69,
+   "ende": 690.67,
+   "text": "eigentlich, also ich habe glaube ich noch nie in einem",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 690.67,
+   "ende": 692.89,
+   "text": "Restaurant Charmanau getrunken, ich überlege gerade.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 694.19,
+   "ende": 695.07,
+   "text": "Ja, auf jeden Fall",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 695.07,
+   "ende": 696.89,
+   "text": "ist es in dem Fall auch wirklich gut,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 696.95,
+   "ende": 698.63,
+   "text": "wenn ihr sagt Charmanau und nicht",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 698.63,
+   "ende": 700.79,
+   "text": "einfach Eistee, weil",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 700.79,
+   "ende": 702.67,
+   "text": "bei Eistee bekommt ihr im Zweifel",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 702.67,
+   "ende": 704.89,
+   "text": "wirklich dann so einen fertigen Lipton",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 704.89,
+   "ende": 705.55,
+   "text": "oder sowas.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 706.49,
+   "ende": 708.73,
+   "text": "Oder bekommt im Zweifel, wenn sie es nicht genau wissen,",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 708.83,
+   "ende": 710.87,
+   "text": "halt den Thai-Tee mit Milch. Also wer das mag,",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 710.93,
+   "ende": 712.21,
+   "text": "kann das natürlich auch trinken, aber",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 712.21,
+   "ende": 714.77,
+   "text": "wir kennen auch viele, die quasi diesen",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 714.77,
+   "ende": 716.37,
+   "text": "Thai-Tee mit Milch kennen,",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 716.61,
+   "ende": 718.73,
+   "text": "aber den Charmanau noch nicht kannten und auch",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 718.73,
+   "ende": 720.01,
+   "text": "immer alle sehr begeistert sind.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 720.47,
+   "ende": 721.85,
+   "text": "Und die Kosten so zwischen,",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 722.59,
+   "ende": 724.59,
+   "text": "ich sag mal, wenn man wirklich einen günstigen bekommt,",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 724.83,
+   "ende": 726.39,
+   "text": "bezahlt man 25 Baht",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 726.39,
+   "ende": 728.61,
+   "text": "für einen und im Durchschnitt",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 728.61,
+   "ende": 730.57,
+   "text": "würde ich eher so 30, 35 sagen.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 730.99,
+   "ende": 732.57,
+   "text": "Wir waren aber letztens hier auch an",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 732.57,
+   "ende": 734.31,
+   "text": "so einer Touri-Ecke",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 734.31,
+   "ende": 736.35,
+   "text": "und da sollte der dann 80 kosten.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 737.23,
+   "ende": 737.33,
+   "text": "Also",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 737.33,
+   "ende": 740.39,
+   "text": "80 Baht für einen Charmanau ist",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 740.39,
+   "ende": 742.31,
+   "text": "auf jeden Fall viel zu viel.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 742.43,
+   "ende": 744.57,
+   "text": "Das könnt ihr euch schon sozusagen merken.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 745.61,
+   "ende": 746.37,
+   "text": "Also das Teuerste,",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 746.47,
+   "ende": 748.11,
+   "text": "was wir, glaube ich, jetzt mal so an einem",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 748.11,
+   "ende": 750.03,
+   "text": "Straßenstand dafür bezahlt haben, weil es halt ein",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 750.03,
+   "ende": 752.41,
+   "text": "Touri-Ort war, waren",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 752.41,
+   "ende": 753.91,
+   "text": "50 Baht für ein",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 753.91,
+   "ende": 756.21,
+   "text": "Getränk. Ja, das tut aber schon",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 756.21,
+   "ende": 756.57,
+   "text": "weh dann.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 758.73,
+   "ende": 760.07,
+   "text": "Und es ist halt erfrischend.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 760.29,
+   "ende": 761.99,
+   "text": "Das ist jetzt nicht so wie ein Kaffee oder so, wenn man",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 761.99,
+   "ende": 763.41,
+   "text": "irgendwo einen Kaffee trinkt, das wäre jetzt nichts.",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 763.93,
+   "ende": 765.87,
+   "text": "Ich finde einen Chardonnay, weil der eben komplett",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 765.87,
+   "ende": 767.75,
+   "text": "auf Eis ist, also dieses quasi,",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 767.85,
+   "ende": 769.73,
+   "text": "das wird dann durch das Eis durchlaufen lassen,",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 769.85,
+   "ende": 771.81,
+   "text": "sozusagen. Das ist, man lässt den noch",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 771.81,
+   "ende": 773.79,
+   "text": "stehen eine Weile, damit das Eis halt auch noch",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 773.79,
+   "ende": 775.51,
+   "text": "irgendwie reinschmilzt und dann ist das richtig",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 775.51,
+   "ende": 777.55,
+   "text": "ein richtiges Erfrischungsgetränk.",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 777.85,
+   "ende": 779.57,
+   "text": "Also es ist richtig ein Brustlöscher auch.",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 780.47,
+   "ende": 781.65,
+   "text": "Ja, das stimmt, ja.",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 782.65,
+   "ende": 783.59,
+   "text": "Ja, und dann",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 783.59,
+   "ende": 785.75,
+   "text": "kannst du ja nochmal weitermachen mit",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 785.75,
+   "ende": 788.39,
+   "text": "einem etwas aufwendigeren",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 788.39,
+   "ende": 789.91,
+   "text": "Gericht, wenn man es so sagen",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 789.91,
+   "ende": 791.91,
+   "text": "darf, wenn man überhaupt es als Gericht bezeichnen",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 791.91,
+   "ende": 794.13,
+   "text": "sollte, und zwar Mucata.",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 794.45,
+   "ende": 795.23,
+   "text": "Was ist denn Mucata?",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 795.25,
+   "ende": 797.85,
+   "text": "Mucata ist",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 797.85,
+   "ende": 799.67,
+   "text": "ein",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 799.67,
+   "ende": 801.61,
+   "text": "Thai-BBQ,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 802.21,
+   "ende": 803.55,
+   "text": "würde ich am ehesten sagen.",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 803.63,
+   "ende": 805.57,
+   "text": "Da gibt es spezielle Restaurants",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 805.57,
+   "ende": 807.21,
+   "text": "für, beziehungsweise machen",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 807.21,
+   "ende": 808.33,
+   "text": "Thais das auch",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 808.33,
+   "ende": 810.11,
+   "text": "zu Hause",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 810.11,
+   "ende": 813.43,
+   "text": "oder auch irgendwo draußen.",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 813.61,
+   "ende": 814.69,
+   "text": "Da gibt es so eine Art",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 814.69,
+   "ende": 817.53,
+   "text": "Steinschale,",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 817.53,
+   "ende": 819.15,
+   "text": "ein großer Blumentopf, da wird",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 819.15,
+   "ende": 821.81,
+   "text": "heiße Kohlen reingemacht und kommt oben drauf",
+   "avg_logprob": -0.227,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 821.81,
+   "ende": 823.97,
+   "text": "die heißen Kohlen, so ein Aufsatz,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 824.65,
+   "ende": 825.95,
+   "text": "der in der Mitte wie so",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 825.95,
+   "ende": 827.85,
+   "text": "eine konvexe",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 827.85,
+   "ende": 829.61,
+   "text": "Bratpfanne",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 829.61,
+   "ende": 831.59,
+   "text": "aussieht und an der Seite ist",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 831.59,
+   "ende": 833.71,
+   "text": "quasi eine Rinne,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 834.37,
+   "ende": 835.83,
+   "text": "wo sich dann so Soße",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 835.83,
+   "ende": 837.57,
+   "text": "und Sud drin sammelt. Das wird auch",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 837.57,
+   "ende": 839.83,
+   "text": "aufgefüllt mit Brühe, da kann man",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 839.83,
+   "ende": 841.79,
+   "text": "dann was drin kochen und oben auf",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 841.79,
+   "ende": 843.83,
+   "text": "dieser konvexen Bratpfanne, da kann man",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 843.83,
+   "ende": 846.05,
+   "text": "dann verschiedenste",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 846.05,
+   "ende": 846.59,
+   "text": "Zutaten",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 846.59,
+   "ende": 849.73,
+   "text": "braten, die man dann in so eine",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 849.73,
+   "ende": 851.33,
+   "text": "Art Buffet",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 851.33,
+   "ende": 853.91,
+   "text": "sich wegholen kann. Also da gibt es dann",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 853.91,
+   "ende": 856.03,
+   "text": "verschiedenste Salate und",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 856.03,
+   "ende": 857.71,
+   "text": "Nudeln und Pilze",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 857.71,
+   "ende": 860.39,
+   "text": "und allerhand Fleischsorten,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 860.45,
+   "ende": 862.07,
+   "text": "Hühnchen, Schwein,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 862.53,
+   "ende": 864.03,
+   "text": "allerhand Meerestiere",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 864.03,
+   "ende": 865.77,
+   "text": "und Muscheln und",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 865.77,
+   "ende": 867.19,
+   "text": "je nach",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 867.19,
+   "ende": 870.07,
+   "text": "Restaurant, je nach Thai-BBQ",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 870.07,
+   "ende": 872.01,
+   "text": "ist es auch immer ein bisschen unterschiedlich, was es",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 872.01,
+   "ende": 873.73,
+   "text": "gibt. Und ja, so der",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 873.73,
+   "ende": 875.85,
+   "text": "geneigte Thailänder, die sitzen dann irgendwie",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 875.85,
+   "ende": 877.67,
+   "text": "zwei, drei Stunden mit der ganzen Familie",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 877.67,
+   "ende": 880.01,
+   "text": "und hungern dann wahrscheinlich",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 880.01,
+   "ende": 881.93,
+   "text": "ich den ganzen Tag vor und stoffe",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 881.93,
+   "ende": 884.01,
+   "text": "sich dann da abends irgendwie zwei, drei Stunden lang",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 884.01,
+   "ende": 885.93,
+   "text": "mit allen möglichen",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 885.93,
+   "ende": 887.81,
+   "text": "selbst gegrillten und selbst",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 887.81,
+   "ende": 889.75,
+   "text": "zubereiteten Sachen voll und wir",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 889.75,
+   "ende": 891.63,
+   "text": "mögen das auch gerne.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 892.63,
+   "ende": 893.93,
+   "text": "Allerdings ist das nichts für, wenn",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 893.93,
+   "ende": 896.03,
+   "text": "man jetzt super großen Hunger hat, weil man wirklich",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 896.03,
+   "ende": 897.93,
+   "text": "das dauert eine Weile,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 898.05,
+   "ende": 900.11,
+   "text": "bis man dann so die Sachen alle zubereitet",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 900.11,
+   "ende": 901.71,
+   "text": "hat. Du bist dann immer der Grillmeister",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 901.71,
+   "ende": 903.39,
+   "text": "beziehungsweise Heinrich",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 903.39,
+   "ende": 905.89,
+   "text": "und man sitzt dann da wirklich wie auf heißem",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 905.89,
+   "ende": 907.73,
+   "text": "Kohl und hat richtig Hunger und",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 907.73,
+   "ende": 908.87,
+   "text": "es ist aber",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 908.87,
+   "ende": 910.93,
+   "text": "aber es dauert so eine Weile,",
+   "avg_logprob": -0.222,
+   "no_speech_prob": 0.058,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 911.03,
+   "ende": 911.95,
+   "text": "bis man dann da auch...",
+   "avg_logprob": -0.222,
+   "no_speech_prob": 0.058,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 911.95,
+   "ende": 913.53,
+   "text": "Wie bei Raclette, ne?",
+   "avg_logprob": -0.222,
+   "no_speech_prob": 0.058,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 913.79,
+   "ende": 916.85,
+   "text": "Ja, genau. Sozusagen die thailändische",
+   "avg_logprob": -0.222,
+   "no_speech_prob": 0.058,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 916.85,
+   "ende": 918.55,
+   "text": "Variante von Raclette,",
+   "avg_logprob": -0.222,
+   "no_speech_prob": 0.058,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 920.01,
+   "ende": 920.83,
+   "text": "wo das hier halt",
+   "avg_logprob": -0.222,
+   "no_speech_prob": 0.058,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 920.83,
+   "ende": 922.99,
+   "text": "wirklich auch richtig gefeiert",
+   "avg_logprob": -0.222,
+   "no_speech_prob": 0.058,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 922.99,
+   "ende": 924.63,
+   "text": "wird. Ich weiß da in Chaueng",
+   "avg_logprob": -0.222,
+   "no_speech_prob": 0.058,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 924.63,
+   "ende": 926.39,
+   "text": "dieses große Ding, ich weiß gar nicht, wie das heißt,",
+   "avg_logprob": -0.222,
+   "no_speech_prob": 0.058,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 926.55,
+   "ende": 928.67,
+   "text": "ich weiß nicht, wie viele",
+   "avg_logprob": -0.222,
+   "no_speech_prob": 0.058,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 928.67,
+   "ende": 930.87,
+   "text": "Plätze das hat, wie viele Tische da sind,",
+   "avg_logprob": -0.222,
+   "no_speech_prob": 0.058,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 930.97,
+   "ende": 932.03,
+   "text": "dagegen bestimmt,",
+   "avg_logprob": -0.222,
+   "no_speech_prob": 0.058,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 932.77,
+   "ende": 934.89,
+   "text": "wenn das richtig voll ist, und das ist ja eigentlich jeden Abend",
+   "avg_logprob": -0.222,
+   "no_speech_prob": 0.058,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 934.89,
+   "ende": 936.81,
+   "text": "richtig voll, sind da 200 Leute drin,",
+   "avg_logprob": -0.222,
+   "no_speech_prob": 0.058,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 936.81,
+   "ende": 952.99,
+   "text": "Das ist eine einzige Dampfschwarte drumherum, wenn man da drin sitzt, man versteht sein eigenes Wort nicht, weil das so laut ist und so voll und ja, die Angelegenheit kostet so für einen Erwachsenen, glaube ich, was sind so 400 Baht, ne?",
+   "avg_logprob": -0.215,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 952.99,
+   "ende": 956.01,
+   "text": "bei uns sind",
+   "avg_logprob": -0.28,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 956.01,
+   "ende": 958.11,
+   "text": "Natong 350",
+   "avg_logprob": -0.28,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 958.11,
+   "ende": 962.43,
+   "text": "und die Kinder die Hälfte",
+   "avg_logprob": -0.28,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 962.43,
+   "ende": 962.91,
+   "text": "irgendwie",
+   "avg_logprob": -0.28,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 962.91,
+   "ende": 965.39,
+   "text": "knappe 1000 Watt",
+   "avg_logprob": -0.28,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 965.39,
+   "ende": 969.47,
+   "text": "in den großen",
+   "avg_logprob": -0.28,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 969.47,
+   "ende": 972.47,
+   "text": "vielleicht ist es inzwischen",
+   "avg_logprob": -0.28,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 972.47,
+   "ende": 973.97,
+   "text": "auch 400 oder etwas mehr",
+   "avg_logprob": -0.28,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 973.97,
+   "ende": 976.27,
+   "text": "aber hier bei uns",
+   "avg_logprob": -0.28,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 976.27,
+   "ende": 978.11,
+   "text": "in Natong, aber gut das ist auch",
+   "avg_logprob": -0.28,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 978.11,
+   "ende": 980.47,
+   "text": "da glaube ich ist es wirklich auch abhängig",
+   "avg_logprob": -0.28,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 980.47,
+   "ende": 982.25,
+   "text": "davon wo man ist und das ist auch",
+   "avg_logprob": -0.28,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 982.25,
+   "ende": 984.35,
+   "text": "Thailand weit, also ich habe das auch schon mal mit einer",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 984.35,
+   "ende": 986.73,
+   "text": "Freundin damals im Norden",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 986.73,
+   "ende": 988.21,
+   "text": "gegessen, also das",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 988.21,
+   "ende": 990.41,
+   "text": "Thai-BBQ oder",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 990.41,
+   "ende": 992.39,
+   "text": "in Chiang Mai, weiß ich, gab es auch super",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 992.39,
+   "ende": 994.47,
+   "text": "viele. Ich sage mal, das ist",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 994.47,
+   "ende": 996.37,
+   "text": "preislich bestimmt etwas unterschiedlich",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 996.37,
+   "ende": 998.53,
+   "text": "oder eine größere Range, aber ich würde mal schätzen",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 998.53,
+   "ende": 1000.37,
+   "text": "so zwischen 350 bis",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1000.37,
+   "ende": 1002.57,
+   "text": "maximal 450, 500",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1002.57,
+   "ende": 1004.43,
+   "text": "Baht pro Person und es",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1004.43,
+   "ende": 1005.95,
+   "text": "ist ja auch all you can eat dann.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1006.25,
+   "ende": 1007.55,
+   "text": "Und es gibt halt auch",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1007.55,
+   "ende": 1010.21,
+   "text": "Sweets, also man kann dann",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1010.21,
+   "ende": 1011.61,
+   "text": "irgendwelche",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1011.61,
+   "ende": 1014.03,
+   "text": "dicken Toastscheiben mit Sweetmilk",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1014.03,
+   "ende": 1015.45,
+   "text": "hier noch machen und irgendwelche",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1015.45,
+   "ende": 1018.35,
+   "text": "Bubble-Tea-ähnlichen Gelee-Eiscremes",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1018.35,
+   "ende": 1019.67,
+   "text": "als Nachtisch und",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1019.67,
+   "ende": 1022.23,
+   "text": "Getränke sind auch all-in. Da gibt es dann meistens",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1022.23,
+   "ende": 1023.49,
+   "text": "irgendwie Cola, Fanta",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1023.49,
+   "ende": 1026.07,
+   "text": "und weiß ich was, wobei man",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1026.07,
+   "ende": 1027.77,
+   "text": "das Zeug nicht trinken kann. Das muss man auf alle Fälle",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1027.77,
+   "ende": 1029.23,
+   "text": "50-50 mit Wasser verdünnen.",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1029.47,
+   "ende": 1032.07,
+   "text": "So diese Fanta-Generika",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1032.07,
+   "ende": 1034.29,
+   "text": "hier, das ist so süß, das Zeug.",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1034.53,
+   "ende": 1036.01,
+   "text": "Ja, und halt Wasser mit Eis",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1036.01,
+   "ende": 1037.91,
+   "text": "und das ist halt irgendwie alles mit drin.",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1038.13,
+   "ende": 1039.21,
+   "text": "Und da liegen dann auch immer...",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1039.21,
+   "ende": 1041.49,
+   "text": "ist halt hier faszinierend, weil es halt",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1041.49,
+   "ende": 1043.39,
+   "text": "nicht so, ne, in Deutschland irgendwie",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1043.39,
+   "ende": 1045.01,
+   "text": "an der Tiefkühltruhe kosten irgendwie",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1045.01,
+   "ende": 1047.59,
+   "text": "35 Gramm Gambas",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1047.59,
+   "ende": 1049.59,
+   "text": "48,90 Euro",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1049.59,
+   "ende": 1051.45,
+   "text": "und hier liegen die halt einfach in",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1051.45,
+   "ende": 1053.41,
+   "text": "rauen Mengen rum und du kannst dir die da ohne",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1053.41,
+   "ende": 1055.29,
+   "text": "Ende zurecht grillen oder die",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1055.29,
+   "ende": 1057.33,
+   "text": "muscheln dir dann da, also wer es mag,",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1057.47,
+   "ende": 1059.33,
+   "text": "es gibt halt reichhaltig",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1059.33,
+   "ende": 1061.01,
+   "text": "auch Seafood und",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1061.01,
+   "ende": 1062.93,
+   "text": "alles mit im Kühl.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1063.87,
+   "ende": 1065.29,
+   "text": "Und weil du gerade die Gambas hast, also",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1065.29,
+   "ende": 1067.13,
+   "text": "wir nehmen halt immer nur diesen, was",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1067.13,
+   "ende": 1069.15,
+   "text": "Hagen beschrieben hat, diesen, wo man an der Seite",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1069.15,
+   "ende": 1071.13,
+   "text": "sozusagen im Ring die",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1071.13,
+   "ende": 1073.15,
+   "text": "Suppe kocht, also da kommen dann halt die Nudeln",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1073.15,
+   "ende": 1075.07,
+   "text": "und das Gemüse und die",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1075.07,
+   "ende": 1077.29,
+   "text": "Muscheln und so rein, die dann in so einem Sup gekocht werden",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1077.29,
+   "ende": 1079.05,
+   "text": "und obendrauf wird das Fleisch",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1079.05,
+   "ende": 1081.21,
+   "text": "gegrillt, aber die meisten Teils",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1081.21,
+   "ende": 1082.77,
+   "text": "nehmen dazu noch einen richtigen Grill,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1083.05,
+   "ende": 1085.07,
+   "text": "also wirklich wie so ein, auch noch mal",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1085.07,
+   "ende": 1087.01,
+   "text": "so eine Steinschale mit Kohle drin, wo",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1087.01,
+   "ende": 1089.17,
+   "text": "dann einfach so ein Grillrost oben drauf",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1089.17,
+   "ende": 1091.15,
+   "text": "liegt und da braten",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1091.15,
+   "ende": 1093.09,
+   "text": "die sich dann zum Beispiel oder grillen sich ihre",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1093.09,
+   "ende": 1095.09,
+   "text": "Gambas drauf. Wir machen",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1095.09,
+   "ende": 1097.09,
+   "text": "das nicht, aber oft ist es",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1097.09,
+   "ende": 1098.93,
+   "text": "auch so, dass wenn man den Grill nicht dazu nimmt,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1098.93,
+   "ende": 1112.43,
+   "text": "Das kostet übrigens das Gleiche, also es kostet jetzt nicht mehr oder weniger, ob man da die zwei verschiedenen Grillvarianten nutzt und wenn man das aber nicht nimmt, den Grill bringen die einem meistens auch gegrillte Garnelen einfach schon so von sich aus an den Tisch.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1112.43,
+   "ende": 1132.39,
+   "text": "Also da ist, man hat wirklich, und man hat auch ein paar fertige Sachen dabei, also Pommes, Nuggets, Salate, das heißt, man kann sich zwischendurch auch schon immer ein bisschen damit sättigen. In manchen gibt es sogar kleine Pizzastücken und so. Also Thai-BBQ, darunter werdet ihr fündig, oder Mookata.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 1132.99,
+   "ende": 1134.47,
+   "text": "Wie würde man sagen?",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1134.57,
+   "ende": 1137.01,
+   "text": "Event-Cooking oder was ist das dann?",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1137.97,
+   "ende": 1138.37,
+   "text": "Erlebnisküche.",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1139.03,
+   "ende": 1139.69,
+   "text": "Erlebnisküche, genau.",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1139.99,
+   "ende": 1140.93,
+   "text": "Es ist wirklich ein Erlebnis.",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1141.13,
+   "ende": 1144.09,
+   "text": "Es ist nicht nur Essen gehen, damit man satt wird.",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1144.17,
+   "ende": 1145.25,
+   "text": "Das ist wirklich ein Happening.",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1145.53,
+   "ende": 1147.75,
+   "text": "Und man kann das wirklich über Stunden zelebrieren,",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1147.83,
+   "ende": 1148.63,
+   "text": "wenn man da Lust hat.",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1148.75,
+   "ende": 1150.05,
+   "text": "Das ist schon eine coole Sache auf alle Fälle.",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1150.17,
+   "ende": 1151.85,
+   "text": "Gibt es so in Deutschland auf alle Fälle nicht.",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1152.99,
+   "ende": 1155.03,
+   "text": "Und man muss danach aber auf jeden Fall einplanen,",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1155.07,
+   "ende": 1157.85,
+   "text": "dass man sich duscht und Haare wäscht.",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1157.97,
+   "ende": 1159.17,
+   "text": "Vor allen Dingen, wenn man lange Haare hat.",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1159.45,
+   "ende": 1161.69,
+   "text": "Also man stinkt so erbärmlich, wenn man da rauskommt.",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1161.69,
+   "ende": 1169.97,
+   "text": "Obwohl das frei, also es ist nicht geschlossen, es sind ja offene Restaurants, aber trotzdem, es riecht natürlich wahnsinnig doll.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1171.03,
+   "ende": 1179.01,
+   "text": "Ja, so, was machen wir? Ich nehme mal hier Khao Soi, weil das magst du ja gar nicht, deshalb kannst du da auch gar nicht so viel zu sagen.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1179.77,
+   "ende": 1188.33,
+   "text": "Ich mag es tatsächlich leider jetzt auch nicht mehr, ich habe es mir versaut durchs Kranksein, denn den Abend, bevor wir jetzt über Weihnachten und Neujahr so doll krank waren,",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1188.33,
+   "ende": 1193.03,
+   "text": "war mein letztes Gericht Khao Soi und seitdem kann ich es leider nicht mehr essen.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1193.17,
+   "ende": 1198.47,
+   "text": "Aber das ist tatsächlich eher eine nördliche, so eine Spezialität aus Nordthailand.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1199.15,
+   "ende": 1205.95,
+   "text": "Und hier auf Koh Samui gibt es aktuell genau drei Plätze, wo ich weiß, dass man das kaufen kann.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1205.95,
+   "ende": 1211.25,
+   "text": "Also das ist sehr schwierig zu kriegen. Und Khao Soi ist so eine Art Suppe.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1211.25,
+   "ende": 1235.11,
+   "text": "Also die Soße ist relativ flüssig und ist schon so ein bisschen Kokosnussmilch-Curry-lastig und da drin sind dann so gelbe Eiernudeln und dann kann man das auch mit verschiedenen Beilagen, entweder mit Garnelen oder eben auch mit einer Hähnchen, also klassisch wird so eine Hähnchenkeule mit da reingelegt.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1235.11,
+   "ende": 1240.49,
+   "text": "Und manche bieten das aber auch mit Tofu an oder eben Garnelen oder Rindfleisch.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1240.49,
+   "ende": 1256.41,
+   "text": "Und dann liegt obendrauf immer, sind geschnittene Zwiebeln, geschnittener eingelegter Kohl, so ein Strauch Thai-Basilikum und so eine frittierten Nudeln nochmal obendrauf und eine halbe Limette.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1256.41,
+   "ende": 1261.37,
+   "text": "und dann drückt man die sich quasi so über diesem Ganzen aus",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1261.37,
+   "ende": 1267.39,
+   "text": "und isst dann diese Suppe, die aber wirklich relativ fest ist,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1267.45,
+   "ende": 1269.33,
+   "text": "weil eben diese dicken Nudeln da drin sind.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1270.09,
+   "ende": 1273.23,
+   "text": "Und das ist wirklich auch unglaublich lecker.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1273.41,
+   "ende": 1275.39,
+   "text": "Also ich kann das auch nicht vergleichen.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1275.51,
+   "ende": 1277.99,
+   "text": "Ich kann jetzt auch nicht sagen, es schmeckt so ein bisschen wie grünes Curry",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1277.99,
+   "ende": 1279.67,
+   "text": "oder es schmeckt so ein bisschen wie rotes Curry.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1279.67,
+   "ende": 1283.59,
+   "text": "Also wenn, würde ich vielleicht eher sagen, so in die Richtung Massaman Curry.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1283.59,
+   "ende": 1286.53,
+   "text": "Es ist auch in der Regel etwas scharf.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1287.47,
+   "ende": 1292.57,
+   "text": "Wir haben das jetzt schon ein paar Mal, weil die Kinder das auch mochten, auch nicht scharf bestellt.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1292.71,
+   "ende": 1298.05,
+   "text": "Wobei es manche Gerichte gibt, auch wenn man sagt nicht scharf, sie sind trotzdem immer ein bisschen scharf,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1298.17,
+   "ende": 1302.43,
+   "text": "weil es einfach die Grundzutat dieser Paste hergibt.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1303.61,
+   "ende": 1310.71,
+   "text": "Und das heißt, wenn ihr, ich sag mal, Bangkok und alles nördlich von Bangkok irgendwo das mal liest mit Khao Soi,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1310.71,
+   "ende": 1340.13,
+   "text": "dann solltet ihr es auf alle Fälle mal probieren. Wie gesagt, im Süden von Thailand ist das nicht so verbreitet und das kostet auch an Straßenstätten oder auch auf dem Markt meistens etwas mehr als die anderen Gerichte, aber damit meine ich jetzt, ein Gericht kostet vielleicht 60, 70 Baht und dann kostet das Khao Soi meinetwegen 80 Baht und in einem Restaurant, es gibt hier in Nha Ton ein Khao Soi Restaurant, da gibt es also nur Khao Soi und nichts anderes, da kostet es 150 Baht.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1340.13,
+   "ende": 1345.85,
+   "text": "Also das ist so die Range, die ihr euch auch abspeichern könnt.",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1345.97,
+   "ende": 1350.33,
+   "text": "Wenn einer irgendwie 300 Baht für ein Kaussol will, dann ist es auf jeden Fall viel zu teuer.",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1352.37,
+   "ende": 1358.27,
+   "text": "Und ja, du machst mal weiter mit, ich habe schon wieder den Namen vergessen, Rotti Sai Mai.",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1358.67,
+   "ende": 1363.99,
+   "text": "Oh, Rotti Sai Mai. Ja, da haben wir eine Weile geredet, wie das überhaupt heißt.",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1364.33,
+   "ende": 1368.21,
+   "text": "Das haben wir irgendwie zufällig auch auf dem Markt. Gibt es das? Das ist eine Süßigkeit.",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1368.21,
+   "ende": 1375.63,
+   "text": "Da gibt es so große Klarsichtbeutel mit so bunten Fäden drin.",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 1375.75,
+   "ende": 1383.45,
+   "text": "So sieht das aus und man kommt nicht sofort drauf, dass das Zuckerwatte ist.",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 1385.29,
+   "ende": 1390.17,
+   "text": "Also es hat die Konsistenz auch von Zuckerwatte und es schmeckt auch irgendwie ein bisschen so.",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 1390.17,
+   "ende": 1392.45,
+   "text": "und es wird dann quasi",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1392.45,
+   "ende": 1393.95,
+   "text": "zu jedem Beutel",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1393.95,
+   "ende": 1395.63,
+   "text": "noch so eine",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1395.63,
+   "ende": 1398.11,
+   "text": "kleine runde,",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1398.25,
+   "ende": 1400.87,
+   "text": "10-15 cm im Durchmesser",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1400.87,
+   "ende": 1402.69,
+   "text": "so eine, ist das Teig auch?",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1402.97,
+   "ende": 1404.39,
+   "text": "Oder so eine Art Zuckerteig?",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1405.21,
+   "ende": 1406.67,
+   "text": "Ja, Krepp-ähnliche",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1406.67,
+   "ende": 1408.43,
+   "text": "Scheiben, dann irgendwie 10-15",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1408.43,
+   "ende": 1410.53,
+   "text": "so eine Scheibe noch dazu und dann",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1410.53,
+   "ende": 1411.97,
+   "text": "nimmt man quasi",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1411.97,
+   "ende": 1414.83,
+   "text": "ein bisschen von der Zuckerwatte sich aus dem Beutel",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1414.83,
+   "ende": 1417.15,
+   "text": "und wickelt die sozusagen in diese",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1417.15,
+   "ende": 1418.79,
+   "text": "Krepp-Scheibe ein",
+   "avg_logprob": -0.243,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1418.79,
+   "ende": 1422.39,
+   "text": "Das ist eine furchtbar süße Angelegenheit",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1422.39,
+   "ende": 1424.53,
+   "text": "Also es ist wirklich eine richtige Zuckerbombe",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1424.53,
+   "ende": 1426.15,
+   "text": "Das ist der reine Zucker",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1426.15,
+   "ende": 1429.29,
+   "text": "Ist aber ganz nice eigentlich",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1429.29,
+   "ende": 1431.65,
+   "text": "Also ein bisschen was davon esse ich auch immer",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1431.65,
+   "ende": 1433.23,
+   "text": "Genau, Rotti",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1433.23,
+   "ende": 1434.63,
+   "text": "Rotti Sai Mai",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1434.63,
+   "ende": 1436.39,
+   "text": "Rotti wegen",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1436.39,
+   "ende": 1438.31,
+   "text": "Ja, Rotti, weil es wahrscheinlich",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1438.31,
+   "ende": 1439.95,
+   "text": "Ja, irgendwie",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1439.95,
+   "ende": 1441.47,
+   "text": "Gegen diesen Crepe-Ding",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1441.47,
+   "ende": 1442.93,
+   "text": "Ja, genau",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1442.93,
+   "ende": 1445.03,
+   "text": "Irgendwas eingewickelt ist",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1445.03,
+   "ende": 1448.29,
+   "text": "Und grün ist es immer, ne?",
+   "avg_logprob": -0.214,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1448.79,
+   "ende": 1449.97,
+   "text": "Ist das nicht rot auch manchmal?",
+   "avg_logprob": -0.201,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1450.81,
+   "ende": 1452.31,
+   "text": "Ach so, dieser Rottiteig, ja.",
+   "avg_logprob": -0.201,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1452.83,
+   "ende": 1458.47,
+   "text": "Der ist immer grün, aber die Haare, die Zuckerhaare haben mehrere Farben.",
+   "avg_logprob": -0.201,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1459.03,
+   "ende": 1464.09,
+   "text": "Aber tatsächlich, wenn ich das jetzt mit einer richtigen German Zuckerwatte vergleiche,",
+   "avg_logprob": -0.201,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1464.09,
+   "ende": 1469.19,
+   "text": "ist es doch schon ein bisschen anders auch vom Geschmack her und von der Konsistenz her.",
+   "avg_logprob": -0.201,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1469.37,
+   "ende": 1472.21,
+   "text": "Also ich weiß gar nicht, wie die das machen.",
+   "avg_logprob": -0.201,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1472.99,
+   "ende": 1477.33,
+   "text": "Also ich würde sagen, ich glaube, es ist Zuckerwatte.",
+   "avg_logprob": -0.201,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1477.33,
+   "ende": 1486.79,
+   "text": "Ich habe mir das, das ist übrigens auch eher eine nördliche Spezialität, weil hier auf Samui kriegt man das tatsächlich nur auf einem Nachtmarkt hier bei uns.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1486.89,
+   "ende": 1492.35,
+   "text": "Zumindest haben wir es noch nirgendwo anders gesehen, weil es mehr auch so aus Chiang Mai der Region kommt.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1492.73,
+   "ende": 1500.81,
+   "text": "Und da habe ich mir das mal erklären lassen, dass das wirklich Zuckerwatte ist, aber nicht so fein gesponnen oder ich weiß nicht, wie man das sagt.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1500.93,
+   "ende": 1503.13,
+   "text": "Also es ist quasi gröber gelassen.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1503.89,
+   "ende": 1505.91,
+   "text": "Deswegen sieht das so haarig aus, weißt du?",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1505.91,
+   "ende": 1514.63,
+   "text": "Ich glaube, German Zuckerwatte, die wird richtig, das wird heiß gemacht und dann wird es irgendwie rausgeblasen, rausgepustet aus irgendeinem Automat.",
+   "avg_logprob": -0.165,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1515.45,
+   "ende": 1522.91,
+   "text": "Und dann wird das ja gewickelt. Das ist schon ein bisschen nicht so fein, ein bisschen fester, ein bisschen mehr Masse.",
+   "avg_logprob": -0.165,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1523.85,
+   "ende": 1528.31,
+   "text": "Also hier gibt es ja auch Zuckerwatte, richtige Normale, sage ich jetzt mal.",
+   "avg_logprob": -0.165,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1529.47,
+   "ende": 1530.57,
+   "text": "Automaten habe ich gesehen.",
+   "avg_logprob": -0.165,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1530.57,
+   "ende": 1536.55,
+   "text": "Ja, und in diesem Plaster, du kannst auch im Supercheap, kannst du so abgepackte Zuckerwatte auch kaufen.",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.045,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1537.61,
+   "ende": 1544.11,
+   "text": "Aber dieses ist ja wirklich, also Haare ist aus meiner Sicht wirklich das, was es trifft.",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.045,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1544.71,
+   "ende": 1551.57,
+   "text": "Und wenn man drauf beißt, knirscht es halt auch so ein bisschen, weil es einfach so gröber ist von der Konsistenz.",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.045,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1553.73,
+   "ende": 1554.75,
+   "text": "Was kostet Spaß?",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.045,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1555.65,
+   "ende": 1558.61,
+   "text": "Stimmt, was kostet es? Also wir bezahlen hier auf dem Markt.",
+   "avg_logprob": -0.184,
+   "no_speech_prob": 0.045,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1558.61,
+   "ende": 1560.57,
+   "text": "wie gesagt, bisher haben wir es ja sonst noch",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1560.57,
+   "ende": 1562.51,
+   "text": "nirgends auf Samui gesehen, für eine kleine",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1562.51,
+   "ende": 1564.75,
+   "text": "Packung 30 Baht",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1564.75,
+   "ende": 1566.55,
+   "text": "und da sind dann, wie du",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1566.55,
+   "ende": 1567.59,
+   "text": "sagst, so 10",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1567.59,
+   "ende": 1570.39,
+   "text": "Rottis drin, also 10",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1570.39,
+   "ende": 1572.23,
+   "text": "so eine Crepe-Dinge und",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1572.23,
+   "ende": 1574.37,
+   "text": "eine große Packung kostet 50 Baht.",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1575.15,
+   "ende": 1576.39,
+   "text": "Da sind dann wahrscheinlich 20",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1576.39,
+   "ende": 1578.51,
+   "text": "oder so drin. Ich habe es ehrlich gesagt",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1578.51,
+   "ende": 1580.43,
+   "text": "noch nie gezählt, aber ich sage mal so,",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1581.09,
+   "ende": 1582.81,
+   "text": "wenn man zu zweit ist, reicht auf jeden Fall",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1582.81,
+   "ende": 1584.81,
+   "text": "eine kleine Packung. Ja, zu viel",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1584.81,
+   "ende": 1585.81,
+   "text": "kann man davon auch nicht essen.",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1585.81,
+   "ende": 1601.87,
+   "text": "Ja, das geht nicht. Also für Kinder natürlich, die können das einatmen, aber ich war also nach zwei, drei so ein Rollen da, gerade man ist, wir nehmen das ja immer nach dem Essen dann noch, man hat ja eh schon sich mit allen möglichen Krempel vollgestopft dann und dann, also zwei, drei reichen auch.",
+   "avg_logprob": -0.192,
+   "no_speech_prob": 0.053,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1601.87,
+   "ende": 1606.37,
+   "text": "Also wir können euch da auch keinen anderen Begriff für nennen,",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.41,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1606.55,
+   "ende": 1610.63,
+   "text": "weil wir jetzt erstmal überhaupt Schwierigkeiten hatten, herauszufinden, wie das heißt,",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.41,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1610.69,
+   "ende": 1614.31,
+   "text": "weil es steht immer nur in Thai an dem Stand, also in Thai-Schrift.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.41,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1614.31,
+   "ende": 1618.03,
+   "text": "Ich habe jetzt herausgefunden, dass es auf Thai Roti Sai Mai heißt.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.41,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1619.01,
+   "ende": 1622.23,
+   "text": "Diese anderen Pancakes, die man hier kaufen kann, heißen auch Roti.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.41,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1622.77,
+   "ende": 1627.13,
+   "text": "Aber wir können jetzt keinen englischen oder deutschen Begriff dafür sagen,",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.41,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1627.33,
+   "ende": 1628.71,
+   "text": "aber es ist sehr auffällig.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.41,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1628.71,
+   "ende": 1630.49,
+   "text": "Wenn ihr das irgendwo seht,",
+   "avg_logprob": -0.285,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1631.53,
+   "ende": 1632.91,
+   "text": "werdet ihr sofort wissen,",
+   "avg_logprob": -0.285,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1633.15,
+   "ende": 1634.67,
+   "text": "dass das die bunten Haare sind.",
+   "avg_logprob": -0.285,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1635.09,
+   "ende": 1637.19,
+   "text": "Dann bestellt ihr das einfach",
+   "avg_logprob": -0.285,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1637.19,
+   "ende": 1638.97,
+   "text": "und zeigt mit dem Finger drauf",
+   "avg_logprob": -0.285,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1638.97,
+   "ende": 1641.57,
+   "text": "und dann kriegt ihr automatisch auch die grünen Fladen dazu.",
+   "avg_logprob": -0.285,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1641.97,
+   "ende": 1643.49,
+   "text": "I want to have the bunthair, please.",
+   "avg_logprob": -0.285,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1644.17,
+   "ende": 1644.47,
+   "text": "Yes.",
+   "avg_logprob": -0.285,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1645.03,
+   "ende": 1648.33,
+   "text": "The bunthair, das versteht der Thailänder dann auch.",
+   "avg_logprob": -0.285,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1649.35,
+   "ende": 1650.81,
+   "text": "The bunthair have I gesagt.",
+   "avg_logprob": -0.285,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1650.83,
+   "ende": 1652.05,
+   "text": "The bunthair, ja.",
+   "avg_logprob": -0.285,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1653.05,
+   "ende": 1655.29,
+   "text": "Die bunten Haare, Herr Thailänder.",
+   "avg_logprob": -0.285,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1657.03,
+   "ende": 1657.59,
+   "text": "Genau.",
+   "avg_logprob": -0.285,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1658.71,
+   "ende": 1667.41,
+   "text": "Ja, dann haben wir noch, ich glaube, die anderen beiden Gerichte, die wir aufgeschrieben hatten, waren jetzt auch so Sachen, die du gar nicht so magst, ne?",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1667.59,
+   "ende": 1669.97,
+   "text": "Also, das heißt, magst du die Suppe, hast du die schon mal probiert?",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1669.97,
+   "ende": 1682.45,
+   "text": "Ja, also ich esse hier noch super gerne, habe ich jetzt auch erst vor kurzem für mich entdeckt, eine Suppe mit, also da steht immer an der Karte Soup with Egg Tofu and Minced Pork.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1683.25,
+   "ende": 1690.15,
+   "text": "Also Egg-Tofu, warum auch immer die das Egg-Tofu nennen, weil es ist eigentlich sowas wie Eierstich, so schmeckt es.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1690.83,
+   "ende": 1700.21,
+   "text": "Und Minced Pork ist Hackfleisch, das heißt es ist so ein Sud, so eine Brühe mit Eierstich und kleinen Hackbällchen und ganz viel Chinakohl.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1700.21,
+   "ende": 1705.79,
+   "text": "Da ist kein Reis oder kein Nudeln dabei, je nachdem wo man das bestellt.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1705.79,
+   "ende": 1714.65,
+   "text": "Wir haben hier einen super Straßenstand, da machen die auch noch Blumenkohl und Brokkoli und Möhren und Pilze mit rein.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1715.45,
+   "ende": 1719.33,
+   "text": "Aber im Grunde ist das eine Gemüsesuppe, kann man so sagen, eine Gemüsesuppe mit Hackfleisch,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1719.99,
+   "ende": 1727.95,
+   "text": "die wirklich furchtbar lecker ist und die kostet auch an den Straßenständen 100 Baht.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1728.53,
+   "ende": 1730.75,
+   "text": "Also ist ein bisschen teurer als andere Gerichte.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1730.75,
+   "ende": 1733.61,
+   "text": "im Restaurant weiß ich gar nicht",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1733.61,
+   "ende": 1735.49,
+   "text": "keine Ahnung, aber ich sag mal so zwischen",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1735.49,
+   "ende": 1737.77,
+   "text": "100 und 150 Baht zahlt man",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1737.77,
+   "ende": 1739.69,
+   "text": "auf jeden Fall, also auch im Foodcore zahle ich",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1739.69,
+   "ende": 1741.55,
+   "text": "für die Suppe schon 100 Baht, obwohl das echt ein",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1741.55,
+   "ende": 1742.57,
+   "text": "kleiner Behälter ist",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1742.57,
+   "ende": 1745.83,
+   "text": "Schmeckt ein bisschen wie Hühnersuppe",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1745.83,
+   "ende": 1747.31,
+   "text": "so ein Topf, ne, irgendwie so",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1747.31,
+   "ende": 1749.63,
+   "text": "Ja, ein Topf",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1749.63,
+   "ende": 1752.65,
+   "text": "Ein Topf, ein Topf",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1752.65,
+   "ende": 1752.85,
+   "text": "Ja",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1752.85,
+   "ende": 1754.71,
+   "text": "Das ist auf jeden Fall",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1754.71,
+   "ende": 1757.05,
+   "text": "irgendwie auch, ich weiß nicht, vielleicht",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1757.05,
+   "ende": 1759.41,
+   "text": "jetzt wo ich das gerade so beschreibe, vielleicht macht es",
+   "avg_logprob": -0.174,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1759.41,
+   "ende": 1761.25,
+   "text": "gar keinen Sinn, das zu essen, wenn man aus Deutschland",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1761.25,
+   "ende": 1762.15,
+   "text": "kommt, weil",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1762.15,
+   "ende": 1765.27,
+   "text": "es doch gar nicht thailändisch",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1765.27,
+   "ende": 1766.91,
+   "text": "schmeckt. Es schmeckt wirklich eigentlich wie",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1766.91,
+   "ende": 1768.65,
+   "text": "ein Eintopf, den man auch aus Deutschland bekommt.",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1768.65,
+   "ende": 1770.95,
+   "text": "Ich habe das auch einmal probiert letztens, das fand ich auch",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1770.95,
+   "ende": 1771.41,
+   "text": "so wie",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1771.41,
+   "ende": 1774.99,
+   "text": "ein Eintopf von modernem Pützl, dass da irgendwie",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1774.99,
+   "ende": 1776.93,
+   "text": "Porree mit drin ist und so solche Sachen.",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1777.15,
+   "ende": 1777.77,
+   "text": "So schmeckt es irgendwie.",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1778.89,
+   "ende": 1781.05,
+   "text": "Ja gut, also vielleicht könnt ihr euch das doch klären,",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1781.27,
+   "ende": 1783.01,
+   "text": "wenn ihr jetzt nur",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1783.01,
+   "ende": 1784.93,
+   "text": "zwei, drei Wochen Urlaub macht und das deutsche Essen",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1784.93,
+   "ende": 1786.87,
+   "text": "dann ja zu Hause wieder habt. Aber",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1786.87,
+   "ende": 1788.81,
+   "text": "ja, ich esse das jetzt irgendwie gefühlt",
+   "avg_logprob": -0.179,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1788.81,
+   "ende": 1790.55,
+   "text": "jedes Mal, wenn ich das auf der Karte sehe.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1791.43,
+   "ende": 1796.19,
+   "text": "Und dann noch, was Hagen auch nicht so gerne mag,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1796.31,
+   "ende": 1798.03,
+   "text": "vielleicht kennt das der eine oder andere auch schon,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1798.33,
+   "ende": 1799.91,
+   "text": "und zwar Pad Kra Pao.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1800.67,
+   "ende": 1805.41,
+   "text": "Das ist gebratenes Hackfleisch, also die Original-Variante.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1805.41,
+   "ende": 1810.41,
+   "text": "Auch hier gibt es das oft an den Ständen mit verschiedenen Fleischsorten",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1811.15,
+   "ende": 1812.65,
+   "text": "oder eben auch mit Seafood.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1813.27,
+   "ende": 1817.93,
+   "text": "Aber der Klassiker ist gebratenes Hackfleisch mit super viel Chili.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1817.93,
+   "ende": 1821.87,
+   "text": "Das heißt, wenn das irgendwo zubereitet wird, merkt man das woran?",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1823.01,
+   "ende": 1827.09,
+   "text": "Ja, das ist wirklich, auch wenn man manchmal an der Straße irgendwo lang geht oder so,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1827.15,
+   "ende": 1831.51,
+   "text": "die braten das gerade, ich weiß nicht, wer das kennt, wenn die irgendwo Chili im Wok machen",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1831.51,
+   "ende": 1837.83,
+   "text": "und es einatmet, das ist wie, wie ist das an mir, es ist wie Ammoniak einatmen oder so,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1837.91,
+   "ende": 1842.79,
+   "text": "als wenn man Ammoniak einatmet, es zwingt einen richtig zum Husten, man kann nicht Luft holen,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1842.79,
+   "ende": 1846.77,
+   "text": "Und es ist ganz, ganz strange, ganz crazy irgendwie.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1847.11,
+   "ende": 1848.85,
+   "text": "Und ja, deswegen ist das auch nicht meins,",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1848.93,
+   "ende": 1851.79,
+   "text": "weil das halt ein Essen ist, was durchweg scharf ist.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1852.07,
+   "ende": 1854.83,
+   "text": "Man kann das nicht, also es ist alles scharf da dran.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1854.95,
+   "ende": 1857.83,
+   "text": "Es ist richtig scharf und ich komme da nicht dran.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1858.73,
+   "ende": 1862.63,
+   "text": "Ja, also wir waren auch wirklich schon irgendwo an so Straßenstätten",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1862.63,
+   "ende": 1864.25,
+   "text": "oder Restaurants, wo eigentlich wirklich alle,",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1864.35,
+   "ende": 1866.15,
+   "text": "das ganze Restaurant gehustet hat.",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1866.65,
+   "ende": 1869.99,
+   "text": "Und man wusste, okay, irgendjemand hat ja jetzt Pat Kapow bestellt,",
+   "avg_logprob": -0.183,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1870.57,
+   "ende": 1877.05,
+   "text": "weil diese Chilis dann eben als erstes sozusagen in den Wok geworfen werden mit dem Hackfleisch",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1877.05,
+   "ende": 1879.35,
+   "text": "und dann durch diesen Dampf verteilt sich das überall.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1879.45,
+   "ende": 1882.31,
+   "text": "Und dann kommt noch Thai-Basilikum mit dran.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1884.23,
+   "ende": 1888.65,
+   "text": "Ich habe das auch schon mal in Deutschland nachgekocht mit italienischem oder normalem Basilikum.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1888.79,
+   "ende": 1891.51,
+   "text": "Tatsächlich schmeckt der Thai-Basilikum etwas anders.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1892.01,
+   "ende": 1895.51,
+   "text": "Von daher, ja, fand ich, hat es dann nicht so den Geschmack getroffen.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1896.29,
+   "ende": 1899.97,
+   "text": "Aber ja, am Ende ist es wirklich nur Hackfleisch mit Chili und Basilikumblättern.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1900.57,
+   "ende": 1904.87,
+   "text": "Das wird dann mit Reis serviert und auf dem Reis in der Regel noch ein Spiegelei.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1905.61,
+   "ende": 1910.15,
+   "text": "Und wer also gerne scharf isst, der sollte das auf jeden Fall mal ausprobieren.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1910.15,
+   "ende": 1916.11,
+   "text": "Auch da kann man natürlich sagen, nicht scharf, aber dann machen sie halt wirklich...",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1916.11,
+   "ende": 1919.93,
+   "text": "Also ich habe das gesehen hier im Food Court, wenn die Leute das nicht scharf bestellen,",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1920.03,
+   "ende": 1922.55,
+   "text": "dann lassen sie einfach komplett das Chili weg.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1922.67,
+   "ende": 1928.15,
+   "text": "Also dann ist es halt einfach nur gebratenes Hackfleisch mit Basilikum und dann ist irgendwie der Witz verloren.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1928.79,
+   "ende": 1930.89,
+   "text": "Also das empfehle ich wirklich nur.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1930.99,
+   "ende": 1934.59,
+   "text": "Man kann natürlich trotzdem sagen, okay, nicht ganz so scharf, weil auch das mache ich manchmal.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1934.59,
+   "ende": 1941.61,
+   "text": "Denn wenn man es so essen würde, wie es die Thais essen, dann hatte ich das auch schon ab und an mal,",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1941.67,
+   "ende": 1946.63,
+   "text": "dass mir der Mund so gebrannt hat, dass er taub war und mir eigentlich nur noch die Sabbe aus dem Gesicht lief",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1946.63,
+   "ende": 1949.55,
+   "text": "und ich dann einfach kurz warten musste, bis ich weiter essen konnte.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1950.15,
+   "ende": 1954.19,
+   "text": "Ich mag das ja ab und an mal, aber gut, viele sagen auch, wozu isst man das dann,",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1954.25,
+   "ende": 1957.03,
+   "text": "weil wenn es so scharf ist, schmeckt man ja gar nichts mehr.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1957.03,
+   "ende": 1960.51,
+   "text": "Ja, das ist so ein Nervenabtöter.",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1961.41,
+   "ende": 1983.83,
+   "text": "Ja, und das kostet auch je nach Variante, also ich sage mal die klassische mit Mou, also mit Pad Ka Pao Mou, also mit Hackfleisch, kostet so 70-80 Baht und wenn man es jetzt mit Seafood haben möchte, ist es etwas teurer, dann kann man auch mal 100 oder 120 Baht bezahlen.",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1983.83,
+   "ende": 1987.01,
+   "text": "und dann gibt es das auch noch mit Catfish",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1987.01,
+   "ende": 1987.75,
+   "text": "und mit diesem",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1987.75,
+   "ende": 1990.97,
+   "text": "wie heißt das immer, dieser Schweinebauch",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1990.97,
+   "ende": 1991.79,
+   "text": "wie nennen die das?",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1992.35,
+   "ende": 1992.95,
+   "text": "Porkbelly",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1992.95,
+   "ende": 1995.03,
+   "text": "ja, Porkbelly tatsächlich",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1995.03,
+   "ende": 1998.91,
+   "text": "das kannst du auch mit Porkbelly bestellen",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1998.91,
+   "ende": 2000.79,
+   "text": "oder irgendwie gefühlt kannst du ja alles mit",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2000.79,
+   "ende": 2001.95,
+   "text": "Porkbelly bestellen",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2001.95,
+   "ende": 2005.05,
+   "text": "der geneigte",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2005.05,
+   "ende": 2006.59,
+   "text": "Thailänder ist ein Glibberfreak",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2006.59,
+   "ende": 2008.71,
+   "text": "die stehen drauf, die mögen das fettige",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2008.71,
+   "ende": 2010.65,
+   "text": "knorplige, die sind",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2010.65,
+   "ende": 2012.79,
+   "text": "richtige Glibberfreaks, die stehen auf Haut",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2012.79,
+   "ende": 2014.45,
+   "text": "und Knorpel und Fett und",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2014.45,
+   "ende": 2016.73,
+   "text": "muss richtig schön gnubbeln im Maul,",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2016.87,
+   "ende": 2017.83,
+   "text": "dann ist es geil.",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2020.61,
+   "ende": 2021.09,
+   "text": "Hühnerbeine",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2021.09,
+   "ende": 2023.13,
+   "text": "werden dann abgenagt, also richtige Krallen,",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2023.55,
+   "ende": 2024.89,
+   "text": "das, ja, so",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2024.89,
+   "ende": 2026.47,
+   "text": "machen sie es. Wir nicht so.",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2026.97,
+   "ende": 2028.35,
+   "text": "Augen, so der geneigte Teil,",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2028.43,
+   "ende": 2030.39,
+   "text": "der schreckt auch nicht davor zurück, irgendwie",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2030.39,
+   "ende": 2032.59,
+   "text": "ein Fischauge zu knacken oder so. Die sind schon",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2032.59,
+   "ende": 2034.93,
+   "text": "wirklich schmerzbefreit mit Insekten",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2034.93,
+   "ende": 2036.93,
+   "text": "und all, also die wildesten Sachen.",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2037.83,
+   "ende": 2039.01,
+   "text": "Ja, also wo wir",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2039.01,
+   "ende": 2040.83,
+   "text": "gerade Hühnerfüße sagen, auch vielleicht",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2040.83,
+   "ende": 2042.79,
+   "text": "nochmal, ich meine, das",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.021,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2042.79,
+   "ende": 2044.87,
+   "text": "essen wir ja auch häufig, sind",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.021,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2044.87,
+   "ende": 2046.97,
+   "text": "die Hühnersuppen. Und da",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.021,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2046.97,
+   "ende": 2048.83,
+   "text": "haben wir auch so einen bestimmten Stand,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.021,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2048.91,
+   "ende": 2050.73,
+   "text": "wo wir die Hühnersuppe immer bestellen, wo",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.021,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2050.73,
+   "ende": 2052.77,
+   "text": "einfach so eine Hühnerkeule mit drin",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.021,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2052.77,
+   "ende": 2055.15,
+   "text": "liegt und kleingeschnittenes",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.021,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2055.15,
+   "ende": 2056.69,
+   "text": "Hühnerfleisch. Aber wenn man es nicht",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.021,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2056.69,
+   "ende": 2058.85,
+   "text": "dazu sagt, liegen halt auch die Hühnerfüße",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.021,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2058.85,
+   "ende": 2060.85,
+   "text": "mit in der Suppe. Ein Beinchen, ja.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.021,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2061.93,
+   "ende": 2062.71,
+   "text": "Gestern noch",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.021,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2062.71,
+   "ende": 2064.45,
+   "text": "geschart, heute frisch gegart.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.021,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2066.19,
+   "ende": 2066.87,
+   "text": "Wenn man",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.021,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2066.87,
+   "ende": 2068.71,
+   "text": "also Hühnersuppe in Thailand",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.021,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2068.71,
+   "ende": 2069.95,
+   "text": "bestellt, sollte man",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.021,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2069.95,
+   "ende": 2071.73,
+   "text": "darauf achten,",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.088,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2072.45,
+   "ende": 2074.17,
+   "text": "dass, oder es gleich dazu sagen,",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.088,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2074.31,
+   "ende": 2076.27,
+   "text": "vorsichtshalber, dass man das ohne Füße",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.088,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2076.27,
+   "ende": 2076.65,
+   "text": "möchte.",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.088,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2078.15,
+   "ende": 2079.87,
+   "text": "Herr Thailänder, bitte keine Kralle.",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.088,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2081.63,
+   "ende": 2082.55,
+   "text": "Was heißt Chicken Feet,",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.088,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2082.67,
+   "ende": 2082.95,
+   "text": "sagen die?",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.088,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2083.43,
+   "ende": 2085.49,
+   "text": "Nee, die hat mir das gesagt.",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.088,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2086.17,
+   "ende": 2086.67,
+   "text": "Kargai.",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.088,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2087.49,
+   "ende": 2090.05,
+   "text": "Nee, Kargai wäre ja,",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.088,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2090.05,
+   "ende": 2091.45,
+   "text": "nee, das ist die Klaue.",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.088,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2091.95,
+   "ende": 2093.83,
+   "text": "Das ist nicht Kargai, Kargai ist ja",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.088,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2093.83,
+   "ende": 2096.01,
+   "text": "die Keule, wäre das.",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.088,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2096.27,
+   "ende": 2098.13,
+   "text": "Jaja, genau. Aber es geht um die Klaue,",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.088,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2098.17,
+   "ende": 2099.07,
+   "text": "sie hatte mir das auch gesagt.",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.088,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2099.07,
+   "ende": 2101.05,
+   "text": "Mai Au, also ich möchte nicht, dass da",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2101.05,
+   "ende": 2103.05,
+   "text": "aber, naja, sie weiß ja, wenn sie uns sieht,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2103.13,
+   "ende": 2104.23,
+   "text": "dass sie es nicht mehr reinmachen soll.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2104.59,
+   "ende": 2106.95,
+   "text": "Ja, und ihr wisst jetzt, wenn ihr Hühnersuppe",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2106.95,
+   "ende": 2108.97,
+   "text": "bestellt, dann, und Hühnersuppe ist halt",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2108.97,
+   "ende": 2110.89,
+   "text": "auch nicht, wie wir das kennen,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2110.95,
+   "ende": 2112.91,
+   "text": "mit heller Brühe, sondern die ist",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2112.91,
+   "ende": 2115.11,
+   "text": "hier dunkel, ne, dieser dunkle",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2115.11,
+   "ende": 2115.41,
+   "text": "Sud.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2117.17,
+   "ende": 2118.93,
+   "text": "Allgemein sind Suppen wirklich, also",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2118.93,
+   "ende": 2121.03,
+   "text": "ich glaube, Vietnam, wer jetzt so",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2121.03,
+   "ende": 2122.69,
+   "text": "in Vietnam schon mal war oder sich mit",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2122.69,
+   "ende": 2124.79,
+   "text": "Vietnam beschäftigt hat, der kennt ja auch diese",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2124.79,
+   "ende": 2126.89,
+   "text": "klassische Pho oder Pho, oder",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2126.89,
+   "ende": 2128.81,
+   "text": "wie man es ausspricht, Suppe, aber auch",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2128.81,
+   "ende": 2130.89,
+   "text": "in Thailand sind Suppen wirklich sehr verbreitet.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2131.13,
+   "ende": 2132.85,
+   "text": "Also es gibt wirklich unglaublich",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2132.85,
+   "ende": 2134.73,
+   "text": "viele verschiedene Suppen und es gibt hier",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2134.73,
+   "ende": 2136.69,
+   "text": "wirklich manchmal Tage, wo ich",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2136.69,
+   "ende": 2138.55,
+   "text": "mehrere Tage hintereinander",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2138.55,
+   "ende": 2140.73,
+   "text": "mehrere verschiedene Suppen esse, weil",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2140.73,
+   "ende": 2142.75,
+   "text": "die halt einfach echt super lecker",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2142.75,
+   "ende": 2144.39,
+   "text": "sind. Ja.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2145.47,
+   "ende": 2145.99,
+   "text": "Okay.",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2147.03,
+   "ende": 2149.07,
+   "text": "Hast du noch irgendwelche",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2149.07,
+   "ende": 2150.81,
+   "text": "Food-Inspirationen,",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2151.61,
+   "ende": 2152.67,
+   "text": "die du hier teilen möchtest?",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2154.67,
+   "ende": 2155.63,
+   "text": "Food-Eggs?",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2155.63,
+   "ende": 2156.81,
+   "text": "Nee, generell",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2156.81,
+   "ende": 2158.31,
+   "text": "ist es halt so, dass",
+   "avg_logprob": -0.189,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2158.31,
+   "ende": 2160.23,
+   "text": "dass das Essen im Restaurant eigentlich nicht",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2160.23,
+   "ende": 2162.13,
+   "text": "teurer ist, als wenn man jetzt zu Hause was macht.",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2162.35,
+   "ende": 2164.21,
+   "text": "Das ist halt, also wir, wenn wir",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2164.21,
+   "ende": 2166.19,
+   "text": "jetzt in Deutschland irgendwie, da ist es ja ein Happening,",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2166.27,
+   "ende": 2168.17,
+   "text": "wenn man dann mal auswärts essen geht, weil es ist",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2168.17,
+   "ende": 2170.01,
+   "text": "halt auch einfach kostenintensiv, wenn wir da",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2170.01,
+   "ende": 2172.13,
+   "text": "irgendwo in der Trotzenburg, Warnenrostock",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2172.13,
+   "ende": 2173.21,
+   "text": "oder so, so gut deutsche",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2173.21,
+   "ende": 2175.99,
+   "text": "Hausmannskosten im vernünftigen Restaurant,",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2176.19,
+   "ende": 2177.93,
+   "text": "dann sind wir da mit vier Leuten irgendwie nicht",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2177.93,
+   "ende": 2179.99,
+   "text": "unter 80 Euro rausgegangen. Das ist",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2179.99,
+   "ende": 2182.07,
+   "text": "hier halt, wenn wir hier Mittag",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2182.07,
+   "ende": 2183.91,
+   "text": "essen, alle satt irgendwo,",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2184.39,
+   "ende": 2186.15,
+   "text": "günstig, dann haben",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2186.15,
+   "ende": 2187.93,
+   "text": "wir, keine Ahnung, wenn wir alle",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2187.93,
+   "ende": 2189.61,
+   "text": "Kaukamu-Essen zahlen wir irgendwie so um die",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2189.61,
+   "ende": 2192.15,
+   "text": "10 Euro. Und da haben wir",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2192.15,
+   "ende": 2194.09,
+   "text": "alle komplett gegessen und getrunken und",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2194.09,
+   "ende": 2196.05,
+   "text": "sind super satt und müssen erstmal nichts",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2196.05,
+   "ende": 2198.29,
+   "text": "mehr zu uns nehmen. Das finde ich ist noch ein riesiger",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2198.29,
+   "ende": 2199.87,
+   "text": "Unterschied zu Deutschland,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2200.07,
+   "ende": 2201.75,
+   "text": "dass wir super viel",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2201.75,
+   "ende": 2204.21,
+   "text": "auswärts essen. Also mindestens einmal am Tag",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2204.21,
+   "ende": 2205.99,
+   "text": "holen wir uns",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2205.99,
+   "ende": 2206.81,
+   "text": "irgendwo was zu essen.",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2207.47,
+   "ende": 2210.05,
+   "text": "Weil es einfach auch günstig ist.",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2211.15,
+   "ende": 2212.01,
+   "text": "Aber man muss",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2212.01,
+   "ende": 2213.95,
+   "text": "auch sagen, das bezieht sich halt wirklich",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2213.95,
+   "ende": 2215.61,
+   "text": "nur auf Thai-Food. Sobald man",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2215.61,
+   "ende": 2217.87,
+   "text": "ausländisch essen möchte, also sobald man",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2217.87,
+   "ende": 2220.07,
+   "text": "eine Pizza essen will oder man möchte einen Döner",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 2220.07,
+   "ende": 2222.01,
+   "text": "oder man möchte auch irgendwie einen Schnitzel",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 2222.01,
+   "ende": 2224.13,
+   "text": "mit Pommes, gibt es ja auch alles,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 2224.69,
+   "ende": 2226.01,
+   "text": "ist es deutlich teurer.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 2226.21,
+   "ende": 2228.09,
+   "text": "Also wir hatten den Vergleich ja so mit Dahab,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 2228.17,
+   "ende": 2229.97,
+   "text": "wo wir in Dahab in Ägypten waren, da war",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 2229.97,
+   "ende": 2232.03,
+   "text": "das Essen, also ich glaube ich war noch",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 2232.03,
+   "ende": 2233.97,
+   "text": "ja doch Bali vielleicht noch, da war das",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 2233.97,
+   "ende": 2236.17,
+   "text": "Essen auch super günstig, aber in Dahab",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 2236.17,
+   "ende": 2238.25,
+   "text": "ist es wirklich so gewesen, dass alles,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 2238.43,
+   "ende": 2239.93,
+   "text": "also egal welche,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 2240.39,
+   "ende": 2241.97,
+   "text": "ob man Sushi gegessen hat, ob man",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 2241.97,
+   "ende": 2244.03,
+   "text": "einheimisch gegessen hat, ob man Pizza gegessen hat,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 2244.07,
+   "ende": 2246.11,
+   "text": "in Dahab war es alles gleich günstig,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 2246.21,
+   "ende": 2247.49,
+   "text": "also richtig doll günstig.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 2247.87,
+   "ende": 2260.33,
+   "text": "Und hier in Thailand ist es schon so, dass das thailändische Essen extrem günstig ist, aber alles andere, selbst indisch, also wir gehen ja auch hier gern zum Inder, ist schon dann wesentlich teurer.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2260.43,
+   "ende": 2263.87,
+   "text": "Und wir reden jetzt aber auch bei wesentlich teurer, weil du gerade den Vergleich mit der Trotzenburg hast.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2263.95,
+   "ende": 2268.03,
+   "text": "Wenn wir zu viert in die Trotzenburg gehen, zahlen wir halt 80 Euro.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2268.15,
+   "ende": 2274.69,
+   "text": "Wenn wir beim Inder hier waren und von teuer reden, zahlen wir irgendwie 40 oder 45 und haben halt richtig viel gegessen.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2275.23,
+   "ende": 2276.13,
+   "text": "Oder was sind das?",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2276.13,
+   "ende": 2300.15,
+   "text": "Ja, weiß nicht, 1,5 sind so 8, also doch um die 40 Euro. Und wie gesagt, 80 Euro in Deutschland, da bist du ja trotzdem, hast du dich ja jetzt nicht total gehen lassen oder so. Da hat jeder ein Essen gegessen und ein Getränk, wenn es hochkommt, da ist auch keine Nachspeise mit drin oder dass man dann da noch irgendwie großartig sich jetzt Getränke noch gönnt oder so. Das ist ja dann wirklich auch die Sparvariante für vier Leute.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2300.15,
+   "ende": 2328.99,
+   "text": "Ja, aber ich meine, wenn wir jetzt halt davon sprechen, wenn wir zum Inder gehen oder Pizza essen oder auch Döner essen gehen, dann zahlen wir halt, sagen wir jetzt mal um die 40 Euro im Schnitt. Und da kann man jetzt natürlich, wenn man aus Deutschland kommt, sagen, ja, ist ja immer noch ein totaler Witz und das ist es ja auch mit deutschen Preisen verglichen. Aber wenn wir eben auch für 10 Euro zum Beispiel alle Kaukamu gegessen haben, dann sind es halt einfach mal 30 Euro mehr. Und das ist halt schon was, was man nicht jeden Tag machen kann oder wir zumindest jeden Tag.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.046,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2328.99,
+   "ende": 2333.31,
+   "text": "Ja, und was man auch nicht vergessen darf, ist, dass wir hier halt auf Koh Samui sind.",
+   "avg_logprob": -0.186,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2333.73,
+   "ende": 2336.59,
+   "text": "Es ist halt so wie Sylt. Auf Sylt ist auch alles teurer.",
+   "avg_logprob": -0.186,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2336.83,
+   "ende": 2339.23,
+   "text": "Wenn ich auf Sylt ein Fischbrötchen esse, kostet es doppelt so viel,",
+   "avg_logprob": -0.186,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2339.33,
+   "ende": 2343.79,
+   "text": "als wenn ich irgendwo in, weiß ich nicht, in einem kleinen Pumucklsdorf da bei Oma Inga",
+   "avg_logprob": -0.186,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2343.79,
+   "ende": 2345.61,
+   "text": "am Fischmarkt irgendwie ein Fischbrötchen hole.",
+   "avg_logprob": -0.186,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2345.93,
+   "ende": 2346.73,
+   "text": "Und so ist das ja auch.",
+   "avg_logprob": -0.186,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2346.93,
+   "ende": 2349.77,
+   "text": "Also ich gehe in Kaukamu irgendwo auf ein Festland, wo es keinen interessiert,",
+   "avg_logprob": -0.186,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2349.93,
+   "ende": 2352.51,
+   "text": "wo nur Paläner sind mit einer Pampa, da kostet es die Hälfte.",
+   "avg_logprob": -0.186,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2353.93,
+   "ende": 2357.27,
+   "text": "Aber da würdest du aber auch keine Pizzeria dann finden?",
+   "avg_logprob": -0.186,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2357.27,
+   "ende": 2379.97,
+   "text": "Also da brauchst du dir keine Gedanken machen, ob du jetzt heute beim Italiener isst oder lieber Kaukamu essen willst, weil da ist halt kein Italiener. Und deshalb haben wir auch, also wenn wir jetzt auch so auch mal bei Instagram oder wenn wir davon sprechen, dass hier irgendetwas teuer ist, dann ist das immer in Relation zu sehen zu dem, wie hier sonst die Preise.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2379.97,
+   "ende": 2397.79,
+   "text": "Also für viele, die dann hier Urlaub machen, die würden wahrscheinlich beim Inder zum Beispiel eben sagen, 40 Euro ist doch nicht teuer für vier Leute. Aber wir sehen ja auch immer, was bezahle ich halt sonst für einen ganzen Tisch voller Essen.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.35
+  },
+  {
+   "start": 2397.79,
+   "ende": 2400.05,
+   "text": "und dann wägt man halt einfach ab,",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2400.17,
+   "ende": 2401.89,
+   "text": "okay, möchte ich heute halt 10 Euro",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2401.89,
+   "ende": 2403.73,
+   "text": "ausgeben oder bin ich heute bereit,",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2403.81,
+   "ende": 2404.89,
+   "text": "40 Euro auszugeben.",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2405.95,
+   "ende": 2407.67,
+   "text": "Das nur nochmal so. Ich werde da auch nochmal,",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2407.89,
+   "ende": 2409.77,
+   "text": "wir haben da auch einen schönen,",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2410.03,
+   "ende": 2411.75,
+   "text": "gerade letztens so einen schönen Vergleich gehabt",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2411.75,
+   "ende": 2413.63,
+   "text": "zur Nikolauszeit, wo wir hier Süßigkeiten,",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2413.83,
+   "ende": 2415.43,
+   "text": "also zum Beispiel europäische, was heißt",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2415.43,
+   "ende": 2417.77,
+   "text": "europäische Süßigkeiten, aber so",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2417.77,
+   "ende": 2419.77,
+   "text": "Klassiker, Snickers, KitKat,",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2419.91,
+   "ende": 2421.13,
+   "text": "Rocher, solche Dinge,",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2421.63,
+   "ende": 2423.61,
+   "text": "die sind halt hier auch verhältnismäßig teuer",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2423.61,
+   "ende": 2425.83,
+   "text": "und ich hatte da für",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2425.83,
+   "ende": 2427.67,
+   "text": "die Kinder zum Nikolaus",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2427.67,
+   "ende": 2429.69,
+   "text": "irgendwie, ja, ich weiß nicht,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2429.79,
+   "ende": 2431.69,
+   "text": "fünf Teile, glaube ich, für jeden gekauft",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2431.69,
+   "ende": 2433.49,
+   "text": "und habe dafür 11,30 Euro",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2433.49,
+   "ende": 2435.47,
+   "text": "bezahlt. Und für",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2435.47,
+   "ende": 2437.71,
+   "text": "genau 11,30 Euro waren wir ein paar",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2437.71,
+   "ende": 2439.59,
+   "text": "Tage später aber auch zu viert essen",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2439.59,
+   "ende": 2441.43,
+   "text": "und hatten den ganzen Tisch voller Essen,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2441.53,
+   "ende": 2443.83,
+   "text": "Getränke und geschnittenem Obst.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2444.09,
+   "ende": 2445.09,
+   "text": "Und dann",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2445.09,
+   "ende": 2447.61,
+   "text": "in dem Verhältnis sind dann eben",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2447.61,
+   "ende": 2449.57,
+   "text": "11,30 Euro für ein paar Süßigkeiten",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2449.57,
+   "ende": 2451.37,
+   "text": "finden wir einfach super teuer,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2451.51,
+   "ende": 2453.59,
+   "text": "wenn ich davon auch mit der ganzen Familie",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2453.59,
+   "ende": 2454.39,
+   "text": "essen gehen kann.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2455.45,
+   "ende": 2457.51,
+   "text": "Ach so, was mir aber gerade noch einfällt",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2457.51,
+   "ende": 2459.59,
+   "text": "mit der ganzen Familie essen gehen können. Das wollten wir auch noch",
+   "avg_logprob": -0.188,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2459.59,
+   "ende": 2461.79,
+   "text": "sagen, woran man festmacht",
+   "avg_logprob": -0.188,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2461.79,
+   "ende": 2463.95,
+   "text": "oder woran man gute Restaurants",
+   "avg_logprob": -0.188,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2463.95,
+   "ende": 2465.63,
+   "text": "oder Straßenstände erkennt,",
+   "avg_logprob": -0.188,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2465.75,
+   "ende": 2467.91,
+   "text": "wenn man jetzt im Urlaub",
+   "avg_logprob": -0.188,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2467.91,
+   "ende": 2468.23,
+   "text": "ist.",
+   "avg_logprob": -0.188,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2469.59,
+   "ende": 2471.31,
+   "text": "Wonach gehen wir da?",
+   "avg_logprob": -0.188,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2471.55,
+   "ende": 2473.59,
+   "text": "Also wenn man irgendwo, das haben wir doch letztens",
+   "avg_logprob": -0.188,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2473.59,
+   "ende": 2475.67,
+   "text": "gehabt mit Galong Malatang, haben wir entdeckt",
+   "avg_logprob": -0.188,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2475.67,
+   "ende": 2477.33,
+   "text": "in Malatang, da sind wir vorbeigefahren",
+   "avg_logprob": -0.188,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2477.33,
+   "ende": 2479.15,
+   "text": "und es war rappelvoll.",
+   "avg_logprob": -0.188,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2479.95,
+   "ende": 2481.25,
+   "text": "Alles voll mit Menschen.",
+   "avg_logprob": -0.188,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2481.43,
+   "ende": 2482.11,
+   "text": "Und zwar Thailänder.",
+   "avg_logprob": -0.188,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2483.33,
+   "ende": 2484.97,
+   "text": "Irgendwie zur Mittagszeit war das oder so.",
+   "avg_logprob": -0.188,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2484.97,
+   "ende": 2498.63,
+   "text": "Und das ist halt immer ein Indikator. Wenn die anstehen irgendwo und die ganze Bude voller Thailänder ist und jeder Sitzplatz besetzt ist, dann weiß man, da gibt es irgendwas Cooles. Das sollte man sich mal angucken oder da sollte man hingehen.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 2498.63,
+   "ende": 2517.15,
+   "text": "Weil die Thailänder, die, also da habe ich jetzt immer so die Erfahrung gemacht, die, ja, da isst man auch mal ein Stück Pizza oder so, aber es ist nicht, die essen ihr Essen und das machen sie am liebsten. Und wenn die irgendwo, wenn die sich irgendwo sammeln beim Essen, dann ist es gut und das ist immer ein guter Indikator.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2517.15,
+   "ende": 2543.15,
+   "text": "Ja, genau. Also viele Thailänder gleich gutes Essen, wenig Ausländer auch gleich gutes Essen und Straßenstände oder wie soll man das sagen, also wie das aussieht, ob das irgendwie besonders schick ist oder ob das jetzt direkt an der Straße ist oder irgendwo schön gelegen ist, ist auch überhaupt kein Indikator dafür, ob das gut oder nicht gut schmeckt.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.167,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2543.15,
+   "ende": 2548.15,
+   "text": "Also man muss ja auch vielleicht mal ein bisschen über seine Hygienegrenzen,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2548.91,
+   "ende": 2552.53,
+   "text": "sag ich mal, gehen und sich vielleicht halt auch mal irgendwo hinsetzen,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2552.67,
+   "ende": 2555.55,
+   "text": "wo man denkt, naja, hier sind zwar viele Thailänder,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2555.71,
+   "ende": 2558.03,
+   "text": "aber irgendwie sieht mir das ein bisschen isselig aus.",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2558.89,
+   "ende": 2560.75,
+   "text": "Tatsächlich schmeckt es da dann meistens am besten.",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2561.01,
+   "ende": 2564.41,
+   "text": "Also der Kaugummu-Stand ist ja jetzt auch nicht schön oder auch nicht schön gelegen.",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2564.81,
+   "ende": 2567.59,
+   "text": "Und auch hinten in die Küchen und so, da sollte man nicht reingucken.",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2567.59,
+   "ende": 2570.51,
+   "text": "ist halt, aber es ist",
+   "avg_logprob": -0.2,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2570.51,
+   "ende": 2572.05,
+   "text": "trotzdem, glaube ich, also",
+   "avg_logprob": -0.2,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2572.05,
+   "ende": 2573.87,
+   "text": "auch wenn es nicht so aussieht,",
+   "avg_logprob": -0.2,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2574.29,
+   "ende": 2576.63,
+   "text": "es ist oft ein relativ hohes Hygiene-Level,",
+   "avg_logprob": -0.2,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2576.77,
+   "ende": 2578.51,
+   "text": "auch wenn es nicht so aussieht.",
+   "avg_logprob": -0.2,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2578.83,
+   "ende": 2580.41,
+   "text": "Aber ich, also nach europäischer",
+   "avg_logprob": -0.2,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2580.41,
+   "ende": 2582.51,
+   "text": "HCCP-Norm oder so, da kommen die",
+   "avg_logprob": -0.2,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2582.51,
+   "ende": 2583.29,
+   "text": "nicht weit, glaube ich.",
+   "avg_logprob": -0.2,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2585.87,
+   "ende": 2586.47,
+   "text": "Kühlkette oder",
+   "avg_logprob": -0.2,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2586.47,
+   "ende": 2587.19,
+   "text": "Brocken, ja.",
+   "avg_logprob": -0.2,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2588.97,
+   "ende": 2590.61,
+   "text": "Ja, gut, das war es auch schon.",
+   "avg_logprob": -0.2,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2590.77,
+   "ende": 2592.25,
+   "text": "Wir brauchen das ja hier auch nicht unnötig",
+   "avg_logprob": -0.2,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2592.25,
+   "ende": 2593.47,
+   "text": "in die Länge ziehen,",
+   "avg_logprob": -0.2,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2594.39,
+   "ende": 2596.13,
+   "text": "was so die kulinarischen",
+   "avg_logprob": -0.2,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2596.13,
+   "ende": 2598.13,
+   "text": "Ideen und Highlights angeht.",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2598.83,
+   "ende": 2600.07,
+   "text": "Schickt uns gerne Pakete",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2600.07,
+   "ende": 2601.99,
+   "text": "mit Schallblättenkäse oder so was",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2601.99,
+   "ende": 2603.77,
+   "text": "oder Knäckebrot, nehmen wir alles.",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2604.89,
+   "ende": 2606.25,
+   "text": "Senftum, solche Sachen.",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2606.47,
+   "ende": 2608.25,
+   "text": "Also es ist schon so, dass man auch gerne",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2608.25,
+   "ende": 2608.75,
+   "text": "mal",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2608.75,
+   "ende": 2611.95,
+   "text": "jetzt wieder irgendwie ein schönes Mettbrötchen",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2611.95,
+   "ende": 2613.75,
+   "text": "essen will oder so, aber am Ende",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2613.75,
+   "ende": 2614.61,
+   "text": "lebt man hier gesünder.",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2615.43,
+   "ende": 2617.51,
+   "text": "Auf jeden Fall, ja. Gut.",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2618.05,
+   "ende": 2619.87,
+   "text": "Dann hoffen wir, dass wir",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2619.87,
+   "ende": 2621.33,
+   "text": "euch ein bisschen für eure",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2621.33,
+   "ende": 2623.71,
+   "text": "nächste oder erste Thailand-Reise",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2623.71,
+   "ende": 2625.81,
+   "text": "inspirieren konnten und ihr mal was Neues",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2625.81,
+   "ende": 2627.97,
+   "text": "ausprobiert und nicht nur Fried Rice",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 2627.97,
+   "ende": 2629.93,
+   "text": "mit Hühnchen esst oder",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 2629.93,
+   "ende": 2632.13,
+   "text": "ohne Hühnchen, wie auch immer, wenn man Vegetarier ist",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 2632.13,
+   "ende": 2633.97,
+   "text": "und dann wünschen wir euch eine schöne",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 2633.97,
+   "ende": 2636.11,
+   "text": "Woche und bis nächste Woche.",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 2636.89,
+   "ende": 2637.69,
+   "text": "Bis dann. Tschüss.",
+   "avg_logprob": -0.177,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.37
+  }
+ ]
+}

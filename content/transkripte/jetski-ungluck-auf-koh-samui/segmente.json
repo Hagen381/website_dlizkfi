@@ -1,0 +1,2530 @@
+{
+ "meta": {
+  "slug": "jetski-ungluck-auf-koh-samui",
+  "titel": "Jetski Unglück auf Koh Samui",
+  "datum": "2026-08-31T02:05:09.000Z",
+  "dauer_sekunden": 1684,
+  "guid": "ca04ab47-8aeb-4156-8c29-32787cb4797a",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T06:30:04Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 5,
+   "transkription": 1141
+  },
+  "echtzeitfaktor": 0.68,
+  "anzahl_segmente": 313,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.72,
+   "ende": 20.11,
+   "text": "Der kleinere Junge, die hatten zum Glück alle Schwimmwesten an, der kleinere Junge hat sozusagen an dieser Spitze vom Jet-Ski geklammert und der Vater und der Sohn haben halt im Wasser gelegen und sich am Jet-Ski dann festgehalten oder zumindest in der Nähe.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.162,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 20.11,
+   "ende": 31.11,
+   "text": "Hallo und herzlich willkommen zu einer neuen Folge Litzkvieh. Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.353,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 31.95,
+   "ende": 36.65,
+   "text": "Heute mal mit einer kleinen Geschichte, die sich hier auf Kusamui zugetragen hat,",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.353,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 36.77,
+   "ende": 39.91,
+   "text": "von der ich glaube, dass sie gar nicht in den deutschen Medien angekommen ist.",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.353,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 40.69,
+   "ende": 45.83,
+   "text": "Ein paar Sachen kriegt man auch in Deutschland so mit und hier ist es so,",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.353,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 45.83,
+   "ende": 51.01,
+   "text": "dass, sage ich mal, der Gefühl zumindest der Hauptnachrichtenkanal Facebook ist",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.353,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 51.01,
+   "ende": 58.13,
+   "text": "und es gibt hier für alles irgendwelche Gruppen und teilweise auch mit sehr verstörenden Bildern.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 58.13,
+   "ende": 62.09,
+   "text": "Also hier gibt es ja überall Überwachungskameras, hier wird wirklich alles gezeigt.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 62.31,
+   "ende": 65.51,
+   "text": "Also auch gerade bei Unfällen ist es teilweise ganz schön ugly.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 66.45,
+   "ende": 73.43,
+   "text": "Aber ich sehe anhand dieser News dann eben auch teilweise deutsche Nachrichtensender,",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 73.53,
+   "ende": 74.87,
+   "text": "dass die eben auch darüber berichtet haben.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 74.95,
+   "ende": 79.81,
+   "text": "Aber über diese Geschichte, glaube ich, wurde nicht berichtet, was ich ein bisschen komisch finde.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 79.81,
+   "ende": 90.33,
+   "text": "Deswegen dachte ich, erzähle ich das mal, weil es auch so ein bisschen darauf einspielt, was, wie ich oft in, ich sag jetzt mal, eventuell gefährlichen Situationen denke.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 91.65,
+   "ende": 101.01,
+   "text": "Aber vielleicht noch kurz vorab, Hagen und ich sagen immer so aus Spaß, wenn wir mal viel Geld haben, dann machen wir das und das, dann kaufen wir das und das.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 101.01,
+   "ende": 109.75,
+   "text": "Und dann habe ich letztens gesagt, komm, wir fangen jetzt mal eine Liste an, hier manifestieren, wir schreiben das aus unseren Köpfen, bringen wir es in die 3D-Welt, schreiben es nieder.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 109.81,
+   "ende": 113.29,
+   "text": "und haben dann halt so ein paar Sachen aufgeschrieben.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 113.39,
+   "ende": 118.41,
+   "text": "Wenn wir mal viel Geld haben, dann kaufen wir, was weiß ich, so.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 118.83,
+   "ende": 121.89,
+   "text": "Und dann sagte er auf jeden Fall in diesem Ganzen, kaufen wir dies und jenes,",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 121.89,
+   "ende": 125.09,
+   "text": "sagte er, wenn wir mal viel Geld haben, kaufe ich mir einen Jetski.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 125.19,
+   "ende": 128.13,
+   "text": "Und dann habe ich so gesagt, auf gar keinen Fall, das schreibe ich nicht auf.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 128.25,
+   "ende": 129.21,
+   "text": "Und er so, hä, wieso nicht?",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 129.81,
+   "ende": 131.51,
+   "text": "Ich sage, ja, weil das viel zu gefährlich ist.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 131.59,
+   "ende": 134.89,
+   "text": "Du kennst dich hier überhaupt nicht aus in den Gewässern so mit den Korallen,",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 135.65,
+   "ende": 136.63,
+   "text": "mit den Strömungen.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 137.61,
+   "ende": 140.29,
+   "text": "Es ist ja, wenn man Leute, die einen Bootsführerschein haben, wissen,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 140.41,
+   "ende": 144.71,
+   "text": "es geht ja beim Bootsführerschein am Ende nicht darum, in der Lage zu sein, ein Boot zu steuern.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 144.79,
+   "ende": 149.13,
+   "text": "Das ist jetzt nicht super schwierig, sondern da geht es ja eher um diese ganzen anderen Dinge.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 149.39,
+   "ende": 154.11,
+   "text": "Um Gewässerkunde und Windverhältnisse, Wetterverhältnisse allgemein und so weiter.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 155.07,
+   "ende": 160.63,
+   "text": "Und habe ich gesagt, dann müsstest du hier schon aber dich irgendwie so einen Schein machen oder keine Ahnung was.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 160.63,
+   "ende": 163.21,
+   "text": "Da meinte er, es interessiert doch hier keinen. Ich sage, ja, aber mich interessiert es.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 163.21,
+   "ende": 167.85,
+   "text": "Ich würde dich never ever mit den Kindern hier einfach auf dem Jet-Ski rumbrettern lassen,",
+   "avg_logprob": -0.146,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 167.97,
+   "ende": 170.35,
+   "text": "ohne dass du hier die örtlichen Gegebenheiten kennst.",
+   "avg_logprob": -0.146,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 171.13,
+   "ende": 173.73,
+   "text": "So, das war einfach so ein Random-Gespräch, ja.",
+   "avg_logprob": -0.146,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 174.25,
+   "ende": 178.11,
+   "text": "Und ich will jetzt nicht lügen, ich würde mal sagen, vielleicht zwei Tage später,",
+   "avg_logprob": -0.146,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 178.11,
+   "ende": 182.13,
+   "text": "also wirklich ganz kurz, nachdem wir genau über sowas geredet haben,",
+   "avg_logprob": -0.146,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 183.03,
+   "ende": 186.89,
+   "text": "kam dann hier in den Nachrichten, also Facebook,",
+   "avg_logprob": -0.146,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 187.73,
+   "ende": 191.85,
+   "text": "dass ein Vater, ein französischer Vater mit seinen zwei Kindern",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 191.85,
+   "ende": 194.81,
+   "text": "einen Jet-Ski ausgeliehen hat am Chaveng Beach.",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 194.93,
+   "ende": 197.51,
+   "text": "Also das ist ja der Hauptstrand hier neben Lamey.",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 197.67,
+   "ende": 201.09,
+   "text": "So Lamey und Chaveng sind sozusagen die Main-Tourist-Spots.",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 201.09,
+   "ende": 205.71,
+   "text": "Und da kann man natürlich ganz klassische Touristen-Sachen auch am Strand machen,",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 205.81,
+   "ende": 207.09,
+   "text": "wie Banane fahren, Jet-Ski ausleihen.",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 208.21,
+   "ende": 210.79,
+   "text": "Ich glaube teilweise auch dieses Paragliding am Boot und so weiter.",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 212.17,
+   "ende": 215.97,
+   "text": "Und Heinrich hat auch schon ein paar Mal gesagt, er möchte einen Jet-Ski ausleihen.",
+   "avg_logprob": -0.164,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 215.97,
+   "ende": 217.93,
+   "text": "Aber es ist ja wirklich immer wahnsinnig teuer.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 218.03,
+   "ende": 219.13,
+   "text": "Ich weiß nicht, was es hier kostet.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 219.21,
+   "ende": 223.65,
+   "text": "Aber wir haben das mal auf Bali gemacht, als Heinrich noch klein war.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 223.83,
+   "ende": 225.93,
+   "text": "Da war das dann nicht ganz so teuer.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 226.09,
+   "ende": 229.13,
+   "text": "Da hat er dann quasi mit einem Guide, ist Heinrich dann mitgefahren.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 230.29,
+   "ende": 231.57,
+   "text": "Wir haben dann darauf verzichtet.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 231.69,
+   "ende": 235.47,
+   "text": "Aber hier kann man sich halt auch einfach so einen Jet Ski alleine ausleihen,",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 235.47,
+   "ende": 237.07,
+   "text": "ohne dass jetzt der Guide mitfährt.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 238.09,
+   "ende": 243.11,
+   "text": "Und dieser Vater, die Altersangaben variieren immer ein bisschen.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 243.11,
+   "ende": 253.87,
+   "text": "Also in den meisten Meldungen waren die Kinder neun und zwölf, in anderen Meldungen waren die Kinder drei und fünf oder fünf und sieben.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 254.27,
+   "ende": 259.79,
+   "text": "Ist dann vielleicht immer noch ein bisschen dramatischer, aber auf jeden Fall gehen wir mal jetzt von neun und zwölf aus.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 259.87,
+   "ende": 269.53,
+   "text": "Das wurde am meisten erwähnt. Der Vater irgendwie war wohl Anfang 50 und hat sich mit diesen Kindern um 17.30 Uhr abends ein Jet-Ski ausgeliehen.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 270.05,
+   "ende": 273.59,
+   "text": "Und normalerweise fahren die dann irgendwie 15 Minuten oder eine halbe Stunde.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 274.43,
+   "ende": 281.25,
+   "text": "Also 17.30 Uhr ist schon so eine grenzwertige Zeit, wo ich so denke, es wird ja hier recht schnell dunkel.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 281.43,
+   "ende": 283.11,
+   "text": "Aber gut, die werden es ja wissen.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 284.25,
+   "ende": 289.83,
+   "text": "Und wir haben selber schon mitbekommen, einmal als wir da so eine Bananaboot-Tour gemacht haben,",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 289.83,
+   "ende": 296.83,
+   "text": "wo mein Bruder und meine Mutter hier waren, dass die sozusagen dann auch die Vermieter teilweise mit ihren Jetskis wieder auch rausfahren",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 296.83,
+   "ende": 301.55,
+   "text": "und die Leute so ein bisschen zurück pfeifen, wenn die dann einfach zu weit weg fahren.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 303.17,
+   "ende": 308.43,
+   "text": "Und die haben auch immer so Fahnen, wo die dann quasi anzeigen, wenn die Jet-Skis zurückkommen sollen.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 309.09,
+   "ende": 312.19,
+   "text": "Auf jeden Fall hat dieser Vater mit den Kindern sich den Jet-Ski ausgeliehen.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 312.49,
+   "ende": 318.13,
+   "text": "Angeblich sei er wohl ein erfahrener Jet-Ski-Lenker, sagt man da, gewesen,",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 318.37,
+   "ende": 322.91,
+   "text": "stand so in den Nachrichten, ob es so war oder ob er das nur gesagt hat, wie auch immer.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 322.91,
+   "ende": 329.69,
+   "text": "Ja, auf jeden Fall hat er das ausgedehnt und kam nicht zurück zu dieser vereinbarten Uhrzeit, sollte wohl 18 Uhr sein.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 329.77,
+   "ende": 333.83,
+   "text": "Die Mutter und die Tochter waren am Strand und haben gewartet und die kamen halt nicht zurück.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 334.71,
+   "ende": 339.49,
+   "text": "So, dann hat man wohl erst noch ein bisschen länger gewartet und irgendwann sind natürlich dann die Jetskis,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 339.55,
+   "ende": 342.63,
+   "text": "also die Vermieter auch rausgefahren, haben nach denen gesucht und haben die nicht gefunden.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 344.45,
+   "ende": 348.63,
+   "text": "Drei Stunden später wurde dann wohl erst die Polizei informiert.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 349.41,
+   "ende": 354.49,
+   "text": "Vermutlich hat man bis dahin halt versucht, das irgendwie intern zu lösen.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 354.75,
+   "ende": 359.57,
+   "text": "Also, dass einfach die Jetski-Verleiher und der kennt den und der hat ein Boot und keine Ahnung.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 359.93,
+   "ende": 362.77,
+   "text": "Aber auf jeden Fall, sage ich mal, so die richtig große Suchaktion,",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 363.19,
+   "ende": 367.11,
+   "text": "wo auch wirklich die Offiziellen eingeschaltet wurden, ist erst drei Stunden später passiert.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 367.21,
+   "ende": 368.31,
+   "text": "Da war es dann halb neun.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 369.23,
+   "ende": 371.07,
+   "text": "Also auch auf jeden Fall schon dunkel.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 371.63,
+   "ende": 373.19,
+   "text": "Da hatte man die immer noch nicht gefunden.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 374.39,
+   "ende": 378.11,
+   "text": "Und dann wurde wohl bis nachts ein Uhr gesucht.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 378.63,
+   "ende": 382.53,
+   "text": "und dann musste die Suche aber abgebrochen werden wegen den Wetterverhältnissen,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 382.67,
+   "ende": 385.53,
+   "text": "weil einfach zu viele hohe Wellen waren und es zu windig wurde.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 385.65,
+   "ende": 387.43,
+   "text": "Das heißt, man hatte die einfach nicht gefunden.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 388.29,
+   "ende": 390.57,
+   "text": "Was ja schon mal die absolute Horrorvorstellung fände ich mir,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 390.85,
+   "ende": 395.05,
+   "text": "also als Mutter und Tochter dann am Strand oder dann irgendwann zu Hause zu sein",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 395.05,
+   "ende": 399.65,
+   "text": "und man geht ja einfach dann davon aus, dass sie tot sind und ertrunken sind",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 399.65,
+   "ende": 403.27,
+   "text": "oder vielleicht irgendwie, wenn man noch ganz viel Hoffnung hat,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 403.63,
+   "ende": 405.71,
+   "text": "auf irgendeiner anderen Insel angekommen sind.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 405.71,
+   "ende": 420.85,
+   "text": "Aber selbst dann hätte man die ja irgendwie verständigt schon. Dann wurde wohl die Suche am nächsten Morgen um 9 Uhr fortgesetzt, wo ich auch schon dachte, okay, man steckt halt nicht drin und man denkt immer, ja, gut, die werden wissen, was sie tun, aber warum um 9?",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 420.85,
+   "ende": 438.63,
+   "text": "Also ich würde irgendwie so denken, man setzt ja die Suche vielleicht dann einfach genau dann fort, wenn es wieder hell ist, aber wer weiß, vielleicht haben da die Wetterverhältnisse auch noch nicht gepasst. Auf jeden Fall wurden die dann um gegen 11 Uhr tatsächlich gefunden, lebend, im Wasser treibend.",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 438.63,
+   "ende": 442.83,
+   "text": "Und der Jet-Ski, da haben die Bilder gezeigt, deswegen, die zeigen hier alles,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 443.63,
+   "ende": 448.59,
+   "text": "da hat die Schnauze vom Jet-Ski sozusagen, hat senkrecht aus dem Wasser rausgeguckt.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 449.03,
+   "ende": 451.89,
+   "text": "Der kleinere Junge, die hatten zum Glück alle Schwimmbästen an,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 451.93,
+   "ende": 456.97,
+   "text": "der kleinere Junge hat sozusagen an dieser Spitze vom Jet-Ski geklammert",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 456.97,
+   "ende": 460.13,
+   "text": "und der Vater und der Sohn haben halt im Wasser gelegen",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 460.13,
+   "ende": 464.17,
+   "text": "und sich am Jet-Ski dann festgehalten oder zumindest in der Nähe.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 464.17,
+   "ende": 481.89,
+   "text": "Und sie haben tatsächlich alle drei überlebt und sind auch letztendlich ohne, jetzt sage ich mal, schwerwiegende körperliche Schäden davongekommen. Sie waren natürlich dehydriert und natürlich auch im Schock und sind dann auch erstmal ins Krankenhaus gekommen und wurden da untersucht und so weiter.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 481.89,
+   "ende": 493.43,
+   "text": "aber sie haben jetzt, waren jetzt halt auch nicht super krass unterkühlt oder so, also sie haben gesundheitlich, zumindest körperlich gesundheitlich, nicht wirklich, ist ihnen nicht wirklich was passiert.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 493.51,
+   "ende": 504.81,
+   "text": "Was das mental bedeuten muss, ja, also was das für die mentale Gesundheit bedeuten muss, das kann ich mir gar nicht im Entferntesten ausmalen, ja, weil es ist ja, da spielen ja so viele Faktoren rein,",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 504.81,
+   "ende": 524.57,
+   "text": "Also als Elternteil, du machst das. Es ist bis jetzt immer noch und deswegen, es gibt hier ein paar andere, gerade ist hier so ein ganz großes Thema, weiß nicht, das war in den deutschen Medien, ja, da hat hier ein Art Tierpark, hat israelischen Staatsbürgern den Eintritt verwehrt, weil sie israelische Staatsbürger sind.",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 524.57,
+   "ende": 542.95,
+   "text": "Das ist hier nicht unüblich, dass irgendwie so Schilder sind. No entry for Israels. Mag man jetzt von halten, was man will. Auf jeden Fall dieses Thema wird hier übelst hochgekocht. Jeden Tag 20 Meldungen dazu. Und ich glaube, wie gesagt, dass es auch in den deutschen Medien war.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 542.95,
+   "ende": 546.31,
+   "text": "Aber so diese Jet-Ski-Nummer ist gar nichts mehr zu finden.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 546.41,
+   "ende": 550.71,
+   "text": "Das war irgendwie zwei, drei Tage, wo das halt passiert ist, war das halt hier in den Medien.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 550.85,
+   "ende": 555.65,
+   "text": "Und jetzt hört man darüber gar nichts mehr, wo ich so denke, das ist ja tendenziell viel, viel schlimmer,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 556.67,
+   "ende": 559.33,
+   "text": "als dass jetzt irgendwer in irgendeinen Tierpark nicht reingekommen ist.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 560.87,
+   "ende": 567.35,
+   "text": "Und deswegen ist halt auch nicht so ganz klar, was wirklich dazu geführt hat, dass dieses Unglück so passiert ist.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 567.35,
+   "ende": 572.31,
+   "text": "Das erinnert mich so ein bisschen an diesen Film Open Water 2, wo die alle vom Boot springen.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 572.95,
+   "ende": 583.73,
+   "text": "Und dann vergessen, die Leiter runterzumachen und nicht mehr auf das Boot kommen und die ganze Zeit versuchen, an dieser glitschigen Wand hochzukommen und sozusagen im Wasser sind, ja auch über Nacht.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 583.73,
+   "ende": 595.23,
+   "text": "Und so habe ich so, da muss ich so die ganze Zeit dran denken, weil dieser Vater war halt einmal mit seinen zwei Kindern von irgendwie, keine Ahnung, 17.30 bis morgens um 11 Uhr im Wasser.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 595.23,
+   "ende": 610.65,
+   "text": "Aber laut dem letzten Stand ist es so gewesen, dass der Jetski einen Motorschaden hatte und dadurch quasi gekentert ist oder zumindest teilweise gekentert ist, wodurch sie nicht zurückfahren konnten.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 610.83,
+   "ende": 619.47,
+   "text": "Was im Umkehrschluss ja aber heißt, dass sie quasi mehr oder weniger sehr früh schon, sie hätten ja um 18 Uhr zurück sein sollen nach einer halben Stunde.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 619.47,
+   "ende": 641.35,
+   "text": "Das heißt, wenn der Motorschaden innerhalb der ersten halben Stunde dann schon dazu geführt hat, dass sie nicht mehr zurückfahren konnten, waren sie ja ab dann eben auch im Wasser. Und das bis zum nächsten Morgen um elf, mal ganz abgesehen von Hunger und Durst, was wahrscheinlich irgendwann völlig egal wird, zumindest im Kopf, weil es ja nur noch ums Überleben geht.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 642.01,
+   "ende": 645.27,
+   "text": "Aber ich sage mal so, diese typischen, wie Kinder das halt auch haben,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 645.35,
+   "ende": 647.67,
+   "text": "ja, ich habe jetzt aber Hunger oder ich habe jetzt aber Durst,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 647.75,
+   "ende": 651.17,
+   "text": "aber mir ist jetzt kalt oder ich will jetzt hier nicht mehr sein oder keine Ahnung.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 651.17,
+   "ende": 654.49,
+   "text": "Also ich könnte mir vorstellen, dass man all diese typischen Querelen",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 654.49,
+   "ende": 660.13,
+   "text": "erstmal auch ein, zwei Stunden mitmacht, weil die Kinder zwar einerseits verstehen,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 660.49,
+   "ende": 663.61,
+   "text": "okay, es geht nicht anders, aber andererseits natürlich ja auch Panik und Angst haben",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 663.61,
+   "ende": 668.79,
+   "text": "und trotzdem ihre eigenen Bedürfnisse haben zu, ich realisiere, es wird jetzt dunkel,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 669.39,
+   "ende": 672.73,
+   "text": "Hier kommt keiner, hier findet uns keiner zu.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 672.97,
+   "ende": 675.87,
+   "text": "Ich realisiere, ich bin jetzt hier die ganze scheiß Nacht auf dem Wasser.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 676.49,
+   "ende": 680.17,
+   "text": "Und ja, das Wasser ist hier warm, aber es ist ja trotzdem nicht so warm.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 680.47,
+   "ende": 683.91,
+   "text": "Also selbst in der Badewanne wird es einem ja irgendwann kalt.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 684.45,
+   "ende": 685.93,
+   "text": "Klar, weil das Wasser auch kälter wird.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 686.01,
+   "ende": 690.55,
+   "text": "Aber auch hier ist es ja so, je tiefer es wird und je kühler es außen wird,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 690.57,
+   "ende": 692.79,
+   "text": "wenn die Sonne weg ist und so, wird ja auch das Wasser kälter.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 692.79,
+   "ende": 694.93,
+   "text": "Und der Körper gibt ja auch immer mehr Wärme ab.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 695.05,
+   "ende": 697.31,
+   "text": "Das heißt, es ist ja trotzdem nicht so muckelig warm,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 697.31,
+   "ende": 699.41,
+   "text": "wie wenn man mal kurz irgendwie 10 Minuten baden geht.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 700.69,
+   "ende": 704.03,
+   "text": "Das heißt, die werden ja trotzdem gefroren haben, hängen da im Wasser,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 704.19,
+   "ende": 707.89,
+   "text": "haben eben noch nicht mal mehr den Jetski, wo sie sich draufsetzen können,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 708.01,
+   "ende": 709.03,
+   "text": "hängen die ganze Zeit mit ihren Beinen.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 709.43,
+   "ende": 711.77,
+   "text": "Ich bin da nicht so super empfindlich, aber es gibt halt Menschen,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 711.87,
+   "ende": 714.47,
+   "text": "so Hagen ist ja auch so, die absolute Paranoia haben,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 714.87,
+   "ende": 717.69,
+   "text": "wenn sie im Tiefen sind und nicht sehen können und ihre Füße,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 718.61,
+   "ende": 722.45,
+   "text": "also so dieses Gefühl, da kann halt jederzeit irgendwie ein Fisch dran langschwimmen",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 722.45,
+   "ende": 724.75,
+   "text": "oder da kann halt jederzeit von unten irgendwas hochkommen",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 724.75,
+   "ende": 726.67,
+   "text": "und dir an den Fuß schnappen oder so.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 726.67,
+   "ende": 729.95,
+   "text": "Und da gibt es ja wirklich Menschen, die da panische Angst vorhaben.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 730.05,
+   "ende": 733.45,
+   "text": "Wie gesagt, Hagen gehörte auch zu, was ganz witzig ist als Kitesurfer.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 733.57,
+   "ende": 735.93,
+   "text": "Aber da sagt er immer, er steht ja auf dem Brett, da passiert ja nichts.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 737.61,
+   "ende": 740.27,
+   "text": "Aber solche Ängste kommen ja mit rein.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 740.27,
+   "ende": 747.19,
+   "text": "Und dann auch so dieses, wenn es dann dunkel ist, so dieses Gefühl, wird uns überhaupt jemand retten?",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 747.31,
+   "ende": 751.59,
+   "text": "Also an welchem Punkt geht man davon aus, dass man das vielleicht nicht überleben wird?",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 751.59,
+   "ende": 770.53,
+   "text": "Und dann eben auch, man hat ja als Elternteil dann, als Vater in dem Fall, so viele Komponenten von der eigenen Angst, der eigenen Angst zu sterben, der Angst um die Kinder, der Angst darum, dass die Kinder sterben oder dass man vielleicht zuerst stirbt und die Kinder dann alleine da sind.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 770.53,
+   "ende": 775.45,
+   "text": "das Bewusstsein, dass man eine Verantwortung hat und der einfach nicht nachgekommen ist.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 775.55,
+   "ende": 778.39,
+   "text": "Weil es gab da natürlich auch viele Spekulationen.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 778.43,
+   "ende": 781.75,
+   "text": "Ja, warum fährt der dann irgendwie überhaupt so weit raus, dass er nicht zurückkommt?",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 781.87,
+   "ende": 783.49,
+   "text": "Warum ist er nicht zu einer anderen Insel gefahren?",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 783.61,
+   "ende": 784.67,
+   "text": "Warum dies, warum jenes?",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 785.05,
+   "ende": 786.39,
+   "text": "Warum hat er denn überhaupt gemietet?",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 786.59,
+   "ende": 788.95,
+   "text": "Warum wurde der überhaupt noch vermietet um die Uhrzeit?",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 789.15,
+   "ende": 795.31,
+   "text": "Also es gibt ja viele Sachen, wo man sagt, okay, zum Beispiel, wenn der jetzt rausfährt",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 795.31,
+   "ende": 799.19,
+   "text": "und nicht mehr zu sehen ist, warum ist nicht gleich, so wie wir das halt auch schon beobachtet haben,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 799.19,
+   "ende": 819.21,
+   "text": "Ein Jetski vom Verleih hinterher gefahren und hat die zurückgefiffen. Wenn es wirklich ein Motorschaden war, wie krass ist das bitte, dass man hier was verleiht, was offenbar in so einem desolaten Zustand ist, dass es nach kürzester Zeit kennt hat, dann auch die Spekulation, er ist einfach super lange gefahren, bis der Sprit alle war.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 819.21,
+   "ende": 824.81,
+   "text": "Aber selbst dann, wenn das vermietet wird, muss ja der Sprit zumindest für diese halbe Stunde noch reichen.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 826.43,
+   "ende": 830.17,
+   "text": "Also wie gesagt, es ist nicht weiter bis jetzt geklärt.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 830.59,
+   "ende": 837.17,
+   "text": "In den letzten Meldungen, die waren, hat sich bis zu dem Zeitpunkt hatte sich der Vater auch noch nie selbst zu dieser Sache geäußert,",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 837.77,
+   "ende": 840.27,
+   "text": "weil er wahrscheinlich auch noch im Schockzustand war.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 840.59,
+   "ende": 844.87,
+   "text": "Ich weiß auch nicht, warum das jetzt sozusagen hier mehr oder weniger unter den Teppich gekehrt wird,",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 844.87,
+   "ende": 852.49,
+   "text": "weil ja nach wie vor die Frage offen bleibt, wie viel Verantwortung trägt eben der Vermieter und inwieweit hätte das verhindert werden können.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 852.63,
+   "ende": 856.87,
+   "text": "Und wenn es jetzt, sage ich mal, ein Anwenderfehler war, inwieweit ist es überhaupt sinnvoll,",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 857.61,
+   "ende": 862.75,
+   "text": "dass man einfach so hier mit seinen Kindern, mit dem Jet-Ski in einem Gebiet rumbrettern kann, was man nicht kennt.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 864.27,
+   "ende": 871.83,
+   "text": "Plus, dass ich mich auch frage, also zum Beispiel, wir haben, selbst wenn wir irgendwie mal mit dem Kanu oder mit dem SUP rausgefahren sind,",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 871.83,
+   "ende": 874.71,
+   "text": "Die haben zum Beispiel immer ein Handy in so einer wasserdichten Hülle.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 875.31,
+   "ende": 881.09,
+   "text": "Und warum haben die Jetskis zum Beispiel keine Tracker oder warum haben die keine Funkgeräte?",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 881.25,
+   "ende": 885.29,
+   "text": "Also der, der fährt, der, der mietet zu den Vermietern.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 885.33,
+   "ende": 889.21,
+   "text": "Da gibt es einfach super viele Fragen, wo man so denkt, wie kann es sein?",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 889.77,
+   "ende": 898.17,
+   "text": "Aber neben diesen ganzen faktenbasierten Dingen ist mir das auch total nahegegangen,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 898.17,
+   "ende": 901.21,
+   "text": "weil man sich auch so als Mutter, wenn ich mir das so vorstelle,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 901.65,
+   "ende": 906.33,
+   "text": "Vielleicht hat die sogar noch gesagt, mach das nicht, es ist schon so spät oder du kennst dich hier nicht aus.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 906.41,
+   "ende": 910.33,
+   "text": "Keine Ahnung, weil ich eben gerade vorher mit Hagen dieses Gespräch hatte, ja, habe ich mir so gedacht,",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 910.75,
+   "ende": 916.01,
+   "text": "so wer weiß, vielleicht hat sie auch, ich habe ja zum Beispiel auch den Tag, wo die den Rollerunfall hatten,",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 916.55,
+   "ende": 919.63,
+   "text": "auch gesagt, fahrt doch mit dem Auto, ja.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 919.63,
+   "ende": 925.11,
+   "text": "Da hat Hagen im Nachhinein auch gesagt, dass es für ihn auch so schlimm war, dass ich das quasi noch gesagt habe",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 925.11,
+   "ende": 928.89,
+   "text": "und er halt sich, ich sage jetzt mal, widersetzt hat, ja, und gesagt hat,",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 928.89,
+   "ende": 931.81,
+   "text": "nee, ich mache es aber mit dem Roller und eben nicht auf mich gehört hat.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 931.99,
+   "ende": 934.03,
+   "text": "Ich meine, da kann man immer sagen, hätte, hätte, Fahrradkette.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 934.63,
+   "ende": 939.31,
+   "text": "Aber wie muss das auch als andere Elternteil und das andere Geschwisterkind,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 939.43,
+   "ende": 941.97,
+   "text": "die am Strand sitzen und die dann irgendwann nach Hause gehen müssen,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 942.05,
+   "ende": 945.31,
+   "text": "in die Hotel gehen müssen, die wissen, dass die irgendwo entweder",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 945.31,
+   "ende": 948.65,
+   "text": "auf einer einsamen Insel irgendwo gestrandet sind, das wäre ja noch gut.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 948.75,
+   "ende": 953.01,
+   "text": "Aber trotzdem, auch dann hätten die ja Angst und hätten nichts zu essen, nichts zu trinken.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 953.53,
+   "ende": 955.69,
+   "text": "Dass die vielleicht schon gestorben sind, dass die irgendwo treiben.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 955.69,
+   "ende": 958.59,
+   "text": "Also es sind ja zig Horrorvorstellungen, die dann einem vorgehen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 958.89,
+   "ende": 977.55,
+   "text": "Und wie gesagt, dass sie einfach wirklich diese ganze Nacht da auf dem Wasser verbracht haben, ohne dass ihnen halt wirklich was passiert ist. Es gibt ja hier aktuell ist zum Beispiel auch Würfelquallenzeit, also das heißt, das ist so eine spezielle Quallenart, die von Australien auch rübergetrieben wird.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 977.55,
+   "ende": 979.47,
+   "text": "Da gibt es hier auch ab und an Todesfälle.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 980.49,
+   "ende": 981.65,
+   "text": "Auf jeden Fall ist das super gefährlich.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 981.93,
+   "ende": 984.91,
+   "text": "Das sind ja so Sachen, die kann einem auch beim Baden passieren.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 985.09,
+   "ende": 990.59,
+   "text": "Aber dass denen halt einfach so gar nichts passiert ist, ist ja schon echt krass.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 990.59,
+   "ende": 994.79,
+   "text": "Auch bei der Suchaktion, auch wenn die dann bis nachts um eins gesucht wurden, es war schon dunkel,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 994.91,
+   "ende": 998.91,
+   "text": "dass da nicht irgendwie, keine Ahnung, dann irgendwer über die drüber gefahren ist.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 999.05,
+   "ende": 1002.55,
+   "text": "Weil das ist ja trotzdem nur so ein kleiner Punkt auf dem riesigen Meer.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1002.99,
+   "ende": 1008.37,
+   "text": "Und sie sind halt sehr, sehr weit vom Fest, also von irgendeiner Inselmasse weggefunden worden.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1008.53,
+   "ende": 1012.19,
+   "text": "Also es ist jetzt auch nicht so, dass sie irgendwie vielleicht hätten da irgendwo hinschwimmen können.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1013.13,
+   "ende": 1015.87,
+   "text": "Und warum erzähle ich das jetzt so?",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1017.11,
+   "ende": 1021.41,
+   "text": "Also zum einen, weil es mich einfach super beschäftigt hat und zum anderen, weil ich zum Beispiel so jemand bin,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1021.41,
+   "ende": 1026.67,
+   "text": "der immer denkt, bei Sachen, die eventuell schwierig, brenzlig, keine Ahnung.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1026.67,
+   "ende": 1035.21,
+   "text": "Ich bin immer so jemand, der so ein Vertrauen hat in das, in die Sache von, die werden das schon wissen, die machen das jeden Tag.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1035.59,
+   "ende": 1043.33,
+   "text": "Also wenn man auf einer Fähre ist oder auf so einem Speedboot, wo wir jetzt zum Tauchen gefahren sind, da wo meine Mutter und mein Bruder da waren,",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1043.73,
+   "ende": 1049.99,
+   "text": "dieses Speedboot brettert halt wie wahnsinnig über den Ozean und knallt da drüber und man denkt so, okay, krass.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1051.01,
+   "ende": 1054.67,
+   "text": "Und ich denke dann aber sofort, naja, die werden ja wissen, was die tun, weil die machen das ja jeden Tag.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1054.67,
+   "ende": 1069.63,
+   "text": "Ja, ist ja am Ende auch im Flugzeug so. Ich habe keine Flugangst, so zum Glück, aber ich denke mir dann halt immer, ja, es ist ja jetzt nicht so, dass irgendwie, also die Wahrscheinlichkeit jetzt bei einem Flugzeugabschluss zu sterben, ist halt, es ist auf jeden Fall gefährlicher, hier auf Koh Samui Roller zu fahren.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1070.49,
+   "ende": 1073.31,
+   "text": "Aber die werden schon wissen, was sie tun.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1074.05,
+   "ende": 1078.83,
+   "text": "Wir haben ja auch, ich habe ja auch einen Bungee-Jump in Südafrika gemacht",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1078.83,
+   "ende": 1080.03,
+   "text": "oder einen Fallschimpfung.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1080.03,
+   "ende": 1083.75,
+   "text": "Das sind ja auch alles so Sachen, wo, wenn man dann irgendwie denkt,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1083.83,
+   "ende": 1087.03,
+   "text": "ja, was ist, wenn dies und jenes passiert, wo ich dann immer sofort denke,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1087.37,
+   "ende": 1090.87,
+   "text": "wenn das ständig passieren würde oder wenn das so gefährlich wäre",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1090.87,
+   "ende": 1094.73,
+   "text": "und so eine hohe Unfallgefahr wäre, dann würden die das ja nicht anbieten.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1094.73,
+   "ende": 1115.21,
+   "text": "Ja, aber wenn man dann, wenn man dann immer irgendwo nur im Urlaub ist, dann kann ich damit, also dann bin ich damit immer gut klargekommen mit dieser Einstellung. Ja, die werden schon wissen, was sie tun. Aber wenn man dann dauerhaft in einem Land lebt, wo man dann doch immer wieder an der einen oder anderen Stelle realisiert, wie es so um die Sicherheit besteht.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1115.21,
+   "ende": 1119.31,
+   "text": "Wir machen dann immer schon so einen Spaß und sagen, das ist bestimmt nicht TÜV geprüft, ja.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1119.91,
+   "ende": 1122.57,
+   "text": "Und in Deutschland ist es ja eher so, dass wir manchmal denken,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1123.35,
+   "ende": 1128.15,
+   "text": "oh meine Güte, so viele Vorschriften, so viele Regularien und das muss vorher noch getestet werden",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1128.15,
+   "ende": 1131.23,
+   "text": "und hier muss nochmal der drüber gucken und das muss nochmal zertifiziert werden,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1131.31,
+   "ende": 1133.29,
+   "text": "wo man manchmal denkt, mein Gott, man kann es auch übertreiben.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1133.39,
+   "ende": 1135.13,
+   "text": "In anderen Ländern funktioniert es ja auch.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1135.67,
+   "ende": 1140.69,
+   "text": "Und ja, es gibt ja auch in Deutschland Unglücke oder zum Beispiel diese Nummer da in Lissabon,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1140.69,
+   "ende": 1144.13,
+   "text": "wo diese Gondel da runtergesaust ist, ja.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1144.13,
+   "ende": 1147.47,
+   "text": "und die Familie da gestorben ist oder ich glaube, das Kind hat überlebt,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1147.57,
+   "ende": 1151.69,
+   "text": "aber ist ja jetzt auch, Lissabon ist ja jetzt auch nicht irgendwie, wo man so denkt,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1151.81,
+   "ende": 1155.75,
+   "text": "okay, die wüsste nicht, wie man da, hat ja auch zig Jahre funktioniert, diese Seilbahnnummer da, ne.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1156.17,
+   "ende": 1159.71,
+   "text": "Aber grundsätzlich, wenn man dann jetzt hier eine Weile ist,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1159.71,
+   "ende": 1165.77,
+   "text": "dann merkt man eben an der einen oder anderen Stelle doch, okay, ja, wissen die wirklich, was sie tun?",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1165.93,
+   "ende": 1171.33,
+   "text": "Ist wirklich, ne, ist es wirklich so unsere deutsche Mentalität, dass wir es alles so eng sehen?",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1171.33,
+   "ende": 1180.25,
+   "text": "oder sind die vielleicht doch ein bisschen, ja sag ich mal, wie soll ich sagen, ein bisschen zu entspannt eingestellt an manchen Dingen",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1180.25,
+   "ende": 1184.47,
+   "text": "und nehmen manche Dinge, müssten manche Dinge vielleicht etwas genauer nehmen und tun es nicht.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1184.75,
+   "ende": 1190.29,
+   "text": "Weil am Ende des Tages ist das, was wir auch realisieren, es geht halt immer darum, Geld zu verdienen.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1190.29,
+   "ende": 1199.35,
+   "text": "Ja und dabei, das steht an allererster Stelle und dabei, weil man könnte ja auch sagen, wenn jetzt zu dir jemand sagt,",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1199.93,
+   "ende": 1202.01,
+   "text": "ich würde auf Koh Samui, vor allem auf Koh Samui,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 2.0
+  },
+  {
+   "start": 1202.09,
+   "ende": 1203.85,
+   "text": "keinen Roller fahren, weil das ist gefährlich.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 2.0
+  },
+  {
+   "start": 1204.03,
+   "ende": 1206.85,
+   "text": "Oder allgemein der Straßenverkehr auf Koh Samui ist sehr gefährlich.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 2.0
+  },
+  {
+   "start": 1207.51,
+   "ende": 1210.31,
+   "text": "Dann könnte man ja sagen, naja, wenn es jetzt so gefährlich wäre,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 2.0
+  },
+  {
+   "start": 1210.41,
+   "ende": 1212.99,
+   "text": "würden ja nicht so viele Leute auf Koh Samui Roller fahren.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 2.0
+  },
+  {
+   "start": 1213.61,
+   "ende": 1214.81,
+   "text": "Wenn es jetzt so gefährlich wäre,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 2.0
+  },
+  {
+   "start": 1215.23,
+   "ende": 1217.03,
+   "text": "würden es ja nicht so viele Vermieter geben,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 2.0
+  },
+  {
+   "start": 1217.37,
+   "ende": 1220.47,
+   "text": "die irgendwelchen Ausländern ohne Führerschein Roller vermieten.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 2.0
+  },
+  {
+   "start": 1220.73,
+   "ende": 1222.87,
+   "text": "Wenn es so gefährlich wäre, ohne Helm zu fahren,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 2.0
+  },
+  {
+   "start": 1222.87,
+   "ende": 1224.65,
+   "text": "würde es ja viel mehr Kontrollen geben.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 2.0
+  },
+  {
+   "start": 1225.27,
+   "ende": 1228.37,
+   "text": "Aber so kann man halt hier nicht, also nicht nur hier,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 2.0
+  },
+  {
+   "start": 1228.37,
+   "ende": 1231.53,
+   "text": "Ich glaube, es ist auch in anderen Ländern so. So kann man halt nicht daran gehen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1231.65,
+   "ende": 1237.01,
+   "text": "Die Roller vermieten, die Roller, weil sie damit Geld verdienen. Und solange sie damit Geld verdienen können, machen sie das.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1237.43,
+   "ende": 1246.55,
+   "text": "Und wenn die Jetskis, wenn auch schon mal zur Debatte stand, dass Jetskis Tracker brauchen oder Funkgerät oder keine Ahnung, das sind natürlich Investitionen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1246.61,
+   "ende": 1253.11,
+   "text": "Und solange niemand dazu gezwungen wird, diese Investitionen zu tätigen, macht das vielleicht auch keiner.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1253.11,
+   "ende": 1272.03,
+   "text": "Und wir fliegen ja jetzt bald nach Indonesien und da habe ich auch ein paar Storys gehört, dass jetzt kürzlich, ist jetzt auch kürzlich, meine ich jetzt im Zeitfenster von so in den letzten paar Monaten, ein, zwei Jahren, es relativ viele Bootsunglücke gab.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 1272.03,
+   "ende": 1285.35,
+   "text": "Unter anderem auch ein Bootsunglück von der Fähre von Bali auf die Gili-Inseln, womit wir auch fahren werden. Und in so einem Boot denke ich halt auch immer, ja, die werden schon wissen, was sie machen.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.36
+  },
+  {
+   "start": 1285.35,
+   "ende": 1306.31,
+   "text": "Ja, dann habe ich auch zu fragen, dann haben wir auch so darüber geredet. Okay, was ist denn jetzt die Moral von der Geschichte? Also was ist denn jetzt die Quintessenz? Soll ich jetzt eben nicht mehr mit der Fähre auf die Gili-Inseln fahren? Soll ich mir kein Jet-Ski mehr ausleihen? Soll ich keinen Roller mehr fahren? Soll ich keinen Bungee-Jump mehr machen? Ja, soll ich keinen Tauchausflug machen? Weil es kann ja immer irgendwas passieren.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1306.31,
+   "ende": 1323.99,
+   "text": "Und das ist halt die Sache, das ist ja gerade jetzt auch ich und vor allen Dingen auch mit dem Motto des Podcasts, das Leben ist zu kurz für irgendwann. Natürlich sollen solche Geschichten nicht dazu verleiten, dass man sagt, ich mache jetzt gar nichts mehr, weil das ist alles viel zu gefährlich.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1323.99,
+   "ende": 1339.95,
+   "text": "Weil zum Beispiel mit diesen Fähren auf Indonesien. Indonesien hat halt tausende von Inseln. Das heißt, die Fähre ist halt einfach ein Fortbewegungsmittel, das dort viel, viel, viel, viel häufiger zum Einsatz kommt, als vielleicht in, keine Ahnung, Österreich eine Fähre zum Einsatz kommt.",
+   "avg_logprob": -0.046,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1339.95,
+   "ende": 1341.61,
+   "text": "Das liegt ja an der Natur der Sache.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1342.11,
+   "ende": 1344.35,
+   "text": "Das heißt, je mehr Fähren im Einsatz sind,",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1344.69,
+   "ende": 1346.31,
+   "text": "desto höher ist die Wahrscheinlichkeit,",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1346.61,
+   "ende": 1348.15,
+   "text": "dass auch da mal was passiert.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1348.55,
+   "ende": 1350.99,
+   "text": "Und je mehr Roller im Einsatz sind,",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1351.07,
+   "ende": 1352.59,
+   "text": "desto höher ist auch die Wahrscheinlichkeit,",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1352.71,
+   "ende": 1354.17,
+   "text": "dass es mehr Rollerunfälle gibt.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1354.37,
+   "ende": 1356.95,
+   "text": "Als auf den Gili-Inseln selbst,",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1357.03,
+   "ende": 1358.67,
+   "text": "zum Beispiel auf der wir sind,",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1359.03,
+   "ende": 1360.15,
+   "text": "sind zum Beispiel keine,",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1360.25,
+   "ende": 1362.29,
+   "text": "also Autos und Roller und sowas nicht erlaubt.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1362.35,
+   "ende": 1364.91,
+   "text": "Die haben wahrscheinlich jetzt keine hohe Unfallstatistik",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1364.91,
+   "ende": 1365.63,
+   "text": "mit Rollern und Autos.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1365.71,
+   "ende": 1366.93,
+   "text": "Also man muss das ja auch immer alles",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1366.93,
+   "ende": 1368.67,
+   "text": "wieder so im Verhältnis sehen.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1368.67,
+   "ende": 1369.53,
+   "text": "Und vor allen Dingen,",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1369.95,
+   "ende": 1376.25,
+   "text": "Jetzt so ein Flugzeugunglück auch. Ja, sowas passiert auch und dann sind halt einfach auf Masse unfassbar viele Menschen tot.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1376.83,
+   "ende": 1381.83,
+   "text": "Aber es ist am Ende sterben halt trotzdem viel, viel mehr Menschen im normalen Straßenverkehr.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1383.01,
+   "ende": 1390.65,
+   "text": "Und das, was jetzt diesem Jetski-Vater mit seinen Kindern passiert, das ist natürlich nicht so, dass jetzt hier jede Woche so eine Nummer passiert.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1391.19,
+   "ende": 1396.79,
+   "text": "Und man wirklich sagen müsste, okay, also Jetski ausleihen, das kannst du gar nicht machen, das ist urstgefährlich.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1396.79,
+   "ende": 1413.53,
+   "text": "Aber was uns diese Geschichte nochmal gezeigt hat und deswegen erzähle ich sie auch, ist, dass man, auch wenn man jetzt, sage ich mal, so ein gutgläubiger Mensch ist wie ich, der irgendwie dieses Vertrauen hat von, die wissen schon, was sie machen, man darf halt nicht sein Gehirn abgeben.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1413.53,
+   "ende": 1428.09,
+   "text": "Ja, wenn man gerade im Urlaub, ich habe ja auch auf dem Kreuzfahrtschiff gearbeitet, da haben wir aus Spaß auch immer gesagt, ey, wenn die Leute hier einchecken oder an Bord gehen, geben die ihr Gehirn ab und die holen es erst wieder, wenn sie mit dem Schiff wieder zu Hause, also wenn sie wieder in ihrem Heimathafen sind.",
+   "avg_logprob": -0.046,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1428.09,
+   "ende": 1457.99,
+   "text": "weil man manchmal wirklich bei erwachsenen Leuten sich gedacht hat, was ist das denn für eine Frage oder wie kann man denn so, die sind, wenn zwei AIDA-Schiffe in einem Hafen lagen, dann wussten die gar nicht, auf welches sie gehen sollen, weil sie sich null mit ihren, mit ihrer Umgebung, also sie wissen nicht, wie das Schiff heißt, die wissen aus meiner Sicht manchmal noch nicht mal, in welchem Land sie gerade sind, ja und man hat immer in so einem Urlaubsmodus das Gefühl, dass Leute aufhören nachzudenken so und jetzt ist es bei dieser Sache so, okay,",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1457.99,
+   "ende": 1465.13,
+   "text": "Wenn es wirklich ein Motorschaden war, dann hätte der Vater vielleicht, auch wenn er nachgedacht hätte, nichts daran ändern können.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1465.25,
+   "ende": 1467.95,
+   "text": "Aber vielleicht ist er auch einfach zu weit rausgefahren.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1468.07,
+   "ende": 1470.95,
+   "text": "Vielleicht hat er sich auch einfach überschätzt, weil er erfahren ist.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1471.09,
+   "ende": 1476.55,
+   "text": "Die meisten Tauchunfälle passieren ja auch guten Tauchern, die schon sehr, sehr viel Erfahrung haben.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1476.89,
+   "ende": 1482.75,
+   "text": "Weil Menschen, die sehr viel Erfahrung und irgendwas haben, oft denken, ihnen kann das halt nicht mehr passieren.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1483.95,
+   "ende": 1487.81,
+   "text": "Aber was uns das halt einfach nochmal gezeigt hat, ist, dass man einfach mitdenken muss.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1487.81,
+   "ende": 1499.23,
+   "text": "Dass man sich nicht darauf verlassen darf, die werden es schon wissen und da wird schon nichts passieren, sonst würden die das ja nicht erlauben oder sonst würden die das ja nicht anbieten.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1499.23,
+   "ende": 1507.59,
+   "text": "Denn es ist nicht immer so hier die sicherste und gesündeste Haltung, sondern wirklich selber mitdenken.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1507.59,
+   "ende": 1511.03,
+   "text": "In dem Fall jetzt vielleicht auf jeden Fall ein Handy mitnehmen.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1511.75,
+   "ende": 1518.45,
+   "text": "Vielleicht auch irgendwie nicht um 17.30 Uhr erst, kurz bevor es dunkel wird, noch so eine Aktion starten.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1518.51,
+   "ende": 1520.67,
+   "text": "Keine Ahnung, man ist hinterher immer schlauer.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1521.11,
+   "ende": 1529.15,
+   "text": "Aber ich finde, so Sachen veranlassen einen selber ja auch dazu, eigene Entscheidungen manchmal nochmal zu reflektieren.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1529.23,
+   "ende": 1531.27,
+   "text": "zu überlegen, okay, wie hätte ich das vielleicht gemacht",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1531.27,
+   "ende": 1533.33,
+   "text": "oder vielleicht hatte ich sowas auch",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1533.33,
+   "ende": 1535.47,
+   "text": "vor und denke jetzt zweimal darüber nach",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1535.47,
+   "ende": 1537.25,
+   "text": "und checke vielleicht selber",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1537.25,
+   "ende": 1538.67,
+   "text": "nochmal, ist der Tank voll?",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1539.93,
+   "ende": 1541.55,
+   "text": "Habe ich ein Kommunikationsmittel",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1541.55,
+   "ende": 1543.05,
+   "text": "dabei? Habe ich vielleicht auch noch irgendwie",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1543.05,
+   "ende": 1545.09,
+   "text": "eine Flasche Wasser hier an so einem",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1545.09,
+   "ende": 1547.15,
+   "text": "Beutel, an so einem wasserdichten",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1547.15,
+   "ende": 1549.17,
+   "text": "Beutel? Also man macht",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1549.17,
+   "ende": 1551.69,
+   "text": "einfach viele Sachen so automatisch",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1551.69,
+   "ende": 1553.13,
+   "text": "so in diesem Vibe, ist alles",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1553.13,
+   "ende": 1555.17,
+   "text": "cool und so und denkt dann nicht",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1555.17,
+   "ende": 1557.17,
+   "text": "mehr so viel nach und das ist",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1557.17,
+   "ende": 1559.17,
+   "text": "hier ist eben nicht alles TÜV geprüft",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1559.17,
+   "ende": 1574.13,
+   "text": "Und hier ist nicht alles doppelt und dreifach abgesichert. Und man kann trotzdem natürlich nicht jeder Gefahr entgehen. Wenn ich jetzt einen Bungee-Jump mache, ich kann nicht vorher überprüfen, ob das Seil nicht reißt. Ich habe aber auch schon von einem Fall gehört, ich weiß nicht, wo dieser Bungee-Jump war.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1574.13,
+   "ende": 1580.43,
+   "text": "Da ist jemand beim Bungee-Jump gestorben, weil sie vergessen hatten, das Seil dran zu machen an den Menschen.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1581.21,
+   "ende": 1584.09,
+   "text": "Also das sind, wie gesagt, ja komplette Ausnahmefälle.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1584.09,
+   "ende": 1592.83,
+   "text": "Aber ich kann ja selber, also wenn ich da stehe, ich muss doch mitkriegen, dass mir niemand ein Seil an die Füße bindet.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1594.17,
+   "ende": 1597.27,
+   "text": "Deshalb ist das so die Story, einfach so der Aufruf.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1598.11,
+   "ende": 1601.13,
+   "text": "Denkt nach, gebt nicht euer Gehirn ab, nur weil ihr im Urlaub seid.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1601.13,
+   "ende": 1605.37,
+   "text": "Und wenn ihr Sachen noch nie gemacht habt, wo ihr selber aber irgendwie verantwortlich seid,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1605.53,
+   "ende": 1610.29,
+   "text": "dann macht es vielleicht lieber nicht oder macht es vielleicht auch nicht unbedingt mit euren Kindern.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1611.31,
+   "ende": 1616.19,
+   "text": "Also seid euch eurer Sache wirklich sicher und checkt lieber nochmal dreimal nach",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1616.19,
+   "ende": 1619.33,
+   "text": "und geht lieber nochmal drei, vier Situationen durch.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1619.79,
+   "ende": 1622.31,
+   "text": "Es gibt sicherlich auch Dinge, die kann man nicht ändern.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1622.81,
+   "ende": 1627.09,
+   "text": "Wenn wir jetzt halt nach Indonesien fliegen und wenn wir jetzt von Bali auf die Gili-Insel wollen,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1627.27,
+   "ende": 1628.67,
+   "text": "da müssen wir die Fähre nehmen so.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1628.67,
+   "ende": 1655.43,
+   "text": "Also, wenn dann wirklich was passiert, dann haben wir einfach Pech gehabt. Ich kann halt auch nicht vorher einen Bootscheck machen und ich kann auch nicht mit dem Kapitän sprechen, ob er das alles im Griff hat. Ist mir auch klar, man kann nicht alles irgendwie vorher abchecken und nochmal absichern und so weiter. Aber wo man wirklich, wo vieles im eigenen Verantwortungsbereich liegt, denkt nach und geht nicht automatisch davon aus, dass nur weil das immer so gemacht wird, es automatisch sicher ist.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1655.43,
+   "ende": 1675.07,
+   "text": "Ja, wie gesagt, das beste Beispiel ist hier die Rollervermietung. Nur weil hier so viele Rollervermietungen sind und weil so vielen Menschen Roller vermietet werden, ist es nicht sicher. Und deshalb, ja, das Wort zum Montag mitdenken. So, das war's auch schon. Wir sehen uns nächste Woche. Tschüss.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  }
+ ]
+}

@@ -1,0 +1,3314 @@
+{
+ "meta": {
+  "slug": "archi-die-geschichte-eines-freien-hundes",
+  "titel": "Archi – Die Geschichte eines freien Hundes",
+  "datum": "2026-09-07T08:29:49.000Z",
+  "dauer_sekunden": 2353,
+  "guid": "f10a3241-5eb0-455a-a832-b539afaede21",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T06:52:37Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 6,
+   "transkription": 2487
+  },
+  "echtzeitfaktor": 1.06,
+  "anzahl_segmente": 411,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.72,
+   "ende": 15.44,
+   "text": "... hat er einfach ein wunderbares Leben gehabt und hat eben das, was er bei uns ausgelöst hat, auch bei vielen anderen Menschen ausgelöst, die ihm wiederum dann ja auch das zurückgegeben haben, was wir ihm gegeben haben.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.102,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 20.22,
+   "ende": 27.62,
+   "text": "Hallo und herzlich willkommen zu einer neuen Folge DLIZKFI. Das Leben ist zu kurz für irgendwann. Heute mal mit Brille.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.102,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 28.3,
+   "ende": 34.06,
+   "text": "Ich habe, wer es auf Instagram verfolgt hat, ich habe ein Matschauge die letzten Tage gehabt.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 34.14,
+   "ende": 38.78,
+   "text": "Ich habe mir mit dem Fingernagel in das Auge reingekratzt.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 39.1,
+   "ende": 39.86,
+   "text": "Total dumm.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 40.44,
+   "ende": 46.54,
+   "text": "Aber dann habe ich noch dümmer am nächsten Tag, nachdem das passiert war, meine Kontaktlinsen da drauf gemacht,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 46.62,
+   "ende": 49.12,
+   "text": "weil ich dachte, das schützt ja so ein bisschen wie ein Pflaster.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 49.92,
+   "ende": 54.48,
+   "text": "Und als ich dann die Kontaktlinse abends wieder rausgenommen habe, war es, glaube ich, genau eben den Effekt,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 54.48,
+   "ende": 58.14,
+   "text": "den man beim Pflaster hat, nämlich der, dass ich mir das wieder aufgerissen habe.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 58.28,
+   "ende": 60.28,
+   "text": "Das war so wahnsinnige Schmerzen.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 61.4,
+   "ende": 65.92,
+   "text": "Und ja, deswegen konnte ich dann auch gestern keine Folge aufnehmen, weil ich konnte auch kein Licht.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 66.54,
+   "ende": 72.48,
+   "text": "Also ich habe nur mit Sonnenbrille gesessen und naja, deshalb heute etwas verspätet.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 72.54,
+   "ende": 73.72,
+   "text": "Ich habe es ja schon angekündigt.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 74.62,
+   "ende": 77.08,
+   "text": "Und heute geht es nochmal um Archie.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 78.1,
+   "ende": 80.88,
+   "text": "Nicht alle, die den Podcast hören, sind ja auch auf Instagram.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 80.88,
+   "ende": 88.92,
+   "text": "Deswegen kurz nochmal vorab, Archie ist letzte Woche gestorben. Besser gesagt, er ist halt eingeschlafen und nicht wieder aufgewacht.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 89.28,
+   "ende": 98.24,
+   "text": "Und ich wollte hier heute nochmal seine Geschichte ein bisschen ausführlicher erzählen, denn die meisten Zuhörer hier kennen ja eher Deng.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 98.74,
+   "ende": 107.1,
+   "text": "Das liegt einfach daran, dass dadurch, dass Deng eben diese schlimme Infektion hatte und wir mit ihm eben öfter dann zum Tierarzt",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 107.1,
+   "ende": 110.06,
+   "text": "beziehungsweise ins Dog & Cat Rescue Center fahren mussten,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 110.72,
+   "ende": 116.6,
+   "text": "habe ich sowohl hier im Podcast als auch auf Instagram tatsächlich mehr über Deng gesprochen.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 117.84,
+   "ende": 122.86,
+   "text": "Und weniger über Archie, auch wenn die meisten natürlich trotzdem wussten, dass er existiert.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 123.98,
+   "ende": 129.3,
+   "text": "Und ja, letztendlich ist aber eigentlich tatsächlich, wenn man das so sagen darf,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 129.3,
+   "ende": 132.42,
+   "text": "bei Kindern darf man das ja nicht, aber bei Hunden vielleicht schon, ich weiß nicht.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 133.16,
+   "ende": 139.4,
+   "text": "Eigentlich ist Archie unser Lieblingshund gewesen, sage ich jetzt einfach mal so, wie es ist.",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 140.0,
+   "ende": 140.86,
+   "text": "Vor allen Dingen meiner.",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 142.16,
+   "ende": 144.44,
+   "text": "Es liegt einfach am Charakter der beiden Hunde.",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 145.04,
+   "ende": 146.34,
+   "text": "Komme ich später auch nochmal zu.",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 148.08,
+   "ende": 150.24,
+   "text": "Genau, aber mal von Anfang.",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 150.38,
+   "ende": 153.08,
+   "text": "Wir haben Archie vor ziemlich genau vier Jahren kennengelernt.",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 153.18,
+   "ende": 158.5,
+   "text": "Nämlich als wir das erste Mal damals, als wir das Jahr in Thailand waren, in diese Bungalow-Anlage gezogen sind.",
+   "avg_logprob": -0.167,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 158.5,
+   "ende": 162.4,
+   "text": "und es ist erstmal nicht unüblich, dass wenn man hier irgendwo hinzieht,",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 162.5,
+   "ende": 167.42,
+   "text": "dass auf dem Gelände eben auch Straßenhunde leben, also entweder tatsächlich auf dem Gelände oder drumherum",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 167.42,
+   "ende": 171.74,
+   "text": "und immer wenn wir auch mal uns umgeguckt haben nach Wohnungen oder Häusern,",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 171.74,
+   "ende": 174.62,
+   "text": "habe ich auch immer so gedacht, auch wäre ja schön, wenn da auch ein paar Hunde wären,",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 175.18,
+   "ende": 181.3,
+   "text": "weil die Kinder sich eh und je schon einen Hund wünschen oder eben generell alle Tiere gerne um sich rum haben",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 181.3,
+   "ende": 190.02,
+   "text": "und ja, dann fand ich das irgendwie gleich cool, als wir da ankamen, haben wir gleich gesehen, dass da eben zwei Hunde sind",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 190.02,
+   "ende": 197.66,
+   "text": "und haben dann auch die Vermieter gefragt, ob es deren sind, da meinten die, nein, die gehören denen nicht, die sind da halt einfach,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 197.66,
+   "ende": 206.42,
+   "text": "so wie das hier eben bei Straßenhunden so üblich ist, wenn sie Glück haben, haben sie, sag ich mal, ihr abgestecktes Revier, wo sie auch nur alleine sind",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 206.42,
+   "ende": 213.78,
+   "text": "Und wenn sie nicht so viel Glück haben, ja, leben sie zum Teil wirklich auch an der gefährlichen Straße und müssen sich ständig gegen andere Hunde verteidigen.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 214.54,
+   "ende": 224.5,
+   "text": "Und die beiden, Archie und Deng, hatten halt das Glück, dass sie da wirklich eine große Fläche hatten oder haben und ja, auch keine weiteren Hunde zumindest nicht in unmittelbarer Nähe waren.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 224.5,
+   "ende": 236.1,
+   "text": "Und die Hunde, die dann, sag ich mal, weiter weg ihr Gelände hatten, das war einfach klar, okay, das ist deren Revier, das ist unser Revier und in der Regel sind die Hunde auch nicht in das Revier der anderen eingedrungen.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 236.42,
+   "ende": 241.64,
+   "text": "und dann haben wir halt gefragt auch, okay, ist das hier safe mit Kindern,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 241.82,
+   "ende": 245.56,
+   "text": "weil man weiß es ja trotzdem nicht, ist ja auch in Deutschland mit Hunden so,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 245.64,
+   "ende": 249.3,
+   "text": "die einen mögen Kinder, die anderen nicht und die meinten, nö, nö, ist kein Problem",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 249.3,
+   "ende": 254.52,
+   "text": "und ja, so haben wir die quasi kennengelernt und haben uns auch gleich gefreut,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 255.1,
+   "ende": 259.84,
+   "text": "dass die auch recht zutraulich waren, die sind dann vor allem Archie auch eben,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 259.84,
+   "ende": 264.9,
+   "text": "ja, viel auch zu uns zum Bungalow gekommen und haben sich da Leckerlis abgeholt,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 264.9,
+   "ende": 268.36,
+   "text": "Und man hat natürlich auch gleich was gekauft.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 268.5,
+   "ende": 272.9,
+   "text": "Es ist ja für Kinder immer so etwas Besonderes, Hunde zu füttern und ihnen Leckerlis zu geben.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 273.76,
+   "ende": 281.66,
+   "text": "Und wir haben dann halt im Laufe der Zeit auch versucht herauszufinden, woher kommen die Hunde, wie alt ist Archie.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 281.92,
+   "ende": 287.66,
+   "text": "Vor allem Deng sah zumindest zu dem Zeitpunkt noch deutlich jünger aus als Archie.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 287.66,
+   "ende": 291.84,
+   "text": "Wir hatten bei Archie da schon das Gefühl, okay, es ist jetzt an sich kein junger Hund mehr.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 291.84,
+   "ende": 296.16,
+   "text": "Er ist jetzt auch nicht uralt, aber er ist schon ein bisschen in die Jahre gekommen.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 296.26,
+   "ende": 298.2,
+   "text": "Er hatte auch einen Hüftschaden.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 299.34,
+   "ende": 303.48,
+   "text": "Es wird vermutet, dass er mal angefahren wurde, aber genau wissen tut es keiner,",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 303.48,
+   "ende": 310.78,
+   "text": "weil irgendwann mal ein Gast, eine Britin war das, hat quasi Archie irgendwo aufgegabelt.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 310.86,
+   "ende": 314.14,
+   "text": "Ja, die Vermieter und auch wir wissen nicht wo.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 314.9,
+   "ende": 319.98,
+   "text": "Das heißt, die war halt hier im Urlaub, hat Archie als Straßenhund irgendwo gesehen",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 319.98,
+   "ende": 324.08,
+   "text": "oder vielleicht sogar auch in irgendeiner der Auffangstationen hier",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 324.08,
+   "ende": 327.58,
+   "text": "oder hat ihn tatsächlich gefunden am Straßenrand, wie auch immer.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 327.68,
+   "ende": 329.9,
+   "text": "Auf jeden Fall hat sie ihn mit zu dieser Anlage gebracht",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 329.9,
+   "ende": 332.9,
+   "text": "und wollte ihn mit nach Großbritannien nehmen.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 333.48,
+   "ende": 335.64,
+   "text": "Das ist aber schon länger vorher gewesen.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 335.82,
+   "ende": 337.6,
+   "text": "Also als wir ihn vor vier Jahren kennengelernt haben,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 337.6,
+   "ende": 342.0,
+   "text": "lag auch das schon, ich weiß nicht, zwei Jahre oder so locker zurück oder noch länger.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 343.06,
+   "ende": 345.6,
+   "text": "Und die hatte dann wohl auch alles schon soweit vorbereitet",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 345.6,
+   "ende": 355.68,
+   "text": "vorbereitet und hat, ja also, dass sie ihn quasi transportieren konnte. Es war also alles geregelt und dann hat sich, hat ihr damaliger Partner sich von ihr getrennt,",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 356.18,
+   "ende": 365.96,
+   "text": "sodass sie eine komplett neue Wohnsituation hatte in Großbritannien, wo sie den Hund dann doch nicht mehr mitnehmen konnte und hat daraufhin eben die Vermieter der Bungalow-Anlage gefragt,",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 365.96,
+   "ende": 375.56,
+   "text": "ob er dann da eben auf der Anlage bleiben könnte, damit er jetzt nicht wieder irgendwo halt in ein Tierheim muss oder ja einfach sich auf sich selbst gestellt ist.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 375.6,
+   "ende": 382.44,
+   "text": "und die haben dann gesagt, ja, kein Problem und so kam es halt, dass Aji einfach dauerhaft dann da gelebt hat,",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 382.52,
+   "ende": 386.56,
+   "text": "der hatte jetzt nicht irgendwie ein Haus, also der war jetzt nicht immer bei den Vermietern",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 386.56,
+   "ende": 390.86,
+   "text": "oder hat bei den Vermietern im Haus geschlafen oder so, sondern der ist dann einfach rumgerannt,",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 390.86,
+   "ende": 394.88,
+   "text": "die haben auch ein Restaurant da auf der Anlage, wenn Futter übrig, also wenn Essen übrig war,",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 394.92,
+   "ende": 401.46,
+   "text": "haben sie ihm das halt hingestellt als Futter und als wir damals da hingekommen sind, waren ja das alles,",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 401.46,
+   "ende": 407.16,
+   "text": "Das waren die Bungalows, hatte ich ja auch erzählt in der Folge mit dem Umzug, waren die Bungalows alle an Langzeitgäste vermietet.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 407.16,
+   "ende": 412.42,
+   "text": "Das heißt, die Leute haben da einfach dauerhaft gelebt und haben dann eben die Hunde da auch gefüttert.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 412.96,
+   "ende": 421.6,
+   "text": "Wie Deng sozusagen dazugestoßen ist, das weiß, also zumindest wir wissen es nicht, das haben die auch nie erzählt, wie Deng dann dahin kam.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 422.16,
+   "ende": 429.3,
+   "text": "Auf jeden Fall war das eben dieses Zweiergespann, Archie und Deng und es war auch ganz klar, wie die Rollenverteilung ist, weil Archie ist der Boss",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 429.3,
+   "ende": 433.76,
+   "text": "und Deng ist sozusagen wirklich so ein absoluter Mitläufer.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 434.18,
+   "ende": 438.14,
+   "text": "Also der hat so gar kein Durchsetzungsvermögen, dieser Hund.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 438.76,
+   "ende": 442.98,
+   "text": "Und es ist ja in der Tierwelt auch so üblich,",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 442.98,
+   "ende": 447.14,
+   "text": "dass da wirklich die Rangordnungen die Tiere unter sich ausmachen.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 447.98,
+   "ende": 454.32,
+   "text": "Aber so als, ich sag mal, als Europäer oder vor allen Dingen in Deutschland,",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 454.56,
+   "ende": 458.12,
+   "text": "wo Hunde ja sehr vermenschlicht werden",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 458.12,
+   "ende": 462.2,
+   "text": "und eben auch sehr in das Verhalten der Hunde eingegriffen wird,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 462.98,
+   "ende": 466.38,
+   "text": "war das für mich schon sehr befremdlich teilweise zu akzeptieren,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 466.5,
+   "ende": 467.86,
+   "text": "wie Archie mit Deng umgeht.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 468.14,
+   "ende": 472.32,
+   "text": "Weil Deng durfte halt nichts ohne Archies Erlaubnis.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 473.32,
+   "ende": 474.48,
+   "text": "Fressen schon mal gar nicht.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 474.72,
+   "ende": 477.22,
+   "text": "Also wenn Archie hat gefressen und wenn er fertig war,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 477.34,
+   "ende": 478.36,
+   "text": "dann durfte Deng fressen.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 478.6,
+   "ende": 480.58,
+   "text": "Und Archie hat auch so ein krasses...",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 480.58,
+   "ende": 484.58,
+   "text": "Also wenn Archie geknurrt hat, das hat sich angehört wie ein Wolf oder so.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 484.62,
+   "ende": 486.52,
+   "text": "Es war einfach so ein krasser Sound,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 486.52,
+   "ende": 489.8,
+   "text": "Und dass man echt richtig Angst bekommen hat.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 490.7,
+   "ende": 495.14,
+   "text": "Und ja, Deng ist halt quasi den ganzen Tag, also auch so, wenn die gelaufen sind.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 495.14,
+   "ende": 498.46,
+   "text": "Das war immer so, Archie läuft halt vorne und Deng läuft halt so ein bisschen zurück.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 498.66,
+   "ende": 501.52,
+   "text": "Dann waren die natürlich von der Gestalt auch komplett unterschiedlich.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 502.0,
+   "ende": 505.2,
+   "text": "Archie ist halt wirklich ein großer, kräftiger Hund mit viel Fell.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 505.28,
+   "ende": 508.52,
+   "text": "Der hat halt hier so am Hals auch so richtig dickes Fell.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 509.46,
+   "ende": 512.88,
+   "text": "Ich habe immer gesagt, auch das hat mich immer so ein bisschen an einen Wolf erinnert.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 512.88,
+   "ende": 515.68,
+   "text": "Und Löwe würde ich jetzt zu weit gehen.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 515.78,
+   "ende": 517.54,
+   "text": "So eine Mähne in dem Sinne hatte er nicht.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 517.64,
+   "ende": 522.14,
+   "text": "Aber er hatte halt hier schon so am Hals so eine Verdickung vom Fell.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 522.98,
+   "ende": 526.88,
+   "text": "Und Deng ist ja super dünn und schlank und viel kleiner auch.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 527.36,
+   "ende": 531.12,
+   "text": "Und ja, deswegen Deng ist dann halt auch immer so weiter hinten gelaufen.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 531.12,
+   "ende": 537.08,
+   "text": "Und wenn dann irgendwie Beef war, also wenn es dann irgendwie was zu regeln gab auf der Anlage,",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 537.22,
+   "ende": 541.92,
+   "text": "ja, dann war es auch oft so, dass Deng eben dann auch rumgekläfft hat",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 541.92,
+   "ende": 543.74,
+   "text": "und Archie so ein bisschen Aufmerksamkeit gemacht hat,",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 543.84,
+   "ende": 546.56,
+   "text": "so nach dem Motto, komm, Digga, guck mal, hier sind irgendwie fremde Hunde,",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 546.7,
+   "ende": 548.5,
+   "text": "das müssen wir erstmal regeln.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 549.24,
+   "ende": 553.64,
+   "text": "Und wenn es dann aber quasi losging, wenn der Fight dann gestartet ist,",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 553.64,
+   "ende": 557.66,
+   "text": "dann war Deng auch ganz schnell wieder, hat er sich wieder bedeckt gehalten.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 557.9,
+   "ende": 561.76,
+   "text": "Also er war jetzt, er war schon loyal und war immer an Archies Seite,",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 561.96,
+   "ende": 564.76,
+   "text": "aber er war jetzt nicht so der Magger dann.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 565.22,
+   "ende": 567.24,
+   "text": "Er hat dann auch schnell den Schwanz wieder eingezogen,",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 567.82,
+   "ende": 569.2,
+   "text": "war aber vielleicht auch nicht nötig,",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 569.2,
+   "ende": 572.6,
+   "text": "weil Archie halt einfach eiskalt in solchen Themen war.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 572.7,
+   "ende": 578.52,
+   "text": "Also der hat wirklich alles gejagt, was nicht bei drei auf den Bäumen war, im wahrsten Sinne des Wortes.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 579.4,
+   "ende": 583.2,
+   "text": "Und war, was andere Tiere angeht, wirklich hochaggressiv.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 584.24,
+   "ende": 586.12,
+   "text": "Also der hat auch nicht gewarnt.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 586.36,
+   "ende": 588.78,
+   "text": "Also ich kenne das auch so, ich bin wirklich kein Hundekenner.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 588.9,
+   "ende": 594.28,
+   "text": "Wenn jetzt hier Hundeliebhaber zuhören, die werden vielleicht an der einen oder anderen Stelle meiner Formulierungen oder Wortwahl auch denken,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 595.24,
+   "ende": 598.3,
+   "text": "hä, der ist doch ganz logisch oder das sagt man so oder das sagt man so.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 598.3,
+   "ende": 606.12,
+   "text": "Also wir hatten mal einen Hund früher, aber ich komme jetzt nicht aus so einer typischen Hundefamilie, so wie Hagen zum Beispiel.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 606.24,
+   "ende": 608.56,
+   "text": "Der ist mit Hunden aufgewachsen, der kennt die Hunde auswendig.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 608.68,
+   "ende": 614.6,
+   "text": "Wie ich sage auch immer, Hagen ist so der Hundeflüsterer, weil der hat auch immer sofort so einen krassen Bezug zu den Hunden.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 615.46,
+   "ende": 622.04,
+   "text": "Und auf jeden Fall war mein Empfinden so, dass Hunde das so ein bisschen ankündigen,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 622.04,
+   "ende": 627.64,
+   "text": "dass sie halt auch die anderen Hunde warnen im Sinne von eben, dass sie bellen und dass sie knurren.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 627.64,
+   "ende": 632.66,
+   "text": "und erst mal sagen, ey Digga, hier ist jetzt mein Revier, sieh mal zu, dass du wieder wegkommst.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 633.12,
+   "ende": 638.02,
+   "text": "Archie hat das nicht gemacht, der hat halt ein Tier gesehen, also Hunde, aber auch bei anderen Tieren.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 638.92,
+   "ende": 645.92,
+   "text": "Der hat die gesehen und dann ist der halt wirklich wie so ein Ninja, der hat ja oft unter den Bungalows gelegen im Schatten.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 646.1,
+   "ende": 653.58,
+   "text": "Also die waren so ein bisschen auf Stelzen und dann hat man halt nur gesehen, wie so ein Pfeil ist der da rausgeschossen",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 653.58,
+   "ende": 656.62,
+   "text": "und ist halt auf diese Tiere losgegangen, aber sofort.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 656.74,
+   "ende": 661.12,
+   "text": "Also der ist sofort auf die losgegangen, ohne Vorwarnung, ohne Spielraum.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 661.66,
+   "ende": 663.94,
+   "text": "Der hat die einfach sofort angegriffen.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 664.5,
+   "ende": 669.14,
+   "text": "Und die anderen Straßenhunde, die sich da mal hinverirrt haben,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 669.22,
+   "ende": 671.0,
+   "text": "die sind dann natürlich sofort abgezischt.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 671.66,
+   "ende": 676.18,
+   "text": "Wenn dann Leute kamen, die zum Strand wollten und Hunde mitgebracht haben,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 677.02,
+   "ende": 679.82,
+   "text": "die haben sich dann natürlich, also wir haben auch welche gesehen,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 679.9,
+   "ende": 681.98,
+   "text": "die sind dann zum Beispiel mit einem großen Stock immer gekommen.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 681.98,
+   "ende": 700.42,
+   "text": "Die haben jetzt Archie nicht geschlagen, aber die haben dann halt schon so sich vor ihre Hunde gestellt und das hat Archie schon gerafft dann. Okay, das sind jetzt hier Hunde, die mit denen kommen. Er hat natürlich trotzdem versucht, den Angst einzujagen, aber er hat auch akzeptiert, okay, die haben ein Herrchen, da muss ich mich dann jetzt halt auch ein bisschen unterordnen.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 701.38,
+   "ende": 705.28,
+   "text": "Aber er hat zum Beispiel, also wir haben einen kennengelernt, der da langzeit gemietet hat,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 705.64,
+   "ende": 709.96,
+   "text": "der da damals auch langzeit gewohnt hat, der hat gesagt, dass Archie in der Zeit,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 710.32,
+   "ende": 712.9,
+   "text": "seit er da wohnt, drei seiner Katzen getötet hat.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 713.52,
+   "ende": 720.04,
+   "text": "Wir selber hatten mal eine Ratte gefangen in der Küche und wollten die dann in diesem Käfig quasi aussetzen,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 720.04,
+   "ende": 722.38,
+   "text": "also dass sie da wieder irgendwie frei rumläuft.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 722.48,
+   "ende": 726.18,
+   "text": "Dann habe ich noch so gesagt, ja nicht, dass der Hund die dann irgendwie frisst oder so",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 726.18,
+   "ende": 729.16,
+   "text": "und sagen so, nee, die Ratte ist viel schneller.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 729.68,
+   "ende": 734.78,
+   "text": "Dann sind wir aber trotzdem mit der Ratte quasi zur Straße gefahren, also gegangen.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 735.34,
+   "ende": 736.76,
+   "text": "Und Archie ist uns aber hinterhergegangen.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 736.86,
+   "ende": 740.9,
+   "text": "Und dann haben wir so diesen Käfig aufgemacht und dann ist diese Ratte raus.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 741.06,
+   "ende": 743.96,
+   "text": "Und sie ist halt auch dummerweise wirklich mehr oder weniger stehen geblieben.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 744.58,
+   "ende": 747.68,
+   "text": "Und Archie hat sie halt einfach tot gebissen oder hat sie auch nicht gefressen.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 747.8,
+   "ende": 750.98,
+   "text": "Also er hat sie halt tot gemacht und hat sie liegen lassen und ist dann halt wieder abgedampft.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 751.68,
+   "ende": 753.6,
+   "text": "Wir hatten dann nochmal eine Ratte gefangen.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 753.72,
+   "ende": 758.04,
+   "text": "Da sind Hagen und Heinrich wirklich mit dem Roller weit weggefahren, um diese Ratte freizulassen,",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 758.04,
+   "ende": 759.78,
+   "text": "damit er halt nicht hinterherkommt.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 761.28,
+   "ende": 764.96,
+   "text": "Schlangen haben wir ja ganz oft beobachtet, wie er halt Schlangen totbeißt.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 765.04,
+   "ende": 768.72,
+   "text": "Er hat die dann so quasi in der Mitte, in der Körpermitte der Schlange,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 768.76,
+   "ende": 772.32,
+   "text": "hat er die dann halt gebissen und hat dann so richtig hart seinen Kopf,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 772.76,
+   "ende": 775.28,
+   "text": "wo man dachte, Alter, renkt hier nicht irgendwas aus, ja.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 775.76,
+   "ende": 778.86,
+   "text": "Hat er die halt hin und her geschleudert, so lange, bis die halt tot war.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 779.72,
+   "ende": 784.24,
+   "text": "Und ja, also er war halt so ein richtiger, wir haben ja gesagt, so ein richtiger Killer, ja.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 784.24,
+   "ende": 788.74,
+   "text": "Und auf der anderen Seite war er aber jetzt, was Menschen angeht, gar nicht so.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 788.92,
+   "ende": 793.48,
+   "text": "Also ja, wenn jetzt im Dunkeln jemand aufs Gelände kam, der da nicht hingehörte,",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 793.56,
+   "ende": 797.7,
+   "text": "dann hat er halt auch mal gebellt und geguckt, also so wie ein Wachhund das halt irgendwie macht.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 798.4,
+   "ende": 802.4,
+   "text": "Aber man hatte nicht das Gefühl, dass er, also es war nie eine Situation,",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 802.4,
+   "ende": 805.7,
+   "text": "wo man dachte, es könnte jetzt sein, dass er einen Menschen beißen würde",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 805.7,
+   "ende": 808.52,
+   "text": "oder dass er wirklich aggressiv auf den Menschen zuging.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 809.4,
+   "ende": 813.68,
+   "text": "Demnach war das natürlich auch für uns mit den Kindern ja recht entspannt.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 813.68,
+   "ende": 835.12,
+   "text": "Ja, er hat am Anfang, wo, wie gesagt, wo wir ihn kennengelernt haben, da war Hermine ja erst drei und dadurch, dass er eben diese kuschelige Halskrause hatte, sage ich mal, hat sie total gerne ihn so geknuddelt, also dass sie ihn so am Hals genommen hat und ihr Gesicht so auf ihn draufgelegt hat und ihn so geknuddelt hat und mit drei können die ja noch nicht so ganz ihre Kräfte einteilen, sage ich mal.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 835.12,
+   "ende": 841.42,
+   "text": "und da hat er anfangs auch manchmal geknurrt, aber grundsätzlich ist das ja völlig legitim.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 841.68,
+   "ende": 846.66,
+   "text": "Also das ist ja auch das, was Kinder oder auch Menschen allgemein lernen müssen,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 846.8,
+   "ende": 849.92,
+   "text": "dann darauf zu hören, okay, das mag er wohl nicht, also lassen wir das.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 851.22,
+   "ende": 857.48,
+   "text": "Wir hatten mal eine Zeit, trotz allem dann anfangs, wo er dann auch teilweise geknurrt hat,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 857.54,
+   "ende": 860.42,
+   "text": "wenn sie an ihm vorbeigegangen ist und so, also wo man so das Gefühl hatte,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 860.42,
+   "ende": 864.84,
+   "text": "er will so ein bisschen checken, wer steht jetzt hier höher von uns beiden.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 865.12,
+   "ende": 889.88,
+   "text": "Weil sie ja auch super klein war noch. Und dann habe ich irgendwann gesagt, okay, das funktioniert so nicht. Also es ist okay, wenn sie ihn da knuddelt und er das nicht will. Keine Frage, dann muss sie das lassen. Aber wenn sie sich auf, also das war dann, dass er eben oft bei uns auf der Terrasse lag. Und wenn sie sich jetzt nicht mehr auf ihrem Terrain, sage ich jetzt mal, in ihrem Revier bewegen kann, ohne dass er knurrt, dann kann er halt nicht auf die Terrasse.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 889.88,
+   "ende": 909.92,
+   "text": "Ja, da hatten Hagen und ich dann auch noch ein bisschen Ärger deswegen, weil er es halt so gesehen hat, ja, sie muss das halt erlernen, sie muss das akzeptieren und so weiter, sage ich, ja, ist ja alles richtig, aber er muss genauso akzeptieren, dass das halt unser Revier ist und sie muss sich ja als Dreijährige da trotzdem bewegen können, frei bewegen können, ohne die ganze Zeit darauf aufpassen zu müssen, ob er sich jetzt davon gestört fühlt.",
+   "avg_logprob": -0.05,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 909.92,
+   "ende": 928.82,
+   "text": "Und es hat ja nichts damit zu tun, dass wir ihn nicht mehr füttern oder dass sie ihn nicht mehr streicheln darf oder sonst was, aber dann halt unten, ja, also dass er einfach weiß, okay, hier oben ist unser Revier und der Rest ist halt sein Revier und wenn die Kinder da sind, dann können sie sich an seine Regeln halten im Sinne von, okay, nicht knuddeln und wenn er frisst, sowieso nicht in die Nähe kommen.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 928.82,
+   "ende": 948.78,
+   "text": "Das habe ich schon als Kind gelernt, dem Hund meines Onkels mal beim Fressen den Knochen irgendwie anders hinschieben wollte und der hat mich dann in den Arm gebissen. Also nicht super dramatisch, aber am Ende habe ich natürlich nie wieder einem Hund ins Fressen gefasst. Also so ein paar Sachen müssen Kinder ja auch trotzdem dann lernen, dass das halt einfach nicht geht.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 949.56,
+   "ende": 953.38,
+   "text": "Auch da wird es jetzt wahrscheinlich Hundebesitzer geben, die sagen, nein, das geht so gar nicht.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 953.56,
+   "ende": 960.28,
+   "text": "Und der Hund darf nicht, also man muss dem Hund das Fressen wegnehmen können, ohne dass der beißt.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 960.34,
+   "ende": 962.08,
+   "text": "Ich glaube, sowas lernt man sogar in der Hundeschule.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 962.8,
+   "ende": 967.72,
+   "text": "Aber man kann das Leben der Hunde und das Verhalten der Hunde, die hier leben,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 967.98,
+   "ende": 970.82,
+   "text": "absolut nicht mit dem Leben vergleichen, was Hunde in Deutschland führen.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 971.9,
+   "ende": 974.14,
+   "text": "Also zumindest, wenn sie einen Besitzer haben.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 974.14,
+   "ende": 977.5,
+   "text": "Es gibt ja auch in Deutschland sicherlich viele Hunde, denen es nicht gut geht.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 977.5,
+   "ende": 985.28,
+   "text": "Ich will das gar nicht relativieren, aber ich würde trotzdem mal sagen, im Großen und Ganzen haben die meisten Hunde in Deutschland doch ein recht komfortables Leben.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 986.04,
+   "ende": 991.34,
+   "text": "Und auf jeden Fall habe ich dann gesagt, okay, dann geht es halt nicht, dann kann er halt nicht auf die Terrasse.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 991.84,
+   "ende": 997.8,
+   "text": "Und ich bin da halt trotzdem so, am Ende schütze ich mein Kind und es ist für mich nicht gleichgestellt.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 998.12,
+   "ende": 1002.8,
+   "text": "Ein Hund ist für mich nicht auf der gleichen Ebene wie ein Mensch, kann jeder anders sehen.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1002.8,
+   "ende": 1010.42,
+   "text": "Aber wenn es jetzt darum geht, dass ich mich entscheiden muss, ob mein Kind sich da frei bewegen kann oder ob der Hund sich auf unserer Terrasse frei bewegen kann, dann wird sich mein Kind frei bewegen können.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1010.98,
+   "ende": 1016.5,
+   "text": "So, deshalb musste der Hund dann von der Terrasse runter und dann hatte man irgendwie das Gefühl, dass er das gecheckt hat.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1017.02,
+   "ende": 1029.6,
+   "text": "Weil danach, also wenn er dann unten an der Treppe stand oder so, also alle Begegnungen, die dann irgendwie danach in den nächsten Tagen mit ihm und Hermine waren, hat er gar nicht mehr geknurrt.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1029.6,
+   "ende": 1049.56,
+   "text": "Natürlich hat sie ja auch gelernt, okay, jetzt darf Archie nicht mehr hier hoch, weil ich jetzt vielleicht ihn zu viel geknuddelt habe, wie auch immer. Und dann ging das wirklich innerhalb von ein paar Tagen, hat sich das dann total entspannt und dann ist er auch wieder hochgekommen und hat auch sie nie wieder, also bis heute, also bisher jetzt gestorben ist, hat er sie nie wieder angeknurrt.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1049.56,
+   "ende": 1058.46,
+   "text": "Und ja, als ob er das irgendwie dann auch akzeptiert hat von, ja, okay, wenn ich da oben sein will, dann muss ich mich halt mit dem kleinen Mädchen arrangieren.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1059.44,
+   "ende": 1063.7,
+   "text": "Und ja, und er ist einfach halt dann immer da gewesen.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1064.44,
+   "ende": 1070.46,
+   "text": "Also er ist jetzt nicht so ein Hund gewesen, der den ganzen Tag da lag und die ganze Zeit Kontakt zu Menschen gesucht hat.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1070.52,
+   "ende": 1078.44,
+   "text": "Er war halt einfach super frei im Sinne von, er hat halt einfach den ganzen Tag gemacht, was er wollte.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1078.44,
+   "ende": 1083.84,
+   "text": "Und wenn er halt Bock hatte, zu irgendeinem Bungalow zu kommen, hat er sich da halt hingelegt und hat sich da sein Fressen abgeholt.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1083.92,
+   "ende": 1089.3,
+   "text": "Vor allen Dingen natürlich auch, wenn ich jetzt die Kiste unten rausgezogen habe, wo das Hundefutter war, war er natürlich sofort da.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1089.74,
+   "ende": 1093.26,
+   "text": "Beide Hunde waren auch tatsächlich sehr wählerisch, was das Essen anging.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1093.68,
+   "ende": 1097.58,
+   "text": "Also man möchte ja meinen, so Straßenhunde fressen alles, was sie kriegen können.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1097.7,
+   "ende": 1102.26,
+   "text": "Aber nee, Trockenfutter fanden sie nicht so gut, weil sie haben natürlich auch viel vom Restaurant bekommen.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1102.26,
+   "ende": 1120.02,
+   "text": "Und wenn wir dann mit unserem Trockenfutter kamen, dann ja, also gerade Deng so, der hat das halt einfach stehen lassen. Aber sie sind jetzt auch nicht nur zu uns gekommen, es ist halt auch, das ist vielleicht auch das, was nicht so gut vielleicht auch rüberkommt in dem Instagram-Beitrag.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1120.02,
+   "ende": 1131.36,
+   "text": "Es ist ja nicht unser Hund gewesen. Wir haben einfach eine super enge Bindung zu ihm aufgebaut, weil wir ihn so sehr mochten und weil er so einen besonderen Charakter hatte.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1131.48,
+   "ende": 1142.16,
+   "text": "Und wir haben auch, nachdem wir dann das Jahr hier waren und dann wieder zwei Jahre in Deutschland waren, immer von Archie und den geredet und uns immer gesehnt danach, Archie, vor allem Archie, wiederzusehen.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1142.16,
+   "ende": 1154.74,
+   "text": "Und haben auch da immer mal wieder nachgefragt, okay, lebt Archie noch? Und haben uns dann natürlich gefreut, dass wir ihn jetzt halt, also letztes Jahr im Februar waren wir ja schon mal sechs Wochen da oder jetzt auch schon fast anderthalb Jahre her.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1155.9,
+   "ende": 1163.02,
+   "text": "Da hat er halt noch gelebt und als wir jetzt kamen halt auch wieder und wir haben uns natürlich gefreut. Aber am Ende ist es jetzt nicht unser Hund in dem Sinne gewesen.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1163.02,
+   "ende": 1186.34,
+   "text": "Er hat genauso einen Bezug zu vielen anderen Menschen gehabt und das, was ich jetzt über unsere Beziehung zu Archie beschreibe, es gibt bestimmt noch ganz viele andere Menschen, die in ihrer Sprache, ja, die sind ja nicht alles Deutsche, das genauso beschreiben würden, weil auch die eine sehr besondere Bindung zu ihm hatten, weil er einfach im Laufe der Jahre viele Menschen dort gelebt haben, eben über einen längeren Zeitraum.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1186.34,
+   "ende": 1189.74,
+   "text": "Und er ist halt mal in dem Bungalow gewesen, mal bei dem Bungalow.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1189.82,
+   "ende": 1191.34,
+   "text": "Dann ist er halt mit denen mitgetrottet.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1192.22,
+   "ende": 1193.34,
+   "text": "Dann ist er mal wieder mit denen mitgetrottet.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1194.6,
+   "ende": 1197.0,
+   "text": "Und so, Hagen hat zum Beispiel oft, wenn er abends zum Strand gegangen ist,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1197.04,
+   "ende": 1198.88,
+   "text": "ist Archie halt mitgegangen, hat ihn begleitet.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1199.76,
+   "ende": 1202.34,
+   "text": "Wir auch, wenn wir tagsüber mit den Kindern da zum Spielen waren,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1202.4,
+   "ende": 1203.88,
+   "text": "hat er sich halt daneben gelegt und so.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1203.94,
+   "ende": 1207.26,
+   "text": "Aber so haben andere halt andere Momente mit ihm.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1207.9,
+   "ende": 1210.94,
+   "text": "Und gerade jetzt zum Schluss, also kurz bevor wir weggezogen sind,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1211.42,
+   "ende": 1213.16,
+   "text": "es sind ja jetzt nur noch Touristen da gewesen.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1213.16,
+   "ende": 1215.8,
+   "text": "Und die sind natürlich dann alle Feuer und Flamme.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1215.8,
+   "ende": 1217.82,
+   "text": "wenn die Hunde da so zutraulich sind",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1217.82,
+   "ende": 1219.98,
+   "text": "und dann kriegen sie natürlich immer das tollste Essen",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1219.98,
+   "ende": 1221.92,
+   "text": "auch mitgebracht und so die letzten",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1221.92,
+   "ende": 1223.78,
+   "text": "Wochen war Archie zum Beispiel die ganze Zeit",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1223.78,
+   "ende": 1225.72,
+   "text": "nur in unserem Nachbarbungalbo und ist kaum noch",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1225.72,
+   "ende": 1227.74,
+   "text": "zu uns gekommen, ja vor allen Dingen, wenn wir dann",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1227.74,
+   "ende": 1229.74,
+   "text": "nur noch Trockenfutter hingestellt haben, also dann",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1229.74,
+   "ende": 1231.8,
+   "text": "war das für ihn so, hä, was soll ich denn bei euch",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1231.8,
+   "ende": 1232.2,
+   "text": "so, ne",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1232.2,
+   "ende": 1235.68,
+   "text": "also er hat einen auch",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1235.68,
+   "ende": 1237.74,
+   "text": "so ein bisschen, so Zuckerbrot und",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1237.74,
+   "ende": 1239.78,
+   "text": "Peitsche, sag ich mal, ne, er hat einen auch",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1239.78,
+   "ende": 1241.66,
+   "text": "auch manchmal ignoriert",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1241.66,
+   "ende": 1243.52,
+   "text": "oder ja, ist einfach nicht gekommen, so",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1243.52,
+   "ende": 1245.72,
+   "text": "er war halt total eigen irgendwie",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1245.72,
+   "ende": 1261.06,
+   "text": "Aber ja, er hatte so von Anfang an so eine, wir haben ja auch schon öfters auf anderen Reisen, es gab schon mal einen Hund in Namibia, Kulfi hieß der, den haben wir nur zwei Tage oder drei Tage kennengelernt.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.35
+  },
+  {
+   "start": 1261.06,
+   "ende": 1283.96,
+   "text": "Der hatte auch sowas. Es gibt so manche Hunde und ja, wahrscheinlich auch Menschen, aber ich habe es intensiver bei Hunden eigentlich das Gefühl, die haben irgendwie sowas Besonderes an sich, sodass man gleich mit denen irgendwie so eine krasse Verbindung hat, obwohl es nicht der eigene Hund ist und über die man auch noch Jahre spricht.",
+   "avg_logprob": -0.038,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1283.96,
+   "ende": 1308.66,
+   "text": "Also an diesen Hund in Namibia, wie gesagt, den haben wir zwei, drei Tage kennengelernt, über den reden wir heute manchmal noch. Als wir damals weggefahren sind nach den drei Tagen, ist der unserem Auto hinterher gelaufen und ich hätte am liebsten gesagt, komm, pack den jetzt auf die Ladefläche. Auch damals, wo wir nach dem Jahr wieder zurück sind, haben wir natürlich, oder das haben auch einige in Deutschland gesagt, die das mitgekriegt haben, wir haben ja viel von Archie geredet, so, er bringt den doch mit, so nach dem Motto, ist doch ein Straßenhund.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1308.66,
+   "ende": 1325.68,
+   "text": "Und natürlich haben wir darüber auch nachgedacht und haben aber sofort auch uns eingestanden, dass es eine komplett egoistische Angelegenheit wäre, Archie aus diesem Leben, aus dieser Freiheit, die er da hatte, mit nach Deutschland zu nehmen und in eine Wohnung zu bringen.",
+   "avg_logprob": -0.023,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1325.68,
+   "ende": 1350.76,
+   "text": "Ja, also wir hatten zwar eine große Wohnung und wir hatten eine Riesenterrasse und wir hatten einen Garten und wir haben direkt am Wald gewohnt. Also ich sage mal, grundsätzlich haben wir eine sehr komfortable Wohnsituation für Hunde gehabt. Aber nichtsdestotrotz ist das ja nicht zu vergleichen mit einem Hund, der den ganzen Tag in Freiheit lebt, der nie eine Leine angelegt bekommen hat, der nie Sitzplatz, Stopp, Geh, Komm, Bleib, keine Ahnung was lernen musste.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1351.6,
+   "ende": 1356.2,
+   "text": "der im Grunde nie alleine sein musste, weil immer Menschen da waren,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1356.32,
+   "ende": 1359.14,
+   "text": "aber entscheiden konnte, alleine zu sein, wenn er es wollte,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1359.92,
+   "ende": 1362.5,
+   "text": "der einfach kommen und gehen konnte, wann er wollte,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1362.66,
+   "ende": 1366.16,
+   "text": "der sich da, der rennen konnte wie irre, der jagen konnte,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1366.16,
+   "ende": 1370.04,
+   "text": "der seinem Jagdinstinkt nachgehen konnte, der da am Meer,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1370.28,
+   "ende": 1374.54,
+   "text": "also der hat da zwischen grünen Palmen, grünen Wiesen am Meer Sand.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1375.1,
+   "ende": 1378.92,
+   "text": "Er war jetzt nicht so der Badetyp, also da inzwischen leben da auch andere Hunde,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1378.92,
+   "ende": 1383.44,
+   "text": "nicht auf der Anlage, aber links und rechts, die gehen auch mal ins Wasser und so, das war jetzt nicht so sein Ding",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1383.44,
+   "ende": 1389.02,
+   "text": "Hagen hat ihn jetzt zum Schluss ab und zu mal mit ins Wasser genommen, einfach um ihn ein bisschen sauber zu machen",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1389.02,
+   "ende": 1393.04,
+   "text": "hat er sich bieten lassen, aber ja, fand er jetzt nicht so super",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1393.04,
+   "ende": 1400.78,
+   "text": "aber ja, der hatte einfach eine riesen Area, wo er einfach er sein konnte",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1400.78,
+   "ende": 1407.02,
+   "text": "und wo er halt entschieden hat, wie sein Tagesablauf ist, mit wem er wann wo wie zusammen sein will",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1407.02,
+   "ende": 1408.76,
+   "text": "ob er überhaupt mit jemandem zusammen sein will.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1409.8,
+   "ende": 1412.84,
+   "text": "Und hat er dann noch seinen Deng, der ihm absolut hörig war.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1414.2,
+   "ende": 1418.9,
+   "text": "Und so einen Hund dann einfach zu denken, dass es dem besser geht,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1419.0,
+   "ende": 1424.16,
+   "text": "nur weil er in Deutschland Herrchen hat, die jeden Tag die gleichen sind",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1424.16,
+   "ende": 1429.6,
+   "text": "und mit denen er dann halt immer versorgt ist, wo er mal gebadet wird,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1429.72,
+   "ende": 1433.5,
+   "text": "wo er regelmäßig zum Tierarzt kommt, wo er immer das beste Futter bekommt,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1433.5,
+   "ende": 1438.26,
+   "text": "wo regelmäßig mit ihm Gassi gegangen wird, wo er auf dem Familiensofa liegen kann und so weiter.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1439.26,
+   "ende": 1447.5,
+   "text": "Zu meinen, dass das das bessere Leben sei, als das, was er da hatte, wäre einfach unglaublich egoistisch gewesen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1448.6,
+   "ende": 1457.44,
+   "text": "Und das heißt nicht, dass es generell eine schlechte Idee ist, von hier oder aus Thailand oder von sonst wo auf der Welt Straßenhunde zu adoptieren.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1457.54,
+   "ende": 1459.64,
+   "text": "Um Gottes Willen, ja, das ganze Gegenteil ist der Fall.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1459.64,
+   "ende": 1473.68,
+   "text": "Ich finde, seit wir hier das Jahr damals gelebt haben, ist es für mich super schwer zu akzeptieren, dass Hunde von Züchtern gekauft werden, weil es einfach so viele Hunde gibt auf der Welt, die kein Zuhause haben und die unter übelsten Bedingungen leben müssen.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 1473.68,
+   "ende": 1488.66,
+   "text": "Und auf der anderen Seite gibt es dann, gerade in Deutschland, werden tausende von Euros dafür bezahlt, sich einen Hund vom Züchter anzuschaffen, wohingegen man hier sozusagen noch die Unterstützung bekommt von diesen Institutionen, wenn man einen adoptieren möchte.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 1488.66,
+   "ende": 1498.78,
+   "text": "Man muss dafür nicht hierher fliegen, sondern es gibt Flugpaten, die das mit übernehmen, die ganze Organisation, die Bürokratie, da wird man überall unterstützt.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1498.84,
+   "ende": 1505.54,
+   "text": "Es ist jetzt also keine utopische Aufgabe, in Deutschland zu sitzen und einen Hund aus Thailand oder sonst wo zu adoptieren.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1506.36,
+   "ende": 1508.46,
+   "text": "Und da bin ich ein totaler Fürsprecher.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1508.46,
+   "ende": 1520.44,
+   "text": "Und die meisten Hunde, die hier auf Koh Samui auf der Straße leben, für die wäre es vermutlich schon besser, wenn sie hier wegkämen und in Deutschland oder sonst wo auf der Welt ein richtiges Zuhause hätten.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1520.88,
+   "ende": 1532.84,
+   "text": "Aber es gibt eben auch Ausnahmen und diese Ausnahmen sind halt Archie und Deng und die gibt es bestimmt auch noch mehr auf der Insel, die einfach wirklich so wie ihr Leben war, ist aus unserer Sicht das perfekte Hundeleben ist.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1532.84,
+   "ende": 1548.24,
+   "text": "Und generell das perfekte Leben für jedes Lebewesen, das sind Freiheit und Sicherheit, also frei und trotzdem sicher und versorgt zu sein. Aber ja, wer da irgendwie denkt, ja, es wäre besser, ihn mitzunehmen.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.34
+  },
+  {
+   "start": 1548.24,
+   "ende": 1569.64,
+   "text": "Gerade jetzt vor ein paar Wochen, bevor er gestorben ist, waren da noch mal Gäste, haben uns unsere ehemaligen Nachbarn erzählt, die ihn eben auch lieb gewonnen haben und die dann zurück nach Hause geflogen sind und dann unsere Nachbarn die ganze Zeit auf den Keks gegangen sind, dass sie jetzt alles organisiert haben, um Archie in ihr Land zu holen.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1569.64,
+   "ende": 1584.96,
+   "text": "Ich weiß nicht mehr, wo die herkamen, aber die wirklich dachten, sie sind jetzt diejenigen, die hier Urlaub machen und diesen Hund vor was auch immer erlösen müssen und ihn mit in ihr Land nehmen müssen und ihre Wohnung oder in ihr Haus nehmen müssen.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1585.04,
+   "ende": 1595.6,
+   "text": "Zum Glück haben die natürlich da nicht zugestimmt und dadurch, dass er auch ein paar Wochen später gestorben ist, wäre das ja auch gar nicht auszumalen, wenn man ihm noch diesen Stress ausgesetzt hätte.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1596.4,
+   "ende": 1604.2,
+   "text": "Aber ja, so war halt sein Leben und warum er auch, sag ich mal, unser Lieblingshund war",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1604.2,
+   "ende": 1610.84,
+   "text": "oder warum ich das auch gesagt habe mit dem Charakter, er ist halt so ein Machertyp gewesen.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1610.84,
+   "ende": 1613.6,
+   "text": "Er war einfach so ein krasser Dude, sag ich mal.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1614.18,
+   "ende": 1621.16,
+   "text": "So ja, für unseren damaligen Nachbarn, dessen drei Katzen von Archie getötet wurden,",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1621.16,
+   "ende": 1623.6,
+   "text": "Und der hatte so eine Hassliebe zu Archie.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1623.66,
+   "ende": 1626.38,
+   "text": "Der hat halt auch gesehen, was das für ein besonderer Hund ist",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1626.38,
+   "ende": 1628.24,
+   "text": "und hat ihn natürlich trotzdem aber auch dafür gehasst,",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1628.32,
+   "ende": 1631.0,
+   "text": "dass er seine Katzen ständig totgebissen hat.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1631.6,
+   "ende": 1635.82,
+   "text": "Und diese Aggressivität, die er teilweise hatte,",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1635.82,
+   "ende": 1639.18,
+   "text": "die mag vielleicht auch den einen oder anderen abschrecken.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1639.38,
+   "ende": 1643.7,
+   "text": "Aber irgendwie hat man immer so dieses Gefühl gehabt,",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1643.98,
+   "ende": 1646.2,
+   "text": "das ist einfach die Natur.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1646.46,
+   "ende": 1647.92,
+   "text": "Er ist einfach...",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1647.92,
+   "ende": 1649.9,
+   "text": "Also Hunde sind ja keine Wildtiere mehr.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1649.9,
+   "ende": 1667.3,
+   "text": "Aber ursprünglich waren sie das ja mal und er hat irgendwie so gezeigt, so wie ein Hundeleben ist, wenn ein Hund sich das halt aussuchen kann. Und dazu gehört eben auch ein Jagdinstinkt und er war halt einfach ein krasser Typ.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 1667.3,
+   "ende": 1686.52,
+   "text": "Er hat sich nichts erzählen lassen, er hat sein Revier krass verteidigt, er hat da die Wildnis bekämpft und er hatte dann eben auch so einen kleinen Mitläufer, der so ein bisschen, ich sag jetzt mal so ein kleines Weichei tatsächlich, Deng ist wirklich ein Weichei und Deng ist auch so verhuscht.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1686.52,
+   "ende": 1705.36,
+   "text": "Also dadurch, dass Archie ihn halt so unterdrückt, ist Deng eben auch bei Menschen sehr zurückhaltend. Das heißt, wenn die beide auf die Terrasse kamen und Archie sich hat streicheln lassen und man dann, sag ich mal, Deng streicheln wollte, dann hat er auch immer so ein bisschen den Kopf zurückgezogen und war halt super schüchtern.",
+   "avg_logprob": -0.045,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1705.36,
+   "ende": 1710.8,
+   "text": "und war zwar jetzt gerade so die letzten Monate, wo er diese Infektion hatte",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1710.8,
+   "ende": 1712.5,
+   "text": "und wir uns auch so viel um ihn gekümmert haben.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1712.58,
+   "ende": 1714.42,
+   "text": "Wir haben ja auch den Verbandswechsel gemacht und so weiter.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1714.42,
+   "ende": 1717.96,
+   "text": "Da war er natürlich sehr viel bei uns, weil man schon das Gefühl hatte,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1718.68,
+   "ende": 1722.92,
+   "text": "dass Deng irgendwie realisiert, dass wir ihm helfen.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1724.96,
+   "ende": 1727.32,
+   "text": "Und Archie hat das auch hingenommen so.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1727.46,
+   "ende": 1732.36,
+   "text": "Der hat ihn, als er verletzt war und auch gerade, als er das letzte Mal dann abgeholt wurde,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1732.36,
+   "ende": 1736.58,
+   "text": "wo er nochmal wegen seinem Hodensack, da hatte er ja so ein Krebsgeschwür, da wurde er ja nochmal operiert.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1737.16,
+   "ende": 1741.24,
+   "text": "Als er da abgeholt wurde, ist Archie auch diesem Auto hinterhergerannt.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1741.72,
+   "ende": 1747.54,
+   "text": "Und als Deng damals nach den sechs Wochen aus dem Rescue Center kam,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1747.9,
+   "ende": 1750.6,
+   "text": "da haben wir uns auch gefragt, okay, akzeptiert Archie ihn jetzt eigentlich noch?",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1750.76,
+   "ende": 1753.88,
+   "text": "Da war er aber auch, hat sich gefreut und war total rücksichtsvoll so.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1753.88,
+   "ende": 1763.7,
+   "text": "Aber Deng hat halt nicht so einen intensiven, einnehmenden Charakter, wie Archie das hatte.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1763.7,
+   "ende": 1774.3,
+   "text": "Und deshalb ist es schon so, dass Archie unser Herzenshund ist und wir haben uns auch gefragt, was wird jetzt mit Deng?",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1774.38,
+   "ende": 1780.72,
+   "text": "Der ist jetzt halt alleine da. Diese Munde, die er damals hatte, die ist eigentlich nie wirklich verheilt.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1780.72,
+   "ende": 1786.2,
+   "text": "Als wir ihn das letzte Mal gesehen haben, als wir weggezogen sind, hat er schon kaum noch gefressen.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1786.8,
+   "ende": 1789.88,
+   "text": "Der kackt inzwischen überall hin und kriegt es gar nicht mehr mit, sozusagen.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1790.22,
+   "ende": 1792.34,
+   "text": "Wir haben auch das Gefühl, dass er ein bisschen taub ist.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1792.9,
+   "ende": 1793.96,
+   "text": "Sein Auge war entzündet.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1794.28,
+   "ende": 1796.88,
+   "text": "Also ja, auch da sieht das jeder anders.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1797.04,
+   "ende": 1803.54,
+   "text": "Aber aus meiner Sicht wäre es für Deng tatsächlich eine Erlösung, wenn er endlich gehen würde oder könnte.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1804.52,
+   "ende": 1808.1,
+   "text": "Und ja, wir sind gespannt, wie es jetzt mit Archies Tod ist.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1808.1,
+   "ende": 1821.5,
+   "text": "Ob er dann, man hat das ja manchmal auch bei älteren Ehepaaren, dass man das hört, dass dann die relativ dicht aufeinander sterben. Ich glaube, für Deng wäre das gut so, wenn er Archie bald folgen würde.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.32
+  },
+  {
+   "start": 1821.5,
+   "ende": 1824.22,
+   "text": "und die haben aber",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1824.22,
+   "ende": 1825.86,
+   "text": "bis zum Schluss, also selbst als Deng",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1825.86,
+   "ende": 1828.16,
+   "text": "mit seiner Halskrause",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1828.16,
+   "ende": 1830.06,
+   "text": "zwischendurch hatte er eine, aber selbst mit",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1830.06,
+   "ende": 1831.9,
+   "text": "einem verbundenen Kopf, alles irgendwie gerade",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1831.9,
+   "ende": 1834.12,
+   "text": "einen Tag wieder zurück, haben er klapprig",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1834.12,
+   "ende": 1835.88,
+   "text": "überall offene Stellen vom",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1835.88,
+   "ende": 1837.76,
+   "text": "Liegen, wo er da sechs Wochen in dem",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1837.76,
+   "ende": 1839.26,
+   "text": "Rescue Center war",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1839.26,
+   "ende": 1841.92,
+   "text": "und dann hört man irgendwie aus der Ferne",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1841.92,
+   "ende": 1844.02,
+   "text": "Gebälle und dann rennen die",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1844.02,
+   "ende": 1846.1,
+   "text": "los und fighten sich da nachts",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1846.1,
+   "ende": 1847.76,
+   "text": "und beißen sich und",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1847.76,
+   "ende": 1849.84,
+   "text": "kommen übelst zerstört am nächsten",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1849.84,
+   "ende": 1851.82,
+   "text": "morgen wieder, Archie schläft dann den ganzen Tag,",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1851.9,
+   "ende": 1853.78,
+   "text": "weil er fix und fertig ist, weil er jetzt wirklich",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1853.78,
+   "ende": 1855.98,
+   "text": "schon alt war. Man hat es auch an seiner Bewegung gemerkt.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1856.62,
+   "ende": 1857.7,
+   "text": "Er hatte ja, wie gesagt, schon immer",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1857.7,
+   "ende": 1859.66,
+   "text": "einen Hüftschaden. Wir waren auch damals in dem Jahr",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1859.66,
+   "ende": 1861.68,
+   "text": "mit ihm einmal beim Tierarzt, weil er nicht mehr laufen",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1861.68,
+   "ende": 1863.72,
+   "text": "konnte. Und da haben die schon",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1863.72,
+   "ende": 1865.62,
+   "text": "gesagt, eine OP",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1865.62,
+   "ende": 1867.64,
+   "text": "wird er nicht mehr überleben, dafür ist",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1867.64,
+   "ende": 1869.54,
+   "text": "er zu alt, haben die vor vier Jahren schon gesagt.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1870.9,
+   "ende": 1871.8,
+   "text": "Und jetzt",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1871.8,
+   "ende": 1873.54,
+   "text": "war es eben auch so, dass man",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1873.54,
+   "ende": 1875.56,
+   "text": "wirklich in seinem, gerade",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1875.56,
+   "ende": 1877.66,
+   "text": "so, wenn er so aufgestanden ist",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1877.66,
+   "ende": 1879.44,
+   "text": "und so, hat man das schon gemerkt, dass er immer mehr",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1879.44,
+   "ende": 1884.24,
+   "text": "Schwierigkeiten hat, der hatte auch am Bauch so eine, ja, ich weiß nicht, ob das Geschwüre",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1884.24,
+   "ende": 1890.24,
+   "text": "waren, aber er hat dann da auch Fell verloren und wir vermuten, dass er auch irgendeinen",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1890.24,
+   "ende": 1897.04,
+   "text": "Krebs noch hatte und wie gesagt, in der Nacht jetzt, wo er gestorben ist, hatten abends ja",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1897.04,
+   "ende": 1900.72,
+   "text": "unsere ehemaligen Vermieter uns halt noch geschrieben, ob wir am nächsten Morgen vorbeikommen",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1900.72,
+   "ende": 1904.08,
+   "text": "können und Archie halt zum Tierarzt bringen können, weil die halt nur einen Roller haben",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1904.08,
+   "ende": 1909.06,
+   "text": "und wir ja eben den Truck haben und die Hunde dann eben auf die Ladefläche können und",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1909.06,
+   "ende": 1923.58,
+   "text": "Und ich hatte dann abends an dem gleichen Abend noch diese anderen Vereinigungen, die damals Deng abgeholt hat, wegen dem Hodenkrebs geschrieben und gesagt, hey, könnt ihr morgen nochmal kommen und euch Archie angucken, weil die wollen halt nicht, dass man die Hunde da selber hinbringt.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1924.72,
+   "ende": 1931.18,
+   "text": "Und dann meinte halt unser Nachbar so, ja, er kann halt nicht mehr aufstehen. Und dann haben wir halt auch gesagt, ja, das hat er halt schon öfter mal gehabt.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1931.18,
+   "ende": 1955.68,
+   "text": "Und er meinte ja, nee, das Bein ist auch irgendwie rot, es sieht aus, als ob da eine Entzündung im Bein ist. Und dann haben wir uns halt abends schon gefragt, okay, aber was wollen wir jetzt machen, weil wenn wir ihn jetzt ins Dog and Cat Rescue bringen, wie wir damals denken, das ist ja kein klassischer Tierarzt, am Ende bringt man ihn da hin, wenn die nicht wirklich zufällig in der Sekunde Zeit haben, dann wartet er da erstmal, bis er dran ist.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1955.68,
+   "ende": 1971.36,
+   "text": "Und entweder sagen sie dann auch, okay, er ist einfach zu alt, um ihn jetzt zu operieren oder sie machen es halt. Und dann liegt er wie Deng eben auch einfach erstmal wochenlang in diesem Zwinger, weil er, also gerade Archie wäre ja auch nullkompatibel mit irgendeinem Hund dort.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 1971.36,
+   "ende": 1991.18,
+   "text": "Ja, und dann liegen die halt isoliert in einem Zwinger alleine. Und da haben wir uns halt auch gefragt, okay, wie sinnvoll ist das für ihn noch? Weil es wäre ja schöner, wenn er so die letzte Zeit, die er noch hat, eben da verbringt und nicht im schlimmsten Fall dort in so einem Zwinger alleine irgendwie stirbt.",
+   "avg_logprob": -0.046,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1991.18,
+   "ende": 1995.28,
+   "text": "und haben uns dann halt abends die ganze Zeit noch überlegt, was und wie das Beste ist.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1995.28,
+   "ende": 2001.08,
+   "text": "Und naja, und am nächsten Morgen kam dann ja die Nachricht, dass er halt einfach nicht mehr aufgewacht ist.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2001.38,
+   "ende": 2005.3,
+   "text": "Und ich habe dann noch gefragt, so habt ihr ihn nachts gehört?",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2005.44,
+   "ende": 2012.5,
+   "text": "Also hat er irgendwie gewinselt oder gab es irgendwelche Geräusche, die darauf hindeuten, dass er irgendwie gelitten hat?",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2013.4,
+   "ende": 2018.9,
+   "text": "Also die Vermieterin, die sozusagen die Anlage und das Restaurant gehört und so,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2018.9,
+   "ende": 2023.1,
+   "text": "Die ist wohl abends, als er eben nicht mehr aufstehen konnte, noch mal hin und hat ihn im Liegen gefüttert.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2023.16,
+   "ende": 2025.16,
+   "text": "Da hat er auch noch gefressen.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2026.32,
+   "ende": 2032.68,
+   "text": "Und morgens, die steht immer sehr früh auf, lag ja dann vor allem der Bunker los und sie dachte halt, er schläft.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2032.78,
+   "ende": 2035.16,
+   "text": "Dann ist sie ja hin und wollte halt gucken, wie es ihm jetzt geht.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2035.82,
+   "ende": 2038.34,
+   "text": "Und dann hat sie halt gemerkt, dass er eben nicht mehr aufwacht.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2038.34,
+   "ende": 2046.92,
+   "text": "Und es hat jetzt keiner irgendwas mitbekommen, dass er jetzt die ganze Nacht irgendwie gewinselt hat oder gejault hat oder sonst was,",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2046.92,
+   "ende": 2073.58,
+   "text": "sodass man sich an die Hoffnung klammern kann, dass er halt wirklich einfach eingeschlafen ist und nicht mehr aufgewacht ist, was an sich ja sowohl egal ob Mensch oder Tier erstmal die schönste Art ist zu sterben und ja die Tatsache, dass er einfach so dieses erfüllte Leben hatte, natürlich weiß keiner wie sein Leben war, bevor diese Britin ihn auf die Anlage gebracht hat,",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2073.58,
+   "ende": 2082.94,
+   "text": "Ja, vielleicht, wie gesagt, er hatte auf jeden Fall irgendeinen Hüftschaden und die Ärzte, wo wir ihn damals hingebracht haben, sind davon ausgegangen, dass das aus einem Unfall resultiert.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2083.66,
+   "ende": 2095.32,
+   "text": "Das heißt, ja, vielleicht hat er vorher auch an der Straße gelebt, wurde angefahren, vielleicht ging es ihm da auch nicht gut so, aber auf alle Fälle die letzten, mindestens die letzten vier Jahre und sicherlich auch schon die paar Jahre auf der Anlage,",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2095.32,
+   "ende": 2099.92,
+   "text": "bevor wir da hingekommen sind, hat er einfach ein wunderbares Leben gehabt",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 2099.92,
+   "ende": 2104.36,
+   "text": "und hat eben das, was er bei uns ausgelöst hat, auch bei vielen anderen Menschen ausgelöst,",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 2104.46,
+   "ende": 2108.18,
+   "text": "die ihm wiederum dann ja auch das zurückgegeben haben, was wir ihm gegeben haben.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 2108.52,
+   "ende": 2113.8,
+   "text": "Und plus eben dann seine ganzen Hundedinge, die er da gemacht hat.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 2114.98,
+   "ende": 2120.4,
+   "text": "Ja, tröstet es schon, dass er, also als er dann jetzt gestorben ist,",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 2120.46,
+   "ende": 2123.82,
+   "text": "tröstet es schon zu wissen, dass er einfach ein gutes Leben hatte.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 2123.82,
+   "ende": 2142.68,
+   "text": "Und ja, jetzt auch nicht mehr so super jung war, wo man so denkt, oh Gott, der hätte jetzt noch so viel vor sich haben können. Und für uns jetzt oder auch gerade für die Kinder ist es natürlich auch, sage ich jetzt mal, ein Vorteil gewesen, dass wir jetzt schon seit einem Monat eben nicht mehr da gewohnt haben.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 2143.44,
+   "ende": 2147.0,
+   "text": "Zum einen kennen wir es ja schon mal, dass wir halt da gewohnt haben",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2147.0,
+   "ende": 2152.06,
+   "text": "und ihn dann zurücklassen mussten oder wollten, also wieder abgereist sind",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2152.06,
+   "ende": 2156.44,
+   "text": "und er halt da blieb und wir ihn dann einfach zwei Jahre nicht gesehen haben.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2157.28,
+   "ende": 2159.78,
+   "text": "So, das heißt, man hat ja da schon dann eine andere Bindung,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2159.96,
+   "ende": 2162.5,
+   "text": "als wenn man jetzt einen Hund hat, der bei einem zu Hause lebt.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2163.7,
+   "ende": 2167.38,
+   "text": "Und dann haben wir ihn jetzt zwar wieder knapp ein Jahr um uns gehabt,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2167.6,
+   "ende": 2171.74,
+   "text": "aber sind jetzt eben seit einem Monat nicht mehr da gewesen",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2171.74,
+   "ende": 2191.08,
+   "text": "Und somit haben sich natürlich auch die Kinder schon daran gewöhnt gehabt, dass er nicht mehr jeden Tag um uns herum ist. Ich denke, es wäre schwieriger jetzt, wenn wir immer noch da wohnen würden und man eben so typische Momente, man holt halt die Kiste und er kommt halt nicht oder er liegt halt nicht auf der Terrasse oder er liegt halt nicht unterm Bungalow.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2191.08,
+   "ende": 2199.06,
+   "text": "Oder es kommen irgendwelche Leute mit Hunden und es pässt halt kein weißer Blitz unterm Bungalow vor und versucht die umzubringen alle.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2199.74,
+   "ende": 2204.28,
+   "text": "So, dann wäre es wahrscheinlich auch noch schwieriger.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2205.28,
+   "ende": 2211.62,
+   "text": "So sind wir natürlich traurig, als wir dann auch zum Grab gefahren sind und das erfahren haben.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2211.62,
+   "ende": 2214.28,
+   "text": "Aber wir haben ja hier, Hermine hat ja auch ein Bild ausgedruckt.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2214.32,
+   "ende": 2219.02,
+   "text": "Sie guckt jeden Abend am Himmel und der hellste Stern ist halt Archie.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2219.02,
+   "ende": 2246.96,
+   "text": "Und sie sagt das auch mit Freude dann, ach guck mal, da ist Archie so, ohne jetzt die ganze Zeit so eine Traurigkeit damit zu verbinden, sodass ich darüber auch ganz froh bin, dass das jetzt so die erste Erfahrung für uns ist mit dem Tod von einem Tier, was man geliebt hat, ohne dass es gleich so eine heftige Erfahrung ist, wie das eben für Menschen ist, die mit so einem Tier eben leben oder aufgewachsen sind.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2246.96,
+   "ende": 2252.08,
+   "text": "Ja, deshalb, das ist Archies Geschichte",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2252.08,
+   "ende": 2255.48,
+   "text": "Ich habe, wie gesagt, ja einen Teil davon auch auf Instagram geteilt",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2255.48,
+   "ende": 2258.98,
+   "text": "Wobei mir angezeigt wurde, dass alle Bilder gelöscht wurden",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2258.98,
+   "ende": 2263.46,
+   "text": "Wegen Nacktheit von Kindern, weil die Kinder da oft in Badehose oder im Schlüpper halt sind",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2263.46,
+   "ende": 2268.7,
+   "text": "Aber offenbar konnten doch einige diesen Post lesen",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2268.7,
+   "ende": 2271.78,
+   "text": "Und es haben einfach super viele Menschen diesen Post geliked",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2271.78,
+   "ende": 2276.8,
+   "text": "Und da Kommentare drunter geschrieben, habe ich in meiner ganzen Instagram-Zeit noch nie gehabt",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2276.8,
+   "ende": 2297.62,
+   "text": "Ich bin ja nur ein kleines Lichter und es ist irgendwie trotzdem auch, wenn es irgendwie Social Media ist und so, es ist irgendwie trotzdem ein schönes Gefühl gewesen, dass so viele Menschen an ihn gedacht haben, obwohl sie ihn halt nicht kennen und auch anhand meiner Worte da irgendwie auch ich das Gefühl rüberbringen konnte, dass er einfach ein super schönes Leben hatte.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2298.62,
+   "ende": 2301.16,
+   "text": "Und ja, das war auch nochmal irgendwie schön so.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2301.62,
+   "ende": 2305.46,
+   "text": "Ich hatte den Post halt eigentlich eher, weil ja alle, die mir auf Instagram folgen,",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2305.58,
+   "ende": 2308.38,
+   "text": "wissen, dass eben diese beiden Hunde, der Archie und Deng, existieren.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2308.46,
+   "ende": 2312.7,
+   "text": "Und ich hatte das halt einfach so, ja, dann nochmal, um das mitzuteilen,",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2312.8,
+   "ende": 2314.96,
+   "text": "diesen Post gemacht und bin überhaupt nicht davon ausgegangen,",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2314.96,
+   "ende": 2319.02,
+   "text": "dass der so viele Menschen erreicht, die gar nichts damit zu tun haben.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2320.46,
+   "ende": 2322.54,
+   "text": "Aber das war irgendwie auch nochmal schön so nachträglich,",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2322.7,
+   "ende": 2325.68,
+   "text": "dass er dann nochmal so diese Aufmerksamkeit bekommen hat.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2325.68,
+   "ende": 2332.98,
+   "text": "Und ja, jetzt ist es so, wie es ist und wir werden mal sehen, wie es mit Deng weitergeht.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 2333.8,
+   "ende": 2334.9,
+   "text": "Ihr werdet es dann auch erfahren.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 2335.82,
+   "ende": 2343.26,
+   "text": "Tja, das war die Geschichte zu Archie und jetzt chillt er halt irgendwo und ist wahrscheinlich da, der Boss.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 2344.4,
+   "ende": 2348.16,
+   "text": "Okay, wir hören uns nächste Woche. Bis dann, tschüss.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.43
+  }
+ ]
+}

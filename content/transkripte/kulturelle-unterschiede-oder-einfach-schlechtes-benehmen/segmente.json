@@ -1,0 +1,3418 @@
+{
+ "meta": {
+  "slug": "kulturelle-unterschiede-oder-einfach-schlechtes-benehmen",
+  "titel": "Kulturelle Unterschiede oder einfach schlechtes Benehmen?",
+  "datum": "2026-10-19T01:58:22.000Z",
+  "dauer_sekunden": 2052,
+  "guid": "dc4a4362-3d0c-41a2-9a90-faf0024a399e",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T06:36:42Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 5,
+   "transkription": 1515
+  },
+  "echtzeitfaktor": 0.74,
+  "anzahl_segmente": 424,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.72,
+   "ende": 10.71,
+   "text": "Selbst wenn jemand offensichtlich etwas falsch macht und selbst wenn irgendein Verhalten von jemand anderem nicht tragbar ist,",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 10.71,
+   "ende": 20.45,
+   "text": "ist es eigentlich nicht üblich, dass sich ein Außenstehender oder dass sich der Thai als Person so sehr in die Privatsphäre einer anderen Person einmischt.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 25.47,
+   "ende": 30.35,
+   "text": "Hallo und herzlich willkommen zu einer neuen Folge DLIZKFI – Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 31.31,
+   "ende": 37.25,
+   "text": "Heute mal zu dem Thema kulturelle Unterschiede oder doch einfach nur schlechtes Benehmen.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 37.25,
+   "ende": 61.29,
+   "text": "Wir haben nämlich in letzter Zeit etwas bizarre, sage ich mal, Situationen mit unserer Vermieterin gehabt und man fragt sich dann natürlich immer so, okay, ist das jetzt irgendwie wieder so ein Thai-European-Thema oder sogar Thai-Deutsch, also weil Europa ist jetzt natürlich auch nicht immer gleichzusetzen mit Deutschland.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 61.29,
+   "ende": 70.39,
+   "text": "Aber ist das jetzt so ein kulturelles Ding oder ist das einfach nur scheiße und würden das Thais genauso betrachten wie wir?",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 71.29,
+   "ende": 83.47,
+   "text": "Und ich fange mal von vorne an. Also grundsätzlich waren wir total froh, als wir dieses Haus gefunden haben, dass die Vermieterin, also dass die Person, mit der man den Vorabkontakt hat, auch die Eigentümerin des Hauses ist.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 83.47,
+   "ende": 99.01,
+   "text": "Weil ganz viel läuft halt hier über Makler und oft kennt man den Vermieter dann gar nicht so. Wir hatten ja, vorher war es so, wo wir da in unserem Bungalows gewohnt haben, da haben wir ja mit den Vermietern quasi auf einem Gelände gelebt und hatten ja auch ein total gutes Verhältnis mit denen.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 99.65,
+   "ende": 104.91,
+   "text": "Und davor, als wir das eine Jahr hier waren, haben wir ja anfangs noch woanders gewohnt.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 105.27,
+   "ende": 107.39,
+   "text": "Das war auch bei einem Teil, das war auch der Besitzer.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 108.29,
+   "ende": 112.29,
+   "text": "Und ja, so waren wir jetzt ganz froh, dass das jetzt hier eben auch wieder so ist",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 112.29,
+   "ende": 114.87,
+   "text": "und wir nicht irgendwie so einen Makler dazwischen geschaltet haben.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 115.77,
+   "ende": 120.77,
+   "text": "Und fanden die auch total nett oder finden die eigentlich auch immer noch nett.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 120.77,
+   "ende": 127.45,
+   "text": "Aber auf jeden Fall waren wir auch, ja, weil wir vorher halt dieses enge Verhältnis mit unseren Vermietern hatten",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 127.45,
+   "ende": 132.29,
+   "text": "und jetzt dann quasi so die neue Vermieterin auch, die ist auch schon ein bisschen älter,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 132.41,
+   "ende": 135.73,
+   "text": "weiß ich nicht, Anfang 60 vielleicht schätze ich, ist immer so schlecht einzuschätzen,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 135.73,
+   "ende": 141.89,
+   "text": "aber die war halt auch gleich so super herzlich und einnehmend, sag ich mal,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 142.45,
+   "ende": 147.49,
+   "text": "dass wir uns auch total darüber gefreut haben, dass das jetzt gleich wieder so passt",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 147.49,
+   "ende": 151.89,
+   "text": "und dass man da sich gleich so gut aufgehoben und willkommen fühlt.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 151.89,
+   "ende": 157.85,
+   "text": "und dann hat man aber irgendwann trotzdem, also man hat dann schon manchmal gedacht,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 157.85,
+   "ende": 166.33,
+   "text": "okay, die ist halt wirklich so super freundlich und so sehr nahe, sag ich mal,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 166.91,
+   "ende": 174.17,
+   "text": "aber immer wenn dann irgendwie so ein Gedanke kam von, ja, ist das, also finde ich das jetzt gut",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 174.17,
+   "ende": 178.29,
+   "text": "oder ist das irgendwie schon ein bisschen zu viel des Guten, hat man eigentlich das gleich wieder weggeschoben,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 178.29,
+   "ende": 184.43,
+   "text": "weil man ja irgendwie dachte, ja, es ist ja irgendwie auch gemein, wenn man das nicht gut finden würde sozusagen.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 185.15,
+   "ende": 190.37,
+   "text": "Und dann gab es aber trotzdem so nach einer Weile immer wieder so Situationen, wo man so dachte,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 190.97,
+   "ende": 197.29,
+   "text": "also sie erstmal, das vielleicht nochmal vorab, die komplette Kommunikation mit ihr läuft eigentlich über ChatGPT,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 198.03,
+   "ende": 204.63,
+   "text": "weil man sieht einfach anhand dessen, wie sie Nachrichten, also man bekommt auf eine ganz normale WhatsApp-Nachricht halt eine Riesenabhandlung.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 204.63,
+   "ende": 223.97,
+   "text": "Ja, also wirklich so ein komplett mega langen Text und man weiß ja auch, wenn man sich mit ihr so unterhält, wie sie Englisch spricht und was sie übrigens sehr gut tut und dann aber auch, wie das geschrieben ist, genauso wie inzwischen jeder diese ganzen KI-Werbeplakate erkennt, erkennt man ja auch, wenn jemand was mit ChatGPT geschrieben hat, ob das jetzt auf Deutsch oder Englisch ist.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 223.97,
+   "ende": 235.59,
+   "text": "Das heißt, sie nutzt wahrscheinlich ChatGPT als Übersetzer, was ja grundsätzlich auch legitim ist, aber das wird halt nicht einfach nur übersetzt, sondern man merkt halt richtig, dass da so Handlungsstränge dahinter stehen.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 235.73,
+   "ende": 251.81,
+   "text": "Also wir vermuten einfach, dass sie halt ein Chat für uns hat und einfach immer alles, was mit uns zu tun hat, in diesen Chat reingibt und dadurch einfach die Antworten halt immer ja so einen roten Faden haben und einfach nicht so, wie man sich über WhatsApp halt austauschen würde.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 252.57,
+   "ende": 257.73,
+   "text": "Und dann hat sie halt auch am Anfang dann immer wieder, also dann waren wir irgendwie schon eingezogen,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 257.81,
+   "ende": 261.35,
+   "text": "dann kam so, ja, könnt ihr mal das noch unterschreiben und könnt ihr mal das noch bezahlen?",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 261.43,
+   "ende": 263.19,
+   "text": "Ach, ich habe vergessen, das kommt ja auch noch dazu.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 263.53,
+   "ende": 269.13,
+   "text": "Und es ging dann immer um so Kleinigkeiten, wo man dann halt auch dachte, ja, okay, gut, ist jetzt, was weiß ich,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 269.13,
+   "ende": 272.91,
+   "text": "ja gut, dann die 15 Euro für das zahlen wir dann halt auch noch mehr.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 273.23,
+   "ende": 276.97,
+   "text": "Und ja, okay, wir unterschreiben dann auch eine Inventarliste.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 277.11,
+   "ende": 280.81,
+   "text": "Aber die Inventarliste war dann eben nicht einfach nur das Inventar,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 280.81,
+   "ende": 284.47,
+   "text": "weil hier wird ja alles möbliert vermietet, was wir übrigens auch vorher noch nicht kannten,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 284.53,
+   "ende": 286.61,
+   "text": "weil man zahlt ja auch eine Kaution.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 287.79,
+   "ende": 292.91,
+   "text": "Ach genau, das war auch zusätzlich zur Kaution, sollten wir dann noch eine Extra-Kaution dafür zahlen,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 293.05,
+   "ende": 298.29,
+   "text": "dass falls wir irgendwie das Internet, falls wir die Stromrechnung nicht rechtzeitig bezahlen,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 298.91,
+   "ende": 301.15,
+   "text": "dass sie dann irgendwie noch zusätzlich was hat.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 301.25,
+   "ende": 304.15,
+   "text": "Also tatsächlich viele Sachen auch ein bisschen ähnlich, wie sie in Deutschland waren,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 304.23,
+   "ende": 308.15,
+   "text": "aber hatten wir bisher hier halt so noch nicht erlebt und kam halt alles so nach und nach.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 308.15,
+   "ende": 325.97,
+   "text": "Dann kam irgendwann noch diese Inventarliste, wo eben nicht nur das Inventar drauf stand, sondern wirklich zu jedem Miniteil der Preis und auch eben der Anschaffungspreis, wo ich dann auch schon gesagt habe, das erste Mal zu ihr, okay, wir sollen einfach nur irgendwie mal abhaken, ob alles da ist.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 325.97,
+   "ende": 327.95,
+   "text": "inzwischen, wir unterschreiben jetzt hier irgendwie eine",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 327.95,
+   "ende": 330.17,
+   "text": "Preisliste, was heißt das im Umkehrschluss?",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 330.29,
+   "ende": 332.01,
+   "text": "Also wenn jetzt irgendwas hier",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 332.01,
+   "ende": 333.93,
+   "text": "kaputt geht, was ja schon lange vor uns",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 333.93,
+   "ende": 336.03,
+   "text": "da war, was weiß ich, der Kühlschrank",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 336.03,
+   "ende": 338.21,
+   "text": "ist super alt, ja, der ist schon komplett verrostet",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 338.21,
+   "ende": 339.97,
+   "text": "außen und so, wo ich dann sage,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 340.01,
+   "ende": 341.95,
+   "text": "wenn jetzt der Kühlschrank kaputt geht, dann steht",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 341.95,
+   "ende": 343.51,
+   "text": "hier ein Neuwert von Summe X,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 344.25,
+   "ende": 345.81,
+   "text": "heißt das dann, ich soll diesen Wert",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 345.81,
+   "ende": 347.37,
+   "text": "bezahlen und dann meint sie, nein, nein,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 347.49,
+   "ende": 350.01,
+   "text": "er hat wahrscheinlich auch Jet-Chip-Tea gemacht,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 350.17,
+   "ende": 351.37,
+   "text": "das wäre einfach nur so und",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 351.37,
+   "ende": 353.91,
+   "text": "dann war es halt auch so, dass",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 353.91,
+   "ende": 354.67,
+   "text": "sie halt immer",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 354.67,
+   "ende": 357.91,
+   "text": "einfach unangekündigt aufgetaucht ist.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 358.03,
+   "ende": 359.47,
+   "text": "Und am Anfang denkt man halt noch so,",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 359.59,
+   "ende": 361.59,
+   "text": "okay, ja, bis sich das",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 361.59,
+   "ende": 363.53,
+   "text": "so ein bisschen eingerogelt hat, vielleicht hat sie auch vorher",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 363.53,
+   "ende": 365.55,
+   "text": "hier selber gewohnt, ja, vielleicht fällt es ihr",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 365.55,
+   "ende": 367.47,
+   "text": "jetzt auch irgendwie schwer, das",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 367.47,
+   "ende": 369.05,
+   "text": "dann in fremde Hände zu geben",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 369.05,
+   "ende": 371.39,
+   "text": "und hat halt immer",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 371.39,
+   "ende": 373.39,
+   "text": "alles so darauf geschoben von, ja, die ist ja",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 373.39,
+   "ende": 375.51,
+   "text": "total nett, ja, die meint das bestimmt nicht",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 375.51,
+   "ende": 376.85,
+   "text": "böse oder da ist ja,",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 377.43,
+   "ende": 379.07,
+   "text": "ja, das wäre ja jetzt irgendwie nicht",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 379.07,
+   "ende": 381.57,
+   "text": "unfair, wenn man jetzt davon genervt",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 381.57,
+   "ende": 383.11,
+   "text": "wäre oder so, ja, und",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 383.11,
+   "ende": 388.49,
+   "text": "Und irgendwann war es dann aber auch, wir hatten ja diese Phase, wo wir hier auch immer so wenig Wasser hatten.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 388.57,
+   "ende": 391.85,
+   "text": "Auch das, ja, wir waren das einzige Haus hier in der Nachbarschaft,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 391.99,
+   "ende": 396.89,
+   "text": "das einfach immer einmal die Woche oder alle vier Tage eine Wasserlieferung brauchte.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 396.97,
+   "ende": 399.59,
+   "text": "Sind halt auch so Infos, die hat man natürlich vorher nicht bekommen.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 399.95,
+   "ende": 403.13,
+   "text": "Es liegt einfach auch da, also natürlich war Trockenzeit und alle hatten,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 403.71,
+   "ende": 406.97,
+   "text": "also es war generell ein Problem auf Koh Samui, ja, dass zu wenig Wasser da war.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 407.87,
+   "ende": 412.15,
+   "text": "Aber man sieht ja diesen Wassertrag so und wir sind einfach immer die einzigen gewesen,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 412.15,
+   "ende": 415.75,
+   "text": "die alle vier Tage diesen Wassertruck hier stehen hatten und diese Füllung bezahlen mussten,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 415.85,
+   "ende": 418.89,
+   "text": "weil vermutlich ihr Boden einfach nicht tief genug ist.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 419.05,
+   "ende": 421.99,
+   "text": "Aber gut, aber sie ist dann auch einfach jedes Mal mitgekommen.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 422.15,
+   "ende": 424.15,
+   "text": "Also immer, wenn hier irgendwas war, Internet oder keine Ahnung,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 424.43,
+   "ende": 427.27,
+   "text": "sie stand halt einfach immer mit den Dienstleistern, sage ich jetzt mal,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 427.31,
+   "ende": 430.71,
+   "text": "hier einfach auf der Matte, hat das Tor dann aufgemacht, hat die auf den Hof gewunken und so.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 431.97,
+   "ende": 435.97,
+   "text": "Und wir waren halt hier drin, haben irgendwas gemacht, gearbeitet, mit den Kindern gespielt, keine Ahnung,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 436.07,
+   "ende": 439.55,
+   "text": "und dachten, okay, ja, wo kommt da jetzt wer? Ach so, sie ist es.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 439.55,
+   "ende": 457.11,
+   "text": "Und so, aber halt auch immer so unangekündigt. Und dann hatte Hagen ihr vor dem Urlaub dann schon einmal gesagt, okay, du musst nicht immer mitkommen, wenn hier jemand ist und wenn wir vor allen Dingen da sind. Also wenn, klar, wenn jetzt jemand kommen muss und wir sind nicht anwesend, ist ja nett, wenn sie mitkommt.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 457.11,
+   "ende": 461.65,
+   "text": "Aber wenn wir da sind, sagt er, musst du halt nicht immer mit dabei sein.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 461.65,
+   "ende": 465.79,
+   "text": "Und da hatte er eigentlich schon das Gefühl, dass sie schon so ein bisschen geschluckt hat,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 466.31,
+   "ende": 469.63,
+   "text": "weil, das habe ich ja schon mal erklärt, das jetzt nicht so üblich ist,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 469.69,
+   "ende": 473.17,
+   "text": "dass man jemandem so direkt ins Gesicht sagt, wenn man etwas nicht möchte.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 474.03,
+   "ende": 477.71,
+   "text": "Und er hat das total freundlich gesagt, ich war auch dabei, ich habe das gehört,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 477.91,
+   "ende": 481.51,
+   "text": "aber er hatte das Gefühl, das war jetzt vielleicht schon zu direkt.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 482.27,
+   "ende": 485.21,
+   "text": "Und dann haben wir aber gesagt, okay, aber ist ja auch besser so,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 485.21,
+   "ende": 488.39,
+   "text": "dass sie es jetzt vielleicht mal checkt, dass es jetzt langsam zu viel wird,",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 488.47,
+   "ende": 492.01,
+   "text": "anstatt dass sich das dann aufstaut und dass man dann irgendwann wirklich anfängt,",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 492.13,
+   "ende": 495.81,
+   "text": "sauer darüber zu werden, weil am Ende haben wir das halt hier gemietet.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 496.13,
+   "ende": 499.95,
+   "text": "Sie kann ja nicht einfach jeden Tag, wie sie gerade lustig ist,",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 499.99,
+   "ende": 501.95,
+   "text": "halt hier auftauchen und einfach aufs Gelände kommen.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 502.73,
+   "ende": 505.31,
+   "text": "So und da wir das aber schon so ein bisschen ahnten,",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 505.49,
+   "ende": 508.33,
+   "text": "weil sie hat dann auch immer so mit ihren, sie hat ja super viele Pflanzen.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 508.43,
+   "ende": 510.39,
+   "text": "Da habe ich mich total drüber gefreut am Anfang.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 510.49,
+   "ende": 512.03,
+   "text": "Dann hat sie mir auch noch Samen gebracht.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 512.03,
+   "ende": 518.65,
+   "text": "Und dann habe ich auch immer wieder gesagt, wie sehr ich mich freue, dass hier die ganzen Pflanzen sind und so.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 519.15,
+   "ende": 523.97,
+   "text": "Und dann war ja eben diese Trockenzeit und wir konnten die Pflanzen, aber haben sie auch nicht gewässert.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 524.01,
+   "ende": 525.25,
+   "text": "Wir konnten hier noch nicht mehr duschen.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 525.33,
+   "ende": 530.53,
+   "text": "Wir haben dann halt die ganze Zeit im Gym geduscht, weil wir halt oft kein Wasser hatten.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 530.91,
+   "ende": 536.01,
+   "text": "Dann gieße ich ja nicht die Blumen draußen, wenn ich mich noch nicht mal selber waschen kann oder hier das Geschirr spülen kann.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 536.35,
+   "ende": 541.67,
+   "text": "Das haben wir halt auch gesagt, dass wir jetzt aktuell die Pflanzen halt nicht gießen können, weil einfach kein Wasser da ist.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 541.67,
+   "ende": 565.45,
+   "text": "Und dann hatte ich gesagt, okay, wir sind dann drei Wochen im Urlaub wegen den Pflanzen. So sinngemäß dachte ich, naja, vielleicht will sie ja sagen, dass sie die dann während des Urlaubs gießen will, weil ihr das halt wichtig ist. Hatte ihr dann so eine Nachricht geschrieben, die ihr so ein bisschen eingeräumt hat, dann hierher zu kommen, wenn wir weg sind. Und das hat sie aber nicht drauf reagiert, also ist sie nicht drauf eingegangen, hat nur gesagt, ja, schönen Urlaub und so weiter. Und dachte ich, okay, dann will sie vielleicht nicht.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 565.45,
+   "ende": 589.29,
+   "text": "Dann habe ich ihr einen Tag bevor wir geflogen sind nochmal ein Foto auch geschickt und habe geschrieben, okay, ich habe die ganzen Pflanzen von der Terrasse jetzt hinten in den Garten gestellt, damit falls es regnet, die dann halt Wasser bekommen. Hat sie auch nicht darauf reagiert. Also auch wieder nur ja, schönen Urlaub und irgendwelches anderes Blabla, also irgend so eine Chez Chibiti Nachricht, aber nichts von ja, okay, ja oder ich komme mal vorbei und gieße die Pflanzen oder keine Ahnung, so gar nichts.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 589.29,
+   "ende": 606.41,
+   "text": "Dann sind wir am Freitag her geflogen. Also es war an einem Freitag. Und dann schreibt sie mir abends eine Nachricht. Sie möchte mich zwar nicht in meinem Urlaub stören, wo ich schon so denke, na gut, also wenn ich jetzt jemandem eine Nachricht schreibe, die beginnt mit, ich möchte dich nicht stören, dann denke ich mir so, dann lass es halt.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 606.41,
+   "ende": 626.59,
+   "text": "Weil wenn du mich nicht stören willst, dann schreib mir doch keine Nachricht. Irgendwie drei Stunden, nachdem ich das Land verlassen habe. Und dann kam halt ja, und das ist halt schon allein die Formulierung. Sie ist heute zum Haus gefahren und hat sie geschrieben, while checking the house. Also while checking the house, während ich das Haus gecheckt habe.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 626.59,
+   "ende": 645.33,
+   "text": "Und da kann man jetzt auch nicht sagen, das ist vielleicht ein Verständigungsproblem, weil wir ja einfach über jetzt fast zwei Monate schon ihre Formulierungen kennen und wir wissen, dass sie die mit ChatGPT schreibt oder irgendeiner anderen KI und demnach ist ja jetzt nicht so, ist, dass sie einfach nicht das richtige englische Wort kannte dafür.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 645.33,
+   "ende": 673.71,
+   "text": "Ja, so und da habe ich schon, als ich den Satz gelesen habe, dachte ich schon so, wie while checking the house, also what, wieso, wieso checkst du überhaupt das Haus und wieso bist du überhaupt am Haus und woher weißt du überhaupt, dass wir schon weg sind, also wieso kommt sie einfach zum Haus, wohlwissend, dass wir nicht da sind, ja und dann ging es halt weiter mit, sie hätte den Garten gemacht, wo ich dachte, okay, das steht auch im Vertrag, eigentlich alle drei Monate, dass hier sie einen Gärtner schickt,",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 674.45,
+   "ende": 678.67,
+   "text": "Aber dann dachte ich auch wieder, okay, auch das hätte man ja irgendwie vielleicht besprechen können.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 678.89,
+   "ende": 683.85,
+   "text": "Also wenn sie denkt, macht ja Sinn, die sind jetzt nicht da, macht es ja Sinn, jetzt den Gärtner zu schicken.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 683.97,
+   "ende": 686.59,
+   "text": "Oder meinetwegen, wenn sie das selber machen will, halt auch selber zu machen.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 687.17,
+   "ende": 690.75,
+   "text": "Aber dann sage ich ja trotzdem vorher, ach ja, würde sich ja anbieten.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 691.15,
+   "ende": 694.05,
+   "text": "Habt ihr dann was dagegen, dass dann jemand kommt und den Garten macht?",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 694.89,
+   "ende": 699.01,
+   "text": "Auf jeden Fall, während sie den Garten gemacht hätte, wäre ihr Folgendes aufgefallen.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 699.01,
+   "ende": 701.13,
+   "text": "zum Beispiel, dass wir an der",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 701.13,
+   "ende": 703.29,
+   "text": "einen Hauswand dieses eine Schiebefenster",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 703.29,
+   "ende": 704.65,
+   "text": "nicht zu hätten.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 705.65,
+   "ende": 707.01,
+   "text": "Und ich dachte so, hä, was?",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 707.15,
+   "ende": 708.89,
+   "text": "Also, what? Ich hab hier",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 708.89,
+   "ende": 711.05,
+   "text": "sogar die Innentüren. Also hier sind noch mal",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 711.05,
+   "ende": 713.05,
+   "text": "innen drin, in dem Haus Türen. So, jetzt die",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 713.05,
+   "ende": 715.05,
+   "text": "hab ich abgeschlossen. Warum auch immer ich das gemacht hab,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 715.09,
+   "ende": 717.21,
+   "text": "weiß ich ehrlich gesagt gar nicht, weil man kann",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 717.21,
+   "ende": 719.11,
+   "text": "hier, also man kann hier irgendwie",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 719.11,
+   "ende": 720.95,
+   "text": "vorm Supermarkt seinen Autoschlüssel",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 720.95,
+   "ende": 723.23,
+   "text": "oder seinen Rollerstüssel stecken lassen und es passiert",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 723.23,
+   "ende": 725.13,
+   "text": "nichts. Ja, also das hab ich, glaube ich, auch",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 725.13,
+   "ende": 727.13,
+   "text": "schon mal erklärt. So klauen ist man, also",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 727.13,
+   "ende": 731.57,
+   "text": "Also hier auf Koh Samui, natürlich gibt es auch bestimmt in Bangkok oder in Pattaya oder keine Ahnung,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 731.67,
+   "ende": 735.41,
+   "text": "gibt es Fälle von irgendwelchen Banden, die Leute ausrauben und so weiter.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 735.53,
+   "ende": 740.63,
+   "text": "Aber grundsätzlich ist jetzt Thailand und vor allem auch Koh Samui jetzt nicht das heiße Pflaster,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 741.11,
+   "ende": 742.21,
+   "text": "wo ständig irgendwo eingebrochen wird.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 742.23,
+   "ende": 746.71,
+   "text": "Ich habe noch niemals gehört, wirklich nicht, also wenn das hier jemand hört und was anderes,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 746.71,
+   "ende": 752.99,
+   "text": "dass auf Koh Samui jemals bei irgendjemandem und schon gar nicht bei Touristen eingebrochen wurde.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 752.99,
+   "ende": 771.49,
+   "text": "Ja, mal abgesehen davon ist dieses komplette Haus mit einer Mauer und einem Zaun und einem Tor. Das Tor ist abgeschlossen. Jede Haustür ist hier abgeschlossen. Die Innentüren sind abgeschlossen. Alles ist abgeschlossen. Aber das sind so eine Schiebefenster und da gibt es von innen nochmal so einen kleinen Haken quasi, den ich so umklappen kann.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 771.49,
+   "ende": 775.73,
+   "text": "und diesen Haken haben wir an einem Fenster, weil wir das Fenster nicht benutzen,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 775.81,
+   "ende": 779.33,
+   "text": "weil das quasi hinterm Bett ist und dann ist der Vorhang davor und noch ein Mückennetz.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 779.43,
+   "ende": 780.79,
+   "text": "Also wir benutzen dieses Fenster nicht.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 781.43,
+   "ende": 785.45,
+   "text": "Dieser Haken war quasi nicht zu und es ist aber an der Außenwand vom Haus.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 785.85,
+   "ende": 789.03,
+   "text": "Also sie hätte auf jeden Fall das Haus gecheckt und dann wäre ihr aufgefallen,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 789.03,
+   "ende": 792.71,
+   "text": "dass dieses Fenster halt von innen nicht zu ist, wo ich dann auch dachte,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 793.09,
+   "ende": 795.49,
+   "text": "okay, aber wie fällt einem das denn auf?",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 795.59,
+   "ende": 800.45,
+   "text": "Also wie ist sie jetzt hier ums Haus gelaufen und hat überall an den Fenstern geschoben,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 800.45,
+   "ende": 802.13,
+   "text": "um zu gucken, ob da irgendwas auf hat.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 802.57,
+   "ende": 804.59,
+   "text": "Da meinte sie, ja, sie wäre da lang gegangen",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 804.59,
+   "ende": 807.51,
+   "text": "und dann wäre sie aus dem Gleichgewicht gekommen",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 807.51,
+   "ende": 809.65,
+   "text": "und hätte sich an dem Fenster abgestützt",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 809.65,
+   "ende": 811.13,
+   "text": "und dabei wäre ihr das aufgefallen.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 811.75,
+   "ende": 813.47,
+   "text": "Also schon alles super weird, ja.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 813.55,
+   "ende": 816.11,
+   "text": "Und dann habe ich ihr halt auch klar zu verstehen gegeben,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 816.19,
+   "ende": 818.07,
+   "text": "dass ich das auf gar keinen Fall cool finde so,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 818.49,
+   "ende": 821.07,
+   "text": "dass ich ihr, habe ich auch gesagt, ich habe dir zweimal geschrieben,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 821.27,
+   "ende": 823.21,
+   "text": "du hattest zweimal die Gelegenheit, mir zu sagen,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 823.29,
+   "ende": 826.61,
+   "text": "dass du zum Haus kommen willst, ja, während wir weg sind.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 826.71,
+   "ende": 827.75,
+   "text": "Du hast es nicht gemacht.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 827.75,
+   "ende": 830.07,
+   "text": "und dann nutzt du irgendwie",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 830.07,
+   "ende": 832.07,
+   "text": "die erstbeste Stunde, wo",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 832.07,
+   "ende": 833.61,
+   "text": "wir hier das Gelände verlassen",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 833.61,
+   "ende": 835.83,
+   "text": "und kommst aufs Gelände und",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 835.83,
+   "ende": 838.47,
+   "text": "achso, und dann hatte sie noch gesagt, hier ist nämlich so ein Gullideckel,",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 838.61,
+   "ende": 839.45,
+   "text": "der ist zerbrochen",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 839.45,
+   "ende": 842.03,
+   "text": "und das hatte Hagen ja auch bestimmt anderthalb Wochen",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 842.03,
+   "ende": 843.71,
+   "text": "vor dem Urlaub schon geschrieben und hat gesagt,",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 843.99,
+   "ende": 846.25,
+   "text": "das muss einer irgendwie reparieren.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 846.79,
+   "ende": 848.35,
+   "text": "Wir haben da jetzt erstmal eine Holzplatte",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 848.35,
+   "ende": 849.79,
+   "text": "drüber gelegt und so und dann hatte sie",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 849.79,
+   "ende": 851.45,
+   "text": "mir da noch geschrieben, auch mit",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 851.45,
+   "ende": 852.73,
+   "text": "while checking the house,",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 853.73,
+   "ende": 855.71,
+   "text": "dass der Gullideckel ja kaputt sei und dass der jetzt",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 855.71,
+   "ende": 856.71,
+   "text": "repariert werden müsste.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 857.55,
+   "ende": 860.89,
+   "text": "So, wo ich dann auch gesagt habe, das mit dem Gullideckel, weißt du, seit anderthalb Wochen,",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 860.93,
+   "ende": 865.61,
+   "text": "du hast anderthalb Wochen Zeit gehabt, dir jemanden herzuschicken, der sich das anguckt, während wir zu Hause sind.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 866.03,
+   "ende": 869.01,
+   "text": "Ja, ich habe dir ein Bild geschickt, wo ich die Pflanzen hingestellt habe.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 869.11,
+   "ende": 870.95,
+   "text": "So, du hast zu all dem nichts gesagt.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 871.41,
+   "ende": 875.97,
+   "text": "Und jetzt schreibst du mir, um mich erst mal darauf hinzuweisen, was ich falsch gemacht habe,",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 875.97,
+   "ende": 879.39,
+   "text": "nämlich, dass ich dieses eine Fenster, das ist trotzdem dicht, also es geht jetzt auch nicht darum,",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 879.47,
+   "ende": 881.31,
+   "text": "dass es dann reingeregnet hätte oder so, ja.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 881.73,
+   "ende": 886.07,
+   "text": "Es wäre wirklich jetzt nur der Gedanke, dass dann jemand über den Zaun klettern könnte",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 886.07,
+   "ende": 889.87,
+   "text": "und durch dieses Fenster ins Haus einbrechen könnte, was vollkommen absurd ist",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 889.87,
+   "ende": 893.99,
+   "text": "und wo ich mir auch irgendwie denke, sie, das ist ja auch hier eine Teilnachbarschaft, ja,",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 894.13,
+   "ende": 898.65,
+   "text": "also, naja, auf jeden Fall war ich da schon mäßig angepisst so",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 898.65,
+   "ende": 904.73,
+   "text": "und dann hat sie, dann hat sie, dann habe ich halt gesagt, weil ich erst nicht verstanden habe,",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 904.77,
+   "ende": 907.33,
+   "text": "was sie meint, dass ich mir nicht vorstellen kann, dass wir was aufgelassen haben,",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 907.33,
+   "ende": 910.45,
+   "text": "weil wir auch immer double checken, also Hagen und ich, dann nochmal durchgehen.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 910.93,
+   "ende": 913.71,
+   "text": "Dann meinte sie ja, sie könnte mir ja auch Fotos schicken,",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 913.71,
+   "ende": 936.67,
+   "text": "Sie könnte am nächsten Tag ja nochmal zum Haus fahren und Fotos machen. Dann habe ich geschrieben, was denn für Fotos? Also von was willst du mir denn jetzt Beweisfotos schicken? Also das war auch schon so untypisch für so, wie wir Thais kennengelernt haben und was wir eben auch so, wie sie über sich reden, wie sie sind, ja, dass jemand sozusagen jetzt mich quasi in dem Moment auf den Fehler hinweist.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 936.67,
+   "ende": 944.17,
+   "text": "Und wenn ich den nicht einsehen will, weil ich eben dachte, wir hätten alles zugemacht, dann noch kommt mit, ich kann dir ja Fotos davon schicken, dass du es eben doch falsch gemacht hast.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.96
+  },
+  {
+   "start": 944.73,
+   "ende": 950.75,
+   "text": "Naja, gut, dann war das halt so und dann haben wir schon gesagt, ja, aber irgendwie müssen wir halt nochmal sagen, dass das nicht geht.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.96
+  },
+  {
+   "start": 951.11,
+   "ende": 955.03,
+   "text": "Dann kommen wir wieder aus dem Urlaub, also dann war nichts mehr drei Wochen, dann kommen wir wieder aus dem Urlaub.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.96
+  },
+  {
+   "start": 955.11,
+   "ende": 956.93,
+   "text": "Ich denke schon, wir sind hier abends im Dunkeln wiedergekommen.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.96
+  },
+  {
+   "start": 957.01,
+   "ende": 959.95,
+   "text": "Ich denke schon so hier, als ich so auf die Terrasse ging, irgendwas ist hier anders.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.96
+  },
+  {
+   "start": 959.95,
+   "ende": 961.59,
+   "text": "Ich habe es aber einfach im Dunkeln nicht so.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.96
+  },
+  {
+   "start": 962.11,
+   "ende": 966.07,
+   "text": "Nächsten Morgen ist hell, ich gucke wieder so und denke, hey, was ist irgendwas?",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.96
+  },
+  {
+   "start": 966.67,
+   "ende": 983.51,
+   "text": "Irgendwas ist hier anders, als es vorher war, bis ich dann gecheckt habe, dass sie die kompletten Pflanzen, inklusive so große Blumenkübel, da war so ein Glastisch mit so einem kleinen, wie sagt man nochmal, Bonsai-ähnlichen Gewächs drauf, das hat auch geblüht.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.34
+  },
+  {
+   "start": 983.51,
+   "ende": 989.03,
+   "text": "Und hinten die Pflanzen, die ich auf den Rasen gestellt hatte, das hat die einfach alles weggeräumt.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 989.19,
+   "ende": 990.43,
+   "text": "Also hier war das komplett leer.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 990.61,
+   "ende": 995.65,
+   "text": "Es war, als wir hier eingezogen sind, war es komplett bepflanzt, ja, alles, also mit so schönen Kübeln und so.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 995.91,
+   "ende": 998.15,
+   "text": "Und als wir jetzt aus dem Urlaub wieder, war das alles weg.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 998.61,
+   "ende": 1005.37,
+   "text": "Das Gras stand wirklich kniehoch, ja, also was auch normal ist, wenn es jetzt, ja, es ist ja Regenzeit, jetzt wird alles grün.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1005.85,
+   "ende": 1011.29,
+   "text": "Das ganze Laub, alles, also hier war einfach mal definitiv nicht ein Funken im Garten gemacht,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1011.29,
+   "ende": 1039.33,
+   "text": "Weil das war ja ihre Erklärung, warum sie hier war, warum sie zufällig das mit dem Fenster bemerkt hat, weil sie war ja, while checking the house, war sie ja nur hier, um Gartenarbeit zu machen. Und da habe ich schon auch gedacht, okay, was soll ich jetzt davon halten? Einfach die Tatsache, dass sie diese ganzen Sachen mitgenommen hat, ohne uns das zu sagen und dass sie mich dann auch noch angelogen hat und gesagt hat, sie wäre hier gewesen, um Gartenarbeit zu machen und hat aber einfach mal nichts gemacht.",
+   "avg_logprob": -0.041,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1039.81,
+   "ende": 1043.93,
+   "text": "Dann habe ich ihr erst mal geschrieben, ob sie die Pflanzen mitgenommen hätte und den Glastisch.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1044.11,
+   "ende": 1047.51,
+   "text": "Oder ob hier jemand eingebrochen sei und geklaut hat.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1047.69,
+   "ende": 1048.49,
+   "text": "Kann ja sein.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1050.13,
+   "ende": 1055.53,
+   "text": "Also kann eigentlich nicht sein, aber war natürlich ein bisschen provokant dann auch gemeint.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1055.53,
+   "ende": 1058.79,
+   "text": "Also nicht so geschrieben, aber ich weiß nicht, ob sie es provokant verstanden hat.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1058.85,
+   "ende": 1062.21,
+   "text": "Aber ich war schon in so einer leicht provokanten Grundstimmung.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1062.99,
+   "ende": 1066.85,
+   "text": "Und dann hat sie geschrieben, sie hätte es mitgenommen, hätte ihr leid.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1066.91,
+   "ende": 1068.83,
+   "text": "Sie hätte ganz vergessen, mir das zu sagen.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1069.33,
+   "ende": 1072.05,
+   "text": "weil sie so viel anderes zu tun hatte.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1072.17,
+   "ende": 1075.39,
+   "text": "Und ja, es wäre ja auch für mich jetzt eigentlich viel besser so,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1075.75,
+   "ende": 1077.39,
+   "text": "weil jetzt hätte ich ja viel mehr Platz",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1077.39,
+   "ende": 1079.99,
+   "text": "und könnte mich ja frei entfalten sozusagen.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1081.09,
+   "ende": 1084.35,
+   "text": "Und da bin ich wirklich vom Glauben abgefallen",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1084.35,
+   "ende": 1086.03,
+   "text": "und dachte so, das meint sie jetzt nicht ernst.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1086.15,
+   "ende": 1088.43,
+   "text": "Also erst mal habe ich ihr, wie gesagt, tausendmal gesagt,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1088.51,
+   "ende": 1089.83,
+   "text": "wie sehr ich mich über die Pflanzen freue.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1089.93,
+   "ende": 1091.79,
+   "text": "Wir haben uns über das Gärtnern unterhalten.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1091.89,
+   "ende": 1093.47,
+   "text": "Sie hat mir noch Samen gebracht und so weiter.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1094.11,
+   "ende": 1097.67,
+   "text": "Dann sagt sie, sie kommt hierher, um Gartenarbeit zu machen,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1097.81,
+   "ende": 1099.29,
+   "text": "macht aber keine Gartenarbeit.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1099.33,
+   "ende": 1103.35,
+   "text": "räumt stattdessen hier die ganze Außeneinrichtung, sage ich mal, weg.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.97
+  },
+  {
+   "start": 1104.05,
+   "ende": 1105.39,
+   "text": "Und das vergisst sie aber.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.97
+  },
+  {
+   "start": 1105.53,
+   "ende": 1107.77,
+   "text": "Also sie hat nicht vergessen, mich im Urlaub zu stören.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.97
+  },
+  {
+   "start": 1107.85,
+   "ende": 1110.75,
+   "text": "Sie hat auch nicht vergessen, mir zu sagen, dass ich das Fenster nicht richtig zugemacht habe,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.97
+  },
+  {
+   "start": 1110.87,
+   "ende": 1112.07,
+   "text": "beziehungsweise den einen Pinorek.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.97
+  },
+  {
+   "start": 1112.69,
+   "ende": 1116.05,
+   "text": "Sie hat auch nicht vergessen, mir zu sagen, dass sie Gartenarbeit gemacht hat,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.97
+  },
+  {
+   "start": 1116.07,
+   "ende": 1117.11,
+   "text": "die sie gar nicht gemacht hat.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.97
+  },
+  {
+   "start": 1117.33,
+   "ende": 1120.67,
+   "text": "Aber sie hat vergessen, mir zu sagen, dass sie die ganzen Sachen mitgenommen hat.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.97
+  },
+  {
+   "start": 1121.89,
+   "ende": 1124.23,
+   "text": "Und ja, dann haben wir hin und her überlegt.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.97
+  },
+  {
+   "start": 1124.63,
+   "ende": 1127.71,
+   "text": "Und ja, ich habe dann tatsächlich einfach gar nicht mehr darauf reagiert,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.97
+  },
+  {
+   "start": 1127.71,
+   "ende": 1131.15,
+   "text": "weil nichts davon positiven Ausgänge.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1131.27,
+   "ende": 1136.23,
+   "text": "Also ich hätte nicht mehr, ich weiß nicht, was ich da hätte freundlich darauf antworten sollen,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1136.33,
+   "ende": 1139.07,
+   "text": "außer willst du mich komplett verarschen, ja?",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1139.51,
+   "ende": 1143.29,
+   "text": "So, und dann habe ich mich dazu entschlossen, einfach nichts darauf zu sagen.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1144.07,
+   "ende": 1146.45,
+   "text": "So, dann waren wir hier irgendwie ein paar Tage da.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1146.57,
+   "ende": 1150.67,
+   "text": "Dann ist oben bei Heinrich und Hermine im Zimmer ist ja nochmal so eine Art Treppe,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1150.81,
+   "ende": 1153.61,
+   "text": "die wie auf so einem Dachboden, wo Hermine, ich weiß nicht, wie sagt man denn dazu?",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1154.07,
+   "ende": 1157.67,
+   "text": "Naja, auf jeden Fall schon eine etwas steilere, leiterähnliche Treppe.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1157.71,
+   "ende": 1180.15,
+   "text": "Da ist Heinrich runtergefallen, da sind dann zwei Stufen. Also eine Stufe ist durchgebrochen in der Mitte und dann ist er dadurch noch weitergefallen und hat dann noch die unterste Stufe durchgebrochen. Während diese Stufen dann eben gebrochen waren, haben wir auch gesehen, dass sie halt nicht aus Holz sind, wie glaube ich normalerweise Treppenstufen sind, sondern aus Beton, also wie eine Fliese, wie eine ganz dicke Fliese.",
+   "avg_logprob": -0.045,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1180.15,
+   "ende": 1188.67,
+   "text": "Ich weiß nicht, wofür man das benutzt, was da ist, aber also aus unserer Sicht auf jeden Fall wahrscheinlich nicht für Treppenstufen, die ja sehr viel Gewicht aushalten müssen.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1189.47,
+   "ende": 1193.93,
+   "text": "Demnach mussten wir uns halt dann an sie wenden und sagen, okay, hier sind ja zwei Stufen kaputt und so weiter.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1195.17,
+   "ende": 1199.79,
+   "text": "Was sollen wir jetzt machen? Schickst du jemanden? Sollen wir das selber reparieren? Wie auch immer so.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1200.23,
+   "ende": 1203.55,
+   "text": "Dann kam sie hierher und hat mit zwei Leuten, hat sich das anguckt.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1203.55,
+   "ende": 1211.71,
+   "text": "Die kannten sich, ich weiß nicht, ob das irgendwie Freunde oder Verwandte von ihr waren und meinten, ja, okay, wir messen das aus und dann kommen wir morgen wieder und reparieren das.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1211.77,
+   "ende": 1221.81,
+   "text": "Dann kam am nächsten Tag, ach so, und dann hat sie, sind die wieder weggefahren, dann hat sie geschrieben, ja, sie hätte noch was vergessen auszumessen, ob sie nochmal kommen könnte.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1221.81,
+   "ende": 1230.17,
+   "text": "Also da habe ich schon gedacht, okay, cool, jetzt hat sie ja zumindest verstanden, dass sie, auch wenn es nur zehn Minuten später ist, nicht einfach hier wieder auftaucht, sondern vorher fragt.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1230.17,
+   "ende": 1233.51,
+   "text": "Ich sage, ja klar, ich bin hier unten am Arbeiten, kannst einfach hochgehen.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1234.11,
+   "ende": 1236.37,
+   "text": "Dann war sie da, ist dann wieder los.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1236.47,
+   "ende": 1239.79,
+   "text": "Dann kamen die am nächsten Tag, haben diese, dachten wir, die Stufen gemacht.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1239.99,
+   "ende": 1243.39,
+   "text": "Also das waren sie und dann noch ein Mann, der den Tag davor auch da war.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1244.01,
+   "ende": 1245.65,
+   "text": "Hat es auch gehört, wie sie oben gesägt hat.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1245.71,
+   "ende": 1250.39,
+   "text": "Ich habe hier unten gearbeitet, Hagen hat gearbeitet in der Küche und die Kinder haben oben gespielt.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1250.97,
+   "ende": 1255.07,
+   "text": "So, dann haben die da halt beide unseres Erachtens nach die Treppe gemacht.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1255.49,
+   "ende": 1258.29,
+   "text": "Und als sie dann fertig waren, sind die Kinder dann runter,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1258.29,
+   "ende": 1288.01,
+   "text": "weil die konnten ja erstmal nicht runter, während die Treppe gemacht wurde und die waren hier mit ihrem Truck auf dem Gelände und dann sind hier die Kinder im Wohnzimmer und ja, sie sind so quasi fast am Fahren und dann sagt Hermine so, Mami, die nimmt schon wieder eine Pflanze mit und ich dachte halt, die wollen mich verarschen, so nach dem Motto, ja, ist schon so ein Running Gag, ja, also so nach dem Motto, dann kommt sie und nimmt irgendwas mit und Heinrich dann auch so, ja, stimmt echt, die nimmt wirklich eine Pflanze mit und ich bin nochmal so, ja, ja, haha, witzig, ja, und gehe so zu unserer,",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 1288.29,
+   "ende": 1292.33,
+   "text": "Tür war zu, die Glastür und guck so aus dieser Glasscheibe und sehe wirklich, wie sie dann",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1292.33,
+   "ende": 1297.21,
+   "text": "wieder so eine Pflanze auf ihren Pickup geladen hat. Boah, ich raus, ja. Und dann habe ich",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1297.21,
+   "ende": 1301.93,
+   "text": "gesagt, also was soll das? Ich sage, warum nimmst du denn jetzt schon wieder eine Pflanze",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1301.93,
+   "ende": 1307.25,
+   "text": "mit? Und dann sagt sie zu mir, die bräuchte Wasser. Diese Pflanze, es ist Regenzeit,",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1307.33,
+   "ende": 1310.85,
+   "text": "es regnet jeden verdammten Tag Bäche. Ich weiß nicht, ob jemand das mitgekriegt hat.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1310.91,
+   "ende": 1314.25,
+   "text": "In Bangkok gab es übelste Überschwemmungen. Das ist hier auf Koh Samui zum Glück nicht",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1314.25,
+   "ende": 1316.29,
+   "text": "so, aber es regnet den ganzen",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 1316.29,
+   "ende": 1318.13,
+   "text": "verdammten Tag, also man muss eher",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 1318.13,
+   "ende": 1320.21,
+   "text": "aufpassen, dass die Pflanzen nicht ersaufen und diese",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 1320.21,
+   "ende": 1322.17,
+   "text": "große Pflanze mit diesem großen Pott",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 1322.17,
+   "ende": 1323.89,
+   "text": "steht mitten auf der Wiese, ja",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 1323.89,
+   "ende": 1326.25,
+   "text": "und dann gucke ich sie an und sag wirklich",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 1326.25,
+   "ende": 1328.11,
+   "text": "willst du mich verarschen, also",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 1328.11,
+   "ende": 1330.05,
+   "text": "auf Englisch, ich weiß gar nicht, was ich gesagt habe, ne",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 1330.05,
+   "ende": 1332.11,
+   "text": "aber ich sag, die Pflanze, es regnet",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 1332.11,
+   "ende": 1334.05,
+   "text": "hier jeden Tag, die steht da draußen",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 1334.05,
+   "ende": 1336.09,
+   "text": "auf der Wiese, erzähl mir doch bitte nicht, dass",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 1336.09,
+   "ende": 1338.01,
+   "text": "du diese Pflanze jetzt mitnimmst, damit sie",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 1338.01,
+   "ende": 1340.13,
+   "text": "Wasser bekommt, ich sag und wenn du jetzt schon",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 1340.13,
+   "ende": 1341.83,
+   "text": "wieder irgendeine Pflanze hier mitnimmst, warum",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 1341.83,
+   "ende": 1344.05,
+   "text": "sprichst du nicht mit mir, ich sitze hier drin, du",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 1344.05,
+   "ende": 1346.23,
+   "text": "bist hier draußen, du gehst jetzt einfach wieder in den Garten",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1346.23,
+   "ende": 1347.91,
+   "text": "und lädst dir irgendwelche Pflanzen auf,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1348.15,
+   "ende": 1350.11,
+   "text": "obwohl du ja schon beim letzten Mal",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1350.11,
+   "ende": 1352.09,
+   "text": "mitbekommen hast, dass wir das nicht cool fanden.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1352.91,
+   "ende": 1354.17,
+   "text": "Ja, dann hat sie, dann hat sie,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1354.31,
+   "ende": 1355.97,
+   "text": "nein, dann war es doch nicht das Wasser, dann wollte",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1355.97,
+   "ende": 1357.91,
+   "text": "sie die irgendwie teilen, weil die muss irgendwie",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1357.91,
+   "ende": 1359.99,
+   "text": "keine Ahnung anders machen. Ich sage, okay, wie auch",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1359.99,
+   "ende": 1362.11,
+   "text": "immer, aber warum redest du, warum sagst",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1362.11,
+   "ende": 1363.91,
+   "text": "du das nicht? Du hast hier was vermietet,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1364.69,
+   "ende": 1366.01,
+   "text": "das war so, wie es ist, ja.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1366.41,
+   "ende": 1367.99,
+   "text": "So, ich habe dir mehrmals gesagt, wie gerne ich",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1367.99,
+   "ende": 1369.93,
+   "text": "die Pflanzen habe und so weiter und du kommst",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1369.93,
+   "ende": 1371.83,
+   "text": "jetzt hier einfach schon her, wenn wir",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1371.83,
+   "ende": 1373.75,
+   "text": "weg sind und nimmst dir irgendwelche Sachen mit,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1373.75,
+   "ende": 1379.13,
+   "text": "Ohne uns das zu sagen. Und jetzt quasi vor unseren Augen packst du wieder einfach Pflanzen ein.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1380.05,
+   "ende": 1386.45,
+   "text": "Und naja, Hagen hat dann schon gemerkt, dass ich mich halt richtig reinsteigere und ist dann so raus und hat dann so sinngemäß zu ihr gesagt,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1386.55,
+   "ende": 1389.93,
+   "text": "ja, ja, gut, dann nimm halt die Pflanze so und so komm mal rein, Juliette, jetzt so.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1390.55,
+   "ende": 1398.95,
+   "text": "Und dann geht sie zurück zum Auto, nimmt diese Pflanze und knallt die hier so bockig wieder hin, was halt auch echt so untypisch ist.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1398.95,
+   "ende": 1417.09,
+   "text": "Naja, auf jeden Fall kommt sie dann nochmal zu Hagen ans Fenster und sagt, ich bräuchte nochmal was aus dem Schuppen, weil da sind auch noch ein paar Sachen, die ich gerne mitnehmen würde. Da habe ich schon gedacht, Alter, was muss man für Eier haben? Ja, have you eggs, wer die Folge mit meinen hast du Eier im Restaurant gehört hat.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 1417.57,
+   "ende": 1422.85,
+   "text": "Also was muss man für Eier haben, um nach so einer Nummer nochmal an die Scheibe zu klopfen",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1422.85,
+   "ende": 1425.89,
+   "text": "und zu sagen, ich würde gerne noch was aus dem Schuppen mitnehmen.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1426.35,
+   "ende": 1430.61,
+   "text": "Dann ist Hagen halt raus, weil er hat gesagt, du bleibst jetzt hier, ich regle das.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1431.23,
+   "ende": 1435.39,
+   "text": "Und dann ist er raus, ist dann aber auch ungehalten geworden und hat dann halt auch nochmal gesagt,",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1435.57,
+   "ende": 1440.55,
+   "text": "du kannst doch nicht immer hierher kommen und einfach irgendwelche Sachen mitnehmen.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1440.91,
+   "ende": 1445.69,
+   "text": "Ja, das sind am Ende deine Sachen, aber dann bitte mach dir jetzt Gedanken darüber,",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1445.69,
+   "ende": 1447.57,
+   "text": "was du hier aus diesem Haus willst und was",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 1447.57,
+   "ende": 1449.65,
+   "text": "du brauchst und dann nimm das ein für alle mal",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 1449.65,
+   "ende": 1451.49,
+   "text": "mit, damit das endlich aufhört,",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 1451.57,
+   "ende": 1453.67,
+   "text": "dass wir hier einfach nicht wissen, wann du auftauchst",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 1453.67,
+   "ende": 1454.87,
+   "text": "und irgendwelche Sachen mitnimmst.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 1455.39,
+   "ende": 1457.45,
+   "text": "Und ich muss noch dazu sagen, anfangs, wo",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 1457.45,
+   "ende": 1459.31,
+   "text": "wir hier eingezogen sind, ja, da habe ich wirklich",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 1459.31,
+   "ende": 1461.31,
+   "text": "bei irgendwelchen Sachen, die wir nicht brauchten, immer",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 1461.31,
+   "ende": 1463.49,
+   "text": "gefragt, okay, willst du das",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 1463.49,
+   "ende": 1465.37,
+   "text": "haben? Brauchst du das? Soll ich das hier irgendwo",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 1465.37,
+   "ende": 1467.59,
+   "text": "verstauen? Soll ich das wegschmeißen? Da waren teilweise",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 1467.59,
+   "ende": 1469.57,
+   "text": "Laken und so, die waren halt einfach zerrissen",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 1469.57,
+   "ende": 1471.43,
+   "text": "oder Tischdecken, wo ich gesagt habe, kann ich das",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 1471.43,
+   "ende": 1473.21,
+   "text": "wegschmeißen? Nein, sie will das alles behalten.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 1473.69,
+   "ende": 1475.43,
+   "text": "Ich habe ihr das immer alles gesammelt auf einem",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 1475.43,
+   "ende": 1477.51,
+   "text": "Platz gestellt, wo sie auch schon meinte, ja, ich hole mir",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1477.51,
+   "ende": 1479.27,
+   "text": "das dann irgendwann ab.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1479.61,
+   "ende": 1481.39,
+   "text": "Wo ich dachte, okay, also",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1481.39,
+   "ende": 1483.51,
+   "text": "kommst du dann einfach und holst die Sachen. Aber ja, am Anfang",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1483.51,
+   "ende": 1485.39,
+   "text": "wie gesagt, dachte ich ja immer noch, die ist",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1485.39,
+   "ende": 1487.29,
+   "text": "einfach total nett und da kann man das jetzt ihr",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1487.29,
+   "ende": 1489.43,
+   "text": "nicht übel nehmen. Naja, dann hat",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1489.43,
+   "ende": 1491.39,
+   "text": "sie auf jeden Fall dann mit Hagen",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1491.39,
+   "ende": 1493.13,
+   "text": "noch ein bisschen rumdiskutiert und dann",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1493.13,
+   "ende": 1495.13,
+   "text": "sind die losgefahren und dann sage ich,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1495.25,
+   "ende": 1497.31,
+   "text": "was hat sie denn jetzt, hat sie jetzt noch was mitgenommen?",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1497.43,
+   "ende": 1499.25,
+   "text": "Und er so, nee, die hatte dann wahrscheinlich keinen Bock",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1499.25,
+   "ende": 1501.27,
+   "text": "mehr in den Schuppen zu gehen, weil sie dann ja von mir auch",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1501.27,
+   "ende": 1503.19,
+   "text": "noch eine Ansage gekriegt hat. Und dann",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1503.19,
+   "ende": 1505.39,
+   "text": "sind die halt weg und dann sagt Hermine irgendwann,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1505.43,
+   "ende": 1508.45,
+   "text": "ja, aber lass uns doch mal in den Schuppen gucken und dann machen wir den Schuppen aus.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1508.67,
+   "ende": 1511.37,
+   "text": "Da ist der komplett leer, komplett leer.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1511.91,
+   "ende": 1514.07,
+   "text": "Ja, der war vorher bis oben hin.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1514.33,
+   "ende": 1518.83,
+   "text": "Ich meine, da war auch hammer viel Ramsch, also Sachen drin, die Farbeimer und so weiter,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1518.95,
+   "ende": 1520.91,
+   "text": "was wir jetzt wahrscheinlich gar nicht gebraucht hätten.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1521.05,
+   "ende": 1525.35,
+   "text": "Aber wo man es gesehen hat, da waren Gartengeräte drin, wie gesagt, Pinselfarbeimer,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1526.07,
+   "ende": 1528.61,
+   "text": "wo man ja auch dachte, okay, naja, falls hier wirklich mal was ist,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1528.67,
+   "ende": 1530.73,
+   "text": "kann man das ja auch mal überstreichen schnell oder so.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1530.79,
+   "ende": 1532.51,
+   "text": "Da kann halt eben auch mal im Garten was machen.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1532.51,
+   "ende": 1555.55,
+   "text": "Der war komplett leer. Das heißt, und dann sind alle so, hä, aber wieso ist der leer? Die hat doch die ganze Zeit jetzt mit Hagen geredet. Da ist, und dann sagt Hagen, ja, die ist hier ein paar Mal vorhin langgelaufen. Da hat also nur dieser eine Mensch die Treppe oben gemacht. Währenddessen wir hier gearbeitet haben und die Kinder oben gespielt haben, hat die einfach währenddessen den kompletten Schuppen leer geräumt. Ohne, also im Grunde vor unseren Augen, aber ohne, dass wir es halt gesehen haben, ja.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1556.27,
+   "ende": 1558.83,
+   "text": "Und wir waren so sprachlos.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1559.41,
+   "ende": 1563.83,
+   "text": "Und dann hat sie aber nochmal geschrieben, also uns war dann ja auch klar,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1563.91,
+   "ende": 1568.05,
+   "text": "dass das hier alles für so, sag ich mal, Thai-Verhältnisse ganz schön eskaliert ist.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1568.15,
+   "ende": 1573.51,
+   "text": "Insofern, als dass wir ihr halt wirklich klar und deutlich und auch in einem gewissen Ton unsere Meinung gesagt haben,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1573.91,
+   "ende": 1575.29,
+   "text": "was man eigentlich ja nicht macht.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1575.41,
+   "ende": 1579.75,
+   "text": "Also zumindest nicht, wir haben uns mal sagen lassen, innerhalb der Familie machen die Thais das auch,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1579.75,
+   "ende": 1582.27,
+   "text": "dass die sich richtig fetzen und das auch richtig laut wird.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1582.27,
+   "ende": 1596.85,
+   "text": "Und wir haben ja auch einen Bekannten, der eine Teilfrau hat, da geht es auch richtig zur Sache, wenn der was nicht passt. Also da kriegt man schon ein bisschen Angst auch, wenn die da abgeht. Aber außerhalb der Familie wird das halt nicht gemacht und wahrscheinlich schon gar nicht mit Ausländern.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1597.53,
+   "ende": 1601.85,
+   "text": "Und deshalb war schon klar, dass das jetzt für alle Beteiligten nicht cool ist.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1601.85,
+   "ende": 1606.41,
+   "text": "Aber wir haben halt auch so gemerkt, dadurch, dass sie jetzt wieder einfach diese Pflanze mitgenommen hat,",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1606.49,
+   "ende": 1612.07,
+   "text": "dass sie bis zu dem Zeitpunkt anscheinend immer noch nicht gerafft hat, dass sie damit Grenzen überschreitet.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1612.79,
+   "ende": 1617.71,
+   "text": "Und dann hat sie danach, kurz danach, gleich kam wieder ein Chichipititex, dass sie das leidtäte.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1617.99,
+   "ende": 1623.93,
+   "text": "Und sie hätte uns nicht disrespektvoll behandeln wollen und ja, also bla bla bla.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1624.13,
+   "ende": 1626.61,
+   "text": "Und sie möchte, dass unsere Relationship gut bleibt und so weiter.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1626.61,
+   "ende": 1640.61,
+   "text": "Und ich habe dann auch, wir haben dann auch gesagt, okay, damit sie ihr Gesicht wahren kann, haben wir uns dann auch entschuldigt, dass wir quasi laut geworden sind und so und haben dann halt gesagt, dass wir auch gerne hier das weiter, ein gutes Verhältnis haben wollen.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1640.61,
+   "ende": 1658.43,
+   "text": "Aber dass es auch richtig ist, weil sie hat dann nochmal geschrieben, es sind halt ihre Sachen. Und da habe ich gesagt, ja, es sind alles deine Sachen, auch die Möbel sind deine Sachen. Aber wenn du das Haus halt möbliert vermietest und mit diesen Dingen so vermietest, dann geht man ja davon aus, dass das halt dazugehört.",
+   "avg_logprob": -0.044,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1658.43,
+   "ende": 1678.21,
+   "text": "Und ich habe gesagt, und wenn nicht, hast du ja jetzt irgendwie lange genug Zeit gehabt, dir zu überlegen, was du von deinen Sachen haben willst. Und es fühlt sich halt einfach strange an, nach zwei Monaten, wir wohnen jetzt hier über zwei Monate drin, dass du nach so langer Zeit immer noch zwischendurch einfach herkommst und Sachen wegnimmst, mit der Begründung, dass das ja deine sind.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1678.21,
+   "ende": 1680.29,
+   "text": "so. Weil wir haben uns",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1680.29,
+   "ende": 1682.07,
+   "text": "dann auch gefragt, wo hört denn das dann auf? Also",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1682.07,
+   "ende": 1684.07,
+   "text": "beim nächsten Mal sind dann die zwei Terrassenstühle",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1684.07,
+   "ende": 1686.13,
+   "text": "weg, weil sie denkt, ja, ich brauche",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1686.13,
+   "ende": 1688.31,
+   "text": "jetzt welche oder die sitzen da eh nicht so oft drauf",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1688.31,
+   "ende": 1690.01,
+   "text": "oder keine Ahnung. Und",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1690.01,
+   "ende": 1692.07,
+   "text": "ja, und dann hat sie halt geantwortet, ja, okay",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1692.07,
+   "ende": 1694.01,
+   "text": "und danke, dass wir, also so",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1694.01,
+   "ende": 1696.03,
+   "text": "hat sie sich gefreut, dass wir das dann jetzt so",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1696.03,
+   "ende": 1698.17,
+   "text": "klären konnten. Hat dann halt auch nochmal geschrieben, beim nächsten Mal",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1698.17,
+   "ende": 1700.11,
+   "text": "sagt sie vorher Bescheid, wenn sie was holt.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1701.01,
+   "ende": 1702.07,
+   "text": "Und dann dachten",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1702.07,
+   "ende": 1703.71,
+   "text": "wir halt wieder, okay, gut. Einfach",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1703.71,
+   "ende": 1706.11,
+   "text": "nichts angekommen. Null. Einfach",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1706.11,
+   "ende": 1707.33,
+   "text": "0,0. Also",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1707.33,
+   "ende": 1722.75,
+   "text": "Also die Tatsache, dass wir hier wohnen und dass sie aus ihrer Sicht immer mal, wenn sie irgendetwas braucht, hierher kommen kann und sich das holen kann, verknüpft sie jetzt halt nur damit, dass sie uns demnächst dann halt wenigstens vorher Bescheid sagt.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1722.75,
+   "ende": 1730.51,
+   "text": "Aber grundsätzlich scheinen wir uns auch weiterhin darauf einstellen zu können, dass sie halt hier ab und zu mal Sachen holt, wenn sie die braucht.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1731.45,
+   "ende": 1734.95,
+   "text": "Aber ja, wir haben dann auch nichts mehr darauf geantwortet.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1734.99,
+   "ende": 1736.17,
+   "text": "Was will man auch darauf antworten?",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1736.17,
+   "ende": 1740.35,
+   "text": "Und wir haben dann auch mit einer Freundin, die hier zum Kochen war,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1740.39,
+   "ende": 1742.15,
+   "text": "Nana, unsere Friseurin, die ist Thai.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1742.93,
+   "ende": 1745.85,
+   "text": "Und da haben wir das dann halt vorher mal erzählt.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1746.17,
+   "ende": 1749.17,
+   "text": "Und die hat dann auch gleich gefragt, ob die Vermieterin eine Thai wäre.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1749.31,
+   "ende": 1749.91,
+   "text": "Und wir so, ja.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1750.01,
+   "ende": 1751.85,
+   "text": "Und dann hat sie gesagt, das ist so untypisch.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1751.89,
+   "ende": 1754.47,
+   "text": "Und das ist ja auch das, was wir so empfunden haben.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1754.97,
+   "ende": 1757.61,
+   "text": "Ich habe das ja auch in einer Folge mal erzählt mit den Pferden.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1757.61,
+   "ende": 1774.07,
+   "text": "Ja, dieses, selbst wenn jemand offensichtlich etwas falsch macht und selbst wenn irgendein Verhalten von jemand anderem nicht tragbar ist, ist es eigentlich nicht üblich, dass sich ein Außenstehender oder dass sich der Teil als Person so sehr in die Privatsphäre einer anderen Person einmischt.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1774.07,
+   "ende": 1796.25,
+   "text": "Ja, also zum Beispiel, dass dann da jetzt keiner zu den Pferden auf das Gelände einfach geht, weil das ja deren Grundstück ist und anfängt, die zu füttern oder so. Das ist immer so. Ich hänge mich da nicht rein. Ja, und auch natürlich ist das hier ihr Gelände und sie ist in dem Sinne keine Außenscheinung. Aber trotzdem dringt sie ja massiv in unsere Privatsphäre ein, wenn sie hier einfach auftaucht.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1796.25,
+   "ende": 1813.95,
+   "text": "Oder wenn sie dann, sobald wir im Urlaub sind, einfach hier aufs Gelände kommt und irgendwelche Sachen wegräumt. Und das ist deswegen die eingängliche Frage, sind das jetzt kulturelle Unterschiede oder ist das einfach nur schlechtes Benehmen? Wer Lust hat und das hört, kann ja gerne mal entweder mir persönlich schreiben oder hier irgendwie in die Kommentare.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1813.95,
+   "ende": 1843.25,
+   "text": "weil mich würde wirklich mal interessieren, wie ihr das so seht, weil wir das so strange finden und ja, es geht ja nicht darum, dass sie hier reinkommt und den Fernseher rausgeschleppt hat, keine Ahnung, ob sie so weit gehen würde, aber es sind nur Pflanzen und es sind nur die Schuppengeräte, aber es geht ja irgendwie um die Tatsache an sich, dass sie einfach denkt, das sind ihre Sachen und deswegen hat sie das Recht, hier jederzeit aufzukreuzen und sich die zu nehmen oder halt das Recht aufzukreuzen, um, achso, das habe ich dann auch nochmal gesagt,",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1843.25,
+   "ende": 1849.71,
+   "text": "Und ich sage, und übrigens, wo sie dann hier die Pflanze weggenommen hat, ja Garten, du hast gesagt, du machst den Garten, du hast mich doch angelogen, hier ist doch gar nichts gemacht.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 1849.87,
+   "ende": 1853.27,
+   "text": "Wir haben vor zwei Tagen den Gärtner kommen lassen und haben das alles machen lassen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 1853.59,
+   "ende": 1854.91,
+   "text": "Sagt sie, sie hätte den Rasen gemacht.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 1855.31,
+   "ende": 1859.85,
+   "text": "Also so nochmal, so dreist einem halt auch ins Gesicht gelogen, weil der Rasen war halt kniehoch.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 1860.25,
+   "ende": 1869.85,
+   "text": "Den kann sie nicht, auch bei Regenzeit wächst der nicht in drei Wochen so hart hoch, dass der dann, weil wir haben jetzt den Rasen gemacht und wir werden das auf alle Fälle beobachten, wie hoch der in drei Wochen ist.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 1870.47,
+   "ende": 1878.63,
+   "text": "Aber also so diese Kombination aus Privatsphäre verletzen, lügen, einfach Sachen wegnehmen und nicht sagen.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1878.95,
+   "ende": 1885.95,
+   "text": "Also dass sie eben nicht vorher gesagt hat, wenn ihr im Urlaub seid, komme ich und mache was im Garten oder komme ich und nehme die Sachen weg.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1886.03,
+   "ende": 1888.73,
+   "text": "Auch das hätte ich schon komisch gefunden, wenn sie gesagt hätte, ich nehme die Sachen weg.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1888.73,
+   "ende": 1898.07,
+   "text": "Aber es ist einfach zu machen und diese ganze Kombi dann auch so direkt zu sagen, ja, ich will dich ja nicht im Urlaub stören, aber das und das hier ist nicht richtig am Haus.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1898.07,
+   "ende": 1905.19,
+   "text": "ist halt für unser Empfinden nicht typisch Thai und hat jetzt uns auch unsere Freundin bestätigt.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1905.27,
+   "ende": 1911.07,
+   "text": "Natürlich kann man jetzt auch nicht bei jeder Person sagen, ja, alle Deutschen sind genau so und alle Thais sind genau so.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1911.77,
+   "ende": 1919.23,
+   "text": "Das ist mir natürlich oder uns natürlich auch klar, aber es ist schon sehr ungewöhnlich und wir finden es egal.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1919.23,
+   "ende": 1926.49,
+   "text": "Also wir haben dann auch gedacht, unabhängig jetzt ob Thai, Deutsch, wo auch immer, so was, also auch in Deutschland habe ich so was noch nie gehört.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1926.49,
+   "ende": 1941.73,
+   "text": "Und wir haben ja auch davor schon bei Thais gewohnt, ja, mit den anderen sogar und auch davor, bei dem noch davor. Die haben sogar immer mit auf dem Gelände gewohnt. Selbst dann, wenn die mit auf dem Gelände wohnen, die sind nie, wenn die irgendwas wollten, die sind nie zum Beispiel einfach die Treppen zum Bungalow hochgekommen.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1941.73,
+   "ende": 1956.55,
+   "text": "Die haben immer, wenn die zum Beispiel die Stromrechnung gebracht hat, immer unten gestanden und gerufen, bis einer rauskam. Obwohl wir da, sage ich mal, alle auf einer Fläche gewohnt haben, haben wir da nie das Gefühl gehabt, dass die einfach reinkommen würden.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 1956.55,
+   "ende": 1969.83,
+   "text": "Als wir uns damals die Bungalows angeguckt haben, da standen welche leer, weil eine von denen irgendwie mehrere Monate in Bangkok war, da haben die auch gesagt, ja, ich habe zwar einen Schlüssel, aber ich kann euch da jetzt nicht reinlassen und den euch angucken lassen, weil der gehört halt jemandem.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1969.83,
+   "ende": 1972.37,
+   "text": "Was ja vollkommen normal ist, was wir auch gar nicht gefragt hätten.",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1972.67,
+   "ende": 1979.27,
+   "text": "Aber so, wir kennen das halt auch einfach nicht so, dass, also im Gegenteil, wir kennen es eigentlich genau andersrum,",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1979.85,
+   "ende": 1991.69,
+   "text": "dass die Teils, mit denen wir bisher gewohnt haben, mega viel, ja, so diese Distanz wahren, was das Mietobjekt angeht, sozusagen, und nicht einfach darauf kommen.",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1991.69,
+   "ende": 2006.53,
+   "text": "Ja, deshalb, mich würde mal interessieren, was ihr da so sagt, wie ihr das so seht, wie ihr darauf reagieren würdet, wie ihr das findet, ob ihr jetzt findet, dass wir irgendwie da ein bisschen überreagieren und dass alles gar nicht so schlimm ist oder habt vielleicht selber auch schon mal so eine Erfahrung gemacht.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2006.53,
+   "ende": 2030.39,
+   "text": "Und ja, ich denke, ich werde berichten, falls hier die nächste, also wie gesagt, sie will ja demnächst Bescheid sagen, wenn sie was abholt. Bin gespannt, weil so viel ist jetzt draußen auch nicht mehr, außer das Mobiliar. Achso, sie hatte auch Pflanzen ausgegraben. Ich wollte gerade sagen, sie kann ja so noch Pflanzen ausgraben, aber auch das hat sie gemacht. Also da waren auch Pflanzen so, naja, Sachen, die man auch essen kann und so. Die hat sie auch ausgegraben und die komplett so mitgenommen.",
+   "avg_logprob": -0.036,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2030.39,
+   "ende": 2035.39,
+   "text": "Also ein paar Sachen zum Ausgraben gäbe es noch. Danach müssten wir dann mit dem Mobiliar weitermachen.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.33
+  },
+  {
+   "start": 2036.15,
+   "ende": 2042.35,
+   "text": "Ich bin mal gespannt. Ich halte euch auf dem Laufenden und ja, euch erstmal einen schönen Start in die Woche. Bis dann. Tschüss.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.33
+  }
+ ]
+}

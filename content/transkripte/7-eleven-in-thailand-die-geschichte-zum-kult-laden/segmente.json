@@ -1,0 +1,2874 @@
+{
+ "meta": {
+  "slug": "7-eleven-in-thailand-die-geschichte-zum-kult-laden",
+  "titel": "7-ELEVEN in Thailand - Die Geschichte zum Kult-Laden",
+  "datum": "2026-05-04T00:55:49.000Z",
+  "dauer_sekunden": 2264,
+  "guid": "c377d5ef-c667-4eee-ad48-f63ca188317a",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T07:12:39Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 5,
+   "transkription": 2268
+  },
+  "echtzeitfaktor": 1.0,
+  "anzahl_segmente": 356,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 6.77,
+   "ende": 15.09,
+   "text": "Auf der einen Straßenseite ist ein Store, auf der anderen Straßenseite direkt gegenüber ist der andere Store und manchmal drei, vier Leben weiter ist noch ein Store.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 15.49,
+   "ende": 23.19,
+   "text": "Also es ist halt sehr, sehr zentral. Auf einem Fleck sind mehrere Stores und da denkt man sich natürlich, hä, lohnt sich das überhaupt?",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 24.23,
+   "ende": 34.92,
+   "text": "Hallo und herzlich willkommen zu einer neuen Folge DLIZKFI – Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 34.92,
+   "ende": 43.86,
+   "text": "Denn wer jetzt bei YouTube den Videopodcast sieht, wird wahrscheinlich schon erraten können, worüber ich heute reden möchte.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 44.54,
+   "ende": 47.8,
+   "text": "Denn anhand meines T-Shirts kann man das vielleicht gut erkennen.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 48.08,
+   "ende": 49.5,
+   "text": "Ich weiß nicht, sieht man das eigentlich komplett?",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 50.36,
+   "ende": 57.7,
+   "text": "Naja, auf jeden Fall möchte ich heute mal über die Kette 7-Eleven reden.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 57.7,
+   "ende": 63.74,
+   "text": "Ich glaube, jeder, der schon mal in Thailand war, kennt 7-Eleven.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 63.74,
+   "ende": 69.58,
+   "text": "Punkt ist es nicht möglich, in Thailand gewesen zu sein und 7-Eleven nicht zu kennen.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 70.82,
+   "ende": 75.68,
+   "text": "Jeder, der noch nicht in Thailand war, aber schon mal in Asien, wird es vermutlich auch",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 75.68,
+   "ende": 76.02,
+   "text": "kennen.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 76.8,
+   "ende": 80.68,
+   "text": "Aber nochmal ganz kurz für alle, die vielleicht wirklich nicht wissen, was 7-Eleven ist.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 80.8,
+   "ende": 84.7,
+   "text": "Wobei, ich glaube, jeder, der jetzt zuhört und nicht weiß, was 7-Eleven ist, dem wird",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 84.7,
+   "ende": 86.74,
+   "text": "die Folge wahrscheinlich auch zu Tode langweilen.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 86.84,
+   "ende": 90.9,
+   "text": "Deshalb alle, die nicht wissen, was 7-Eleven ist, können jetzt auch wieder ausschalten.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 90.9,
+   "ende": 112.72,
+   "text": "Nein, aber im Grunde ist es eine Convenience-Store-Kette. Das heißt, es gibt da einfach alles. Also alles, was man irgendwie von Lebensmitteln über Toilettenartikel, über zum Teil kann man dort auch Telefonkarten kaufen, Geld abheben, Apothekensachen, auch Kleidung.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 112.72,
+   "ende": 120.94,
+   "text": "Also ja, nicht so wie Walmart, wo ich jetzt gerade Kleidung sage, erinnert es euch doch so ein bisschen an Walmart und so, sondern eher so im kleinen Stil.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 121.14,
+   "ende": 127.18,
+   "text": "Ja, also ich sage mal so ein bisschen wie so ein Tankstellenladen mit noch viel mehr Auswahl.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 128.0,
+   "ende": 136.6,
+   "text": "So, 7-Eleven ist einfach, wie gesagt, wenn man in Thailand ist, überall präsent, ja, und hat auch schon so einen Kultfaktor.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 136.6,
+   "ende": 139.66,
+   "text": "Also ich habe ja, wie gesagt, hier schon so ein T-Shirt an, ja.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 139.66,
+   "ende": 145.98,
+   "text": "Es gibt halt hier super viele Merchandise-Artikel mit 7-Eleven von T-Shirts über Socken.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 146.86,
+   "ende": 152.66,
+   "text": "Jetzt ganz berühmt auch, glaube ich, durch irgendein TikTok-Video, sind diese 7-Eleven-Kühlschrankmagneten.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 153.36,
+   "ende": 161.04,
+   "text": "Das heißt, das ist sozusagen das 7-Eleven-Symbol und dann kann man das so seitlich an den Kühlschrank machen.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 161.18,
+   "ende": 166.72,
+   "text": "Also das ist so aussieht, als ob es quasi wie in dem richtigen Laden sozusagen vom Kühlschrank weg zeigt.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 166.72,
+   "ende": 182.9,
+   "text": "Es gibt natürlich auch ganz normale Kühlschrankmagneten und zum Teil haben die auch diesen Sound, weil wenn man in den 7-Eleven reingeht, kommt da so eine Melodie, wenn man den betritt und in diesen TikTok-Videos ist das dann sowas, wenn man den Kühlschrank aufmacht, quasi dieser Sound kommt.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 182.9,
+   "ende": 185.86,
+   "text": "Ich habe auch mal geguckt, es gibt",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 185.86,
+   "ende": 188.42,
+   "text": "ich glaube in Deutschland bei Etsy zum Teil",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 188.42,
+   "ende": 189.38,
+   "text": "diese Magneten",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 189.38,
+   "ende": 191.64,
+   "text": "die da zwischen",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 191.64,
+   "ende": 194.3,
+   "text": "10 und 25 Euro irgendwie",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 194.3,
+   "ende": 196.46,
+   "text": "gehandelt werden, hier kann man",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 196.46,
+   "ende": 198.36,
+   "text": "die bei Lazada bestellen für etwas mehr",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 198.36,
+   "ende": 200.4,
+   "text": "als 2 Euro, ich habe natürlich dann",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 200.4,
+   "ende": 202.24,
+   "text": "auch gleich geguckt, ob ich nicht in Deutschland",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 202.24,
+   "ende": 204.28,
+   "text": "einen Etsy Store mit 7-Eleven Blutschrank",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 204.28,
+   "ende": 206.34,
+   "text": "eröffnen kann, ist aber",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 206.34,
+   "ende": 208.16,
+   "text": "nicht so einfach, weil",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 208.16,
+   "ende": 210.16,
+   "text": "grundsätzlich zum Beispiel auf Amazon oder so",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 210.16,
+   "ende": 212.22,
+   "text": "wird das nicht verkauft, das heißt ich kann",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 212.22,
+   "ende": 214.16,
+   "text": "jetzt leider hier nicht bei Lazada einfach 100",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 214.16,
+   "ende": 216.24,
+   "text": "Kühlschrankmagneten bestellen, die nach Deutschland schicken",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 216.24,
+   "ende": 218.04,
+   "text": "und dort über einen Etsy-Store verkaufen,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 218.54,
+   "ende": 219.92,
+   "text": "wegen Zollvorschriften,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 220.04,
+   "ende": 221.98,
+   "text": "Importregelungen und so weiter. Also falls hier",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 221.98,
+   "ende": 224.02,
+   "text": "irgendjemand zuhört und Ahnung von",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 224.02,
+   "ende": 225.6,
+   "text": "Import-Export-Geschäften hat",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 225.6,
+   "ende": 228.0,
+   "text": "und Lust hat, mit mir einen 7-Eleven",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 228.0,
+   "ende": 229.9,
+   "text": "Kühlschrankmagneten-Store in Deutschland",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 229.9,
+   "ende": 230.74,
+   "text": "aufzumachen,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 231.46,
+   "ende": 233.78,
+   "text": "melde dich, ja? Ich glaube, das ist",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 233.78,
+   "ende": 235.12,
+   "text": "ein gutes,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 236.24,
+   "ende": 237.74,
+   "text": "also da kann man gute Marge machen.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 238.64,
+   "ende": 239.8,
+   "text": "Aber zurück zu",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 239.8,
+   "ende": 241.98,
+   "text": "7-Eleven. Ich dachte, ich erzähle einfach",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 241.98,
+   "ende": 243.74,
+   "text": "mal ein bisschen was zu diesem absoluten",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 243.74,
+   "ende": 245.72,
+   "text": "Coldstore in Thailand, weil, wie gesagt,",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 245.8,
+   "ende": 247.68,
+   "text": "wenn man in Thailand lebt und auch als",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 247.68,
+   "ende": 249.58,
+   "text": "Urlauber, kommt man eigentlich nicht an 7-Eleven",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 249.58,
+   "ende": 251.76,
+   "text": "vorbei. Und da",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 251.76,
+   "ende": 253.4,
+   "text": "finde ich als erstes auch mal interessant,",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 253.96,
+   "ende": 255.92,
+   "text": "woher kommt 7-Eleven eigentlich?",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 256.12,
+   "ende": 257.66,
+   "text": "Und ich hätte es tatsächlich nicht",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 257.66,
+   "ende": 259.58,
+   "text": "gedacht, dass es nämlich aus Amerika",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 259.58,
+   "ende": 261.66,
+   "text": "kommt. Ich meine, es kommt super viel aus",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 261.66,
+   "ende": 263.42,
+   "text": "Amerika, klar, aber",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 263.42,
+   "ende": 265.7,
+   "text": "gerade hier in Asien gibt",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 265.7,
+   "ende": 267.92,
+   "text": "es natürlich schon auch noch ein paar Konzepte",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 267.92,
+   "ende": 269.18,
+   "text": "und auch andere",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 269.18,
+   "ende": 271.76,
+   "text": "Produkte, andere Marken und so weiter,",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 271.76,
+   "ende": 274.96,
+   "text": "die eben nichts mit dem amerikanischen Markt zu tun haben.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 275.58,
+   "ende": 281.94,
+   "text": "Aber tatsächlich kommt 7-Eleven aus Amerika und zwar aus Dallas, also Irving heißt der Ort irgendwie.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 283.06,
+   "ende": 287.38,
+   "text": "Und es ist eigentlich entstanden durch eine Fabrik, die Eisblöcke verkauft hat.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 287.52,
+   "ende": 290.84,
+   "text": "Also früher war, bevor es den elektrischen Kühlschrank gab,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 290.98,
+   "ende": 296.8,
+   "text": "ja, wurden ja in den Kühlschrank hinten so eine riesigen Eisblöcke reingestellt, um eben die Waren zu kühlen.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 296.8,
+   "ende": 310.0,
+   "text": "Und diese Firma, die diese Eisblöcke verkauft hat, da hat ein Mitarbeiter die Idee gehabt, dass er zusätzlich zu diesen Eisblöcken auch so ein paar Grundnahrungsmittel mitverkauft, zum Beispiel Milcheier und Brot.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 310.58,
+   "ende": 314.16,
+   "text": "Und natürlich kann man jetzt sagen, ja, Milchei auf dem Brot konnten die Leute ja auch damals schon.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 314.88,
+   "ende": 317.46,
+   "text": "Achso, kurzer Einwand.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 317.8,
+   "ende": 319.88,
+   "text": "Ich spreche ja normalerweise immer sehr frei.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 320.16,
+   "ende": 324.74,
+   "text": "Gerade wie gesagt, wenn man das jetzt inzwischen auf dem Videopodcast verfolgt,",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 324.8,
+   "ende": 327.88,
+   "text": "sieht man ja, dass ich keine Zettel oder sonst was habe.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 327.88,
+   "ende": 331.7,
+   "text": "Und ich muss auch sagen, ich bereite mich auch so gut wie gar niemals auf einen Podcast vor,",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 331.8,
+   "ende": 335.4,
+   "text": "weil ich eigentlich ja meistens einfach nur das erzähle, was mir gerade in den Kopf rumschwirrt.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 335.4,
+   "ende": 350.9,
+   "text": "Jetzt habe ich aber mein Notizbuch dabei und wenn ich mal zwischendurch stocke, dann liegt es daran, dass ich hier reinlesen muss, weil tatsächlich so ein paar Jahreszahlen und so ich mir jetzt nicht so gut merken konnte.",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 350.9,
+   "ende": 370.22,
+   "text": "Deshalb zurück zur Ausgangssituation damals. Mit damals meine ich 1927. Also 1927 hat ein Mitarbeiter, nämlich namens John Jefferson Green, das war ein Angestellter dieser Eisfabrik, sich eben überlegt, dass er zusätzlich diese Grundnahrungsmittel mitverkaufen könnte.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.36
+  },
+  {
+   "start": 370.98,
+   "ende": 375.88,
+   "text": "Aufgrund dessen, weil diese Eisblöcke auch verkauft wurden abends und am Wochenende.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 376.02,
+   "ende": 382.76,
+   "text": "Das heißt dann, wenn normale Lebensmittelgeschäfte eben zu haben, konnte man trotzdem eben diese Eisblöcke für die Kühlschränke kaufen.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 382.76,
+   "ende": 391.14,
+   "text": "Das heißt, die Leute hatten die Möglichkeit, eben außerhalb der normalen, regulären Öffnungszeiten auch Brot, Milch und Eier zu kaufen.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 391.32,
+   "ende": 392.44,
+   "text": "Jetzt habe ich hier irgendwas im Auge.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 392.44,
+   "ende": 410.46,
+   "text": "So. Und das hat sich einfach so gut gemacht, dass diese ganzen 16 Filialen, die zu dieser Eisblock, Eisfabrik gehörten, das übernommen haben und eben zusätzlich zu diesem Eisdings, Bums, Kram für den Kühlschrank Lebensmittel verkauft haben.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.31
+  },
+  {
+   "start": 410.46,
+   "ende": 432.88,
+   "text": "Und das ist so gut gelaufen, dass 1946 schon 70 Filialen in dieser Umgebung um Dallas herum sozusagen das übernommen hatten oder das auch gemacht haben, damals noch, also von 1927 bis 1946, unter dem Namen Totems Store.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.3
+  },
+  {
+   "start": 433.86,
+   "ende": 437.6,
+   "text": "Die Erklärung zu Totemstore, ich habe es mir wirklich mehrmals durchgelesen,",
+   "avg_logprob": -0.18,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 438.82,
+   "ende": 441.5,
+   "text": "geht jetzt eher so auch in die indianische Geschichte.",
+   "avg_logprob": -0.18,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 442.44,
+   "ende": 445.46,
+   "text": "Ich finde es super crazy, das nachzuvollziehen.",
+   "avg_logprob": -0.18,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 445.56,
+   "ende": 451.44,
+   "text": "Auf jeden Fall hieß das damals Totemstore wegen des Totemfalls.",
+   "avg_logprob": -0.18,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 451.44,
+   "ende": 457.42,
+   "text": "Ja, das heißt, diese Verkaufsfilialen hatten auch so ein Totemfall vor dem Laden.",
+   "avg_logprob": -0.18,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 458.3,
+   "ende": 461.92,
+   "text": "Was darauf hinweisen soll, dass die Leute das mit nach Hause nehmen können,",
+   "avg_logprob": -0.18,
+   "no_speech_prob": 0.054,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 461.92,
+   "ende": 466.54,
+   "text": "so wie die Jäger, die indianischen Jäger, ihre Beute mit nach Hause genommen haben.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 467.28,
+   "ende": 469.36,
+   "text": "Deshalb Totems Fall, deshalb Totem Store.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 469.5,
+   "ende": 473.62,
+   "text": "Also ich finde es irgendwie super strange, aber vielleicht bin ich irgendwie zu blöd, das zu verstehen.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 474.2,
+   "ende": 478.56,
+   "text": "Auf jeden Fall hießen die dann Totem Store bis 1946,",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 479.34,
+   "ende": 486.78,
+   "text": "weil dann nämlich die Öffnungszeiten sich erweitert haben von 7 bis 23 Uhr.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 487.24,
+   "ende": 490.06,
+   "text": "Also von 7 to 11, ja.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 490.06,
+   "ende": 510.52,
+   "text": "Deshalb ist dann der Name 7-Eleven verstanden, entstanden. Und durch diese Verlängerung der Öffnungszeiten bis 23 Uhr, das war halt 1946 noch total crazy, ist das halt dann explodiert und ist einfach ein super angesehenes Konzept geworden.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.31
+  },
+  {
+   "start": 510.52,
+   "ende": 517.36,
+   "text": "Und die 7-Eleven-Filialen haben sich eben komplett ausverbreitet im US-amerikanischen Markt.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 519.68,
+   "ende": 524.76,
+   "text": "1974, achso, noch dazu möchte ich sagen, man kann ja jetzt auch so denken,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 524.86,
+   "ende": 527.16,
+   "text": "ja, das ist ja dann nicht nur die Geschichte von 7-Eleven,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 527.3,
+   "ende": 531.4,
+   "text": "sondern eigentlich auch die Geschichte des kompletten Konzept Convenience Store.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 532.02,
+   "ende": 537.04,
+   "text": "Und das ist auch so, also diese, die Gründer, diese Eisfabrik, ja,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 537.52,
+   "ende": 540.16,
+   "text": "die natürlich dann später auch im Konzern war und so weiter.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 540.16,
+   "ende": 550.46,
+   "text": "Ich möchte jetzt nicht auf das ganze Konzernkonstrukt von 7-Eleven eingehen, aber die bezeichnen sich selbst als der Ursprung des klassischen Convenience Stores.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 551.3,
+   "ende": 558.64,
+   "text": "Also 1974 hat dann in Tokio, ja, also falls jetzt jemand sagt, hä, was erzählt die denn da?",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 558.9,
+   "ende": 561.94,
+   "text": "7-Eleven kommt doch gar nicht aus Amerika, sondern aus Japan.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 562.66,
+   "ende": 568.68,
+   "text": "Ja, theoretisch inzwischen ist das so die allgemeingültige Annahme.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 568.68,
+   "ende": 591.52,
+   "text": "Denn 1974 hat der erste 7-Eleven-Store in Tokio eröffnet, weil nämlich die sogenannte York 7 Company einen Lizenzvertrag mit dem amerikanischen Mutterkonzern von 7-Eleven gemacht hat und den Namen nutzen durfte und ihr eigenes Konzept sozusagen in Japan daraus entstanden ist.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.32
+  },
+  {
+   "start": 591.52,
+   "ende": 594.1,
+   "text": "und sie haben das halt einfach noch perfektioniert.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 594.22,
+   "ende": 598.42,
+   "text": "Also sie haben eben nicht nur das so genau übernommen, wie es in Amerika lief,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 598.42,
+   "ende": 600.4,
+   "text": "sondern haben das sozusagen weiterentwickelt.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 600.96,
+   "ende": 603.5,
+   "text": "Und während sich das in Japan immer weiterentwickelt hat,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 603.88,
+   "ende": 608.42,
+   "text": "ist auf der anderen Seite in Amerika hat sich der Mutterkonzern immer mehr verschuldet.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 609.12,
+   "ende": 617.44,
+   "text": "Also das heißt, es gab dann zwischen 1974 und 1990 quasi so zwei Parallelwelten, 7-Eleven, ja.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 617.9,
+   "ende": 620.64,
+   "text": "Einmal den amerikanischen Markt und einmal den japanischen Markt.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 620.64,
+   "ende": 641.4,
+   "text": "Und als sich dann der Mutterkonzern in Amerika immer mehr verschuldet hatte, hat die japanische Firma irgendwann einen Großteil des Mutterkonzerns aufgekauft. Insgesamt 70 Prozent. Das ist ganz interessant, weil es halt so ist, als ob man irgendwann seine eigene Mutter adoptiert.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 641.4,
+   "ende": 649.46,
+   "text": "Das heißt, eigentlich waren sie nur Lizenznehmer und irgendwann haben sie den Konzern zu 70 Prozent übernommen",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 649.46,
+   "ende": 654.82,
+   "text": "und waren in dem Sinne dann ja wiederum Lizenzgeber, weil natürlich das auf dem amerikanischen Markt weiterlief.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 656.38,
+   "ende": 667.38,
+   "text": "Und die tatsächliche Komplettübernahme, also dass das 7-Eleven komplett zu Japan gehört, ist erst 2005 tatsächlich eingetreten.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 667.38,
+   "ende": 696.64,
+   "text": "Ja, also man sieht von 1927, wo das quasi erfunden wurde, bis zur Komplettübernahme 2005 ist wirklich sehr, sehr viel Zeit vergangen und Japan hat dann nicht nur das ganze Sortiment revolutioniert, dass es eben immer mehr gab, sondern eben auch nochmal die Öffnungszeiten, denn jeder, der hier im 7-Eleven schon mal war, weiß, man kann einfach zu jeder Tages- und Nachtzeit, denn das hat einfach 24 Stunden geöffnet.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 697.18,
+   "ende": 700.44,
+   "text": "Ich habe mich selber auch schon öfter gefragt, warum heißt das eigentlich 7-Eleven?",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 700.58,
+   "ende": 702.78,
+   "text": "Gefühlt müsste es ja 24-7 heißen.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 703.66,
+   "ende": 707.98,
+   "text": "Aber es kommt eben durch diese ursprünglichen Öffnungszeiten von 7 bis 23 Uhr.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 708.96,
+   "ende": 713.32,
+   "text": "Und es hat sich aber dann, als Japan eben angefangen hat, die Stores zu öffnen,",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 713.4,
+   "ende": 716.18,
+   "text": "sind sie relativ schnell auf das 24-Stunden-Konzept gegangen.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 716.18,
+   "ende": 720.46,
+   "text": "Und das ist natürlich auch nochmal sehr revolutionär gewesen und hat dazu geführt,",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 720.54,
+   "ende": 724.26,
+   "text": "dass es sich auch auf dem japanischen Markt sehr stark etabliert hat.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 726.64,
+   "ende": 747.16,
+   "text": "Und dann, wo waren wir jetzt? Genau. Inzwischen ist es so, also ich habe mich dann natürlich auch informiert, okay, jetzt wurde das dann irgendwie 2005 komplett übernommen. Wir kennen tatsächlich das nur aus dem asiatischen Markt. Wie bekannt ist das denn eigentlich noch in Amerika? Wir sind wenig in Amerika unterwegs, in den USA.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 747.16,
+   "ende": 749.5,
+   "text": "tatsächlich guckt, Hermine",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 749.5,
+   "ende": 751.04,
+   "text": "gerade so eine YouTube,",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 751.94,
+   "ende": 753.52,
+   "text": "ich habe keine Ahnung, wie die heißt,",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 753.6,
+   "ende": 755.24,
+   "text": "irgendwie so ein Vater und so eine Tochter, die",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 755.24,
+   "ende": 757.32,
+   "text": "da sich irgendwie betteln und",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 757.32,
+   "ende": 759.76,
+   "text": "irgendwelche Experimente",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 759.76,
+   "ende": 761.46,
+   "text": "immer machen. Und in einer dieser",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 761.46,
+   "ende": 763.44,
+   "text": "Folgen sagte das Mädel dann, ja, ich gehe mal",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 763.44,
+   "ende": 765.28,
+   "text": "kurz zu 7-Eleven. Und dann dachte ich,",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 765.36,
+   "ende": 767.74,
+   "text": "ich wusste gar nicht, dass es in Amerika 7-Eleven",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 767.74,
+   "ende": 769.48,
+   "text": "gibt. Also interessant von, ich wusste gar",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 769.48,
+   "ende": 771.24,
+   "text": "nicht, dass es in Amerika 7-Eleven gibt.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 771.36,
+   "ende": 772.7,
+   "text": "So eigentlich kommt es aus Amerika.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 773.8,
+   "ende": 775.44,
+   "text": "Und es ist nach wie vor noch so,",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 775.44,
+   "ende": 780.5,
+   "text": "dass 7-Eleven auch in den USA immer noch die führende Convenience-Kette ist,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 780.6,
+   "ende": 782.54,
+   "text": "was eben auch die Dichte der Filialen angeht.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 782.64,
+   "ende": 787.98,
+   "text": "Und es ist auf Amerika gesehen, sind es ungefähr 12.400 Filialen nach wie vor,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 788.52,
+   "ende": 791.8,
+   "text": "die eben komplett über die USA verteilt sind.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 791.88,
+   "ende": 795.52,
+   "text": "Und es ist immer noch sehr beliebt und bekannt und wird auch weiter ausgebaut.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 795.66,
+   "ende": 798.8,
+   "text": "Also es ist jetzt nicht so, dass es dann dadurch, dass Japan das übernommen hat,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 798.88,
+   "ende": 800.88,
+   "text": "irgendwie in Amerika stagniert ist.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 800.88,
+   "ende": 824.24,
+   "text": "Auf Platz 1 von wo sind eigentlich die meisten 7-Eleven-Märkte ist natürlich Japan mit rund 21.000 Filialen, was natürlich sehr viel ist, wenn man mal bedenkt, auch im Vergleich, wie groß ist Japan, wie groß sind die USA und in Japan dann irgendwie schon alleine 21.000 Filialen sind, ist das natürlich enorm.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 824.24,
+   "ende": 832.34,
+   "text": "Und jetzt ratet aber mal, wer auf Platz zwei ist. Also in welchem Land gibt es nach Japan die",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.33
+  },
+  {
+   "start": 832.34,
+   "ende": 843.02,
+   "text": "meisten 7-Eleven-Stores? Richtig, Thailand. Genau. Und zwar hat in Thailand 1989 der erste 7-Eleven-",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.33
+  },
+  {
+   "start": 843.02,
+   "ende": 848.84,
+   "text": "Store in Bangkok eröffnet. Ursprünglich wollte Japan gar nicht auf den thailändischen Markt gehen,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.33
+  },
+  {
+   "start": 848.84,
+   "ende": 853.36,
+   "text": "weil sie tatsächlich Thailand für zu arm gehalten haben.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 853.52,
+   "ende": 857.5,
+   "text": "Sie haben gedacht, dass die Thailänder sich gar nicht leisten könnten,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 857.88,
+   "ende": 859.84,
+   "text": "in einem 7-Eleven-Store einkaufen zu gehen.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 860.64,
+   "ende": 864.92,
+   "text": "Da gab es aber jemanden, der davon überzeugt war und die Vision hatte,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 865.1,
+   "ende": 867.36,
+   "text": "dass das jetzt genau der richtige Zeitpunkt ist.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 867.98,
+   "ende": 872.24,
+   "text": "Und tatsächlich hat Thailand 1989 oder eben Ende der 80er Jahre",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 872.24,
+   "ende": 874.02,
+   "text": "einen wirtschaftlichen Aufschwung gehabt.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 874.14,
+   "ende": 877.62,
+   "text": "Die sogenannten goldenen Jahre waren damals für Thailand.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 877.62,
+   "ende": 904.28,
+   "text": "Und deshalb ist dieser erste 7-Eleven-Store in Bangkok eben auch gleich durch die Decke gegangen und es hat sich einfach super schnell verbreitet, dieses Konzept. Inzwischen sind 57% der Stores außerhalb von Bangkok. Wir sind 2025 bei knapp 16.000 Filialen thailandweit angekommen. Also natürlich nicht so viel wie in Japan, aber natürlich auch deutlich mehr als in den USA.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 904.28,
+   "ende": 928.76,
+   "text": "Und das Interessante, also warum sich das halt auch so rasant gut entwickelt hat in Thailand, hat verschiedene Faktoren. Ein großer Faktor ist die Wertschöpfungskette, das heißt die Firma, die sozusagen hier zuständig ist, der Konzern für die 7-Eleven-Fian, sie nennen es vom Stall bis ins Regal.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 928.76,
+   "ende": 936.62,
+   "text": "Das heißt, die nicht nur produzieren, sondern die, na, wie sagt man denn dazu? Jetzt fehlt mir das Wort.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 937.64,
+   "ende": 944.36,
+   "text": "Wenn man Tiere hier, Massentierhaltung, was wir alle nicht wollen, züchten. Meine Güte.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 944.82,
+   "ende": 949.16,
+   "text": "So, die züchten nicht nur die Schweine. Jetzt nehmen wir mal ein Beispiel.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 949.3,
+   "ende": 952.96,
+   "text": "Ja, es gibt natürlich nicht nur Schweinefleisch im Seven-Eleven. Es gibt, wie gesagt, alles.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 952.96,
+   "ende": 963.04,
+   "text": "aber die züchten eben die Schweine, die schlachten die selber, die verarbeiten die selber zu den Produkten, die dann dort verkauft werden und bringen sie mit ihren eigenen Lieferwagen in die Filialen.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 963.1,
+   "ende": 969.02,
+   "text": "Das heißt, es ist wirklich, wie gesagt, vom Stall bis ins Regal eine sehr effiziente Wertschöpfungskette.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 969.82,
+   "ende": 977.78,
+   "text": "Dann kommt hinzu, dass auch gerade in ländlichen Gegenden in Thailand nicht überall so große Supermarktketten sind.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 977.78,
+   "ende": 992.8,
+   "text": "Das heißt, oft sind da eben so kleine lokale Geschäfte und durch den 7-Eleven, wo man eben nicht nur Lebensmittel einkaufen kann, sondern, wie ich es Anfang schon sagte, man kann da auch was ausdrucken lassen, man kann Geld abheben, man kann Telefonkarten kaufen.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 992.8,
+   "ende": 1018.54,
+   "text": "Ich habe letztens irgendwo gelesen, man kann Flugtickets dort kaufen. Also da hat vielleicht jeder Store auch nochmal so eigene USPs, sage ich mal. Aber das heißt, es wurde gerade für ländliche Regionen auch so ein kleines Mini-Business-Center, weil sie eben neben den Lebensmitteln, die sie ja gerade in ländlichen Regionen oft auch selbst machen, also selbst, fehlt mir wie das Wort, anbauen, nicht züchten.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1018.54,
+   "ende": 1039.6,
+   "text": "Meine Güte. Und eben auch in diesen lokalen Geschäften Lebensmittel kaufen konnten, hat aber der 7-Eleven einfach noch eine größere Bandbreite gehabt zu Dingen, die sie sonst nicht so in ländlichen Gegenden Zugang hatten oder zum Teil auch immer noch haben. Und das Ganze klimatisiert, ja. Auch das ist nicht zu unterschätzen. Ich habe das jetzt auf Instagram schon mal kurz drangedeutet.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1040.2,
+   "ende": 1057.88,
+   "text": "Wir haben im März, April die heißesten Monate und mit heiß meine ich auch, also ich liebe es ja warm, aber es werden zum Beispiel in Bangkok gibt es sogenannte Cooling Center, wo Menschen hingehen können, die eben nicht zu Hause eine Klimaanlage haben oder sonst keinen Zugang zu klimatisierten Räumen haben.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 1057.88,
+   "ende": 1074.86,
+   "text": "wo gerade eben auch Arbeiter, die viel draußen sind, Grabfahrer und so weiter, die eben in dieser brütenden Hitze, die derzeit herrscht, sich einfach mal abkühlen müssen, weil hier schon Temperaturen jetzt sind, die auch dazu führen, dass die Körpertemperatur höher geht, können in diese Cooling-Center.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1074.86,
+   "ende": 1094.58,
+   "text": "Und das heißt, der 7-Eleven ist eben auch nach wie vor auch in ländlichen Regionen einfach ein Ort, wo man reingehen kann und wo man seine Erledigungen einfach mal unter klimatisierten Bedingungen machen kann. Plus, dass natürlich auch die Lebensmittel, die dort verkauft werden, sehr hygienisch und klimatisiert angeboten werden.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1094.58,
+   "ende": 1110.5,
+   "text": "Auch das ist ja hier nicht unüblich, dass eben auch wirklich rohes Fleisch am Straßenrand auf einem Tisch verkauft wird, wo die Fliegen auch drumherum schwören. Ich meine, ich muss immer wieder sagen, wir essen auch Sushi auf dem Markt, ja, ist auch nicht thematisiert.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1110.5,
+   "ende": 1131.14,
+   "text": "Wir haben noch nie Probleme gehabt. Das heißt, diese krasse Einhaltung der Kühlkette, wie wir das vor allem in Deutschland auch haben, ist vielleicht das eine oder andere Mal auch ein bisschen übertrieben, weil wir hier auch sehen, es funktioniert auch so, ohne dass man sich ständig den Magen verdirbt.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1131.14,
+   "ende": 1160.26,
+   "text": "Aber grundsätzlich möchte ich natürlich auch nicht bestreiten, dass es irgendwie besser ist, Fleisch, Fisch und so weiter kühl zu halten. Keine Frage. Das heißt, die 7-Eleven-Stores haben eben auch hingegen zu diesen lokalen kleinen Geschäften, die eben nicht klimatisiert sind, die haben vielleicht natürlich inzwischen auch einen Kühlschrank oder Kühltruhen, aber auf jeden Fall ist dieses verpackte, hygienisch reine, der Lebensmittelverkauf von verpackten, hygienisch reinen Lebensmitteln auch hier natürlich beliebt.",
+   "avg_logprob": -0.038,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1160.26,
+   "ende": 1163.96,
+   "text": "und hat eben auch dazu geführt, dass diese Stores sehr gut angekommen sind.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1164.96,
+   "ende": 1169.34,
+   "text": "Und dann hatte ich, was war das? Ach genau, und das fand ich auch interessant,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1169.88,
+   "ende": 1173.62,
+   "text": "dass es von Anfang an auch einheitliche, also das Konzept so ist,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1173.9,
+   "ende": 1177.96,
+   "text": "und ich weiß nicht, ob es auch in Amerika und Japan so ist, aber in Thailand ist das Konzept eben so,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1178.08,
+   "ende": 1181.94,
+   "text": "dass es wirklich landesweit einheitliche Preise bei 7-Eleven gibt.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1182.44,
+   "ende": 1188.08,
+   "text": "Das heißt, die haben das hier mit diesen kleinen Red Bulls verglichen,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1188.08,
+   "ende": 1198.22,
+   "text": "Das sind diese kleinen Flaschen, ja. Die kosten halt 10 oder 15 Baht, glaube ich, hier genauso wie in Bangkok und genauso wie in irgendeinem 7-Eleven-Store in einer ländlichen Region.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1199.0,
+   "ende": 1209.2,
+   "text": "Ich muss aber dazu sagen, manchmal ist die Theorie ja nicht gleich die Praxis, denn wir waren tatsächlich letztens in einem 7-Eleven in einer touristischen Region.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1209.2,
+   "ende": 1215.38,
+   "text": "Also Koh Samui ist natürlich super touristisch. Es gibt ja auch auf Koh Samui Bereiche, die sind touristischer als andere.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1215.38,
+   "ende": 1217.72,
+   "text": "Oder da, wo wir wohnen jetzt zum Beispiel, ist es weniger touristisch.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1217.78,
+   "ende": 1221.36,
+   "text": "Und dann gibt es eben die Klassiker, Schaweng, Lamai, Bangrak, Chongmung und so weiter.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1222.06,
+   "ende": 1227.34,
+   "text": "So, da waren wir eben in so einer Region, wo es sehr touristisch ist.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1228.02,
+   "ende": 1231.3,
+   "text": "Und dann wollte ich einen Kaffee haben und dann stand da irgendwie 45 Baht.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1231.42,
+   "ende": 1235.66,
+   "text": "Ja, also etwas mehr als einen Euro berechnet haben sie mir dann aber 55 Baht.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1236.08,
+   "ende": 1239.36,
+   "text": "Und da habe ich gefragt, ja, warum soll, wieso kostet der jetzt 10 Baht mehr?",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1239.36,
+   "ende": 1241.7,
+   "text": "Ja, weil, also es geht nicht um die 10 Baht.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1241.7,
+   "ende": 1253.46,
+   "text": "Es geht eher aber auch darum, dass man eben auch ab und an, weil hier abgezogen wird, ja, also wenn man eben Ausländer ist, klar, dann versuchen sie auch die Preise ein bisschen, was ich auch bis zu einem gewissen Grad verstehen kann.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1254.68,
+   "ende": 1269.8,
+   "text": "Wir haben ja auch schon Länder gehabt, da steht Preise Ausländer, Preise Einheimische und dann finde ich es auch fair, dann weiß ich, worauf ich mich einlasse, aber wenn man halt versucht, mich zu verarschen, finde ich das nach wie vor blöd, egal, ob es jetzt um 50 Cent geht oder nicht.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1270.58,
+   "ende": 1278.84,
+   "text": "Auf jeden Fall haben sie dann gesagt, die Preise, die an, also das sind so eine, nicht Preistafeln, die man selber schreibt, sondern diese digitalen Monitore halt, ja.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1280.02,
+   "ende": 1287.94,
+   "text": "Und so viel verstehen auch ich, sag ich mal, auch wenn ich noch nie in so einem Laden gearbeitet habe, dass solche Monitore in der Regel zentral bespielt werden.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1287.94,
+   "ende": 1298.22,
+   "text": "Also da kommt ja nicht einer morgens in den 7-Eleven-Store in Bangkrak und geht an seinen Computer, also an sein Handy und sagt, oh, heute programmiere ich mal die Speisekarte selbst, sondern das wird ja zentral eingespielt.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1298.22,
+   "ende": 1307.36,
+   "text": "Und die wollten uns jetzt natürlich weismachen, dass wir mehr für den Kaffee bezahlen müssen, weil wir auf einer Insel sind und die Preise, die da oben dran stünden, wären halt die Preise für das Festland.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1307.36,
+   "ende": 1322.42,
+   "text": "Ja, am Ende habe ich es natürlich bezahlt, weil ich den Kaffee eben wollte und es eben nur um ein paar Cent ging. Aber deshalb, diese einheitliche Preisstrategie gilt dann wahrscheinlich für Thailänder, aber vielleicht nicht immer für Ausländer.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1323.24,
+   "ende": 1327.64,
+   "text": "Aber grundsätzlich wurde das ja hier nicht für die Ausländer und für die Touristen eingeführt,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1327.72,
+   "ende": 1330.46,
+   "text": "das 7-Eleven-Store-Konzept, sondern eben für die Einheimischen.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1330.56,
+   "ende": 1333.64,
+   "text": "Und wenn für die überall der Preis gleich ist, schafft das natürlich Vertrauen.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1334.2,
+   "ende": 1337.56,
+   "text": "Und somit ist es halt einfach hier wirklich sehr gut angenommen worden.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1338.18,
+   "ende": 1341.16,
+   "text": "Und jetzt fragt man sich vielleicht, oder wir fragen uns das zumindest,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1341.36,
+   "ende": 1347.04,
+   "text": "haben uns das öfter schon gefragt, es sind ja teilweise sehr, sehr, sehr viele 7-Eleven-Stores auf einem Fleck.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1347.04,
+   "ende": 1350.62,
+   "text": "Es gab, ich habe das auch mal gepostet, es gab mal so eine schöne Karte von Bangkok,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1351.32,
+   "ende": 1356.6,
+   "text": "wo einfach komplett Bangkok voll war mit diesen kleinen 7-Eleven-Symbolen.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1356.6,
+   "ende": 1362.06,
+   "text": "Also es ist eigentlich nicht möglich, in Bangkok irgendwo zu sein, ohne einen 7-Eleven-Store zu sehen.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1362.54,
+   "ende": 1363.6,
+   "text": "Ebenfalls auf Koh Samui.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1363.8,
+   "ende": 1369.08,
+   "text": "Also wir waren ja jetzt drüben vor einer Weile, bevor wir nach Hanoi geflogen sind, auf dem Festland,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1369.58,
+   "ende": 1371.46,
+   "text": "Richtung Nakhon Si Thammarat.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1371.58,
+   "ende": 1377.1,
+   "text": "Da muss man schon sagen, war jetzt die 7-Eleven-Dichte nicht so massiv wie hier auf Koh Samui.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1377.26,
+   "ende": 1378.84,
+   "text": "Dennoch gab es natürlich auch super viele.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1379.6,
+   "ende": 1396.66,
+   "text": "Aber wenn es nicht ganz viele Filialen in der Region gibt, gibt es oft trotz allem Filialen immer, die sich gegenüber, also auf der einen Straßenseite ist ein Store, auf der anderen Straßenseite direkt gegenüber ist der andere Store und manchmal drei, vier Läden weiter ist noch ein Store.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1396.66,
+   "ende": 1413.78,
+   "text": "Also es ist halt sehr, sehr zentral auf einem Flexit mehrere Stores und da denkt man sich natürlich, hä, lohnt sich das überhaupt? Aber das ist halt eine ganz klare Strategie, das ist die sogenannte Dominanzstrategie. Das heißt, die verdrängen damit bewusst die Mitbewerber.",
+   "avg_logprob": -0.05,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1413.78,
+   "ende": 1437.44,
+   "text": "Das heißt nicht nur, dass natürlich auch einfach je mehr Stores da sind, ja, der Mensch, also ich gehe irgendwo lang, ich will was kaufen und habe einfach diese krasse Verfügbarkeit dieser 7-Eleven-Stores. Dadurch geht man auch automatisch mehr in diese Stores. Aber es ist halt auch ein logistisches Thema, nämlich, dass es faktisch dann nicht unbedingt mehr die Läden gibt.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1437.44,
+   "ende": 1465.4,
+   "text": "Das heißt, wenn der jetzt drei, nehmen wir jetzt mal irgendwie einen Hotspot, da sind dann drei 7-Eleven-Stores, dann habe ich jetzt als anderer Anbieter fast gar keine Immobilie mehr, die sich dafür eignet. Hier gerade auf Koh Samui sieht man auch, dass wenn die Immobilie nicht da ist, wird sie einfach gebaut. Also es wird dann halt einfach neben einem anderen 7-Eleven-Store, es gibt immer noch ein paar Freiflächen, Wunder, wie das überhaupt noch möglich ist auf Koh Samui, aber da wird dann halt einfach noch ein neuer Store gebaut.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1465.4,
+   "ende": 1485.4,
+   "text": "Und das kann sich natürlich auch nicht jede Kette oder jeder Anbieter so leisten. Jetzt kann man natürlich noch darauf eingehen, theoretisch, okay, ist das gemein? Ja, ist es. Ich wollte jetzt aber nicht so tief einsteigen, was bedeutet das eben auch dann für die Wirtschaft allgemein.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1486.36,
+   "ende": 1487.5,
+   "text": "Ich will",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1487.5,
+   "ende": 1489.62,
+   "text": "einfach nur diesen",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1489.62,
+   "ende": 1491.46,
+   "text": "Kult 7-Eleven, der es inzwischen",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1491.46,
+   "ende": 1493.78,
+   "text": "ist, wollte ich einmal beleuchten",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1493.78,
+   "ende": 1494.86,
+   "text": "und",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1494.86,
+   "ende": 1497.44,
+   "text": "vielleicht mal gucken, vielleicht ergibt sich",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1497.44,
+   "ende": 1498.7,
+   "text": "nochmal die Möglichkeit auch",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1498.7,
+   "ende": 1501.4,
+   "text": "mit jemandem zu sprechen, vielleicht lernt man nochmal",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1501.4,
+   "ende": 1503.42,
+   "text": "jemanden kennen, der damit irgendwie",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1503.42,
+   "ende": 1505.22,
+   "text": "zu tun hat, um dann",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1505.22,
+   "ende": 1507.22,
+   "text": "nicht nur in der Theorie das darzustellen, sondern",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1507.22,
+   "ende": 1509.34,
+   "text": "eben auch wirklich zu beleuchten, was",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1509.34,
+   "ende": 1511.38,
+   "text": "bedeutet das hier für die anderen,",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1511.84,
+   "ende": 1513.44,
+   "text": "die dann vom Markt verdrängt",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1513.44,
+   "ende": 1515.3,
+   "text": "werden. Also was bedeutet das?",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1515.4,
+   "ende": 1517.16,
+   "text": "natürlich, dass sie vom Markt verdrängt werden, aber",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1517.16,
+   "ende": 1519.6,
+   "text": "ja, wie, zu wie viel",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1519.6,
+   "ende": 1521.48,
+   "text": "Schaden führt das im Zweifel vielleicht auch, ne?",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1523.18,
+   "ende": 1523.62,
+   "text": "Ja,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1523.76,
+   "ende": 1525.14,
+   "text": "so, jetzt sind wir hier",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1525.14,
+   "ende": 1527.5,
+   "text": "in Thailand, sehen immer 7-Eleven und",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1527.5,
+   "ende": 1529.52,
+   "text": "fliegen wieder nach Hause in der Regel und",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1529.52,
+   "ende": 1531.46,
+   "text": "denken, da denkt man sich halt, ja,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1531.52,
+   "ende": 1533.16,
+   "text": "warum gibt das eigentlich nicht in Deutschland, ja?",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1534.06,
+   "ende": 1535.6,
+   "text": "Es gibt in Europa auch",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1535.6,
+   "ende": 1537.5,
+   "text": "7-Eleven Filialen in",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1537.5,
+   "ende": 1539.62,
+   "text": "insgesamt drei europäischen Ländern, nämlich",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1539.62,
+   "ende": 1541.56,
+   "text": "Schweden, Dänemark und",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1541.56,
+   "ende": 1543.8,
+   "text": "Norwegen. Insgesamt,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1543.8,
+   "ende": 1562.8,
+   "text": "Also auf diese drei Länder verteilt. Gut, man muss natürlich auch sagen, dass die Populationsdichte in diesen drei Ländern vor allen Dingen auch, wo leben diese Menschen? Ja, das Land ist groß, aber es sind ja sehr zentrierte Punkte, wo die Menschen leben. Aber insgesamt gibt es halt in diesen drei Ländern nur 365 Filialen.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1562.8,
+   "ende": 1584.16,
+   "text": "Wenn man mal bedenkt, dass es eben zu, was haben wir, 16.000 in Thailand. Auf diese drei Länder gesehen gibt es 365 Filialen. In Deutschland gibt es keine 7-Eleven-Filialen. Warum nicht, habe ich mich gefragt. Also weil wir werden ja nicht die einzigen sein, die in Deutschland denken, hey, das wird sich doch total gut anbieten.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.031,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1584.16,
+   "ende": 1591.6,
+   "text": "Ein ganz großer Faktor in Deutschland ist das Thema Öffnungszeiten. Dieses 24-7-Konzept gehört",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1591.6,
+   "ende": 1597.9,
+   "text": "einfach zu 7-Eleven und ohne dieses 24-7-Konzept wäre 7-Eleven eben nicht 7-Eleven. Das heißt,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1597.9,
+   "ende": 1604.86,
+   "text": "es gibt in Deutschland diese sehr viele Gesetze, die es eben nicht erlauben, 24-7 zu öffnen. Es",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1604.86,
+   "ende": 1611.82,
+   "text": "gibt wenige, also bei Tankstellen kennt man das, ja. Und ich weiß nicht, wie es mit den Spätis ist",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1611.82,
+   "ende": 1615.72,
+   "text": "in Großstädten. Ich weiß, dass die auch nachts aufhaben, aber ich bin mir nicht ganz sicher,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1615.72,
+   "ende": 1622.06,
+   "text": "ob die wirklich 24 Stunden aufhaben. Ich weiß, dass glaube ich auch McDonald's mindestens ein",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1622.06,
+   "ende": 1627.42,
+   "text": "oder zwei Stunden schließen muss, wo die dann auch in der Regel sauber machen zu irgendeiner",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1627.42,
+   "ende": 1633.4,
+   "text": "Nachtzeit. Also auf jeden Fall sind die Gesetze in Deutschland eben sehr, sehr streng, was diese",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1633.4,
+   "ende": 1639.48,
+   "text": "24-7-Regelungen angeht. Das heißt, das war bisher immer ein Punkt, warum bisher noch keine Filiale",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1639.48,
+   "ende": 1645.6,
+   "text": "in Deutschland eröffnet wurde und ein zweiter großer Punkt, der eben auch massiv auf Deutschland",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1645.6,
+   "ende": 1650.72,
+   "text": "zutrifft, unabhängig jetzt von Europa, ist, dass wir Deutschen so eine Discounter-Kultur",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1650.72,
+   "ende": 1655.98,
+   "text": "haben, der sogenannte Aldi-Effekt, ja, also die Deutschen gehen sehr, sehr gerne in Discountern",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1655.98,
+   "ende": 1661.4,
+   "text": "einkaufen und davon haben wir ja auch neben Aldi noch unglaublich viele weitere Anbieter",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1661.4,
+   "ende": 1665.98,
+   "text": "und es wurde auch schon mal das Konzept von Walmart versucht in Deutschland zu implementieren.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1665.98,
+   "ende": 1677.08,
+   "text": "Es gibt auch in manchen Städten Walmart, aber es hat, Walmart hat sich in Deutschland nie so entwickelt, wie es zum Beispiel in Amerika sich entwickelt hat, weil die Menschen halt einfach lieber in Discountern einkaufen gehen.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1677.16,
+   "ende": 1683.8,
+   "text": "Anstatt zum Beispiel, also kennt ja jeder von sich, es kauft ja, macht ja keiner seinen Wochenendeinkauf in der Tankstelle, ja.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1684.3,
+   "ende": 1692.08,
+   "text": "Da gibt es ja auch viel, aber meistens kauft man in der Tankstelle ja wirklich nur eben sonntags, weil nichts anderes auf hat.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1692.08,
+   "ende": 1702.52,
+   "text": "Man hat irgendwas vergessen, so Klassiker, vielleicht Brot oder Brötchen oder irgendwie abends, weil man noch auf irgendeine Party gehen will und noch Alkohol braucht bzw. schräg, schräg nachts.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1702.62,
+   "ende": 1705.46,
+   "text": "Man kann ja inzwischen auch bis 22 Uhr im Edeka oder so einkaufen.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1706.08,
+   "ende": 1717.66,
+   "text": "Aber an sich ist das natürlich nicht so, dass man in der Tankstelle seit Großeinkauf machen würde und genauso machen ja auch viele nicht ihren Großeinkauf bei Edeka und so weiter.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1717.66,
+   "ende": 1736.9,
+   "text": "Also gibt es bestimmt welche, immer Ausnahmen. Aber viele haben ja trotzdem noch dieses Konzept Discounter und zum Beispiel Edeka. Also sprich, was ich beim Discounter nicht bekomme, dann gehe ich nochmal zu Edeka. Oder ich hole im Edeka nur so ein paar Kleinigkeiten für zwischendurch, mache aber den Wocheneinkauf oder Monatseinkauf, was auch immer, eben doch im Discounter.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1736.9,
+   "ende": 1757.24,
+   "text": "Und dieses Konzept passt eben nicht zu dem 7-Eleven-Store, der auch hier, also natürlich, wenn man jetzt aus Deutschland kommt und im 7-Eleven-Store ist, denkt man so, ja, alles total günstig, aber verglichen zu anderen Supermärkten hier wie Lotus oder Big C ist der 7-Eleven trotzdem teurer.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 1757.24,
+   "ende": 1774.52,
+   "text": "Also auch wir machen inzwischen unseren Einkauf nicht mehr im 7-Eleven, selbst Wasser holen wir im 7-Eleven nur wie eben Klassiker Tankstelle, wenn man jetzt gerade irgendwo vorbeifährt oder da eh anhält und denkt, ich brauche noch eine Flasche Wasser, dann kauft man halt eine und kauft nicht das Sixerpack zum Beispiel.",
+   "avg_logprob": -0.053,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1774.52,
+   "ende": 1782.0,
+   "text": "Also wenn man jetzt hier lebt, dann ist auch dann der 7-Eleven nicht der Store, wo man seinen Wocheneinkauf macht.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1782.28,
+   "ende": 1784.0,
+   "text": "Also glaube ich zumindest nicht.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1784.08,
+   "ende": 1793.54,
+   "text": "Ich kann es natürlich nur von uns sprechen und auch von Leuten, die wir kennen, dass da keiner irgendwie sein ganzes Essen einkauft.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1794.02,
+   "ende": 1800.18,
+   "text": "Wenn man allerdings im Urlaub ist, auch als wir sonst nur im Urlaub waren, sind wir wiederum kaum in die großen Supermärkte gegangen,",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1800.18,
+   "ende": 1804.48,
+   "text": "sondern haben wirklich fast alles im 7-Eleven gekauft, weil es eben auch einfach alles gibt.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1804.52,
+   "ende": 1808.72,
+   "text": "und man sehr viel Fertig dort auch bekommt.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1809.2,
+   "ende": 1813.54,
+   "text": "Also nicht nur, also Klassiker sind zum Beispiel diese Sandwich Toasts.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1813.54,
+   "ende": 1817.06,
+   "text": "Also viele Leute, die im 7-Eleven sich was zu essen kaufen,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1817.2,
+   "ende": 1819.96,
+   "text": "kaufen, was man zu Hause auch aus dem Sandwich Toaster kennt,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1820.78,
+   "ende": 1825.06,
+   "text": "gibt es hier fertig abgepackt und dann machen die einem das im Sandwich Toaster warm.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1825.18,
+   "ende": 1828.98,
+   "text": "Oder man kann natürlich auch super viele leckere Kaffeespezialitäten dort kaufen.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1829.58,
+   "ende": 1833.46,
+   "text": "Man hat auch Reisgerichte, auch mit Fleisch, ohne Fleisch und so weiter,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1833.46,
+   "ende": 1835.12,
+   "text": "die dort in der Mikrowelle warm machen.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1836.1,
+   "ende": 1840.28,
+   "text": "Also man gekochte Eier, fertig gekochte Eier, auch Obst kann man zum Teil da kaufen.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1840.4,
+   "ende": 1843.44,
+   "text": "Das heißt, wenn wir sonst im Urlaub in Thailand oder in Asien waren,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1843.52,
+   "ende": 1849.3,
+   "text": "haben wir eben auch oft da unser Frühstück geholt oder mittags oder wenn man eben unterwegs war.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1849.36,
+   "ende": 1855.78,
+   "text": "Ich habe ja eingangs schon erzählt, dass eben auch diese Kooperation mit den Tankstellen,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1856.0,
+   "ende": 1857.02,
+   "text": "habe ich das überhaupt gesagt?",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1857.02,
+   "ende": 1876.42,
+   "text": "Naja, ich sage es jetzt nochmal. Also auch ein weiterer Erfolg von 7-Eleven in Thailand war die Kooperation mit PTT, den Tankstellen. Das heißt, an diesen Tankstellen gibt es immer einen 7-Eleven-Store. Sprich, wenn man eben unterwegs ist, man hat auch meistens einen Food Court und so an den Tankstellen.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1876.42,
+   "ende": 1884.2,
+   "text": "Aber wenn man unterwegs ist, geht man auch oft, gerade als Urlauber, in den Tankstellen, in den 7-Eleven, sucht sich da alles zusammen, was man möchte.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1884.74,
+   "ende": 1887.5,
+   "text": "Dann machen die einem das warm und dann nimmt man das halt mit ins Auto.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1888.64,
+   "ende": 1897.36,
+   "text": "Genau, also das heißt, dieses Discounter-Prinzip hat bis jetzt in Deutschland eben und das Öffnungszeiten-Prinzip dazu geführt,",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1897.44,
+   "ende": 1901.16,
+   "text": "dass sich das da noch nicht durchgesetzt hat, beziehungsweise noch nicht mal eine Filiale geöffnet wurde.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1901.16,
+   "ende": 1913.94,
+   "text": "Ich will nur sagen, dass es aber hier ähnlich ist. Ja, es ist ein Unterschied, ob ich im 7-Eleven, also ein preislicher Unterschied, ob ich im 7-Eleven Großeinkauf mache oder in einem normalen Supermarkt oder hier sogar auf den Markt gehe oder in so lokale Geschäfte.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1915.16,
+   "ende": 1921.84,
+   "text": "Nichtsdestotrotz möchte, hat Japan jetzt nicht aufgegeben, den europäischen Markt auch zu erobern.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1921.96,
+   "ende": 1930.28,
+   "text": "Vor allem für 2026 steht das auch wieder auf deren Agenda, dass sie weiterhin das forcieren wollen, auch mehr Filialen in Europa zu implementieren.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1930.28,
+   "ende": 1935.56,
+   "text": "Da stehen jetzt erstmal Länder wie Frankreich, Deutschland, Italien, Spanien und Polen auf der Agenda.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1936.1,
+   "ende": 1941.28,
+   "text": "Das heißt, in diesen Ländern wird zuerst versucht, 7-Eleven-Stores einzusetzen.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1942.4,
+   "ende": 1949.32,
+   "text": "Ich habe gelesen, dass es in Frankreich insofern wohl ein bisschen problematischer ist im Gegensatz zu Deutschland mit Öffnungszeiten und Discounter.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1949.8,
+   "ende": 1958.0,
+   "text": "Ist es in Frankreich so, da gibt es wohl so eine Art Bäckerregelung, das heißt, dass Backwaren nur von Bäckern verkauft werden dürfen.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1958.0,
+   "ende": 1979.94,
+   "text": "Falls jetzt jemand zuhört und sagt, hey, das stimmt doch gar nicht, dann meldet euch gerne, das ist das, was ich gelesen habe und das demnach sozusagen auch nicht so gut zu dem 7-Eleven-Konzept wieder passt, weil dort eben natürlich auch Brotbrötchen, Teilchen und so weiter verkauft werden und dass es in Frankreich wohl auch sehr, sehr viele kleine Läden schon gibt.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1979.94,
+   "ende": 1998.68,
+   "text": "Also demnach auch ein Platzproblem einfach ist, dass man als so ein kleiner Convenience-Store, der eben nicht eine riesige Supermarktfläche braucht, sondern eben eher so auch in urbaneren Bereichen dann sein möchte in Europa, dass es da einfach den Platz gar nicht so richtig gibt in Frankreich.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1998.68,
+   "ende": 2018.68,
+   "text": "Deshalb, wir werden sehen mal, es wurde wohl auch in England schon mal implementiert, wurde dann aber wieder zurückgenommen quasi, also die Filialen haben dann irgendwann wieder geschlossen, weil es sich in England sehr schwierig gestaltet hat, an den kulinarischen Vibe zu treffen.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2018.68,
+   "ende": 2027.76,
+   "text": "Das heißt, das Angebot im 7-Eleven konnte einfach nicht so gut auf den englischen Markt adaptiert werden und deshalb hat sich das einfach da nicht gelohnt.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2027.76,
+   "ende": 2052.58,
+   "text": "Also ich bin nach wie vor dafür, dass es auch in Deutschland 7-Elevens gibt. Wenn es natürlich dann so ist, dass es Tankstellenpreise hat, ist wirklich die Frage, wer geht da hin, wer wird es dann nutzen. Aber dieses Konzept, dass es einfach wirklich alles dort gibt, was man sich nur ausmalen kann, finde ich schon sehr, sehr gut, gerade wenn man unterwegs ist.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.036,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2052.58,
+   "ende": 2064.56,
+   "text": "Und wie gesagt, ich glaube, es ist so wie, also ich meine, der Kaffee bei Starbucks, ich bin kein Starbucks-Besucher, aber es gibt ja einfach so Marken wie auch Starbucks, die laufen einfach, weil es Starbucks ist.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2064.68,
+   "ende": 2080.08,
+   "text": "Natürlich ist der Kaffee bei Starbucks teurer als in anderen Kaffee-Läden und ich weiß jetzt nicht, ob er unbedingt so viel besser schmeckt als in anderen Kaffee-Stores, aber trotzdem setzt sich ja auch das in Städten, in Orten durch, obwohl es teurer ist.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2080.08,
+   "ende": 2095.12,
+   "text": "Und ich könnte mir vorstellen, dass 7-Eleven eben ähnlich ist, dass auch wenn es vielleicht wirklich Tankstellenpreise dann hätte, keine Ahnung, wie sie das dann einsetzen, dass es wahrscheinlich trotzdem besser laufen würde als die Tankstelle, weil es halt so einen Kultfaktor hat.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 2095.12,
+   "ende": 2115.6,
+   "text": "Ja, soviel zu 7-11. Noch eine kleine Sache, wo ich mir ziemlich sicher bin, dass es noch niemandem aufgefallen ist bei 7-11. Bei mir ist es, bis ich mich jetzt damit beschäftigt habe, auch nicht aufgefallen. Und zwar ist ja, also die Schreibweise ist ja eine 7-11, alles in Großbuchstaben. Also 11 wie eine Zahl ausgeschrieben.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 2116.48,
+   "ende": 2122.34,
+   "text": "Aber habt ihr schon mal gesehen, dass der letzte Buchstabe, also das letzte N, kein Großbuchstabe ist?",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2122.92,
+   "ende": 2125.64,
+   "text": "Und da meine ich jetzt nicht die Höhe der Buchstaben, ja?",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2125.76,
+   "ende": 2129.98,
+   "text": "Also es ist natürlich ein Schriftzug, der gleich hoch ist, sage ich jetzt mal.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2130.46,
+   "ende": 2134.98,
+   "text": "Aber das letzte N von eleven ist trotzdem in einem kleinen Buchstaben geschrieben.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2134.98,
+   "ende": 2136.98,
+   "text": "Ich versuche das mal hier zu zeigen.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2137.18,
+   "ende": 2139.14,
+   "text": "Wie gesagt, ich sehe mich jetzt auf der Kamera nicht.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2139.28,
+   "ende": 2144.26,
+   "text": "Ich hoffe, also das hier, ja, das letzte hier, N, das ist klein geschrieben.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2144.26,
+   "ende": 2167.32,
+   "text": "Und zwar, die Frau des ursprünglichen Gründers, nämlich in Amerika, habe ich ja gesagt, kommt aus Dallas, die fand, dass alles in Großbuchstaben zu aggressiv wirkte und deshalb hat sie vorgeschlagen, die letzten Buchstaben, das N in der Kleidschrift zu schreiben, sodass es harmonischer wirkt.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 2167.32,
+   "ende": 2196.38,
+   "text": "Und ja, das ist tatsächlich so geblieben, auch als es dann nach Fluch gekommen ist und so weiter. Also diese Schreibweise ist so geblieben, 7-Eleven mit dem kleinen N. Ich finde es total spannend, dass irgendwie schon zwischen 1927 und 1946 auch da eben schon so eine Kleinigkeiten marketingtechnisch beachtet wurden, weil jeder, der sich so ein bisschen mit Grafiken und so weiter, Schrift und so befasst, der weiß, wie schwer das manchmal ist, wirklich solche Entscheidungen zu treffen.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2196.38,
+   "ende": 2198.22,
+   "text": "schreibe ich alles groß, schreibe ich alles klein,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2198.68,
+   "ende": 2200.94,
+   "text": "Anfangsbuchstabe groß und so weiter,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2201.4,
+   "ende": 2204.16,
+   "text": "dass das einfach einen massiven Unterschied ausmachen kann.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2204.36,
+   "ende": 2207.22,
+   "text": "Dass ich einen, also wenn gerade in der Logogestaltung oder so,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2207.28,
+   "ende": 2210.86,
+   "text": "wenn ich da ein Wort habe und es eben diesem Alleingehen,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2210.92,
+   "ende": 2212.96,
+   "text": "wie weit sind die Buchstaben auseinander und so weiter,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2213.06,
+   "ende": 2216.48,
+   "text": "das fällt einem natürlich als Konsument in der Regel nicht auf,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2216.54,
+   "ende": 2218.1,
+   "text": "so wie mir noch nie aufgefallen ist,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2218.18,
+   "ende": 2219.94,
+   "text": "dass dieses N am Ende klein geschrieben ist.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2219.94,
+   "ende": 2223.82,
+   "text": "Aber ja, da hat sich eben auch schon",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2223.82,
+   "ende": 2225.44,
+   "text": "1927 jemand",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2225.44,
+   "ende": 2227.42,
+   "text": "Gedanken darüber gemacht und das hat",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2227.42,
+   "ende": 2228.36,
+   "text": "bis heute bestahmt",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2228.36,
+   "ende": 2231.24,
+   "text": "Gut, das war die",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2231.24,
+   "ende": 2233.28,
+   "text": "kleine kurze Folge zu 7-Eleven",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2233.28,
+   "ende": 2235.46,
+   "text": "zu dem Kultladen",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2235.46,
+   "ende": 2237.36,
+   "text": "aus Thailand, Schrägstrich Japan",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2237.36,
+   "ende": 2238.62,
+   "text": "Schrägstrich USA",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2238.62,
+   "ende": 2241.34,
+   "text": "Ihr könnt ja mal sagen",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2241.34,
+   "ende": 2243.52,
+   "text": "Ich mach mal wieder, ich hab lange nicht so eine Umfrage",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2243.52,
+   "ende": 2245.04,
+   "text": "hier unter dem Podcast gehabt",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2245.04,
+   "ende": 2247.26,
+   "text": "bei Spotify, kann man das machen",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2247.26,
+   "ende": 2249.16,
+   "text": "Manchmal wieder eine kleine Umfrage, wer",
+   "avg_logprob": -0.172,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2249.16,
+   "ende": 2251.36,
+   "text": "7-Eleven kennt oder",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.12
+  },
+  {
+   "start": 2251.36,
+   "ende": 2253.3,
+   "text": "wer auch dafür ist, dass es in Deutschland 7-Eleven",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.12
+  },
+  {
+   "start": 2253.3,
+   "ende": 2255.18,
+   "text": "gibt. Und ja, dann",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.12
+  },
+  {
+   "start": 2255.18,
+   "ende": 2257.48,
+   "text": "hören wir uns nächste Woche wieder. Bis bald!",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.12
+  }
+ ]
+}

@@ -1,0 +1,1890 @@
+{
+ "meta": {
+  "slug": "reichtum-wohlstand-gluck",
+  "titel": "Reichtum, Wohlstand & Glück",
+  "datum": "2025-10-13T05:00:00.000Z",
+  "dauer_sekunden": 2243,
+  "guid": "b1e4b2b0-f684-4b0b-b2b7-05412679759c",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T08:16:41Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 6,
+   "transkription": 2048
+  },
+  "echtzeitfaktor": 0.91,
+  "anzahl_segmente": 233,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.27,
+   "ende": 22.57,
+   "text": "Ja, die eigenen Bedürfnisse und Wünsche, was möchte ich erreichen, was ist für mich eigentlich Wohlstand, wann bin ich denn jetzt reich genug und wann habe ich das denn jetzt auch geschafft.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.049,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 29.13,
+   "ende": 41.45,
+   "text": "Herzlich willkommen zu einer neuen Folge DLIZKFI. Das Leben ist zu kurz für irgendwann. Immer noch aus unserem kleinen Paradies Koh Samui. Wir sind nicht schon wieder weitergezogen.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.049,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 41.45,
+   "ende": 55.71,
+   "text": "Ich habe eben auf dem Weg zum Yoga ein Podcast-Interview gehört, was mich irgendwie total inspiriert hat, darüber hier auch ein bisschen zu sinnieren.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 56.31,
+   "ende": 64.93,
+   "text": "Ich bin ja ein großer Fan von dem Podcast The Diary of a CEO, also wen es nicht stört, sich Sachen auf Englisch anzuhören,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 64.93,
+   "ende": 70.97,
+   "text": "den kann ich diesen Podcast wirklich sehr ans Herz legen, da sind immer wahnsinnig interessante Interviewpartner.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 71.45,
+   "ende": 89.55,
+   "text": "Heute habe ich das Interview mit Morgan Housel gehört. Das ist der Autor des Buches The Psychology of Money bzw. Die Psychologie des Geldes. Das gibt es auch auf Deutsch. Ich habe auch das Buch gelesen, jetzt nicht mehr ganz geschafft, bevor ich abgereist bin.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 89.55,
+   "ende": 106.87,
+   "text": "Aber in dem Interview geht es, ich habe tatsächlich erst die erste Stunde gehört, es sind zwei Stunden und in der ersten Stunde geht es auch viel um das Thema, der Zusammenhang zwischen glücklich sein und Geld haben oder glücklich sein und Reichtum.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 106.87,
+   "ende": 127.37,
+   "text": "Und darüber gibt es natürlich unendlich viele Studien auch und jeder hat ja auch selber schon so, gerade wenn man auch viel reist, vielleicht so mal gemerkt, okay, man hat irgendwie so das Gefühl, dass die Menschen, die vermeintlich wesentlich weniger haben, doch irgendwie glücklicher sind als wir in unserer Wohlstandsgesellschaft.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 127.37,
+   "ende": 136.53,
+   "text": "und Hagen hat halt in den letzten Tagen sehr oft gesagt, ich bin so glücklich hier zu sein",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 136.53,
+   "ende": 146.03,
+   "text": "und ja, das hat mich dann zusammen mit dem Interview irgendwie dazu gebracht, mal darüber zu erzählen",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 146.03,
+   "ende": 153.19,
+   "text": "oder halt auch wieder zu spiegeln, wie wir das empfinden oder vor allem, ich spreche jetzt in erster Linie natürlich von mir,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 153.19,
+   "ende": 157.45,
+   "text": "die Verbindung zwischen glücklich sein",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 157.45,
+   "ende": 159.01,
+   "text": "beziehungsweise zufrieden sein.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 159.17,
+   "ende": 162.13,
+   "text": "Ich finde, glücklich ist manchmal vielleicht auch",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 162.13,
+   "ende": 166.27,
+   "text": "so ein Wort, was sehr hohe Erwartungen aufruft,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 166.37,
+   "ende": 168.31,
+   "text": "an sich selbst vor allem.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 168.67,
+   "ende": 170.87,
+   "text": "Also wenn ich nicht das Gefühl habe,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 170.95,
+   "ende": 171.85,
+   "text": "dass ich glücklich bin,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 171.95,
+   "ende": 173.73,
+   "text": "bin ich dann automatisch unglücklich.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 175.49,
+   "ende": 178.37,
+   "text": "Und deswegen finde ich das Wort zufrieden.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 178.83,
+   "ende": 179.87,
+   "text": "Also für mich persönlich",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 179.87,
+   "ende": 182.09,
+   "text": "habe ich so den Anspruch, zufrieden zu sein.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 182.09,
+   "ende": 191.33,
+   "text": "und Hagen ist aber zum Beispiel jemand, der so Sachen wie, ich bin hier so glücklich oder ich bin so glücklich hier zu sein,",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 191.43,
+   "ende": 199.47,
+   "text": "also das ist so schon eine sehr, sehr krasse Aussage, wenn man ihn kennt, also wenn Hagen was gut schmeckt, sagt er zum Beispiel,",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 199.47,
+   "ende": 204.97,
+   "text": "man sagt schmeckt es und er sagt dann, ja ist okay, also das ist seine Form zu sagen, es schmeckt richtig gut,",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 205.47,
+   "ende": 211.89,
+   "text": "das ist ungefähr so das Level der Emotionen, auf denen er sich so bewegt und deshalb, wenn er dann eben sagt,",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 212.09,
+   "ende": 216.75,
+   "text": "ich bin so glücklich, hier zu sein, dann ist das halt schon eine sehr intensive Aussage,",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 216.89,
+   "ende": 222.29,
+   "text": "die mich dann wiederum auch total freut und mich auch irgendwie bewegt,",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 222.29,
+   "ende": 230.27,
+   "text": "weil er ja nun eben nicht, wir alle, die dem Podcast folgen und auch uns persönlich kennen,",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 230.37,
+   "ende": 235.41,
+   "text": "ja wissen, dass er eben nicht unbedingt so super begeistert von Anfang an war",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 235.41,
+   "ende": 241.55,
+   "text": "oder auch sehr große Zweifel und Skepsis hatte bis hin zu, dass er eigentlich auch an dem Punkt war,",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 241.55,
+   "ende": 257.87,
+   "text": "dass er gesagt hat, ich will auf keinen Fall auswandern und umso schöner ist es jetzt natürlich, dass er sich hier so wohl fühlt und dass er sich nicht nur wohl fühlt und denkt, okay, gut, dass wir es gemacht haben, sondern halt wirklich dieses intensive Gefühl von Glück hat.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 257.87,
+   "ende": 279.45,
+   "text": "Und ich glaube, dass für die meisten, so wie wir jetzt hier leben, ja, der eine oder andere vielleicht sagen würde, das wäre mir zu, ich sage jetzt mal back to the roots oder zu einfach, weil wir haben das ja auch schon zum Teil angedeutet, auch in der letzten Folge.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 279.45,
+   "ende": 284.49,
+   "text": "letztendlich haben wir hier einfach nur zwei Räume und eben diesen Außenbereich",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 284.49,
+   "ende": 291.61,
+   "text": "und kommen aber ja auch von einer 130 Quadratmeter Wohnung mit einer Dachterrasse,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 291.71,
+   "ende": 297.49,
+   "text": "die allein 30 Quadratmeter hatte, viereinhalb Zimmer, einen Riesengarten, zwei Autos.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 298.27,
+   "ende": 303.59,
+   "text": "Also wir haben uns, wenn man es so will, ja schon in dem Sinne verschlechtert,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 303.93,
+   "ende": 305.75,
+   "text": "wenn man das jetzt mal so von außen betrachtet.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 305.75,
+   "ende": 314.19,
+   "text": "und gerade auch als wir ankamen und dass hier alles eben standardmäßig doch natürlich anders ist als zu Hause,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 314.31,
+   "ende": 318.57,
+   "text": "was man ja irgendwie wusste, aber es ist halt immer trotzdem jedes Mal aufs Neue ein kleiner Kulturschock,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 321.39,
+   "ende": 325.79,
+   "text": "denkt man natürlich schon so, okay krass, ist das, also wow, komme ich jetzt hier drauf klar?",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 326.23,
+   "ende": 335.21,
+   "text": "Und dann geht man aber zum Beispiel einfach abends zum Strand und das Kind schaukelt auf so einem Ring,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 335.21,
+   "ende": 341.71,
+   "text": "der einfach an so eine Palme gebunden ist oder rennt völlig ausgelassen am Strand lang.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 342.77,
+   "ende": 346.29,
+   "text": "Oder wir haben letzte Woche Heinrichs Geburtstag gefeiert.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 346.61,
+   "ende": 352.95,
+   "text": "Da waren wir zwar auch tagsüber unterwegs, aber sind danach nochmal mit allen hier zu uns gefahren.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 353.85,
+   "ende": 358.05,
+   "text": "Und ja, alle Kinder haben dann irgendwie sich am Strand versammelt und haben Krebse gefangen.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 358.21,
+   "ende": 362.43,
+   "text": "Und wir haben ein kleines Feuer gemacht und haben den Sonnenuntergang gesehen und so.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 362.43,
+   "ende": 370.95,
+   "text": "Und das sind so wahnsinnig glückliche Momente, die aber nichts brauchen.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 371.25,
+   "ende": 375.51,
+   "text": "Also wir haben am Strand nichts mitgehabt, kein Spielzeug, sage ich jetzt mal,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 375.51,
+   "ende": 382.63,
+   "text": "oder irgendwie, weiß ich nicht, keine Sitzgarnituren, keine Kühltasche mit irgendwelchen Essen und Getränken,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 382.83,
+   "ende": 391.97,
+   "text": "keine Musik oder irgendwie einfach nur wir und die anderen Menschen und der Strand und der Sonnenuntergang und das Feuer.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 391.97,
+   "ende": 417.63,
+   "text": "Also so sehr einfach und das sind dann immer auch wieder die Momente, wo wir dann auch wieder merken, okay, deswegen wohnen wir halt hier, deswegen haben wir halt diese beiden Bungalows ausgewählt, nicht nur, weil sie eben auch günstig sind, sondern weil diese Nähe zum Wasser oder vor allem auch dieser Strandabschnitt uns unglaublich viel gibt und unglaublich viel in uns auslöst.",
+   "avg_logprob": -0.041,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 417.63,
+   "ende": 430.67,
+   "text": "Und wir haben uns ja auch in Deutschland gefragt, warum haben wir uns in dem Jahr hier glücklicher gefühlt oder wohler gefühlt als zu Hause.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 431.81,
+   "ende": 439.37,
+   "text": "Es ist ja nicht so, dass wir zu Hause tot unglücklich waren oder so, aber man hatte irgendwie ein unbeschwerteres Lebensgefühl, sag ich mal.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 439.37,
+   "ende": 454.91,
+   "text": "Und jetzt, wo wir wieder hier sind, merken wir das auch gleich wieder. Also ich hätte ja erwartet, dass es wesentlich länger dauert, bis man da wieder reinkommt. In diese Unbeschwertheit tatsächlich ging das jetzt relativ schnell.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 454.91,
+   "ende": 462.33,
+   "text": "und ja, wir merken halt gleich wieder, wie man irgendwie entspannter wird",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 462.33,
+   "ende": 468.61,
+   "text": "und wie man so diese Sachen zu schätzen weiß und glücklich wirklich darüber ist,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 468.71,
+   "ende": 471.79,
+   "text": "dass man hier ist, dass man sich das ermöglichen konnte ohne,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 472.43,
+   "ende": 476.17,
+   "text": "und jetzt kommen wir zum Thema Geld, ohne dass wir jetzt besonders wohlhabend sind",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 476.17,
+   "ende": 479.55,
+   "text": "oder ohne dass wir jetzt besonders viel Geld haben und auch hatten.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 479.55,
+   "ende": 494.61,
+   "text": "Also ich glaube, man spricht, man sagt ja immer so schön, über Geld spricht man nicht, deswegen haben wir jetzt natürlich nicht die Einkommensströme all unserer Freunde, Verwandten und Bekannten irgendwie schwarz auf weiß.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.34
+  },
+  {
+   "start": 494.61,
+   "ende": 522.57,
+   "text": "Aber das subjektive Empfinden ist schon so, dass der Großteil der Menschen, mit denen wir zu tun haben, ob das Verwandte sind oder Freunde, mehr Geld haben als wir. Also im Sinne von ein höheres Gehalt, vielleicht ein Haus, bessere Autos, teurere Kleidung, mehr Restaurantbesuche, mehr Unternehmung.",
+   "avg_logprob": -0.018,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 522.57,
+   "ende": 544.55,
+   "text": "Also ich glaube, wir gehören schon zu denen jetzt in unserem Umfeld, die mit recht wenig auskommen. Ich möchte das immer in Relation setzen, mir ist durchaus bewusst, wie privilegiert wir sind und dass, wenn ich hier von wenig rede, mir klar ist, dass der Großteil der Menschheit mit viel, viel weniger auskommt.",
+   "avg_logprob": -0.039,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 544.55,
+   "ende": 565.55,
+   "text": "Aber ich spreche jetzt natürlich so von unserem unmittelbaren Umfeld und da, glaube ich, führen wir schon immer ein sehr bewusstes Leben, was das Geld angeht. Das heißt, wir sind, glaube ich, relativ sparsam, weil wir einfach unser Geld für ganz bestimmte Dinge nur ausgeben.",
+   "avg_logprob": -0.022,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 565.55,
+   "ende": 583.97,
+   "text": "Und wir sind beide vom Typ her so, dass wir eben nicht besonders viel Besitztümer brauchen oder dass wir irgendwie Freude daran haben, shoppen zu gehen oder für irgendwelche materiellen Dinge sehr viel Geld auszugeben. Da sind wir zum Glück beide gleich.",
+   "avg_logprob": -0.041,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 583.97,
+   "ende": 605.05,
+   "text": "Und deshalb haben wir unser Geld schon immer in die Reisen gesteckt, in die Erlebnisse oder Unternehmungen. Und wir haben jetzt auch, glaube ich, ich glaube, es gibt viele Menschen, die mit den finanziellen Mitteln, die wir jetzt zur Verfügung haben, diesen Schritt wahrscheinlich nicht gemacht hätten.",
+   "avg_logprob": -0.031,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 605.05,
+   "ende": 617.79,
+   "text": "Weil es ihnen vielleicht doch zu wenig wäre oder zu unsicher wäre, ja, in so einem neuen Land neu anzufangen, ohne sich finanziell komplett irgendwie abgesichert zu fühlen.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 618.45,
+   "ende": 622.97,
+   "text": "Manchmal sagen Leute so, ja, wir würden das auch gerne machen, aber wir können ja nicht, wir haben ja ein Haus.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 623.09,
+   "ende": 630.27,
+   "text": "Dann sage ich herzlichen Glückwunsch, ja, weil wenn du ein Haus hast und das verkaufst und alleine, wenn du es nicht verkaufst, wenn du es einfach nur vermietest,",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 630.27,
+   "ende": 647.45,
+   "text": "hast du ja schon einen monatlichen Einkommensstrom, den andere nicht haben und wenn du es verkaufst, bei den Immobilienpreisen heutzutage ist aus meiner Sicht, wenn man geschickt ist, jeder fast auf Lebzeit abgesichert, wenn er sich davon löst und dann eben das Geld hat als Backup.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 647.45,
+   "ende": 673.51,
+   "text": "Also, worauf ich hinaus will, ist, dass wir, glaube ich, relativ genügsam sind und jetzt ein sehr, ja doch einfacheres Leben führen als vorher, aber trotzdem eben auch ein zufriedeneres, weil für Wohlstand und Reichtum, wenn man das jetzt mal so, die Frage ist ja auch, was ist Wohlstand, was ist Reichtum?",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 673.51,
+   "ende": 682.05,
+   "text": "Ganz interessant, die Kinder, also wir haben ja auch hier, kennen ja auch hier Freunde oder Menschen, mit denen wir befreundet sind",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 682.05,
+   "ende": 691.81,
+   "text": "Und die Kinder sehen natürlich auch hier andere Auswanderer, die deutlich luxuriöser wohnen",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 692.23,
+   "ende": 700.61,
+   "text": "Wo es egal ist, ob sie jetzt jeden Tag dreimal essen gehen oder nur einmal, wo Geld einfach keine Rolle spielt",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 700.61,
+   "ende": 717.03,
+   "text": "Und dass auch nach außen hin zu sehen ist, dass Geld keine Rolle spielt aufgrund der Einstellung zum Ausgeben von Geld. Und ich glaube, für Kinder ist es dann schon auch schwieriger zu verstehen, warum ist das jetzt bei uns anders.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.35
+  },
+  {
+   "start": 717.03,
+   "ende": 736.67,
+   "text": "Ja, warum, wenn wir jetzt sagen, ja, wir wollen noch ein Eis oder können wir heute da und da essen gehen oder können wir das und das noch kaufen und wir dann sagen, nein, wir können nicht jeden Tag diese ganzen Sachen machen, weil wir dafür einfach das Geld nicht haben, beziehungsweise es auch einfach dann in dem Moment nicht ausgeben wollen.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 736.67,
+   "ende": 755.57,
+   "text": "Also und dann sagen die Kinder manchmal, ja, aber sind wir irgendwann auch mal so reich wie die und die? Und dann sage ich so, ja, wir sind ja reich. Ja, und dann, hey, ja, aber wieso? Und dann sage ich, ja, reich an so vielen anderen Dingen. Wir sind reich an Erinnerungen, wir sind reich an den ganzen Erlebnissen, die wir haben.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 755.57,
+   "ende": 774.31,
+   "text": "Wir sind reich an Erfahrung, reich an Liebe, ja, so, ja, sentimental das jetzt auch klingen mag, aber wir, also gerade ich sage auch manchmal, ich weiß nicht, ich weiß nicht, wie es ist, sich gar keine Gedanken mehr um Geld machen zu müssen, weil man einfach genug davon hat.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 774.67,
+   "ende": 783.45,
+   "text": "Wobei auch hier, ich glaube, man hat nie genug, denn je mehr Geld man hat, desto höher gehen halt auch die Ansprüche im Leben.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 783.45,
+   "ende": 791.93,
+   "text": "Das heißt, wenn ich halt irgendwann genug Geld habe, mir eben ein Haus zu kaufen und mich daran gewöhnt habe, dass es für mich normal ist, dass ich ein Haus habe,",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 792.51,
+   "ende": 797.99,
+   "text": "dann möchte ich vielleicht irgendwann ein größeres Haus, ja, oder möchte noch mehr Geld für andere Sachen haben.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 797.99,
+   "ende": 816.19,
+   "text": "Also ich glaube, dass man nie an den Punkt kommt zu sagen, ich habe jetzt genug Geld und mache jetzt gar nichts mehr, weil ich habe ja genug. Aber trotzdem, ich will sagen, ich weiß nicht, wie es sich anfühlt, wenn man sich eigentlich keine Gedanken mehr ums Geld machen muss.",
+   "avg_logprob": -0.019,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 816.19,
+   "ende": 844.55,
+   "text": "Deshalb kann ich auch nicht beurteilen, wie man das dann weitergibt. Aber jetzt aus meiner Perspektive würde ich auch sagen, selbst wenn wir das Geld hätten, würde ich trotzdem wollen, dass meine Kinder lernen, dass nicht immer alles zu jeder Zeit verfügbar ist und dass es eben nicht jeden Tag ein Eis gibt und dass man auch nicht jeden Tag in das Restaurant essen geht, sondern dass man eben auch mal sich was an der Garküche holt oder auch mal zu Hause kocht und dass man eben ja auch mal selber sauber machen muss.",
+   "avg_logprob": -0.028,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 844.55,
+   "ende": 861.87,
+   "text": "Natürlich würde ich mir auch, also hatte ich auch schon, ich finde es total super, wenn man eine Putzfrau hat, ich hatte auch oft genug schon eine, aber ich finde es halt trotzdem wichtig, dass die Kinder verstehen, weil Heinrich zum Beispiel auch mal sagte, ja könnte ich, ob er Geld kriegen könnte, wenn er uns im Haushalt hilft oder wenn er Rasen mäht oder sonst irgendwas.",
+   "avg_logprob": -0.034,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 861.87,
+   "ende": 890.61,
+   "text": "Dann habe ich gesagt, das wird es auf gar keinen Fall geben. Ich weiß, dass manche das machen und ich weiß auch, dass manche Geld für Noten bekommen. Bei uns gibt es das aber nicht. Und ich habe gesagt, du wirst, wenn du erwachsen bist, auch kein Geld dafür bekommen, dass du deine Wohnung sauber machst. Wenn du schlau bist und es gut genug anstellst, hast du vielleicht das Geld, jemanden dafür zu bezahlen, dass er deine Wohnung sauber macht. Aber dir wird niemand Geld dafür geben, dass du deine eigene Wohnung sauber machst. Und deshalb werde ich dir nicht beibringen, dass du uns im Haushalt hilfst und dafür Geld bekommst.",
+   "avg_logprob": -0.03,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.99
+  },
+  {
+   "start": 891.87,
+   "ende": 918.13,
+   "text": "Und für uns ist es gerade schon auch eine Herausforderung, den Kindern auch klarzumachen, dass die Tatsache, dass wir ausgewandert sind und dass wir dieses Leben hier leben können und dass wir direkt am Strand wohnen, dass wir auf einer Insel wie Koh Samui wohnen, die jetzt, sag ich mal, im thailändischen Ranking trotzdem eine teure Insel ist, auch wenn natürlich Thailand wesentlich günstiger ist als Deutschland, keine Frage.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 918.93,
+   "ende": 921.83,
+   "text": "Aber wir haben ja auch weniger Geld zur Verfügung.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 922.07,
+   "ende": 925.01,
+   "text": "Also wir haben ja in Deutschland, haben wir natürlich höhere Kosten gehabt,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 925.15,
+   "ende": 927.01,
+   "text": "aber wir hatten in Deutschland ja auch zwei Gehälter.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 927.35,
+   "ende": 929.57,
+   "text": "Und jetzt haben wir im Moment nur eins.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 930.31,
+   "ende": 934.57,
+   "text": "Und natürlich haben wir auch ein bisschen was gespart, was wir aber als Puffer nehmen wollen",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 934.57,
+   "ende": 938.63,
+   "text": "und jetzt nicht so in unseren alltäglichen Ausgaben mit einfließen lassen.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 939.39,
+   "ende": 943.85,
+   "text": "So, das heißt, genauso wie in Deutschland haben wir auch hier die Situation,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 944.09,
+   "ende": 947.33,
+   "text": "dass wir darauf achten, okay, wofür geben wir wie viel Geld aus?",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 947.33,
+   "ende": 969.79,
+   "text": "Und ich denke, da lassen wir es uns schon ganz gut gehen mit irgendwie, jeder hat jetzt da seine Sportmitgliedschaft für zwischen 50 und 80 Euro im Monat abgeschlossen und wir sind bisher einmal die Woche bei einer Massage gewesen, die Kinder in so einem Spielland, wir sind bisher jeden Tag irgendwo essen gewesen, auch wenn es vielleicht mal nur eine kleine Garküche war oder auch mal richtig.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 969.79,
+   "ende": 986.33,
+   "text": "Wir haben schon viele Sachen unternommen, die Eintritte kosten und so. Also wir lassen es uns schon gut gehen und nutzen auch das, dass wir hier uns mehr leisten können als vielleicht zu Hause, weil ich weiß nicht, wie es euch geht, für alle, die die Kinder haben.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 986.33,
+   "ende": 1008.71,
+   "text": "Aber Hagen und ich haben uns früher nicht einmal darüber Gedanken gemacht, ob wir am Wochenende mit damals noch Heinrich, war er noch alleine, irgendwie ins Schwimmbad fahren können oder ob wir mal ins Zoo gehen oder ins Kino gehen oder keine Ahnung, was das war. Das haben wir einfach gemacht, ohne zu überlegen, was das jetzt für uns alle kosten würde oder so.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1008.71,
+   "ende": 1024.67,
+   "text": "Also ich finde, die Preise sind ja in Deutschland einfach so exorbitant gestiegen, dass es für uns als vierköpfige Familie in den letzten ein, zwei Jahren schon so war, dass wir a, wenn überhaupt, nur eine Unternehmung am Wochenende machen konnten und schon gar nicht an beiden Tagen.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1024.93,
+   "ende": 1032.73,
+   "text": "Und wir zum Teil auch überlegt haben, okay, machen wir das jetzt alle oder bleibt einer von uns Erwachsenen zu Hause, damit wir halt zumindest ein Eintrittsgeld sparen.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1032.73,
+   "ende": 1045.47,
+   "text": "Weil ich weiß nicht, aber so ein Zoobesuch mit vier Leuten inzwischen ja locker mal 100 Euro kostet und da hat man ja auch noch nichts gegessen. Und genauso ist es halt mit Schwimmbad oder was auch immer.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.31
+  },
+  {
+   "start": 1045.47,
+   "ende": 1072.31,
+   "text": "Und dafür, dass beide irgendwie arbeiten gehen, ist das schon so, wo man dachte, okay, der Lebensstandard reduziert sich, obwohl sich die Rahmenbedingungen irgendwie nicht geändert haben. Und dass wir das jetzt wieder können, dass man jetzt sich wieder Sachen gönnen kann und sich erlauben kann, trägt natürlich schon auch sehr zum Entspannungsgefühl bei, sag ich mal.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1072.93,
+   "ende": 1077.09,
+   "text": "Aber trotzdem ist es halt schwierig, auch jetzt mit den Kindern.",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1077.89,
+   "ende": 1081.03,
+   "text": "Die verstehen halt ja, okay, in Thailand ist es günstiger.",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1081.25,
+   "ende": 1083.51,
+   "text": "Und wir sehen das halt, die sehen es halt auch bei anderen,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1083.71,
+   "ende": 1087.99,
+   "text": "wie, ja, was die alles machen können und wie da so der Lebensstandard ist.",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1087.99,
+   "ende": 1094.23,
+   "text": "Und ja, würden auch lieber in einer Villa mit drei Schlafzimmern und einem Pool leben,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1094.31,
+   "ende": 1095.57,
+   "text": "als in zwei Bungalows.",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1096.07,
+   "ende": 1099.77,
+   "text": "Und denken sich halt, ja, warum können wir dies nicht kaufen?",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1099.89,
+   "ende": 1101.45,
+   "text": "Warum können wir jenes nicht kaufen?",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1101.45,
+   "ende": 1125.55,
+   "text": "Das kostet doch viel weniger als in Deutschland. Und ja, da versuchen wir gerade so auch einen Weg zu finden oder auch eine Balance herzustellen zwischen das nicht immer daran zu koppeln, was was kostet, sondern auch einfach froh zu sein, dass man halt dieses Leben hier führt und dass wir ein Leben führen, was vielleicht viele gerne führen würden und eben nicht führen können.",
+   "avg_logprob": -0.05,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1126.27,
+   "ende": 1131.53,
+   "text": "Auch da denke ich, können wahrscheinlich schon, wollen dann vielleicht eher zu wenig,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1132.85,
+   "ende": 1139.51,
+   "text": "weil aus meiner Sicht die ganzen Ausreden, warum man das alles nicht machen kann,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1139.75,
+   "ende": 1145.65,
+   "text": "sind aus meiner Sicht eigentlich immer nur ein Beweis dafür, dass man irgendetwas nicht stark genug will.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1145.65,
+   "ende": 1152.33,
+   "text": "Also es geht jetzt ja nicht nur ums Auswandern, das ist ja bei weitem nicht von jedem der Traum, um Gottes Willen.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1152.33,
+   "ende": 1166.59,
+   "text": "Aber es gibt ja trotzdem viele Menschen, die irgendetwas gerne möchten und zig Ausreden dafür haben, dass sie es aber nicht können. Und ich finde, das ist dann einfach immer nur so, dann willst du es auch nicht doll genug.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 1166.59,
+   "ende": 1176.99,
+   "text": "Auch wenn jetzt zum Beispiel jemand gerne mehr Sport machen würde und sagt, ich habe keine Zeit, dann sage ich, okay, dann wirst du sicherlich Möglichkeiten finden, dir die Zeit zu nehmen, wenn du es wirklich willst.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1177.11,
+   "ende": 1187.13,
+   "text": "Und wenn jemand sagt, ich möchte gerne abnehmen, aber bei mir geht das nicht so einfach. Ja, bestimmt. Es gibt bestimmt Menschen, die können schneller abnehmen als andere. Es gibt auch Menschen, die können essen, was sie wollen und nehmen nicht zu.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1188.11,
+   "ende": 1191.55,
+   "text": "Aber am Ende habe ich es ja trotzdem selber in der Hand.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1192.45,
+   "ende": 1195.13,
+   "text": "Überhaupt mein ganzes Leben zu gestalten, habe ich in der Hand.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1195.19,
+   "ende": 1200.47,
+   "text": "Und das machen aus meiner Sicht viel zu wenige, dass sie wirklich verstehen,",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1200.61,
+   "ende": 1205.37,
+   "text": "dass sie, so wie dieser Spruch geht, ihres eigenen Glückes Schmied sind.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1205.37,
+   "ende": 1214.37,
+   "text": "Und dass sie einfach viel mehr umsetzen könnten oder ein viel zufriedeneres Leben führen könnten,",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1214.37,
+   "ende": 1220.33,
+   "text": "wenn sie viel mehr Eigeninitiative zeigen würden und viel mehr dafür auch in die Hand nehmen würden.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1220.69,
+   "ende": 1228.95,
+   "text": "Und ja, von daher glaube ich, dass ich kann das nicht eher so Synonymes für ich will es nicht doll genug.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1230.73,
+   "ende": 1232.37,
+   "text": "Aber ja, jetzt bin ich ein bisschen abgedriftet.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1233.15,
+   "ende": 1243.53,
+   "text": "Genau, also dass wir den Kindern eben auch vermitteln, was zufrieden und glücklich zu sein mit dem, was man hat",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1243.53,
+   "ende": 1261.67,
+   "text": "und sich auch darüber, was wir jetzt haben, also nicht zufrieden und glücklich zu sein generell mit dem, was man hat, ist eine tolle Eigenschaft, aber im Zweifel bleibt man dann halt auch immer an einer Stelle stehen, wenn man immer an der gleichen Stelle glücklich ist, das ist ja auch okay.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1261.67,
+   "ende": 1288.33,
+   "text": "Aber ich meine eher, ja zu realisieren, okay, wir haben jetzt hier uns ein Leben geschaffen oder den Anfang zumindest, wovon vielleicht viele träumen und dann ist es vielleicht nur, sind es vielleicht nur die zwei Bungalows mit der Outdoor-Küche, mit zig Ameisen und der selbstklebenden Tapete,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1288.33,
+   "ende": 1314.87,
+   "text": "die eigentlich droht, jeden Tag wieder von der Wand zu fallen und es ist eben nicht die Villa mit mehreren Schlafzimmern und einem Pool, aber immerhin ist es halt das schon und ich finde halt, es hat ja auch jeder einen anderen Anspruch an, ja an was macht mich glücklich, was brauche ich, um glücklich zu sein und für uns ist es halt das",
+   "avg_logprob": -0.045,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1314.87,
+   "ende": 1339.63,
+   "text": "Und für andere ist es vielleicht eine Louis Vuitton Tasche, keine Ahnung, oder eine Rolex. Das kam auch in dem Interview. Ja, muss es denn unbedingt ein Lamborghini sein oder bin ich halt auch mit einem Pickup Truck glücklich? Das ist ganz lustig, dass sie das in dem Interview gesagt haben, weil wir ja gerade dabei sind, uns ein Pickup zu kaufen und das ist halt zum Beispiel ein Traum, den Hagen und ich schon ewig haben, seit wir eigentlich in Namibia.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1339.63,
+   "ende": 1357.15,
+   "text": "Also ich habe schon als Kind immer gedacht, ich möchte mal später einen Jeep, also ich fand schon immer so alte Jeeps toll und als wir dann in Namibia das erste Mal mit so einem Hilux durchs Land gefahren sind, haben wir irgendwie auch beide so gesagt, oh so ein Auto, das wäre mal was.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1357.15,
+   "ende": 1382.87,
+   "text": "Und ist aber auch was, was wir, wir haben auch Freunde, die haben auch in Deutschland ein Pickup, keine Frage, aber wir hätten uns das in Deutschland nicht leisten können, Schrägstrich wollen. Wir wollten es nicht genug, um wirklich die Opfer zu bringen und zu sagen, wir investieren da das Geld, monatliche Raten, keine Ahnung was und eben auch die hohen Spritkosten, weil wir das jetzt so geil finden, ein Pickup zu fahren.",
+   "avg_logprob": -0.045,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1383.61,
+   "ende": 1390.53,
+   "text": "Hier ist es etwas, was wir uns dadurch, dass wir hier jetzt wohnen und hier die Preise für solche Autos einfach anders sind",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1390.53,
+   "ende": 1394.75,
+   "text": "und auch die Spritpreise hier anders sind, Versicherung, Steuern, alles wesentlich günstiger ist,",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1394.79,
+   "ende": 1400.59,
+   "text": "ist das eben jetzt ein Traum, den wir uns erfüllen können und wo wir uns auch total darauf freuen.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1400.59,
+   "ende": 1408.85,
+   "text": "Und ich persönlich brauche eben, also wenn mir jetzt einer den Pickup hinstellt und mir stellt einer daneben Ferrari,",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1408.85,
+   "ende": 1410.95,
+   "text": "bin ich auf alle Fälle der Mensch, der sich den Pickup",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1410.95,
+   "ende": 1412.77,
+   "text": "aussucht, weil ich das cooler",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1412.77,
+   "ende": 1414.75,
+   "text": "finde und nicht, weil ich",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1414.75,
+   "ende": 1416.71,
+   "text": "irgendwie, ja, denke,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1416.97,
+   "ende": 1418.85,
+   "text": "okay, wenn ich einen Ferrari habe, dann suggeriert",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1418.85,
+   "ende": 1420.81,
+   "text": "das vielleicht, wie reich ich",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1420.81,
+   "ende": 1422.33,
+   "text": "bin. Also ich glaube, gerade so dieses",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1422.33,
+   "ende": 1424.95,
+   "text": "von außen",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1424.95,
+   "ende": 1426.63,
+   "text": "oder das heutzutage durch",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1426.63,
+   "ende": 1428.73,
+   "text": "Social Media immer gesehen wird,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1428.85,
+   "ende": 1431.03,
+   "text": "wie viel Geld andere haben",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1431.03,
+   "ende": 1432.51,
+   "text": "und wie sie leben",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1432.51,
+   "ende": 1434.57,
+   "text": "und was sie für krasse",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1434.57,
+   "ende": 1436.89,
+   "text": "Wohnorte haben,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1436.89,
+   "ende": 1438.65,
+   "text": "was sie für krasse Villen haben, was sie für",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1438.65,
+   "ende": 1446.57,
+   "text": "krasse Autos fahren, ist natürlich auch die eigenen Bedürfnisse und Wünsche.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1446.95,
+   "ende": 1450.61,
+   "text": "Was möchte ich erreichen? Was ist für mich eigentlich Wohlstand?",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1450.81,
+   "ende": 1455.51,
+   "text": "Wann bin ich denn jetzt reich genug und wann habe ich das denn jetzt auch geschafft?",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1456.13,
+   "ende": 1462.61,
+   "text": "Das schießt natürlich ins Unendliche, dadurch, dass wir halt überall auch gezeigt bekommen,",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1463.05,
+   "ende": 1467.19,
+   "text": "was für einen krassen Lifestyle manche haben und dann noch dazu gesagt bekommen,",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1467.19,
+   "ende": 1481.41,
+   "text": "Eigentlich muss man dafür kaum was machen, denn das ist aus meiner Sicht der größte Preis, den man für, ja wirklich, also Reichtum finanzieller Art zahlt, ist für mich der größte Preis Zeit.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 1481.41,
+   "ende": 1498.25,
+   "text": "Und weil ich glaube, dass, also wenn wir jetzt nicht von irgendwelchen, ich sag jetzt mal Insta-Bubble-Online-Kurs-Verkaufs-Leuten hören, die wie mehrere Millionen Euro angeblich im Monat verdienen,",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.27
+  },
+  {
+   "start": 1498.25,
+   "ende": 1521.29,
+   "text": "Sondern wenn wir jetzt wirklich von Geschäftsleuten reden, die wirklich große Unternehmen aufgebaut haben und zum Teil auch über Generationen irgendwelche Firmen groß gemacht haben, die haben oft auf der Strecke, also da ist oft auf der Strecke geblieben vielleicht eine Partnerschaft und eine Familie, Freunde.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1521.29,
+   "ende": 1540.83,
+   "text": "Die haben zwar unglaublich viel Geld, aber haben eigentlich auch nur das, nämlich viel Geld, ihren Job und ein großes Haus, tolle Autos, aber in den Autos fährt halt niemand mit, da ist halt niemand hinten, der irgendwie das Eis auf den Sitz kleckert und in den Häusern ist im Zweifel auch keiner, außer vielleicht das Personal.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1540.83,
+   "ende": 1549.91,
+   "text": "und deswegen, das ist was, was für mich auf jeden Fall an oberster Stelle steht, ist Zeit.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 1550.59,
+   "ende": 1554.61,
+   "text": "Also die Zeit so nutzen zu können, wie ich sie nutzen möchte",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 1554.61,
+   "ende": 1560.11,
+   "text": "und nicht so fremdbestimmt meine Zeit abzugeben.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 1561.19,
+   "ende": 1566.99,
+   "text": "Und ich habe auch dadurch in meiner Selbstständigkeit schon Kunden abgelehnt",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 1566.99,
+   "ende": 1571.61,
+   "text": "und auch Zusammenarbeiten beendet, die mir ganz eindeutig,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1571.65,
+   "ende": 1575.47,
+   "text": "ich werde ja auch in manchen, also ich habe Paketpreise und Stundensätze,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1575.47,
+   "ende": 1580.35,
+   "text": "aber ich kann ja sehr gut ausrechnen, was kostet es mich,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1580.75,
+   "ende": 1582.61,
+   "text": "wenn ich diesen Kunden jetzt nicht annehme",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1582.61,
+   "ende": 1586.39,
+   "text": "oder wenn ich diesen Kunden jetzt nach einer gewissen Zeit der Zusammenarbeit absage.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1586.47,
+   "ende": 1592.97,
+   "text": "Das ist eins zu eins ausrechenbares Geld, zu dem ich Nein sage,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1593.63,
+   "ende": 1596.91,
+   "text": "um auf der anderen Seite halt Zeit zu haben.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1596.99,
+   "ende": 1620.55,
+   "text": "Weil ich mich dann immer frage, was kostet es mich, diesen Kunden zu behalten oder dieses Geld zu behalten? Was kostet es mich an Energie? Was kostet es mich an Nerven? Was kostet es mich an Ressourcen? Und was gebe ich davon ab von meiner Zeit, die ich dann eben mit meiner Familie nicht habe, die ich dann nicht mit meinen Hobbys verbringen kann und so weiter?",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 1620.55,
+   "ende": 1642.89,
+   "text": "Was gebe ich davon ab? Und das ist auf jeden Fall für mich auch eine Form von Wohlstand und Reichtum, solche Entscheidungen treffen zu dürfen und treffen zu können und einfach nicht in so einem Hustle-Modus gefangen zu sein, wo der irgendwie dann auch nie ändert.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 1642.89,
+   "ende": 1654.91,
+   "text": "Weil man irgendwie sich dann vielleicht auch einen Lebensstandard aufgebaut hat, wo man auch bleiben muss in diesem Hustle-Modus, um sich diesen Standard zu finanzieren, wo man eigentlich gar nicht mehr zurück kann.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 1655.91,
+   "ende": 1678.57,
+   "text": "Wir haben auch vorher ausgerechnet und gesagt, okay, nehmen wir zwei Bungalows für das Geld oder mieten wir uns halt eine Villa für das Geld. Beides wäre grundlegend, ist grundlegend möglich. Nur würden wir uns halt eine Villa für Summe X mieten, würde wahrscheinlich, war nicht nur wahrscheinlich, würde ja einfach nicht mehr viel Geld übrig bleiben für andere Dinge.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1678.57,
+   "ende": 1694.11,
+   "text": "Und ich habe auch gesagt, ich bin halt lieber in diesen Bungalows direkt am Strand und weiß, ich kann mir dann aber auch, was ich eben schon aufgezählt habe, die Sportarten, Massagen, Essen gehen und so weiter leisten.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.36
+  },
+  {
+   "start": 1694.11,
+   "ende": 1707.33,
+   "text": "Und ich kann mir auch leisten, dann in einem halben Jahr, wenn wir es erneuern müssen, halt auszureisen, irgendwo Urlaub zu machen. Und wenn jetzt ein Kunde wegbricht, dann muss ich auch nicht gleich überlegen, wie wir jetzt hier die Miete weiterzahlen.",
+   "avg_logprob": -0.025,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1707.33,
+   "ende": 1733.45,
+   "text": "Also das ist für mich viel wichtiger und fühlt sich nach mehr Freiheit und Wohlstand auch an, als hätten wir jetzt monatliche Fixkosten in so einer Villa, die wir dann vielleicht jetzt bezahlen könnten, aber alles andere dann auf der Strecke bliebe, nur damit ich dann halt irgendwie sagen kann, ich wohne halt in einer Villa mit drei Schlafzimmern und einem Pool.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1734.07,
+   "ende": 1736.89,
+   "text": "Klar gibt es auch genug Menschen, die können sich dann halt auch die Villa leisten.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1737.09,
+   "ende": 1738.95,
+   "text": "Das ist ja auch schön, wir können es aber nicht.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1739.05,
+   "ende": 1743.25,
+   "text": "Aber das wäre nie der Grund jetzt, um den ganzen Traum nicht zu leben.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1743.57,
+   "ende": 1748.81,
+   "text": "Weil das fand ich halt auch sehr interessant in dem Interview, von dem ich anfangs sprach,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1748.81,
+   "ende": 1753.91,
+   "text": "auch man sich wirklich die Frage stellen muss, was brauche ich persönlich denn, um glücklich zu sein?",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1754.49,
+   "ende": 1761.49,
+   "text": "Also möchte ich jetzt zum Beispiel eine Rolex, weil ich denke, oder weil ich damit nach außen hin zeigen will,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1761.49,
+   "ende": 1789.61,
+   "text": "hey, ich habe so viel Geld, dass ich mir eine Rolex kaufen kann oder möchte ich die Rolex, weil ich schon seit ich vielleicht Kind bin, davon träume, dass ich irgendwann mal eine Rolex besitze, so, dann ist das halt der eigene Traum, den man sich damit erfüllt, aber nichts, was, man sollte das nicht machen, nur damit es nach außen hin irgendwie cooler aussieht oder dass andere vielleicht auch jetzt in unserem Fall vielleicht sagen würden, ja, na gut, jetzt wohnen die da so spartanisch in so einer spärlichen Behausung,",
+   "avg_logprob": -0.053,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1789.61,
+   "ende": 1813.13,
+   "text": "Also dann hätten sie ja vielleicht auch gar nicht auswandern müssen, wenn sie sich das nicht leisten können. Und das ist halt der Punkt, für uns ist das so in Ordnung und wir fühlen uns hier wohl und wir sind froh, dass wir hier sind und wir sind glücklich, dass wir hier sind, auch wenn das vielleicht kein Standard ist, unter dem jeder so gerne wohnen wollen würde.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1813.13,
+   "ende": 1819.27,
+   "text": "und wenn jetzt jemand sagt, ich brauche aber die Villa mit dem Pool und den drei Schlafzimmern",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1819.27,
+   "ende": 1822.85,
+   "text": "und solange ich mir die nicht leisten kann, würde ich auch so einen Schritt nicht gehen,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1822.85,
+   "ende": 1824.59,
+   "text": "dann ist das ja auch total in Ordnung.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1826.79,
+   "ende": 1833.79,
+   "text": "Aber ich glaube, dass sich viel zu wenig Menschen ernsthaft die Frage stellen,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1834.07,
+   "ende": 1839.21,
+   "text": "was macht mich denn wirklich glücklich und zufrieden, was würde mir vielleicht sogar reichen",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1839.21,
+   "ende": 1857.31,
+   "text": "Und warum habe ich vielleicht das Bedürfnis, ständig neue Klamotten zu shoppen, ständig irgendwie, ja, was heißt ständig, aber ein gewisses Auto zu fahren, so und so viele Spielkonsolen zu haben oder keine, also diese ganzen materiellen Dinge.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 1857.31,
+   "ende": 1881.69,
+   "text": "warum habe ich das Bedürfnis danach, also was füllt das in mir aus, ja, was kompensiere ich vielleicht damit und sind das wirklich Dinge, die mich glücklich machen oder führen die einfach nur dazu, dass ich immer weiter eigentlich im Hamsterrad weiter renne, damit ich halt auf diesem Level bleiben kann und ja, mich und gar nicht mehr hinterfrage, brauche ich das eigentlich alles, ne.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1881.69,
+   "ende": 1900.17,
+   "text": "Wir haben, es haben ja auch viele zu uns gesagt, ja krass, wie viel man hat und ihr habt jetzt euer ganzes Leben auf vier Koffer reduziert und ja, das war am Anfang auch irgendwie nicht vorstellbar, dass das geht. Als man dann angefangen hat, die Sachen zu verkaufen, ging es ja erstaunlich leicht, das hatte ich ja auch schon mal gesagt.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1901.01,
+   "ende": 1905.63,
+   "text": "Und hier ist es so, dass ich die Inhalte der vier Koffer noch nicht mal komplett auspacken konnte,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1905.85,
+   "ende": 1911.29,
+   "text": "weil ich den Platz dafür einfach nicht habe, weil wir einfach nicht viel Platz haben",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1911.29,
+   "ende": 1915.79,
+   "text": "oder nicht viel Stauraum oder wie auch immer Platz ist, ist Quatsch,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1915.79,
+   "ende": 1920.11,
+   "text": "weil wir haben den Strand vor der Tür, wir haben unfassbar viel Platz,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1920.77,
+   "ende": 1926.69,
+   "text": "aber eben nicht, um irgendwelche Sachen irgendwo hinzustellen oder reinzuräumen oder einzusortieren.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1926.69,
+   "ende": 1952.09,
+   "text": "Und ja, jetzt, wo man dann wieder sich sehr auf wenig reduziert hat und, ich sag mal, so ein bisschen back to the roots kommt, merkt man eigentlich, dass man sich so schnell, so befreiter fühlt und zufriedener fühlt und sofort wieder weiß, warum man das alles gemacht hat, warum man sich das gewünscht hat und warum man das unbedingt wollte.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1952.09,
+   "ende": 1962.59,
+   "text": "und man sich tatsächlich reich fühlt und in Wohlstand fühlt, einfach auf eine andere Art von Definition.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 1962.59,
+   "ende": 1977.73,
+   "text": "Und ja, das war jetzt sehr viel, ja, wie soll ich sagen, sehr viel sinniert und viel persönliche Meinung natürlich auch von mir",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 1977.73,
+   "ende": 1986.33,
+   "text": "oder Einstellungen, wie ich über die Dinge denke, aber ich glaube, es würde jedem gut tun,",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1986.59,
+   "ende": 1995.23,
+   "text": "wirklich mal sich zu reflektieren und zu fragen, was brauche ich alles, was könnte mich zufrieden machen",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1995.23,
+   "ende": 1999.35,
+   "text": "und vor allen Dingen wirklich auch die Verantwortung dann dafür zu übernehmen",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1999.35,
+   "ende": 2006.43,
+   "text": "und für das, was man gerne möchte, auch loszugehen und nicht das Leben einfach nur über sich ergehen lassen",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2006.43,
+   "ende": 2012.45,
+   "text": "und sich zu denken, ja, es ist ja bei allen so und so ist das Leben halt und es ist halt anstrengend",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2012.45,
+   "ende": 2018.63,
+   "text": "und ich muss halt dies oder jenes machen, weil so läuft es nun mal.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2018.73,
+   "ende": 2023.21,
+   "text": "Man muss halt zur Schule gehen und man muss halt arbeiten gehen und man muss halt, ja,",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2023.97,
+   "ende": 2027.41,
+   "text": "sich den Buckel krumm machen, um irgendwie über die Runden zu kommen.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2027.57,
+   "ende": 2033.27,
+   "text": "Das sind ja so, ich will nicht sagen, gerade Thema Schule ist ja für viele ein totales Reizthema.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2033.27,
+   "ende": 2042.03,
+   "text": "Aber das ist ja auch okay, wenn jeder zur Schule geht und es ist auch okay, wenn jeder arbeiten geht.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2042.23,
+   "ende": 2046.77,
+   "text": "Aber vielleicht muss es ja trotzdem nicht immer alles so nach Schema F sein.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2047.93,
+   "ende": 2059.43,
+   "text": "Vielleicht kann man auch mal einen anderen Blickwinkel drauf werfen und gucken, wie reich man vielleicht schon ist an der einen oder anderen Stelle.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2059.43,
+   "ende": 2063.23,
+   "text": "wie zufrieden man vielleicht schon auch an der einen oder anderen Stelle sein kann",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2063.23,
+   "ende": 2066.45,
+   "text": "und wenn man es nicht ist, die Verantwortung dafür zu übernehmen",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2066.45,
+   "ende": 2070.45,
+   "text": "und sein Leben und das seiner Familie, egal ob man jetzt alleine ist,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2070.53,
+   "ende": 2074.85,
+   "text": "einen Partner hat oder auch Kinder hat, das in die Hand zu nehmen",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2074.85,
+   "ende": 2078.59,
+   "text": "und dafür loszugehen und auch wenn es mal schwierig wird,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2078.67,
+   "ende": 2080.43,
+   "text": "dann nicht gleich aufzugeben.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2081.17,
+   "ende": 2085.45,
+   "text": "Also wir haben ja auch genug Momente gehabt, in denen man dachte,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2085.91,
+   "ende": 2088.03,
+   "text": "oh Gott, oh Gott, ist das jetzt echt so?",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2088.03,
+   "ende": 2100.81,
+   "text": "Und es werden bestimmt auch noch Momente kommen, in denen man denkt, ja, keine Ahnung, warum haben wir das gemacht? Weiß ich nicht, ob die Momente kommen, aber es ist ja jetzt nicht so, wir sind jetzt ausgewandert und jetzt sind wir für das Ende unserer Tage alle für immer glücklich.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 2100.81,
+   "ende": 2121.23,
+   "text": "Aber wir haben auf jeden Fall gelernt oder was heißt gelernt, ich bin so eh vom Typ, aber auch Hagen und ich in unserer Partnerschaft gelernt und auch die Erfahrung gemacht, dass wenn schwierige Zeiten kommen und man die irgendwie übersteht und man übersteht sie.",
+   "avg_logprob": -0.03,
+   "no_speech_prob": 0.021,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2121.23,
+   "ende": 2123.81,
+   "text": "Ich glaube, wir Menschen sind wesentlich zäher, als wir denken.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2125.59,
+   "ende": 2134.73,
+   "text": "Unsere Spezies hat schon viel krassere Dinge überstanden als das Leben, was wir aktuell in den letzten 30, 40, 50 Jahren führen.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2135.47,
+   "ende": 2137.89,
+   "text": "Auch wenn wir vielleicht das Gefühl haben, es war noch nie so schwer.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2138.55,
+   "ende": 2139.83,
+   "text": "Das ist, glaube ich, totaler Bullshit.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2139.83,
+   "ende": 2148.83,
+   "text": "Ich glaube, wir wissen einfach gar nicht mehr, wie schwer das Leben sein kann und haben eher so Wohlstandsprobleme.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2148.83,
+   "ende": 2169.47,
+   "text": "Aber, ja, auf jeden Fall, die Dinge in die Hand zu nehmen und nicht gleich aufzugeben, wenn es mal schwierig wird und sich das Leben so zu gestalten. Man hat ja nur dieses eine, sich das Leben so zu gestalten, wie man zumindest denkt, dass man am zufriedensten ist.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2169.47,
+   "ende": 2187.37,
+   "text": "Und das nicht nur vom Geld abhängig zu machen oder von den eigenen Besitztümern, von den eigenen materiellen Werten, sondern wirklich zu schauen, was ist mir wichtig und mache ich das wirklich für mich?",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 2187.37,
+   "ende": 2205.71,
+   "text": "Habe ich das Auto für mich? Habe ich das Haus für mich? Habe ich die Klamotten für mich? Oder habe ich die, weil ich denke, dass man das halt braucht. In einem gewissen Punkt mit 20 muss ich das erreicht haben, mit 30 muss ich das erreicht haben, mit 40 muss ich jenes erreicht haben, mit 50 muss ich dastehen.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.97
+  },
+  {
+   "start": 2205.71,
+   "ende": 2232.11,
+   "text": "So muss ich das wirklich, weil das irgendwie der Großteil der Leute so macht, die ich kenne oder ist das vielleicht gar nicht mein Lebensweg. Ja, so viel dazu. Wir hören uns nächste Woche wieder aus unserem Paradies und mal schauen, was mich da bewegt, mit euch zu teilen und ich wünsche euch bis dahin erstmal eine schöne Zeit. Bis dann.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  }
+ ]
+}

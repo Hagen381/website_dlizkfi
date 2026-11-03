@@ -1,0 +1,730 @@
+{
+ "meta": {
+  "slug": "was-war-einmal-dein-irgendwann-eine-frage-fur-den-sommer",
+  "titel": "Was war einmal dein Irgendwann? Eine Frage für den Sommer",
+  "datum": "2026-07-06T03:44:57.000Z",
+  "dauer_sekunden": 646,
+  "guid": "2fcf2a29-3685-4c78-90a1-4dcbac72b0f6",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T06:22:46Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 4,
+   "transkription": 290
+  },
+  "echtzeitfaktor": 0.45,
+  "anzahl_segmente": 88,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 4.85,
+   "ende": 21.41,
+   "text": "Ich habe noch gar nichts erreicht von allem, was ich wollte. Und wenn das so ist, wenn jetzt wirklich jemand das hört und denkt, ich kann damit gar nichts anfangen, weil ich keine Antwort auf diese Frage habe, weil es nichts gibt, was ich mal irgendwann machen wollte und jetzt erreicht habe.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 21.41,
+   "ende": 25.87,
+   "text": "Wenn das wirklich die Antwort ist, dann ist die Frage natürlich umso wichtiger.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 31.11,
+   "ende": 35.85,
+   "text": "Hallo und herzlich willkommen zu einer neuen Folge DLIZKFI. Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 35.85,
+   "ende": 63.85,
+   "text": "Dann, wir haben das bekannte Sommerloch erreicht. Jeder, der so im Online-Business zu tun hat, hat das vielleicht auch schon gemerkt. Ich merke es jetzt bei den Aufrufzahlen der Podcast-Folge. Ich habe ja auch schon mal, ich glaube, bei Instagram eine Umfrage gemacht, weil es gibt ja auch viele Podcaster, die so eine Sommerpause machen und hatte dann mal so gefragt, ob halt die Instagram-Follower sozusagen im Sommer weniger Podcast hören als zu den anderen Jahreszeiten.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 63.85,
+   "ende": 65.69,
+   "text": "Jahreszeiten. Und",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 65.69,
+   "ende": 67.87,
+   "text": "das kam so 50-50 raus.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 67.87,
+   "ende": 69.85,
+   "text": "Also die einen sagen, bei mir hat das",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 69.85,
+   "ende": 71.73,
+   "text": "nichts mit den Jahreszeiten zu tun, bei den anderen",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 71.73,
+   "ende": 73.49,
+   "text": "schon. Nichtsdestotrotz",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 73.49,
+   "ende": 75.75,
+   "text": "ist ja jetzt auch einfach die Jahreszeit, wo man",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 75.75,
+   "ende": 77.83,
+   "text": "mehr draußen ist und im Urlaub",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 77.83,
+   "ende": 79.17,
+   "text": "ist, Ferien sind und so weiter.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 80.01,
+   "ende": 81.75,
+   "text": "Und deshalb mache ich zwar keine",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 81.75,
+   "ende": 83.81,
+   "text": "Pause, aber ich habe mir überlegt,",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 83.91,
+   "ende": 85.41,
+   "text": "dass ich jetzt in den nächsten Wochen",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 85.41,
+   "ende": 89.25,
+   "text": "eine kleine Mini-Podcast-",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 89.25,
+   "ende": 90.09,
+   "text": "Serie starten werde.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 90.61,
+   "ende": 91.75,
+   "text": "Das heißt, ich versuche, dass die",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 91.75,
+   "ende": 98.53,
+   "text": "Folgen so maximal 10 bis 15 Minuten sind. Das heißt, auch wer eben jetzt im Sommer keinen Bock hat, irgendwie super lange",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 98.53,
+   "ende": 105.27,
+   "text": "Podcasts zu hören, kann dann wenigstens vielleicht so eine kurze Folge sich anhören. Und diese ganze Serie steht unter",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 105.27,
+   "ende": 114.03,
+   "text": "einem Motto und dieses Motto heißt eine Frage für den Sommer. Das heißt, ich stelle sozusagen jede Woche, werfe ich eine",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 114.03,
+   "ende": 120.89,
+   "text": "Frage in den Raum und versuche sie natürlich anhand eigener Beispiele und so weiter auch zu beantworten. Aber in erster",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 120.89,
+   "ende": 133.25,
+   "text": "Hinterlinie geht sie natürlich an jeden einzelnen von euch, weil der Sommer ist ja schon so immer so eine Jahreszeit, wo man relativ motiviert ist, wo man gute Laune hat, wo man voller Energie ist und Power ist.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 133.25,
+   "ende": 144.11,
+   "text": "Und natürlich weiß ich auch, dass wenn das Wetter dann wieder irgendwie, es war jetzt die Hitzewelle, aber dass wenn es dann wieder irgendwie anfängt, wochenlang zu regnen, dann ist man auch ein bisschen frustriert.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 144.19,
+   "ende": 149.83,
+   "text": "Aber im Großen und Ganzen ist ja jetzt so die Jahreszeit, wo jeder eigentlich ganz zufrieden ist, glaube ich.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 150.63,
+   "ende": 155.75,
+   "text": "Und deshalb ist das vielleicht auch ein guter Zeitpunkt, sich ab und an mal eine Frage zu stellen",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 155.75,
+   "ende": 159.93,
+   "text": "und die eben nicht dann zu beantworten, wenn gerade eh alles kacke ist,",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 160.67,
+   "ende": 166.61,
+   "text": "sondern sich dann mal zu reflektieren und Sachen zu überlegen, wenn eigentlich alles gut ist.",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 167.41,
+   "ende": 171.83,
+   "text": "Und wir starten heute mit der Serie und die erste Frage ist,",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 172.53,
+   "ende": 178.73,
+   "text": "was war irgendwann mal ein Irgendwann für dich und ist heute Realität?",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 178.73,
+   "ende": 190.27,
+   "text": "Ein bisschen schwierig, ne? Also bei welchem Lebensumstand hast du mal irgendwann gesagt, irgendwann möchte ich das mal erreichen und jetzt ist es bereits so.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 190.63,
+   "ende": 208.65,
+   "text": "Denn wir tendieren ja, also was heißt wir, aber zum Beispiel Leute, die gerne To-Do-Listen schreiben, ja, dazu gehöre ich auch, wir tendieren ja dann dazu, dass die Liste immer länger wird und dass man halt sich natürlich freut, wenn man einen Haken dran machen kann, aber man ist gefühlt ja mit einer To-Do-Liste nie fertig, weil immer neue To-Dos dazukommen.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 208.73,
+   "ende": 215.73,
+   "text": "Und eigentlich, das habe ich mal eine Zeit lang gemacht, wäre es viel cooler zu sagen, ich schreibe eine Already-Done-Liste.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 215.73,
+   "ende": 223.09,
+   "text": "Also was habe ich eigentlich schon getan? Ja, um einfach mal zu sehen, was hat man denn schon alles fertig und nicht, was habe ich alles noch vor mir?",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 223.17,
+   "ende": 229.55,
+   "text": "Und so ist es auch mit der Frage, was war halt irgendwann mal ein Irgendwann und ist jetzt Realität, dass man sich einfach nochmal klar macht,",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 230.33,
+   "ende": 237.03,
+   "text": "was habe ich denn, also gerade in so Momenten, wo man vielleicht jetzt irgendwas noch nicht erreicht hat oder wo man denkt,",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 237.03,
+   "ende": 266.41,
+   "text": "das wäre schön, wenn dies und jenes mal passieren würde, dass man sich dann halt nochmal überlegt, was ist denn schon alles passiert, ja, was habe ich irgendwann mal gesagt, möchte ich erreichen, zum Beispiel, das kann auch ganz von jungen Jahren, ja, dass man gesagt hat, ich möchte halt irgendwann mal ein eigenes Haus haben oder ich möchte auf jeden Fall mindestens drei Kinder haben oder ich möchte auf gar keinen Fall Kinder haben, ja, wie auch immer, ich habe auch Freundinnen, wo das halt klar ist so und dann auch einfach anzuerkennen,",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 266.41,
+   "ende": 270.27,
+   "text": "dass das auch wirklich nicht eingetreten ist und dass man sich nicht vielleicht hat überreden lassen",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 270.27,
+   "ende": 275.23,
+   "text": "von einem Partner, von der Gesellschaft und so weiter, dass man eben als Frau Kinder zu kriegen hat.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 275.57,
+   "ende": 279.71,
+   "text": "Oder eben andersrum, man wollte vielleicht drei Kinder haben und hat inzwischen drei oder sogar vier.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 281.25,
+   "ende": 286.01,
+   "text": "Aber ich bin jetzt hier als Mutter, kommen natürlich bei mir immer sofort Kinder und so,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 286.09,
+   "ende": 290.43,
+   "text": "ist vielleicht natürlich, aber geht jetzt nicht nur um Kinder, geht wie gesagt um Haus,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 290.55,
+   "ende": 295.33,
+   "text": "vielleicht einen Job, den man immer mal haben wollte, vielleicht, dass man es schafft, Abi zu machen.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 295.33,
+   "ende": 311.29,
+   "text": "Vielleicht war man irgendwann mal an so einem Punkt in der Schule, wo man sitzen geblieben ist, wo man irgendwie man selbst oder die Familie gedacht hat, mein Gott, aus dem oder der wird sowieso nichts. Was hat man dann vielleicht schon geschafft? Oder sich selbstständig zu machen oder den Job zu wechseln oder eine bestimmte Reise zu machen.",
+   "avg_logprob": -0.025,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 311.29,
+   "ende": 326.49,
+   "text": "Also bei mir ist es jetzt natürlich recht einfach, weil mein Irgendwann war, ich wandere irgendwann mal aus. Das heißt, ich kann die Frage relativ leicht beantworten. Was war mein Irgendwann und was ist jetzt meine Realität? Und das ist das Auswandern.",
+   "avg_logprob": -0.033,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 326.49,
+   "ende": 347.35,
+   "text": "Aber natürlich gibt es ja auch im Vorfeld ganz viele Meilensteine im Leben, die man schon erreicht hat, die man sich irgendwann mal vorgenommen hat. Natürlich gibt es auch bestimmt viele Dinge, die man im Leben erreicht hat, die gar nicht unbedingt so auf dem Plan waren, wo man vorher gar nicht darüber nachgedacht hat, dass man das unbedingt mal wollte.",
+   "avg_logprob": -0.025,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 347.35,
+   "ende": 351.09,
+   "text": "wenn wir jetzt wieder zum Thema Kinder zurückkommen, war für mich ganz, ganz viele Jahre so,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 351.13,
+   "ende": 352.75,
+   "text": "dass ich auf gar keinen Fall Kinder wollte.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 353.71,
+   "ende": 357.55,
+   "text": "Das hat sich dann irgendwann gedreht, aber ich hätte jetzt vermutlich mit 20 nicht gesagt,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 357.67,
+   "ende": 360.97,
+   "text": "dass ich halt, ich hätte mit 20 schon gesagt, dass ich irgendwann mal auswandern will,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 361.03,
+   "ende": 363.07,
+   "text": "aber ich hätte halt nicht, wahrscheinlich nicht gesagt,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 363.13,
+   "ende": 365.95,
+   "text": "ich möchte irgendwann mal mit zwei Kindern und meinem Partner auswandern.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 367.17,
+   "ende": 371.65,
+   "text": "Aber worauf ich hinaus will ist, fragt euch einfach mal, was habt ihr jetzt,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 371.79,
+   "ende": 376.51,
+   "text": "welcher besondere Meilenstein, wo ihr irgendwann mal im Leben gedacht habt,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 376.51,
+   "ende": 398.79,
+   "text": "Das werde ich nie schaffen oder wie soll ich das bloß erreichen oder für jemanden wie mich ist das halt so nicht vorbestimmt oder wie auch immer. Was ist davon schon eingetreten und geht dann auch nochmal wirklich rein in diesen Gedanken, hey, das ist ja passiert schon, das muss jetzt nicht letztes Jahr gerade passiert sein oder letzte Woche, das kann auch vor fünf Jahren schon passiert sein.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 398.79,
+   "ende": 422.27,
+   "text": "Aber sich einfach nochmal in der aktuellen sommerlichen Hochstimmung, ja, sich nochmal da hineinversetzen. Wann hat man das erste Mal darüber nachgedacht, dass das irgendwann mal passieren soll und wann ist das dann passiert und wie hat sich das angefühlt und wie stolz kann man jetzt halt auch im Nachhinein, egal ob es jetzt fünf Jahre zurückgeht oder eine Woche, darauf sein, dass das eben eingetreten ist.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 423.11,
+   "ende": 429.47,
+   "text": "Und vielleicht, wenn es jetzt wirklich vielleicht eine größere oder umständlichere oder schwierige Sache war,",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 430.15,
+   "ende": 433.15,
+   "text": "vielleicht auch nochmal zu überlegen, wie habe ich das denn geschafft?",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 433.55,
+   "ende": 439.21,
+   "text": "Wie ist es denn letztendlich dazu gekommen, dass aus einem irgendwann die Realität geworden ist?",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 439.21,
+   "ende": 445.03,
+   "text": "Und was kann ich mir davon vielleicht nochmal mitnehmen für eventuell eine aktuelle Situation,",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 445.41,
+   "ende": 449.03,
+   "text": "von der ich denke, es wäre schön, wenn irgendwann das und das eintrete.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 449.03,
+   "ende": 451.19,
+   "text": "sich da nochmal",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 451.19,
+   "ende": 453.47,
+   "text": "die Sachen, man sagt heutzutage",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 453.47,
+   "ende": 455.59,
+   "text": "so schön, das Takeaway mitnehmen",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 455.59,
+   "ende": 457.51,
+   "text": "das Takeaway aus der damaligen",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 457.51,
+   "ende": 459.81,
+   "text": "Lebenssituation, sich nochmal mitnehmen",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 459.81,
+   "ende": 460.79,
+   "text": "und sich überlegen",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 460.79,
+   "ende": 463.51,
+   "text": "wie bin ich dazu gekommen, was",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 463.51,
+   "ende": 465.53,
+   "text": "hatte ich für eine Stimmung, was hatte ich vielleicht auch",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 465.53,
+   "ende": 467.51,
+   "text": "für Stolpersteine, wie habe ich die",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 467.51,
+   "ende": 469.57,
+   "text": "überwunden und wie kann ich das",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 469.57,
+   "ende": 470.65,
+   "text": "jetzt für",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 470.65,
+   "ende": 473.59,
+   "text": "zukünftige Wünsche",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 473.59,
+   "ende": 475.73,
+   "text": "Träume, Ideen und so weiter",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 475.73,
+   "ende": 477.55,
+   "text": "anwenden und",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 477.55,
+   "ende": 488.55,
+   "text": "Und ich glaube, man kann so eine Fragen besser beantworten oder auch solche Pläne schmieden in einem Zustand, wo es einem vielleicht gut geht.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 488.55,
+   "ende": 497.55,
+   "text": "Vielleicht kommt man da noch nicht so in die Umsetzung. Ich bin auf der anderen Seite überzeugt, dass man oft erst wirklich in die Umsetzung kommt, wenn die Not sehr groß ist.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 497.87,
+   "ende": 502.15,
+   "text": "Wenn einfach so ein Punkt erreicht ist, wo man denkt, so geht es jetzt einfach nicht.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 502.15,
+   "ende": 520.47,
+   "text": "Aber es wäre ja gut, wenn man zu diesem Zeitpunkt dann vielleicht schon einen Plan in der Tasche hat, wenn man sich schon mal jetzt in einer positiven Jahreszeit, in einer positiven Grundstimmung sich überlegt, damals habe ich das auch geschafft, diese eine Sache oder diese drei Sachen oder was auch immer.",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 520.47,
+   "ende": 538.53,
+   "text": "Das heißt, die nächste Sache, die da jetzt bei mir vielleicht auf dem Programm steht, die schaffe ich auch und ich überlege mir jetzt schon mal, wie das war, versetze mich schon mal in diese Stimmung und auch wenn ich jetzt noch nicht in die Umsetzung gehe, weil ich jetzt eben gerade den Sommer genießen will, dann kann ich mir das aber einfach abspeichern.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 538.53,
+   "ende": 566.59,
+   "text": "Vielleicht, ich bin auch immer noch ein Freund von mit der Hand solche Sachen aufschreiben, aber man kann es sich natürlich auch überall woanders hinschreiben oder man spricht sich selber irgendwie was auf dazu oder so, sodass man das dann in Zeiten, wo es vielleicht nicht so rund läuft oder wo man vielleicht wieder zweifelt, dass aus dem Irgendwann einfach nie ein Jetzt wird, dann kann man sich das halt wieder abrufen und dann sozusagen ins Handeln kommen.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 566.59,
+   "ende": 586.63,
+   "text": "Genau, also das war meine erste Sommerfrage für den Montag. Ich bin gespannt, ob der ein oder andere da vielleicht gleich so eine Idee hat. Wie gesagt, bei mir war das jetzt sehr einfach, als ich darüber nachgedacht habe, wenn mir jetzt einer die Frage gestellt hätte.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 587.33,
+   "ende": 596.53,
+   "text": "Vielleicht muss man an der einen oder anderen Stelle auch ein bisschen mehr überlegen, aber ich bin mir hundertprozentig sicher, es kann darauf keiner sagen, ich habe noch gar nichts erreicht von allem, was ich wollte.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 596.61,
+   "ende": 610.65,
+   "text": "Und wenn das so ist, wenn jetzt wirklich jemand das hört und denkt, ich kann damit gar nichts anfangen, weil ich keine Antwort auf diese Frage habe, weil es nichts gibt, was ich mal irgendwann machen wollte und jetzt erreicht habe.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 610.65,
+   "ende": 619.27,
+   "text": "Wenn das wirklich die Antwort ist, dann ist die Frage natürlich umso wichtiger und es ist umso wichtiger, darüber nachzudenken, warum es so ist.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 619.49,
+   "ende": 624.45,
+   "text": "Warum ist man denn an diesem Punkt, dass man noch nichts erreicht hat von dem, was man eigentlich wollte?",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 625.07,
+   "ende": 632.83,
+   "text": "Und dann ist es allerhöchste Zeit, das umzusetzen oder zumindest zu versuchen, denn das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 633.57,
+   "ende": 637.45,
+   "text": "Damit sage ich Tschüss und wir hören uns nächste Woche und genießt den Sommer.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  }
+ ]
+}

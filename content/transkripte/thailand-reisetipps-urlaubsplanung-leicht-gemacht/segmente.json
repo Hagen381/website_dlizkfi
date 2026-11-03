@@ -1,0 +1,4218 @@
+{
+ "meta": {
+  "slug": "thailand-reisetipps-urlaubsplanung-leicht-gemacht",
+  "titel": "Thailand Reisetipps - Urlaubsplanung leicht gemacht",
+  "datum": "2025-11-03T06:23:52.000Z",
+  "dauer_sekunden": 3564,
+  "guid": "f86dc16e-0820-4bae-abcf-7645685158c4",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T08:24:57Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 6,
+   "transkription": 3243
+  },
+  "echtzeitfaktor": 0.91,
+  "anzahl_segmente": 524,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.27,
+   "ende": 23.56,
+   "text": "Also wir haben auch schon mal einen Langstreckenflug mit der Condor nach Havanna gehabt, also das war wirklich der absolute Witz, dass man da nicht noch seinen eigenen Sitz mitbringen musste, war wirklich ein Wunder.",
+   "avg_logprob": -0.2,
+   "no_speech_prob": 0.084,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 23.56,
+   "ende": 39.23,
+   "text": "Hallo, herzlich willkommen bei DLIZKFI. Das Leben ist zu kurz für irgendwann. Heute mal aus einem sonnigen und warmen Koh Samui.",
+   "avg_logprob": -0.2,
+   "no_speech_prob": 0.084,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 39.23,
+   "ende": 41.79,
+   "text": "Ich blicke hier wieder auf türkisblaues Meer.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 42.31,
+   "ende": 45.33,
+   "text": "Überhaupt sehe ich das Meer erst mal wieder aus meinem Fenster,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 45.63,
+   "ende": 50.49,
+   "text": "denn die letzten Wochen hat es gefühlt jeden Tag geregnet.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 50.59,
+   "ende": 55.49,
+   "text": "Vielleicht war mal ein Tag dazwischen, wo es nicht geregnet hat und war bewölkt.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 55.49,
+   "ende": 61.17,
+   "text": "Also ich würde mal sagen, ähnlich wie in Deutschland, nur halt in warm und mit Palmen.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 61.17,
+   "ende": 81.15,
+   "text": "Und ja, ich habe heute mal, weil uns auch seitdem wir hier sind natürlich überhaupt generell in der Vergangenheit dadurch, dass wir einfach schon so viele Jahre größere Reisen machen, sind wir auch immer wieder Ansprechpartner im Bekanntenkreis, wenn es um Reiseplanung geht.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 81.15,
+   "ende": 92.75,
+   "text": "Und jetzt, wo wir hier sind, natürlich umso mehr, dass Leute uns halt fragen, Mensch, wir wollen halt auch mal nach Thailand oder nach Koh Samui und wo buchst du denn die Flüge oder wann ist denn die beste Reisezeit und so weiter.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 93.75,
+   "ende": 100.59,
+   "text": "Und da habe ich gedacht, weil ja jetzt auch für den einen oder anderen die Urlaubsplanung schon losgeht für nächstes Jahr,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 101.37,
+   "ende": 112.25,
+   "text": "dass wir mal so eine kleine Folge zum Thema Urlaub in Thailand, Anreise, Klima, beste Reisezeit, Unterkünfte und so weiter machen.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 112.91,
+   "ende": 121.41,
+   "text": "Und da starte ich direkt mal mit dem Thema, wann ist es eigentlich am besten, wann ist das Wetter am besten,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 121.41,
+   "ende": 151.31,
+   "text": "Und wann ist zum Beispiel Regenzeit und so weiter. Denn Koh Samui ist ja so ein kleines Trio mit Koh Phangan und Koh Tao. Und hier unten in der Region ist tatsächlich die Regenzeit im Oktober und November, wohingegen viele andere Fernreiseziele und auch ein Großteil von Thailand eher so ab Oktober die Saison losgeht.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 151.31,
+   "ende": 167.07,
+   "text": "Und viele dann, wenn in Deutschland der Herbst anfängt, sich viele denken, gerade wenn man nicht an die Ferien gebunden ist, ich fliege dann vielleicht im Oktober und November mal schön ins Warme. Und das kann man halt auch in den weitesten Teilen von Thailand machen.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 167.07,
+   "ende": 190.43,
+   "text": "Allerdings Koh Samui, Koh Phangan, Koh Tao und natürlich auch hier unten die Festlandregion, wobei die jetzt touristisch nicht so super interessant ist, was heißt interessant schon, aber einfach haben noch nicht so viele als Urlaubsziel auserkoren, ist tatsächlich Oktober und November nicht der beste Plan, weil hier eben Regenzeit herrscht.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 190.43,
+   "ende": 211.59,
+   "text": "Und es gibt natürlich auch Regenzeiten oder Wochen in den Regenzeiten, wo es nicht jeden Tag regnet oder wo man die Erfahrung gemacht hat, ja, es regnet dann irgendwie mal zwei Stunden und dann ist auch wieder gut oder es regnet dann vielleicht nur abends oder nachts.",
+   "avg_logprob": -0.046,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 211.59,
+   "ende": 238.35,
+   "text": "Auch wir haben auf unseren Reisen teilweise in der Regenzeit in anderen Ländern die Erfahrung gemacht, aber es gibt eben auch mal den Fall, so wie es jetzt aktuell hier ist, dass es einfach mal ein oder zwei Wochen durchregnet und hier ist der Regen natürlich auch nicht so, wie wir ihn aus Europa kennen, dass man halt einen Regenschirm nimmt und wenn man sich, sage ich mal, wetterfest anzieht, dann trotzdem irgendwie draußen was machen kann, sondern wenn es hier regnet, dann regnet es halt richtig.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 238.35,
+   "ende": 250.27,
+   "text": "Und es ist ja trotzdem irgendwie warm, schrägstrich schwül, das heißt, irgendwelche Regensachen anziehen und Gummistille, da würde man dann auf jeden Fall auch einen Knall kriegen.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 251.09,
+   "ende": 259.67,
+   "text": "Und ja, der Regen ist wirklich auch so stark, dass man jetzt, dass auch alles schnell überflutet wird und alles matschig wird und sehr, sehr große Pfützen sind.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 259.85,
+   "ende": 268.17,
+   "text": "So, und wenn man jetzt irgendwie zwei oder drei Wochen Urlaub hat und es regnet davon dann zwei Wochen durchgängig, dann ist das natürlich sehr schade.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 268.35,
+   "ende": 288.27,
+   "text": "Das kann einem natürlich auch in anderen Jahreszeiten passieren. Ich war ja im Februar hier mit den Kindern und auch zwei Mädels, die vom Polsport in Rostock kannte, waren zur gleichen Zeit hier und hatten auch tatsächlich Pech, denn es hat auch im Februar mal eine Woche komplett durchgeregnet, obwohl das völlig untypisch für Februar ist.",
+   "avg_logprob": -0.016,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 288.27,
+   "ende": 305.47,
+   "text": "So, man hat das genauso wie auch in Europa und im Rest der Welt. Jede Jahreszeit hat zwar ihre typischen, sage ich jetzt mal, Klimaformen, aber es ist trotzdem nicht immer 100 Prozent genauso, wie es vielleicht irgendwo im Buch steht.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.35
+  },
+  {
+   "start": 305.47,
+   "ende": 312.13,
+   "text": "so dass man auch im Februar Pech haben kann und man kann auch in der Regenzeit Glück haben",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 312.13,
+   "ende": 319.75,
+   "text": "grundsätzlich wäre meine Empfehlung aber nicht im Oktober und November zumindest in die Region Koh Samui zu reisen",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 319.75,
+   "ende": 326.11,
+   "text": "ab Dezember wiederum geht dann hier die Hochsaison los, die geht auf alle Fälle bis Ende Februar",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 326.11,
+   "ende": 331.05,
+   "text": "zum Teil auch bis Anfang März, das ist wirklich auch eine sehr schöne Reisezeit",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 331.05,
+   "ende": 343.51,
+   "text": "weil das auch in Anführungszeichen die kältesten Monate sind und mit kalt meine ich jetzt nicht 10 oder 15 Grad, sondern einfach ein bisschen kühler, dass einen die Hitze nicht so komplett erschlägt.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 344.81,
+   "ende": 358.29,
+   "text": "Auch bevor wir das Jahr hier gelebt haben, war ich zu unterschiedlichen Monaten schon in Thailand und muss sagen, dass tatsächlich von Dezember bis Februar die Zeit die ist, wo die Temperaturen am angenehmsten sind.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 358.29,
+   "ende": 381.85,
+   "text": "Es ist trotzdem immer warm und auch gerade, wenn man dann aus dem deutschen Winter kommt, sehr warm. Aber es gibt ja auch Jahreszeiten, wo man die Hitze kaum ertragen kann. Die schließt sich dann direkt an. Das ist März, April. Im März wird es dann tendenziell wärmer und April ist dann der Hochpunkt sozusagen.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 382.41,
+   "ende": 386.65,
+   "text": "Auch in ganz Thailand, das bezieht sich jetzt hier nicht nur auf Koh Samui und die Ecke.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 386.81,
+   "ende": 388.39,
+   "text": "Der April ist der heißeste Monat.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 389.93,
+   "ende": 393.77,
+   "text": "Und ich war auch, als ich das allererste Mal in Thailand war, im April in Thailand",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 393.77,
+   "ende": 399.97,
+   "text": "und habe dann auch oberhalb von Bangkok mir die Tempelstadt Ayutthaya angeschaut.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 399.97,
+   "ende": 402.87,
+   "text": "Und das haben wir dann tatsächlich, ich war damals mit einer Freundin,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 402.95,
+   "ende": 407.43,
+   "text": "irgendwie nach einer halben Stunde abgebrochen, weil wir es einfach nicht aushalten konnten.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 407.43,
+   "ende": 424.89,
+   "text": "Also es war so heiß, dass man konstant, auch wenn man einfach nur irgendwo saß, in einer Bar oder im Restaurant, einem konstant der Schweiß runtergelaufen ist. Man ist in die Dusche gegangen, hätte sich eigentlich gar nicht abtrocknen brauchen, weil in dem Moment, wo man abgetrocknet war und sich wieder angezogen hat, war man schon wieder klitschnass geschwitzt.",
+   "avg_logprob": -0.021,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 424.89,
+   "ende": 442.25,
+   "text": "Also April muss man mögen, was so die Temperaturen angeht. Auf der anderen Seite ist im April natürlich der Vorteil, dadurch, dass es überall so heiß ist, reist kaum jemand. Also es ist einfach keine Saison und das heißt, es ist tendenziell leerer.",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 442.25,
+   "ende": 463.89,
+   "text": "Und im April gibt es das thailändische Neujahrsfest. Das ist das Songkran-Fest. Das ist in der Regel Mitte April. Und vielleicht habt ihr das auch schon mal, könnt ihr auch bei YouTube mal googeln. Vielleicht habt ihr auch schon mal Videos oder so gesehen. Da gibt es dann so Wasserschlachten. Das heißt, alle sind mit Wasserpistolen ausgestattet, mit großen Tonnen oder großen Planschbecken an den Straßen.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 463.89,
+   "ende": 483.01,
+   "text": "Am Straßenrand wird das alles mit Wasser befüllt. Die Leute fahren ja hier sehr viele Pickups. Auf den Pickups sind dann Tonnen oder Planschbecken mit Wasser befüllt, sodass man halt die Wasserpistolen immer wieder nachladen kann. Teilweise werden aber auch komplette Eimer über einem ausgeschüttet oder auch ins Auto geschüttet.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 483.01,
+   "ende": 485.21,
+   "text": "die Rollerfahrer sind Kletschers, also da wird",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 485.21,
+   "ende": 486.81,
+   "text": "wirklich niemand verschont, auch",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 486.81,
+   "ende": 488.93,
+   "text": "keine Polizei, alle,",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 489.31,
+   "ende": 491.25,
+   "text": "die auf der Straße sind, werden",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 491.25,
+   "ende": 493.55,
+   "text": "nass gespritzt, überall ist Musik",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 493.55,
+   "ende": 494.69,
+   "text": "und alle sind",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 494.69,
+   "ende": 497.21,
+   "text": "fröhlich, das wir persönlich finden,",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 497.29,
+   "ende": 498.39,
+   "text": "das ist wirklich das schönste",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 498.39,
+   "ende": 501.25,
+   "text": "Fest in Thailand oder überhaupt das schönste",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 501.25,
+   "ende": 503.09,
+   "text": "Fest, was wir so kennen, auch",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 503.09,
+   "ende": 505.21,
+   "text": "im Zusammenhang mit",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 505.21,
+   "ende": 506.69,
+   "text": "den deutschen Festen, die man so kennt.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 508.73,
+   "ende": 509.27,
+   "text": "Genau, das",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 509.27,
+   "ende": 511.27,
+   "text": "heißt da, wenn man halt",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 511.27,
+   "ende": 517.31,
+   "text": "Und wenn man sagt, für mich ist die Hitze jetzt nicht so schlimm, dann kann man das auf jeden Fall im April mal mitnehmen.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 518.23,
+   "ende": 524.17,
+   "text": "Mai und Juni ist dann, was hier unten die Region angeht, dann ein bisschen ruhiger wieder.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 524.75,
+   "ende": 532.95,
+   "text": "Und dann geht halt Ende Juli, Quatsch, Ende Juni bis Ende August, Anfang September natürlich insofern die Saison hier wieder los,",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 532.95,
+   "ende": 537.23,
+   "text": "weil dann eben in vielen Ländern der Welt Sommerferien sind.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 537.23,
+   "ende": 545.81,
+   "text": "Nicht nur in Deutschland, sondern auch in anderen Ländern ist ja oft im Sommer eine längere Schulpause und genau, das merkt man dann hier natürlich auch wieder.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 546.93,
+   "ende": 559.01,
+   "text": "Und wir haben jetzt festgestellt, wir sind ja Mitte September gekommen, dass wir eigentlich finden, dass September noch eine ganz schöne Reisezeit ist, wenn man nicht an die Schulferien gebunden ist, weil eben die Regenzeit noch nicht begonnen hat.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 559.01,
+   "ende": 562.75,
+   "text": "und wir hatten im September hier eigentlich jeden Tag richtig gutes Wetter",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 562.75,
+   "ende": 565.39,
+   "text": "und trotzdem ist es aber schon ruhiger und nicht mehr so voll,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 565.97,
+   "ende": 570.15,
+   "text": "weil eben alle, die durch die Ferien gekommen sind, dann schon wieder abgereist sind.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 570.85,
+   "ende": 574.99,
+   "text": "So, das heißt, aufs Jahr gesehen gibt es eigentlich aus meiner Sicht nur zwei Monate,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 575.13,
+   "ende": 577.47,
+   "text": "wo man nicht unbedingt nach Koh Samui fliegen sollte.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 577.47,
+   "ende": 580.05,
+   "text": "Das sind eben Oktober und November.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 581.63,
+   "ende": 584.31,
+   "text": "Aber andererseits in anderen Teilen von Thailand,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 584.39,
+   "ende": 588.25,
+   "text": "wir sind zum Beispiel damals in dem Jahr dann im Oktober nach Chiang Mai gefahren,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 588.25,
+   "ende": 607.95,
+   "text": "Das ist im Norden von Thailand und da ist genau dann ab Oktober, November, Dezember, Januar ist so die, für da die beste Reisezeit. Das heißt, wenn man jetzt sagt, ich habe aber nur im Oktober oder November Zeit, dann würde ich auf jeden Fall auch den Norden von Thailand empfehlen, wenn man jetzt sagt, man braucht nicht unbedingt das Meer.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 608.95,
+   "ende": 610.93,
+   "text": "Wunderschön, Chiang Mai und die Umgebung.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 611.13,
+   "ende": 614.15,
+   "text": "Also ich sage mal, auch im Umkreis von zwei Stunden kann man in Chiang Mai,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 614.25,
+   "ende": 617.19,
+   "text": "wenn man da seine Base hat, super viel erleben.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 617.33,
+   "ende": 619.07,
+   "text": "Ist eine ganz andere Art von Thailand.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 620.17,
+   "ende": 626.05,
+   "text": "Aber auch andere touristische Regionen am Meer sind im Oktober und November bereisbar.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 626.15,
+   "ende": 628.49,
+   "text": "Ich habe auch eine Freundin, die im November schon in Thailand war.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 629.57,
+   "ende": 633.41,
+   "text": "Da würde ich einfach empfehlen, wenn ihr da eine gewisse Region habt,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 633.41,
+   "ende": 637.51,
+   "text": "wo ihr gerne hinwollt, dass ihr da nochmal gezielt nachlest, wie da das Wetter ist.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 637.95,
+   "ende": 647.35,
+   "text": "Aber wirklich Koh Samui, Koh Phangan und Koh Tao sind so die drei touristischen Ziele, die im Oktober, November nicht zu empfehlen sind.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 647.49,
+   "ende": 651.31,
+   "text": "Ansonsten die anderen zehn Monate kann man immer gut herkommen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 651.93,
+   "ende": 657.75,
+   "text": "Ich würde natürlich jedem empfehlen, nicht in den Ferien zu kommen, wenn man es nicht anders kann, weil man nun mal an die Ferien gebunden ist.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 657.87,
+   "ende": 664.67,
+   "text": "Klar hat man keine Wahl, aber ja, ansonsten kann man eigentlich rund um die Uhr herfliegen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 664.67,
+   "ende": 673.55,
+   "text": "Fliegen, kommen wir zum nächsten Punkt, wie fliege ich denn, wo buche ich die Flüge und wann buche ich die Flüge",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 673.55,
+   "ende": 684.11,
+   "text": "Also meine Erfahrung aus all den Jahren ist tatsächlich, dass die Flüge in der Regel ungefähr vier Monate vor Abflug am günstigsten sind",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 684.11,
+   "ende": 694.51,
+   "text": "Das ist nur meine persönliche Erfahrung, das liegt auch ein bisschen daran, dass ich jemand bin, der ungerne super langfristig plant",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 694.51,
+   "ende": 713.99,
+   "text": "Also mich stresst es, wenn ich mich für irgendetwas entscheiden muss, was nächstes Jahr im Sommer passiert. Ich hatte zum Glück auch immer, als ich noch im Angestelltenverhältnis war, die Möglichkeit, relativ kurzfristig Urlaub einzureichen und musste demnach auch nicht so langfristig planen.",
+   "avg_logprob": -0.031,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 713.99,
+   "ende": 727.65,
+   "text": "Das heißt, ich habe auch sehr viele Flüge in meiner Reisehistorie zum Teil drei, vier Wochen vor Abflug erst gebucht. Man muss das so natürlich nicht machen auf den letzten Drücker. Wir haben auch Freunde, die buchen super lang im Voraus.",
+   "avg_logprob": -0.045,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.32
+  },
+  {
+   "start": 727.65,
+   "ende": 754.21,
+   "text": "Also die buchen teilweise ein Dreivierteljahr, ja, bevor sie fliegen schon die nächsten Flüge und kommen auch damit super hin, haben da auch immer sehr gute Preisangebote, sodass ich da jetzt keine, ja, nicht sagen kann, wartet immer bis vier Monate vorher, aber man muss sich auf jeden Fall auch noch nicht stressen, wenn man jetzt, jetzt haben wir ja, heute ist der 1. November, wo ich die Folge aufnehme,",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 754.21,
+   "ende": 775.13,
+   "text": "So wenn man jetzt sagt, okay, ich muss für nächsten Sommer, für die Sommerferien meinen Urlaub schon einreichen, muss man sich aber noch nicht stressen und theoretisch jetzt sofort die Flüge buchen. Wir sind ja komplette Individualtouristen, das heißt, wir buchen immer alles separat und selbst, also die Flüge und Unterkünfte, Mietwagen und so weiter.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 775.13,
+   "ende": 795.61,
+   "text": "Ich war einmal mit den Kindern in einem Pauschalurlaub für eine Woche in Ägypten. Auch das habe ich sehr kurzfristig gebucht. Aber nichtsdestotrotz kann ich jetzt nur so für die individuellen Reisebuchungen sprechen. Wie das bei Pauschalreisen ist, weiß ich tatsächlich nicht.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 796.41,
+   "ende": 801.23,
+   "text": "Thailand ist aber auf jeden Fall ein Land, wo man ganz, also aus meiner Sicht alle Länder,",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 801.39,
+   "ende": 805.25,
+   "text": "aber wenn man damit noch keine Erfahrung hat und bisher immer pauschal Reisen gebucht hat",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 805.25,
+   "ende": 808.87,
+   "text": "und es gerne mal anders probieren möchte, dann ist Thailand auf jeden Fall ein Land,",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 808.87,
+   "ende": 815.47,
+   "text": "wo man das gut ausprobieren kann und wirklich alle Einzelkomponenten auch separat voneinander bucht.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 816.01,
+   "ende": 818.95,
+   "text": "Und bei uns fängt das immer mit der Flugbuchung an.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 819.57,
+   "ende": 825.15,
+   "text": "Das ist aus meiner Sicht quasi das Einzige, was wirklich im Vorfeld passieren muss, logischerweise.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 825.61,
+   "ende": 847.75,
+   "text": "Alles andere könnte man theoretisch auch vor Ort regeln. Ich bin früher immer nur mit dem Flug und wenn ich dann da war, habe ich angefangen, mir eine Unterkunft für die erste Nacht zu suchen. Das haben wir irgendwann auch mit den Kindern anders gemacht, dass wir zumindest die ersten zwei, drei Nächte im Vorfeld schon gebucht haben, aber dann im weiteren Verlauf das spontan entschieden haben.",
+   "avg_logprob": -0.007,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 847.75,
+   "ende": 859.23,
+   "text": "Wenn man jetzt natürlich weiß, okay, ich möchte jetzt irgendwie zwei Wochen an einem Ort bleiben und habe da jetzt gar nicht so den Anspruch, alle paar Tage woanders zu sein, dann kann man natürlich auch im Vorfeld schon das Hotel buchen.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 859.23,
+   "ende": 868.15,
+   "text": "Aber letztendlich, genau, kann man erstmal mit dem Flug starten. Ich buche die Flüge über Skyscanner, beziehungsweise wird man dann von Skyscanner weitergeleitet.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 868.93,
+   "ende": 878.35,
+   "text": "Ich mache seit Jahren das so, dass ich nur über Skyscanner meine Flüge recherchiere und habe damit immer sehr gute Erfahrungen gemacht.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 878.35,
+   "ende": 888.47,
+   "text": "Es gibt unzählige andere Anbieter, die so Flugpreisevergleichsmaschinen, nenne ich es jetzt mal, Apps, wo man schauen kann.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 889.25,
+   "ende": 891.83,
+   "text": "Wie gesagt, ich bin ein großer Freund von Skyscanner.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 891.83,
+   "ende": 918.59,
+   "text": "Wenn ich bei Skyscanner dann Flüge gefunden habe, schaue ich schon nochmal auf, also dann steht ja da die Airline, dann schaue ich auch öfters nochmal auf der Seite der Airline, ob der Flug dann da günstiger ist oder ob ich ihn noch woanders günstiger finde, aber in der Regel bis auf einen Fall, da komme ich später nochmal zu, ist die Buchung dann über die Weiterleitung durch die App immer am günstigsten gewesen.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 918.59,
+   "ende": 924.67,
+   "text": "Ich bin schon jemand, der eine längere Zeit dann auch die Preise vergleicht",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 924.67,
+   "ende": 928.77,
+   "text": "Also ich entscheide jetzt nicht, okay, ich fliege jetzt in vier Monaten dahin",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 928.77,
+   "ende": 932.47,
+   "text": "Und dann gucke ich jetzt einmal bei Skyscanner und dann finde ich einen Flug und dann buche ich den",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 932.47,
+   "ende": 938.61,
+   "text": "Es lohnt sich schon, da auch mal, ja, das ein bisschen hinzuziehen",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 938.61,
+   "ende": 941.41,
+   "text": "Und heute mal zu gucken und dann in fünf Tagen nochmal zu gucken",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 941.41,
+   "ende": 944.33,
+   "text": "Und dann einfach so ein bisschen die Preise zu vergleichen",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 944.33,
+   "ende": 946.71,
+   "text": "Auch selber zu sehen, okay, wie entwickeln die sich",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 947.47,
+   "ende": 955.83,
+   "text": "Man muss aber auch sagen, dass der Algorithmus sich merkt, dass man jetzt mehrmals zum Beispiel die Flugverbindung Frankfurt-Bangkok schon eingegeben hat.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 955.97,
+   "ende": 967.85,
+   "text": "Das heißt, die verstehen, okay, du willst offensichtlich von Frankfurt nach Bangkok fliegen und dann kann es auch passieren, dass wenn man zu oft schaut, dass es dann mit der Zeit immer teurer wird.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 967.85,
+   "ende": 997.17,
+   "text": "Da lohnt es sich tatsächlich auch nochmal mit einem anderen Gerät das zu probieren. Vielleicht jetzt auch nicht unbedingt ein Gerät, was im gleichen Haushalt ist, sondern vielleicht, wenn man bei einer Freundin ist oder bei der Familie und da mal mit dem Handy oder mit dem Computer reingeht und nach dem Flug guckt. Das hört sich jetzt vielleicht erstmal ein bisschen weird an, wenn man die Erfahrung noch nicht gemacht hat, aber wir haben das jetzt schon sehr oft beobachtet, dass tatsächlich die Flüge teurer werden, wenn man immer wieder von dem gleichen Gerät reinguckt.",
+   "avg_logprob": -0.031,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 997.85,
+   "ende": 1013.39,
+   "text": "Und ja, dann ist auch die Frage, wie fliegt man? Natürlich sind grundsätzlich die Flüge direkt, also die Flüge von größeren Flughäfen wie zum Beispiel Frankfurt zu einem größeren Flughafen wie zum Beispiel Bangkok.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1013.39,
+   "ende": 1015.99,
+   "text": "diese Strecke ist in der Regel",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1015.99,
+   "ende": 1017.87,
+   "text": "günstiger als wenn man zum Beispiel schaut",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1017.87,
+   "ende": 1018.89,
+   "text": "Frankfurt-Kosamui",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1018.89,
+   "ende": 1021.45,
+   "text": "was auch",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1021.45,
+   "ende": 1024.15,
+   "text": "was man auch mal je nachdem wo man",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1024.15,
+   "ende": 1025.91,
+   "text": "wohnt in Deutschland schauen kann",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1025.91,
+   "ende": 1027.91,
+   "text": "wir haben ja in Rostock gewohnt",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1027.91,
+   "ende": 1029.85,
+   "text": "das heißt wir sind auch schon mal von",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1029.85,
+   "ende": 1031.99,
+   "text": "Kopenhagen geflogen oder",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1031.99,
+   "ende": 1033.87,
+   "text": "meine Familie wohnt ja zum Beispiel",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1033.87,
+   "ende": 1035.87,
+   "text": "in NRW, die sind dann auch schon mal von Amsterdam",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1035.87,
+   "ende": 1038.07,
+   "text": "geflogen, also da lohnt es sich",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1038.07,
+   "ende": 1040.07,
+   "text": "auch mal wenn man an Grenzregionen",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1040.07,
+   "ende": 1041.97,
+   "text": "lebt auch einfach mal",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1041.97,
+   "ende": 1044.77,
+   "text": "da den nächstgrößeren Flughafen einzugeben.",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1045.61,
+   "ende": 1049.97,
+   "text": "Meine Erfahrung bisher ist, was die Bangkok-Flüge zumindest angeht,",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1050.99,
+   "ende": 1054.33,
+   "text": "dass Berlin und Frankfurt eigentlich die Flughäfen sind,",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1054.33,
+   "ende": 1058.91,
+   "text": "die so die besten Verbindungen und auch günstigsten Verbindungen nach Bangkok anbieten.",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1060.11,
+   "ende": 1066.13,
+   "text": "Der Direktflug nach Bangkok ist ungefähr 10 Stunden, plus minus eine Stunde.",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1066.29,
+   "ende": 1069.13,
+   "text": "Das kommt dann ja auch immer darauf an, fliege ich hin, fliege ich zurück.",
+   "avg_logprob": -0.147,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1069.13,
+   "ende": 1072.17,
+   "text": "mit Rückenwind, sage ich jetzt mal.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1072.37,
+   "ende": 1075.45,
+   "text": "Das hat natürlich hochwissenschaftliche Gründe,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1075.61,
+   "ende": 1078.53,
+   "text": "die ich jetzt hier, also das würde jetzt zu weit gehen,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1078.61,
+   "ende": 1079.59,
+   "text": "da müsste ich mich auch belesen.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1079.69,
+   "ende": 1081.41,
+   "text": "Irgendwann hat man mir das auch schon mal erklärt.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1081.53,
+   "ende": 1085.41,
+   "text": "Aber im Durchschnitt kann man so ungefähr mit 10 Stunden rechnen.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1086.07,
+   "ende": 1090.63,
+   "text": "Und das gibt es vor allem von Frankfurt natürlich auch als Direktflug.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1090.63,
+   "ende": 1093.89,
+   "text": "Und da gibt es halt dann Nachtflüge oder tagsüber oder mittags,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1094.05,
+   "ende": 1095.35,
+   "text": "also alle möglichen Varianten.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1096.27,
+   "ende": 1105.51,
+   "text": "Viele Verbindungen gehen aber auch zum Beispiel über Dubai, was ich an sich auch eine ganz gute Alternative finde, weil das ungefähr die Hälfte ist.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1105.51,
+   "ende": 1115.99,
+   "text": "Das heißt, man fliegt dann nach Dubai zwischen fünf und sechs Stunden, dann hat man da je nachdem zwei, drei Stunden Aufenthalt und dann fliegt man nochmal nach Bangkok weiter, auch nochmal fünf bis sechs Stunden.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1115.99,
+   "ende": 1119.83,
+   "text": "Einige gehen auch über Istanbul",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1119.83,
+   "ende": 1123.69,
+   "text": "Es gibt natürlich auch Flüge mit zweimal Umsteigen",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1123.69,
+   "ende": 1125.77,
+   "text": "Wobei ich ehrlich sagen muss, das würde ich nicht",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1125.77,
+   "ende": 1130.41,
+   "text": "Also von Frankfurt nach Bangkok zweimal umzusteigen, finde ich Wahnsinn",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1130.41,
+   "ende": 1133.95,
+   "text": "Ich würde mich maximal auf einmal umsteigen einlassen",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1133.95,
+   "ende": 1139.99,
+   "text": "Und je nachdem, ob man dann noch weiterfliegen möchte, kommt das eben auch noch oben drauf",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1139.99,
+   "ende": 1142.83,
+   "text": "Die Flugzeit von Bangkok nach Koh Samu ist ungefähr eine Stunde",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1143.51,
+   "ende": 1149.61,
+   "text": "Aber man hat ja dann, wenn man jetzt direkt in einem Rutsch fliegen würde, steigt man in jedem Fall in Bangkok um.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1150.17,
+   "ende": 1157.93,
+   "text": "Also das heißt, du kannst halt einen Direktflug von zum Beispiel Frankfurt nach Bangkok haben und steigst dann einmal um, um nach Koh Samui weiter zu fliegen.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1158.19,
+   "ende": 1165.09,
+   "text": "Oder steigst eben zwischendurch schon einmal in Dubai beispielsweise um und dann nochmal in Bangkok, um nach Koh Samui zu kommen.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1165.09,
+   "ende": 1175.35,
+   "text": "Es ist so, dass Koh Samui, also der Flughafen auf Koh Samui, unserer Meinung nach und auch viele andere teilen die Meinung, einer der schönsten Flughäfen der Welt ist",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1175.35,
+   "ende": 1181.65,
+   "text": "Aber sie haben eine Monopolstellung, das heißt auf Koh Samui darf nur Bangkok Airways landen",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1181.65,
+   "ende": 1195.71,
+   "text": "so dass dann diese kurze Strecke von Bangkok nach Koh Samui verhältnismäßig teuer ist im Vergleich zu anderen Flügen, ich sag mal, innerhalb Südostasiens.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1196.31,
+   "ende": 1200.19,
+   "text": "Das hat man vielleicht auch schon mal gehört, die sind ja teilweise sehr günstig.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1200.91,
+   "ende": 1205.59,
+   "text": "Und damit verglichen ist es dann doch relativ teuer, von Bangkok nach Koh Samui zu fliegen.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1205.59,
+   "ende": 1231.03,
+   "text": "Und wenn man von Deutschland gleich die Strecke eingibt, zum Beispiel Frankfurt-Kosamui, dann erschreckt man sich vielleicht dann doch auch mal über den Preis, weil das dann natürlich damit einkalkuliert ist. Das heißt, meine Empfehlung ist immer, den Flug erstmal nur bis Bangkok zu buchen und dann nochmal einen separaten Flug von Bangkok zum Beispiel nach Kosamui oder nach Surat Thani, da komme ich gleich nochmal dazu.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1231.03,
+   "ende": 1248.83,
+   "text": "Also es lohnt sich wirklich mal in der App dann bei Skyscanner, das so ein bisschen aufzusplitten und das nicht so in einem Rutsch durchzubuchen, sage ich mal. Wir sind eh der Meinung, dass wenn man einmal in Bangkok ist, dann lohnt es sich da auch mal ein, zwei, drei Nächte zu bleiben und sich Bangkok mal anzugucken.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1249.45,
+   "ende": 1257.07,
+   "text": "Selbst wenn man jetzt kein Freund von einer Großstadt ist, ist es einfach eine Weltmetropole, die man aus unserer Sicht mal gesehen haben sollte.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1257.81,
+   "ende": 1266.13,
+   "text": "Ich verstehe natürlich auch, wenn man irgendwie wirklich nur zwei Wochen Urlaub hat und sagt, ich möchte halt einfach wirklich direkt irgendwie ins Inselparadies.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1266.53,
+   "ende": 1268.97,
+   "text": "Ich habe keinen Bock auf Bangkok. Auch verständlich.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1269.13,
+   "ende": 1277.49,
+   "text": "Aber so grundsätzlich ist es halt eine schöne Kombi, dann erstmal in Bangkok anzukommen, ein, zwei Tage sich da zu akklimatisieren und dann weiter zu fliegen.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1277.49,
+   "ende": 1299.57,
+   "text": "So und wenn man halt kostengünstig weiter fliegen möchte, dann empfehlen wir nach Surat Thani zu fliegen. Das ist sozusagen der Flughafen, der hier auf dem Festland ist, gegenüber von Koh Samui. Da kann man sowohl von dem internationalen Flughafen in Bangkok fliegen, als auch Bangkok H2 Flughäfen, den Dong Muang heißt der andere.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1299.57,
+   "ende": 1315.93,
+   "text": "Da kann man auch nochmal nach Flügen schauen und da kann man halt auch mal nach Surat Thani irgendwie für 40 Euro, 30, 40 Euro fliegen, wohingegen wir zum Beispiel oft Flüge nach Koh Samui dann nur gefunden haben, die 160 Euro kosten.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 1315.93,
+   "ende": 1333.13,
+   "text": "Auch da gibt es Ausnahmen. Wir haben auch mit Leuten gesprochen, die haben gesagt, sie haben noch nie mehr als 60 Euro nach Koh Samui gezahlt. Hagen hat jetzt aber zum Beispiel im Februar, wo er alleine von Koh Samui nach Bangkok geflogen ist, 180 gezahlt, wohingegen ich mit den Kindern pro Person damals von Surat Thani dann 40 Euro gezahlt habe.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1333.13,
+   "ende": 1360.45,
+   "text": "Wenn man nach Suratani fliegt, dann gibt es da, also das ist ja, sage ich mal, hier für die Region auch gelernt und geübte Abläufe, dass eben Touristen auch in Suratani ankommen. Da gibt es dann Busse, die fahren hier nach Donzak zum Fähranleger und dann fährt man nochmal mit der Fähre ungefähr anderthalb Stunden nach Koh Samui rüber. Auch das ist natürlich eine schöne Anreise einfach, aber immer abhängig davon auch, wie viel Zeit man hat.",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1360.45,
+   "ende": 1376.03,
+   "text": "Es ist auch eine Möglichkeit von Bangkok mit dem Auto, also wer jetzt, sage ich mal, ein bisschen abenteuerlustig ist und sagt, ich möchte einfach auch noch ein bisschen was sehen, kann man auch super gut von Bangkok mit dem Auto nach Koh Samui fahren, beziehungsweise eben nach Donzak und dann mit dem Auto auf die Fähre.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1376.57,
+   "ende": 1382.85,
+   "text": "Wenn man direkt durchfährt, kann man ungefähr zehn Stunden einplanen mit eben auch mal einer Pause und was essen.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1383.45,
+   "ende": 1388.55,
+   "text": "Man kann sich die Strecke aber auch natürlich splitten und unterwegs nochmal ein, zwei Nächte irgendwo bleiben.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1389.55,
+   "ende": 1397.79,
+   "text": "Und es gibt auch Busverbindungen, die allerdings dann doch sehr lange unterwegs sind, zum Teil 12 bis 14 Stunden.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1398.31,
+   "ende": 1403.19,
+   "text": "Also ich bin auch mal bei meiner ersten Thailand-Reise, habe ich auch mal so eine Busnummer gemacht,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1403.19,
+   "ende": 1410.85,
+   "text": "wo man dann, nachdem wir in Bangkok gelandet sind, irgendwie nochmal 10 oder 12 Stunden mit dem Bus nach Tratt gefahren sind.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1411.19,
+   "ende": 1418.09,
+   "text": "Und ja, da war ich auch noch ein paar Jahre jünger, also ich hätte da jetzt keinen Bock mehr drauf, aber grundsätzlich ist das auch möglich.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1418.55,
+   "ende": 1423.77,
+   "text": "Dann gibt es auch die Möglichkeit, mit dem Zug von Bangkok nach Surat Thani zu fahren und alles auch vice versa.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1423.77,
+   "ende": 1426.95,
+   "text": "Also ich rede jetzt natürlich immer aus der Perspektive, ihr kommt aus Deutschland.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1427.45,
+   "ende": 1430.97,
+   "text": "Das Ganze geht dann natürlich auch rückwirkend wieder zurück.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1431.77,
+   "ende": 1438.23,
+   "text": "Wir haben das mit dem Zug noch nicht gemacht, kennen aber Leute, die es gemacht haben und davon sehr begeistert waren.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1439.05,
+   "ende": 1444.55,
+   "text": "Kann man auch online buchen, die Zugverbindung auch mit Nachtzug und Schlaf, also mit Betten, mit Schlafabteil.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1444.55,
+   "ende": 1446.75,
+   "text": "ist sicherlich auch eine",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1446.75,
+   "ende": 1449.07,
+   "text": "also würde ich sehr gerne auch selber nochmal ausprobieren",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1449.07,
+   "ende": 1450.23,
+   "text": "und",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1450.23,
+   "ende": 1452.81,
+   "text": "dann gibt es angeblich auch seit einer",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1452.81,
+   "ende": 1454.99,
+   "text": "Weile jetzt eine Fähre von Bangkok",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1454.99,
+   "ende": 1456.29,
+   "text": "nach Koh Samui",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1456.29,
+   "ende": 1458.97,
+   "text": "Seahorse nennt sich diese Fähre",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1458.97,
+   "ende": 1460.81,
+   "text": "ich habe bis jetzt aber noch",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1460.81,
+   "ende": 1462.67,
+   "text": "niemanden gefunden, der mit dieser Fähre schon",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1462.67,
+   "ende": 1464.89,
+   "text": "gefahren ist und ich habe auch noch keine Möglichkeit",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1464.89,
+   "ende": 1466.83,
+   "text": "gefunden, dafür Tickets",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1466.83,
+   "ende": 1468.41,
+   "text": "zu buchen, deswegen ist das",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1468.41,
+   "ende": 1470.79,
+   "text": "ja jetzt so eine Auskunft, die",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1470.79,
+   "ende": 1472.47,
+   "text": "rein auf Hörensagen basiert",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1472.47,
+   "ende": 1479.83,
+   "text": "und etwas, was ich ja im Moment noch nicht empfehlen kann, weil ich es noch nicht gemacht habe und weil ich auch niemanden kenne, der das gemacht hat.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1479.93,
+   "ende": 1486.01,
+   "text": "Aber wer jetzt Lust hat, in die Recherche zu gehen, kann das auch einfach mal machen.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1487.79,
+   "ende": 1493.17,
+   "text": "Dann auch die Frage, okay, wie splittet man denn den Flug?",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1493.91,
+   "ende": 1498.73,
+   "text": "Ich sage mal, wenn man alleine reist, ja, finde ich persönlich ist das fast egal.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1498.73,
+   "ende": 1515.51,
+   "text": "Wenn man mit Kindern reist, würde ich es immer so ein bisschen abhängig von der eigenen Reiseerfahrung machen und auch davon abhängig machen, wie alt die Kinder sind. Wir haben im Laufe der Zeit mit den Kindern verschiedene Varianten ausprobiert und das wechselt auch immer wieder.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1515.51,
+   "ende": 1527.73,
+   "text": "Aber als wir mit Heinrich die erste Fernreise damals gemacht haben auf die Seychellen, war mir auf jeden Fall wichtig, dass es einen Zwischenstopp gibt, weil ich einfach nicht wusste, wie reagiert er auf den Flug.",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1527.73,
+   "ende": 1540.55,
+   "text": "Und wenn ich dann weiß, ich sitze jetzt zehn Stunden am Stück im Flugzeug und komme dann nicht mehr raus und er reagiert da total allergisch drauf, dann war mir das einfach lieber, man hat irgendwie so einen Zwischenstopp, man weiß, man steigt nochmal aus, man kann sich bewegen und so weiter.",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1540.55,
+   "ende": 1563.03,
+   "text": "Hätten wir damals nicht gebraucht. Ich muss ganz ehrlich sagen, je jünger die Kinder, also sprich, solange sie im Baby, Säuglingsbabyalter sind, ist es super entspannt. Ich habe immer nur gestillt und nie die Flasche gegeben. Deswegen kann ich nur aus der Perspektive berichten. Aber wenn man stillt, dann kann das Kind im Grunde genommen den kompletten Flug eigentlich an der Brust liegen.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1563.67,
+   "ende": 1569.65,
+   "text": "Es ist beruhigt dadurch, das Kind ist dadurch beruhigt und es hat auch weniger Probleme mit dem Druckausgleich,",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1569.75,
+   "ende": 1573.67,
+   "text": "weil es eben durch das Saugen permanent den Kiefer bewegt und schluckt.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1574.57,
+   "ende": 1581.69,
+   "text": "Generell muss man aber sagen, dass vor allem auch kleine Babys und so, wenn man keine Probleme generell mit den Ohren hat",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1581.69,
+   "ende": 1587.05,
+   "text": "oder man weiß, okay, mein Kind neigt irgendwie zu Mittelohrentzündungen oder mein Kind ist ständig krank und so weiter.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1587.49,
+   "ende": 1592.97,
+   "text": "Wenn das nicht ist, muss man sagen, dass Kinder eigentlich relativ wenig Probleme mit dem Druckausgleich haben.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1593.03,
+   "ende": 1612.57,
+   "text": "So, man muss sich da nicht so viele Sorgen machen. Generell ist es so, dass das Allerwichtigste ist, dass man selber halt ruhig und entspannt ist, wenn man selber denkt, oh Gott, das Fliegen und so weit und so lange im Flugzeug, oh, wie soll das bloß werden und was ist, wenn das Kind schreit und wenn man sich da schon die ganze Zeit so fertig macht, das überträgt sich halt auch aufs Kind.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1612.57,
+   "ende": 1633.67,
+   "text": "Und ich würde sagen, es kann euch total scheißegal sein, was irgendjemand im Flugzeug darüber denkt, ob ihr jetzt mit Kleinkind fliegt oder nicht mit Kleinkind fliegt und ob das weint oder nicht weint und ob ihr die ganze Zeit da rumrennt und das Baby durch die Gegend tragt oder ob ihr die ganze Zeit stillt oder ob das Kleinkind die ganze Zeit Fernseher guckt.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1633.67,
+   "ende": 1637.15,
+   "text": "Das kann, also lasst euch davon nicht verunsichern.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1637.25,
+   "ende": 1642.15,
+   "text": "Das ist ein öffentliches Verkehrsmittel wie ein Bus, wie eine Bahn, wie was weiß ich.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1642.73,
+   "ende": 1646.79,
+   "text": "Ja, ihr denkt ja beim Straßenbahnfahren oder beim Zugfahren auch nicht darüber nach,",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1646.87,
+   "ende": 1650.83,
+   "text": "ob sich irgendwelche Gäste davon gestört fühlen könnten, wenn euer Baby im Kinderwagen weint",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1650.83,
+   "ende": 1654.41,
+   "text": "oder wenn es halt auf einer Zugfahrt von sechs Stunden schreit.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1655.03,
+   "ende": 1656.95,
+   "text": "So, und natürlich ist das nervig für die anderen.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1657.09,
+   "ende": 1659.45,
+   "text": "Ich finde es auch nervig, wenn ich andere Kinder schreien höre.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1659.45,
+   "ende": 1660.07,
+   "text": "so, also",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1660.07,
+   "ende": 1662.85,
+   "text": "dabei ist die Maus keinen Faden ab, aber",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1662.85,
+   "ende": 1665.17,
+   "text": "das ist halt nun mal so und",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1665.17,
+   "ende": 1667.17,
+   "text": "da ist ein Flugzeug nichts anderes, das ist ein",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1667.17,
+   "ende": 1669.21,
+   "text": "öffentliches Versuch, wo ihr genau so das",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1669.21,
+   "ende": 1671.21,
+   "text": "Recht habt, mit euren Kindern zu sein und es gibt",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1671.21,
+   "ende": 1673.41,
+   "text": "natürlich auch Menschen, die wünschen",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1673.41,
+   "ende": 1675.47,
+   "text": "sich von Airlines Adults Only",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1675.47,
+   "ende": 1677.47,
+   "text": "Flüge, es gibt ja auch Adults Only",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1677.47,
+   "ende": 1679.27,
+   "text": "Hotels und ist",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1679.27,
+   "ende": 1681.17,
+   "text": "okay, also wenn sowas angeboten wird",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1681.17,
+   "ende": 1683.29,
+   "text": "und man möchte das Geld dafür",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1683.29,
+   "ende": 1685.11,
+   "text": "ausgeben, verstehe ich total,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1685.35,
+   "ende": 1687.27,
+   "text": "also ist ja schön, wenn man nicht",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1687.27,
+   "ende": 1688.25,
+   "text": "mit Kindergeschrei",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1688.25,
+   "ende": 1690.89,
+   "text": "sich fortbewegen muss, aber",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1690.89,
+   "ende": 1693.03,
+   "text": "ja, wenn ihr auf einem ganz normalen Flug",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1693.03,
+   "ende": 1694.99,
+   "text": "seid, macht euch darüber keine Gedanken,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1695.43,
+   "ende": 1696.77,
+   "text": "aber ich kann auch sagen,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1697.03,
+   "ende": 1699.01,
+   "text": "in all den Jahren, in denen wir mit unseren Kindern",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1699.01,
+   "ende": 1701.25,
+   "text": "geflogen sind, haben wir nicht einen einzigen",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1701.25,
+   "ende": 1702.97,
+   "text": "Flug gehabt, wo eins unserer Kinder",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1702.97,
+   "ende": 1705.13,
+   "text": "die ganze Zeit geschrien hat oder geweint",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1705.13,
+   "ende": 1707.25,
+   "text": "hat oder Theater gemacht hat oder sonst irgendwas",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1707.25,
+   "ende": 1708.91,
+   "text": "und unsere Kinder sind",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1708.91,
+   "ende": 1711.11,
+   "text": "beide komplett unterschiedlich von ihrem",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1711.11,
+   "ende": 1711.81,
+   "text": "Charakter",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1711.81,
+   "ende": 1715.39,
+   "text": "und ja, es gab auch mal Situationen,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1715.39,
+   "ende": 1717.25,
+   "text": "wo der Druckausgleich vielleicht nicht geklappt hat",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1717.25,
+   "ende": 1718.95,
+   "text": "und wo sie dann auch kurz geweint haben.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1719.11,
+   "ende": 1721.89,
+   "text": "Aber man muss nicht diese Horrorvorstellungen haben,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1722.01,
+   "ende": 1724.01,
+   "text": "dass so ein Kind sechs Stunden im Flugzeug schreit.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1725.23,
+   "ende": 1728.87,
+   "text": "Ich würde deshalb, aber wenn man da unsicher ist,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1728.95,
+   "ende": 1731.21,
+   "text": "vielleicht empfehlen, wenn man das erste Mal fliegt",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1731.21,
+   "ende": 1732.21,
+   "text": "und noch keine Erfahrung hat,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1732.29,
+   "ende": 1735.27,
+   "text": "vielleicht wirklich einen Zwischenstopp in Dubai zum Beispiel einzuplanen,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1735.35,
+   "ende": 1737.89,
+   "text": "wo man weiß, okay, ich kann da nochmal aussteigen,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1737.99,
+   "ende": 1739.33,
+   "text": "wir können da alle nochmal rumlaufen.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1739.43,
+   "ende": 1741.55,
+   "text": "Da gibt es auf den großen internationalen Flughäfen",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1741.55,
+   "ende": 1743.09,
+   "text": "auch oft Spielplätze.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1743.79,
+   "ende": 1746.67,
+   "text": "Aber selbst wenn es keine gibt und die einfach mal rennen können,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1746.67,
+   "ende": 1747.57,
+   "text": "hilft das schon.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1748.83,
+   "ende": 1750.25,
+   "text": "Wenn man dann",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1750.25,
+   "ende": 1752.71,
+   "text": "ältere Kinder hat, die aber",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1752.71,
+   "ende": 1754.79,
+   "text": "zum Beispiel gut schlafen können, empfehlen",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1754.79,
+   "ende": 1756.63,
+   "text": "sich natürlich auch Nachtflüge",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1756.63,
+   "ende": 1758.77,
+   "text": "und wenn man so einen Direktflug nachts",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1758.77,
+   "ende": 1760.25,
+   "text": "hat von Frankfurt nach Bangkok,",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1760.93,
+   "ende": 1762.81,
+   "text": "wird das Kind die meiste Zeit",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1762.81,
+   "ende": 1764.71,
+   "text": "davon schlafen. Das heißt, auch wenn",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1764.71,
+   "ende": 1766.27,
+   "text": "man selber nicht schläft,",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1767.37,
+   "ende": 1768.15,
+   "text": "hat man trotzdem,",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1768.55,
+   "ende": 1770.27,
+   "text": "sag ich mal, ein bisschen mehr Ruhe.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1771.41,
+   "ende": 1772.75,
+   "text": "Wir haben aber auch schon",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1772.75,
+   "ende": 1774.65,
+   "text": "manchmal ganz bewusst einen Flug gebucht, der",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1774.65,
+   "ende": 1776.41,
+   "text": "zum Beispiel mittags losgeht, sodass",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1776.41,
+   "ende": 1778.35,
+   "text": "die erste Hälfte des Flugs am Tag",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1778.35,
+   "ende": 1780.31,
+   "text": "noch stattfindet, weil man selber natürlich",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1780.31,
+   "ende": 1782.29,
+   "text": "tagsüber auch mehr Energie hat und",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1782.29,
+   "ende": 1784.25,
+   "text": "auch mehr Geduld und Elan hat, mit den Kindern",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1784.25,
+   "ende": 1786.31,
+   "text": "vielleicht zu interagieren, mit ihnen zu spielen",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1786.31,
+   "ende": 1788.29,
+   "text": "und auf die zweite",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1788.29,
+   "ende": 1789.83,
+   "text": "Hälfte des Fluges dann sozusagen",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1789.83,
+   "ende": 1792.27,
+   "text": "nachts losging, sodass",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1792.27,
+   "ende": 1794.37,
+   "text": "die Kinder dann auch einfach ausgepowert",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1794.37,
+   "ende": 1796.09,
+   "text": "waren und geschlafen haben.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1797.11,
+   "ende": 1797.67,
+   "text": "Deshalb, ich",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1797.67,
+   "ende": 1800.29,
+   "text": "persönlich kann da jetzt nicht sagen,",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1800.57,
+   "ende": 1802.43,
+   "text": "diese eine Art von Flugkombination",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1802.43,
+   "ende": 1803.69,
+   "text": "ist für Kinder die beste.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1804.37,
+   "ende": 1806.29,
+   "text": "Man muss einfach gucken, wie",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1806.29,
+   "ende": 1808.31,
+   "text": "sind die eigenen Kinder so drauf, wie bin ich",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1808.31,
+   "ende": 1809.47,
+   "text": "auch drauf, ja, wenn",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1809.47,
+   "ende": 1812.15,
+   "text": "ich habe auch, wie gesagt, zwischendurch gesagt,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1812.25,
+   "ende": 1814.33,
+   "text": "ich habe die Energie einfach tagsüber mehr,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1814.47,
+   "ende": 1816.33,
+   "text": "lass uns mal probieren, mittags loszufliegen.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1816.47,
+   "ende": 1818.15,
+   "text": "So, jetzt hatten wir gerade wieder",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1818.15,
+   "ende": 1820.15,
+   "text": "Nachtflug, hatten auch Glück,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1820.33,
+   "ende": 1821.99,
+   "text": "dass wirklich wenig",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1821.99,
+   "ende": 1824.11,
+   "text": "los war im Flugzeug und wir uns zum Teil",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1824.11,
+   "ende": 1825.03,
+   "text": "auch hinlegen konnten.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1826.75,
+   "ende": 1827.61,
+   "text": "Aber, ja,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1828.07,
+   "ende": 1829.99,
+   "text": "grundsätzlich einfach da",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1829.99,
+   "ende": 1831.79,
+   "text": "aufs eigene Gefühl hören,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1832.17,
+   "ende": 1833.85,
+   "text": "wie bietet sich das mit",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1833.85,
+   "ende": 1835.61,
+   "text": "meinem Kind und unserem Tages",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1835.61,
+   "ende": 1838.05,
+   "text": "normalerweise Tagesablauf",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1838.05,
+   "ende": 1839.69,
+   "text": "an. Was ich",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1839.69,
+   "ende": 1841.69,
+   "text": "empfehlen kann, das haben wir auch wirklich schon",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1841.69,
+   "ende": 1843.21,
+   "text": "seit Anfang an,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1843.63,
+   "ende": 1845.59,
+   "text": "ich verlinke das auch in den",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1845.59,
+   "ende": 1847.29,
+   "text": "Bonus, das ist so ein aufblasbares",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1847.29,
+   "ende": 1849.37,
+   "text": "Fußkissen, das kann man bis auf die",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1849.37,
+   "ende": 1851.45,
+   "text": "Sitzhöhe sozusagen aufblasen,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1851.55,
+   "ende": 1853.45,
+   "text": "aber man kann es auch niedriger",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1853.45,
+   "ende": 1855.61,
+   "text": "aufblasen. Das darf man allerdings nicht am Gangsitz",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1855.61,
+   "ende": 1857.67,
+   "text": "benutzen, sondern nur in der Mitte und am Fenster,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1858.33,
+   "ende": 1859.39,
+   "text": "weil der Gangplatz immer",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1859.39,
+   "ende": 1861.25,
+   "text": "den Rettungsweg freihalten muss",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1861.25,
+   "ende": 1863.95,
+   "text": "und man darf es auch erst aufpusten,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1863.95,
+   "ende": 1869.59,
+   "text": "wenn man quasi gestartet ist und die Anschnallzeichen aus sind.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1870.17,
+   "ende": 1873.83,
+   "text": "Und da verlängert man den Sitz dann sozusagen ein bisschen.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1874.03,
+   "ende": 1876.59,
+   "text": "Das heißt, kleinere Kinder, also sehr kleine Kinder,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1876.67,
+   "ende": 1879.09,
+   "text": "haben dann wirklich eine kleine Liegefläche.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1879.71,
+   "ende": 1883.59,
+   "text": "Und jetzt so das Alter wie Hermine, die kann dann eben ihre Beine lang machen,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1883.73,
+   "ende": 1886.01,
+   "text": "sitzt natürlich trotzdem mit dem Oberkörper aufrecht,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1886.13,
+   "ende": 1887.69,
+   "text": "aber kann halt die Beine ausstrecken.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1888.37,
+   "ende": 1892.41,
+   "text": "Man selbst kann es auch gut nutzen, wenn man dann so ein bisschen schlafen will.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1892.41,
+   "ende": 1909.57,
+   "text": "Ich lege mich da manchmal so halb mit dem Hintern auf dieses Kissen und habe dann quasi so eine Kuhle, wo Hermine dann vor mir liegt. Also wir haben das wirklich schon sehr vielseitig eingesetzt. Kann ich sehr empfehlen. Ist theoretisch natürlich auch im Auto benutzbar.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 1909.57,
+   "ende": 1929.59,
+   "text": "Aber genau. Ja, ansonsten hatte ich ja vorhin noch gesagt, eine Ausnahme gab es. Also von den Airlines her ist natürlich Thai Airways. Achso, genau, das wollte ich noch sagen. Man darf natürlich, wenn man noch keine Langstrecke geflogen ist, darf man das nicht vergleichen mit den Erfahrungen, die man auf Kurzstreckenflügen gemacht hat.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1929.59,
+   "ende": 1954.91,
+   "text": "Weil die Maschinen, die man auf Kurzstreckenflügen kennt, wenn man jetzt nach Mallorca oder in die Türkei oder nach Ägypten fliegt, das sind halt sehr oft kleinere Maschinen, die auch wesentlich weniger Komfort haben. Und so eine Maschine, also gerade nach Thailand fliegt ja viel, Thai Airways, Emirates, Etihad, das sind Weltklasse Fluggesellschaften, das sind die besten Fluggesellschaften der Welt einfach.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1954.91,
+   "ende": 1971.91,
+   "text": "Und das merkt man auch einfach im Flugkomfort. Natürlich ist es eng, zehn Stunden im Flugzeug zu sitzen. Ich will das jetzt auch nicht schönreden und es ist auch anstrengend, aber es ist trotzdem nicht zu vergleichen mit dem Fluggefühl, was man auf einem Kurzstreckenflug hat.",
+   "avg_logprob": -0.05,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1971.91,
+   "ende": 1973.93,
+   "text": "auf den Langstreckenflügen,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1974.21,
+   "ende": 1976.21,
+   "text": "zumindest mit den genannten",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1976.21,
+   "ende": 1978.13,
+   "text": "Airlines jetzt auch. Also wir haben auch",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1978.13,
+   "ende": 1980.03,
+   "text": "schon mal einen Langstreckenflug mit der Condor nach",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1980.03,
+   "ende": 1982.11,
+   "text": "Havanna gehabt.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1982.63,
+   "ende": 1983.27,
+   "text": "Also das war",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1983.27,
+   "ende": 1985.95,
+   "text": "wirklich der absolute Witz, dass man da nicht noch seinen",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1985.95,
+   "ende": 1988.05,
+   "text": "eigenen Sitz mitbringen musste. War wirklich",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1988.05,
+   "ende": 1989.47,
+   "text": "ein Wunder. Aber",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1989.47,
+   "ende": 1991.99,
+   "text": "die Flieger, die nach Thailand fliegen,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1992.73,
+   "ende": 1994.17,
+   "text": "die sind alle sehr gut ausgestattet.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1994.25,
+   "ende": 1996.21,
+   "text": "Die haben alle einen Fernseher mit im Sitz, wo man",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1996.21,
+   "ende": 1997.99,
+   "text": "coole Filme gucken kann, auch",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1997.99,
+   "ende": 1999.71,
+   "text": "für die Kinder. Man bekommt Kopfhörer,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1999.71,
+   "ende": 2026.29,
+   "text": "Oder man bekommt zwei Mahlzeiten, man bekommt in der Regel eine Decke und ein Kissen. Und die meisten Kinder finden das halt auch spannend und haben eben auch Bock. Ich mache immer wieder den Fehler, dass ich viel zu viele Spielsachen einpacke. Eigentlich braucht man die gar nicht, weil sie sind dann erstmal aufgeregt mit dem Start, dann sind sie beschäftigt, dann gucken sie, was für Filme kommen, dann gibt es schon die erste Mahlzeit und dann gucken sie irgendwie anderthalb Stunden Film.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2026.29,
+   "ende": 2043.45,
+   "text": "Wenn man jetzt einen Nachtflug hat, ist dann eigentlich schon die Zeit, wo sie eigentlich einschlafen und dann werden sie erst wieder wach, wenn das Frühstück serviert wird und dann landet man schon fast. Genau, das nochmal so zur Sorge, dass es vielleicht auch irgendwie langweilig sein könnte oder so auf dem Flug.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2043.45,
+   "ende": 2063.89,
+   "text": "Aber genau, die bekannten Fluggesellschaften hatte ich gerade genannt und dann gibt es noch eine, das war sozusagen die Ausnahme, wo es auf der Webseite günstiger war als über Skyscanner und das ist Turkmenistan Airlines, hört sich jetzt erstmal verrückt an, war aber tatsächlich eine sehr gute Erfahrung.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 2063.89,
+   "ende": 2081.35,
+   "text": "Da ist die Zwischenlandung in Aschgabat. Der Flughafen in Aschgabat ist super schön, hell, sauber, groß, relativ leer war der. Und ja, das war auch dann so ein Split, wo man eben ungefähr sechs Stunden bis Aschgabat gebraucht hat und dann von Aschgabat auch nochmal nach Bangkok.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 2081.35,
+   "ende": 2091.57,
+   "text": "Nachteil ist, dass das über so ein türkische Reisebüroanbieter alles abgewickelt wird, zu denen man eigentlich so gut wie gar keinen Kontakt aufnehmen kann",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2091.57,
+   "ende": 2099.63,
+   "text": "Das heißt, wenn man irgendetwas hat wie Umbuchung oder Stornierung, was auch immer, ist es sehr, sehr schwer, da in Kontakt zu treten",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2099.63,
+   "ende": 2110.95,
+   "text": "Aber wenn man relativ safe ist und wirklich auch ein paar Taler sparen will, also safe im Sinne von ich fliege, komme, was wolle, zu dem Datum, wie ich es gebucht habe",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2110.95,
+   "ende": 2127.21,
+   "text": "Dann kann man ruhig mal Turkmenistan Airlines auschecken, weil die tatsächlich mit Abstand den günstigsten Flugpreis hatten. Ansonsten von den Preisen ist es natürlich total unterschiedlich, zu welchen Jahreszeiten ihr fliegt.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.34
+  },
+  {
+   "start": 2127.21,
+   "ende": 2152.95,
+   "text": "Also gerade jetzt, als ich das erste Mal in Thailand war, habe ich für einen Hin- und Rückflug 350 Euro bezahlt. Jetzt sind natürlich überallhin die Flugpreise, nicht nur jetzt, schon seit zwei, drei Jahren ja explodiert. Und ich hatte auch Flüge gesehen, jetzt letztes Jahr Weihnachten, also wo wir im Februar geflogen sind, hatten wir auch überlegt, über Weihnachten und Neujahr zu fliegen, da hätten wir pro Person 2000 Euro gezahlt, was natürlich dann nicht stattgefunden hat.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2153.75,
+   "ende": 2159.27,
+   "text": "Wir haben im Februar dann pro Person 685 gezahlt, obwohl Ferien waren.",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 2160.19,
+   "ende": 2162.23,
+   "text": "Das war dann die Nummer mit Turkmenistan Airlines.",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 2163.03,
+   "ende": 2172.95,
+   "text": "Ich hatte jetzt gerade für Bekannte nach Flügen geguckt, da waren, lagen wir im Januar, was ja auch Hochsaison ist, bei 750, was ich eigentlich einen guten Preis fand, hin und zurück.",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 2173.13,
+   "ende": 2174.33,
+   "text": "Bangkok rede ich immer, ne.",
+   "avg_logprob": -0.175,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 2174.33,
+   "ende": 2199.07,
+   "text": "Ja, aber tatsächlich, naja, ich hatte für meinen Bruder nochmal geguckt, da hatten wir mit einmal Umsteigen Bangkok im April auch was, um die 600, also ich glaube 580 oder so. Also ja, die Preise sind tatsächlich komplett unterschiedlich, aber wie schon gesagt, checkt als erstes mal den Flug nach Bangkok aus und dann kann man weitersehen.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 2200.03,
+   "ende": 2205.43,
+   "text": "So, jetzt haben wir relativ viel zur Anreise, ach noch, nee, ich bin noch nicht fertig mit der Anreise, sorry.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2206.03,
+   "ende": 2210.21,
+   "text": "Aber auch hier, gerade wenn man gewohnt ist, Pauschalreisen zu buchen,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2210.35,
+   "ende": 2215.19,
+   "text": "dann richtet sich der Preis der Pauschalreise ja danach, wie lange man die Reise macht.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2215.19,
+   "ende": 2219.69,
+   "text": "Ob ich eine Woche, zwei Wochen oder drei Wochen mache, sind drei Wochen viel, viel teurer,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2219.83,
+   "ende": 2221.73,
+   "text": "als wenn ich nur zwei Wochen die Pauschalreise mache.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2222.33,
+   "ende": 2227.89,
+   "text": "Wenn ich die Dinge alle voneinander separat buche, ist es egal, ob ich zwei oder drei Wochen fliege,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2227.89,
+   "ende": 2249.21,
+   "text": "weil der Flugpreis immer der gleiche ist. Ich hatte jetzt schon einige Gespräche mit Leuten, die gesagt haben, ja, ich habe zwar drei Wochen Urlaub, aber ja, zwei Wochen reichen erstmal. Okay, wenn man sagt, zwei Wochen reichen, ja, dann ist es in Ordnung, aber man darf halt nicht vergessen, dass man den Preis für den Flug sowieso bezahlt, ob man zwei Wochen bleibt oder ob man drei Wochen bleibt.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2249.21,
+   "ende": 2255.91,
+   "text": "und natürlich muss man dann die Unterkunft länger bezahlen und hier essen und was man unternimmt und so weiter,",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2256.03,
+   "ende": 2262.21,
+   "text": "aber das ist halt tatsächlich relativ günstig, so dass wenn man die Zeit hat, würde ich immer empfehlen,",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2262.33,
+   "ende": 2269.49,
+   "text": "mindestens drei Wochen zu machen, weil durch die Zeitumstellung, die jetzt aktuell befindet Deutschland sich ja in der Winterzeit,",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2269.49,
+   "ende": 2275.15,
+   "text": "sind es sechs Stunden nach Thailand und wenn in Deutschland die Sommerzeit ist, sind es fünf Stunden nach Thailand,",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2275.15,
+   "ende": 2295.77,
+   "text": "Aber es gibt halt einfach den Jetlag und vor allen Dingen, wenn man mit Kindern reist, also wir haben auch beobachtet, die, die alleine reisen und sage ich mal nicht so diesen Tagesablauf haben, dass sie morgens zu einer bestimmten Zeit aufstehen müssen, weil sie abends wiederum auch zu einer bestimmten Zeit ins Bett müssen, beziehungsweise die Kinder.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 2295.77,
+   "ende": 2312.17,
+   "text": "Also wenn man, sag ich mal, so in den Tag hineinleben kann, glaube ich, merkt man den Jetlag nicht so sehr, weil es dann im Zweifel egal ist, ob ich bis nachts um zwei wach bin oder ob ich morgens erst um zehn oder um elf aufstehe. Aber wenn man Kinder hat, dann ist es ja schon so, dass die irgendwann abends zu irgendeiner Uhrzeit ins Bett müssen.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2312.17,
+   "ende": 2328.15,
+   "text": "Und das ist normalerweise nicht nachts um zwei, sondern vielleicht um neun oder wenn es spät ist um zehn, wenn man im Urlaub ist. Und demnach sind die dann ja irgendwann auch morgens wieder wach. Und wenn man diesen Rhythmus so ein bisschen reinkriegen will, dann knallt der Jetlag schon rein.",
+   "avg_logprob": -0.035,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2328.15,
+   "ende": 2352.69,
+   "text": "Und wenn man dann nur zwei Wochen Urlaub hat, hat man tatsächlich nicht so viel davon. Das heißt, meine Empfehlung ist immer drei Wochen, aber ja, ist auch ein sehr subjektives Empfinden. Ihr wisst ja, ich bin halt einfach immer sehr gerne unterwegs und wenn ich jetzt drei Wochen Urlaub habe, dann wäre es für mich unvorstellbar, nur zwei Wochen in Urlaub zu fliegen und die andere Woche irgendwie zu Hause zu sein.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2352.69,
+   "ende": 2382.67,
+   "text": "Ähm, genau.",
+   "avg_logprob": -0.305,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 0.6
+  },
+  {
+   "start": 2382.69,
+   "ende": 2396.85,
+   "text": "Nein, ihr wollt gar nichts, ihr wollt einfach nur den Flug und theoretisch, je nachdem wie man drauf ist, wir buchen nie eine Sitzplatzreservierung, denn wenn man mit Kindern fliegt, müssen sie die Kinder mit den Eltern zusammensetzen, zumindest wenn die Kinder jünger als zwölf Jahre sind.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2397.35,
+   "ende": 2407.15,
+   "text": "Wenn man als Pärchen oder Freunde fliegt und zusammensitzen möchte, gut, dann muss man vielleicht eine Reservierung machen. Wir als Familie machen das nie und sitzen trotzdem in der Regel zusammen.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2407.15,
+   "ende": 2429.29,
+   "text": "So, das heißt, man kann überall Nein anklicken und dann, wenn man den Flug gebucht hat, kann man im Nachhinein über die Hanse-Merkur, direkt über die Webseite der Hanse-Merkur die Reiserücktrittsversicherung abschließen. Da versichert man einen Betrag. Das heißt, man kann dann auch den Flug versichern nur oder man kann dann eben auch, hat vielleicht auch schon das Hotel gebucht, kann das auch noch mitversichern.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 2429.81,
+   "ende": 2441.55,
+   "text": "Aber in der Regel versichert man da einen Betrag und der direkte Abschluss bei der Hanse Merkur ist billiger auf jeden Fall als all diese Sachen, die über die Airlines oder das Reisebüro oder sonst wen angeboten werden.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2441.55,
+   "ende": 2457.61,
+   "text": "Das ist ja auch logisch. Also man muss sich das ja so vorstellen, wenn ein Dienstleister dazwischen ist, der dir noch etwas verkauft, was aber ursprünglich von jemandem anderes, also die Hanse Merkur hat das Produkt und jemand anderes verkaufte dieses Produkt, will der natürlich daran verdienen.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2458.03,
+   "ende": 2462.27,
+   "text": "Deshalb ist es immer günstiger, direkt beim Anbieter solche Sachen zu buchen.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2462.65,
+   "ende": 2468.37,
+   "text": "Außer die Flüge, die sind nicht immer billiger, wenn man sie direkt bei der Airline bucht.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2469.17,
+   "ende": 2473.71,
+   "text": "Also Reiserücktrittversicherung ist für uns immer ein Muss und genauso eine Krankenversicherung.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2473.71,
+   "ende": 2475.69,
+   "text": "Das haben wir immer über die Hohkoburg gemacht.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2476.27,
+   "ende": 2480.13,
+   "text": "Und auch da gibt es so eine Sachen, wo man irgendwie ein Jahr eine Krankenversicherung hat",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2480.13,
+   "ende": 2482.99,
+   "text": "und zahlt da irgendwie, ich weiß nicht, sechs Euro pro Person oder so.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2483.05,
+   "ende": 2486.81,
+   "text": "Also es ist wirklich ein Witz, eine ganz klassische Urlaubskrankenversicherung.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2486.81,
+   "ende": 2499.75,
+   "text": "Nicht sowas, was wir jetzt haben. Viele Kreditkarten haben das aber auch schon dabei. Also wenn ihr Kreditkarten habt, checkt da gerne mal. Vielleicht sind da auch solche Sachen wie Krankenversicherung oder Reiserücktrittsversicherung auch schon mit drin.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 2499.75,
+   "ende": 2518.63,
+   "text": "So, ich hatte ja anfangs gesagt, theoretisch, wenn man jetzt abenteuerlustig ist, dann reicht das auch, wenn man sich nur den Flug bucht und dann hier nach Unterkünften schaut. Aber natürlich, Entschuldigung, kann man auch das vorher von Deutschland alles auch schon buchen.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2519.63,
+   "ende": 2524.09,
+   "text": "Ganz klassisch buche ich unsere Unterkünfte über Booking.com oder über Airbnb.",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2524.75,
+   "ende": 2527.09,
+   "text": "Beides ist hier auch in Thailand super verbreitet.",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2527.09,
+   "ende": 2530.21,
+   "text": "Also in Bangkok haben wir meistens ein Airbnb.",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2531.57,
+   "ende": 2536.49,
+   "text": "In den anderen Reisezielen buchen wir meistens über Booking.com,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2536.59,
+   "ende": 2540.21,
+   "text": "weil ich da auch irgendwie schon so ein Gefühl habe, wie die Bewertungen so ausfallen",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2540.21,
+   "ende": 2541.83,
+   "text": "und worauf man sich da verlassen kann.",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2542.65,
+   "ende": 2546.39,
+   "text": "Grundsätzlich ist es natürlich immer einfacher, vor Ort zu sein,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2546.39,
+   "ende": 2575.23,
+   "text": "direkt zu fragen, an der Rezeption zu stehen und zu sagen, hallo, hier bin ich, was kostet das Zimmer, das ist halt ein anderer Preis, als wenn man vorher über Booking.com bucht oder andere Portale, aber wie gesagt, da braucht man halt auch so ein bisschen Abenteuerlust mit und eben auch das Risiko, dass mal dann irgendetwas nicht frei ist, das haben wir in unserer Reisevergangenheit auch oft gehabt, ja, dass wir dann da starten und dann ging es doch nicht und ja, man dann spontan was weitersuchen musste,",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 2576.23,
+   "ende": 2581.33,
+   "text": "Aber gerade was das Thema Unterkünfte angeht, also wenn ihr wirklich vorhabt, nach Koh Samui zu kommen,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2581.93,
+   "ende": 2588.37,
+   "text": "weil viele Dinge, die ich jetzt erzählt habe, gelten ja auch generell für Thailand, gerade was so die ganzen Flugthemen angeht.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2588.87,
+   "ende": 2595.51,
+   "text": "Wenn ihr jetzt Lust habt, nach Koh Samui zu kommen, dann kann ich euch auf jeden Fall nur anbieten, uns auch gerne anzusprechen,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2595.51,
+   "ende": 2609.21,
+   "text": "Um eine E-Mail zu schreiben an glitzkviehpodcast.gmail.com oder die meisten, die zuhören, kennen uns ja auch irgendwie auf irgendeine Art und Weise, schreibt uns sonst bei Instagram oder WhatsApp an.",
+   "avg_logprob": -0.148,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.31
+  },
+  {
+   "start": 2609.21,
+   "ende": 2628.51,
+   "text": "Und wir sind da auch gerne behilflich. Zum einen haben wir natürlich hier auch schon Kontakte geknüpft mit Menschen, die selber Unterkünfte vermieten. Oder wir können eben auch mal hier zu dem einen oder anderen, zu der einen oder anderen Unterkunft mal hinfahren und konkret fragen, okay, was kostet hier die Nacht?",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 2628.51,
+   "ende": 2631.19,
+   "text": "und oder wenn ihr",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2631.19,
+   "ende": 2633.01,
+   "text": "irgendwas euch rausgesucht habt, auch einfach mal",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2633.01,
+   "ende": 2635.01,
+   "text": "fragen, okay, wie ist denn das da so von der",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2635.01,
+   "ende": 2636.97,
+   "text": "Region, weil jetzt",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2636.97,
+   "ende": 2639.01,
+   "text": "speziell auf Koh Samui bezogen, gibt es",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2639.01,
+   "ende": 2640.59,
+   "text": "eigentlich so zwei Main Spots,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2641.03,
+   "ende": 2642.39,
+   "text": "das sind Lamai und Chaweng,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2643.11,
+   "ende": 2644.83,
+   "text": "so, da sind die meisten Touristen, die meisten",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2644.83,
+   "ende": 2646.85,
+   "text": "Hotels, da ist am meisten los, da ist",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2646.85,
+   "ende": 2648.77,
+   "text": "aber auch am meisten Party und am meisten",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2648.77,
+   "ende": 2650.75,
+   "text": "Menschen, das kommt ja immer darauf an, was man",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2650.75,
+   "ende": 2652.45,
+   "text": "so von seinem Urlaub haben möchte, ne.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2652.93,
+   "ende": 2654.75,
+   "text": "Dann ist Bangrak und Chong Wong",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2654.75,
+   "ende": 2656.85,
+   "text": "noch ein Teil, wo",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2656.85,
+   "ende": 2659.05,
+   "text": "sehr viele, Mensch, was ist denn",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2659.05,
+   "ende": 2660.07,
+   "text": "heute mit meiner Stimme los?",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2661.71,
+   "ende": 2663.13,
+   "text": "Also, keine Ahnung.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2663.51,
+   "ende": 2665.03,
+   "text": "Wahrscheinlich, weil ich hier die ganze Zeit den Rauch",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2665.03,
+   "ende": 2666.57,
+   "text": "von dem Mückenkringel einatme.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2667.83,
+   "ende": 2669.41,
+   "text": "Naja, auf jeden Fall",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2669.41,
+   "ende": 2671.21,
+   "text": "sind das so die",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2671.21,
+   "ende": 2673.29,
+   "text": "Hotspots und wenn man wirklich",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2673.29,
+   "ende": 2675.07,
+   "text": "alles schnell erreichen",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2675.07,
+   "ende": 2676.99,
+   "text": "will und auch viel zu Fuß vielleicht",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2676.99,
+   "ende": 2679.17,
+   "text": "erledigen möchte und auch mal abends",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2679.17,
+   "ende": 2681.15,
+   "text": "irgendwie weggehen will oder so, kann ich das auf jeden",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2681.15,
+   "ende": 2682.89,
+   "text": "Fall empfehlen. Auch Bofood,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2683.01,
+   "ende": 2684.81,
+   "text": "Fisherman's Village, die Ecke, ist auch",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2684.81,
+   "ende": 2686.37,
+   "text": "noch relativ viel los.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2686.85,
+   "ende": 2704.45,
+   "text": "Aber wenn man eben genau das nicht will, ja, wenn man nicht bis nachts irgendwie Mucke hören möchte und tausend Leute um sich haben will, dann gibt es auch auf Koh Samui natürlich ganz viele Regionen und Ecken, wo, ja, wo der Tourismus noch nicht so total eingeschlagen hat, wo man noch ein bisschen mehr seine Ruhe hat.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2704.45,
+   "ende": 2717.41,
+   "text": "Das heißt, wenn ihr da irgendwie was habt, wo ihr sagt, da würden wir gerne hin, Mensch, sag doch mal, ist es da laut, ist es da leise, das sind so unsere Vorstellungen, der könnt ihr uns gerne ansprechen",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 2717.41,
+   "ende": 2734.49,
+   "text": "An sich gibt es auf Koh Samui, was die Übernachtungsmöglichkeiten angeht, wirklich alles preislich von bis. Also man kann wirklich super günstig Urlaub machen in, ich sag jetzt mal übertrieben gesagt, im Hostel in der Hängematte bis zu totalen Luxusvilla.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.34
+  },
+  {
+   "start": 2734.49,
+   "ende": 2755.31,
+   "text": "Ja, viele verbinden Thailand ja mit so einem absoluten Billigreiseland, ist es tatsächlich nicht mehr. Also natürlich ist es günstiger in Thailand Urlaub zu machen als in Spanien. Ich glaube alles ist günstiger als in Europa oder auch USA, Australien, Japan.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 2755.31,
+   "ende": 2769.21,
+   "text": "Also es gibt ja so ein paar Singapur, es gibt ja so ein paar Länder, wo man weiß, okay, da ist es halt wirklich teuer. Aber auch innerhalb Deutschlands Urlaub zu machen, ist ja schon teuer. Und auch das ist so eine Sache, die Rechnung kann man sich wirklich sehr gerne mal aufmachen.",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2769.21,
+   "ende": 2786.03,
+   "text": "Wenn man denkt, okay, ich habe nicht das Geld, nach Thailand zu fliegen, rechnet euch einfach mal aus, was euch zwei oder drei Wochen Sommerurlaub in Deutschland oder Österreich gekostet haben. Und ich schwöre euch, es wird mehr sein als den Betrag, den ihr dann für zwei oder drei Wochen Thailand ausgeben würdet.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 2786.93,
+   "ende": 2804.09,
+   "text": "Aber trotzdem ist Thailand teurer geworden und vor allem in den Unterkunftspreisen merkt man das deutlich. Das heißt, wir haben früher, wenn wir hier unterwegs waren, wenn wir mal eine Übernachtung für 50 Euro gebucht haben, dann hatte man halt wirklich schon was richtig Tolles, Luxuriöses.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 2804.09,
+   "ende": 2821.13,
+   "text": "Jetzt sind 50 Euro eigentlich Standard. Man kann aber auch 80 Euro die Nacht ausgeben mit Frühstück, man kann hier aber auch 300 Euro die Nacht ausgeben oder noch mehr. Also es ist wirklich für jeden Bedarf etwas da.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 2821.13,
+   "ende": 2838.27,
+   "text": "Man kann für alle Arten von Urlaub hier die richtige Unterkunft finden. Genau, und auf jeden Fall kann man das separat losgelöst auch alles so buchen von zu Hause aus oder wie gesagt uns dann nochmal ansprechen.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.31
+  },
+  {
+   "start": 2838.27,
+   "ende": 2860.43,
+   "text": "Hier die Fortbewegung ist, also wer das so kennt zum Beispiel von Bangkok, wenn man wirklich in Bangkok einen Zwischenstopp macht, sollte man auf alle Fälle mal Tuk Tuk fahren und wir waren das auch so gewohnt von Bangkok dann ja Tuk Tuk und Taxi, alles super günstig.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 2860.43,
+   "ende": 2881.95,
+   "text": "Also dann gibt es ja auch in Bangkok den Skytrain oder verschiedene, nicht nur den Skytrain, also verschiedene Bahnen, Busse, alles, also alles an Verkehrsmitteln gibt es eigentlich in Bangkok und auch sehr günstig. Das ist dann wiederum gerade auf Koh Samui nicht so. Gerade Taxifahren ist auf Koh Samui wirklich verhältnismäßig teuer und sowas wie Tuk Tuks oder sowas gibt es hier nicht.",
+   "avg_logprob": -0.038,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2881.95,
+   "ende": 2901.17,
+   "text": "Es gibt hier so eine, ich weiß nicht, ob ich es richtig ausspreche, müsste ich nochmal unsere Teillehrerin fragen. Das nennt sich Songtao, glaube ich. Das sind so eine, sag ich mal, großen Tuk-Tuks, wo halt mehrere Leute reinpassen. Aber da habe ich letztens gelesen, dass da zum Teil auch eine Fahrt irgendwie 150 Baht kostet.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 2901.17,
+   "ende": 2906.85,
+   "text": "und das kostet zum Beispiel auch die Miete von einem Roller für einen Tag.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2907.17,
+   "ende": 2912.95,
+   "text": "Also zwischen, ich sage mal so roundabout 5 Euro pro Tag würde es kosten, wenn man sich hier einen Roller mietet.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2913.85,
+   "ende": 2918.39,
+   "text": "Wir hatten das ja auch schon in einer anderen Folge gesagt, dass das Rollerfahren hier sehr gefährlich ist.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2918.39,
+   "ende": 2924.89,
+   "text": "Das heißt, nur die, die sich wirklich sicher im Rollerfahren fühlen und das auch schon mal gemacht haben,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2925.11,
+   "ende": 2927.69,
+   "text": "nur denen würde ich empfehlen, sich hier einen Roller zu mieten.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 2928.03,
+   "ende": 2947.27,
+   "text": "Wer jetzt denkt, oh geil, 5 Euro am Tag, ich wollte schon immer mal Rollerfahren ausprobieren, würde ich nicht empfehlen, das auf Koh Samui zu starten. Ja, es ist wirklich sehr gefährlich hier. Wenn ihr hier Rollerfahrt, bitte setzt einen Helm auf, bitte zieht euch was an und bitte fahrt nicht betrunken.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 2947.27,
+   "ende": 2971.85,
+   "text": "Ja, also es hört sich jetzt vielleicht lächerlich an, das zu sagen, aber man hat manchmal das Gefühl, dass Leute hier auf dieser Insel ankommen und denken, boah geil, hier interessiert das keinen, ich kann hier machen, was ich will, völlig steif und zugeraucht, oberkörperfrei, barfuß hier über die Inselbretter an und teilweise auch Mädels, die irgendwie gefühlt 40, 50 Kilo wiegen und dann nicht nur so einen normalen Roller haben,",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2971.85,
+   "ende": 2978.25,
+   "text": "sondern so ein 125er, den sie aus meiner Sicht gar nicht halten können, einfach so von ihrer Physiognomie.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2979.53,
+   "ende": 2985.01,
+   "text": "Aber ja, also grundsätzlich ist der Roller natürlich eine angenehme Fortbewegung, wenn man es denn kann.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2985.75,
+   "ende": 2989.29,
+   "text": "Aber auch ein Auto zu mieten ist jetzt nicht die, kostet hier nicht die Welt.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2989.75,
+   "ende": 2997.41,
+   "text": "Ich hatte das ja auch schon mal in der Folge mit Bangkok erzählt, dass man, gerade wenn man es länger mietet, das Auto wirklich sehr gute Preise bekommt.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2998.43,
+   "ende": 3001.35,
+   "text": "Ich glaube, wir haben dann irgendwie 30 Euro am Tag bezahlt.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 3001.85,
+   "ende": 3026.49,
+   "text": "Aber ja, auch da muss man einfach schauen, wie lange ist man hier, was will man erleben. Es gibt ja auch überall Ausflugsmöglichkeiten, ohne dass man ein eigenes Fortbewegungsmittel hat, also indem man irgendwelche Touren hier bucht und das muss man sich jetzt auch nicht so vorstellen, dass man im Reisebus, in einem riesen Reisebus sitzt und über die Insel fährt, sondern da gibt es auch ganz viele, die dann Jeep-Touren anbieten oder ja, sag ich mal individueller.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 3026.49,
+   "ende": 3043.29,
+   "text": "Man kann sich auch einen Fahrer mieten, das machen auch viele, auch für längere Strecken, dass man wirklich von, ich hatte das letztens gerade mit jemandem, der hat sich von Bangkok nach Hua Hin, das sind ungefähr zwei, zweieinhalb Stunden Fahrt, ein Auto mit Fahrer gemietet für 60 Euro, glaube ich.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 3044.21,
+   "ende": 3051.69,
+   "text": "Also das geht auch auf Koh Samui natürlich, dass man das relativ individuell gestalten kann.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 3052.25,
+   "ende": 3054.25,
+   "text": "Und dann gibt es ja auch hier so Grab.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 3054.35,
+   "ende": 3059.85,
+   "text": "Ich weiß nicht, ob das jemand kennt, aber das sind so eine Art Roller-Taxis und auch Sammel-Taxis.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 3060.41,
+   "ende": 3062.19,
+   "text": "Ich würde es mal mit Uber vergleichen.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 3062.27,
+   "ende": 3063.19,
+   "text": "Das gibt es ja auch in Deutschland.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 3064.23,
+   "ende": 3069.15,
+   "text": "Das heißt, auch so könnte man sich hier fortbewegen, wenn man nicht selber fahren möchte.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 3069.51,
+   "ende": 3072.05,
+   "text": "Auf jeden Fall ist Taxi ganz klassisch.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 3072.05,
+   "ende": 3076.25,
+   "text": "das Taxifahren nicht die erste Empfehlung, die ich auf Koh Samui machen würde.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 3077.81,
+   "ende": 3082.49,
+   "text": "Ansonsten, ja, wenn ihr hier seid auf Koh Samui, bietet sich es immer an,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 3082.67,
+   "ende": 3086.59,
+   "text": "vielleicht seine Reise auch noch zu verbinden mit Koh Phangan und Koh Tao.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 3086.67,
+   "ende": 3089.37,
+   "text": "Das hatte ich ja eingangs schon gesagt, dass das hier so ein Trio ist.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 3090.19,
+   "ende": 3095.13,
+   "text": "Koh Phangan sieht man eigentlich konstant, wenn man auf Koh Samui ist.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 3095.51,
+   "ende": 3098.37,
+   "text": "Es ist wirklich nur eine halbe Stunde entfernt mit der Fähre.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 3098.37,
+   "ende": 3102.91,
+   "text": "und Koh Tao ist dann glaube ich, ich glaube anderthalb Stunden oder so.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3103.93,
+   "ende": 3106.95,
+   "text": "Ja, also das ist, wenn man jetzt nicht nur an einem Ort sein möchte,",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3107.01,
+   "ende": 3110.57,
+   "text": "aber jetzt auch nicht nochmal in eine ganz andere Region in Thailand reisen möchte,",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3110.69,
+   "ende": 3113.31,
+   "text": "dann kann man diese drei Inseln gut verbinden.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3113.43,
+   "ende": 3117.81,
+   "text": "Und auch wenn sie alle dicht beieinander liegen, ist Koh Phangan komplett anders als Koh Samui",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3117.81,
+   "ende": 3120.21,
+   "text": "und auch Koh Tao nochmal komplett anders.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3120.21,
+   "ende": 3123.69,
+   "text": "Also man hat wirklich drei unterschiedliche Eindrücke dann auch.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 3123.69,
+   "ende": 3144.27,
+   "text": "Ähm, ja, ansonsten ist noch eine kleine Sache vielleicht, ähm, ich weiß nicht, wie, wie da jeder so drauf ist, aber so Thema, äh, Reiseapotheke, ähm, ist, ist, sag ich mal so, so, auch so eine Sache, zum Teil muss man sich natürlich vorher darüber Gedanken machen, aber auch wenn man hier ist, kann man sehr viel bekommen.",
+   "avg_logprob": -0.053,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 3144.27,
+   "ende": 3159.07,
+   "text": "Es gibt so zwei Sachen, wo ich sage, das ist auf jeden Fall Sonnencreme. Also Sonnencreme ist etwas, was ihr von Deutschland mitbringen solltet. Sonnencreme ist auch in Deutschland schon teuer, aber hier ist sie noch teurer und ihr bekommt gewisse Sonnencreme-Arten hier auch nicht.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 3159.97,
+   "ende": 3174.95,
+   "text": "Wir sind ja ein totaler Freund von der Ambrosolair Sonnencreme, weil die sich einfach am besten auftragen lässt und auch die 50er nicht wie so ein weißer Klebefilm auf den Kindern haftet, sondern ganz normale Creme ist.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.32
+  },
+  {
+   "start": 3174.95,
+   "ende": 3192.59,
+   "text": "Und auch 50er, ich habe das jetzt so beiläufig gesagt, also 50er gerade für Kinder und selbst wir und ich bin ja, wer mich jetzt schon mal irgendwie gesehen hat, weiß auch, dass ich eher so ein dunklerer Typ bin. Selbst ich nehme die ersten Tage hier, wenn die Sonne scheint, 50er Sonnencreme.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 3192.59,
+   "ende": 3211.19,
+   "text": "Alle, die gerne braun werden, man wird trotzdem braun, aber ja, das ist auf jeden Fall zu empfehlen und danach gehen wir dann irgendwann auf 30er über, das auf jeden Fall mitbringen, was man wiederum nicht in Deutschland mitbringen sollte, sondern hier kaufen sollte, ist Mückenschutz, also Mückenspray, um sich vor den Mücken zu schützen.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 3211.19,
+   "ende": 3226.91,
+   "text": "Mücken ist hier auf alle Fälle ein Thema. Vor allen Dingen auch wegen Dengue und Malaria gibt es ja in Thailand. Und ja, das Mückenspray, was man so, also gerade Autan oder sowas hilft ja eigentlich gar nicht. Mückenspray sollte man dann hier kaufen.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 3226.91,
+   "ende": 3234.87,
+   "text": "Ansonsten sowas wie Durchfalltabletten ist auch etwas, was man hier kaufen kann oder auch sollte",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 3234.87,
+   "ende": 3243.31,
+   "text": "Man hat hier ja diese 7-Eleven, das sind so kleine Supermärkte, wo man einfach wirklich alles bekommt",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 3243.31,
+   "ende": 3247.69,
+   "text": "Und die gibt es hier wie Sand am Meer in ganz Thailand",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 3247.69,
+   "ende": 3252.53,
+   "text": "Und da kann man zum Beispiel aber auch Medikamente kaufen, ohne irgendwie Rezept",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 3252.53,
+   "ende": 3281.63,
+   "text": "Ich meine, es gibt auch Apotheken, aber ich sage mal sowas wie Durchfallmitteltabletten oder Schmerztabletten, Hustensaft. Also ich sage mal so ganz klassische Reiseapotheke-Inhalte kann man hier jederzeit im 7-Eleven kaufen. Und wie gesagt, Apotheken gibt es hier auch. Die haben auch alles. Man kann auch einfach, wenn man nicht weiß, wie das heißt, sich einen Screenshot machen auf dem Handy und das in der Apotheke vorzeigen und dann geben die einem irgendwie ein Äquivalent.",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 3282.53,
+   "ende": 3301.17,
+   "text": "Das heißt, man muss jetzt hier nicht mit der total riesigen Reiseapotheke auflaufen, aber ich empfehle immer ein bisschen was, ich habe immer ein bisschen was im Handgepäck, weil gerade auf einem langen Flug und da auch wieder Thema Kinder, wenn Kinder krank werden, zumindest ist es meine Erfahrung so, kommt das oft auf ein Nichts.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 3301.17,
+   "ende": 3323.01,
+   "text": "Das heißt, es kann natürlich auch mal in einem Flug von 10, 14, 15 Stunden, wie lange man vielleicht auch unterwegs ist mit Umsteigen, auch vorkommen, dass so ein Kind mal Fieber plötzlich bekommt oder plötzlich Durchfall bekommt oder Husten. Und deshalb habe ich sowas wie Fiebersaft und Durchfallmedikamente, Tabletten, sowas, Nasenspray habe ich immer im Handgepäck.",
+   "avg_logprob": -0.044,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 3323.01,
+   "ende": 3327.19,
+   "text": "Genau, das ist nochmal so ein kleiner Side-Hack",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 3327.19,
+   "ende": 3329.69,
+   "text": "Ansonsten ist hier noch",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 3329.69,
+   "ende": 3332.53,
+   "text": "Thema Geld abheben vielleicht interessant",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 3332.53,
+   "ende": 3335.85,
+   "text": "Wir heben immer Geld in den Ländern",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 3335.85,
+   "ende": 3338.43,
+   "text": "am Automaten ab, also wir tauschen nie",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 3338.43,
+   "ende": 3340.65,
+   "text": "im Vorfeld in Deutschland Geld um",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 3340.65,
+   "ende": 3343.63,
+   "text": "Wir nehmen auch nie sehr viel Bargeld mit",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 3343.63,
+   "ende": 3346.49,
+   "text": "Also jetzt haben wir",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 3346.49,
+   "ende": 3350.61,
+   "text": "einmal Bargeld mitgenommen, ich glaube 1000 Euro oder so",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 3350.61,
+   "ende": 3365.07,
+   "text": "Also bei unserer Auswanderung auf unseren Reisen haben wir maximal 100 Euro Bargeld dabei, also Euro und heben halt einfach immer dann in den jeweiligen Ländern am Geldautomaten ab.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.26
+  },
+  {
+   "start": 3365.07,
+   "ende": 3381.11,
+   "text": "In der Regel sind die ersten ja schon am Flughafen, die nennen sich hier ATM und für uns ist es halt einfach ein besseres Gefühl, nicht mit so viel Geld rumlaufen zu müssen oder so viel Geld im Hotel lagern zu müssen, deshalb heben wir das immer ab.",
+   "avg_logprob": -0.033,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 3381.11,
+   "ende": 3402.19,
+   "text": "In Thailand kann man maximal 30.000 Baht auf einen Schlag abheben. Das sind rund 800 Euro und das kostet eine Gebühr von 250 Baht. Das sind rund 6,70 Euro. Das heißt, pro 800 Euro zahlt man 6,70 Euro Abhebegebühren. Die 6,70 Euro zahlt man aber auch, wenn man nur 20.000 Baht abhebt oder nur 10.000 Baht.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 3402.19,
+   "ende": 3424.89,
+   "text": "Das heißt, plant dann am besten gleich ein, die kompletten 30.000 Baht abzuheben. Und wichtig ist, weil da haben sich schon einige in die Nesseln gesetzt, das geht jetzt schon ein bisschen ins Detail, aber wenn ihr hier Geld abhebt, wird der Automat euch fragen, continue without currency conversion, also weitermachen ohne Währungsumrechnung.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 3424.89,
+   "ende": 3442.79,
+   "text": "Und da müsst ihr auf alle Fälle Ja klicken, weil wenn ihr noch die Währungsumrechnung mit, wenn das noch mit passiert, dann zahlt ihr nochmal Geld drauf. Also diese 250 Baht zahlt man immer, egal ob man YS, DKB und die alle versprechen, gebührenlos Bargeld abheben.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.34
+  },
+  {
+   "start": 3442.79,
+   "ende": 3458.49,
+   "text": "Diese Gebühren bezahlt man, diese 250 Baht bezahlt man in jedem Fall, aber wenn ihr dann noch Currency Conversion anklickt, dann zahlt ihr nochmal Gebühr und das sind zum Teil 25, 30, 40 Euro, je nachdem, was die Bank dann sagt.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 3458.49,
+   "ende": 3477.35,
+   "text": "Also wenn ihr vielleicht auch schon mal die Erfahrung gemacht habt, ich heb im Ausland kein Geld mehr, das ist viel zu teuer, dann habt ihr vielleicht das angeklickt mit dieser Currency Conversion. Also da immer darauf achten, dass ihr keine Währungsumrechnung am Geldautomaten macht und man kann hier natürlich auch super viel mit Karte zahlen.",
+   "avg_logprob": -0.034,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 3477.35,
+   "ende": 3497.77,
+   "text": "Also ganz normale Einkäufe, größere Einkäufe in den Supermärkten gehen mit Karte. Im 7-Eleven kann man auch mit Karte zahlen, allerdings erst ab 200 Baht. Und im Restaurant kann man auch mit Karte und Kreditkarte zahlen, die berechnen in der Regel aber ein bis drei Prozent Gebühren. Das kennt man ja auch schon aus anderen Ländern.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 3497.77,
+   "ende": 3518.07,
+   "text": "Genau, ja, ich glaube, das war es jetzt erstmal. Wahrscheinlich auch ziemlich viel und ziemlich erschlagend jetzt auf einmal, aber wenn ihr eure Reise plant, dann könnt ihr die Folge ja nochmal anmachen und zwischendurch auf Stopp machen und die Schritte dann erstmal ausführen.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 3518.07,
+   "ende": 3520.33,
+   "text": "als wenn man, das wird man sich jetzt wahrscheinlich",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3520.33,
+   "ende": 3522.49,
+   "text": "nicht alles merken können, aber",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3522.49,
+   "ende": 3523.99,
+   "text": "ja, ihr könnt auch gerne",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3523.99,
+   "ende": 3526.45,
+   "text": "nochmal nachfragen, wenn",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3526.45,
+   "ende": 3528.45,
+   "text": "ihr euch irgendwo unsicher",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3528.45,
+   "ende": 3530.11,
+   "text": "seid, also wenn",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3530.11,
+   "ende": 3532.37,
+   "text": "ich in irgendwas Erfahrungen habe, dann auf",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3532.37,
+   "ende": 3533.65,
+   "text": "alle Fälle in Reiseplanung",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3533.65,
+   "ende": 3536.43,
+   "text": "und von daher bin ich",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3536.43,
+   "ende": 3537.69,
+   "text": "auch immer gerne behilflich",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3537.69,
+   "ende": 3540.55,
+   "text": "und ansonsten verabschiede ich mich jetzt",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3540.55,
+   "ende": 3542.37,
+   "text": "hier, es scheint immer noch die Sonne",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3542.37,
+   "ende": 3544.31,
+   "text": "es ist immer noch türkises",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3544.31,
+   "ende": 3546.47,
+   "text": "Wasser, ich hoffe mal es bleibt heute",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3546.47,
+   "ende": 3548.63,
+   "text": "so und ich hoffe, wir kommen",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.14
+  },
+  {
+   "start": 3548.63,
+   "ende": 3550.61,
+   "text": "noch gut durch die restliche Regenzeit",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.14
+  },
+  {
+   "start": 3550.61,
+   "ende": 3552.53,
+   "text": "ansonsten. Und ja,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.14
+  },
+  {
+   "start": 3552.65,
+   "ende": 3554.19,
+   "text": "dann erst mal eine schöne Woche.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.14
+  },
+  {
+   "start": 3554.45,
+   "ende": 3554.91,
+   "text": "Bis bald.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.14
+  }
+ ]
+}

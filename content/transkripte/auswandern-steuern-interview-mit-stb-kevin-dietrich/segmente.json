@@ -1,0 +1,4234 @@
+{
+ "meta": {
+  "slug": "auswandern-steuern-interview-mit-stb-kevin-dietrich",
+  "titel": "Auswandern & Steuern – Interview mit StB. Kevin Dietrich",
+  "datum": "2025-12-01T06:00:00.000Z",
+  "dauer_sekunden": 4764,
+  "guid": "88c85c3a-140c-48a0-84a3-f14bfd5412f7",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T08:42:07Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 6,
+   "transkription": 4759
+  },
+  "echtzeitfaktor": 1.0,
+  "anzahl_segmente": 526,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.27,
+   "ende": 23.21,
+   "text": "Keine feste steuerliche Ansässigkeit in irgendeinem Land nachweisen kann, auch mal schnell nachteilig werden kann, wenn ich aus Deutschland heraus eine US-LSI gründe.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.084,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 30.11,
+   "ende": 48.09,
+   "text": "Herzlich willkommen bei DLIZKFI – Das Leben ist zu kurz für irgendwann. Heute wieder mit einem Interview, worüber ich mich sehr freue, weil ich auch gerne Podcasts gehört habe, als ich mich mit der Auswanderung beschäftigt habe.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.084,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 48.09,
+   "ende": 55.03,
+   "text": "und gerade zu diesem Thema viel gelesen habe, viel gehört habe und man sich ja immer nicht so sicher ist,",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 55.13,
+   "ende": 58.67,
+   "text": "ob das dann auch alles so stimmt und richtig ist, was man hört und liest.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 58.79,
+   "ende": 65.61,
+   "text": "Und deshalb freue ich mich, dass ich heute den Kevin Dietrich als Gast bei mir im Podcast habe.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 65.71,
+   "ende": 72.05,
+   "text": "Und zwar ist das mein Steuerberater. Und heute wird es deshalb um das Thema Steuern und Auswandern gehen.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 72.19,
+   "ende": 73.35,
+   "text": "Herzlich willkommen, Kevin.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 73.79,
+   "ende": 76.71,
+   "text": "Hallihallo. Vielen Dank, dass ich dabei sein darf. Freut mich.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 77.15,
+   "ende": 80.65,
+   "text": "Wo sitzt du denn gerade? Du bist jetzt wieder in Leipzig, oder?",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 80.65,
+   "ende": 81.79,
+   "text": "In Leipzig, genau, richtig.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 82.99,
+   "ende": 83.91,
+   "text": "Leipzig, genau.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 84.37,
+   "ende": 88.39,
+   "text": "Wir haben nämlich gerade festgestellt, dass als wir uns das erste Mal gesehen haben,",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 88.55,
+   "ende": 90.85,
+   "text": "hier so digital, also live haben wir uns ja noch nie gesehen,",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 91.01,
+   "ende": 94.67,
+   "text": "aber wo wir uns das erste Mal digital gesehen haben, war ich auch gerade auf Koh Samui.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 95.21,
+   "ende": 98.59,
+   "text": "Denn damals hatte ich mich ja gerade frisch selbstständig gemacht",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 98.59,
+   "ende": 103.93,
+   "text": "und habe einen Steuerberater gesucht, was gar nicht so einfach ist als Einzelunternehmen,",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 104.05,
+   "ende": 106.33,
+   "text": "vor allen Dingen, wenn man noch keine großen Umsätze hat.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 106.71,
+   "ende": 131.75,
+   "text": "Und da habe ich einen Hilferuf in der Facebook-Gruppe von Staatenlos, war das damals, eingestellt und du hast dich da freundlicherweise gemeldet und warst bereit, mich aufzunehmen, weil du auch gerne, oder du hattest damals gesagt, du findest es auch interessant, mal dieses rein digitale Arbeiten, also das alles, also mein Business komplett online abläuft und somit auch unsere Kommunikation und alles online abläuft.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 131.75,
+   "ende": 136.09,
+   "text": "Und jetzt sind wir schon seit drei Jahren, glaube ich jetzt.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 136.09,
+   "ende": 143.47,
+   "text": "Ja, dürften gut drei Jahre sein, genau. Das waren zumindest die Anfänge der Vollselbstständigkeit bei mir in der Kanzlei.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 144.61,
+   "ende": 147.29,
+   "text": "War auch bei dir quasi ein Neuanfang?",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 147.51,
+   "ende": 164.89,
+   "text": "Deswegen, deswegen. Also man hört ja, glaube ich, von jeder Ecke oder an jeder Ecke, dass ja viele Berufskollegen auch nicht mehr viele Mandate annehmen können oder allgemein auch Annahmestopp da ist, weil ja viele Kollegen einfach immer noch überlastet sind mit Arbeit.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 164.89,
+   "ende": 190.03,
+   "text": "Das hat natürlich auch die Corona-Welle dazu beigetragen, die ganzen Anträge, die ja auch von den Berufskollegen da super bearbeitet wurden. Ich habe das Gefühl, das nimmt so ein bisschen wieder ab am Markt. Also ich kriege das auch von Kollegen mit, dass wieder Kapazitäten da sind. Jetzt nicht so im großen Stil, aber ich glaube, für die Zukunft stehen die Chancen wieder etwas besser, da auch einen geeigneten Kollegen und einen Spezialisten entsprechend finden zu können.",
+   "avg_logprob": -0.038,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 190.03,
+   "ende": 201.05,
+   "text": "Okay, das heißt, wenn jetzt nach der Folge jemand denkt, Mensch, ich habe auch einen Steuerberater gesucht, auch wenn ich jetzt nicht unbedingt auswandern will, aber du, sie können dich ansprechen.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.34
+  },
+  {
+   "start": 201.05,
+   "ende": 201.85,
+   "text": "Ja, auf jeden Fall.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 201.87,
+   "ende": 204.95,
+   "text": "Wir werden deine Kontaktdaten in den Shownotes...",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 204.95,
+   "ende": 213.97,
+   "text": "Auf jeden Fall, besonders, weil man natürlich auch, wenn ich es mal kurz sagen darf, ein großes Netzwerk hat an Kollegen und das hilft natürlich auch.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 214.17,
+   "ende": 223.37,
+   "text": "Also allgemein, wir Steuerberater sind, glaube ich, eine ganz eigene Zunft, dass wir, ich sage mal, sehr, sehr eng zusammenarbeiten, auch wenn wir eigentlich Konkurrenten sind.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 223.37,
+   "ende": 245.12,
+   "text": "Und das schätze ich eigentlich an unserem Berufsstand sehr. Und dass man, obwohl es ein Kollege ist in der eigenen Kanzlei, man doch sehr eng zusammenarbeitet und man sich da zu Mandatsfällen oder auch zu Mandanten direkt austauschen kann. Natürlich alles im Rahmen der Verschwiegenheit, klar. Aber man unterstützt sich da auch sehr gegenseitig.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 245.12,
+   "ende": 262.1,
+   "text": "Cool, das hört sich echt gut an. Also das heißt, wenn du nicht weiterhelfen kannst, dann könntest du gegebenenfalls jemanden empfehlen. Aber mir konntest du immer weiterhelfen und ich hatte schon einige Steuerberater und war nie so wirklich zufrieden.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 262.1,
+   "ende": 288.64,
+   "text": "Du hast am längsten durchgehalten und deshalb bin ich auch das, was ich am Anfang meinte, so froh, dass ich jetzt mit dieser Podcast-Folge zu 100% hinter dem stehe, was du sagen wirst und auch 100% versichern kann, dass das, was ihr gleich hört zu dem Thema, auch wirklich so ist und es nicht darum geht, irgendwas damit zu verkaufen oder irgendein Traumschloss damit zu bauen, sondern es einfach wirklich auf Fakten basiert.",
+   "avg_logprob": -0.053,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 288.64,
+   "ende": 295.14,
+   "text": "und man dann, wenn man die Folge gehört hat, aus meiner Sicht schlauer ist auf jeden Fall als vorher",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 295.14,
+   "ende": 300.42,
+   "text": "und einfach auch die Gewissheit hat, dass nichts gesagt wird, um irgendwie Angst zu machen",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 300.42,
+   "ende": 305.78,
+   "text": "oder irgendwelche Dinge hochzupuschen oder auch runterzudrücken, die vielleicht gar nicht so sind.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 306.32,
+   "ende": 309.86,
+   "text": "Jetzt sind wir ja hier Ende des Jahres, wenn wir die Folge ausstrahlen.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 310.68,
+   "ende": 315.88,
+   "text": "Da wäre gleich so meine erste Frage, gibt es einen Zeitpunkt, der sich besser oder schlechter eignet,",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 315.88,
+   "ende": 331.56,
+   "text": "wenn man auswandern möchte und immer im Zusammenhang natürlich, das vielleicht nochmal vorab, es geht ja jetzt in erster Linie natürlich, wenn man eine Firma hat, wenn man selbstständig ist oder eben plant, sich selbstständig zu machen und im Zusammenhang mit Auswandern, was ist da für mich wichtig?",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 332.18,
+   "ende": 334.98,
+   "text": "Und da gibt es ja auch manche, die sich vielleicht fragen,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 335.14,
+   "ende": 336.96,
+   "text": "hat das irgendwas mit dem Geschäftsjahr zu tun?",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 337.06,
+   "ende": 339.02,
+   "text": "Ist es gut, am Ende des Jahres auszuwandern?",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 339.14,
+   "ende": 341.0,
+   "text": "Ist es gut, am Anfang des Jahres auszuwandern?",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 341.06,
+   "ende": 342.66,
+   "text": "Oder ist das eigentlich völlig egal?",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 343.94,
+   "ende": 346.48,
+   "text": "Ja, gibt es da so eine Richtschnur aus deiner Sicht?",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 347.08,
+   "ende": 348.04,
+   "text": "Oder aus steuerlicher Sicht?",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 348.04,
+   "ende": 351.72,
+   "text": "Ja, also das ganze Thema ist natürlich davon geleitet,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 351.86,
+   "ende": 353.58,
+   "text": "dass das ja eine Lebensentscheidung ist.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 353.74,
+   "ende": 356.02,
+   "text": "Also ich würde tatsächlich jetzt diesen Punkt des Wegzugs",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 356.02,
+   "ende": 359.1,
+   "text": "jetzt nicht unbedingt von dem Datum festmachen.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 359.26,
+   "ende": 361.54,
+   "text": "Also um damit einzusteigen, das Datum sehe ich jetzt nicht",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 361.56,
+   "ende": 389.5,
+   "text": "So als der entscheidende Punkt, man muss natürlich wissen, dass wenn man einen einzigen Tag in Deutschland unbeschränkt steuerpflichtig ist, also eine Wohnung hat zum Beispiel hier, dass man natürlich auch für das gesamte Jahr dann unbeschränkt steuerpflichtig ist, heißt, oder vielleicht zum Einstieg ganz gut, also um das nochmal klar zu machen, das heißt, die unbeschränkte Steuerpflicht heißt ja, dass ich nach Welteinkommen unsätzlich besteuert werde.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 389.5,
+   "ende": 401.22,
+   "text": "Das heißt, wenn ich hier in Deutschland wohne, meinen gewöhnlichen Aufenthalt habe, eine Wohnung besitze, dann muss ich dem deutschen Finanzamt offenlegen, was ich für ein Welteinkommen besitze, damit das eben der Versteuerung unterworfen werden kann.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 401.22,
+   "ende": 423.14,
+   "text": "So, wenn ich natürlich jetzt sage, gehen wir davon aus, ich ziehe am 30.06. eines Jahres weg, dann gilt eben bis zu diesem Wegzugstag, bis zum 30.06. eben dieses Welteinkommensprinzip. Das heißt, bis dahin muss ich alle Einkünfte, die ich weltweit irgendwo erziele in Deutschland, angeben in der Steuererklärung oder zumindest berücksichtigen.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 423.14,
+   "ende": 450.0,
+   "text": "Wir haben natürlich Ausnahmen, Doppelbesteuerungsabkommen, Freistellung, Anrechnung, das jetzt mal aus dem Vorgelassen. Und ab dem Wegzugstag, also ab dem 1.7., dann muss ich eben schauen, ja, bin ich denn noch in dieser beschränkten Steuerpflicht? Also habe ich hier irgendwelche Einkünfte in Deutschland, die mich eben dazu bringen, doch noch Steuern zu bezahlen? Oder bin ich in dieser ominösen, erweiterten, beschränkten Steuerpflicht? Ich meine, können wir im Laufe des Gesprächs auch nochmal gerne kurz eingehen.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 450.0,
+   "ende": 471.02,
+   "text": "Also das ist auch ein Sondertatbestand, wo ich einfach noch in Deutschland nachträglich zehn Jahre lang steuerpflichtig bin. Das heißt, grundsätzlich ist es natürlich immer schön, auch für uns in der Beraterpraxis, wenn man einen klaren Cut zum Jahresende hat, ist aber jetzt nicht getrieben oder nicht der Hauptpunkt, wo wir unsere Beratung drauf ausrichten.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 472.02,
+   "ende": 488.24,
+   "text": "Natürlich, wenn ich jetzt genau weiß, also ich würde es auch ganz stark von der Einkommensstruktur so ein bisschen abhängig machen, weil ich eben sagen kann, okay, ich bin jetzt angestellt und bekomme jetzt im Folgejahr und weiß jetzt, dass ich noch nach Ausscheiden eine große Abfindungszahlung bekomme.",
+   "avg_logprob": -0.041,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 488.24,
+   "ende": 500.38,
+   "text": "Dann kann ich natürlich sagen, okay, das ist eigentlich ein Tatbestand, der in die beschränkte Steuerpflicht fällt. Und wenn ich das weiß, kann ich das natürlich so planen, dass ich dann in der beschränkten Steuerpflicht wiederum eine geringere Belastung habe.",
+   "avg_logprob": -0.041,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 501.02,
+   "ende": 521.06,
+   "text": "Also um deine Frage insgesamt zu beantworten, ich würde mir dazu die Einkommensstruktur in der Beratung angucken. Was hast du denn für Einkommen? Was fließt dir denn zu? Und eben danach entscheidend, gibt es denn hier einen geeigneten oder geeigneteren Zeitpunkt, wobei ich aber zusammenfassend sagen würde, dass das eben immer nachrangig ist.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 521.06,
+   "ende": 544.48,
+   "text": "Das heißt, wenn ich jetzt überlege auszuwandern, dann hole ich mir im besten Fall von dir eine Beratung ein und im Gespräch erläutere ich dann, wie das bei mir alles ist. Du schätzt das dann ein und dann könnte man eventuell sagen, okay, in deinem speziellen Fall macht es Sinn, vielleicht bis dann und dann zu warten oder vielleicht jetzt zu gehen.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.029,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 544.94,
+   "ende": 548.68,
+   "text": "Was mich dann aber zur Frage bringt, gibt es so ein Zeitfenster, wo du sagst,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 548.68,
+   "ende": 552.48,
+   "text": "okay, so und so viele Monate, bevor man wirklich plant zu gehen,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 552.62,
+   "ende": 560.56,
+   "text": "sollte man sich mit dem Thema Steuern, Firmengründung, Abmeldung und so weiter und so fort beschäftigen.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 561.02,
+   "ende": 564.08,
+   "text": "Oder kann ich jetzt auch sagen, klar, ich war jetzt gerade zwei Wochen im Urlaub,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 564.16,
+   "ende": 567.18,
+   "text": "das hat mir so gut gefallen, also nächsten Monat möchte ich gerne auswandern.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 567.68,
+   "ende": 571.56,
+   "text": "Oder sagst du, Mensch, irgendwie so sechs Monate vorher wäre jetzt irgendwie eine gute Idee,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 571.66,
+   "ende": 572.54,
+   "text": "mal darüber zu sprechen.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 572.54,
+   "ende": 600.06,
+   "text": "Ja, die absolute Lieblingsantwort aller Steuerberater und Rechtsanwälte, es kommt darauf an, natürlich, wie umfangreich der Fall ist. Also meine Empfehlung ist natürlich schon, sich irgendwie Richtung 12, 18 Monate vorher zumindest mal, ich sage mal, eine Vermögensinventur zu machen, überhaupt erstmal klar zu machen, was habe ich denn, was habe ich für Vermögenswerte, habe ich irgendwo doch noch ein Bankkonto, habe ich denn eine Schenkung, die vielleicht ansteht.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 600.06,
+   "ende": 620.22,
+   "text": "Das sind einfach so geplante Sachen, die einfach auf mein Vermögen einzahlen und mein Vermögen ausmachen. Da habe ich irgendwie einen Sachverhalt. Ich habe eine vermietete Immobilie, die ich jetzt vorhatte, eigentlich in drei Jahren zu verkaufen. Ziehe ich den Verkauf vielleicht vor? Das sind alles Themen, die ich natürlich erst analysieren kann, wenn ich mal eine klare Vermögensinventur gemacht habe.",
+   "avg_logprob": -0.027,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 620.22,
+   "ende": 642.74,
+   "text": "Auch Kryptowährungen ist ja auch so ein Thema, wo man in dem Bereich auch sehr, sehr viel diskutieren kann, leider, weil das ja auch noch nicht alles so richtig geklärt ist. Und wenn man das gemacht hat, dann guckt man sich natürlich auch erstmal an, ja, in welches Land soll es denn gehen, weil ich natürlich in der Auswanderungsberatung immer versuche, ein Land zu finden, womit ich ein Doppelbesteuerungsabkommen habe.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 642.74,
+   "ende": 660.7,
+   "text": "Also ein Doppelbesteuerungsabkommen, kurz DBA, sagt einfach, die beiden Länder schließen einen Vertrag, ein Abkommen und sagen, okay, wenn jemand in deinem Land wohnt, aber eben Einkünfte aus dem anderen Land hat, ist hier festgelegt, werden besteuert.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.36
+  },
+  {
+   "start": 661.66,
+   "ende": 688.34,
+   "text": "Das ist an sich ziemlich lustig, weil es tatsächlich noch sehr, sehr wenige Fälle auf der Welt gibt, die auch weise Einkünfte zum Ergebnis haben. Das heißt, wo beide Länder sagen, ich möchte nicht besteuern, die gilt es natürlich zu finden. Das wird natürlich immer seltener und da gibt es auch in den meisten DBAs inzwischen auch einen Auffangtatbestand, dass dann ein Land doch sagt, okay, ich nehme die Einkünfte doch, weil man das natürlich unbedingt verhindern möchte.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.205,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 688.34,
+   "ende": 706.42,
+   "text": "So und wenn ich dann geschaut habe, okay, was habe ich denn für ein Vermögen, was habe ich denn für ein Land, habe ich denn mit diesem Land ein Doppelbesteuerungsabkommen, weil eben dieses DBA auch schützt, weil es eben genau sagt, dort wird besteuert, kann ich eben anfangen, über die weiteren Schritte nachzudenken.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 706.42,
+   "ende": 731.34,
+   "text": "Und natürlich, wenn ich jetzt einen sehr kleinen Fall habe und sage, okay, ich habe jetzt nur noch ein paar Aktien und eine kleine Selbstständigkeit, die ich irgendwie vor einem Jahr begonnen habe und da steckt aber nichts drin, weil ich noch nie eine Kundenrechnung gestellt habe, dann ist das natürlich schneller umsetzbar und vielleicht das auch ein Standardland ist, als wenn ich jetzt mehrere Firmenbeteiligungen besitze und hier wirklich sechsstellige, siebenstellige, achtstellige Beträge habe.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 731.34,
+   "ende": 759.54,
+   "text": "Das heißt, ich kann letztendlich die Entscheidung, wohin ich auswandere, tatsächlich entweder davon abhängig machen, rein emotional betrachtet, also wo möchte ich gerne hin, wo würde ich gerne wohnen, aber in gewissen Fällen, gerade wenn viel Vermögen dranhängt, macht es gegebenenfalls auch Sinn, nicht nur danach zu entscheiden, wo ich gerne wäre, sondern wo es einfach für mich steuerlich am meisten Sinn macht.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.044,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 759.54,
+   "ende": 779.9,
+   "text": "Das machen ja auch immer mehr. Also in dieser ganzen Auswanderungs-Bubble, sage ich mal, ist ja gefühlt so das große Thema, okay, welche Länder eignen sich. Bei uns war das ja jetzt ganz anders. Da war ja das Land quasi klar und alles andere hat sich darum stricken müssen, sozusagen.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 779.9,
+   "ende": 789.58,
+   "text": "Aber aus steuerlicher Sicht macht es schon Sinn, zu gucken, welches Land oder welche zwei, drei Länder wären für mich eigentlich sinnvoll.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.071,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 789.58,
+   "ende": 797.82,
+   "text": "Ja, auf der einen Seite ja. Auf der anderen Seite kann man auch sagen, man baut sich erst mal das steuerliche Setup und ist dann trotzdem die ganze Zeit auf der Welt unterwegs.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.071,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 798.08,
+   "ende": 803.6,
+   "text": "Also die Sache ist ja, dass ich immer schauen muss, wo habe ich denn zumindest irgendwo eine nachgewiesene steuerliche Ansässigkeit.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.071,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 804.24,
+   "ende": 824.04,
+   "text": "Das heißt, deswegen ist ja auch zum Beispiel in der EU Zypern so beliebt, weil ich einfach durch die 60-Tage-Regelung, also dass ich nur 60 Tage vor Ort sein muss, dort eben das Ganze sehr einfach aufgesetzt bekomme, auch wenn ich die restliche Zeit dann auf der Welt unterwegs bin. Das ist richtig, genau.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 824.04,
+   "ende": 850.34,
+   "text": "Und du hast jetzt gerade das angesprochen, auch wenn ich auf der Welt unterwegs bin, weil das ist ja auch aus meiner Sicht ein großer Wandel in der Auswanderung. Also früher war ja die Auswanderung wirklich so, ich verlagere mein Leben von hier nach da. Also alles, was hier ist, nehme ich mit und dann ist es irgendwo anders, irgendwo auf der Welt und in den meisten Fällen komme ich entweder zurück nach Deutschland oder bleibe genau da, wo ich hinausgewandert bin.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.329,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 850.34,
+   "ende": 873.12,
+   "text": "Jetzt ist ja eher seit ein paar Jahren so der Trend dieser digitalen Nomaden oder Ortsunabhängigkeit oder Perpetual Traveller und wie sich das alles schimpft. Das heißt, ich möchte eigentlich nirgends vor steuerlich ansässig sein und dann gibt es ja so eine Faustregel, dann darf ich nicht länger als drei Monate in einem Land bleiben und viele betreiben das ja dann auch so.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 873.12,
+   "ende": 901.72,
+   "text": "Ich bin drei Monate da, drei Monate da, drei Monate da. Das ist ja aber wahrscheinlich trotzdem dann auch nochmal ein anderes Setup oder eine andere Überlegung, wie setze ich das alles auf, wie mache ich das alles, als wenn jetzt jemand zu dir kommt und sagt, okay, ich wohne jetzt in Deutschland und jetzt ziehe ich in die Schweiz oder jetzt ziehe ich in die USA und dann bleibe ich da auch, weil ich habe da vielleicht oder meine Frau hat da vielleicht einen Job, ich bin selbstständig, wie auch immer. Also da kann man ja auch nicht sagen, Auswanderung ist gleich Auswanderung letztendlich.",
+   "avg_logprob": -0.033,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 901.72,
+   "ende": 927.22,
+   "text": "Ja, das ist richtig und vor allem muss man sich natürlich überlegen, in welcher Struktur möchte ich unterwegs sein. Das macht also einen totalen Unterschied, ob jetzt jemand freiberuflich ist, also wenn jetzt ein freiberuflicher Arzt, ein freiberuflicher Steuerberater sagt, er geht, ob er jetzt gewerbliche Einkünfte hat, also jemand, der zum Beispiel im Marketing tätig ist oder Print-on-Demand-Bereich, KDP, also gibt es ja ganz, ganz viele Sachen.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 927.22,
+   "ende": 942.76,
+   "text": "Klassisches Gewerbe eben auf die einzelne Person zugeschnitten, beziehungsweise von der einzelnen Person betrieben. Oder ob ich das als Kapitalgesellschaft betreibe. Also dieses Stichwort auch USLC, was ja ganz häufig auch diskutiert wird.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.35
+  },
+  {
+   "start": 942.76,
+   "ende": 960.96,
+   "text": "Was gerade natürlich, wenn ich keine feste steuerliche Ansässigkeit in irgendeinem Land nachweisen kann, auch mal schnell nachteilig werden kann, wenn ich aus Deutschland heraus eine US-ALC gründe und dann eben betriebsstättenlos unterwegs bin.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 960.96,
+   "ende": 983.2,
+   "text": "Weil auch die US LLC möchte irgendwo eine Betriebsstätte sehen. Ich kann das machen, ohne Frage, muss aber natürlich irgendwo die entsprechenden Einkünfte dann auch versteuern. Also ich muss mal schauen, in welchem Setup bin ich unterwegs? Gehe ich jetzt über eine LLP, also dass ich hier eine Personengesellschaft habe oder mache ich das eben in der Art und Weise einer Kapitalgesellschaft?",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 983.2,
+   "ende": 993.84,
+   "text": "Wobei ergänzend, weil ich gerade die LLC angesprochen habe, das ist ja sowieso nochmal ein Sonderkonstrukt, weil die LLC in jedem Land anders eingruppiert und eingestuft wird.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.28
+  },
+  {
+   "start": 993.84,
+   "ende": 1014.54,
+   "text": "Also ich habe ja in den USA, das nennt sich Jack-the-Box-Verfahren, dann kann ich sagen, okay, bin ich jetzt eher eine Personengesellschaft. Also Personengesellschaft, das, was wir in Deutschland zum Beispiel bei einer KG oder GbR kennen, wenn sich zwei Leute zusammentun, dann werden die Gewinne ja trotzdem von den entsprechenden Anteilseignern und Mitunternehmern versteuert.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1014.54,
+   "ende": 1033.28,
+   "text": "Bei einer Kapitalgesellschaft ist es ja so, dass die sehr abschirmt und ein eigenes Steuersubjekt ist. Also wenn die GmbH dann Erträge hat, dann versteuert die selbst erstmal ihre Erträge und solange nichts zum Anteilseigner fließt, passiert da erst mal zumindest von der Einkommensbesteuerung nichts. Natürlich ist der Anteil etwas wert.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.024,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1033.28,
+   "ende": 1052.28,
+   "text": "Und bei der US-LLC ist es eben so, dass wenn es leider passiert, dass die US-LLC als transparent, also Personengesellschaft beispielsweise vom deutschen Fiskus eingeordnet wird, kann es auch mal passieren, dass ich damit in die erweitert beschränkte Steuerpflicht rutsche.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1052.28,
+   "ende": 1054.98,
+   "text": "Ja, also deswegen unbedingt schauen.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1055.14,
+   "ende": 1077.04,
+   "text": "Aber da haben wir ja ganz viele Kandidaten, finde ich, die ganz fröhlich LLCs gründen und aus meiner Sicht semi gut informiert sind. Und das meine ich, das ist auch das, was ich halt eingangs gesagt habe. Es gibt eben sehr viele aus deinem, ich würde jetzt gar nicht sagen Kollegenkreis, weil es ja auch nicht zwangsläufig Steuerberater sind, die solche Beratungen durchführen.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1077.04,
+   "ende": 1096.58,
+   "text": "Aber es gibt ja doch immer mehr, ich nenne es jetzt mal Anbieter, die vor allem die LLC als den heiligen Gral für Auswanderer deklarieren und in der Beratung die ein oder andere Sache einfach vergessen zu erwähnen, die vielleicht wichtig wäre für die Entscheidung, ob ich eine LLC mache oder nicht.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1096.58,
+   "ende": 1114.88,
+   "text": "Aber du würdest jetzt auch nicht so weit gehen und sagen, ich bin für oder gegen die LLC, sondern auch das ist dann natürlich wieder sehr abhängig von der einzelnen Situation oder würdest du schon dazu tendieren, von einer LLC abzuraten?",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 1114.88,
+   "ende": 1130.1,
+   "text": "Sie kann funktionieren, ohne Frage. Ich muss mir natürlich die individuellen Bedingungen anschauen, um vielleicht den Vergleich herzustellen. Es gibt ja auch diverse europäische Gesellschaften.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.028,
+   "compression_ratio": 1.29
+  },
+  {
+   "start": 1130.1,
+   "ende": 1135.28,
+   "text": "Also am Ende geht es doch immer darum, dass irgendwie für eine Gesellschaft eine steuerliche Betriebsstätte gefunden werden soll.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1135.28,
+   "ende": 1146.34,
+   "text": "Und die meisten Setups, die ich kenne, sind auch tatsächlich so, dass auch trotz LSI irgendwo eine Niederlassung im Sinne von einer steuerlichen Ansässigkeit begründet wird.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1146.76,
+   "ende": 1149.22,
+   "text": "Und dann ist das natürlich auch grundsätzlich in Ordnung.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1151.32,
+   "ende": 1158.28,
+   "text": "Am Ende geht es aber immer darum, wo steckt denn eigentlich die Substanz und wo ist der Ort der Geschäftsleitung?",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1158.28,
+   "ende": 1176.08,
+   "text": "Also die klassischen Beispiele auch, dass Steuerschlägtige dann anfangen und OUs zu gründen oder auch die Limiteds zu gründen, was ja so ein bisschen der Vorreiter der UG in Deutschland war. Deutschland hat ja dann irgendwann gesagt, okay, wir müssen auch mal sowas Kleines einführen, wie es in UK gibt.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.06,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1177.0,
+   "ende": 1179.88,
+   "text": "dann ändert das nichts an der Besteuerung.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1180.04,
+   "ende": 1182.74,
+   "text": "Es ist schön, dass ich dann eine OEU oder eine Limited habe,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1183.4,
+   "ende": 1187.1,
+   "text": "die ist aber dann trotzdem, solange hier der Ort der Geschäftsleitung ist,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1187.14,
+   "ende": 1189.14,
+   "text": "in Deutschland ganz normal weiter steuerpflichtig.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1190.04,
+   "ende": 1191.04,
+   "text": "Ja, dem muss man sich natürlich...",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1191.04,
+   "ende": 1195.12,
+   "text": "Ach so, du meinst, die gründen das, wenn sie, sie sind noch in Deutschland gemeldet",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1195.12,
+   "ende": 1199.94,
+   "text": "und leben in Deutschland, gründen aber die OEU, weil sie ihr Geschäft dahin verlagern,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1200.02,
+   "ende": 1203.34,
+   "text": "aber bleiben weiter in Deutschland und gehen aber davon aus, dass sie keine Steuern zahlen.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1203.44,
+   "ende": 1204.08,
+   "text": "Ach so, okay.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1204.6,
+   "ende": 1205.14,
+   "text": "Genau, genau.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1205.14,
+   "ende": 1229.36,
+   "text": "Aber ich meine, gibt es wirklich, also ich habe wirklich null Ahnung von steuerlichen Themen gehabt, bevor ich mich mit dieser Auswanderung beschäftigt habe, aber eins weiß man ja hundertprozentig sicher, dass wenn ich in Deutschland lebe, es eigentlich absolut gar keinen Fall geben wird, in dem ich keine Steuern zahlen muss in Deutschland. Also wie komme ich auf die Idee, irgendwo eine Firma zu gründen, in Deutschland zu leben und zu denken, ach naja, da muss ich aber hier keine Steuern zahlen.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1229.36,
+   "ende": 1231.18,
+   "text": "Ja, vielleicht auch die Vorbereitung einfach.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1232.3,
+   "ende": 1232.8,
+   "text": "Ja, Entschuldigung.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1232.8,
+   "ende": 1247.2,
+   "text": "Ja, ich meine, das ist ja hochgradig naiv. Ich meine, ich finde, ich habe mich ja jetzt mit der estnischen EU auch sehr viel auseinandergesetzt, weil wir sie ja auch haben. Und ich glaube, grundsätzlich, wir hatten das ja auch mal besprochen, zu welchem Zeitpunkt gründen wir und so weiter.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.06,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1247.2,
+   "ende": 1255.72,
+   "text": "oder gründet jemand anderes, aber diese Idee, dass man die hat und trotzdem in Deutschland lebt",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1255.72,
+   "ende": 1260.22,
+   "text": "und einfach in Deutschland die Einkommenssteuer dann zahlt, weil man sich ein Gehalt auszahlt,",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1260.3,
+   "ende": 1263.94,
+   "text": "ist ja jetzt auch theoretisch ein Setup, aber davon auszugehen,",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1264.02,
+   "ende": 1269.06,
+   "text": "dass ich keine Steuern zahlen muss in Deutschland, obwohl ich dort lebe, das ist schon...",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1269.06,
+   "ende": 1273.22,
+   "text": "Ja, dann ist das vielleicht an dieser Stelle der Appell an alle, die sich damit beschäftigen,",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1273.28,
+   "ende": 1276.4,
+   "text": "sich einen geeigneten Kollegen, Berufskollegen da zu suchen",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1276.4,
+   "ende": 1283.2,
+   "text": "und einfach mal darüber zu sprechen, weil es auf Social Media sehr, sehr, sehr vielen wertvollen Content gibt.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1283.48,
+   "ende": 1288.32,
+   "text": "Und das trägt natürlich zur allgemeinsteuerlichen Bildung bei, was ich natürlich absolut begrüße.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1289.96,
+   "ende": 1296.22,
+   "text": "In den letzten, ich sage mal im letzten Jahr, merkt man aber, dass auch mehr Falschinformationen wieder geteilt werden",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1296.22,
+   "ende": 1301.96,
+   "text": "zu Zeiten von Chat-GBT und der Halluzination, sodass es hier wirklich sinnvoll ist,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1301.96,
+   "ende": 1322.04,
+   "text": "wenn man sowas macht und solche Auslandssachverhalte macht, sich dann wirklich auch mal mit dem Kollegen zu sprechen, was eigentlich, was erhofft man sich dadurch. Das ist so ein bisschen wie dieses Holding-Thema. Also jeder will jetzt irgendwie ein Holding haben, ich brauche irgendwie zwei GmbHs und es wird irgendwie total vergessen, warum ich das eigentlich mache und wozu das eigentlich gut ist.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1322.04,
+   "ende": 1339.44,
+   "text": "Ja, und das passt auch, muss ich sagen, nicht auf jeden Steuerpflichtigen, dass man dann ein Holding draufstülpt. Es kann Sinn machen, es gibt sehr, sehr viele Möglichkeiten und Gestaltungen auch, wo das absolut Sinn macht, aber eben nicht immer. Und das ist natürlich auch bei diesen Gesellschaften so.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1339.44,
+   "ende": 1356.14,
+   "text": "Man darf natürlich auch nicht vergessen, dass auch der Gesetzgeber, der immer restriktiver wird und natürlich auch Meldepflichten daran koppelt. Das heißt, wenn ich eben eine Auslandsbeteiligung oder eine Auslandsfirma gründe, muss ich die auch in einem gewissen Zeitraum auch dem Finanzamt mitteilen.",
+   "avg_logprob": -0.043,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1356.14,
+   "ende": 1369.58,
+   "text": "nee, ich habe hier im Ausland eine Gesellschaft gegründet, ich habe hier im Ausland relevante Beteiligung an dieser Gesellschaft, weil natürlich der Fiskus auch möchte oder möchte informiert sein darüber, was treiben denn da meine Bürger so.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1370.22,
+   "ende": 1381.1,
+   "text": "Aber du hast ja jetzt gesagt, dann sollte man sich halt vielleicht mal bei jemandem informieren und das ist ja vielleicht aber auch das Problem, dass man gar nicht weiß, bei wem informiere ich mich denn über solche Themen,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1381.1,
+   "ende": 1397.8,
+   "text": "Weil ich ja auch zu Beginn meiner Recherche zum Thema Auswandern und Firmengründung im Ausland, obwohl wir ja gearbeitet haben zusammen und Kontakt hatten, ganz viel Recherche ja erstmal alleine gemacht habe, weil ich nicht davon ausgegangen bin, dass du mir dabei helfen kannst.",
+   "avg_logprob": -0.038,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 1397.8,
+   "ende": 1413.9,
+   "text": "Weil immer so der Tenor war, okay, es gibt eben den deutschen Steuerberater, der darf zu deutschen Steuerthemen beraten und dann gibt es eben die Steuerberater, die sich darauf spezialisiert haben, zur Auswanderung und zur Firmengründung im Ausland zu beraten, die natürlich auch einfach auf einem preislichen Level sind.",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1413.9,
+   "ende": 1432.88,
+   "text": "Also zumindest die Bekannten, wo einem auf jeden Fall die Ohren schlagen und wo man denkt, okay, wenn ich jetzt 600 Pfund für eine Stunde Beratung zahlen muss, versuche ich es natürlich erst mal selber durch Podcast, durch Blogartikel, durch Chat-GPT, durch Unterhaltung mit anderen, die das vielleicht schon gemacht haben, durch Facebook-Gruppen und so weiter.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1433.58,
+   "ende": 1437.6,
+   "text": "So und erst als ich eigentlich ja schon relativ klar war von dem, was ich will,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1438.38,
+   "ende": 1441.34,
+   "text": "erst dann bin ich ja eigentlich auf dich zugekommen und habe gesagt,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1441.46,
+   "ende": 1446.0,
+   "text": "okay, bis wohin können wir das eigentlich zusammen machen und ab welchem Punkt brauche ich die anderen?",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1446.66,
+   "ende": 1451.34,
+   "text": "Und du ja dann auch gesagt hast, theoretisch können wir das bis zum Schluss,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1451.34,
+   "ende": 1456.94,
+   "text": "also bis du weg bist, zusammen machen, weil jeder andere Steuerberater auch nur bis,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1457.1,
+   "ende": 1462.14,
+   "text": "also ein deutscher Steuerberater nicht zu Themen im Ausland beraten darf sozusagen",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1462.14,
+   "ende": 1483.46,
+   "text": "Oder das nicht begleiten darf dann, wenn man gegangen ist. Und daher nochmal so die Frage, wo, also kann jeder Steuerberater zum Thema Auswandern und Firmengründung im Ausland beraten oder hast du dich da jetzt speziell weitergebildet oder weil du viele Klienten hattest, die das gemacht haben oder ist in eurer Berufsgruppe das einfach ein Thema, so wie viele andere Spezialfälle halt auch?",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1483.46,
+   "ende": 1493.38,
+   "text": "Mhm. Also grundsätzlich haben wir ja alle einmal dieses wundervolle Berufsexamen geschrieben und in der Theorie sollten wir die Grundlagen alle können.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1494.38,
+   "ende": 1500.44,
+   "text": "So, jetzt können wir aber natürlich auch zum Augenarzt gehen, der sollte im Grunde auch die Anatomie des Herzens kennen.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1500.44,
+   "ende": 1506.82,
+   "text": "So, ob das jetzt gut ist, dass der die Operation am offenen Herzen durchführt, mag ich jetzt mal zu bezweifeln.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1507.72,
+   "ende": 1521.36,
+   "text": "Ich würde natürlich immer schauen, dass ich einen Berufskollegen finde, der zumindest etwas im internationalen Steuerrecht tätig ist, weil das internationale Steuerrecht einfach eine Spezialisierung ist.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1522.0,
+   "ende": 1532.96,
+   "text": "Also rechtlich gesehen können wir es wie gesagt alle. Es ist natürlich schon ein guter Hinweis vielleicht, wenn man da jetzt wirklich mal googelt.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1532.96,
+   "ende": 1548.46,
+   "text": "Es gibt auch zum Beispiel diesen Fachberater für internationales Steuerrecht. Das ist schon mal ein erstes Indiz dafür, dass derjenige da sehr viel tätig ist in dem Bereich und allgemein vielleicht auch Mandate im internationalen Kontext hat.",
+   "avg_logprob": -0.043,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 1548.46,
+   "ende": 1556.28,
+   "text": "Und international meine ich jetzt nicht, dass die komplett auf der Welt verstreut sitzen, sondern einfach internationale Themen auch abdecken.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1556.28,
+   "ende": 1564.82,
+   "text": "Also das reicht ja auch nicht unbedingt oder geht ja auch über die Ertragsbesteuerung hinaus, sondern zum Beispiel, mir fällt da gerade etwas ein, deswegen muss ich gerade innerlich schrunzeln.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1565.5,
+   "ende": 1569.02,
+   "text": "Auch eine Dame, die, wo ich weiß, dass sie deinen Podcast hört,",
+   "avg_logprob": -0.195,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1570.74,
+   "ende": 1574.38,
+   "text": "wo wir umsatzsteuerlich tatsächlich ein Problem hatten,",
+   "avg_logprob": -0.195,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1575.04,
+   "ende": 1580.12,
+   "text": "dass Umsatzsteuer lange und lange danach nach dem Wegzug in Deutschland noch gezahlt wurde,",
+   "avg_logprob": -0.195,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1580.64,
+   "ende": 1582.8,
+   "text": "obwohl das gar nicht mehr gezahlt werden müssen.",
+   "avg_logprob": -0.195,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1582.8,
+   "ende": 1587.68,
+   "text": "Und das sind natürlich Themen, die ein Kollege,",
+   "avg_logprob": -0.195,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1587.8,
+   "ende": 1590.78,
+   "text": "der natürlich viel im internationalen Sachverhalten unterwegs ist,",
+   "avg_logprob": -0.195,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1591.16,
+   "ende": 1592.42,
+   "text": "natürlich schneller fasst.",
+   "avg_logprob": -0.195,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1592.42,
+   "ende": 1612.1,
+   "text": "So und dann ist es natürlich eine Frage, welchen Umfang bewegen wir uns? Wie groß ist dein Vermögen? Wie groß sind deine Firmenbeteiligungen? Das heißt, wenn ich jetzt einen kleinen Standardfall habe, ich sage jetzt mal klein, ich bin jetzt irgendwie solo selbstständig, habe ein Gewerbe mit irgendwie 250.000 Euro Umsatz und 120.000 Gewinn.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1612.1,
+   "ende": 1623.04,
+   "text": "Das würde jetzt so sagen, das ist ein ganz klassischer kleiner Fall. Dann sollte das grundsätzlich in Grundzügen jeder Kollege können. So und alles, was darüber hinausgeht.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.23
+  },
+  {
+   "start": 1623.04,
+   "ende": 1645.52,
+   "text": "Aber du kannst es in jedem Fall. Also wenn jetzt jemand zuhört, du bist auf jeden Fall jemand, der das begleiten kann. Also ich kann es ja bestätigen, weil du hast es ja auch gemacht, aber du hast mir auch von anderen Fällen berichtet. Also wenn jetzt jemand sagt, ich hätte gerne einen Steuerberater, der das mit mir macht, weil ich plane auszuwandern, dann wärst du auf jeden Fall einer von richtigen Ansprechern.",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1645.52,
+   "ende": 1671.48,
+   "text": "Das können wir sehr gerne machen. Und wie eingangs erwähnt, wir haben ein unfassbar großes Netzwerk. Das heißt, wie in allen Fällen kann ich natürlich auch auf wunderbare Kollegen zurückgreifen, mit denen dann auch teilweise Fälle gemeinsam bearbeitet wird. Also wir machen aktuell gerade ein sehr, sehr großes Projekt von einem sehr großen, jetzt muss ich schauen, wie ich es formuliere, von einem sehr großen Content Creator, sage ich jetzt mal, wo es dann auch schon um relevante Werte geht.",
+   "avg_logprob": -0.043,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1671.48,
+   "ende": 1700.24,
+   "text": "Genau, richtig, genau, weil ja unsere Kanzlei auch sehr auf Concentrator und Influencer an sich spezialisiert ist und da kommen die Themen einfach auf. Und das merke ich in der Praxis auch, dass immer wieder diese Fragen kommen, wie sieht es denn mit Wegzug aus oder auch letzte Woche ein größeres Konstrukt von einem Concentrator angenommen als Neumandat, wo wir natürlich in der Einstiegsberatung schon fragen, okay, wenn ich dir das jetzt steuerlich strukturiere,",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1700.24,
+   "ende": 1724.56,
+   "text": "Hast du denn vor, in den nächsten sieben, acht Jahren wegzuziehen? Weil dann machen natürlich einfach gewisse Konstrukte wie eine klassische GmbH vielleicht weniger Sinn, als zu sagen, man geht zum Beispiel direkt in eine GmbH, ein CoKG, um dann eben dieses Wegzugsthema und Wegzugsbesteuerung an sich besser bearbeiten zu können im Auswanderungsfall.",
+   "avg_logprob": -0.053,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1724.56,
+   "ende": 1740.1,
+   "text": "Ja, Wegzugsbescheuung, da müssen wir unbedingt gleich drauf eingehen. Aber ich bin jetzt gerade noch kurz hängen geblieben. Das fand ich jetzt ganz spannend, was du gesagt hast. Das heißt, auch wenn ich jetzt in dem Moment noch gar nicht denke, okay, ich möchte jetzt zeitnah auswandern.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.065,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1740.1,
+   "ende": 1762.22,
+   "text": "Viele haben ja auch sowas von, wenn ich in Rente bin oder wenn dieses oder jenes Lebensereignis passiert ist, dann wandere ich vielleicht mal irgendwann aus. Das heißt aber auch dann, wenn man irgendwann mal im Hirn so einen Schnapper hatte von vielleicht möchte ich mal auswandern, dann macht es schon Sinn, auch das mal mit dem Steuerberater, den man vielleicht auch schon hat, zu teilen.",
+   "avg_logprob": -0.029,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1762.22,
+   "ende": 1785.22,
+   "text": "Weil gewisse Vorarbeiten, nenne ich es jetzt mal, einfach schon darauf ausgelegt werden können, damit man in fünf, sechs, sieben, acht Jahren vielleicht nicht vor so einer großen Wand steht, die gefühlt undurchdringbar ist, sondern weil man schon im Vorfeld, obwohl man erstmal die nächsten Jahre in Deutschland wohnen bleiben will, aber an der einen oder anderen Stelle doch auch ein bisschen die Weichen schon stellen kann.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1785.22,
+   "ende": 1811.46,
+   "text": "Ja, absolut. Und das sind auch immer diese berüchtigten Schlupflöcher, sage ich jetzt mal, in den Gesetzen. Das sind jetzt nicht wirklich Schlupflöcher, weil es kann jeder nachlesen in den Gesetzen. Aber das deutsche Steuerrecht arbeitet ganz stark auch auf Zeit. Also es gibt an sich sehr viele Gestaltungsmöglichkeiten, auch wenn wir jetzt über Umwandlung von Firmen nachdenken, dass ich jetzt, ich sage mal ganz klassisch aus der Beraterpraxis, ein Einzelunternehmen in eine GmbH umwandle oder einbringe.",
+   "avg_logprob": -0.041,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1811.46,
+   "ende": 1825.24,
+   "text": "Dann habe ich einfach Vorschriften, die mir das auch immer steuerneutral ermöglichen, muss aber immer eine gewisse Zeit, also in dem Fall jetzt sieben Jahre, diese Beteiligung auch entsprechend behalten und nicht vorher verkaufen. Dann kriege ich sowas immer steuerneutral hin.",
+   "avg_logprob": -0.022,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1825.24,
+   "ende": 1849.98,
+   "text": "Und sowas geht natürlich auch mit Umstrukturierungen oder mit Erbschaften, mit vorweggenommener Erbschaft oder Erbfolge, Schenkungen etc., was ich vorhin schon angesprochen habe. Das macht einfach, meines Erachtens, im größeren Vermögensbereich absolut essentiell, da natürlich schon mal den Stupzer in die richtige Richtung zu geben und zu sagen, hey, bei der nächsten Planung sollten wir da eventuell mal drüber sprechen.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1849.98,
+   "ende": 1879.96,
+   "text": "Ja, okay.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.041,
+   "compression_ratio": 0.53
+  },
+  {
+   "start": 1879.98,
+   "ende": 1887.22,
+   "text": "einfach falsch verstanden. Und deshalb, ja, vielleicht erklärst du wirklich mal von der",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1887.22,
+   "ende": 1892.68,
+   "text": "Pike an, also trotzdem kurz gefasst, aber was ist die Wegzugsbescheuung? Sie gibt es",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1892.68,
+   "ende": 1898.44,
+   "text": "wirklich, wen trifft sie? Und du hattest mir auch einmal so ein ganz plakatives Beispiel",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1898.44,
+   "ende": 1902.82,
+   "text": "vorgerechnet, was recht simpel war. Ja, vielleicht kannst du das auch nochmal machen, dass man",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1902.82,
+   "ende": 1907.3,
+   "text": "sich wirklich was darunter vorstellen kann, weil ich glaube, dass es einfach sehr viele",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1907.3,
+   "ende": 1911.32,
+   "text": "auch eben Selbstständige gibt, die das davon noch nie gehört",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1911.32,
+   "ende": 1914.48,
+   "text": "haben oder denken, dass sie vielleicht nicht betroffen sein können.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1914.98,
+   "ende": 1918.46,
+   "text": "Da sagst du schon das richtige Wort. Selbstständige sind auch meist davon nicht betroffen,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1919.24,
+   "ende": 1923.34,
+   "text": "weil das die sogenannte Entstrickung ist. Also vielleicht, um ganz, ganz vorn zu",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1923.34,
+   "ende": 1927.5,
+   "text": "beginnen. Diese Weckzugsteuer ist, meine ich, in den 70ern",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1927.5,
+   "ende": 1931.46,
+   "text": "aufgegriffen worden und entstanden. Da gab es einen sehr großen",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1931.46,
+   "ende": 1935.24,
+   "text": "Unternehmerfall, jetzt muss ich überlegen, ich glaube, das war Horten, der",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1935.24,
+   "ende": 1938.86,
+   "text": "in die Schweiz, glaube ich, auch gegangen ist.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1938.92,
+   "ende": 1940.14,
+   "text": "Nagelt mich jetzt bitte nicht fest.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1941.1,
+   "ende": 1943.5,
+   "text": "Und dann hat natürlich der deutsche Staat zu Recht gesagt,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1943.62,
+   "ende": 1946.06,
+   "text": "na ja, Moment mal, wenn du jetzt hier mit deiner Substanz,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1946.14,
+   "ende": 1948.5,
+   "text": "also mit deiner Firma einfach weggehst,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1949.12,
+   "ende": 1951.16,
+   "text": "na ja, dann wollen wir schon irgendwie was davon haben,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1951.24,
+   "ende": 1954.3,
+   "text": "weil du hast ja hier deine ganze Firma",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1954.3,
+   "ende": 1959.0,
+   "text": "auf deutschem Boden aufgebaut, hast hier Ressourcen genutzt.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1959.12,
+   "ende": 1961.46,
+   "text": "Also möchten wir auch noch gerne ein bisschen länger",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1961.46,
+   "ende": 1963.52,
+   "text": "als über deinen Wegzug hinaus",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1963.52,
+   "ende": 1965.44,
+   "text": "die Früchte einfach davon noch",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1965.44,
+   "ende": 1967.54,
+   "text": "haben. Und da",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1967.54,
+   "ende": 1969.38,
+   "text": "ist man eben, wie gesagt, auf die Idee gekommen, diese",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1969.38,
+   "ende": 1971.44,
+   "text": "Wegzugssteuer einzuführen.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1971.58,
+   "ende": 1973.6,
+   "text": "Also egal, ob das jetzt Wegzugssteuer in Strickung",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1973.6,
+   "ende": 1975.06,
+   "text": "heißt, ich sage gleich nochmal einen Unterschied,",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1975.76,
+   "ende": 1977.3,
+   "text": "es geht immer darum, dass Deutschland",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1977.3,
+   "ende": 1979.5,
+   "text": "einfach noch ein kleines Stückchen vom Kuchen,",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1979.66,
+   "ende": 1981.58,
+   "text": "ein kleines Stückchen kann man jetzt drüber diskutieren,",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1981.68,
+   "ende": 1982.66,
+   "text": "ein Stück vom Kuchen",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1982.66,
+   "ende": 1984.9,
+   "text": "abhaben möchte.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1987.26,
+   "ende": 1987.66,
+   "text": "Und",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1987.66,
+   "ende": 1989.56,
+   "text": "da eben",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1989.56,
+   "ende": 1991.3,
+   "text": "auch die Abwanderung von",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1991.3,
+   "ende": 1993.38,
+   "text": "Vermögen so ein bisschen zu verhindern und an sich",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1993.38,
+   "ende": 1997.58,
+   "text": "ist das total, entschuldige den Ausdruck, Wahnsinn,",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.036,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1997.72,
+   "ende": 2000.3,
+   "text": "wie sehr wir uns da auch in der Rechtsprechung immer so ein bisschen",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.036,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2000.3,
+   "ende": 2005.44,
+   "text": "wie stark da Pingpong gespielt wird. Also wir sind ja auch in der Europäischen Union und wir sind ja auch reguliert",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.036,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2005.44,
+   "ende": 2009.34,
+   "text": "von der europäischen Rechtsprechung und auch vom EuGH, also dem",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.036,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2009.34,
+   "ende": 2013.36,
+   "text": "höchsten Gerichtshof in Europa, der dann auch",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.036,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2013.36,
+   "ende": 2017.16,
+   "text": "immer wieder sagt, naja, Moment mal, liebes Land, egal ob das jetzt",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.036,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2017.16,
+   "ende": 2021.22,
+   "text": "Deutschland ist oder Frankreich oder was auch immer, was das, was ihr da gemacht",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.036,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2021.22,
+   "ende": 2025.22,
+   "text": "habt, das ist ein bisschen über das Ziel hinaus. Ihr müsst das ein bisschen weiter öffnen.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.05,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2026.22,
+   "ende": 2029.22,
+   "text": "So, und dann gibt es halt wieder eine Klage und dann gibt es eben was Neues und dann",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.05,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2029.22,
+   "ende": 2033.44,
+   "text": "wird irgendwas für verfassungswidrig erklärt. Also beispielsweise die Erbschaftssteuer,",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.05,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2033.5,
+   "ende": 2037.42,
+   "text": "das haben wir jetzt alle durch. Das war vor zehn Jahren, gab es da eine komplette Neureform",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.05,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2037.42,
+   "ende": 2041.18,
+   "text": "und wurde dann alles neu eingeführt, weil das eben auch für verfassungswidrig erklärt",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.05,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2041.18,
+   "ende": 2045.2,
+   "text": "wurde. Und so ist das immer so ein ewiges Pingpong. Und daraus resultiert auch,",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.05,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2045.28,
+   "ende": 2049.3,
+   "text": "dass wir jedes Jahr Gesetze bekommen, die das Ganze immer mal wieder so ein bisschen",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.05,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2049.3,
+   "ende": 2053.68,
+   "text": "ein bisschen einengen. Und dann gilt es halt abzuwarten, bis dann wieder mal eine große",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2053.68,
+   "ende": 2057.82,
+   "text": "Klage kommt oder bis das irgendwie vom EuGH dann wieder anders entschieden wird",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2057.82,
+   "ende": 2061.7,
+   "text": "und dann hat wieder das entsprechende Land Zeit, darauf zu reagieren",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2061.7,
+   "ende": 2065.58,
+   "text": "und die entsprechenden Gesetze zu erlassen.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2066.48,
+   "ende": 2069.82,
+   "text": "So, diese Wegzugssteuer an sich betrifft",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2070.46,
+   "ende": 2074.22,
+   "text": "nur Anteile, also nicht nur,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2074.34,
+   "ende": 2077.42,
+   "text": "sondern das ist halt der häufigste Anwendungsfall, Anteile an",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2077.42,
+   "ende": 2081.52,
+   "text": "Kapitalgesellschaft. Also wenn ich jetzt eine 100%-Beteiligung oder",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2081.52,
+   "ende": 2085.62,
+   "text": "auch 15%-Beteiligung an einer GmbH besitze",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2085.62,
+   "ende": 2089.58,
+   "text": "und Anteilseigner bin und dann eben ins Ausland gehe",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2089.58,
+   "ende": 2093.52,
+   "text": "und diese Beteiligung sozusagen einmal mitnehme, dann",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2093.52,
+   "ende": 2097.12,
+   "text": "habe ich eben klassischerweise diese Wegzugssteuer, weil dann geschaut wird, okay,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2097.72,
+   "ende": 2101.32,
+   "text": "was ist das Ganze denn wert? Und dieser Wert wird eben dann",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2101.32,
+   "ende": 2104.92,
+   "text": "einmal der Besteuerung entsprechend unterworfen.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2104.92,
+   "ende": 2124.8,
+   "text": "Also bei selbstständigen und klassischen Einzelunternehmen, die eben jetzt ein Gewerbe haben, da spricht man von der Entstrickung. Das ist einfach ein anderer Begriff, ist aber inhaltlich ähnlich, weil auch da letztendlich die stillen Reserven, also der Firmenwert, den ich geschaffen habe, in meiner Firma besteuert werden soll.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2124.8,
+   "ende": 2143.22,
+   "text": "Also im Gesetz steht dann irgendwie sowas, dass einfach das Wien-Verkauf beziehungsweise eine Entnahme ins Privatvermögen ist. Also es macht tatsächlich steuerlich keinen Unterschied, ob ich jetzt sage, ich gebe das Einzelunternehmen am Wegzugstag auf oder ich ziehe als Einzelunternehmen ins Ausland.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 2143.22,
+   "ende": 2161.02,
+   "text": "So, klassischer Fall, du hast jetzt ein Einzelunternehmen und merkst dann irgendwie nach zwei Jahren, hey, das läuft leider nicht so, ich muss das Gewerbe wieder aufgeben, hast dir aber kurz vorher, vor Aufgabe des Gewerbes, noch ein Laptop gekauft für 2000 Euro.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.34
+  },
+  {
+   "start": 2161.02,
+   "ende": 2174.88,
+   "text": "So, dann wird eben geschaut, was habe ich denn in meinem Einzelunternehmen für Wirtschaftsgüter drinstecken. Naja, wenn ich jetzt sage, das läuft nicht so gut, dann werden da keine Kundenbeziehungen drin sein. Das heißt, der Wert ist null, aber da ist ja noch ein Laptop drin.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 2174.88,
+   "ende": 2198.94,
+   "text": "So, das heißt, wenn das MacBook jetzt zum Beispiel erst zwei Monate alt ist und das hat 2.000 Euro gekostet, dann gucke ich eben bei eBay Kleinanzeigen mal, wie denn der Handelspreis dafür ist und dann hätte ich einen Aufgabegewinn oder Entnahmegewinn eben von 1.600, 1.800 Euro, den ich eben wieder versteuern müsste, weil das eben der Substanzwert, der Entnahmewert zu dem entsprechenden Zeitpunkt ist.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2198.94,
+   "ende": 2214.54,
+   "text": "Und genau, wie gesagt, das Ergebnis ist identisch, dass immer diese stillen Reserven, also diese Wertschöpfung, dieses Vermögen, was auch immateriell sein kann, eben besteuert werden soll, weil Deutschland ja den Zugriff für die Zukunft verliert.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2214.54,
+   "ende": 2224.22,
+   "text": "Also wenn das Unternehmen länger in Deutschland wäre, würden sie ja die nächsten 10, 15, 20 Jahre noch Geld bekommen. Und weil das eben nicht so ist, zieht man diese Besteuerung auf Einkommen vor.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2224.22,
+   "ende": 2248.81,
+   "text": "Ja. Und dann, du hattest ja, es gibt da ja aber auch so einen Faktor oder so einen Wert, wenn das nicht genau festgestellt werden kann oder es vom Finanzamt nicht 100 Prozent so anerkannt wird, dass dann so ein Wert angenommen wird, oder? Also Faktor, irgendeine Rechnung hattest du mal, die man nicht genau sagen kann?",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.058,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2248.81,
+   "ende": 2273.39,
+   "text": "Genau. Der ist an sich in der Bewertung tatsächlich nicht zulässig. Man nimmt den eher als Verprobungsfaktor. Das ist dieser Faktor 13,75. Das ist das, was du meintest. Das ist das vereinfachte Ertragswertverfahren. Wie gesagt, findet jetzt hier keine Anwendung. Es ist aber zumindest eine Größe, wo man mal gegenchecken könnte, womit das Finanzamt ins Rennen geht oder gehen könnte.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.084,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2273.93,
+   "ende": 2276.61,
+   "text": "Weil auch hier, die Dokumentation ist alles.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2276.89,
+   "ende": 2280.97,
+   "text": "Das heißt, wenn ich halt wegziehe und ich bin jetzt hier im Auslandssachverhalt,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2281.07,
+   "ende": 2283.65,
+   "text": "dann habe ich eine erweiterte Dokumentationspflicht immer.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2284.61,
+   "ende": 2288.73,
+   "text": "So, das heißt, wenn ich jetzt einfach mich stillheimlich verkrümel und sage,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2288.83,
+   "ende": 2293.37,
+   "text": "na mal gucken, was das Finanzamt macht, das wird wahrscheinlich nicht zu meinen Gunsten ausgehen.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2293.71,
+   "ende": 2299.45,
+   "text": "Wenn ich aber gerade bei kleineren Unternehmen eben eine saubere Doku liefere,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2299.55,
+   "ende": 2303.09,
+   "text": "einfach mal zwei, drei Seiten runtergeschrieben, was habe ich gemacht?",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2303.09,
+   "ende": 2320.65,
+   "text": "welche Vermögenswerte habe ich da drin? Dann kriege ich das natürlich auch viel besser und sauberer argumentiert und auch verkauft gegenüber dem Finanzamt, als wenn ich eben gar nichts mache. Also dieser Faktor, wie gesagt, findet hier keine Anwendung, aber es ist zumindest ein erstes Indiz, was das ist.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 2320.65,
+   "ende": 2343.11,
+   "text": "Also das ist so ein Klassiker in dem sonstigen Steuerrecht, sage ich jetzt mal, vereinfachtes Ertragswertverfahren, wenn man schauen möchte, wie viel ein Unternehmen wert ist, wo man hergeht und die nachhaltigen Unternehmensgewinne nimmt der letzten drei Jahre. Davon den Durchschnitt und das multipliziert man mit Faktor 13,75. Dann kann man sich ja mal ausrechnen, was da eben auch schnell mal für Werte entstehen.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2343.11,
+   "ende": 2356.57,
+   "text": "Hast du denn mal so ein Rechenbeispiel dafür, was da auf einen zukommen könnte, dass man vielleicht dann auch an den Punkt kommt, wo man sich sagt, ich kann mir es ja gar nicht leisten, auszuwandern?",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.35
+  },
+  {
+   "start": 2356.57,
+   "ende": 2365.79,
+   "text": "Ja, wie eben schon gesagt, also dieses vereinfachte Verfahren gilt natürlich jetzt in dem Einzelunternehmensfall tatsächlich nicht.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.199,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 2365.79,
+   "ende": 2376.35,
+   "text": "Aber nur, um es sich mal so ein bisschen vorzustellen, wenn das Finanzamt dann wirklich hergeht und sieht, dass die letzten drei Jahre jeweils, ich sage mal, 150.000 Euro Gewinn erzielt haben,",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.199,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 2377.03,
+   "ende": 2381.13,
+   "text": "dann würde man erst mal hergehen und sagen, naja, jetzt ist aber da ja noch kein Unternehmerlohn drin.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.199,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 2381.13,
+   "ende": 2403.03,
+   "text": "Den kann ich mir natürlich erstmal abziehen und sage ich, okay, ich bin jetzt Geschäftsführer. Was würde ein vergleichbarer Geschäftsführer bekommen? Also als Gehalt, sagen wir jetzt einfach mal 10.000 Euro im Jahr, im Monat. Dann ziehen wir jetzt hier mal 120.000 ab. Also bleiben noch 30.000 Gewinn nach meinem fiktiven Gehalt sozusagen übrig.",
+   "avg_logprob": -0.05,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 2403.03,
+   "ende": 2418.03,
+   "text": "Und jetzt würde man hergehen und sagen, okay, diese 30.000 würde ich jetzt mal diesen Faktor 13,75 nehmen und bin dann ein ganzes Stück über 400.000 Euro. Und diese 400.000 Euro werden dann ganz normal mit dem persönlichen Steuersatz versteuert.",
+   "avg_logprob": -0.016,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 2418.03,
+   "ende": 2440.87,
+   "text": "Aber wie gesagt, wichtiger Hinweis, das Verfahren kann keine Anwendung finden, also bei Einzelunternehmen erst recht nicht, weil ich mir immer anschaue, was sind denn für Vermögensgegenstände drin. Also ich gucke eben durch und überlege, was habe ich denn für materielle Dinge, also was habe ich für Laptops, habe ich mir vielleicht ein Büro gemietet und das eingerichtet und da zehn neue Schreibtische reingestellt.",
+   "avg_logprob": -0.029,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2440.87,
+   "ende": 2461.01,
+   "text": "Das sind ja alles Sachen, die ich verwerten kann. Dann guckt man sich eben an, was bekomme ich denn dafür am Markt, was ist denn der Preis und dann wird eben dieser Wert angesetzt. Also diese Berechnung ist halt natürlich auch unfassbar individuell und das Entscheidende aber, und das ist das, was es eigentlich immer teurer macht, das ist der immaterielle Bereich.",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2461.01,
+   "ende": 2476.03,
+   "text": "Also was ist denn dann jemand bereit zu zahlen? Also habe ich denn Vertragsbeziehungen, die einfach noch einen nachhaltigen Erlös haben? Also keine Ahnung, ich bin zum Beispiel bei Amazon KDP und verkaufe E-Books.",
+   "avg_logprob": -0.036,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.32
+  },
+  {
+   "start": 2476.03,
+   "ende": 2500.69,
+   "text": "So, und dann kann ich natürlich sagen, es gibt einfach gewisse Low-Content-Bücher, einfach leere Notizbücher, wo eben ein Bild von einem Happy Einschulung, was ich eben zur Einschulung schenken kann. Naja, der Wert wird ein bisschen größer sein, als wenn das ein Notizbuch ist, wo eben ein Wahlereignis in den USA abgebildet ist, weil wenn die Wahl vorbei ist, kauft das keiner mehr.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2500.69,
+   "ende": 2527.69,
+   "text": "So und dann gucke ich natürlich rein, was sind das denn für Themen oder wie schon gesagt Vertragsbeziehungen. Ich habe einen Kunden, da läuft der Vertrag noch und dem Kunden ist es eigentlich egal, wer das Ganze bearbeitet. Wenn das irgendeine wiederkehrende Leistung ist, die relativ standardisiert ist und ich noch weiß, ich bekomme definitiv die nächsten 24 Monate noch 50.000 Euro dafür, dann ist eben der Vertrag mit diesem entsprechenden Wert auch zu bemessen.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2527.69,
+   "ende": 2550.67,
+   "text": "Wenn ich Risikoabschläge vornehme, dann schaue ich eben weiter und so gehe ich jeden einzelnen Wert durch, den ich geschaffen habe, sei es jetzt ein E-Mail-Newsletter, sei es ein Instagram-Kanal, sei es ein YouTube-Channel, der monetarisiert wird und versuche das eben dann in Summe zu sehen und auch zu bewerten.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 2551.03,
+   "ende": 2578.17,
+   "text": "Und hast du denn auch Fälle, wo deine Klienten an den Punkt gekommen sind? Weil viele unterstellen ja auch jedem Auswanderer, dass er eigentlich nur auswandert, um Steuern zu sparen. Also vor allem, wenn man selbstständig ist und ein Unternehmen hat. Hast du auch Klienten, die dann feststellen, ich kann eigentlich gar nicht auswandern, weil ich das nicht zahlen könnte, diese Wegzugssteuer oder die Entstreckungssteuer?",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.118,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2578.17,
+   "ende": 2580.87,
+   "text": "Ich habe einfach nicht die Liquidität dafür.",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 2583.05,
+   "ende": 2588.35,
+   "text": "Also einen Fall hatten wir, wo wir es tatsächlich über eine Rückkehrabsicht hinbekommen haben.",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 2588.57,
+   "ende": 2594.75,
+   "text": "Also man kann ja auch innerhalb der EU das sowieso stunden lassen und natürlich auch erklären, ich möchte wiederkommen.",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 2594.75,
+   "ende": 2597.43,
+   "text": "Und das sozusagen muss man halt glaubhaft machen.",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 2597.57,
+   "ende": 2602.47,
+   "text": "Und diese Beweisführung ist einfach in der EU deutlich leichter als im Drittlandsgebiet.",
+   "avg_logprob": -0.156,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 2602.47,
+   "ende": 2611.71,
+   "text": "Und ansonsten bei den sehr vermögenden Fällen bekommt man es natürlich von Kollegen mit, die natürlich dann entsprechend strukturieren.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 2612.15,
+   "ende": 2618.13,
+   "text": "Vielleicht, um es konkret zu beantworten, man kriegt fast alle Fälle irgendwie gelöst.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 2618.89,
+   "ende": 2625.81,
+   "text": "Das ist natürlich immer eine Frage des Geldes, des Risikos, was man auch eingehen möchte, dass das so funktioniert.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 2626.35,
+   "ende": 2628.23,
+   "text": "Also bestes Beispiel ein Gutachten.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 2628.23,
+   "ende": 2646.97,
+   "text": "Das heißt, wenn ich natürlich einen gewissen Vermögensumfang habe und einfach wissen möchte, was ist das wert und ich gebe bei einer Wirtschaftsprüfungsgesellschaft ein IDWS 1 Gutachten, also das ist das größte Gutachten, sage ich jetzt mal, was die Unternehmensbewertung angeht in dem Bereich in Auftrag, dann bin ich eben mal schnell 20.000, 25.000 Euro los.",
+   "avg_logprob": -0.028,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2646.97,
+   "ende": 2668.45,
+   "text": "Dann muss ich für mich bewerten, mache ich das, investiere ich diese 25.000 Euro, um zumindest über ein sehr gutes Gutachten ein bisschen mehr Rechtssicherheit beim Finanzamt oder gefühlte Rechtssicherheit beim Finanzamt zu bekommen, dass das Finanzamt entsprechend das auch so akzeptiert und vielleicht auch anders oder dann auch eine Verhandlungsgrundlage habe.",
+   "avg_logprob": -0.033,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2668.45,
+   "ende": 2697.39,
+   "text": "Weil auch diese Themen, in der Regel fällt sowas ja seltenst auf. Also die kleinen Fälle, die verrutschen ja beim Finanzamt, da muss ich vorsichtig sein, was ich sage, aber auch das Finanzamt hat natürlich mit Personalproblemen zu kämpfen und man kann auf jeden Fall eine Tendenz sehen, dass gewisse Grenzen und gewisse Größenordnungen beim Finanzamt einfach nicht mehr angeschaut werden.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2698.11,
+   "ende": 2699.99,
+   "text": "Das ist aber in der Praxis ganz normal.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2700.11,
+   "ende": 2703.03,
+   "text": "Das ist auch bei Kanzleien.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2703.35,
+   "ende": 2705.03,
+   "text": "Also man macht einfach eine Abbiegung.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2705.17,
+   "ende": 2709.91,
+   "text": "Was habe ich jetzt hier für einen maximalen Ertrag",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2709.91,
+   "ende": 2712.91,
+   "text": "oder was kann ich letztendlich als Finanzamt hier nach raus holen",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2712.91,
+   "ende": 2714.87,
+   "text": "und wie viel Energie setze ich da rein?",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2714.97,
+   "ende": 2717.41,
+   "text": "Das ist eine ganz wirtschaftliche Betrachtung.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2717.77,
+   "ende": 2723.09,
+   "text": "Es soll jetzt natürlich nicht heißen, dass ich als Nicht-Großverdiener mich...",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2723.09,
+   "ende": 2725.99,
+   "text": "Also ich hatte auch so das Gefühl oder keine Ahnung,",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2725.99,
+   "ende": 2752.81,
+   "text": "Meine Schlussfolgerung aus all dem, was ich irgendwie für mich zusammengefasst habe, ist auch gar nicht unbedingt der Moment des Weggehens, sondern eher der Moment, falls ich irgendwann mal wiederkomme und dann eben nicht das alles im Vorfeld ordentlich rechtlich und steuerlich rechtlich abgesichert habe, dass dann eventuell Fragen kommen mit, wo warst du echt die letzten drei Jahre und hast du da vielleicht hier noch irgendwas gemacht, was wir irgendwie dann doch nochmal nachträglich.",
+   "avg_logprob": -0.043,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2752.81,
+   "ende": 2765.99,
+   "text": "Also man hört ja eher von Fällen, die dann im Nachhinein, sag ich jetzt mal, gestolpert sind, weil Sachen rückwirkend dann aufgefallen sind und berechnet wurden und gar nicht mehr mal der Moment, wo man gegangen ist.",
+   "avg_logprob": -0.034,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2766.25,
+   "ende": 2777.13,
+   "text": "Genau, deswegen meinte ich eingangs, dass man natürlich hier auch sich einen Kollegen suchen sollte, der da auch ein bisschen Erfahrung hat, dass man eben diese ganzen Schritte und auch die Meldepflichten natürlich sauber beachtet.",
+   "avg_logprob": -0.034,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2777.13,
+   "ende": 2799.19,
+   "text": "Und das Gefährlichste oder das Schlechteste, was natürlich passieren kann, ist, dass dann doch irgendwann die Steuerfahndung mal klopft und sich diese Fälle eben entsprechend anschaut. Es wird natürlich auch immer mehr der Fokus auf internationale Fälle gelegt, weil wir natürlich auch, sagen wir mal, durch das weltweite Arbeiten günstigt es natürlich.",
+   "avg_logprob": -0.033,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 2799.19,
+   "ende": 2820.55,
+   "text": "Also es kann ja auch mal passieren, dass es auch mal eine unbeabsichtigte Verlagerung gibt, dass sich das gar nicht so, also wir reden ja immer über die Fälle, ich wandere aus und mache mir einen Plan darüber, aber es kann ja auch einfach aus Versehen, klingt jetzt ein bisschen salopp, aber durch Zusammenführung von mehreren Ereignissen einfach mal passieren.",
+   "avg_logprob": -0.023,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2820.55,
+   "ende": 2838.35,
+   "text": "Und darum geht es auch bei dieser Wegzugsbesteuerung immer um diese Funktionsverlagerung. Also wenn eine Firma mit ihrer Substanz und ihrer Funktion eben ins Ausland gebracht wird durch Neuanstellung von ausländischem Personal, durch Begründung von Betriebsstätten etc.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 2838.35,
+   "ende": 2858.73,
+   "text": "Und dass man da eben natürlich auch sich dem bewusst ist, dass da auch natürlich mal Nachfragen kommen kann. Also auch, weil wir auch international einen Finanzkontenausgleich haben oder einen Abgleich, das heißt gewisse Finanztransaktionsdaten ja auch immer an das deutsche Finanzamt gemeldet werden.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2858.73,
+   "ende": 2875.75,
+   "text": "Also was ich natürlich dann nicht machen sollte, ist von meiner US-LRC irgendwie das deutsche Bankkonto zu behalten und darüber alle Sachen abzuwickeln, weil natürlich das Finanzamt dann auch alle Transaktionen dort sieht und natürlich dann auch mal schneller Rückfrage kriegen können.",
+   "avg_logprob": -0.162,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 2876.45,
+   "ende": 2895.81,
+   "text": "Nun hast du ja auch, also wir reden ja jetzt immer auch davon, ich wandere aus, nehme mein Unternehmen mit oder gründe dann dort ein ähnliches neu, wie auch immer man das dann handhabt. Ich habe, wenn ich das so höre oder lese in meiner Hörerstruktur, vom Altersdurchschnitt auch eher so 40 aufwärts.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.263,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 2895.81,
+   "ende": 2913.83,
+   "text": "Das heißt, es sind ja jetzt vielleicht auch einige Hörer dabei, die sagen, ich habe eigentlich gar nicht vor, mein Unternehmen mitzunehmen, sondern ich arbeite halt noch und wenn ich dann der Klassiker halt das Rentenalter erreicht habe, schließe ich in Anführungszeichen meine Firma und will dann gar nicht mehr arbeiten.",
+   "avg_logprob": -0.021,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 2913.83,
+   "ende": 2935.79,
+   "text": "Da hattest du ja aber auch eingangs schon gesagt, am Ende ist es egal, ob ich die Firma mitnehme oder ob ich sie aufgebe, weil trotz allem der Restwert berechnet wird. Das heißt, auch jemand, der jetzt wirklich, weiß nicht, Ende 50, Anfang 60 ist und sagt, ich will nicht mehr arbeiten, ich habe jetzt auch keine Kinder, die das übernehmen oder sonst irgendwas, ich mache die Bude einfach dicht.",
+   "avg_logprob": -0.025,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 2935.79,
+   "ende": 2950.63,
+   "text": "Und Holly den Santa Fe, auch diese Personen können nicht einfach den Schlüssel rumdrehen und gehen, sondern auch da muss geguckt werden, okay, wie macht man das geschickt, damit man nicht irgendwann auf die Nase fällt sozusagen, ja?",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 2950.63,
+   "ende": 2976.53,
+   "text": "Ja, wobei ich halt immer schauen muss, was habe ich denn für Werte und wenn ich jetzt ein Aktienpaket habe an deutschen Aktien und ich verkaufe das im November 2025 und sage dann, ich versteuere auch die Erlöse ganz normal in der Steuererklärung 2025 und die Gewinne aus der Aktienveräußerung und sage dann zum 1. bzw. zum 31.12. ich ziehe weg, dann ist das kein Problem.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.238,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 2976.53,
+   "ende": 2997.21,
+   "text": "Weil Deutschland ja das Geld auf die Vermögenswerte bekommen hat. Also es wurde ja zutreffend bestollt. Also das ist auch gang und gäbe, dass man eben sagt, okay, man gibt das eben auf. Und auch bei so einer Betriebsaufgabe guckt man dann, was ist das Ganze denn noch wert? Macht dann vielleicht ein Verkauf irgendwie Sinn? Aber dann ist das Thema ja an sich durch.",
+   "avg_logprob": -0.046,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 2997.21,
+   "ende": 3011.97,
+   "text": "Also es geht dann immer nur um aktive Beteiligungen, um aktive Vermögenswerte, die ich eben noch entsprechend besitze. In Klammern eventuell beschränkte Steuerpflicht, weil natürlich nachgelagerte Zuflüsse passieren können.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.31
+  },
+  {
+   "start": 3012.43,
+   "ende": 3015.57,
+   "text": "Aber wenn du dich anschaust vom Grundsatz her, wenn der Vermögenswert verkauft ist,",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3016.15,
+   "ende": 3018.57,
+   "text": "wenn du jetzt Kryptowährungen hättest und sagst,",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3018.63,
+   "ende": 3022.81,
+   "text": "hey, ich brauche jetzt das Geld, um mein Haus auf Zypern zu finanzieren",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3022.81,
+   "ende": 3026.57,
+   "text": "und du verkaufst das hier und es ist steuerpflichtig in Deutschland",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3026.57,
+   "ende": 3028.95,
+   "text": "und du versteuerst das ganz normal zu deinem Steuersatz,",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3029.07,
+   "ende": 3030.05,
+   "text": "dann passiert da nichts.",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3030.57,
+   "ende": 3032.93,
+   "text": "Vermögenswert weg und dann nimmst du das Bargeld",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3032.93,
+   "ende": 3035.63,
+   "text": "oder das Geld auf deinem Konto einfach mit ins Ausland.",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3035.63,
+   "ende": 3039.81,
+   "text": "Okay. Und gibt es denn auch Fälle, wo ich sage, ich wandere aus,",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3039.95,
+   "ende": 3041.87,
+   "text": "behalte aber meine Firma in Deutschland",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 3041.87,
+   "ende": 3056.07,
+   "text": "weil es stört mich auch nicht, in Deutschland Steuern zu zahlen, warum auch immer einen das jetzt nicht stören sollte, aber gibt es auch den Fall oder beziehungsweise andersrum, kann ich zum Beispiel auswandern, mich aus Deutschland abmelden und trotzdem eine Firma in Deutschland haben?",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 3058.3,
+   "ende": 3069.02,
+   "text": "Das passiert in der Praxis sogar sehr häufig, nämlich dann, wenn ich mir zum Beispiel die Wegzugssteuer auch nicht leisten kann, ich nicht umstrukturiere und einfach ein gewisses Setup fahre, dass ich damit fein bin.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.116,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3069.58,
+   "ende": 3075.2,
+   "text": "Also einfach aus persönlichen Gründen sage, hey, ich möchte einfach jeden Morgen den Sonnenaufgang in Dubai erleben.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.116,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3075.68,
+   "ende": 3082.7,
+   "text": "Ich möchte einfach hier wohnen, weil ich es toll finde, habe aber meine 20 Angestellten in Deutschland sitzen, die für mich das operative Geschäft machen.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.116,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3082.7,
+   "ende": 3100.1,
+   "text": "Natürlich funktioniert das. Und das ist tatsächlich auch, ich meine, das Internet ist sehr transparent und man sieht da auch viel und wir haben das auch schon umgesetzt, dass man eben mit einer ausländischen Firma, also Influencer, Content Creator zieht eben zum Beispiel nach Dubai.",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 3100.1,
+   "ende": 3115.48,
+   "text": "Ja, natürlich geht die Person weg, aber der Vermögenswehr, der bleibt eben in einer GmbH stecken. Und dann setzt man einen Fremdgeschäftsführer ein und dann ist natürlich die GmbH ganz normal in Deutschland steuerpflichtig.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.035,
+   "compression_ratio": 1.35
+  },
+  {
+   "start": 3115.48,
+   "ende": 3135.92,
+   "text": "Dann kann man es natürlich trotzdem erreichen, dass über Verträge, Dienstleistungsverträge etc. Geld ins Ausland abfließt. Also die Dubai-Gesellschaft würde eben dann hier die Videos produzieren, würde den Schnitt machen, würde das Marketing übernehmen, würde andere Dienstleistungen tun.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 3135.92,
+   "ende": 3155.44,
+   "text": "Und dann würde natürlich der Gewinn in Deutschland auch entsprechend gedrückt werden und bedarf natürlich auch einer gewissen Analyse und gewissen, gerade im internationalen Steuerrecht, die Verträge müssen dann fremdüblich sein, also muss man natürlich auch alles genau durchleuchten, kann aber natürlich in größeren Vermögenswerten absolut sinnvoll sein.",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3155.44,
+   "ende": 3176.46,
+   "text": "Aber woher kommt denn dieses Image, die Leute wandern aus, um Steuern zu sparen? Weil zumindest wenn ich Deutscher bin, ist das doch eigentlich in den ersten ein, zwei, drei, keine Ahnung. Also es ist doch nicht einfach überhaupt nicht gleichzusetzen, dass eine Auswanderung immer bedeutet, dass ich automatisch in Deutschland Steuern zahle.",
+   "avg_logprob": -0.036,
+   "no_speech_prob": 0.05,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 3176.46,
+   "ende": 3194.66,
+   "text": "Vor allem nicht, wenn ich mich in einem größeren Level bewege, weil wenn ich jetzt so eine kleine Maus bin wie ich, ja, für mich hätte es ja jetzt wirklich nicht so viel, also ich habe einfach nicht viele Steuern zahlen müssen, weil ich nicht viel Gewinn gemacht habe. Ich habe es jetzt aus praktischen Gründen und weil ich einen sauberen Cut haben wollte und so weiter.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 3194.66,
+   "ende": 3211.14,
+   "text": "Aber wenn ich jetzt wirklich auf einem Level operiere, wo es wirklich um viel Geld geht, dann spare ich ja im ersten Schritt überhaupt gar kein Geld, wenn ich auswandere und meine Firma mitnehme. Woher kommt dieses Klischee, dass Auswandern gleich Steuern sparen heißt?",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 3214.69,
+   "ende": 3217.33,
+   "text": "Vielleicht dahingehend die persönliche Meinung.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.068,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 3217.49,
+   "ende": 3221.05,
+   "text": "Ich glaube, wir sind einfach in Deutschland natürlich sehr stark belastet durch die Steuern.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.068,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 3221.17,
+   "ende": 3222.97,
+   "text": "Und dieses Thema ist einfach sehr präsent.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.068,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 3222.97,
+   "ende": 3229.93,
+   "text": "Und wir erleben es ja alle tagtäglich, dass Preise steigen und natürlich da auch ein sehr subjektives Empfinden da ist.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.068,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 3232.01,
+   "ende": 3237.77,
+   "text": "Das vielleicht zum einen und es eben natürlich allerseits bekannt ist, dass wir ein Hochsteuerland sind.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.068,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 3238.29,
+   "ende": 3242.95,
+   "text": "Und vielleicht liegt es auch ein bisschen an der deutschen Mentalität.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.068,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 3242.95,
+   "ende": 3254.91,
+   "text": "Vielleicht kannst du das jetzt sogar besser bestätigen nach deinen jetzigen Erfahrungen, dass wir natürlich da sehr, ich sag mal, etwas engstirniger im Vergleich zu anderen Mentalitäten sind.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.35
+  },
+  {
+   "start": 3254.91,
+   "ende": 3273.51,
+   "text": "Und wir sind auch sehr auf dieses Finanzielle und auf dieses Steuerthema und alles bedacht und haben das einfach sehr im Fokus, sodass diese eigentliche Entscheidung, warum macht das jemand und dass das auch jemand aus Lifestyle-Gründen macht, schnell mal in den Hintergrund gerät.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 3273.51,
+   "ende": 3303.49,
+   "text": "Okay. Absolut.",
+   "avg_logprob": -0.351,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 0.64
+  },
+  {
+   "start": 3303.51,
+   "ende": 3305.01,
+   "text": "was miteinander zu tun hat.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3305.23,
+   "ende": 3308.33,
+   "text": "Also ich kann ja auch abgemeldet sein aus Deutschland",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3308.33,
+   "ende": 3312.41,
+   "text": "und trotzdem durch gewisse Umstände wie eine Firma,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3312.85,
+   "ende": 3317.45,
+   "text": "vielleicht Eigentum, Haus, Einkünfte durch andere Quellen",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3317.45,
+   "ende": 3320.03,
+   "text": "trotzdem weiterhin steuerpflichtig bleiben, oder?",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3322.28,
+   "ende": 3323.14,
+   "text": "Das ist richtig.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3323.3,
+   "ende": 3327.24,
+   "text": "Also die reine Melde formal hier zum Einwohnermeldeamt zu gehen",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3327.24,
+   "ende": 3328.46,
+   "text": "und zu sagen, ich bin jetzt weg,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3328.54,
+   "ende": 3331.68,
+   "text": "das ist einfach ein Ausfluss aus dem entsprechenden Meldegesetz.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3331.78,
+   "ende": 3332.76,
+   "text": "Das muss ich einfach machen.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3332.76,
+   "ende": 3349.78,
+   "text": "Das hat aber mit dem Steuerlichen überhaupt gar nichts zu tun. Das heißt, ich kann auch auswandern, das vergessen. Dann bin ich zwar gemeldet, selbst wenn ich aber nachweisen kann, ich hatte keine Wohnung und ich hatte auch keinen gewöhnlichen Aufenthalt hier in Deutschland, dann löst diese Meldung auch keine unbeschränkte Steuerpflicht in Deutschland aus.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 3349.78,
+   "ende": 3369.32,
+   "text": "Ich muss natürlich nur damit rechnen, dass ich entsprechend auch ein Bußgeld kassieren kann, was, muss ich jetzt nachschauen, irgendwie Richtung 5000 Euro maximal gehen könnte. Aber das ist grundsätzlich losgelöst davon. Aber ja, es ist richtig und da kommen wir jetzt vielleicht auch ein bisschen in den Bereich beschränkte Steuerpflicht, erweiterte beschränkte Steuerpflicht.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 3369.32,
+   "ende": 3392.04,
+   "text": "Das heißt, wenn ich eben durch gewisse Sachverhalte weiterhin im Inland irgendwie noch Einkünfte erziele, beziehungsweise inländische Einkünfte habe, also der Klassiker, ich habe eine vermietete Eigentumsholung, dann sind natürlich diese Mieteinkünfte, da gibt es auch einen endlichen Katalog oder einen abschließenden Katalog, wo ich genau schauen kann.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 3392.04,
+   "ende": 3421.14,
+   "text": "Wenn das der Fall ist, dann bin ich natürlich hier beschränkt steuerpflichtig in Deutschland oder ein Angestellter im Verhältnis. Also wenn du jetzt aus Thailand heraus sagen würdest, du suchst dir eine Anstellung bei einer deutschen Firma, dann müsste man eben gucken, gibt es denn jetzt ein Doppelbesteuerungsabkommen zwischen den Ländern und dann schaut man eben, wo ist denn das Besteuerungsrecht und da schließt sich jetzt wieder der Kreis, dass man eben sagt kann, ein Doppelbesteuerungsabkommen schützt mich eigentlich immer, weil dort klar geregelt ist,",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 3421.14,
+   "ende": 3441.94,
+   "text": "Wer darf besteuern und wer nicht? Und deswegen die Inventur zu machen und diese Einkommensanalyse zu machen. Was habe ich denn eigentlich? Also diese beschränkte Steuerpflicht einfach in abschließender Katalog eben mit gewissen Einkünften, die in Deutschland noch passieren, auch in Deutschland verwertet werden.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 3441.94,
+   "ende": 3445.74,
+   "text": "Kapitaleinkünfte, Zinsen",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 3445.74,
+   "ende": 3449.98,
+   "text": "auch vielleicht Klassiker, aber weniger bekannt",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 3449.98,
+   "ende": 3453.68,
+   "text": "wenn Künstler jetzt hier in Deutschland ein Konzert geben",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 3453.68,
+   "ende": 3457.08,
+   "text": "dann ist die Darbietung, die künstlerische Darbietung auch im Inland",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 3457.08,
+   "ende": 3461.42,
+   "text": "dann sind die zumindest formal",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 3461.42,
+   "ende": 3465.48,
+   "text": "erstmal hier beschränkt Steuerpflicht, das wird ein bisschen anders gelöst",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 3465.48,
+   "ende": 3470.0,
+   "text": "die müssen dann trotzdem keine Steuererklärung hier abgeben, weil es dann Quellensteuereinbehalt gibt",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 3470.0,
+   "ende": 3486.72,
+   "text": "Also der Veranstalter muss dann einfach einen bestimmten Prozentsatz einfach selbst ans Finanzamt abführen und damit ist das Thema erledigt. Aber von der Formalie her ist eben ein schönes Beispiel, diese Verwertung im Inland löst eben diese beschränkte Steuerpflicht aus.",
+   "avg_logprob": -0.024,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 3486.72,
+   "ende": 3504.6,
+   "text": "Und dann gibt es eben noch diese ominöse erweiterte beschränkte Steuerpflicht, die ja da in das Außensteuergesetz mit aufgenommen wurde, wo eben dann gesagt wird, okay, wenn ich bestimmte Voraussetzungen erfülle, bin ich auch zehn Jahre lang nach meinem Wegzug immer noch in Deutschland mit diesem Eingriffen steuerpflichtig.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 3504.6,
+   "ende": 3526.7,
+   "text": "Du hattest jetzt gerade auch schon angesprochen, wie zum Beispiel eine Wohnung, weil da würde ich nochmal kurz konkreter drauf eingehen wollen, weil das ist auch ein Setup, was ich häufig beobachte bei Menschen, die im Ausland leben, unabhängig auch vom Alter, dass sie sich das eben durch Mieteinnahmen aus Immobilien, die sie in Deutschland haben,",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.078,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 3526.7,
+   "ende": 3550.1,
+   "text": "Ob jetzt das eigene Haus, was sie bewohnt hatten und untervermietet ist oder eben auch wirklich mehrere Wohnungen haben, wodurch sie durch die Mieteinnahmen sich dann das Leben hier, gerade jetzt in einem Land wie Thailand, wo die Lebenshaltungskosten ja auch niedriger sind, sich komplett nur durch Mieteinnahmen das neue Leben finanzieren können.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 3550.92,
+   "ende": 3552.5,
+   "text": "Da habe ich dich jetzt richtig verstanden.",
+   "avg_logprob": -0.161,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3553.26,
+   "ende": 3557.56,
+   "text": "Dann ist man trotzdem weiterhin in Deutschland zumindest beschränkt steuerpflichtig,",
+   "avg_logprob": -0.161,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3557.6,
+   "ende": 3560.52,
+   "text": "wenn ich Mieteinnahmen aus Eigentum habe.",
+   "avg_logprob": -0.161,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3561.9,
+   "ende": 3563.86,
+   "text": "Und es kein Doppelbesteuerungsabkommen gibt.",
+   "avg_logprob": -0.161,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3563.86,
+   "ende": 3564.0,
+   "text": "Okay.",
+   "avg_logprob": -0.161,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3565.16,
+   "ende": 3566.64,
+   "text": "Also das ist der entscheidende Punkt.",
+   "avg_logprob": -0.161,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3567.0,
+   "ende": 3571.3,
+   "text": "Die Prüfreinfolge ist eigentlich, dass ich schaue, bin ich denn unbeschränkt steuerpflichtig.",
+   "avg_logprob": -0.161,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3571.4,
+   "ende": 3577.38,
+   "text": "Wenn du jetzt sagst, das ist jetzt dein Ruhestand, du hattest das Haus bewohnt und vermietest das jetzt.",
+   "avg_logprob": -0.161,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 3577.38,
+   "ende": 3598.28,
+   "text": "Da gibt es ja einen zivilrechtlich sicheren Mietvertrag. Das heißt, du hast auch, weil es die Gesetze auch so fordern, bestenfalls alle Schlüssel abgegeben. Also hast keine Schlüsselgewalt, kannst also auch dann keine Wohnung innehaben. Wobei es, glaube ich, auch die Mieter nicht zulassen würden, dass du dann einfach da rein und raus spazierst und da irgendwie deine Sachen ausbreitest.",
+   "avg_logprob": -0.032,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 3598.28,
+   "ende": 3620.06,
+   "text": "Also das ist natürlich der erste Punkt. Es muss halt ausgeschlossen sein, dass du da auch tatsächlich drin bist. Wenn wir jetzt mal das Beispiel nehmen, elternliches Wohnhaus. Du vermietest das jetzt an deine eigenen Eltern. Dann wird es natürlich schon mal familiär bedingt ein bisschen schwieriger. Also dann soll da auch kein Kinderzimmer mehr drin stecken. Und du musst nachweisen, dass es einfach schon lange einen Mietvertrag gibt.",
+   "avg_logprob": -0.032,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 3620.06,
+   "ende": 3636.54,
+   "text": "Wenn der schon seit zehn Jahren existiert, dann ist das auch unproblematisch, solange du eben nicht diese Schlüsselgewalt auch tatsächlich hast. Und wenn du dann doch mal zwei Tage dort schläfst, naja, dann macht es halt keinen Unterschied, ob du zwei Tage dort schläfst oder im Hotel oder in einem Airbnb.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 3636.54,
+   "ende": 3638.56,
+   "text": "Wie? Genau.",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.051,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 3640.5,
+   "ende": 3644.28,
+   "text": "Entschuldigung, wo du gerade sagst, dass du dann zwei Tage da stehst,",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.051,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 3644.34,
+   "ende": 3647.48,
+   "text": "bringt mich direkt noch zu einer weiteren Frage, weil auch das ja immer aufkommt.",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.051,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 3647.72,
+   "ende": 3650.36,
+   "text": "Wie lange darf ich mich denn noch in Deutschland aufhalten,",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.051,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 3650.78,
+   "ende": 3655.0,
+   "text": "wenn ich abgemeldet bin und nicht mehr steuerpflichtig sein möchte?",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.051,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 3655.0,
+   "ende": 3660.42,
+   "text": "Da gibt es ja auch so eine 180-Tage-Regelung, schwirrt da immer so rum.",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.051,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 3660.76,
+   "ende": 3663.22,
+   "text": "Was heißt denn das?",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.051,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 3663.22,
+   "ende": 3668.52,
+   "text": "Also ja, wie bin ich da auf der sicheren Seite, sagen wir mal so?",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 3669.86,
+   "ende": 3673.8,
+   "text": "Ja, also auf der sicheren Seite ist tatsächlich gar nicht nach Deutschland.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 3674.42,
+   "ende": 3677.66,
+   "text": "Aber es lässt sich natürlich manchmal nicht vermeiden, wenn man familiär ist.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 3677.8,
+   "ende": 3683.38,
+   "text": "Also diese 183-Tage-Regelung kommt natürlich einfach aus den Kalendertagen und dass man sagt, okay, die Hälfte des Jahres.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 3684.12,
+   "ende": 3689.86,
+   "text": "Dann ist das eine Annahme, dass ich dann sage, okay, jetzt habe ich hier meinen gewöhnlichen Aufenthalt nicht.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 3689.86,
+   "ende": 3703.14,
+   "text": "Also vielleicht vorabgestellt, wir haben jetzt ausgeschlossen, dass ich wirklich keinen Schlüssel zu einer Wohnung habe, weil eben diese unbeschränkte Steuerpflicht eben durch Schlüsselgewalt, Wohnung, Innehaben einer Wohnung oder eben diesem gewöhnlichen Aufenthalt entsteht.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 3703.14,
+   "ende": 3719.38,
+   "text": "So und deswegen habe ich es gerade so betont, dieser gewöhnliche Aufenthalt bedeutet, diese 183 Tage, an denen kann ich mich tatsächlich nicht komplett festkrallen, weil es eben keine starre Grenze ist, die im Gesetz steht, sondern man schaut eben, das ist nur ein Indiz, man schaut eben, wo ist der gewöhnliche Aufenthalt.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 3719.38,
+   "ende": 3739.5,
+   "text": "Wenn ich also sage, ich bin ständig unterwegs, bin jetzt von den zwölf Monaten fünf Monate in Deutschland, vier Monate in Thailand und dann habe ich noch drei Monate, bin ich noch in Australien oder wo auch immer, dann kann es schon zu Diskussionen kommen, ist denn mein gewöhnlicher Aufenthalt eigentlich in Deutschland?",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 3739.5,
+   "ende": 3754.66,
+   "text": "Und dann, wenn ich dann noch andere Vertragsbeziehungen hier habe und sage, ich habe jetzt doch blöderweise eine Mitgliedschaft im Fitnessstudio hier abgeschlossen, die noch über mein Bankkonto läuft, was ich vergessen habe umzumelden, dann kann das auch mal zu Diskussionen führen.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 3754.84,
+   "ende": 3767.82,
+   "text": "Also deswegen, zusammenfassend, es ist keine starre Grenze. Ich gucke immer, was ist das Gewöhnliche und tatsächlich ist es meines Wissens auch so, dass jedes Land diese Tage, diesen gewöhnlichen Aufenthalt auch ein bisschen anders zählt.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 3767.82,
+   "ende": 3780.6,
+   "text": "Also in Deutschland ist es tatsächlich ab der ersten Minute, also selbst wenn ich in 0 oder 1 in den Flieger steige, war ich den Tag hier. Das wird in anderen Ländern anders gezählt, dass da eben volle Nächte und volle Tage zählen.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 3780.6,
+   "ende": 3802.08,
+   "text": "Und da hast du gerade in dem Zusammenhang auch noch was erwähnt, nämlich Bankkonto. Wenn ich jetzt ausgewandert bin, habe auch keine Führung, also alles ist so geregelt, habe aber noch deutsche Konten, weil ich kann ja auch andersrum in anderen Ländern Konten haben oder was jetzt auch diese Online-Konten wie Vice, Revolut und so weiter.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 3802.08,
+   "ende": 3826.24,
+   "text": "Also es ist ja heutzutage nicht unüblich, dass egal wo ich wohne, ich nicht nur in diesem Land, wo ich lebe, ein Konto habe, sondern vielleicht auch noch in anderen Ländern habe. Ist es aber denn andersrum betrachtet kritisch, wenn ich im Ausland lebe und weiterhin ein deutsches Konto habe, wo meine Oma mir mein Geburtstagsgeld hinüberweist oder ab wann wird ein deutsches Konto kritisch?",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 3826.24,
+   "ende": 3840.24,
+   "text": "Ja, auch hier würde ich wieder unterscheiden, ist es ein privates Konto und wie du es gerade gesagt hast, dann ist es natürlich unkritischer als ein betriebliches Konto, wo ich jetzt meine ausländischen Geschäftsbeziehungen darüber abwickele.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.186,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 3840.24,
+   "ende": 3851.08,
+   "text": "Also man kann es grundsätzlich haben. Es gibt jetzt keine Vorschrift im steuerlichen Sinne, im rechtlichen Sinne, soweit ich weiß, nicht, dass man sagt, man darf hier kein Bankkonto haben.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 3851.08,
+   "ende": 3861.52,
+   "text": "Aber doch eine rechtliche Sache fällt mir vielleicht ein, wo aber die Banken das auch in ihren AGBs aber umsetzen, nämlich die klassische KYC, also die Geldwäscheprüfung.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 3861.52,
+   "ende": 3878.82,
+   "text": "Also wer ist denn eigentlich mein Vertragspartner? Und die meisten klassischen deutschen Banken haben auch einfach ausgeschlossen, dass ich einen Vertragspartner habe, der seinen Wohnsitz im Drittland, also die EU ist noch relativ entspannt in den meisten Fällen, eine Adresse habe.",
+   "avg_logprob": -0.036,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 3878.82,
+   "ende": 3894.18,
+   "text": "Und wenn ich natürlich Dauerreisender bin, wird das natürlich schon wieder schwieriger. Dann kommt es wieder auf mein Setup an. Wo kann ich das denn wirklich nachweisen? Aber an sich grundsätzlich unkritisch, wenn ich da auch hier wieder keine großen Zinsen bekomme.",
+   "avg_logprob": -0.041,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 3894.18,
+   "ende": 3921.2,
+   "text": "Also das eine ist ja das Haben an sich und wenn ich eine Bank habe, die mich nicht kündigt, nachdem ich die Adresse geändert habe, weil eben die Bank das wissen muss, aus Geldwäschegründen und eben AGB bedingt und das Bankkonto behalten darf, dann sollte ich aber schauen, dass, wenn es kein DBA gibt oder wenn es ein DBA gibt und das zu meinen Lasten ist, das kann ja auch passieren, heißt ja nicht immer nur, weil es ein DBA gibt, dass das dann gut ist.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 3921.2,
+   "ende": 3932.14,
+   "text": "Es kann natürlich auch sein, dass Deutschland das Besteuerungsrecht hat, dass ich eben dann nicht in die beschränkte Steuerpflicht rutsche, weil ich da eben 7,13 Euro Zinsen auf dem Tagesgeld bekommen habe.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.32
+  },
+  {
+   "start": 3932.14,
+   "ende": 3952.4,
+   "text": "Ja, okay. Also wie du vorhin schon gesagt hast, kommt drauf an. Ja, es kommt immer drauf an. Ich habe noch, ich gucke hier gerade, wir sind jetzt fast, je nachdem, wie ich nachher unsere kurze Unterbrechung zusammengeschnibbelt bekomme, aber sind wir so fast bei einer Stunde. Ich vermute, wer es bis hierhin geschafft hat, dem raucht schon der Kopf.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 3952.4,
+   "ende": 3972.42,
+   "text": "Aber eine Frage habe ich noch und zwar, beziehungsweise kannst du auch gleich gerne vielleicht abschließend noch was sagen, wo du denkst, das wäre noch wichtig. Aber wenn ich jetzt überlege auszuwandern und habe noch kein Unternehmen, bin vielleicht noch angestellt und weiß aber, ich möchte das aus welchen Gründen auch immer im nächsten Jahr oder übernächsten Jahr machen.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 3973.1,
+   "ende": 3989.06,
+   "text": "Macht es Sinn, weil eine Selbstständigkeit vor allem jetzt auch so, wie ich das mache und was ja auch immer mehr im Kommen ist, diese digitale Selbstständigkeit oft ja auch das Auswandern natürlich finanziert oder überhaupt erst ermöglicht, weil ich eben diese Flexibilität habe, von überall zu arbeiten.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 3989.78,
+   "ende": 3994.52,
+   "text": "Macht es steuerlich trotzdem Sinn, wenn ich das jetzt alles weiß, was wir hier besprochen haben,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 3994.74,
+   "ende": 3998.14,
+   "text": "mich dann gar nicht erst in Deutschland schon selbstständig zu machen,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 3998.14,
+   "ende": 4002.92,
+   "text": "sondern zu sagen, okay, ich kann das alles planen, ich habe das auch alles schon, weiß so wie das ab.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4003.0,
+   "ende": 4008.14,
+   "text": "Vielleicht habe ich auch sogar schon Kunden, weil die sagen, sie würden mich auch beschäftigen,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4008.2,
+   "ende": 4010.64,
+   "text": "wenn ich selbst auf selbstständiger Basis arbeite.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4011.38,
+   "ende": 4015.98,
+   "text": "Macht es dann Sinn, mit der Gründung einer Selbstständigkeit auch dann zu warten,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4015.98,
+   "ende": 4019.96,
+   "text": "bis ich tatsächlich aus Deutschland weg bin, anstatt jetzt ein halbes",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 4019.96,
+   "ende": 4024.06,
+   "text": "oder dreiviertel Jahr vorher ein Einzelunternehmen zu gründen oder gar eine GmbH",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 4024.06,
+   "ende": 4027.8,
+   "text": "und dann wohl wissend, dass ich in einem halben oder dreiviertel Jahr",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 4027.8,
+   "ende": 4032.14,
+   "text": "gehen werde? Spannende Frage.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 4032.5,
+   "ende": 4035.92,
+   "text": "Bis zu dem Punkt, als du sagtest, ich habe vielleicht schon die",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 4035.92,
+   "ende": 4037.42,
+   "text": "ersten Gründe, hätte ich gesagt.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 4038.76,
+   "ende": 4043.18,
+   "text": "Genau, also natürlich.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 4043.18,
+   "ende": 4064.68,
+   "text": "Ich kann ja jederzeit einfach eine Auslandsgesellschaft gründen. Also wenn ich jetzt sage, ich möchte eine Hongkong Limited gründen, weil ich da vorhabe, mal meine Fühler auszustrecken, dann kann ich das natürlich tun. Dann habe ich entsprechende Meldepflichten. Ich muss das über meine Steuererklärung oder gesondert entsprechend dem Finanzamt mitteilen, dass ich eine Auslandsbeteiligung habe.",
+   "avg_logprob": -0.025,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 4064.68,
+   "ende": 4083.08,
+   "text": "Aber solange da keine Erträge kommen oder keine Zuflüsse, passiert ja erst mal nichts. Gegebenenfalls muss ich auch hier prüfen, klar, habe ich jetzt den Ort der Geschäftsleitung, also muss ich die Gesellschaft und jetzt meine Hongkong Limited in Deutschland auch registrieren, weil ich ja als Geschäftsführer hier wohne.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 4083.08,
+   "ende": 4095.06,
+   "text": "Ja, dann mache ich das, aber dann passiert da ja nichts. Das heißt, die entwickelt keinen Wert, sondern das Entscheidende ist, aber dann ist denn ein Wert vorhanden im Wegzugszeitpunkt.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 4096.48,
+   "ende": 4112.96,
+   "text": "In deinem Einzelunternehmer-Case, den du gerade hattest, ich habe vielleicht schon erste Kunden, steuerlich ist jetzt ein Gewerbebetrieb oder das Bestehen eines Einzelunternehmens nicht wirklich gekoppelt an diese Gewerbeanmeldung, Stichwort Freiberufer.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 4113.08,
+   "ende": 4114.8,
+   "text": "haben wir ja Freiberufler, haben wir ja trotzdem.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 4115.44,
+   "ende": 4116.8,
+   "text": "Und auch wenn ich zwei Mandanten habe,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 4116.86,
+   "ende": 4118.86,
+   "text": "habe ich die einfach und die sind einfach was wert,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 4119.3,
+   "ende": 4121.2,
+   "text": "auch wenn ich nicht zum Gewerbeamt gehe,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 4121.26,
+   "ende": 4121.88,
+   "text": "weil ich nicht muss.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 4122.8,
+   "ende": 4124.66,
+   "text": "Und dann muss ich natürlich schauen, was das ist.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 4124.78,
+   "ende": 4126.26,
+   "text": "Und wenn ich natürlich dann mit meiner,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 4126.4,
+   "ende": 4128.32,
+   "text": "um wieder zurück zu der Hoffnung-Limite zu kommen,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 4129.12,
+   "ende": 4131.16,
+   "text": "sage, die nehme ich jetzt bitte ins Ausland,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 4131.5,
+   "ende": 4134.06,
+   "text": "na ja, dann will natürlich das Finanzamt schon wissen,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 4134.06,
+   "ende": 4136.12,
+   "text": "was steckt denn da drin? Ist da was gelaufen?",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 4136.42,
+   "ende": 4137.98,
+   "text": "Und dann kann es natürlich sein,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 4138.12,
+   "ende": 4139.96,
+   "text": "dass es schwieriger wird, Nachweise zu bringen.",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 4140.2,
+   "ende": 4140.98,
+   "text": "Dann muss man schauen,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 4141.04,
+   "ende": 4142.46,
+   "text": "habe ich überhaupt erst mal eine Gesellschaft,",
+   "avg_logprob": -0.159,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 4143.08,
+   "ende": 4156.8,
+   "text": "Wo ich eine saubere Buchhaltung habe. Entspricht die Buchhaltung denn auch den deutschen Anforderungen oder muss ich das eventuell auch überleiten? Also hier muss ich mir schon genau überlegen, an welches Land möchte ich und zu welchem Zeitpunkt gründe ich tatsächlich.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 4156.8,
+   "ende": 4185.4,
+   "text": "Okay. Aber das heißt, wenn ich jetzt wirklich durch Ersparnis oder was auch immer weiß, ich kann mich erstmal ein halbes, dreiviertel Jahr über Wasser halten und weiß vielleicht auch noch nicht so hundertprozentig, womit ich mich selbstständig machen will und so und gehe halt erstmal, weil auswandern will ich auf jeden Fall, dann ist es schon leichter, irgendwann im Laufe meines Auslandsaufenthaltes, wo auch immer ich dann bin, mich mit einer Gründung zu beschäftigen,",
+   "avg_logprob": -0.038,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 4185.4,
+   "ende": 4200.4,
+   "text": "als wenn ich jetzt einfach irgendwie vorher denke, ich bin ja Deutscher und das Gewerbeamt, das habe ich schon mal gehört, ich mache jetzt mal für 36 Euro oder was das inzwischen kostet, melde ich mal vorsichtshalber schon mal ein Gewerbe an, weil ich weiß ja, dass ich mich mal selbstständig machen will.",
+   "avg_logprob": -0.041,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 4200.4,
+   "ende": 4220.54,
+   "text": "Das wäre ja eigentlich Quatsch, wenn ich noch angestellt bin. Also wir würden ja dann unnötig hier eine Firma gründen, die wir hier gar nicht haben wollen, wodurch ich ja gleich wieder in ganz andere steuerliche Themen reinrutsche, als wenn ich halt bis zu meinem Wegzug Angestellter bin, oder?",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 4220.54,
+   "ende": 4234.32,
+   "text": "Das ist richtig. Natürlich, wenn das jetzt ein Einzelunternehmen ist und da grundsätzlich nichts passiert, kann ich das natürlich dem Finanzamt offenlegen und sagen, okay, das ist jetzt so, dann melde ich das Gewerbe halt wieder ab und dann hat sich das Thema grundsätzlich erledigt.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.088,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 4234.32,
+   "ende": 4246.22,
+   "text": "Aber klar, richtig, also ich würde hier immer unterscheiden, wenn ich eben ein Einzelunternehmen oder eine Kapitalgesellschaft und dann eben zu schauen, welche Schritte und welche Reihenfolge halte ich ein",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 4246.22,
+   "ende": 4257.76,
+   "text": "In der Praxis ist es aber tatsächlich auch eher so, dass ich gerade bei Kapitalgesellschaften immer erst die Kapitalgesellschaft im Ausland gründe und dann entsprechend wegziehe",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 4257.76,
+   "ende": 4268.24,
+   "text": "Das ist auch okay, wenn das eben wenige Monate vorher passiert. Natürlich muss ich dann nachweisen, dass da grundsätzlich kein großer Wert drin ist, aber das ist in der Regel auch relativ einfach machbar.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.32
+  },
+  {
+   "start": 4268.24,
+   "ende": 4288.18,
+   "text": "Ja, hast du jetzt, denkst du, gibt es noch was, was ich jetzt noch nicht gefragt habe, wo du sagst, okay, das wäre jetzt in diesem ganzen Thema Auswanderung, Firma, Selbstständigkeit, GmbH, was auch immer, was wir jetzt noch komplett außen vor gelassen haben?",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.057,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 4288.18,
+   "ende": 4304.98,
+   "text": "Oder denkst du, wir haben jetzt erstmal so einen groben, guten Einblick gegeben und alles Weitere ist ja tatsächlich einfach super individuell. Deswegen finde ich es auch so schwierig, dazu so allgemeine Sachen zu beraten, auch wenn mich jetzt jemand fragt.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 4304.98,
+   "ende": 4325.44,
+   "text": "Ich kenne das selber. Ich habe auch immer Leute gefragt oder hätte gerne gewusst, wie haben andere das gemacht? Und all die, die es schon gemacht haben, waren immer sehr zögerlich mit ihren Antworten. Und jetzt weiß ich halt auch, warum, weil es einfach schwierig ist, weil nur, weil ich es so gemacht habe, heißt das eben nicht ansatzweise, dass das für jemand anderen genauso funktioniert.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 4325.44,
+   "ende": 4346.94,
+   "text": "Und deshalb, egal was wir jetzt auch besprochen haben und wo vielleicht für den einen oder anderen auch so ein Aha-Moment hoffentlich war, glaube ich, kommt man nicht umhin, sich in dem Bereich wirklich Unterstützung zu suchen und das eben nicht zu denken, dass das was ist, wo ich mir ein paar YouTube-Videos angucke und dann kann ich das schon alleine.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 4346.94,
+   "ende": 4350.3,
+   "text": "weil die wenigsten von uns würden ja auch",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 4350.3,
+   "ende": 4352.18,
+   "text": "irgendwie vor Gericht gehen ohne",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 4352.18,
+   "ende": 4354.08,
+   "text": "Anwalt, es sei denn ich habe selber Jura studiert",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 4354.08,
+   "ende": 4355.36,
+   "text": "obwohl man es ja dürfte",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 4355.36,
+   "ende": 4358.04,
+   "text": "aber machen wird es wahrscheinlich",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 4358.04,
+   "ende": 4359.8,
+   "text": "keiner, weil einem irgendwie klar ist",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 4359.8,
+   "ende": 4362.18,
+   "text": "ich werde das nie so abdecken können",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 4362.18,
+   "ende": 4363.98,
+   "text": "und vertreten können, wie es halt",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 4363.98,
+   "ende": 4366.08,
+   "text": "ein Anwalt könnte und das ist aus meiner Sicht in dem",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 4366.08,
+   "ende": 4368.02,
+   "text": "Bereich genau das gleiche, wer da wirklich",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 4368.02,
+   "ende": 4370.1,
+   "text": "denkt, er kann das alleine",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 4370.1,
+   "ende": 4372.16,
+   "text": "weil er dazu was gelesen hat oder mal was",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 4372.16,
+   "ende": 4374.24,
+   "text": "gehört hat oder sich mal mit jemandem unterhalten hat",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 4374.24,
+   "ende": 4376.18,
+   "text": "würde ich auf alle",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 4376.18,
+   "ende": 4377.86,
+   "text": "Fälle von abraten und",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4377.86,
+   "ende": 4380.34,
+   "text": "da immer Unterstützung",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4380.34,
+   "ende": 4382.16,
+   "text": "holen und alles, was du auch",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4382.16,
+   "ende": 4384.2,
+   "text": "gesagt hast mit, ja, dann kann ich das so und",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4384.2,
+   "ende": 4386.18,
+   "text": "so machen oder dann kann ich mir das überlegen",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4386.18,
+   "ende": 4388.04,
+   "text": "oder dann kann ich das und das auflisten.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4388.6,
+   "ende": 4390.0,
+   "text": "Mit ich meinst du ja",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4390.0,
+   "ende": 4391.94,
+   "text": "letztendlich auch nicht den",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4391.94,
+   "ende": 4394.26,
+   "text": "Klienten, der das alleine macht, sondern",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4394.26,
+   "ende": 4396.26,
+   "text": "mit dann jemandem zusammen,",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4396.46,
+   "ende": 4397.9,
+   "text": "weil diese ganzen",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4397.9,
+   "ende": 4400.26,
+   "text": "Dinge, die du jetzt auch geschildert hast,",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4400.76,
+   "ende": 4402.14,
+   "text": "auch wenn man sie gehört hat, die",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4402.14,
+   "ende": 4404.14,
+   "text": "wirkliche Umsetzung muss",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4404.14,
+   "ende": 4405.96,
+   "text": "man ja, also muss man nicht, aber wäre",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.03,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4405.96,
+   "ende": 4410.02,
+   "text": "halt auch hilfreich, das wirklich dann auch mit einem Fachmann oder einer Fachfrau",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 4410.02,
+   "ende": 4413.94,
+   "text": "zu machen. Ja, du hast es gerade",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 4413.94,
+   "ende": 4417.9,
+   "text": "super zusammengefasst. Also im ersten Schritt würde ich mir immer anschauen, wenn ich sowas vor",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 4417.9,
+   "ende": 4421.86,
+   "text": "hätte. Also natürlich, Punkt eins, und da komme ich zu meinem Eingangssatz",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 4421.86,
+   "ende": 4425.78,
+   "text": "zurück, es ist eine Lifestyle-Entscheidung und alles weitere strickt man dann darum.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 4426.54,
+   "ende": 4429.74,
+   "text": "Punkt zwei, mir ist kein Fall bekannt, wo man",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 4429.74,
+   "ende": 4433.42,
+   "text": "nicht mindestens ein Viertel- oder halbes Jahr Vorlauf hatte. Also ich",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 4433.42,
+   "ende": 4450.82,
+   "text": "Es mag sein, dass es das gibt, dass jemand sagt, um Gottes Willen, mit diesem Ereignis bin ich jetzt nicht zufrieden. Ich muss jetzt sofort, ich muss morgen aus Deutschland raus. Ich wünsche mir von Herzen, dass wir das auch in Deutschland nie erleben werden, so eine Situation, sodass wir in der Regel auch immer genug Vorlaufzeit haben.",
+   "avg_logprob": -0.053,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 4450.82,
+   "ende": 4476.6,
+   "text": "So, einen zweiten Schritt würde ich dann mir anschauen, was habe ich denn für eine Struktur für mich selbst, also wie bin ich aufgestellt, bin ich Angestellter und habe sonst kein Kapitalvermögen, keine Vermietung, keine Krypto, dann ist das natürlich leichter umsetzbar, gleichzustellen mit Einzelunternehmen, die, ich sage mal, noch als klein zählen.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 4476.6,
+   "ende": 4494.1,
+   "text": "Ich hatte vorhin mal so ein paar Eckpunkte genannt, also alles so bis 100.000 Gewinn, würde ich jetzt mal sagen, oder 80.000 Gewinn. Das sind so kleinere Fälle. Da lohnt es sich auf jeden Fall auch mal die Beraterstunde beim Steuerberater zu buchen, um einfach mal kurz einen Überblick zu bekommen, habe ich überhaupt Themen.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 4494.9,
+   "ende": 4497.92,
+   "text": "Aber gerade in diesem Bereich fallen auch schon ganz viele Sachen raus",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 4497.92,
+   "ende": 4499.96,
+   "text": "und dann muss ich mich einfach nicht damit beschäftigen.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 4499.96,
+   "ende": 4505.82,
+   "text": "Und das ist auch ein kleiner Ausfluss unserer Überflussgesellschaft an Information.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 4506.1,
+   "ende": 4509.18,
+   "text": "Es gibt wunderbare Facebook-Gruppen, es gibt wunderbare Communities,",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 4509.32,
+   "ende": 4510.62,
+   "text": "es gibt die wunderbare Newsletter.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 4511.5,
+   "ende": 4516.3,
+   "text": "Und dann ist eben das Thema, dann liest man viel und bekommt auch schnell Angst,",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 4516.48,
+   "ende": 4518.14,
+   "text": "was mich aber gar nicht betrifft vielleicht,",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 4518.26,
+   "ende": 4522.54,
+   "text": "weil ich einfach kategorisch und von den Beträgen her gar nicht dort reinfalle.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 4522.54,
+   "ende": 4545.08,
+   "text": "Na also Stichwort erweiterte beschränkte Steuerpflicht, das haben wir jetzt gar nicht weiter thematisiert, aber wenn ich dann eben schon ausschließen kann, ich habe kein Inlandsinteresse, wie es im Paragraf 2 Außensteuergesetz definiert ist, dann muss ich mich mit diesem Begriff erweiterte beschränkte Steuerpflicht erstmal nicht weiter rumärgern und kann das einfach über dauerhaft überlesen, weil ich das einfach über eine Beratung ausgeschlossen habe.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.045,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 4545.98,
+   "ende": 4549.0,
+   "text": "Also wie gesagt, zusammenfassend, da ein bisschen Struktur reinzubekommen,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 4549.1,
+   "ende": 4551.86,
+   "text": "erst mal sagen, was ist für mich wichtig, was ist nicht für mich wichtig,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 4552.02,
+   "ende": 4556.88,
+   "text": "was kann ich von vornherein ausfiltern und dann eben versuchen,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 4557.6,
+   "ende": 4562.78,
+   "text": "mit einem klaren Plan und klaren Handlungsempfehlungen einfach voranzugehen",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 4562.78,
+   "ende": 4564.94,
+   "text": "und ja, auch den Austausch nutzen.",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 4565.26,
+   "ende": 4569.92,
+   "text": "Wir sind alle vernetzt, wir können uns alle connecten zu diversen,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 4569.98,
+   "ende": 4573.38,
+   "text": "auch für die Steuerberater ist ja super, wir lernen auch ja Mandanten kennen,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 4573.38,
+   "ende": 4575.56,
+   "text": "die ganz überall auf der Welt verstreut sind.",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 4576.3,
+   "ende": 4580.04,
+   "text": "Also ich kann beraten, ja, tatsächlich, also Kandlei sitzt ja in Leipzig,",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 4580.74,
+   "ende": 4586.76,
+   "text": "aber wir haben, das müsste ich lügen, nicht viele Mandate hier vor Ort,",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 4586.86,
+   "ende": 4590.42,
+   "text": "weil die meisten tatsächlich quer in Deutschland verteilt sind.",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 4591.42,
+   "ende": 4597.7,
+   "text": "Und auch so hier, die Menschen, die einfach diesen Schritt schon gewagt haben,",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 4597.92,
+   "ende": 4600.48,
+   "text": "connectet euch mit denen, tauscht euch mit denen aus,",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 4600.48,
+   "ende": 4602.44,
+   "text": "um einfach so ein paar Erfahrungswerte zu sammeln,",
+   "avg_logprob": -0.154,
+   "no_speech_prob": 0.023,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 4602.44,
+   "ende": 4607.48,
+   "text": "auch abseits dieser berühmt-berüchtigten und auch gefürchteten Steuerwelt.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 4607.92,
+   "ende": 4610.2,
+   "text": "Ja, es ist gefürchtet.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 4610.42,
+   "ende": 4618.82,
+   "text": "Ich sage immer, für uns jetzt als Familie, Finanzamt und Schulbehörde sind so die zwei roten Tücher,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 4618.96,
+   "ende": 4624.58,
+   "text": "diese Institutionen, vor denen man wirklich Angst hat und zum Teil ja auch zu Recht.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 4624.72,
+   "ende": 4628.28,
+   "text": "Und natürlich gibt es, wie du auch gesagt hast, unfassbar viele Fälle,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 4628.28,
+   "ende": 4631.96,
+   "text": "die mit all diesem Halbwissen durchrutschen, denen nichts passiert",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 4631.96,
+   "ende": 4637.12,
+   "text": "und wo alles gut geht, die einfach unterm Radar laufen.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 4638.1,
+   "ende": 4646.22,
+   "text": "Aber das Risiko, die Nadel im Heuhaufen zu sein, wäre mir persönlich zum Thema Steuern",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 4646.22,
+   "ende": 4653.36,
+   "text": "und auch zum Thema Schulpflicht zu groß, wobei es bei der Schulpflicht ja viel schneller noch offensichtlicher ist",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 4653.36,
+   "ende": 4654.88,
+   "text": "und viel schneller auffällt.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 4656.14,
+   "ende": 4659.52,
+   "text": "Aber letztendlich muss es natürlich jeder selber entscheiden.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 4659.52,
+   "ende": 4678.28,
+   "text": "Ich kenne sehr viele, die wirklich blauäugig los sind und ja, ich habe das mit der LLC gelesen und das ist überhaupt gar kein Problem und machen das und waren dann auch irgendwie mehr als ein halbes Jahr in Deutschland und haben sich überhaupt keinen Kopf gemacht und bisher ist da auch alles gut gegangen. Ist ja auch okay. Am Ende muss es jeder für sich selbst entscheiden.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 4678.28,
+   "ende": 4697.82,
+   "text": "Aber ich glaube gerade in Deutschland, wahrscheinlich verstehen die Finanzämter weltweit keinen Spaß, aber ich würde behaupten, dass in Deutschland versteht halt am allerwenigsten Spaß und deshalb wäre mir da eine Beratung oder jemand, der sich damit auskennt an meiner Seite, ist mir da auf jeden Fall wichtig.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 4697.82,
+   "ende": 4713.38,
+   "text": "Und deshalb habe ich auch gerne, ich hatte überlegt, diese Folge alleine zu machen zum Thema Steuern und war dann aber sehr froh, dass du gesagt hast, dass du da Lust hättest auf das Interview, weil auch ich ja dann trotz allem nur mit einem Halbwissen hätte darüber reden können.",
+   "avg_logprob": -0.038,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 4713.38,
+   "ende": 4735.8,
+   "text": "Und von daher freue ich mich, dass das jetzt hier geklappt hat und wir so viele wertvolle und ja, muss man auch sagen, für alle, die zuhören, kostenfreie Infos hier rausgehauen haben. Und ja, deswegen vielen Dank, dass du dir die Zeit genommen hast. Und ich bin schon traurig, dass wir nicht mehr zusammenarbeiten können.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 4738.22,
+   "ende": 4740.76,
+   "text": "Vielleicht gründest du doch nochmal eine Gesellschaft in Deutschland.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 4740.76,
+   "ende": 4743.82,
+   "text": "Na ja, man soll ihn nie sagen.",
+   "avg_logprob": -0.178,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.32
+  },
+  {
+   "start": 4744.08,
+   "ende": 4745.74,
+   "text": "Aber wenn es so wäre, dann wüsste ich",
+   "avg_logprob": -0.178,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.32
+  },
+  {
+   "start": 4745.74,
+   "ende": 4747.74,
+   "text": "zumindest, an wen ich mich wenden",
+   "avg_logprob": -0.178,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.32
+  },
+  {
+   "start": 4747.74,
+   "ende": 4749.76,
+   "text": "kann. Sehr gut.",
+   "avg_logprob": -0.178,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.32
+  },
+  {
+   "start": 4749.84,
+   "ende": 4751.64,
+   "text": "Auch dir herzlichen Dank für das spannende",
+   "avg_logprob": -0.178,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.32
+  },
+  {
+   "start": 4751.64,
+   "ende": 4753.14,
+   "text": "Gespräch. Hat mir sehr viel Spaß gemacht.",
+   "avg_logprob": -0.178,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.32
+  },
+  {
+   "start": 4754.0,
+   "ende": 4755.44,
+   "text": "Vielen Dank. Okay, dann",
+   "avg_logprob": -0.178,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.32
+  },
+  {
+   "start": 4755.44,
+   "ende": 4757.34,
+   "text": "bis bald. Ciao.",
+   "avg_logprob": -0.178,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.32
+  },
+  {
+   "start": 4758.32,
+   "ende": 4758.52,
+   "text": "Tschüss.",
+   "avg_logprob": -0.178,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.32
+  }
+ ]
+}

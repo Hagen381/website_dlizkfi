@@ -1,0 +1,1450 @@
+{
+ "meta": {
+  "slug": "17-jahre-rostock-gehen-zu-ende",
+  "titel": "17 Jahre Rostock gehen zu Ende",
+  "datum": "2025-08-18T06:40:23.000Z",
+  "dauer_sekunden": 1423,
+  "guid": "20dd2c36-0658-4c2e-87c9-2a687fd42406",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T08:27:00Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 6,
+   "transkription": 1337
+  },
+  "echtzeitfaktor": 0.94,
+  "anzahl_segmente": 178,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.27,
+   "ende": 22.73,
+   "text": "Ja, ich habe einfach das Gefühl, ich kann nichts dafür, dass ich so bin. Es ist einfach in mir drin so und es war auch schon immer so, das habe ich ja auch schon in einer Folge erzählt, dass ich auch als Kind immer schon gerne weg wollte und weg war und unterwegs war und mich gefreut habe, wenn ich woanders sein konnte.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.08,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 22.73,
+   "ende": 34.92,
+   "text": "Herzlich Willkommen zu Glitzkvieh, das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.187,
+   "no_speech_prob": 0.351,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 36.08,
+   "ende": 41.22,
+   "text": "Heute mal mit einer kleinen Ode an Rostock.",
+   "avg_logprob": -0.187,
+   "no_speech_prob": 0.351,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 42.32,
+   "ende": 48.9,
+   "text": "Mir ist nämlich die Tage bewusst geworden, dass das jetzt so die letzten Podcast-Folgen sein werden,",
+   "avg_logprob": -0.187,
+   "no_speech_prob": 0.351,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 49.24,
+   "ende": 54.88,
+   "text": "die ich nicht nur in dieser Wohnung hier aufnehmen werde, sondern auch in Rostock.",
+   "avg_logprob": -0.187,
+   "no_speech_prob": 0.351,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 54.88,
+   "ende": 59.04,
+   "text": "und also beziehungsweise wir wohnen ja nicht mehr direkt in Rostock,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 59.04,
+   "ende": 63.18,
+   "text": "aber in einem Ort nebenan, gleich sieben Kilometer bis zur Innenstadt.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 63.26,
+   "ende": 65.24,
+   "text": "Für mich ist es weiterhin Rostock.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 66.22,
+   "ende": 71.62,
+   "text": "Und ich habe tatsächlich an keinem Ort so lange gelebt wie in Rostock.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 72.92,
+   "ende": 76.78,
+   "text": "Hagen wirft mir immer so ein bisschen vor, beziehungsweise nicht wirft mir vor,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 76.9,
+   "ende": 80.64,
+   "text": "aber hat so ein bisschen Angst, dass wenn wir jetzt dann ausgewandert sind,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 81.36,
+   "ende": 83.36,
+   "text": "dass ich dann in ein, zwei Jahren wieder sage,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 83.36,
+   "ende": 107.14,
+   "text": "ja gut, jetzt waren wir hier, wo können wir denn als nächstes wohnen, weil er halt sagt, dass ich nie, ja, dass ich halt immer Hummeln im Arsch habe und immer irgendwie dann wieder woanders hin will, wenn es mir dann an einer Stelle zu langweilig wird und ja, die Angst kann ich ihm jetzt auch nicht so richtig nehmen, also ich kann das auch nicht so wirklich verneinen,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 107.94,
+   "ende": 113.16,
+   "text": "weil es tatsächlich so ist, dass ich einfach, ja, wie glaube ich inzwischen jetzt alle mitbekommen haben,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 113.16,
+   "ende": 121.24,
+   "text": "sehr gerne unterwegs bin und für mich, ja, es auch nicht so dieses eine Zuhause gibt",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 121.24,
+   "ende": 130.86,
+   "text": "und ich mich eigentlich immer in der Welt zu Hause fühle und, ja, wenn ich unterwegs bin, mich zu Hause fühle.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 130.86,
+   "ende": 144.94,
+   "text": "Ich habe auch, Entschuldigung, ohne dass ich jetzt besonders, also ich bin schon in den letzten Jahren ein bisschen spiritueller geworden, aber ich würde mich jetzt auch nicht als den totalen, absoluten, oberspirituellen Menschen bezeichnen.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 145.74,
+   "ende": 153.78,
+   "text": "Dennoch habe ich irgendwie schon seit vielen Jahren so ein Gefühl oder zumindest sage ich dann manchmal so, ja auch aus Spaß,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 154.5,
+   "ende": 161.04,
+   "text": "dass ich in meinem früheren Leben, wenn es denn sowas gibt, mal zu einem Nomadenvolk gehört habe.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 161.88,
+   "ende": 167.64,
+   "text": "Ich fühle mich ja auch unglaublich stark zu der Behausung der Jurte hingezogen.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 167.64,
+   "ende": 172.76,
+   "text": "Das sind ja diese runden Zelte, obwohl ich noch nie in einer Jurte war.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 172.76,
+   "ende": 189.24,
+   "text": "Also trotz allem habe ich das Gefühl, dass ich, ja, dass ich da irgendwie wohnen könnte oder dass das das perfekte, die perfekte Behausung für mich wäre, auch in meinem Firmenlogo, besteht ja auch aus einer Jurte.",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 189.24,
+   "ende": 194.62,
+   "text": "und ich habe dann manchmal auch, wenn ich die Augen schließe,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 194.62,
+   "ende": 200.0,
+   "text": "so, ja, wie so Visionen, wie ich über so eine Steppe laufe,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 200.1,
+   "ende": 206.9,
+   "text": "es ist dann dunkel und es sind ganz, also gefühlt Hunderte von anderen Menschen da,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 207.16,
+   "ende": 215.66,
+   "text": "wir haben alle, es ist ganz still, also man hört nur dieses, das Laufen oder Gehen der ganzen Menschen,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 215.66,
+   "ende": 223.08,
+   "text": "Herde ist natürlich nicht das richtige Wort für Menschen, aber Herde ist das Wort, was mir dazu einfällt",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 223.08,
+   "ende": 230.76,
+   "text": "Und wir gehen da in dieser Herde über diese Steppe und es ist meistens windig",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 230.76,
+   "ende": 238.32,
+   "text": "Und wir sind alle irgendwie mit Fellen angezogen und tragen eben unser ganzes Hab und Gut auf dem Rücken",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 238.32,
+   "ende": 243.18,
+   "text": "Und das fühle ich halt total, also ich fühle das richtig, wie ich da lang gehe",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 243.18,
+   "ende": 258.26,
+   "text": "Und habe einfach das Gefühl, dass ich da mittendrin bin und dass das irgendwann mal so passiert ist. Also es ist jetzt wirklich für, ich glaube für spirituelle Menschen ist die Geschichte jetzt so sehr herzerwärmt und andere denken sich jetzt vielleicht, hat die eine totale Macke.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 258.26,
+   "ende": 286.84,
+   "text": "Ja, und das geht dann so weit, dass ich manchmal auch, gerade wenn ich irgendwie nicht so gut drauf bin und die Ruhe in mir finden kann, dass ich dann in dieser Szenerie eine Jurte steht, die mit Kerzenschein beleuchtet ist und der Wind, der dann eben wird dann zu einem Sturm und ich kann dann in diese Jurte flüchten und vor dem Wetter flüchten und da ist alles ganz gemütlich mit Fellen und kuschelig und Kerzen",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 286.84,
+   "ende": 294.32,
+   "text": "und da ist meistens eine ältere Frau drin, die da auf mich wartet, die ich bin, also ich in alt.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 296.56,
+   "ende": 303.74,
+   "text": "Das spiegelt, glaube ich, ganz gut meinen Fernweh, meine Sehnsucht nach unterwegs sein",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 303.74,
+   "ende": 308.7,
+   "text": "und auch dieser innere Antrieb, unterwegs sein zu wollen.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 309.14,
+   "ende": 310.52,
+   "text": "Deswegen habe ich da jetzt so ausgeholt.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 310.6,
+   "ende": 314.92,
+   "text": "Das ist nicht, weil ich irgendwie die Orte, an denen ich bin, irgendwann doof finde",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 314.92,
+   "ende": 342.84,
+   "text": "oder weil ich ja nie zufrieden bin in dem Sinne, wobei es natürlich trotzdem auch ein bisschen an Unzufriedenheit dann gekoppelt ist, klar, aber ja, ich habe einfach das Gefühl, ich kann nichts dafür, dass ich so bin, es ist einfach in mir drin so und es war auch schon immer so, das habe ich ja auch schon in einer Folge erzählt, dass ich auch als Kind immer schon gerne weg wollte und weg war und unterwegs war und mich gefreut habe, wenn ich woanders sein konnte.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 342.84,
+   "ende": 370.68,
+   "text": "Genau, und ja, demnach, wie gesagt, hat Hagen da auch eine berechtigte Sorge. Mein Gegenargument in diesen Gesprächen ist dann aber, dass ich immerhin ja schon bewiesen habe, dass ich auch länger an einem Ort bleiben kann, nämlich mit der Tatsache, dass ich jetzt schon seit 17 Jahren in, nee, seit 17, 18 Jahren schon, ja, seit 18 Jahren in, Mensch, bin ich zu doof zum Rechnen, 17 Jahre?",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 370.68,
+   "ende": 391.62,
+   "text": "Also scheißegal, 2008 bin ich nach Rostock gekommen, jetzt haben wir 2025, ihr könnt euch das alle selber ausrechnen, Mathe war noch nie so meine Stärke, also irgendwie so zwischen 17 und 18 Jahre bin ich jetzt in Rostock und wie gesagt, tatsächlich habe ich noch nie so lange irgendwo in einer Stadt gewohnt und ich wollte eigentlich auch gar nicht nach Rostock.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 391.62,
+   "ende": 398.42,
+   "text": "Also Rostock gehörte mit Frankfurt am Main zu den beiden Städten, in denen ich nie leben wollte.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 398.78,
+   "ende": 403.94,
+   "text": "Das hat so gar nicht geklappt, weil der erste Job nach meinem Studium war in Frankfurt am Main.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 405.22,
+   "ende": 408.32,
+   "text": "Und das habe ich ja erzählt in der einen Folge, wie mein Werdegang war.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 408.64,
+   "ende": 414.54,
+   "text": "Und der nächste Job war dann, der feste Job, nachdem ich auf dem Schiff gearbeitet hatte, war dann eben in Rostock.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 415.58,
+   "ende": 419.58,
+   "text": "Und naja, im ersten Moment dachte ich natürlich, boah nee, kein Bock auf Rostock.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 419.58,
+   "ende": 444.12,
+   "text": "Ich hatte also zwei, ich glaube, ich weiß nicht, wie es im Moment, also das heißt im Moment, wie inzwischen das Image von Rostock ist. Ich denke schon, dass sich das verbessert hat nach außen. Man kann das ja nicht mehr beurteilen, wenn man in der Stadt lebt. Aber 2008 war noch immer das Image so, dass Rostock halt einfach verbunden wird mit Nazis, Fußball-Hooligans und ja, mehr eigentlich nicht tatsächlich.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 444.12,
+   "ende": 452.64,
+   "text": "und ja, ich hatte dann auch diese negativen Assoziationen bestätigt bekommen,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 452.74,
+   "ende": 455.94,
+   "text": "indem ich mal zu einem Sicherheitstraining hier vom Schiff aus musste",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 455.94,
+   "ende": 462.2,
+   "text": "und dann gleich im Bahnhof da irgendwie so eine Horde Hooligans auf den Zug eingetreten hat und so",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 462.2,
+   "ende": 465.02,
+   "text": "und ich dann dachte, oh mein Gott, wo bin ich hier nur gelandet?",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 466.02,
+   "ende": 470.36,
+   "text": "Naja, aber ich wollte halt unbedingt diesen Job machen und habe dann gedacht, ja gut, dann gehe ich halt nach Rostock",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 471.26,
+   "ende": 476.44,
+   "text": "Und ich habe dann erst mal in einem Hostel gewohnt, weil ich irgendwie dachte,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 476.6,
+   "ende": 481.88,
+   "text": "Mensch, man weiß ja nie, wie lange mit der Probezeit, bevor ich mir jetzt hier eine Wohnung einrichte und so weiter.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 482.46,
+   "ende": 485.12,
+   "text": "Weil ich hatte ja meinen ersten Job in der Probezeit gekündigt.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 485.22,
+   "ende": 488.6,
+   "text": "Das heißt, ich wusste ja schon, dass man eben auch nicht zufrieden sein kann.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 488.6,
+   "ende": 496.06,
+   "text": "Und dann war ich auf dem Schiff und ja, das war dann halt der erste Job, wo man sich eigentlich hätte niederlassen sollen.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 496.06,
+   "ende": 502.82,
+   "text": "und ja, dann bin ich erstmal in den Hostel gegangen und wollte so die Probezeit überbrücken",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 502.82,
+   "ende": 506.7,
+   "text": "und dann habe ich aber zufällig mitbekommen, ich weiß gar nicht mehr, wer mir das damals gesagt hat,",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 506.7,
+   "ende": 512.7,
+   "text": "aber ich hatte in meiner Jugend einen besten Freund und der, seine damalige Partnerin,",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 512.78,
+   "ende": 518.98,
+   "text": "also Girlfriend-Partnerin, die hat in Rostock studiert, wir hatten aber schon lange keinen Kontakt mehr",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 518.98,
+   "ende": 523.84,
+   "text": "und irgendjemand hat mir dann gesteckt und gesagt, Mensch, melde dich doch nochmal bei N-Punkt,",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 524.4,
+   "ende": 525.44,
+   "text": "Die studiert doch da jetzt.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 525.7,
+   "ende": 527.8,
+   "text": "Und ja, ich habe mich dann auch bei ihr gemeldet.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 527.84,
+   "ende": 529.64,
+   "text": "Dann haben wir uns getroffen bei ihr zu Hause.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 529.76,
+   "ende": 531.64,
+   "text": "Sie hat in einer WG mit einer Freundin gewohnt.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 531.64,
+   "ende": 535.14,
+   "text": "Und als sie dann realisiert hat, dass ich in einem Hostel schlafe,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 535.56,
+   "ende": 537.38,
+   "text": "also das ging gar nicht für sie.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 537.54,
+   "ende": 539.0,
+   "text": "Und dann hat sie kurzerhand entschlossen,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 539.12,
+   "ende": 541.64,
+   "text": "dass ich jetzt erstmal bei ihr einziehe, bis ich eine Wohnung habe.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 542.58,
+   "ende": 545.1,
+   "text": "Und ja, dann haben wir tatsächlich da ein paar Wochen zu zweit",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 545.1,
+   "ende": 548.1,
+   "text": "in ihrem einzelnen Zimmer in einem Bett zusammengeschlafen.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 548.9,
+   "ende": 551.38,
+   "text": "Das werde ich ihr nie vergessen, wie sie mich da unterstützt hat.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 551.38,
+   "ende": 559.0,
+   "text": "und dann hat sie, ja, mich in ihre Clique integriert und die haben dann alle in so einem Hochhaus gewohnt,",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 559.0,
+   "ende": 563.94,
+   "text": "wo so, ja, für Studenten, die haben ja eben alle noch studiert, so ein Zimmerwohnungen, die so teilmöbliert waren",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 563.94,
+   "ende": 570.56,
+   "text": "und die waren halt auch relativ günstig mit Balkon und, ja, da bin ich dann, da habe ich dann eine Wohnung bekommen",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 570.56,
+   "ende": 577.28,
+   "text": "und bin da auch eingezogen und das war natürlich ein super Einstieg in die Stadt und vor allem in eine Stadt,",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 577.28,
+   "ende": 586.02,
+   "text": "in der man eigentlich nicht sein wollte, weil ich gleich integriert war und sofort mit Leuten irgendwie was unternehmen konnte,",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 586.32,
+   "ende": 594.52,
+   "text": "man sich nicht alleine gefühlt hat und dann, das war damals März, auch gleich, sage ich mal, zu einer guten Jahreszeit angekommen bin,",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 594.62,
+   "ende": 600.18,
+   "text": "weil ich dann natürlich im Sommer direkt die Vorzüge des Strandes nutzen konnte.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 600.34,
+   "ende": 604.28,
+   "text": "Damals haben sie mir zwar alle gesagt, ja, irgendwann machst du das auch nicht mehr,",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 604.28,
+   "ende": 610.44,
+   "text": "Irgendwann ist es ganz normal, dass man in der Nähe vom Strand wohnt und dann fährt man da gar nicht mehr so oft hin.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 611.12,
+   "ende": 613.32,
+   "text": "Ich muss sagen, das kann ich nicht bestätigen.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 613.32,
+   "ende": 623.36,
+   "text": "Also seit 2008, ich weiß ja nach wie vor nicht, wie viele Jahre das jetzt sind, ist der Strand für mich hier nach wie vor das A und O.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 623.54,
+   "ende": 632.66,
+   "text": "Im Sommer wie im Winter sind wir sowieso jetzt regelmäßig am Strand, aber auch bevor ich mit Hagen zusammengekommen bin, war ich viel am Strand.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 632.66,
+   "ende": 638.7,
+   "text": "Und bin auch teilweise wirklich, wenn ich lange arbeiten musste, abends nochmal kurz hin, einfach nur, um da zu sitzen und das Meer zu sehen.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 639.48,
+   "ende": 647.92,
+   "text": "Und ja, seitdem ich hier lebe, ist es für mich total unvorstellbar geworden, wie man irgendwo leben kann, wo kein Strand ist.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 648.06,
+   "ende": 652.78,
+   "text": "Das soll jetzt natürlich nicht gemein klingen, weil die meisten gehen wahrscheinlich gerne am Strand.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 652.78,
+   "ende": 659.18,
+   "text": "Es sei denn, man lebt in den Bergen. Also die Bergleute, die sagen ja auch, sie verstehen nicht, wie man irgendwo leben kann, wo keine Berge sind.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 659.58,
+   "ende": 661.98,
+   "text": "Also wenn wir in Rostock irgendwas nicht haben, sind es Berge.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 662.66,
+   "ende": 681.1,
+   "text": "Und, ja, also das soll jetzt nicht irgendwie jemanden triggern, dass ich sage, wie kann man irgendwo wohnen, wo kein Strand ist, aber ich hoffe, ihr versteht, wie ich es meine. Es ist einfach so eine Lebensqualität, weil man, wenn man am Strand ist, automatisch ja nichts macht, außer am Strand zu sein.",
+   "avg_logprob": -0.038,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 681.1,
+   "ende": 707.9,
+   "text": "Also man kann keinen Haushalt machen, man kann nicht arbeiten, man kann nicht irgendwelchen Papierkram erledigen, man kann nicht einkaufen oder sonst irgendwas, sondern man ist halt einfach nur am Strand und dadurch hat man schon mal automatisch so einen kleinen Mini-Urlaub und dieses Geräusch von Meeresrauschen und die Weite fürs Auge, der Geruch der Sand unter den Füßen, das macht einfach was mit jemandem.",
+   "avg_logprob": -0.039,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 707.9,
+   "ende": 724.18,
+   "text": "Also ich glaube nicht, dass es irgendjemanden gibt, der sagt, das macht nichts mit mir. Und ich muss sagen, dass das mit mir das Gleiche macht vom ersten Tag bis zum letzten. Also daran, an diesem Gefühl, was der Strand einem gibt, hat sich nichts geändert.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 725.16,
+   "ende": 738.14,
+   "text": "Und hinzu kam dann aber auch, dass ich natürlich relativ schnell festgestellt habe, dass Rostock nicht nur aus Hooligans und Nazis besteht, wobei auch Nazi inzwischen ja ein sehr inflationärer Begriff geworden ist.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.048,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 738.14,
+   "ende": 747.66,
+   "text": "Also wenn man danach geht, bin ich nach den neuesten Definitionen ja auch einer, da ich nicht so ganz von der Corona-Nummer überzeugt war, aber ist ein anderes Thema.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.048,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 747.66,
+   "ende": 752.4,
+   "text": "Naja, ich habe auf jeden Fall dann festgestellt, wie wunderschön Rostock ist",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 752.4,
+   "ende": 756.72,
+   "text": "Rostock hat eine wunderschöne Altstadt, da ist jetzt zwar nicht besonders viel los",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 756.72,
+   "ende": 761.42,
+   "text": "aber es ist einfach total toll, da gerade abends im Dunkeln spazieren zu gehen",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 761.42,
+   "ende": 768.3,
+   "text": "aber auch tagsüber, ich weiß nicht wie viele Stunden ich damals mit Heinrich als Baby verbracht habe",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 768.3,
+   "ende": 774.16,
+   "text": "ihn durch die Altstadt zu schieben und ihn schlafen zu lassen, mich da an die Stadtmauer zu setzen",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 774.16,
+   "ende": 802.58,
+   "text": "ein Buch zu lesen, auch im Sommer wie im Winter, im Winter bin ich mit Skisachen da gesessen, wir haben auch bis auf jetzt die letzten fünf Jahre immer mitten in der Stadt gewohnt, Rostock hat auch natürlich nicht, es gibt einige Berliner, die auch nach Rostock kommen, die sich dann immer beschweren, so Rostock ist nicht Berlin, ja, nee, ist richtig, ich glaube, keine Stadt ist wie Berlin, also wenn man aus Berlin kommt und sich in Rostock dann beschwert, dass es nicht wie in Berlin ist,",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.033,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 802.58,
+   "ende": 828.14,
+   "text": "dann, ja, weiß ich auch nicht, dann frage ich mich, was will man dann hier, aber dafür, dass es trotzdem eine relativ kleine Stadt ist, hat, finde ich, Rostock eigentlich eine ganz gute Nachtszene, vor allem, wenn man so wie ich vom Dorf kommt, ne, also bin ja in Porto Esfalica groß geworden, das heißt, oder zumindest die Zeit, die man so mit Partys verbringt, habe ich eher so auf Zeltfesten verbracht,",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 828.14,
+   "ende": 849.92,
+   "text": "Weil wir hatten zwar zwei Diskotheken, aber die waren auf jeden Fall auch so, dass man sie nicht zu Fuß erreichen konnte, zumindest nicht da, wo ich gewohnt habe. Und dann habe ich ja in Düsseldorf studiert, was natürlich auch eine gute Nachtszene hat, aber auch eine recht kostspielige Nachtszene, was ich mir jetzt als Studentin nicht unbedingt leisten konnte.",
+   "avg_logprob": -0.036,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 849.92,
+   "ende": 868.28,
+   "text": "Das heißt, so dieses klassische Studentenleben fand ich in Düsseldorf tatsächlich etwas schwierig und habe das, glaube ich, dann auch so ein bisschen nachgeholt, als ich nach Rostock gezogen bin, weil eben mein ganzer Freundeskreis noch studiert hat und man mitten in der Stadt gewohnt hat und überall zu Fuß hingehen konnte.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 868.28,
+   "ende": 885.42,
+   "text": "Also jeder Club ist gefühlt irgendwie zu Fuß erreichbar. Und ja, das war natürlich dann am Anfang so die Priorität, wo mich Rostock begeistert hat. Aber auch so, es hat einfach eine unglaublich schöne Kulisse.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.24
+  },
+  {
+   "start": 885.42,
+   "ende": 901.68,
+   "text": "Es ist heute noch so, wenn ich jetzt, wie gesagt, von außerhalb mal mit dem Fahrrad in die Stadt fahre und dann am Stadthafen langfahre und das Wasser, also es ist ja nicht nur der Strand, der Rostock ausmacht, sondern auch in der Stadt ist ja unglaublich viel Wasser durch die Warnow.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 901.68,
+   "ende": 910.62,
+   "text": "und ja, man hat immer irgendwie so diesen Blick, entweder Wasser oder diese schönen alten Giebelhäuser,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 910.62,
+   "ende": 919.24,
+   "text": "also es ist einfach, ich meine, es wurden super viel in den letzten Jahren, super viele neue und große und auch moderne Gebäude gebaut,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 919.5,
+   "ende": 928.6,
+   "text": "was ich zum Teil wirklich sehr schade finde, weil eben dieses Flair, dieses Hanse-Flair, was Rostock noch mitbringt,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 928.6,
+   "ende": 931.46,
+   "text": "immer mehr zugebaut wird.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 931.6,
+   "ende": 932.98,
+   "text": "Aber gut, das ist der Lauf der Dinge.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 933.8,
+   "ende": 936.42,
+   "text": "Das ist wahrscheinlich in anderen Städten auch so.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 937.04,
+   "ende": 939.1,
+   "text": "Aber in jedem Fall ist es bis heute so,",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 939.18,
+   "ende": 941.38,
+   "text": "dass wenn ich am Stadthafen langfahre",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 941.38,
+   "ende": 943.68,
+   "text": "oder auch vom Wasser aus,",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 943.78,
+   "ende": 946.34,
+   "text": "wir hatten uns vor zwei Jahren SUPs gekauft,",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 946.44,
+   "ende": 947.82,
+   "text": "man sieht so die Kulisse der Stadt,",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 948.54,
+   "ende": 950.12,
+   "text": "das ist einfach wunderschön.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 950.12,
+   "ende": 955.42,
+   "text": "Und wenn ich in Deutschland irgendwo leben wollen würde,",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 956.08,
+   "ende": 957.7,
+   "text": "dann wäre es Rostock.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 957.7,
+   "ende": 987.26,
+   "text": "Also das habe ich immer so gesagt. Ich bin, als ich hergekommen bin, schon natürlich hierher gekommen mit dem Gedanken, dass ich irgendwann hier wieder wegziehen werde, weil ich einfach immer irgendwo wieder weggezogen bin und weil man auch sagen muss, dass karrieretechnisch hier man schon ein bisschen eingeschränkt ist, einfach aufgrund dessen, weil die Firmendichte hier natürlich nicht so hoch ist wie in größeren Städten wie Hamburg, Berlin, Düsseldorf, Köln, München, Frankfurt,",
+   "avg_logprob": -0.046,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 987.26,
+   "ende": 1013.34,
+   "text": "wie auch immer, also man hat, man kann natürlich innerhalb einer Firma die Karriereleiter hochklettern, aber man hat jetzt nicht so ganz viel Auswahl, wenn man auch mal nochmal was anderes ausprobieren möchte und deshalb, ja, hatte ich eigentlich, kurz bevor ich Hagen kennengelernt habe, schon auch so den Gedanken, okay, ja, den nächsten Job, auf den ich mich bewerbe, der wird wieder in einer anderen Stadt sein",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1013.34,
+   "ende": 1018.2,
+   "text": "und habe dann aber auch zeitgleich gedacht, ja eigentlich schade, weil ich mag Rostock ja so gerne.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.91
+  },
+  {
+   "start": 1019.68,
+   "ende": 1025.1,
+   "text": "Und ja, als ich Hagen dann kennengelernt habe, also ich habe da schon zu dem Zeitpunkt dann dreieinhalb Jahre in Rostock gelebt,",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.91
+  },
+  {
+   "start": 1025.1,
+   "ende": 1029.3,
+   "text": "bevor wir uns, ja kennengelernt haben wir uns schon vorher, aber bevor wir dann zusammengekommen sind.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.91
+  },
+  {
+   "start": 1030.24,
+   "ende": 1036.76,
+   "text": "Und als wir dann zusammengekommen sind, war auch ja relativ schnell klar, auch das hatte ich glaube ich schon mal angedeutet,",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.91
+  },
+  {
+   "start": 1037.36,
+   "ende": 1040.9,
+   "text": "dass es nur funktionieren wird, wenn wir in Rostock leben.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.91
+  },
+  {
+   "start": 1040.9,
+   "ende": 1059.4,
+   "text": "Also für Hagen war es vollkommen ausgeschlossen, in irgendeine andere Stadt zu ziehen. Also das war, also er hat die Frage schon gar nicht verstanden oder überhaupt den Gedankengang. Und für mich war dann halt klar, okay, wenn ich mit ihm zusammen sein will und keine Fernbeziehung will, was glaube ich auch gar nicht für ihn in Frage gekommen wäre, dann muss ich halt hier bleiben.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1059.4,
+   "ende": 1082.54,
+   "text": "Und ich habe dann aber auch gemerkt, dass ich das irgendwie auch erleichternd fand, weil ich ja gerne hier geblieben wäre, aber irgendwie diesen Druck hatte, ja, hier gibt es jetzt ja nicht mehr so beruflich nicht mehr so wirklich viel für mich rauszuholen und ich muss dann halt in eine andere Stadt, weil ich schon ganz schön karrieregeil war anfangs meiner beruflichen Laufbahn.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1082.54,
+   "ende": 1087.46,
+   "text": "und dann irgendwie mich selber da so unter Druck gesetzt habe",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1087.46,
+   "ende": 1089.8,
+   "text": "und dachte, ich muss dann halt wieder in eine andere Stadt ziehen.",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1089.98,
+   "ende": 1092.8,
+   "text": "Und als er dann gesagt hat, das kommt für ihn nicht in Frage,",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1093.12,
+   "ende": 1098.04,
+   "text": "da war natürlich einerseits so, hä, wie jetzt muss ich hierbleiben?",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1098.38,
+   "ende": 1102.52,
+   "text": "Warum, also jetzt, wieso muss ich jetzt den Kompromiss eingehen?",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1102.66,
+   "ende": 1104.3,
+   "text": "Warum kann er nicht mir auch entgegenkommen?",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1104.42,
+   "ende": 1108.44,
+   "text": "Oder man einigt sich auf, was weiß ich, so viele Jahre dann noch hier oder keine Ahnung.",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1108.56,
+   "ende": 1112.12,
+   "text": "Naja, aber trotz allem, andererseits war es auch erleichternd,",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1112.12,
+   "ende": 1128.66,
+   "text": "Weil mir die Entscheidung dann einfach erstmal abgenommen worden ist, dass ich jetzt nicht sofort mich in einer anderen Stadt bewerben muss. Und ja, aus diesem Jahr mal gucken, ob das dann für immer so funktioniert, sind zumindest zusammen jetzt schon über 14 Jahre geworden.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 1128.66,
+   "ende": 1134.92,
+   "text": "und ich hatte tatsächlich in all diesen Jahren nicht einmal das Bedürfnis, aus Rostock wegzuziehen,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1135.04,
+   "ende": 1136.78,
+   "text": "also was jetzt Deutschland angeht.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1136.96,
+   "ende": 1142.08,
+   "text": "Natürlich ist ja immer unterschwellig der Wunsch da gewesen mit der Auswanderung,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1142.88,
+   "ende": 1147.12,
+   "text": "aber ich habe nie gedacht, ja, ich würde eigentlich gerne nochmal nach München ziehen",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1147.12,
+   "ende": 1151.78,
+   "text": "oder ich würde gerne nochmal in einen anderen Teil von Deutschland ziehen,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1151.78,
+   "ende": 1160.22,
+   "text": "Weil Rostock für mich einfach alles vereint hat, was ich mir unter Lebensqualität vorstelle",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1160.22,
+   "ende": 1164.34,
+   "text": "Ich muss dazu sagen, ich bin ja auch ursprünglich aus Thüringen",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1164.34,
+   "ende": 1169.22,
+   "text": "Das heißt, als ich dann mit sieben nach Westdeutschland, sag ich jetzt mal, gezogen bin",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1169.22,
+   "ende": 1178.66,
+   "text": "Und dann das erste Mal wieder, dann eben 2008, in einen ostdeutschen Ort gezogen bin",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1178.66,
+   "ende": 1182.8,
+   "text": "habe ich mich auch sofort irgendwie wieder so heimatlich gefühlt",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1182.8,
+   "ende": 1186.74,
+   "text": "und zwar einfach aus dem Grund, weil es im Supermarkt, also inzwischen gibt es das überall,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1186.88,
+   "ende": 1193.16,
+   "text": "aber damals, 2008, war es noch so, dass es wirklich manche Produkte in Westdeutschland nicht im Supermarkt gab.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1193.36,
+   "ende": 1195.92,
+   "text": "Und als ich dann hier die ersten Male einkaufen war,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1196.02,
+   "ende": 1199.62,
+   "text": "da habe ich mich halt irgendwie wieder so zurückgesetzt in meine Kindheit gefühlt,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1199.62,
+   "ende": 1205.08,
+   "text": "weil es einfach ganz viele Produkte hier gab, die ich sonst immer nur ab und zu mal bekommen konnte,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1205.14,
+   "ende": 1207.0,
+   "text": "wenn ich meine Familie in Thüringen besucht hatte.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1207.0,
+   "ende": 1228.5,
+   "text": "Und ja, deshalb, wenn man jetzt sagt, ja, Rostock ist meine Wahlheimat, dann bedeutet das Wort für mich auch wirklich Heimat im Sinne, soweit ich jetzt Heimat, also wie soll ich das sagen, wenn ich soweit gehen würde und sagen würde, irgendetwas ist meine Heimat, dann ist es auf jeden Fall Rostock.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.032,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1228.5,
+   "ende": 1236.54,
+   "text": "sowohl durch die Dauer der Zeit als auch, ja, weil ich einfach mich hier am wohlsten gefühlt habe",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1236.54,
+   "ende": 1240.82,
+   "text": "in allen Städten, in denen ich bisher gelebt habe oder in denen ich bisher länger gelebt habe",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1240.82,
+   "ende": 1247.84,
+   "text": "und natürlich gab es auch nicht so gute Zeiten, das hat aber nichts mit Rostock zu tun gehabt",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1247.84,
+   "ende": 1254.26,
+   "text": "das sind einfach persönliche, private Dinge, die überall hätten sich entwickeln können",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1255.24,
+   "ende": 1271.14,
+   "text": "Rostock an sich war immer gut zu mir und ja, als mir jetzt so die letzten Tage gewahr wurde, dass ich bald Rostock verlassen werde, da dachte ich schon, krass, das ist echt heftig.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 1271.14,
+   "ende": 1290.68,
+   "text": "So, jetzt gehe ich wirklich hier weg und ja, ich meine, gut, ich glaube, sollte sich es wirklich im Laufe der Jahre so ergeben, dass wir feststellen, dass das mit der Auswanderung doch nicht so eine gute Idee war, haben wir ja auch schon öfter gesagt, wenn wir feststellen, das wird nichts, dann kommen wir einfach wieder.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1290.68,
+   "ende": 1316.44,
+   "text": "wir würden das dann nicht als Scheitern empfinden, dann würden wir wahrscheinlich auch zurück nach Rostock gehen, ich weiß es nicht, würde ich jetzt auch erstmal so sagen, aber ja, erstmal ist jetzt hier der Abschied angesagt und ich glaube, dass es, dass dann, wenn man dann weg ist, ja, man viele Erinnerungen haben wird, wo man denkt, ja, das ist halt, da sieht es halt in Rostock anders aus,",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1316.44,
+   "ende": 1334.48,
+   "text": "Der einzige Ort, wo wir wirklich das Gefühl hatten, wir fühlen uns total an, also vom Aussehen so, vom Strand, wie so die Vegetation am Strand ist und so, war tatsächlich in Westaustralien. Da waren wir öfters mal irgendwo. Ich meine, hört sich jetzt für manche so ein bisschen angeberisch an. Ja, Rostock ist wie Australien.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1334.48,
+   "ende": 1362.72,
+   "text": "Nein, aber es gibt da schon so ein paar Abschnitte in Westaustralien, die uns sehr hier an unsere Küstengebiete erinnert haben. Ja, aber ansonsten ist es schon eine sehr spezielle Stadt und ich kann jedem nur, oder ich glaube, es haben auch inzwischen sehr viele ein positives Bild von Rostock und gerade die Menschen, die jetzt durch mich dann zum ersten Mal nach Rostock gekommen sind, was Freunde und Familie angeht, ja, sind auch alle immer total begeistert gewesen.",
+   "avg_logprob": -0.039,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1362.72,
+   "ende": 1386.52,
+   "text": "Also wer noch nicht von den Zuhörern in Rostock war, sollte das unbedingt mal machen und ja, damit beende ich jetzt auch mein kleines Lobeslied auf Rostock. Ich wollte natürlich, wie gesagt, zum einen nochmal Danke an Rostock sagen und aber auch zeigen mit der Folge, dass ich durchaus in der Lage bin, auch länger an einem Ort zu bleiben.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1386.52,
+   "ende": 1389.14,
+   "text": "ja, ob ich auch",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1389.14,
+   "ende": 1391.22,
+   "text": "17 oder 18 Jahre, was weiß ich",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1391.22,
+   "ende": 1392.1,
+   "text": "wie lang es jetzt war",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1392.1,
+   "ende": 1394.88,
+   "text": "ob ich auch so lange auf",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1394.88,
+   "ende": 1397.24,
+   "text": "Cozumel leben werde, wird sich",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1397.24,
+   "ende": 1399.36,
+   "text": "zeigen, ich bin gespannt",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1399.36,
+   "ende": 1401.14,
+   "text": "vielleicht hält Rostock auch für",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1401.14,
+   "ende": 1403.1,
+   "text": "immer und ewig in meinem Leben",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1403.1,
+   "ende": 1404.76,
+   "text": "den Rekord mit dem Ort",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1404.76,
+   "ende": 1407.28,
+   "text": "an dem ich die längste Zeit",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1407.28,
+   "ende": 1408.9,
+   "text": "meines Lebens gelebt habe",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1408.9,
+   "ende": 1411.0,
+   "text": "ok, dann wünsche ich euch",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1411.0,
+   "ende": 1413.1,
+   "text": "einen schönen Tag und wir hören uns",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1413.1,
+   "ende": 1414.88,
+   "text": "nächste Woche wieder, bis dann",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  }
+ ]
+}

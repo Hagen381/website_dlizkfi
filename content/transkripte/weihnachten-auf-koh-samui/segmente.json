@@ -1,0 +1,1706 @@
+{
+ "meta": {
+  "slug": "weihnachten-auf-koh-samui",
+  "titel": "Weihnachten auf Koh Samui",
+  "datum": "2025-12-08T05:59:50.000Z",
+  "dauer_sekunden": 1646,
+  "guid": "ee39d4fb-bb0b-4822-a0e4-dfb082e8ba03",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T07:43:54Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 6,
+   "transkription": 1574
+  },
+  "echtzeitfaktor": 0.96,
+  "anzahl_segmente": 210,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.0,
+   "ende": 22.36,
+   "text": "Könnt ihr schon raushören, dass ich hier keine sentimentale weihnachtliche Stimmung in der Podcast-Folge verbreite, weil sie bei uns einfach so nicht aufkommt.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.23
+  },
+  {
+   "start": 22.36,
+   "ende": 35.68,
+   "text": "Hallo und herzlich willkommen bei Glitzkvieh. Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.574,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 36.92,
+   "ende": 40.52,
+   "text": "Letzte Woche gab es ja wieder ein Interview. Wie gesagt, habe ich schon mal erzählt.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.574,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 40.72,
+   "ende": 45.52,
+   "text": "Ich habe dann immer das Gefühl, wenn so ein Interview dazwischen ist, dass ich euch super gesehen habe.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.574,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 45.8,
+   "ende": 48.18,
+   "text": "Wobei ich euch ja sowieso nicht sehe und ihr mich auch nicht.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.574,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 48.76,
+   "ende": 53.56,
+   "text": "Aber ja, irgendwie habe ich dann immer so ein Gefühl von, ach, jetzt war ich lange nicht da.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.574,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 53.56,
+   "ende": 69.06,
+   "text": "Ja, falls ihr es nicht gehört habt, Auswandern und Steuern ist total durch die Decke gegangen, die Folge. Hätte ich gar nicht erwartet. Ja, aber auf jeden Fall sehr informativ und das nächste Interview ist auch schon im Kasten sozusagen.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.31
+  },
+  {
+   "start": 69.06,
+   "ende": 73.78,
+   "text": "Das kommt dann im neuen Jahr raus, wieder eine ganz andere Richtung als Steuern.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 74.42,
+   "ende": 83.16,
+   "text": "Nämlich eine ganz spannende Geschichte von einer anderen Frau, die ausgewandert ist und viele coole Sachen erlebt hat schon.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 84.04,
+   "ende": 86.38,
+   "text": "Aber darum soll es heute gar nicht gehen.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 86.6,
+   "ende": 92.82,
+   "text": "Heute geht es nämlich um noch eine offene Frage aus der Instagram-Umfrage, die wir vor einer Weile hatten.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 93.4,
+   "ende": 109.44,
+   "text": "Und zwar, was ist eigentlich mit Weihnachten auf Koh Samui oder in Thailand allgemein? Wie feiern wir Weihnachten? Wie wird Weihnachten hier zelebriert? Und da hatten Hagen und ich ja in unserer Gemeinschaftsfolge gesagt, dass es da nochmal eine Extra-Folge zu gibt.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 110.38,
+   "ende": 117.14,
+   "text": "Und die ist heute so mitten im beginnenden Weihnachtstrubelstress.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 117.32,
+   "ende": 123.46,
+   "text": "Also zumindest habe ich immer so ein bisschen das Gefühl gehabt, als wir noch in Deutschland gewohnt haben,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 123.46,
+   "ende": 133.62,
+   "text": "dass Weihnachten auch oft dann so eine stressige Phase wird mit Geschenken besorgen und Adventskranz und dekorieren und Kekse backen",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 133.62,
+   "ende": 140.3,
+   "text": "und irgendwelche zum Teil Weihnachtsfeiern von den Kindern, von einem selbst, Weihnachtsumzüge, Weihnachtsmarkt.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 140.3,
+   "ende": 147.38,
+   "text": "Also ja, irgendwie doch eine terminreiche Zeit und trotzdem aber auch hier eine Zeit, auf die sich viele freuen,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 147.5,
+   "ende": 152.02,
+   "text": "vor allen Dingen in dieser dunklen Jahreszeit dann mit den Lichtern und Kerzenschein.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 152.02,
+   "ende": 161.18,
+   "text": "Hier ist es tatsächlich so, dass zumindest bei Hagen und mir nicht so richtig Weihnachtsfeeling aufkommt",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 161.18,
+   "ende": 168.8,
+   "text": "In diesen Temperaturen, auch mit dem Tageslicht, das ist eben mit der Sonne und den Palmen",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 168.8,
+   "ende": 178.24,
+   "text": "Und ich sag mal, das, was so das deutsche Auge gewöhnt ist zur Weihnachtszeit, hat man ja hier einfach nicht",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 178.24,
+   "ende": 196.24,
+   "text": "Nichtsdestotrotz gibt es hier auch weihnachtliche Dekoration. Also vor allen Dingen hier in der Mall ist ein riesen Weihnachtsbaum. Also der ist wirklich wahnsinnig groß für alle, die aus Rostock zuhören und den großen Weihnachtsbaum im KTC kennen.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 196.24,
+   "ende": 217.88,
+   "text": "Ja, ungefähr so in der Größe, nur dass er eben draußen steht. Und wir waren ja auch schon zu anderen Jahren an Weihnachten in Thailand oder in anderen Ländern. Und da ist es schon so, dass auch zur Weihnachtszeit hier dekoriert ist mit Lichterketten, Weihnachtsbäumen, Kugeln, also klassischen Weihnachtsmotiven.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 218.74,
+   "ende": 222.48,
+   "text": "Das heißt, man wird schon daran erinnert, dass Weihnachten ist.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 222.68,
+   "ende": 226.52,
+   "text": "Allerdings muss man sagen, wird das nur wegen der Touristen gemacht.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 226.52,
+   "ende": 235.96,
+   "text": "Also grundsätzlich ist Weihnachten hier kein Feiertag in Thailand und es wird auch von den Thailändern so nicht gefeiert.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 236.16,
+   "ende": 242.5,
+   "text": "Es sei denn, sie haben natürlich einen Verrang als Partner, also einen Ausländer, dann schon.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 243.44,
+   "ende": 248.76,
+   "text": "Aber es gibt wirklich, also wenn man jetzt nicht gerade aus so touristischen Orten kommt oder dort lebt,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 248.86,
+   "ende": 251.72,
+   "text": "also als Thailänder, dann hat man mit Weihnachten eigentlich gar nichts am Hut.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 252.46,
+   "ende": 255.74,
+   "text": "Wir kennen auch ein Mädel, die ist, ich glaube, acht oder so.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 255.8,
+   "ende": 261.66,
+   "text": "Die ist vor kurzem aus einer sehr ländlichen Gegend im Norden Thailands nach Koh Samui gezogen",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 262.04,
+   "ende": 268.58,
+   "text": "und hat dann eben mit diesem Weihnachtsbaum, der in der Mall hier steht, das erste Mal in ihrem Leben sowas gesehen.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 269.08,
+   "ende": 273.9,
+   "text": "weil es eben einfach keine Rolle spielt, wenn es nicht für die Touristen initiiert wird.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 275.62,
+   "ende": 280.66,
+   "text": "Aber ja, dadurch, dass jetzt speziell Koh Samui und auch, wir waren auch schon mal zur Weihnachtszeit in Chiang Mai,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 280.74,
+   "ende": 287.66,
+   "text": "auch da war das verbreitet, dass überall Weihnachtsbäume standen und man kann auch überall weihnachtliche Dekorationen kaufen.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 287.96,
+   "ende": 290.38,
+   "text": "Das geht tatsächlich hier aber recht frühlos.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 290.48,
+   "ende": 294.0,
+   "text": "Also ich weiß, in Deutschland gibt es ja auch sehr früh schon Lebkuchen und solche Sachen.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 294.94,
+   "ende": 299.7,
+   "text": "Meines Erachtens aber so, dass man ja die Deko so kaufen kann.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 300.54,
+   "ende": 306.5,
+   "text": "Ich weiß es nicht mehr genau, aber gefühlt ist so der Hauptmonat doch November, irgendwie November, Dezember.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 307.64,
+   "ende": 311.76,
+   "text": "Manchmal noch so Last-Minute-mäßig, weil es gibt ja auch einige Menschen,",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 312.26,
+   "ende": 316.16,
+   "text": "die tatsächlich erst am 24.12. eben auch den Baum aufstellen und schmücken.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 317.12,
+   "ende": 322.48,
+   "text": "So kenne ich es tatsächlich von zu Hause und also von meiner Kindheit.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 322.48,
+   "ende": 335.98,
+   "text": "Wir haben das jetzt mit den Kindern auch in den Jahren schon den Weihnachtsbaum früher aufgestellt. Aber hier ist tatsächlich sehr früh schon, gab es schon sehr früh die Möglichkeit, Weihnachtsdekoration zu kaufen und es ist zum Teil in manchen Läden auch jetzt schon durch.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 335.98,
+   "ende": 346.44,
+   "text": "Also da werden jetzt noch so die Reste verkauft, aber der Dezember ist jetzt, sage ich mal, nicht der Hauptmonat, wo man sowas kaufen kann.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 347.02,
+   "ende": 352.76,
+   "text": "Was ich hier noch nicht so gesehen habe, tatsächlich sind es irgendwie sowas wie Stollen, Lebkuchen und so weiter.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 352.9,
+   "ende": 364.02,
+   "text": "Es gibt so ein paar westliche Süßigkeiten von Ferrero und so, wo dann eben auch, sage ich mal, das Design der Verpackung weihnachtlich angehaucht ist.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 364.68,
+   "ende": 373.46,
+   "text": "Aber so ganz klassische Gebäcke, Spekulatius, Stollen, Lebkuchen und so weiter, habe ich hier noch nicht gesehen.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 373.54,
+   "ende": 374.42,
+   "text": "Glühwein auch nicht.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 374.86,
+   "ende": 381.9,
+   "text": "Es gibt bestimmt, es gibt hier so ein, zwei Läden, wo man viel westliche Produkte kaufen kann.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 382.02,
+   "ende": 383.94,
+   "text": "Vielleicht gibt es da was, aber das ist nicht so verbreitet.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 383.94,
+   "ende": 389.06,
+   "text": "Aber auf jeden Fall Deko, Deko-Lichterketten in allen Farben und Varianten.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 390.26,
+   "ende": 393.38,
+   "text": "Und genau, aber das war es dann auch schon.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 393.38,
+   "ende": 413.68,
+   "text": "Also wirklich das Feiern oder das dann auch gefragt wird, gerade auch so in Facebook-Foren, kann man irgendwie Ente essen, wo kann man Truthahn essen, wo kann man Klöße essen und so. Das kommt tatsächlich dann von den Ausländern und ja, die Thailänder stellen sozusagen nur das ganze Geschmücke bereit.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 413.68,
+   "ende": 422.68,
+   "text": "Es gibt so ein paar, wie soll ich das sagen, ja, so eigeninitiierte Institutionen, wo auch mal ein Weihnachtsmarkt gemacht wird.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 423.02,
+   "ende": 427.36,
+   "text": "Ich habe auch letztens gelesen, dass auch in Bangkok jetzt es einen deutschen Weihnachtsmarkt gab.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 428.14,
+   "ende": 432.24,
+   "text": "Aber wie auch immer, es ist alles nur für uns Touristen initiiert.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 432.34,
+   "ende": 439.7,
+   "text": "Denn Thailand hat viele andere tolle Feiertage, aber Weihnachten eben nicht, weil es ja auch kein christliches Land ist.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 439.7,
+   "ende": 464.64,
+   "text": "Natürlich ist nicht jeder, der Weihnachten feiert, gleichzeitig auch Christ, aber hier sind es andere Feiertage. Ich werde da jetzt nicht näher drauf eingehen, aber die thailändischen Feiertage, die großen, sind eben alle möglichen Geburtstage und Todestage verschiedener Angehörige des Königshauses.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 464.64,
+   "ende": 485.42,
+   "text": "Das sind oft Feiertage. Es gibt hier tatsächlich auch den 1. Mai als Tag der Arbeit. Und es gibt dann noch eine Reihe buddhistischer Feiertage. Das würde jetzt aber auch den Rahmen sprengen. Und dann gibt es im April, Mitte April, das Songkran-Fest. Das ist das thailändische Neujahr.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 486.26,
+   "ende": 491.54,
+   "text": "Da werde ich bestimmt, wenn es soweit ist, auch nochmal eine Folge zu machen, weil das ist auch persönlich unser Lieblingsfeiertag.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 492.06,
+   "ende": 504.02,
+   "text": "Da wird den ganzen Tag mit Wasserpistolen und Fässern voller Wasser und Eimern, also alles, man wird die ganze Zeit nass gespritzt in jeglicher Variante.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 504.02,
+   "ende": 511.4,
+   "text": "Da wird auch von niemandem Halt gemacht, kein Polizist, kein Spaziergänger, keiner, der auf dem Roller sitzt, also alle sind den ganzen Tag kletschnass.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 511.4,
+   "ende": 518.44,
+   "text": "und dann wird auch grundsätzlich hier das normale Neujahr, also Silvesterfeiern,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 519.32,
+   "ende": 527.22,
+   "text": "aber auch, ich sag mal so, richtig große Feiern, Silvesterfeiern finden dann eigentlich auch eher in den Hotels statt,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 527.22,
+   "ende": 528.76,
+   "text": "auch eben wieder für die Touristen.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 529.58,
+   "ende": 535.6,
+   "text": "Und dann gibt es im Februar noch das chinesische Neujahr, das wird hier auch relativ groß gefeiert.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 535.7,
+   "ende": 541.14,
+   "text": "Man kann auch da, wie zu Weihnachten jetzt, sehr viele chinesische Neujahrsdekorationen kaufen.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 541.14,
+   "ende": 566.58,
+   "text": "Das ist alles in Rot gehalten. Also da gibt es ganz viele rote Kleidung, diese roten chinesischen Lampions, so ganz viele Banner, wo Chinese Happy New Year draufsteht und so. Aber auch das ist kein klassischer thailändischer Feiertag, sondern eben auch inszeniert oder wird hier einfach mit zelebriert für die chinesischen Touristen, weil die eine relativ große Summe ausmachen.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 566.58,
+   "ende": 573.42,
+   "text": "Also an Tourismus, der in Thailand jährlich da ist, machen die Chinesen einen sehr großen Teil aus.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 574.24,
+   "ende": 577.98,
+   "text": "Und deshalb, genau, wird dann auch das chinesische Neujahr gefeiert.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 578.92,
+   "ende": 581.06,
+   "text": "So, das jetzt mal so allgemein.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 581.8,
+   "ende": 585.2,
+   "text": "Wie wird Weihnachten hier gefeiert oder wird es überhaupt hier gefeiert?",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 585.4,
+   "ende": 587.02,
+   "text": "Was gibt es vielleicht noch für Feiertage?",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 587.3,
+   "ende": 589.22,
+   "text": "Aber wie machen wir das jetzt?",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 590.84,
+   "ende": 595.68,
+   "text": "Also zunächst muss ich sagen, dass sowohl Hagen als auch ich keine großen Weihnachtsfans sind",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 595.68,
+   "ende": 597.72,
+   "text": "und auch nie wirklich waren.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 597.88,
+   "ende": 601.04,
+   "text": "Also sicherlich als kleines Kind war ich bestimmt Weihnachtsfan",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 601.04,
+   "ende": 604.52,
+   "text": "wegen den Geschenken, wegen der Geschenke, meine ich natürlich.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 606.14,
+   "ende": 610.78,
+   "text": "Und ja, aber auch als ich dann, glaube ich, so in der Pubertät war oder so.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 611.24,
+   "ende": 613.02,
+   "text": "Also ich kann mich daran erinnern,",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 613.08,
+   "ende": 615.76,
+   "text": "dass ich schon relativ früh irgendwie nicht mehr",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 615.76,
+   "ende": 617.68,
+   "text": "so ein großer Fan von Weihnachten war.",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 618.26,
+   "ende": 619.42,
+   "text": "Und bei Hagen ist das ähnlich,",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 619.94,
+   "ende": 625.02,
+   "text": "sodass wir das tatsächlich ausschließlich wegen der Kinder",
+   "avg_logprob": -0.171,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 625.02,
+   "ende": 634.48,
+   "text": "so irgendwie auch, ja, zelebrieren mit allem, was dazugehört. Und hier im aktuellen Fall",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 634.48,
+   "ende": 642.04,
+   "text": "ist es so, dass wir auch einen Weihnachtsbaum haben und die Kinder in ihrem Adventskalender",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 642.04,
+   "ende": 649.16,
+   "text": "jeden Tag einen Weihnachtsbaumschmuck teilhaben, sodass der Weihnachtsbaum sich nach und nach",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 649.16,
+   "ende": 653.44,
+   "text": "füllt und dann eben am 24. fertig geschmückt ist.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 654.02,
+   "ende": 656.88,
+   "text": "Hier vielleicht nochmal ein kleiner Exkurs zum Thema Adventskalender,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 657.66,
+   "ende": 660.98,
+   "text": "weil wir haben schon einige Weihnachten. Also",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 660.98,
+   "ende": 665.14,
+   "text": "ich habe das nochmal ausgerechnet, Hermine ist, für Hermine ist es jetzt das siebte",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 665.14,
+   "ende": 668.7,
+   "text": "Weihnachten, was jetzt kommt, weil sie ist ja sechs geworden im Sommer.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 669.26,
+   "ende": 672.9,
+   "text": "Also ist das jetzt das siebte Weihnachten und davon hat sie",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 672.9,
+   "ende": 676.9,
+   "text": "vier nicht in Deutschland verbracht.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 676.9,
+   "ende": 696.42,
+   "text": "Und Heinrich, glaube ich, fünf oder sechs, wir sind mit Heinrich auch schon mal am 24. Dezember nach Kambodscha geflogen. Da kam der Weihnachtsmann dann halt einfach am 23.12. Er hat das sowieso noch nicht, also wir haben dann einfach einen Tag früher das alles gemacht mit Bescherung und Weihnachtsmann.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 696.42,
+   "ende": 711.62,
+   "text": "Das war auch ganz praktisch, weil da waren die Weihnachtsmänner auch noch nicht ausgebucht. Und da hat er, glaube ich, damals einen Schnorchel auch zu Weihnachten bekommen, weil wir eben wussten, dass wir nach Kambodscha fliegen. War komplett leer am Hamburger Flughafen. Also fanden wir persönlich ziemlich cool.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 712.62,
+   "ende": 718.74,
+   "text": "Aber worauf ich hinaus will, ist, dass die Kinder auch gewohnt sind, dass sie halt auch an Weihnachten mal nicht zu Hause sind",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 718.74,
+   "ende": 724.82,
+   "text": "und dass sie nicht jedes Jahr eine Tradition haben, die wir immer verfolgen und die immer gleich ist.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 725.88,
+   "ende": 730.7,
+   "text": "Aber was wir auf jeden Fall immer machen mit den Kindern, ist halt ein Adventskalender.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 731.38,
+   "ende": 737.64,
+   "text": "Und als wir das erste Mal zur Weihnachtszeit oder zur Adventszeit unterwegs waren im Ausland,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 737.72,
+   "ende": 741.54,
+   "text": "habe ich mich natürlich gefragt, hä, wie soll ich das jetzt eigentlich mit so einem Kalender machen?",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 741.62,
+   "ende": 748.2,
+   "text": "weil ich kann ja jetzt auch irgendwie nicht 24 Teile kaufen und weder von in Deutschland schon kaufen und mit in Urlaub nehmen,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 748.2,
+   "ende": 752.44,
+   "text": "noch wenn ich sie dann im Urlaub gekauft habe, dann den ganzen Kram ja auch wieder mit nach Hause nehmen.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 754.1,
+   "ende": 755.56,
+   "text": "Schokoladenkalender ist auch in diesen Ländern.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 756.32,
+   "ende": 763.36,
+   "text": "Und da habe ich dann damals, als ich das erste Mal die Situation hatte, da war Hermine noch Baby und Heinrich eben schon fünf.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 763.9,
+   "ende": 766.98,
+   "text": "Und da haben wir einen Zettelkalender gemacht.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 766.98,
+   "ende": 792.84,
+   "text": "Das heißt, er hatte 24 Zettel, auf denen eben eine Aktivität stand oder auch mal sowas wie Eis essen in einer speziellen Eisdiele, die er dann besonders mag oder eben auch eine Unternehmung oder eben auch der Eintritt in irgendetwas, was er gerne gemacht hat, was ja auch eh ganz gut zum Urlaub und zum Reisen gepasst hat, weil man ja sowieso dann viel sehen möchte.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 793.82,
+   "ende": 795.9,
+   "text": "Und ja, da war er ganz begeistert.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 796.4,
+   "ende": 801.66,
+   "text": "Also für alle, die auch mal zur Adventszeit im Urlaub sind, auch wenn es nur dann zwei Wochen sind.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 801.66,
+   "ende": 806.66,
+   "text": "Aber in diesen zwei Wochen kann man dann ganz gut auf diesen Zettelkalender zurückgreifen,",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 807.28,
+   "ende": 812.48,
+   "text": "weil er einfach gar keinen Platz wegnimmt und man das gut mit den Sachen verbinden kann,",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 812.56,
+   "ende": 814.42,
+   "text": "die man vielleicht sowieso unternehmen würde.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 815.46,
+   "ende": 820.74,
+   "text": "Und ja, ansonsten haben wir auch schon mal so eine Mischung gemacht zwischen",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 820.74,
+   "ende": 836.9,
+   "text": "Einen Tag Zettel, einen Tag eine Kleinigkeit zum Spielen oder naja, irgend so ein Schnulli, den man halt kauft. Letztes Jahr waren wir ja zur Weihnachtszeit und auch zur Adventszeit in Deutschland und da haben sie sich tatsächlich mal einen ganz normalen, gekauften Kalender gewünscht.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 837.74,
+   "ende": 841.62,
+   "text": "Und dieses Jahr haben wir das halt jetzt so gemacht mit dem Christbaumschmuck,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 841.82,
+   "ende": 845.78,
+   "text": "weil ja, ich habe zwar einige Sachen von Deutschland auch mitgenommen,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 845.98,
+   "ende": 848.18,
+   "text": "die mir jetzt besonders wichtig waren.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 848.66,
+   "ende": 853.52,
+   "text": "Heinrich hatte schon mal einen Kalender, wo er sehr klein war mit Christbaumschmuck",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 853.52,
+   "ende": 858.52,
+   "text": "und da hatten wir eben auch sowas dabei, wo wir so Holzanhänger bemalt haben und so.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 858.52,
+   "ende": 862.84,
+   "text": "Und Hermine hatte letztens auch eine Kugel, nicht letztens, also letztes Jahr,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 862.98,
+   "ende": 866.38,
+   "text": "im Kindergarten haben die so eine Weihnachtskugel gemacht mit einem Handabdruck.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 866.9,
+   "ende": 881.84,
+   "text": "Ich habe hier so ein kleines Weihnachtsdorf auch. Das habe ich schon von meiner Oma so. Das sind so ein paar Sachen, wo ich gedacht habe, Mensch, wenn wir hier sowieso für die Kinder den Weihnachtsbaum aufstellen müssen, dann können wir auch noch ein paar Sachen mitnehmen, die sie vielleicht an zu Hause erinnern.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 881.84,
+   "ende": 885.52,
+   "text": "Und nichtsdestotrotz musste ich ja aber dann einen Baum kaufen.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 885.72,
+   "ende": 890.04,
+   "text": "Ich habe mir ja letztes Jahr zu Weihnachten gerade einen künstlichen Weihnachtsbaum gekauft gehabt,",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 890.04,
+   "ende": 897.9,
+   "text": "weil ich halt dachte, dass ich nicht jedes Jahr immer so einen frischen Baum einfach nur für zwei, drei Wochen da stehen haben will",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 897.9,
+   "ende": 900.22,
+   "text": "und dann wird der weggeschmissen beziehungsweise verbrannt.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 901.22,
+   "ende": 906.96,
+   "text": "Und dann hatte ich mich letztes Jahr dann dazu entschlossen, tatsächlich mal das mit einem künstlichen zu probieren,",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 907.06,
+   "ende": 909.56,
+   "text": "weil ich ja dachte, dass ich den jetzt viele Jahre benutzen werde,",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 909.56,
+   "ende": 931.52,
+   "text": "Weil ich ja letztes Jahr zu Weihnachten dachte, dass wir sowieso nicht auswandern. Ja, ich habe ihn dann genau einmal benutzt, nämlich letztes Jahr und ihn dann wieder verkauft. Ja, und hier ist man natürlich, also hier, wenn man hier einen Weihnachtsbaum haben will, dann ist das natürlich ein künstlicher. Ja, und den habe ich eben gekauft und verschiedene Sachen dazu zum Schmücken und das ist unser Adventskalender.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 931.52,
+   "ende": 948.06,
+   "text": "Und ja, das war es dann auch schon, sage ich mal, an vorweihnachtlicher Stimmung. Ach nee, Entschuldigung, meine Mutter hatte jetzt ja noch ein Paket geschickt, da war ein selbstgebackener Stollen drin, wobei ich den auch zu jeder Jahreszeit gerne gegessen hätte.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 948.06,
+   "ende": 953.46,
+   "text": "und ja, Kekse packen können wir nicht, weil wir keinen Backofen haben.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 953.56,
+   "ende": 955.24,
+   "text": "Ich meine, vielleicht kann man es auch im Airfryer machen,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 955.5,
+   "ende": 959.44,
+   "text": "aber bin ich ganz froh, dass ich Kekse backen,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 959.44,
+   "ende": 962.42,
+   "text": "also ich backe für mein Leben gern, aber nicht gerne Kekse.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 963.26,
+   "ende": 966.98,
+   "text": "Deswegen bin ich auch ein bisschen froh, dass ich das einfach verneinen kann,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 967.06,
+   "ende": 968.3,
+   "text": "weil wir keinen Backofen haben.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 969.6,
+   "ende": 974.3,
+   "text": "Und ja, deshalb, wie gesagt, ist so die vorweihnachtliche Stimmung damit abgehakt,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 974.42,
+   "ende": 976.96,
+   "text": "dass wir eben jeden Tag etwas an dem Baum hängen",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 977.96,
+   "ende": 982.88,
+   "text": "Und ja, dann gibt es halt den 24., wo es die Geschenke geben wird.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 984.14,
+   "ende": 991.26,
+   "text": "Da Hermine ist noch, ich weiß nicht, vielleicht wird es das letzte Jahr sein, wo sie an den Weihnachtsmann glaubt, aber auf jeden Fall ist es noch der Fall.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 992.74,
+   "ende": 997.88,
+   "text": "Wir haben das in Deutschland schon so auch gemacht, dass wir dann an manchen Weihnachten haben einen Weihnachtsmann kommen lassen.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 997.88,
+   "ende": 1004.02,
+   "text": "Das machen wir hier jetzt nicht, aber es wird dann trotzdem ganz klassisch unterm Weihnachtsbaum Geschenke geben.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1004.02,
+   "ende": 1010.68,
+   "text": "und dann, ja, haben wir uns noch nicht ganz überlegt, was wir dann am Heiligabend essen.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1011.34,
+   "ende": 1015.88,
+   "text": "Wir waren ja schon in dem Jahr, wo wir hier waren, auch zu Weihnachten eben auf Koh Samui.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1015.96,
+   "ende": 1019.28,
+   "text": "Ich glaube, wir sind jetzt das dritte Mal auf Koh Samui an Weihnachten tatsächlich.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1020.38,
+   "ende": 1024.52,
+   "text": "Und da haben wir damals, ich nenne es jetzt mal deutsches Buffet gemacht,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1024.52,
+   "ende": 1041.68,
+   "text": "Also so klassische Salami, Käse, Fleischwurst, Kartoffelsalat, Buletten, was hatten wir noch? Weiß ich gar nicht. Also hier sind auch eingelegte Gurken, richtiges Brot.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.21
+  },
+  {
+   "start": 1041.68,
+   "ende": 1048.86,
+   "text": "Und auf jeden Fall haben wir da so eine Tafel gemacht mit einer Brotzeit, nenne ich es jetzt mal,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1049.04,
+   "ende": 1054.76,
+   "text": "weil das halt was ist, was wir zumindest hier so gut wie gar nicht essen, weil es auch einfach relativ teuer ist.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1056.1,
+   "ende": 1058.92,
+   "text": "Und ja, das war damals unser Weihnachtsessen.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1059.8,
+   "ende": 1063.1,
+   "text": "Dieses Jahr habe ich das auch wieder in den Raum geworfen.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1063.7,
+   "ende": 1067.64,
+   "text": "Vielleicht gehen wir aber auch einfach zum Inder, weil wir da sehr gerne essen.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1067.64,
+   "ende": 1088.74,
+   "text": "Ja, also heißt, ich will damit sagen, auch am Heiligabend wird es jetzt irgendwie nichts Traditionelles geben. Das Traditionellste an dem Tag wird sein, dass es Geschenke gibt. Und wir überlegen gerade noch, ob wir halt irgendwas Cooles noch den Abend machen, vielleicht zum Muay Thai-Kampf mal alle gehen. Das geht dann auch immer so bis in die Nacht rein.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1089.46,
+   "ende": 1093.2,
+   "text": "Das ist also auch nichts, was wir jetzt hier irgendwie regelmäßig machen würden.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1093.26,
+   "ende": 1098.3,
+   "text": "Oder mal ins Kino, auch das ist was, was wir so gut wie nie machen, also weder in Deutschland noch hier bisher.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1098.3,
+   "ende": 1104.08,
+   "text": "Also das ist jetzt noch so eine Sache, dass man eben überlegt, okay, kann man vielleicht noch irgendwas Besonderes den Tag machen.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1104.96,
+   "ende": 1111.0,
+   "text": "Und da die Kinder bisher auch nicht danach gefragt haben, was eigentlich am ersten oder zweiten Weihnachtsfeiertag passiert,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1111.1,
+   "ende": 1116.84,
+   "text": "weil ich einfach glaube, dass ihnen eben das nicht bewusst ist, dass es auch noch einen ersten oder zweiten Weihnachtsfeiertag gibt,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1116.84,
+   "ende": 1141.96,
+   "text": "Und haben Hagen und ich letztens schon darüber gesprochen, dass wir das einfach wegfallen lassen, weil ehrlicherweise, also zumindest jetzt wir, die jetzt nicht die totalen Weihnachtsfans sind und die auch keine Traditionen in dem Sinne haben, also eigene Familientraditionen, was Weihnachten angeht, muss ich sagen, sind der erste und zweite Weihnachtsfeiertag ja auch eigentlich immer nur dazu da,",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1141.96,
+   "ende": 1147.06,
+   "text": "um noch mehr zu essen, als man sowieso schon gegessen hat und eben weitere Verwandte zu besuchen.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1147.28,
+   "ende": 1151.22,
+   "text": "Also gerade bei uns waren auch die Weihnachtsfeste immer davon geprägt,",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1151.32,
+   "ende": 1159.06,
+   "text": "dass irgendwie eine Fahrerei stattgefunden hat, weil ich ja nun mal in Rostock lebe",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1159.06,
+   "ende": 1164.68,
+   "text": "und ein Teil meiner Familie in NRW und ein anderer Teil meiner Familie in Thüringen",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1164.68,
+   "ende": 1168.86,
+   "text": "und Hagens Familie wiederum aber in Rostock war.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1168.86,
+   "ende": 1187.52,
+   "text": "Und ja, dadurch man doch irgendwie auch immer so ein bisschen hin und her gerissen war. Wo geht man jetzt wann zu wem? Für viele ist ja irgendwie der Heiligabend auch so der Tag oder Abend, wo alle zusammenkommen sollen. Und am ersten und zweiten Weihnachtsfeiertag trifft man dann vielleicht so Verwandte, die man nicht so häufig sieht.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1188.52,
+   "ende": 1192.44,
+   "text": "Für andere ist es eher so, dass sie sagen, der erste Weihnachtsfeiertag ist super wichtig.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1193.14,
+   "ende": 1197.12,
+   "text": "Ja, und deshalb haben wir halt da auch da einmal versucht, uns irgendwie so ein bisschen aufzuteilen.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1198.32,
+   "ende": 1201.1,
+   "text": "Ich bin auch schon mal ganz alleine mit den Kindern bei meinen Eltern gewesen.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1201.24,
+   "ende": 1203.18,
+   "text": "Hagen ist in Rostock bei seiner Familie gewesen.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1204.36,
+   "ende": 1208.08,
+   "text": "Dann haben wir mal versucht, ein Jahr komplett da zu sein, das andere Jahr komplett da.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1208.72,
+   "ende": 1213.88,
+   "text": "Manchmal sind wir aber auch einfach am ersten Weihnachtsfeiertag mit dem Auto 400 Kilometer gefahren,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1214.0,
+   "ende": 1217.26,
+   "text": "um dann eben zum anderen Teil der Familie zu kommen.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1217.52,
+   "ende": 1231.44,
+   "text": "Was ich persönlich immer nicht so geil fand, dann irgendwie den halben Tag im Auto zu sitzen. Aber ja, das heißt, der erste Weihnachtsfeiertag ist für uns oft auch irgendwo hinfahren, um dann da zu essen oder zusammenzukommen.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.36
+  },
+  {
+   "start": 1231.44,
+   "ende": 1249.34,
+   "text": "Und dadurch, dass wir das ja jetzt hier nicht haben und wir auch ja nicht gläubig sind, also für uns hat es überhaupt keinen religiösen, also wir machen Weihnachten, weil die Kinder das gerne wollen und weil es da Geschenke gibt, aber es hat so keinen religiösen Hintergrund für uns.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1249.34,
+   "ende": 1252.46,
+   "text": "und deshalb gibt es auch aus unserer Sicht irgendwie keinen Grund,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1252.56,
+   "ende": 1255.18,
+   "text": "den ersten und zweiten Weihnachtsfeiertag irgendwie zu feiern.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1257.3,
+   "ende": 1260.28,
+   "text": "Wenn man jetzt sagt, okay, ja, man kann da ja auch was Besonderes machen,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1260.42,
+   "ende": 1262.94,
+   "text": "das ist vielleicht noch so ein Gedanke, den man dann hätte,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1263.08,
+   "ende": 1265.72,
+   "text": "man unternimmt vielleicht was Besonderes oder macht was Schönes,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1265.84,
+   "ende": 1268.66,
+   "text": "aber wir machen das ja hier sowieso.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1268.66,
+   "ende": 1274.74,
+   "text": "Also das ist ja einer der, das Schöne und der Vorteile an diesem Leben,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1274.84,
+   "ende": 1277.48,
+   "text": "was wir hier führen, dass wir die Möglichkeit haben,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1277.48,
+   "ende": 1292.38,
+   "text": "Oft einfach Dinge zu tun, einfach nur deshalb, weil wir Lust darauf haben und weil wir es können, weil wir die Zeit dafür haben und hier auch den finanziellen Rahmen für gewisse Dinge haben, den wir eben in Deutschland zum Teil nicht hatten.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1293.64,
+   "ende": 1302.9,
+   "text": "Und ja, deshalb gibt es so viele besondere Tage hier, wo wir was Schönes machen. Dafür brauchen wir dann jetzt eben nicht den ersten oder zweiten Weihnachtsfeiertag.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1302.9,
+   "ende": 1323.62,
+   "text": "Deshalb, ja, könnt ihr schon raushören, dass ich hier keine, wie soll ich das sagen, sentimentale weihnachtliche Stimmung in der Podcast-Folge verbreite, weil sie bei uns einfach so nicht aufkommt und wir auch von unserer Seite da nicht super viel Wert drauf legen.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 1323.62,
+   "ende": 1343.52,
+   "text": "Ja, aber das ist ja wie bei allen anderen Dingen auch. Also ich sage mal, die meisten, die wir kennen, lieben Weihnachten und freuen sich auch super doll auf die Zeit und machen gerne all diese Traditionen, nenne ich es jetzt mal.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 1343.52,
+   "ende": 1366.66,
+   "text": "Ich weiß, bei uns, wo wir gewohnt haben, bis auch mal, ich glaube, am dritten Advent oder so, so ein Weihnachtsumzug von der Feuerwehr. So, dass, wenn wir dann da waren, dann sind wir da auch hingegangen. Und das heißt jetzt nicht, dass ich sowas nicht schön finde oder so. Also das ist immer eine schöne Atmosphäre gewesen. Und man, ja, man hat da auch, also auch die Kinder fanden das toll oder auch mal auf einen schönen Weihnachtsmarkt zu gehen und so.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1366.66,
+   "ende": 1384.46,
+   "text": "Aber wenn ich das nicht habe, stört es mich halt einfach auch überhaupt nicht. Und ja, deshalb versuchen wir hier, so gut es geht, für die Kinder das trotzdem natürlich zu gewährleisten. Aber die sind auch total happy.",
+   "avg_logprob": -0.053,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.34
+  },
+  {
+   "start": 1384.46,
+   "ende": 1393.92,
+   "text": "Also Heinrich hat zwar einmal jetzt gefragt, ob wir Kekse backen können, aber ansonsten haben die jetzt auch nicht gesagt, ja, auch irgendwie, wo ist eigentlich unser Adventskranz, weil den haben wir nicht.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1394.62,
+   "ende": 1411.7,
+   "text": "Oder irgendwie, ja, so richtig weihnachtlich ist das nicht oder so, weil, ja, ich glaube, so, ja, auch wenn das vielleicht nicht jeder so wahrhaben will, aber am Ende des Tages ist für Kinder an Weihnachten das Einzige, worauf sie warten, dass der Weihnachtsmann Geschenke bringt, ist meine Meinung.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1411.7,
+   "ende": 1430.94,
+   "text": "Mag ich mich jetzt täuschen? Vielleicht gibt es auch Kinder, die die ganze Stimmung auch schon total feiern und die eben auch, wie viele Erwachsene, diese ganze Vorweihnachtszeit lieben. Aber ich würde sagen, ein Großteil der Kinder und auch wenn man an sich selber denkt, hat man eigentlich nur auf den 24. gewartet, dass endlich der Weihnachtsmann kommt.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1430.94,
+   "ende": 1451.6,
+   "text": "Oder halt eben der Nikolaus, der war bei uns übrigens auch natürlich, hat der was in die Schuhe gestellt. Ja, aber so ist es bei uns und ich hoffe natürlich trotzdem, dass ich jetzt hier keinem irgendwie die Weihnachtsstimmung vermiest habe mit meinem doch recht nüchternen Blick darauf.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1452.6,
+   "ende": 1473.54,
+   "text": "Aber das war halt die Frage und das ist meine Antwort. Wir machen das in dem Rahmen, der für alle irgendwie okay ist. Und ja, ich bin kein Weihnachtsmann und mal gucken, was uns den Tag noch erwartet oder was wir uns da noch überlegen. Und dann ist das auch schon wieder durch, die Nummer.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1473.54,
+   "ende": 1490.7,
+   "text": "Aber dann kommt noch Silvester, auch noch so eine Sache, die wir irgendwie auch nicht brauchen würden, gebraucht hätten, wo wir auch schon das ein oder andere Mal dachten, wir können es auch einfach ins Bett legen. Nicht, weil wir nicht gerne gefeiert hätten, also das haben Hagen und ich ausgiebig getan.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1491.7,
+   "ende": 1498.6,
+   "text": "Aber ja, nur weil Silvester ist jetzt irgendwie die gleiche Location zu besuchen,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1498.84,
+   "ende": 1502.22,
+   "text": "die man beim Feiern sonst auch besucht hat, nur dass sie halt dreimal so viel kostet,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1502.86,
+   "ende": 1504.5,
+   "text": "hat uns irgendwie noch nie eingeleuchtet.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1504.86,
+   "ende": 1510.3,
+   "text": "Letztes Jahr waren wir bei meiner besten Freundin, die ich schon seit der Grundschule kenne.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1510.84,
+   "ende": 1513.48,
+   "text": "Und sowas ist natürlich schön, wenn man in der Runde zusammenkommt.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1513.48,
+   "ende": 1516.62,
+   "text": "Aber an sich sind wir jetzt auch keine riesen Silvester-Fans.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1517.58,
+   "ende": 1538.04,
+   "text": "Ich muss aber sagen, dass ich an Silvester inzwischen doch ganz schön den Gedanken finde, einfach mal das letzte Jahr zu reflektieren. Ich werde dann auch eine Podcast-Folge dazu noch nutzen und einfach mal so darüber zu sprechen, wie ich irgendwie so in die Richtung Dinge, die ich halt dieses Jahr zum ersten Mal gemacht habe.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1538.04,
+   "ende": 1555.46,
+   "text": "Also sowas finde ich immer ganz schön in dieser Weihnachts-Sylvester-Phase, sich über das Jahr Gedanken zu machen und auch darüber nachzudenken, was erwartet man vom nächsten Jahr. Aber ja, grundsätzlich, wenn man irgendwas verändern will in seinem Leben, braucht man auch nicht warten, bis Silvester ist.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 1556.18,
+   "ende": 1559.44,
+   "text": "Man kann sagen, okay, das ist der Anfang eines neuen Jahres.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1559.66,
+   "ende": 1562.86,
+   "text": "Man kann aber auch jeden Montag sagen, das ist der Anfang einer neuen Woche.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1563.1,
+   "ende": 1566.94,
+   "text": "Und theoretisch kann ich auch jeden Morgen, wenn ich aufstehe, sagen, das ist der Anfang von einem neuen Tag.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1567.0,
+   "ende": 1570.48,
+   "text": "Und wenn ich irgendwas ändern will, dann kann ich heute damit anfangen.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1571.68,
+   "ende": 1580.78,
+   "text": "Aber ja, also das mache ich schon, dass ich dann so in dieser Weihnachts-Neujahrszeit ein bisschen reflektiere noch, was so das Jahr gebracht hat.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1580.78,
+   "ende": 1601.02,
+   "text": "Ja, gut. Ich glaube, dann habe ich jetzt die Frage zu Weihnachten und Feiertagen hier beantwortet. Ich wünsche euch dennoch eine wunderschöne vorweihnachtliche Zeit. Genießt sie, also alle, die sie lieben, genießt sie und alle, die sie nicht so sehr lieben, ja, es ist auch okay.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1601.02,
+   "ende": 1621.28,
+   "text": "Ja, macht euch nicht fertig deswegen. Denkt nicht, dass irgendwas falsch ist, nur weil ihr jetzt nicht diese ganze Weihnachtsnummer total abfeiert und habt auch nicht so eine große Erwartungshaltung an, nur weil Weihnachten ist, müssen sich alle lieb haben und alles muss ganz toll sein.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1621.28,
+   "ende": 1641.32,
+   "text": "Weil aus meiner Sicht genau diese Erwartungshaltung oft dazu führt, dass eben nicht alles ganz toll ist und es dann am 24. unter dem Weihnachtsbaum knallt. Ja, also ganz entspannt und erfreut euch in dieser Zeit, woran auch immer. Und wir hören uns nächste Woche. Bis dann.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.37
+  }
+ ]
+}

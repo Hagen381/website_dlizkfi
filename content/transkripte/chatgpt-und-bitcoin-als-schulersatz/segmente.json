@@ -1,0 +1,2890 @@
+{
+ "meta": {
+  "slug": "chatgpt-und-bitcoin-als-schulersatz",
+  "titel": "ChatGPT und Bitcoin als Schulersatz",
+  "datum": "2026-01-19T06:00:00.000Z",
+  "dauer_sekunden": 2304,
+  "guid": "981b2e10-7c03-43fa-b9ce-1efec5f54aba",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T07:35:48Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 5,
+   "transkription": 1575
+  },
+  "echtzeitfaktor": 0.68,
+  "anzahl_segmente": 358,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 10.8,
+   "ende": 19.48,
+   "text": "Das ist halt am Ende die Zukunft. Und deshalb habe ich halt auch gedacht, warum soll Heinrich dann nicht auch damit lernen und einfach lernen, damit umzugehen.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 19.52,
+   "ende": 24.3,
+   "text": "Und wir beobachten halt, dass er super intuitiv mit ChatGPT umgeht.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 24.76,
+   "ende": 40.12,
+   "text": "Hallo und herzlich willkommen zu einer neuen Folge von DLIZKFI. Heute zum Thema, was ist eigentlich mit Schule 2.0.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 41.02,
+   "ende": 46.44,
+   "text": "Die Folge, was ist eigentlich mit Schule, war ja nach der Einstiegsfolge meine erste Podcast-Folge.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 46.56,
+   "ende": 59.76,
+   "text": "Weil wir gemerkt haben, dass das doch irgendwie das Thema ist, was die Leute am allermeisten interessiert, beziehungsweise das immer die allererste Frage war, die wir bekommen haben. Und daran hat sich tatsächlich auch gar nicht so viel geändert.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 60.06,
+   "ende": 66.24,
+   "text": "Zumindest wenn man jetzt mit, ja, wenn man neue Leute kennenlernt oder auch mit anderen länger nicht gesprochen hat",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 66.24,
+   "ende": 70.36,
+   "text": "oder sich selten gesehen hat und jetzt vielleicht mal wieder Kontakt hat oder so,",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 70.88,
+   "ende": 78.2,
+   "text": "bleibt es dabei, dass das immer mit zu den ersten Fragen gehört, was, glaube ich, auch verständlich ist,",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 78.2,
+   "ende": 84.72,
+   "text": "weil es halt einfach, vor allem wenn man aus Deutschland kommt, natürlich einfach gesetzt ist,",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 84.72,
+   "ende": 90.46,
+   "text": "dass Kinder zur Schule gehen und die meisten, und dazu habe ich auch gehört, viele Jahre,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 90.9,
+   "ende": 97.04,
+   "text": "gar nicht wissen, dass es theoretisch auch Optionen gibt, wo Kinder nicht zur Schule gehen",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 97.04,
+   "ende": 102.58,
+   "text": "und dass es auch Länder gibt, also auch entwickelte Länder, wo Kinder nicht zur Schule gehen",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 102.58,
+   "ende": 106.38,
+   "text": "beziehungsweise zu Hause unterrichtet werden müssen oder diese Schulpflicht in der Form,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 106.54,
+   "ende": 109.96,
+   "text": "wie wir sie in Deutschland haben, gar nicht existiert.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 109.96,
+   "ende": 127.68,
+   "text": "Deshalb, wenn man damit nicht irgendwie durch irgendeinen Umstand in Berührung gekommen ist, ist es für einen Deutschen natürlich vollkommen normal, dass Kinder zur Schule gehen, beziehungsweise im Umkehrschluss vollkommen unvorstellbar, dass Kinder nicht zur Schule gehen.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 128.68,
+   "ende": 137.32,
+   "text": "Und wir hatten ja in der Abschlussfolge 2025 im Mitte Dezember die Folge, die ich mit Hagen zusammen aufgenommen habe,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 137.32,
+   "ende": 144.22,
+   "text": "hatte Hagen ja auch schon nochmal ein bisschen was zu dem Thema gesagt, wie sich das Thema Schule für Hermine gestaltet aktuell.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 145.06,
+   "ende": 153.18,
+   "text": "Und ich wollte jetzt nochmal so ein paar Beispiele dafür geben, was aus unserer Sicht gerade Schule ist,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 153.18,
+   "ende": 179.24,
+   "text": "Wobei alleine das Wort eben eigentlich auch gar nicht so das richtige Wort ist. Und auch Heinrich sagt, dass dieses Wort ihn schon total abschreckt. Also wenn wir jetzt sagen, ja Heinrich, wir müssen mal wieder Schule machen, dann ist das für uns halt einfach so eine Floskel, wo jeder weiß, was damit gemeint ist.",
+   "avg_logprob": -0.053,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 179.24,
+   "ende": 194.56,
+   "text": "Aber er sagt, das Wort schreckt ihn schon so ab, dass er schon mit der Aussage eigentlich gar keinen Bock mehr auf Lernen hat. Wir haben aber, so sehr wir uns auch bemüht haben, bisher noch kein anderes Wort gefunden, beziehungsweise man benutzt es einfach automatisch wieder.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 195.5,
+   "ende": 201.08,
+   "text": "Aber ja, so Schule hat ja dann dahinter gleich so eine Definition, die man im Kopf hat.",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 201.08,
+   "ende": 208.04,
+   "text": "Und so ist es halt nicht, denn hier lernt er jetzt einfach auf unterschiedlichen Wegen.",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 209.42,
+   "ende": 216.28,
+   "text": "Ich sage mal, ganz banal sind es ja nun mal zwei Fremdsprachen, die er aktuell lernt, und zwar Englisch und Thai.",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 217.5,
+   "ende": 219.96,
+   "text": "Englisch hat er auch schon in der Grundschule gehabt.",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 220.38,
+   "ende": 224.42,
+   "text": "Aber das hat, ich glaube, jeder kennt das auch aus seinem eigenen Englischunterricht.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 224.54,
+   "ende": 227.82,
+   "text": "Ich meine, als ich zur Schule gegangen bin, gab es noch keine Fremdsprachen in der Grundschule,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 227.92,
+   "ende": 229.44,
+   "text": "sondern dann erst ab der fünften Klasse.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 230.22,
+   "ende": 233.5,
+   "text": "Aber ich glaube, jeder, der eben in der Schule eine Fremdsprache gelernt hat,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 233.6,
+   "ende": 236.32,
+   "text": "weiß, dass man danach nicht unbedingt die Sprache sprechen kann.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 236.48,
+   "ende": 240.4,
+   "text": "Also als ich mit der Schule fertig war, konnte ich jetzt nicht fließend Englisch sprechen.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 240.4,
+   "ende": 244.7,
+   "text": "Das habe ich am Ende durch meine Reisen, durch Auslandspraktika und so weiter gelernt,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 244.7,
+   "ende": 250.08,
+   "text": "sodass er jetzt natürlich hier Englisch lernt",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 250.08,
+   "ende": 253.14,
+   "text": "insofern, dass wie man es anwendet, wie man es spricht",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 253.14,
+   "ende": 258.18,
+   "text": "im Zweifel natürlich nicht unbedingt dann, wie man das schreibt",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 258.18,
+   "ende": 264.36,
+   "text": "aber zumindest wird er relativ fließend Englisch sprechen können",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 264.36,
+   "ende": 268.14,
+   "text": "vermutlich schneller als eben, wenn er zwei, dreimal die Woche",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 268.14,
+   "ende": 270.8,
+   "text": "Englischunterricht in einer deutschen Schule haben würde",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 270.8,
+   "ende": 274.34,
+   "text": "und dann kommt ja noch Thai-Unterricht dazu",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 274.34,
+   "ende": 291.74,
+   "text": "Die Thai-Lehrerin spricht ja auch nur Englisch und Thai, das heißt, wir lernen sozusagen Thai in Englisch, wodurch das natürlich dann für die Kinder auch ein bisschen komplizierter ist, aber ja, man dann gefühlt irgendwie schon zwei Sprachen parallel lernt.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 291.74,
+   "ende": 306.9,
+   "text": "Und Thai ist jetzt auch nicht so, also es ist an sich eine einfache Sprache vom Aufbau der Sprache, aber es ist für unser Gehör natürlich super abstrakt, sodass das schon auch ein bisschen länger dauert.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 306.98,
+   "ende": 320.54,
+   "text": "Hinzu kommt auch, dass unsere Thai-Lehrerin jetzt, ja abgesagt kann man es auch nicht nennen, aber sie hat halt so oft die Termine verschoben und kann immer nicht und so, ja, dass wir da jetzt im Moment auch keine Regelmäßigkeit mehr drin haben, was den Unterricht angeht.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 320.54,
+   "ende": 340.94,
+   "text": "Wir sind anfangs ja zweimal die Woche da gewesen, aber wir versuchen halt immer im Alltag einfach Verkäufer, Kellner. Wir haben ja auch von unseren Freunden, da ist ja auch ein Thai-Mädel, hatte ich ja schon mal erzählt mit der Mutter, sodass wir da halt immer fragen, was heißt was.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 340.94,
+   "ende": 352.7,
+   "text": "Und auch selber einfach, wenn Heinrich hat jetzt die Tage hier eine Hake gebraucht, eine Laubhake und dann guckt er halt einfach bei Google Übersetzer, lässt er sich halt sagen, was das auf Thai heißt und versucht das dann nachzusprechen.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 353.92,
+   "ende": 363.18,
+   "text": "Genau, sodass ja das Thema Sprachen, wenn wir jetzt mal am Lehrplan bleiben, wir das Thema Sprachen hier automatisch abdecken.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 363.18,
+   "ende": 369.18,
+   "text": "Was wir auch automatisch abdecken durch unsere Freizeit ist das Thema Sport",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 369.18,
+   "ende": 376.6,
+   "text": "Auch da ist ja der Schulsport, ja für den einen ist das bereichernd, für den anderen so gar nicht",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 376.6,
+   "ende": 379.2,
+   "text": "Auch das kennt man ja aus der eigenen Schulzeit",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 379.2,
+   "ende": 383.02,
+   "text": "Heinrich hat tatsächlich wenig Spaß am Schulsport gehabt",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 383.02,
+   "ende": 389.06,
+   "text": "Bis hin zu, dass ihm eigentlich auch suggeriert wurde, dass er jetzt nicht so der sportliche Typ ist",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 389.66,
+   "ende": 393.56,
+   "text": "was ich zu Hause dann immer etwas irritierend fand,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 393.66,
+   "ende": 396.88,
+   "text": "weil er ja, ich weiß nicht, er ist mit vier Ski gefahren,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 397.04,
+   "ende": 401.62,
+   "text": "er hat mit neun, also mit vier hat er das erste Mal",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 401.62,
+   "ende": 404.08,
+   "text": "auf dem Kiteboard gestanden zwischen den Beinen von Hagen,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 404.08,
+   "ende": 407.38,
+   "text": "aber so, dass er selber angefangen hat mit Kiten,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 407.58,
+   "ende": 410.26,
+   "text": "war, ich glaube, da war er neun, ja.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 412.08,
+   "ende": 414.98,
+   "text": "Dann hat er ja auch im Sommer dieses Wakeboard-Camp gemacht,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 415.12,
+   "ende": 417.68,
+   "text": "aber das erste Mal Wakeboarden war er schon,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 417.68,
+   "ende": 422.56,
+   "text": "wo wir damals das Jahr hier in Thailand waren, da war er dann, ich weiß nicht, sieben oder acht.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 424.3,
+   "ende": 427.38,
+   "text": "Naja, auf jeden Fall konnte ich das immer gar nicht zusammenbringen.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 427.86,
+   "ende": 430.88,
+   "text": "Ach so, ein Tauchen, also Wasser, Schwimmen, Tauchen, ja sowieso.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 432.8,
+   "ende": 436.4,
+   "text": "Aber ja, auf jeden Fall wurde ihm in der Schule eigentlich schon suggeriert,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 436.64,
+   "ende": 440.06,
+   "text": "er, so sinngemäß, er wäre zwar ein schlaues Köpfchen, aber Sport wäre wohl nicht so seins.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 441.22,
+   "ende": 444.92,
+   "text": "Ja, hier gehen wir ja, also er, wir haben das mal ausgerechnet,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 444.92,
+   "ende": 449.68,
+   "text": "Er geht insgesamt viermal die Woche zum Sport, beziehungsweise zum Teil sogar fünfmal.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 450.22,
+   "ende": 453.36,
+   "text": "Nämlich macht er auch zweimal die Woche High Rock, so wie wir alle.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 453.72,
+   "ende": 457.48,
+   "text": "Dann geht er zweimal zum Muay Thai-Training, für Kinder speziell.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 458.3,
+   "ende": 463.96,
+   "text": "Und seit kurzem geht er auch oft montags nachmittags, da geht Hagen immer zum fortgeschrittenen Training.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 464.56,
+   "ende": 468.96,
+   "text": "Und da sind dann aber auch seine Freunde dabei und da fährt er dann auch meistens nochmal mit",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 468.96,
+   "ende": 472.3,
+   "text": "und macht dann quasi da auch mit den Fortgeschrittenen mit.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 473.1,
+   "ende": 479.26,
+   "text": "Das heißt, vier bis fünfmal die Woche macht er Sport, was auch wieder dann ja mit ins Sprachenlernen rein zählt,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 479.26,
+   "ende": 484.78,
+   "text": "weil die Trainer dort eben Thai sind und eben gebrochenes Englisch oder Thai sprechen.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 486.34,
+   "ende": 494.84,
+   "text": "Dann liest er jeden Abend eine bis anderthalb Stunden ein Buch, freiwillig, aber auch aus der Not heraus,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 494.96,
+   "ende": 499.68,
+   "text": "weil er Schlafen halt einfach furchtbar findet. Also das ist schon seit seiner Geburt sein Thema.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 499.68,
+   "ende": 516.62,
+   "text": "Schlafen ist aus seiner Sicht überflüssig und er tut alles, um Schlafen zu vermeiden, sodass er dann einfach ja hier angefangen hat, abends zu lesen, um sich die Langeweile zu vertreiben. Und das geht dann eben auch mal so ein bis anderthalb, zum Teil auch zwei Stunden.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 516.62,
+   "ende": 521.88,
+   "text": "Er hat da jetzt irgendwie schon drei Bücher durchgelesen, seit wir hier sind",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 521.88,
+   "ende": 526.88,
+   "text": "Und wenn er manchmal mit Hermine abends zusammen liegt, liest er ihr auch was vor",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 526.88,
+   "ende": 532.72,
+   "text": "Das heißt, zum einen übt er halt selber lesen und zum anderen auch laut vorlesen",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 532.72,
+   "ende": 539.14,
+   "text": "Was ja zumindest, ich weiß nicht, ob es dann ab der fünften Klasse noch so ist, aber auch in der Grundschule ja auch quasi auf dem Lehrplan ist",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 539.14,
+   "ende": 541.6,
+   "text": "Dass Kinder eben laut vorlesen vor der Klasse",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 541.6,
+   "ende": 546.06,
+   "text": "Also diese Themen haben wir schon mal abgedeckt",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 546.62,
+   "ende": 554.32,
+   "text": "Dann schaut er sich, je nach Muße aktuell gerade nicht, aber er hat dann immer so Phasen, wo er dann Bock drauf hat,",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 554.92,
+   "ende": 562.04,
+   "text": "sucht er sich bei YouTube zum Beispiel Videos raus, wo so geometrische Formen exakt nachgemalt werden,",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 562.04,
+   "ende": 565.76,
+   "text": "die dann eben 3D-mäßig aussehen, weil ihn dann einfach fasziniert.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 566.58,
+   "ende": 572.34,
+   "text": "Also ihm geht es ja gar nicht mehr um dieses Mathematische, ich möchte jetzt irgendwie Geometrieunterricht machen,",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 572.94,
+   "ende": 579.84,
+   "text": "sondern ihn fasziniert halt eben diese Bilder, die dann so aussehen, als ob sie sich vom Blatt Papier abheben.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 580.64,
+   "ende": 584.16,
+   "text": "Und dann schaut er sich einfach Videos dazu an, wie man das macht.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 584.24,
+   "ende": 589.8,
+   "text": "Das wird dann ja oft so in ganz minimalen Schritten erklärt und zeichnet dann eben verschiedene Formen nach",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 589.8,
+   "ende": 596.96,
+   "text": "oder auch Bilder, die dann 3D-mäßig sind, beziehungsweise auch mit einem Zirkel,",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 597.02,
+   "ende": 600.1,
+   "text": "dann so Zirkelblumen, die dann ganz akkurat aussehen.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 600.1,
+   "ende": 619.58,
+   "text": "Also sprich, das macht ja so Eigeninitiativ. Geometrie haben wir somit auch abgedeckt. Und zum Thema Mathe habe ich mir aus Unterrichtsblätter schicken lassen, auch was gerade aktuell in der fünften Klasse Mecklenburg-Vorpommern noch behandelt wird.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.33
+  },
+  {
+   "start": 619.58,
+   "ende": 624.94,
+   "text": "Und da war dann sowas halt auch wie schriftliche Division, schriftliche Multiplikation und so weiter.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 625.92,
+   "ende": 628.08,
+   "text": "Da hat Hagen sich dann ab und zu mal mit ihm hingesetzt.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 628.18,
+   "ende": 631.9,
+   "text": "Also das machen wir schon auch, oder in erster Linie Hagen tatsächlich,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 632.4,
+   "ende": 635.56,
+   "text": "dass zu gewissen Themen wir sagen, gut, da ist es schon wichtig,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 635.56,
+   "ende": 640.7,
+   "text": "dass sich einer mit ihm hinsetzt und das erklärt und eben auch gleich merkt,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 640.84,
+   "ende": 642.72,
+   "text": "hat er das verstanden, kann er das anwenden.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 644.16,
+   "ende": 645.98,
+   "text": "Genau, Mathe macht er auch tatsächlich gerne.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 645.98,
+   "ende": 651.36,
+   "text": "und dann habe ich mir auch mal so schicken lassen, okay, was wird in anderen Fächern gemacht,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 651.48,
+   "ende": 654.84,
+   "text": "so Erdkunde zum Beispiel, Ozeane, Kontinenten und so weiter.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 656.02,
+   "ende": 661.24,
+   "text": "Ich glaube, ja, zum Thema Geografie brauchen wir gar nicht so viel Theorieunterricht machen,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 661.24,
+   "ende": 666.74,
+   "text": "das hat er einfach schon sein ganzes Leben irgendwie mitbekommen aufgrund der Reisen,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 666.88,
+   "ende": 669.76,
+   "text": "die er schon seit der zehn Monate alt ist, macht.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 670.76,
+   "ende": 680.96,
+   "text": "Dann war das Thema Fische im Biologieunterricht Thema oder ist gerade gewesen in den fünften Klasse in Mecklenburg-Vorpommern.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 681.3,
+   "ende": 690.58,
+   "text": "Und da hat er eben keine Arbeitsblätter, die er ausfüllt, sondern er auch da guckt sich zum Beispiel bei YouTube an, wie man eine Fischreuse aus Kanistern baut.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 690.64,
+   "ende": 696.6,
+   "text": "Wir haben ja hier viel diese Plastikkanister und da haben wir schon ein paar Mal gesagt, ja, was kann man damit vielleicht noch machen?",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 696.6,
+   "ende": 699.28,
+   "text": "Ich habe mir da auch mal so Blumenkübel mitgemacht und so weiter.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 699.76,
+   "ende": 717.1,
+   "text": "Und er hatte dann eben Lust, er angelt ja sehr gerne und wir haben hier so einen Steg auch in der Nähe und dann hat er sich quasi mit so einem Fünf-Liter- oder Sechs-Liter-Kanister so eine Fischreuse gebaut, hat sich das angeguckt, wie man das macht und hat dann da auch tatsächlich ein paar kleine Fische gefangen.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 717.1,
+   "ende": 737.68,
+   "text": "Er kennt auch grundsätzlich durch seine Angelleidenschaft auch in Deutschland viele Fischarten, weiß auch hier, sieht, wenn wir hier am Strand spazieren gehen bei Ebbe, erkennt er, dass da halt ein Steinfisch zwischen den Steinen rumliegt, wo ich noch hundertmal gesagt habe, nein, das ist ein Stein, das ist ein Stein und er mir tatsächlich dann ja gezeigt hat, dass das wirklich ein Steinfisch war.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 737.68,
+   "ende": 740.14,
+   "text": "aufgeblasene Kugelfische liegen hier rum.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 740.32,
+   "ende": 741.96,
+   "text": "Er weiß natürlich, dass diese Fische auch",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 741.96,
+   "ende": 743.52,
+   "text": "giftig sind. Er weiß, dass zu gewissen",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 743.52,
+   "ende": 745.74,
+   "text": "Jahreszeiten von Australien bestimmte",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 745.74,
+   "ende": 747.94,
+   "text": "Quallen hier rübergetrieben werden,",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 748.54,
+   "ende": 749.94,
+   "text": "die super lange Nesseln",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 749.94,
+   "ende": 752.1,
+   "text": "haben und mega gefährlich sind.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 753.34,
+   "ende": 753.98,
+   "text": "Ja, also das",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 753.98,
+   "ende": 755.76,
+   "text": "heißt, auch in dem Themenbereich",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 755.76,
+   "ende": 757.46,
+   "text": "lernt er einfach durch,",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 758.26,
+   "ende": 759.76,
+   "text": "dadurch, dass wir das praktisch,",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 760.02,
+   "ende": 761.6,
+   "text": "dieses Wissen praktisch vermitteln müssen,",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 761.7,
+   "ende": 763.44,
+   "text": "weil es eben wichtig ist, dass wenn er hier",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 763.44,
+   "ende": 765.54,
+   "text": "barfuß am Strand langläuft, dass er",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 765.54,
+   "ende": 767.6,
+   "text": "weiß, dass da so ein Kugelfisch rumliegen kann",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 767.6,
+   "ende": 774.22,
+   "text": "oder ein Steinfisch ist oder dass er eben zu gewissen Jahreszeiten man im Wassermeer aufpassen muss.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 774.34,
+   "ende": 776.46,
+   "text": "Genauso Sachen wie Unterströmung und so weiter.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 777.16,
+   "ende": 779.76,
+   "text": "Das sind halt einfach Themen, die er hier mitbekommt,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 779.92,
+   "ende": 784.62,
+   "text": "die jetzt vielleicht dann nicht jetzt aktuell schon auf dem Lehrplan in der fünften Klasse stehen,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 784.62,
+   "ende": 788.6,
+   "text": "aber ja, er hier einfach zum Leben braucht, sage ich mal.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 789.74,
+   "ende": 793.6,
+   "text": "Und genau, und dann, ich sage mal, das sind jetzt so die Dinge,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 793.6,
+   "ende": 820.64,
+   "text": "die ich versucht habe, mal rauszufiltern von was ist eigentlich Schule oder was ist eigentlich Lernen und was ist Homeschooling, was ist Freilernen und so weiter. Ich würde sagen, es ist so eine Mischform, weil vieles gehört auch zum Thema Freilernen, wie das zum Beispiel mit der Fischreuse oder mit diesen geometrischen Formen zeichnen und andere Sachen, wie Hagen setzt sich mit ihm hin und macht schriftliche Divisionen, gehört dann eher zum Bereich Homeschooling.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 820.64,
+   "ende": 841.06,
+   "text": "Genau, dann haben wir aber auch was ganz anderes jetzt und zwar haben Hagen und ich uns dafür entschieden, Anfang des Jahres jetzt, dass wir uns ein Finanzcoaching gönnen, weil wir beide ja relativ schlecht aufgestellt sind oder relativ schlecht finanziell gebildet sind.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 841.06,
+   "ende": 859.02,
+   "text": "weil wir das auch von zu Hause jetzt gar nicht so mitbekommen haben und uns da schon seit zwei, drei Jahren so im Kopf haben. Irgendwie ist uns das bewusst und wir müssen da mal was machen, aber uns tatsächlich einfach bisher die Muße gefehlt hat, uns das selbst anzueignen.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 859.02,
+   "ende": 880.44,
+   "text": "Und deshalb haben wir da jetzt mal in unsere finanzielle Bildung investiert und uns einen Finanzcoach an die Seite genommen, mit dem wir jetzt drei Einheiten, Grundlagen, also finanzielle Grundlagen besprochen haben und dann noch weitere zehn Einheiten zum Thema Kryptoinvestitionen.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 881.24,
+   "ende": 884.04,
+   "text": "Und da hat Heinrich zum Beispiel gesagt, dass er da gerne mitmachen würde.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 884.52,
+   "ende": 887.66,
+   "text": "Und das war halt für diesen Finanzcoach auch total in Ordnung.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 887.82,
+   "ende": 890.38,
+   "text": "Und so ist das jetzt was, was wir halt zu dritt machen.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 891.14,
+   "ende": 894.5,
+   "text": "Und da geht so eine Einheit auch locker anderthalb bis eine und eine Dreiviertelstunde.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 895.0,
+   "ende": 896.1,
+   "text": "Das ist zweimal die Woche.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 896.54,
+   "ende": 901.74,
+   "text": "Und wir haben dann auch gesagt, okay, das ist schon sehr viel, was man da aufnehmen muss.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 901.74,
+   "ende": 908.6,
+   "text": "Also auch für uns als Erwachsene, dass er jetzt parallel keine weiteren Dinge,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 908.6,
+   "ende": 937.98,
+   "text": "also dass wir dann halt nicht an den anderen Tagen sagen, so und jetzt setzen wir uns nochmal hin und lernen nochmal dies oder jenes, sondern dass das jetzt für die Dauer dieses Coachings seine Schule, wenn wir wieder bei dem Wort sind, ersetzt, weil es eben auch eine Form von Bildung ist, zwar eine ganz andere und auf jeden Fall auch eine, die einem in der Schule leider überhaupt gar nicht beigebracht wird, was sehr schade ist, weil das am Ende ja egal, ob man jetzt selbstständig ist oder nicht und ob man jetzt investieren will und was man jetzt für ein Krypto hält, das sei ja alles mal dahingestellt.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 937.98,
+   "ende": 958.54,
+   "text": "Aber jeder, wenn er erwachsen ist, muss ja irgendwie trotzdem Konten führen und muss überlegen, wie will ich vielleicht mal fürs Alter vorsorgen und muss vielleicht auch mal eine Steuererklärung machen oder zumindest machen lassen oder zumindest wissen, dass man sie machen lassen sollte und wo man sie machen lassen kann, wenn man sie nicht selber machen will.",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 958.54,
+   "ende": 977.96,
+   "text": "Also so gewisse finanzielle Grundlagen, finde ich, sollten schon in der Schule vermittelt werden. Aber gut, egal, auf jeden Fall hat er von sich aus gesagt, er möchte da gerne mitmachen bei diesem Coaching und wir haben dann auch nicht gesagt, ja, du bist jetzt elf, was ist doch noch gar nicht relevant für dich, sondern ganz im Gegenteil.",
+   "avg_logprob": -0.038,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 977.96,
+   "ende": 999.22,
+   "text": "Zum einen finden wir es natürlich gut, dass er überhaupt Interesse an solchen Themen hat und zum anderen ist natürlich auch dann sein ganz großer Vorteil, wenn er sich jetzt in seinem Alter schon mit solchen Themen auseinandersetzt und wirklich das Geld, was er im Moment halt auf dem Sparkonto hat, irgendwie anlegt oder in einen Fonds packt oder tatsächlich vielleicht auch ein bisschen davon in Krypto investiert.",
+   "avg_logprob": -0.031,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 999.22,
+   "ende": 1016.88,
+   "text": "Natürlich alles über uns. Es ist ja auch klar, dass er mit elf nicht das irgendwie alles selbst verwalten kann. Aber wenn er da jetzt halt Interesse für hat und vielleicht auch eine Leidenschaft für entwickelt, weiß man ja nicht, dann hat er natürlich einen sehr großen Vorteil, was so seine finanziellen Mittel mal angehen wird.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1016.88,
+   "ende": 1041.06,
+   "text": "Weil je früher man natürlich startet, wir sind jetzt 42, hätte man sich vor 20 Jahren schon mal mit dem Thema beschäftigt, dann wäre man vielleicht jetzt auch an einem anderen Punkt. Und das ist aus unserer Sicht halt ein, gehört so ganz klassisch zu Lernen fürs Leben, was mindestens genauso wichtig ist wie andere Themen, die jetzt vielleicht eine Schulbildung abdeckt.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1041.06,
+   "ende": 1060.42,
+   "text": "So und last but not least kommt dann noch ein, ja, ein Punkt, wie er lernt, der vielleicht jetzt für den einen oder anderen, wie sagt man, aufstoßen wird, der vielleicht dem einen oder anderen aufstoßen wird.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1060.42,
+   "ende": 1089.06,
+   "text": "Und zwar lernt er auch mit ChatGPT und zwar insofern, dass ich dort einen Lehrer antrainiert habe, sage ich jetzt mal, wo wir halt darüber uns austauschen, welche Themen in der Regel jetzt in Deutschland in einer fünften Klasse im Bundesland Mecklenburg-Vorpommern behandelt werden müssen, was in Klassenarbeiten und Tests abgefragt wird, welche Fächer eben überhaupt erstmal, es ist ja auch nicht überall gleich,",
+   "avg_logprob": -0.034,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1089.06,
+   "ende": 1108.48,
+   "text": "Aber wir haben es jetzt natürlich auf Mecklenburg-Vorpommern bezogen, weil er da theoretisch ja zur Schule gegangen wäre. Und ja, er dann quasi dort Dinge erklärt bekommt und auch Antworten geben muss in den Fächern Deutsch und Erdkunde.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.3
+  },
+  {
+   "start": 1108.48,
+   "ende": 1112.78,
+   "text": "Da hatten wir, glaube ich, Bio, Physik, Chemie.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1113.6,
+   "ende": 1116.16,
+   "text": "Das haben wir eine Zeit lang immer noch zwischendurch gemacht.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1116.3,
+   "ende": 1118.76,
+   "text": "Wie gesagt, aktuell haben wir damit ausgesetzt.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1119.14,
+   "ende": 1120.56,
+   "text": "Zum einen waren wir ja super lange krank.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1121.2,
+   "ende": 1123.6,
+   "text": "Dann haben wir halt jetzt das Coaching gestartet.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1124.32,
+   "ende": 1128.06,
+   "text": "Aber ist auf jeden Fall was, was, wenn das Coaching vorbei ist, wir wieder aufnehmen werden.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1128.92,
+   "ende": 1135.16,
+   "text": "Und jetzt kann man natürlich sagen, okay, wie kann man denn sein Kind von so einer künstlichen Intelligenz unterrichten lassen?",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1135.16,
+   "ende": 1157.62,
+   "text": "Ja, also ich glaube, zum Thema KI sind die Meinungen immer noch sehr gespalten. Ich selbst habe vor, ich glaube, drei Jahren das erste Mal mit ChatGPT gearbeitet und ich weiß, dass ich mich damals noch so gefühlt habe, als ob ich irgendwie betrügen würde, als ob ich irgendwas Illegales mache.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1158.62,
+   "ende": 1185.7,
+   "text": "Heute, drei Jahre später, ist ChatGPT aus meinem Arbeitsalltag und zum Teil auch aus meinem privaten Alltag absolut gar nicht mehr wegzudenken. Ich frage mich manchmal selber, wie ich das früher gemacht habe, also dass ich das, wo ChatGPT mich jetzt unterstützt, arbeitstechnisch, wie viel Zeit mich das gekostet haben muss, als ich das alles noch selber gemacht habe.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1185.7,
+   "ende": 1211.12,
+   "text": "Und ich höre auch viele, die sagen, ja, aber so richtig kommt da ja auch nichts Sinnvolles dabei raus. Das kann man ja so auch nicht jetzt einfach eins zu eins übernehmen. Da kann ich nur sagen, wenn nichts Sinnvolles rauskommt, hat man in der Regel nichts Sinnvolles reingegeben und es geht eben nicht darum, einfach nur stumpf Chat-GBT eine Aufgabe zu geben und der erledigt die für einen und man macht dann Copy-Paste,",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1211.12,
+   "ende": 1239.4,
+   "text": "sondern es ist tatsächlich ein gemeinschaftliches Arbeiten, so wie man eben mit einem virtuellen Mitarbeiter arbeiten würde. Im Business-Kontext rede ich jetzt erstmal, aber auch ich nutze zum Beispiel ChairGPT im privaten Kontext als Ernährungsberater, ja, indem ich halt ganz klar auf mich persönlich meine ganzen Rahmenbedingungen, ob das jetzt Größe, Gewicht und solche Faktoren sind, aber auch wo lebe ich, wie schlafe ich, was esse ich, wie oft mache ich wo Sport, wie alt bin ich,",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1239.4,
+   "ende": 1262.7,
+   "text": "weil eine Ernährung und Sportplan für jemanden, der 42 ist, komplett anders ist als für jemanden, der 20 oder 30 ist, mir viele externe Informationen einfach bisher nicht richtig weitergeholfen haben, weil es super individuell ist und eben, wie gesagt, vor allen Dingen für Frauen ab 40 nochmal ein ganz anderes Thema ist, was Sport und Ernährung angeht.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1262.7,
+   "ende": 1268.2,
+   "text": "und ich da natürlich mit ChatGPT eine ganz andere Grundlage habe,",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1268.28,
+   "ende": 1270.42,
+   "text": "die super individuell auf mich zugeschnitten ist.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1270.52,
+   "ende": 1273.38,
+   "text": "Und so ist das halt eigentlich in allen Themen.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1273.38,
+   "ende": 1276.5,
+   "text": "Ja, Hagen nutzt zum Beispiel ChatGPT super viel fürs Auto,",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1277.2,
+   "ende": 1280.72,
+   "text": "weil wir da auch ständig irgendwelche kleinen Macken haben.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1280.84,
+   "ende": 1283.18,
+   "text": "Er ist da inzwischen zum Kfz-Mechaniker mutiert.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1284.28,
+   "ende": 1286.54,
+   "text": "Sind jetzt nur so kleine Beispiele,",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1286.7,
+   "ende": 1289.38,
+   "text": "aber wir nutzen das halt einfach super viel im Alltag,",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1289.88,
+   "ende": 1291.36,
+   "text": "beruflich wie privat.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1291.36,
+   "ende": 1313.82,
+   "text": "Und das ist halt am Ende die Zukunft. Und deshalb habe ich halt auch gedacht, warum soll Heinrich dann nicht auch damit lernen und einfach lernen, damit umzugehen. Und wir beobachten halt, dass er super intuitiv mit Chat-GPT umgeht und es eben auch sich mit der Maschine, sagen wir immer, unterhält und da überhaupt keine Berührungsängste hat.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1313.82,
+   "ende": 1330.86,
+   "text": "Für Hagen ist es zum Beispiel, der hat sich bis vor ein paar Wochen oder Monaten, ich weiß nicht, wann es bei ihm anfing, aber er hat sich sehr lange dagegen gesträubt und hat immer auch in den letzten drei Jahren, wo ich schon damit gearbeitet habe, gesagt, mach das nicht und das kann nicht gut sein und so weiter.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1330.86,
+   "ende": 1359.86,
+   "text": "Und ist immer noch ein bisschen skeptisch, aber sieht natürlich auch den Mehrwert. Aber für ihn fühlt es sich trotzdem komisch noch an, mit der Maschine zu kommunizieren. Und für Heinrich ist es einfach super intuitiv und er macht es einfach, er macht sich keine Gedanken darüber, er kommt sich zum Beispiel nicht komisch dabei vor, mit der Maschine wirklich zu sprechen, also per Spracheingabe sich zu unterhalten über diese schulischen Themen, um die es gerade geht, um sich Sachen erklären zu lassen oder halt nochmal nachzufragen.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1360.86,
+   "ende": 1380.14,
+   "text": "Ähm, und ich glaube, und das ist jetzt eine, auf der einen Seite eine sehr subjektive und individuelle Meinung, aber mit der ich vermutlich auch nicht alleine bin, dass, wenn ich jetzt, wenn wir jetzt mal nur diesen Zeit, was ich gerade gesagt habe, dieses Zeitfenster nehmen von vor drei Jahren, habe ich angefangen mit ChatGPT zu arbeiten.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1380.14,
+   "ende": 1399.36,
+   "text": "Da fühlte es sich noch ein bisschen wie, wie sagt man das, wenn Diplomarbeiten und so, mir fällt das Wort nicht ein. Egal, ihr wisst, was ich meine. Also wenn man eben so eine Diplomarbeit kopiert und dann als seine eigene ausgibt, so habe ich mich da noch gefühlt.",
+   "avg_logprob": -0.036,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1399.36,
+   "ende": 1428.7,
+   "text": "So jetzt drei Jahre später ist es ein ganz normaler Bestandteil in meinem Alltag. Noch drei Jahre später kann ich mir überhaupt noch nicht ausmalen, wo wir da sein werden, was diese ganze AI-Technik angehen wird. Und Heinrich ist in drei Jahren aber erst 14, also immer noch nicht an dem Punkt, wo er eine Ausbildung machen würde oder ein Studium machen würde, wofür man dann gegebenenfalls in den Köpfen, also so geht man ja davon aus, wenn man das deutsche Schulsystem so",
+   "avg_logprob": -0.036,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1429.36,
+   "ende": 1431.36,
+   "text": "betrachtet, dann hat man halt nach der 9. oder",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1431.36,
+   "ende": 1433.58,
+   "text": "10. Klasse eben Abschluss und dann macht man eine Ausbildung",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1433.58,
+   "ende": 1435.24,
+   "text": "oder man macht Abi und geht dann studieren.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1435.9,
+   "ende": 1437.16,
+   "text": "Also in drei Jahren ist er",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1437.16,
+   "ende": 1439.4,
+   "text": "aber noch an keinem",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1439.4,
+   "ende": 1441.5,
+   "text": "von diesem Punkt, weil er dann eben erst 14 ist.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1442.0,
+   "ende": 1443.2,
+   "text": "Trotzdem glaube ich, dass wir",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1443.2,
+   "ende": 1445.38,
+   "text": "schon jetzt gar nicht mehr erahnen können,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1445.46,
+   "ende": 1446.94,
+   "text": "was in drei Jahren los sein wird.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1447.76,
+   "ende": 1449.34,
+   "text": "Und von da an nochmal, wenn wir",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1449.34,
+   "ende": 1451.34,
+   "text": "in diesem Drei-Jahres-Rhythmus bleiben, der völlig",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1451.34,
+   "ende": 1453.36,
+   "text": "aus der Luft gegriffen ist, es geht",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1453.36,
+   "ende": 1455.14,
+   "text": "einfach nur darum, dass ich jetzt eben noch weiß,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1455.22,
+   "ende": 1457.04,
+   "text": "wie ich vor drei Jahren damit gearbeitet habe.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1457.04,
+   "ende": 1485.44,
+   "text": "Noch mal drei Jahre später ist er 17. Das ist dann vielleicht der erste Moment, wo er sich darüber Gedanken macht, was will ich eigentlich mal beruflich machen. Das heißt von jetzt an noch sechs Jahre und aus meiner Sicht werden wir in sechs Jahren diese ganz klassischen Berufszweige und diese ganz klassischen Bildungswege gar nicht mehr haben, weil KI unser alles so sehr verändern wird und ja schon hat.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1485.44,
+   "ende": 1510.52,
+   "text": "Aber das ist ja auch kein linearer Anstieg bei sowas, sondern das potenziert sich ja so krass, dieses ganze Thema, in so einer Geschwindigkeit, dass unser Gehirn das gar nicht erfassen kann, was in drei oder sechs Jahren von heute an, wie die Welt aussehen wird, wie unser Finanzsystem aussehen wird, wie unser Bildungssystem aussehen wird, wie Berufe aussehen werden.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1510.52,
+   "ende": 1524.18,
+   "text": "Welche Berufe lohnt es sich überhaupt noch zu machen? Ich meine, wir sind ja jetzt schon an dem Punkt, wo allen klar ist, dass viele Dinge, oder eigentlich fast alle Dinge, die man am Computer machen kann, theoretisch auch KI übernehmen kann.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 1524.82,
+   "ende": 1527.36,
+   "text": "Und so dann sagt jeder ja, was sollen denn die Jugendlichen von heute noch lernen?",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1527.82,
+   "ende": 1530.9,
+   "text": "Und dann ist immer überall in jedem Podcast, den ich dazu höre, kommt es immer,",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1531.12,
+   "ende": 1534.8,
+   "text": "ja, die können dann ja hier Klempner werden oder sowas.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1534.86,
+   "ende": 1536.24,
+   "text": "Also irgendwas Handwerkliches.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1537.42,
+   "ende": 1540.92,
+   "text": "Wer weiß, ob das so ist, würde jetzt rein logisch, würde ich auch erst mal sagen,",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1540.92,
+   "ende": 1545.22,
+   "text": "okay, mach irgendwie was, was du mit deinen Händen machen kannst",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1545.22,
+   "ende": 1547.22,
+   "text": "und wo du nicht unbedingt deinen Kopf für brauchst.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1547.36,
+   "ende": 1550.36,
+   "text": "Aber es ist ja trotzdem alles reine Spekulation.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1550.36,
+   "ende": 1565.08,
+   "text": "Das heißt jetzt irgendwie da, ich weiß, dass viele dir jetzt auch zuhören, mir ist natürlich bewusst, dass man, wenn man in Deutschland lebt und in Deutschland gemeldet ist, diesen Weg so gehen muss, weil er da nun mal einfach so vorgegeben ist.",
+   "avg_logprob": -0.03,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1565.08,
+   "ende": 1581.68,
+   "text": "Aber wenn man die Freiheit hat, so wie wir sie jetzt haben, dass wir diesen Weg nicht mehr gehen müssen, ist es aus meiner Sicht völliger Quatsch, diesen Weg krampfhaft erzwingen zu wollen, indem man halt hier sagt, okay, von Montag bis Freitag machst du halt diese ganz klassischen Fächer.",
+   "avg_logprob": -0.019,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 1581.68,
+   "ende": 1589.3,
+   "text": "ja, ich lade mir Arbeitsblätter im Internet runter oder wir holen hier einen Privatlehrer oder einer von uns übernimmt die Rolle des Lehrers.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1589.94,
+   "ende": 1595.72,
+   "text": "Oder wir melden dich jetzt hier unbedingt an der Schule an, wo zwar ein anderes Schulsystem an sich herrscht und auch andere Inhalte,",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1595.72,
+   "ende": 1599.72,
+   "text": "vielleicht aber am Ende ist es ja trotzdem der gleiche Bildungsweg.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1600.44,
+   "ende": 1607.34,
+   "text": "Aus meiner Sicht ist das, ja, ich will, ja doch, ich glaube, es ist überflüssig, muss ich einfach so krass sagen.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1607.34,
+   "ende": 1626.18,
+   "text": "Ich glaube, dass es überflüssig sein wird, den ganz klassischen Bildungsweg jetzt noch zu gehen, weil wir ihn in der Zukunft und ich meine mit Zukunft nicht in 20 oder 30 Jahren, sondern mit Zukunft meine ich in den nächsten Jahren, wir diese Dinge nicht mehr brauchen, weil alles sich komplett verändern wird.",
+   "avg_logprob": -0.019,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1626.18,
+   "ende": 1648.76,
+   "text": "Und es jetzt schon so ist, ich bin jetzt seit vier Jahren knapp, glaube ich, drei bis vier Jahre, zwischen dreieinhalb und vier Jahren jetzt selbstständig. Und bis dahin, ich bin auch den ganz klassischen Weg gegangen, von Schule über Abitur, sofort studiert, sofort nach dem Studium angefangen zu arbeiten, alles zack, zack, zack nach Plan.",
+   "avg_logprob": -0.036,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1648.76,
+   "ende": 1670.72,
+   "text": "Ich habe immer im Angestelltenverhältnis gearbeitet bis eben vor drei bis vier Jahren. Und alles, was ich jetzt mache, womit ich jetzt mein Geld verdiene, habe ich mir selber beigebracht. Nichts von dem habe ich gelernt vorher oder habe vorher schon mal in diesem Bereich gearbeitet. Und heutzutage ist es auch nicht mehr so, dass man irgendwie eine teure Weiterbildung machen muss, um sich beruflich neu zu orientieren, wie es vielleicht früher mal war.",
+   "avg_logprob": -0.043,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1670.72,
+   "ende": 1685.74,
+   "text": "Das gesamte Weltwissen liegt uns zu Füßen und zwar kostenfrei. Wir können alles, was wir wollen, lernen, ohne dass wir dafür irgendjemanden brauchen, weil einfach alles verfügbar ist im Internet.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.28
+  },
+  {
+   "start": 1685.74,
+   "ende": 1702.98,
+   "text": "Und da sind das, sage ich mal, YouTube-Tutorials sind noch das Kleinste, aber gerade durch KI kann ich einfach mir super viel Wissen aneignen und super viele Fähigkeiten aneignen, um mir ein komplett neues Berufsfeld damit zu ermöglichen.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 1703.78,
+   "ende": 1707.98,
+   "text": "Und das habe ich jetzt in den letzten drei, vier Jahren schon so gemacht.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1708.24,
+   "ende": 1712.9,
+   "text": "Wie gesagt, ich habe gar keine Vorstellung davon, welche Möglichkeiten unsere Kinder haben werden.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1713.4,
+   "ende": 1717.2,
+   "text": "Wenn die dann in dem Alter sind, dass es wirklich darum geht, was sie beruflich machen wollen,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1717.9,
+   "ende": 1723.64,
+   "text": "haben die unendliche Möglichkeiten, das irgendwie sich beizubringen.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1723.84,
+   "ende": 1728.64,
+   "text": "Beziehungsweise ist selbst diese Frage schon einen Schritt zu weit, was unsere Kinder beruflich machen wollen,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1728.64,
+   "ende": 1744.16,
+   "text": "weil wir gar nicht wissen, was es dann für Berufe gibt, was für Fähigkeiten unsere Kinder brauchen werden, um in dieser Welt, die sich dahin sehr schnell entwickeln wird, welche Fähigkeiten unsere Kinder dann brauchen werden, um in dieser Welt klarzukommen.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1745.08,
+   "ende": 1750.66,
+   "text": "Und für mich, ich bin froh darüber, dass ich jetzt eben die Freiheit habe.",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1751.72,
+   "ende": 1758.94,
+   "text": "Natürlich handelt jedes Elternteil oder ja, man handelt ja immer nur so, wie man das selber für richtig hält.",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1758.94,
+   "ende": 1761.86,
+   "text": "Und andere Leute sehen das ganz anders.",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1761.96,
+   "ende": 1767.26,
+   "text": "Aber man kann ja für seine eigenen Kinder immer nur die Dinge so tun, wie man selber denkt, dass sie richtig sind.",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1767.64,
+   "ende": 1769.54,
+   "text": "Ob sie wirklich richtig sind, weiß keiner.",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1769.64,
+   "ende": 1771.56,
+   "text": "Das ist mit Erziehung am Ende ja genau das Gleiche.",
+   "avg_logprob": -0.144,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1771.56,
+   "ende": 1781.54,
+   "text": "Also was man da emotional für Schäden anrichtet oder ob man die Kinder zu guten, selbstbewussten, glücklichen Menschen erzieht,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1781.62,
+   "ende": 1785.8,
+   "text": "weiß man eigentlich erst, wenn sie irgendwann erwachsen sind und man sie sieht, wie sie dann leben.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1785.8,
+   "ende": 1788.12,
+   "text": "Und genauso ist das jetzt auch mit der Bildung.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1788.26,
+   "ende": 1793.2,
+   "text": "Natürlich kann ich nicht hundertprozentig sicher sein, dass meine Sicht jetzt richtig ist und dass sich das alles so entwickeln wird.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1793.32,
+   "ende": 1799.24,
+   "text": "Aber ich glaube fest daran, dass es so kommen wird, dass wir keine Ahnung davon haben werden,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1799.24,
+   "ende": 1826.76,
+   "text": "in welcher Welt unsere Kinder sich zurechtfinden müssen und deshalb habe ich mich dazu entschieden, ihn gleich an diese Welt zu gewöhnen, nämlich indem er auch von ChatGPT unterrichtet wird, indem er die Möglichkeit hat, eben sich mit KI jetzt schon auszutauschen, indem er mit elf schon ein Finanzcoaching machen kann und indem er auch schon in Deutschland noch, während er noch zur Schule gegangen ist,",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1826.76,
+   "ende": 1833.2,
+   "text": "zum Beispiel einen Online-Kurs gemacht hat, der über eine Woche jeden Tag eine Stunde ging,",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1833.84,
+   "ende": 1840.58,
+   "text": "wo er gelernt hat, wie man mit künstlicher Intelligenz und Canva und Amazon Malbücher",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1840.58,
+   "ende": 1846.78,
+   "text": "veröffentlichen kann. Und da hat er ja ein Malbuch kreiert, das hat er damals seiner Freundin",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1846.78,
+   "ende": 1854.06,
+   "text": "gewidmet, so ein Mandala-Ausmalbuch über Amazon KDP, also das ist quasi der Print-on-Demand-Bereich",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1854.06,
+   "ende": 1855.72,
+   "text": "von Amazon. Das heißt, er hat",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1855.72,
+   "ende": 1857.96,
+   "text": "selbst mit Canva, das ist ein",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1857.96,
+   "ende": 1860.08,
+   "text": "Grafikprogramm, dieses Buch",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1860.08,
+   "ende": 1861.9,
+   "text": "erstellt und man kann das bei Amazon",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1861.9,
+   "ende": 1863.8,
+   "text": "bestellen und er bekommt pro Buch",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1863.8,
+   "ende": 1866.12,
+   "text": "Tantiemen, das sind nur Pfennigbeträge,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1866.4,
+   "ende": 1868.22,
+   "text": "ja, aber egal.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1868.58,
+   "ende": 1869.44,
+   "text": "Ich will damit sagen,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1870.42,
+   "ende": 1871.96,
+   "text": "er hat sogar in der Schule das",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1871.96,
+   "ende": 1873.84,
+   "text": "vorgestellt und einer der Lehrer hat gesagt,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1873.98,
+   "ende": 1875.9,
+   "text": "ja, aber eigentlich sollst du ja mit solchen",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1875.9,
+   "ende": 1877.88,
+   "text": "Sachen noch gar nichts zu tun haben und",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1877.88,
+   "ende": 1879.96,
+   "text": "eigentlich sollst du ja noch gar nicht sowas wie Canva",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1879.96,
+   "ende": 1881.68,
+   "text": "benutzen. Wo ich mir denke,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1882.3,
+   "ende": 1883.94,
+   "text": "warum? Warum",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1883.94,
+   "ende": 1902.66,
+   "text": "Warum soll ein zehnjähriges Kind, damals war er noch zehn, nicht mit einem Grafikprogramm umgehen können, wenn er das dafür Interesse hat? Also, und ja, das sind halt, mir fällt gerade ein, ich werde mal das Malbuch von Heinrich in den Shownotes verlinken. Also, wenn ihr noch ein Geschenk sucht oder so, dann bestellt das gerne bei Amazon.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 1902.66,
+   "ende": 1922.4,
+   "text": "Aber, ja, ich will damit sagen, dass wir da schon immer sehr offen sind, dass er halt auch mit in, ich sag jetzt mal, Welten reinschnuppern kann, wo man im ersten Moment vielleicht sagen würde, ja, dafür ist er doch noch zu jung oder, ja, das braucht er doch noch nicht, wie auch immer.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1922.4,
+   "ende": 1940.98,
+   "text": "Aber ich finde, in Sachen Lernen, wenn Kinder für irgendwas Interesse haben, sind sie nie zu jung. Also warum? Man kennt ja auch sein Kind. Also wenn jetzt Hermine zu mir gesagt hätte, ich möchte auch beim Finanzcoaching mitmachen, gut, dann sage ich ihr auch, ja, kannst du dich mit dazusetzen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 1940.98,
+   "ende": 1959.04,
+   "text": "Aber mir ist natürlich klar, dass sie mit sechs intellektuell noch gar nicht in der Lage sind, diese ganzen Wörter auch zu verstehen und so. Bei Heinrich mit elf und mit seiner allgemeinen Wissbegierigkeit und seiner allgemeinen Auffassungsgabe bin ich mir relativ sicher, dass da sehr viel hängenbleiben wird.",
+   "avg_logprob": -0.021,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1959.04,
+   "ende": 1975.26,
+   "text": "Und ich merke auch anhand der Fragen, die er dem Coach stellt, dass er eben super viel aufnimmt und auch ein grobes Verständnis von all dem hat. Also warum soll ich ihm das verwehren? Auf der anderen Seite ist mir auch klar, dass wir das nur so machen können, weil er eben nicht in die Schule geht.",
+   "avg_logprob": -0.012,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1975.26,
+   "ende": 1996.68,
+   "text": "Weil wir haben, ich habe das mal mit Hagen durchgespielt, wie hätten wir dieses Coaching von zweimal die Woche fast zwei Stunden umsetzen sollen mit unserem Tagesablauf in Deutschland. Und dieses Coaching hat überhaupt nichts mit Auswandern zu tun oder, also es wäre sogar wichtiger, wir hätten das gemacht, wenn wir noch in Deutschland leben würden, als dass wir es jetzt machen.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1996.68,
+   "ende": 2014.68,
+   "text": "Aber wir hätten das bei unserem Tagesablauf in Deutschland, der ja bei vielen Familien mehr oder weniger gleich ist, gar nicht umsetzen können, weil uns zum einen die Zeit und zum anderen aber auch die geistige Kapazität gefehlt hätte, sowas noch irgendwie dienstags nachmittags von 16 bis 18 Uhr reinzuquetschen.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 2014.68,
+   "ende": 2016.18,
+   "text": "quetschen. Und",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2016.18,
+   "ende": 2018.62,
+   "text": "deshalb bin ich einfach",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2018.62,
+   "ende": 2020.76,
+   "text": "froh, dass wir diese Freiheit jetzt haben",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2020.76,
+   "ende": 2022.72,
+   "text": "und selbst wenn, mir ist",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2022.72,
+   "ende": 2024.44,
+   "text": "auch klar, wenn jetzt jemand, der zuhört, denkt,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2024.52,
+   "ende": 2026.6,
+   "text": "ja, ich sehe das genauso und ich bin mir auch relativ",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2026.6,
+   "ende": 2027.66,
+   "text": "sicher, dass unsere Kinder",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2027.66,
+   "ende": 2030.28,
+   "text": "in einer Berufswelt",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2030.28,
+   "ende": 2032.6,
+   "text": "sich zurechtfinden müssen, die wir jetzt noch gar",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2032.6,
+   "ende": 2034.62,
+   "text": "nicht erahnen können, aber ich kann es einfach nicht ändern,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2034.72,
+   "ende": 2036.56,
+   "text": "weil ich lebe nun mal hier in Deutschland und ich muss",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2036.56,
+   "ende": 2038.28,
+   "text": "mich ja nun mal an diese Schulgesetze halten.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2039.2,
+   "ende": 2040.88,
+   "text": "Genau so, das ist",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2040.88,
+   "ende": 2042.66,
+   "text": "mir ja klar, aber",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2042.66,
+   "ende": 2046.28,
+   "text": "warum sollte ich diese Freiheit, die wir",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2046.28,
+   "ende": 2048.3,
+   "text": "jetzt haben, nicht dann auch so",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2048.3,
+   "ende": 2049.76,
+   "text": "entsprechend nutzen und",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2049.76,
+   "ende": 2052.34,
+   "text": "eben wirklich sehr individuell gestalten",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2052.34,
+   "ende": 2054.16,
+   "text": "können, wie",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2054.16,
+   "ende": 2056.18,
+   "text": "ich es für richtig halte und",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2056.18,
+   "ende": 2058.08,
+   "text": "vor allen Dingen auch, wie ich merke,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2058.38,
+   "ende": 2060.02,
+   "text": "wie behindert die Interessen sind. Wir haben",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2060.02,
+   "ende": 2061.98,
+   "text": "im Grunde nur eine Regel und die besagt,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2062.38,
+   "ende": 2064.12,
+   "text": "wenn du dir nicht alleine was suchst, was du",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2064.12,
+   "ende": 2065.44,
+   "text": "lernst, geben wir es vor.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2066.06,
+   "ende": 2067.92,
+   "text": "Das heißt, er hat sich jetzt dafür",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2067.92,
+   "ende": 2069.6,
+   "text": "entschieden mit diesem Finanzcoaching",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2069.6,
+   "ende": 2072.14,
+   "text": "oder dass wir jetzt gesagt haben, wenn du das mitmachst,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 2072.14,
+   "ende": 2083.9,
+   "text": "dann musst du keine Schule mehr machen oder so, sondern das haben wir erst im Nachhinein dann so beobachtet und gedacht, okay, wenn er das jetzt wirklich mitmacht, Interesse hat, dann lassen wir jetzt erstmal den regulären Schulstoff in Anführungszeichen weg.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 2083.9,
+   "ende": 2102.7,
+   "text": "Und so, wenn er jetzt nach dem Coaching sagt, er möchte jetzt zum Beispiel wieder Keyboard spielen, auch was. Also ja, Musikunterricht, aber Heinrich hat sich Keyboard spielen alleine beigebracht. Natürlich hat er dann nicht Noten lesen können, aber am Ende des Tages konnte er halt verschiedene Stücke spielen.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 2102.7,
+   "ende": 2116.38,
+   "text": "Und das Notenlesen, wenn er jetzt, weiß ich nicht, dann die große Leidenschaft mit Keyboard für sich entdeckt hätte für immer und ewig, dann hätte er vermutlich auch irgendwann in seinem Leben nochmal gelernt, Noten zu lesen, ohne dass er jetzt Musikunterricht gehabt hätte.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 2116.38,
+   "ende": 2121.74,
+   "text": "und er hat sich auch, meine Mutter hat ihm da so ein bisschen was auch gezeigt,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2121.82,
+   "ende": 2124.68,
+   "text": "weil die auch gerne näht, aber er hatte ja auch in Deutschland eine eigene Nähmaschine",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2124.68,
+   "ende": 2129.06,
+   "text": "und hat selber Sachen genäht, so er ist halt auch einfach ein Autodidakt",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2129.06,
+   "ende": 2135.7,
+   "text": "und wir haben halt gesagt, wenn da sowas nicht kommt, also wenn nicht von ihm auskommt,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2135.7,
+   "ende": 2138.8,
+   "text": "ich möchte zum Beispiel Keyboard lernen oder ich möchte lernen, wie man Kissen näht",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2138.8,
+   "ende": 2141.64,
+   "text": "oder was auch immer dann ist, dann geben wir das vor.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2141.74,
+   "ende": 2144.92,
+   "text": "Das heißt, wenn dieses Finanzcoaching zu Ende ist und es geht jetzt noch,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2144.92,
+   "ende": 2146.96,
+   "text": "ja, weiß nicht, drei, vier, fünf Wochen",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2146.96,
+   "ende": 2148.64,
+   "text": "schätze ich, bei der",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2148.64,
+   "ende": 2150.92,
+   "text": "Taktzahl, dann werden wir einfach",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2150.92,
+   "ende": 2152.74,
+   "text": "sehen, wie dann der Stand ist.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2152.98,
+   "ende": 2154.56,
+   "text": "Worauf hat er dann Lust? Oder",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2154.56,
+   "ende": 2156.78,
+   "text": "sitzt er es erstmal aus, so lange, bis",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2156.78,
+   "ende": 2158.68,
+   "text": "wir dann wieder Druck machen und sagen, okay, heute",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2158.68,
+   "ende": 2160.82,
+   "text": "ist halt wieder Mathe dran und heute machen wir wieder das",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2160.82,
+   "ende": 2162.66,
+   "text": "und das und jetzt kommt wieder der",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2162.66,
+   "ende": 2164.86,
+   "text": "JGPT-Lehrer, mit dem du Sachen ausarbeiten",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2164.86,
+   "ende": 2166.8,
+   "text": "musst. Aber es ist",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2166.8,
+   "ende": 2168.5,
+   "text": "einfach sehr individuell und",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2168.5,
+   "ende": 2170.86,
+   "text": "wir fühlen uns damit im Moment",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2170.86,
+   "ende": 2172.54,
+   "text": "total wohl alle.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2173.02,
+   "ende": 2174.7,
+   "text": "Vor allen Dingen habe",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 2174.7,
+   "ende": 2184.76,
+   "text": "ich das Gefühl, dass wir ihn so wesentlich besser auf die Zukunft vorbereiten, indem er eben ganz intuitiv diese verschiedenen",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2184.76,
+   "ende": 2192.72,
+   "text": "Dinge nutzt und auf so vielen unterschiedlichen Ebenen lernt. Und sei es nur ein Lagerfeuer anzumachen oder wie man eine",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2192.72,
+   "ende": 2199.5,
+   "text": "Kokosnuss aufschlägt, who knows, vielleicht leben wir auch in ein paar Jahren in einer Welt, wo genau diese Dinge wieder",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2199.5,
+   "ende": 2201.04,
+   "text": "wichtig sind, wo es wichtig ist,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2201.68,
+   "ende": 2203.3,
+   "text": "im, ich sag jetzt mal übertrieben,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2203.4,
+   "ende": 2205.26,
+   "text": "in der Wildnis überleben zu können, ja, wo es",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2205.26,
+   "ende": 2207.26,
+   "text": "wichtig ist zu wissen, was kann ich essen, was nicht,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2207.32,
+   "ende": 2209.28,
+   "text": "wo kriege ich Flüssigkeit her und",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2209.28,
+   "ende": 2210.86,
+   "text": "wie mache ich ein Feuer an, so und",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2210.86,
+   "ende": 2212.82,
+   "text": "deshalb, ja,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2213.74,
+   "ende": 2215.38,
+   "text": "wie ihr jetzt schon raushören könnt,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2215.48,
+   "ende": 2217.5,
+   "text": "ist Schule nicht das richtige Wort",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2217.5,
+   "ende": 2219.28,
+   "text": "für das, was wir hier machen, auch wenn wir es",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2219.28,
+   "ende": 2220.26,
+   "text": "immer wieder verwenden,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2221.16,
+   "ende": 2221.6,
+   "text": "aber",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2221.6,
+   "ende": 2225.26,
+   "text": "deswegen habe ich eingangs gesagt, was ist eigentlich",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2225.26,
+   "ende": 2226.4,
+   "text": "mit Schule 2.0?",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2227.26,
+   "ende": 2229.3,
+   "text": "Es ist eine Mischform aus vielen",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2229.3,
+   "ende": 2231.34,
+   "text": "verschiedenen Dingen, die sich immer wieder ändern",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2231.34,
+   "ende": 2233.28,
+   "text": "wird und auch das, es heißt",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2233.28,
+   "ende": 2235.36,
+   "text": "ja nicht, dass er nie wieder zur Schule gehen",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2235.36,
+   "ende": 2237.34,
+   "text": "wird oder dass Hermine nie zur Schule gehen wird,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2237.52,
+   "ende": 2239.22,
+   "text": "weil vielleicht sehen wir das alles",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2239.22,
+   "ende": 2241.1,
+   "text": "in einem halben Jahr oder ja ganz anders oder",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2241.1,
+   "ende": 2243.06,
+   "text": "vielleicht sehen wir es auch erst in drei Jahren ganz anders",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2243.06,
+   "ende": 2245.3,
+   "text": "oder vielleicht gibt es auch in drei",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2245.3,
+   "ende": 2247.3,
+   "text": "Jahren irgendeine Bildungsform,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2248.22,
+   "ende": 2249.34,
+   "text": "auch da, die wir jetzt noch",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2249.34,
+   "ende": 2251.34,
+   "text": "gar nicht kennen und wo Heinrich dann",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2251.34,
+   "ende": 2253.24,
+   "text": "sagt, boah, das ist genau das, worauf ich gewartet",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2253.24,
+   "ende": 2255.18,
+   "text": "habe, ja. Ja, also",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2255.18,
+   "ende": 2256.38,
+   "text": "wir sind da sehr flexibel",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2256.38,
+   "ende": 2259.26,
+   "text": "und ja, ich bin auf jeden Fall",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 2259.26,
+   "ende": 2261.42,
+   "text": "super gespannt auf eure Meinungen dazu.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2261.6,
+   "ende": 2263.64,
+   "text": "Also teilt die gerne mal in den Kommentaren",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2263.64,
+   "ende": 2265.3,
+   "text": "oder auch so",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2265.3,
+   "ende": 2267.22,
+   "text": "schreibt mir gerne persönlich auf Instagram",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2267.22,
+   "ende": 2269.32,
+   "text": "oder wer meine Nummer hat.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2270.08,
+   "ende": 2271.32,
+   "text": "Genau, wie",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2271.32,
+   "ende": 2273.08,
+   "text": "ihr das seht, was ihr davon",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2273.08,
+   "ende": 2275.14,
+   "text": "vielleicht, also wo ihr vielleicht",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2275.14,
+   "ende": 2277.14,
+   "text": "einer Meinung mit mir seid, aber auch wo ihr",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2277.14,
+   "ende": 2278.66,
+   "text": "vielleicht total anderer Meinung seid.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2279.62,
+   "ende": 2280.68,
+   "text": "Gerade das Thema",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2280.68,
+   "ende": 2283.4,
+   "text": "KI ist ja sehr umstritten nach wie vor.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2284.18,
+   "ende": 2285.18,
+   "text": "Ja, würde ich mich",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2285.18,
+   "ende": 2287.26,
+   "text": "auf jeden Fall freuen, von euch",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2287.26,
+   "ende": 2288.64,
+   "text": "zu hören oder zu lesen.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2289.26,
+   "ende": 2293.32,
+   "text": "Und ja, dann würde ich mal sagen, bis nächste Woche.",
+   "avg_logprob": -0.193,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 0.87
+  }
+ ]
+}

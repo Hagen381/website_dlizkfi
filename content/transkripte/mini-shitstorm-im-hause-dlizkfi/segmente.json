@@ -1,0 +1,2682 @@
+{
+ "meta": {
+  "slug": "mini-shitstorm-im-hause-dlizkfi",
+  "titel": "Mini-Shitstorm im Hause DLIZKFI",
+  "datum": "2026-04-13T04:00:00.000Z",
+  "dauer_sekunden": 2005,
+  "guid": "873e968d-8c6a-44bd-9081-671d5aeea987",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T07:07:33Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 5,
+   "transkription": 1376
+  },
+  "echtzeitfaktor": 0.69,
+  "anzahl_segmente": 332,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 6.61,
+   "ende": 21.07,
+   "text": "Na ja, und dann habe ich das eben ja auch verwandelt gleich in ein neues Reel, um mich da ein bisschen drüber lustig zu machen und auch euch daran teilhaben zu lassen, dass es jetzt bei mir auch so weit ist, dass ich jetzt schon so berühmt bin, ja, dass ich quasi Hasskommentare bekomme.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 21.07,
+   "ende": 23.87,
+   "text": "Da war mir aber noch nicht klar, dass das erst der Anfang war.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 29.82,
+   "ende": 34.68,
+   "text": "Hallo und herzlich willkommen zu einer neuen Folge DLIZKFI. Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 36.0,
+   "ende": 41.48,
+   "text": "Vor allem ist das Leben natürlich zu kurz für sich sinnlos, um sich sinnlos aufzuregen.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 41.92,
+   "ende": 55.38,
+   "text": "Das ist auf jeden Fall etwas, was ich nicht immer beherzige. Ich glaube, ich rege mich zu oft zu viel über Dinge auf, die ich nicht ändern kann. Wobei das jetzt schon besser geworden ist, seit wir hier leben oder auch in dem Jahr besser war.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 55.38,
+   "ende": 67.38,
+   "text": "Dass Thailand holt sozusagen die positiven Aspekte des Charakters, bringt Thailand mehr hervor und die nicht so guten Rücken mehr in den Hintergrund.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 67.48,
+   "ende": 68.54,
+   "text": "Den Eindruck habe ich.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 69.24,
+   "ende": 78.48,
+   "text": "Aber es geht jetzt darum, soll es gar nicht gehen, sondern darum, dass ich mal darüber sprechen wollte, wie sich das anfühlt,",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 78.48,
+   "ende": 104.04,
+   "text": "Wenn man plötzlich von außen negatives Feedback bekommt von Menschen, die man eigentlich gar nicht kennt. Ich glaube, jeder, der irgendwie auf den sozialen Netzwerken unterwegs ist, hat das ja auch bei anderen schon gelesen, irgendwelche Hate-Kommentare oder ja, dass Leute sich in Dinge einmischen, die sie vermeintlich gar nichts angehen, nur weil eben Leute in der Öffentlichkeit stehen.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 104.64,
+   "ende": 106.7,
+   "text": "irgendwie jeder meint, was dazu sagen zu können",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 106.7,
+   "ende": 110.9,
+   "text": "oder auch das ganze Thema Mobbing im Internet,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 111.02,
+   "ende": 112.36,
+   "text": "vor allen Dingen eben auch für jüngere Leute",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 112.36,
+   "ende": 114.34,
+   "text": "oder auch gar Kinder und Jugendliche.",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 115.9,
+   "ende": 118.06,
+   "text": "Oder auch, dass jeder sich irgendwie frei fühlt,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 118.14,
+   "ende": 122.32,
+   "text": "andere zu beleidigen und das irgendwie im Internet halt ein größeres,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 122.32,
+   "ende": 125.58,
+   "text": "also einfach, seitdem es die sozialen Netzwerke gibt,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 125.7,
+   "ende": 128.02,
+   "text": "da sie ja wirklich so eine Welle losgetreten wurde,",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 128.14,
+   "ende": 132.92,
+   "text": "in der viele Leute irgendwie ihren Anstand verloren haben",
+   "avg_logprob": -0.143,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 132.92,
+   "ende": 146.86,
+   "text": "Oder ja, vielleicht hatten sie nie einen, wie auch immer. Ich habe, die, die mir auf Instagram folgen, haben ja schon mitbekommen, dass ich ein Reel darüber gemacht habe, wo ich sozusagen meinen ersten Hate-Kommentar bekommen habe.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 146.86,
+   "ende": 166.48,
+   "text": "Ich veröffentliche ja immer zu jedem Podcast so einen kleinen Ausschnitt, wo ich hoffentlich irgendetwas Interessantes sage, dass Menschen denken, warum hat die das gesagt? Ich möchte da mehr zuhören und dann eben den Podcast hören. Das ist ja so der Sinn der Sache.",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 166.48,
+   "ende": 189.06,
+   "text": "Also jeder, der irgendwie sein was auch immer promotet, ob es jetzt ein Podcast ist, ob es wie gesagt Produkte sind, weil man Influencer ist oder irgendeinen Online-Kurs anbietet, den ganzen Content, also den ganzen Inhalte, die man dazu erstellt, dienen ja dazu, Menschen, die einen noch nicht kennen, irgendwie anzusprechen, um die auf sich aufmerksam zu machen.",
+   "avg_logprob": -0.043,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 189.06,
+   "ende": 193.1,
+   "text": "In meinem Fall, um eben Leute auf den Podcast aufmerksam zu machen, die ihn noch nicht kennen.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 193.86,
+   "ende": 198.66,
+   "text": "Deshalb versuche ich natürlich immer, einen Ausschnitt zu finden, der interessant ist,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 198.74,
+   "ende": 202.06,
+   "text": "auch für Leute, die jetzt vielleicht nicht sofort einen Bezug zu mir haben oder zum Interviewpartner.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 203.18,
+   "ende": 209.5,
+   "text": "So, und da hatte ich eben unter einer dieser Reels oder Kurzvideos auf Instagram",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 209.5,
+   "ende": 214.46,
+   "text": "ja meinen ersten negativen Kommentar in Form von, was war es?",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 214.6,
+   "ende": 216.46,
+   "text": "Dumm wie Brot. Ja, dumm wie Brot war es.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 216.46,
+   "ende": 218.54,
+   "text": "Dazu habe ich mich dann auch noch ein bisschen drüber lustig gemacht.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 219.06,
+   "ende": 223.26,
+   "text": "Im allerersten Moment, wo ich das gelesen habe, habe ich kurz gedacht, meint der mich?",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 223.48,
+   "ende": 227.76,
+   "text": "Also ich habe es erst mal so gar nicht so schnell auch tatsächlich auf mich bezogen,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 227.92,
+   "ende": 230.98,
+   "text": "obwohl es ja unter meinem Video stand, weil ich das nicht in Verbindung,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 231.02,
+   "ende": 235.22,
+   "text": "also ich habe den Zusammenhang nicht gesehen zwischen diesem Video und der Aussage dumm wie Brot.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 235.22,
+   "ende": 237.52,
+   "text": "Also was ist jetzt dumm wie Brot?",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 237.74,
+   "ende": 240.84,
+   "text": "Ich, die, und dann dachte ich ja, ich kann es ja nicht sein, der kennt mich ja gar nicht,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 241.2,
+   "ende": 243.34,
+   "text": "die Aussage oder was eigentlich, ja.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 244.02,
+   "ende": 248.66,
+   "text": "Naja, und dann habe ich das eben ja auch verwandelt gleich in ein neues Reel,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 248.66,
+   "ende": 252.36,
+   "text": "um mich da ein bisschen drüber lustig zu machen und auch euch daran teilhaben zu lassen,",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 252.48,
+   "ende": 255.98,
+   "text": "dass es jetzt bei mir auch so weit ist, dass ich jetzt schon so berühmt bin,",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 256.12,
+   "ende": 258.2,
+   "text": "dass ich quasi Hass-Kommentare bekomme.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 258.96,
+   "ende": 261.68,
+   "text": "Da war mir aber noch nicht klar, dass das erst der Anfang war.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 261.82,
+   "ende": 267.7,
+   "text": "Inzwischen stehen unter diesem Reel 40 Kommentare und es hat über 20.000 Aufrufe,",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 267.84,
+   "ende": 271.36,
+   "text": "was jetzt in der großen Instagram-Bubble trotzdem nicht viel ist.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 271.6,
+   "ende": 275.44,
+   "text": "Also ich sage mal, für die meisten sind 20.000 Aufrufe halt ein Witz.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 275.94,
+   "ende": 283.2,
+   "text": "Aber im Vergleich, meine vorherigen Videos zu den Podcasts hatten zwischen 400 und 600 Aufrufen.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 283.2,
+   "ende": 288.6,
+   "text": "Und inzwischen geht es auch immer mal ein bisschen höher, sind auch dann oft über 1000.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 288.7,
+   "ende": 292.98,
+   "text": "Aber 20.000 hatte ich, glaube ich, erst bei einem Video, was aber nichts mit dem Podcast zu tun hatte.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 293.86,
+   "ende": 299.3,
+   "text": "Und unter diesem Reel stehen jetzt eben sehr, sehr viele Kommentare.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 299.46,
+   "ende": 304.26,
+   "text": "Ich kann euch mal ein paar vorlesen, was also nur Negatives tatsächlich.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 305.44,
+   "ende": 332.84,
+   "text": "Ähm, also, vielleicht nochmal kurz vorab, bevor ich jetzt die Kommentare vorlese, für alle, die jetzt vielleicht auch gar nicht wissen, wovon redet ihr denn da jetzt, von welchem Reel, hä, was, wo, wann, wie, ihr könnt es natürlich auf Instagram anschauen, es ist auch die Leute, die auf Spotify hören, bei Spotify gibt es Clips und auch die, die auf YouTube hören, da gibt es immer ein Short dazu, das heißt auch die Leute, die mir nicht auf Instagram folgen können, dieses Video sich grundsätzlich anschauen und zwar war es zu der Folge über Vietnam.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 332.84,
+   "ende": 338.04,
+   "text": "Ja, über Vietnam und dass wir in Hanoi erst ein paar Tage waren und dann in Sapa.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 338.68,
+   "ende": 345.76,
+   "text": "Und ich sage, in diesem Video ist der Ausschnitt, dass wir aus diesem Bus ausgestiegen sind",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 345.76,
+   "ende": 350.46,
+   "text": "und dann schon Frauen, die in ihrer traditionellen Kleidung waren,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 350.66,
+   "ende": 354.06,
+   "text": "irgendwas unter die Nase gehalten haben, was sie verkaufen wollten",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 354.06,
+   "ende": 356.48,
+   "text": "und dass wir davon abgefuckt waren.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 356.64,
+   "ende": 359.54,
+   "text": "So, das ist grob die Zusammenfassung dieses Videos.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 359.54,
+   "ende": 381.38,
+   "text": "Und dann kommt halt eben neben dumm wie Brot kamen natürlich auch arrogante Schnäpfe, dumme Pute und so weiter. Also so eine Beleidigung konkret, die hat Instagram inzwischen auch gelöscht. Aber dann kommt halt auch sowas wie bleib zu Hause oder ja, wo soll vorkommen, wenn man in ein Land reist, das ein viel tieferes Tageseinkommen hat.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 381.38,
+   "ende": 401.78,
+   "text": "Oder das kann einem ja schon mal den Urlaub versauen, wenn dich die Armut der Bevölkerung anwidert. Oder bleib zu Hause, wegen solchen Typen sind wir so beliebt im Ausland. Oder was war ich hier? Gott beschütze mich vor Meer und Wind. Nee, wie ging's? Gott beschütze mich vor Sturm und Wind und vor Deutschen, die im Ausland sind.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 401.78,
+   "ende": 405.96,
+   "text": "Und wenn du keinen Bock hast auf das Ganze, dann fahr auf Sylt.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 406.58,
+   "ende": 408.24,
+   "text": "Also Rechtschreibung ist da auch herrlich.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 408.36,
+   "ende": 410.32,
+   "text": "Mi, mi, mi, das Gejammer ist ja furchtbar.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 411.98,
+   "ende": 413.32,
+   "text": "Und so weiter und so fort.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 414.1,
+   "ende": 418.88,
+   "text": "Ich sag mal so, das ist ja jetzt nicht tiefgreifende Beleidigung oder so.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 419.1,
+   "ende": 421.8,
+   "text": "Man könnte jetzt auch meinen, okay, ist halt deren Meinung.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 422.72,
+   "ende": 424.8,
+   "text": "Aber unter diesem Reel steht halt nur sowas.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 424.8,
+   "ende": 430.74,
+   "text": "Also es gibt halt keinen Kommentar von, ja, ist ja krass.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 430.74,
+   "ende": 449.56,
+   "text": "Oder ja, komisch. Oder ja, ich habe mir die Folge angehört und ja, das würde mich auch nerven oder keine Ahnung. Und ich habe mich dann natürlich schon irgendwann gefragt, okay, wenn das so viel negatives Feedback kommt, woran liegt das? Also ich reflektiere mich dann schon und denke, okay, was habe ich falsch gemacht?",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 449.56,
+   "ende": 472.48,
+   "text": "Ja, und dann habe ich mir das das halt natürlich auch noch ein paar Mal angehört und habe dann natürlich realisiert, dass wenn man mich nicht kennt und wenn man den Podcast nicht hört und auch mir ja mir völlig fremd ist und man sieht mich zum allerersten Mal und hört nur diese Aussage, dass es mich abgefuckt hat, dass die Leute da gebettet haben.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 472.48,
+   "ende": 490.36,
+   "text": "Dann kommt es natürlich so rüber, als ob ich mich über Armut lustig mache oder als ob mich Armut, wie der eine schreibt, anwidert und ich sozusagen da gerne aus meinem Reisebus aussteige und es total unmöglich finde, wenn dann in Armut lebende Menschen mich um Geld anbetteln.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 490.36,
+   "ende": 512.36,
+   "text": "So kann man das verstehen. Und dann habe ich mich natürlich gefragt, okay, war das jetzt klug, so einen Ausschnitt zu wählen oder nicht? Und dann dachte ich mir so, okay, aber darum geht es ja. Es geht ja darum, was ich anfangs sagte, einen Ausschnitt zu wählen, wo andere vielleicht sich erstmal getriggert fühlen, irritiert fühlen, sich bestätigt fühlen, wie auch immer. Jeden spricht das ja anders an.",
+   "avg_logprob": -0.041,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 512.36,
+   "ende": 526.22,
+   "text": "Und die Leute dann sagen, das waren jetzt irgendwie 25 oder 30 Sekunden, ich möchte mehr davon hören. Deshalb habe ich auch im Nachhinein gedacht, okay, ich würde jetzt im Nachhinein betrachtet keinen anderen Ausschnitt wählen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.33
+  },
+  {
+   "start": 526.22,
+   "ende": 535.34,
+   "text": "Also die Besonderheit jetzt daran, dass das eben so viele geschrieben haben, das sind keine Leute, die mir jetzt auf Instagram folgen.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 535.44,
+   "ende": 539.98,
+   "text": "Das ist niemand, der mich kennt oder der sonst irgendwie in meiner Welt mit mir zu tun hat,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 540.44,
+   "ende": 546.1,
+   "text": "sondern ich habe ja einen Kanal jetzt auch gegründet, also einen Instagram-Kanal nur für den Podcast.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 546.1,
+   "ende": 549.08,
+   "text": "Da passiert nichts, da sind irgendwie zehn Follower drauf oder so.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 549.18,
+   "ende": 553.66,
+   "text": "Da ist einfach nur, wenn ich so ein Reel hochlade, dass ich das eben mit diesem Kanal verknüpfe",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 553.66,
+   "ende": 558.62,
+   "text": "und dass eben auch da dann alle meine Folgen, also alle Videos zu allen Folgen zu sehen sind",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 558.62,
+   "ende": 560.46,
+   "text": "und der Link eben zu Spotify oben drin ist.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 560.84,
+   "ende": 564.5,
+   "text": "Und sollte irgendjemand durch den Zufall, weil das Leben ist zu kurz für irgendwann,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 564.62,
+   "ende": 567.56,
+   "text": "ist ja jetzt schon eine gängige Floskel, das benutzen ja viele.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 568.0,
+   "ende": 571.5,
+   "text": "Ich habe diesen Kanal in erster Linie erstellt, damit das nicht weg ist.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 571.64,
+   "ende": 574.64,
+   "text": "Damit ich nicht irgendwann, wenn ich doch mal einen Podcast-Kanal haben möchte,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 574.78,
+   "ende": 579.3,
+   "text": "dieser Satz halt weg ist und mache da halt einfach nur diese Videos drauf.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 579.3,
+   "ende": 584.2,
+   "text": "Und die Menschen, die kommentiert haben, sind sozusagen über diesen Kanal auf mich geschossen.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 584.34,
+   "ende": 589.18,
+   "text": "Die wissen im Zweifel gar nicht, dass ich dann noch diesen Molojko-Kanal habe, wo ja eigentlich die Party abgeht.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 590.12,
+   "ende": 596.66,
+   "text": "Das heißt, es waren halt alles fremde Menschen, die mich dann zum ersten Mal gehört haben und dann eben dachten,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 596.9,
+   "ende": 602.46,
+   "text": "boah, wie krass ist die eigentlich? Was redet die da? Wie kann man so schlecht über Armut reden?",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 602.46,
+   "ende": 615.62,
+   "text": "Was ich dazu sagen muss, das Thema Armut, also die Kommentare deuten ja darauf hin, dass ich furchtbar arrogant bin und mich sozusagen über diese armen Menschen erhebe",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 615.62,
+   "ende": 622.06,
+   "text": "Jeder, der die Folge gehört, also erstmal, ich glaube, jeder, der mich kennt und ich bin ja neben keinem Blatt vom Mund, ich bin direkt und so weiter",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 622.06,
+   "ende": 631.5,
+   "text": "Aber ich glaube, jeder, der meinen Podcast hört und der mich irgendwie kennt, weiß, dass das Letzte, was ich tun würde, mich über Armut lustig zu machen oder mich von Armut angewidert zu fühlen",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 631.5,
+   "ende": 653.58,
+   "text": "Ja, deswegen habe ich es natürlich trotz allem auch nicht wirklich persönlich genommen oder mich jetzt doll schlecht gefühlt, weil ich ja weiß, dass auch andere wissen, dass ich, also dass die Menschen, wo es mir wichtig ist, die den Podcast hören und das seid ja ihr in erster Linie, ja, dass die das einschätzen können und einordnen können.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 654.48,
+   "ende": 659.24,
+   "text": "Aber nichtsdestotrotz macht das natürlich was mit einem.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 659.8,
+   "ende": 665.68,
+   "text": "Und ich habe mich dann gefragt, wie fühle ich mich damit,",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 666.28,
+   "ende": 670.16,
+   "text": "von fremden Menschen im Grunde genommen angegriffen zu werden,",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 670.28,
+   "ende": 673.2,
+   "text": "von fremden Menschen irgendwie bewertet zu werden,",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 674.16,
+   "ende": 679.0,
+   "text": "fremde Menschen sich von mir ein Bild machen aufgrund von 40 oder 30,",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 679.0,
+   "ende": 681.94,
+   "text": "ich weiß nicht mehr, wie lange es geht, sagen wir jetzt mal von 30 Sekunden,",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 681.94,
+   "ende": 683.94,
+   "text": "machen sich fremde Menschen ein Bild von mir",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 683.94,
+   "ende": 686.12,
+   "text": "und bewerten mich und denken,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 686.26,
+   "ende": 687.8,
+   "text": "sie haben jetzt meinen Charakter erfasst,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 687.88,
+   "ende": 689.98,
+   "text": "weil ich mich über Armut lustig mache.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 690.26,
+   "ende": 691.38,
+   "text": "Genau das wollte ich gerade noch sagen.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 692.16,
+   "ende": 694.0,
+   "text": "Die eigentliche Arroganz dahinter",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 694.0,
+   "ende": 695.7,
+   "text": "finde ich ja, dass wir",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 695.7,
+   "ende": 697.88,
+   "text": "in der westlichen Welt, unabhängig",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 697.88,
+   "ende": 699.72,
+   "text": "davon, ob wir in Deutschland leben oder sonst wo",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 699.72,
+   "ende": 701.5,
+   "text": "in der westlichen Welt, viele, die",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 701.5,
+   "ende": 703.82,
+   "text": "eben nicht viel reisen oder gar nicht",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 703.82,
+   "ende": 705.82,
+   "text": "reisen, automatisch davon",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 705.82,
+   "ende": 708.1,
+   "text": "ausgehen, dass alles, was eben nicht westlich",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 708.1,
+   "ende": 709.42,
+   "text": "ist, gleich arm ist.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 710.12,
+   "ende": 711.86,
+   "text": "Und das ist einfach nicht so.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 711.94,
+   "ende": 732.54,
+   "text": "Also nur weil ich jetzt in Thailand oder in Vietnam oder sonst wo im Urlaub bin und natürlich dort auch Menschen leben, die vielleicht keinen Strom und kein fließendes Wasser haben und natürlich auch dort Menschen ein niedrigeres Einkommen haben, als wir in Deutschland haben, heißt das nicht gleich, dass diese Menschen in Armut leben.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 732.54,
+   "ende": 750.6,
+   "text": "Weil auch die, die eine gute Einkommensstruktur haben oder die für die Verhältnisse auch viel Geld verdienen oder auch zum Teil natürlich noch viel mehr. Der Reichtum beschränkt sich ja nicht nur auf die westliche Welt. Es gibt ja auch in anderen Teilen der Welt Menschen, die unfassbar reich sind.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 750.6,
+   "ende": 765.3,
+   "text": "Aber auch die, sagen wir mal, die in ihrem Land ein gutes Einkommen haben, man sieht das nicht sofort. Nicht überall sind die Statussymbole gleich, nicht überall habe ich das gleiche Bedürfnis, mit Geld die gleichen Dinge zu tun.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 766.22,
+   "ende": 773.86,
+   "text": "Das heißt, auch wir sehen oder wissen von manchen Teils, dass sie wirklich gut Geld haben.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 774.14,
+   "ende": 778.52,
+   "text": "Man würde es ihnen aber in dem Sinne nicht ansehen, weil sie eben nicht ein fettes Haus haben",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 778.52,
+   "ende": 782.28,
+   "text": "oder eine dicke Karre oder besonders krass gekleidet sind oder so,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 782.7,
+   "ende": 785.9,
+   "text": "sondern weil sie einfach auf ganz andere Dinge Wert legen.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 786.26,
+   "ende": 792.32,
+   "text": "Das heißt, diese Kommentare, die da von Leuten kommen, von denen ich noch nicht mal sicher bin,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 792.32,
+   "ende": 813.54,
+   "text": "Ob sie überhaupt wussten, von welchem Land, geschweige denn, von welcher Stadt ich spreche, erheben sich ja schon mal allein deshalb über diese anderen Menschen, weil sie denken, alle leben dort in Armut. Das haben sie da ja so rausgefiltert, weil man hat mir was unter die Nase gehalten zum Verkaufen, wurde gleichgesetzt mit, ich mache mich über die Armut lustig, obwohl ich ja gar niemals von Armut gesprochen habe.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 814.24,
+   "ende": 819.8,
+   "text": "Und gerade in der Situation, um die es da gerade ging, weil ich eben da war,",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 820.56,
+   "ende": 826.4,
+   "text": "war für mich auch klar, es geht ja nicht um Armut, weil es einfach diese Inszenierung war.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 826.5,
+   "ende": 829.6,
+   "text": "Das waren eben nicht die traditionelle Kleidung, weil sie nichts anderes haben,",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 829.6,
+   "ende": 835.44,
+   "text": "sondern das war die traditionelle Kleidung, die eben zu dieser Inszenierung von diesem ganzen Ort gepasst hat.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 835.82,
+   "ende": 838.0,
+   "text": "Wie gesagt, ich will jetzt die Folge nicht nochmal auffühlen.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 838.36,
+   "ende": 839.94,
+   "text": "Wer sie gehört hat, weiß, wovon ich rede.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 839.94,
+   "ende": 852.32,
+   "text": "Es ist einfach für Touristen angelegtes Szenario gewesen und hat nichts damit zu tun, dass die Leute dort zu arm waren, um sich was zu essen zu kaufen, um zu leben oder sonst irgendwas.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 853.46,
+   "ende": 855.94,
+   "text": "Also die, die da jetzt am Bus standen, um Gottes Willen.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 856.02,
+   "ende": 865.62,
+   "text": "Es gibt mit Sicherheit ganz viele Leute, die auch vielleicht in ärmlichen Verhältnissen leben, aber die haben wir so nicht kennengelernt, weil wir ja eben nur in dieser Touristen-Bubble da waren.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 866.62,
+   "ende": 867.84,
+   "text": "Lange Rede, kurzer Sinn.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 867.84,
+   "ende": 889.16,
+   "text": "Dann kamen auch Kommentare wie, sowas weiß man vorher oder da muss man halt vorher, wenn einem sowas nicht gefällt, dann muss man sich vorher informieren, dann darf man da halt nicht hinfahren. Da habe ich dann auch den einen gefragt, woher weiß man sowas denn vorher? Vorher weiß man sowas durch genau so etwas, was ich tue, nämlich, dass Menschen dort waren und im Anschluss darüber informieren.",
+   "avg_logprob": -0.029,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 889.16,
+   "ende": 910.12,
+   "text": "In meinem Fall im Podcast. Andere schreiben einen Reiseblog, wieder andere machen einen Vlog über YouTube oder wie auch immer. Das ist natürlich genau das Gleiche, wie ich mich auch informiere, ja, im Internet über Blogs oder über Videos, was auch immer, über Instagram und so weiter. Und ich habe eben kein Indiz dafür gefunden, dass es so ein inszenierter Ort ist.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 910.58,
+   "ende": 914.06,
+   "text": "Deshalb habe ich dann eben auch darüber gesprochen, wie wir es empfunden haben.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 914.48,
+   "ende": 920.68,
+   "text": "Und genau solche Beiträge führen ja dazu, dass jemand anderes vielleicht sagen kann,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 920.78,
+   "ende": 923.8,
+   "text": "okay, wenn das da so ist, will ich da gar nicht hin, weil das ist nichts für mich.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 923.96,
+   "ende": 925.1,
+   "text": "Das ist ja die Intention.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 925.24,
+   "ende": 928.94,
+   "text": "Es gibt ja auch ganz viele, die sagen, ich stehe da voll drauf, wenn da halt so viel Trubel ist.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 930.48,
+   "ende": 937.48,
+   "text": "Also das sind halt alles so Gedanken, womit ich mich reflektiert habe und mich gefragt habe,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 937.48,
+   "ende": 942.24,
+   "text": "okay, muss ich jetzt an irgendeiner Stelle mich wirklich angegriffen fühlen?",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 942.32,
+   "ende": 946.48,
+   "text": "Muss ich an irgendeiner Stelle wirklich sagen, okay, Jad, das war vielleicht einfach nicht cool,",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 947.3,
+   "ende": 949.24,
+   "text": "dass du das so gesagt hast oder so gemacht hast?",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 949.9,
+   "ende": 957.54,
+   "text": "Und kam da trotzdem immer wieder zu dem Punkt, nein, weil es ist bewusst aus dem Zusammenhang gerissen.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 957.72,
+   "ende": 961.58,
+   "text": "Und wenn die Menschen sich nicht die Mühe machen, sich den Kontext anzuhören,",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 962.1,
+   "ende": 964.66,
+   "text": "dann ist eigentlich mir auch die Meinung egal.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 964.66,
+   "ende": 983.16,
+   "text": "Aber nichtsdestotrotz kann ich auch nicht sagen, dass es mich total kalt gelassen hat, weil es schon schräg ist, wenn eben fremde Menschen einen bewerten und sich dieses Bild von einem machen, obwohl man weiß, man ist das nicht.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 983.16,
+   "ende": 1004.12,
+   "text": "Ja, die haben ein falsches Bild von einem, weil sie einfach nur 30 Sekunden einen gesehen haben, fühlt es sich trotzdem komisch an. Und es hat mich, also die ersten Kommentare hat es mich auch geärgert. Also ich habe gemerkt, dass es mich innerlich auffühlt und dass es mich innerlich wütend auch macht und dass ich halt darüber nachdenke.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1004.12,
+   "ende": 1008.32,
+   "text": "Jetzt kann man natürlich sagen, ja, dann lies das doch nicht.",
+   "avg_logprob": -0.185,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1008.32,
+   "ende": 1014.2,
+   "text": "Ich denke, wenn jetzt die ganzen großen Influencer irgendwie hunderte von Kommentaren am Tag",
+   "avg_logprob": -0.185,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1014.2,
+   "ende": 1017.36,
+   "text": "bekommen, natürlich, also a kann man die gar nicht mehr alle lesen und b haben die natürlich",
+   "avg_logprob": -0.185,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1017.36,
+   "ende": 1021.3,
+   "text": "dann Leute, die das für die regeln, aber in meinem Fall waren das zwar für meine Verhältnisse",
+   "avg_logprob": -0.185,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1021.3,
+   "ende": 1026.24,
+   "text": "viele Kommentare, aber trotzdem war es am Tag ein Kommentar über mehrere Tage verteilt.",
+   "avg_logprob": -0.185,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1026.24,
+   "ende": 1030.88,
+   "text": "Und das heißt, ich krieg dann halt eine Info, dass ich diesen Kommentar habe und in dem",
+   "avg_logprob": -0.185,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1030.88,
+   "ende": 1032.88,
+   "text": "Moment, wo die Info kommt, lese ich ihn ja schon.",
+   "avg_logprob": -0.185,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1032.88,
+   "ende": 1035.74,
+   "text": "Also ich konnte der Sache, sage ich mal, jetzt auch nicht aus dem Weg gehen.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1036.52,
+   "ende": 1038.92,
+   "text": "Und dann fragt man sich natürlich, okay, wie reagiert man darauf?",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1039.0,
+   "ende": 1041.42,
+   "text": "Geht man da jetzt in die Diskussion? Beleidigt man zurück?",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1041.94,
+   "ende": 1045.68,
+   "text": "Ich sage mal, im normalen Leben, wenn jetzt jemand kommt und würde halt einfach sagen,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1045.8,
+   "ende": 1049.7,
+   "text": "du arrogante Schnäpfe, dann würde ich sicherlich in die Diskussion gehen",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1049.7,
+   "ende": 1052.96,
+   "text": "und würde vielleicht auch beleidigend oder ausfallend werden,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1052.96,
+   "ende": 1056.72,
+   "text": "je nachdem, wie sich die Gesprächsdynamik entwickelt.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1057.7,
+   "ende": 1063.26,
+   "text": "Aber so im Internet ist mir das auf irgendeine Art und Weise natürlich auch trotzdem zu doof.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1063.26,
+   "ende": 1070.82,
+   "text": "Ja, da wirklich mich mit so was, mit jemandem da in einen Konflikt, Streit, wie auch immer zu gehen.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1072.66,
+   "ende": 1076.56,
+   "text": "Nichtsdestotrotz muss man auch sagen, dass jeder Kommentar ja auch die Reichweite pusht.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1076.72,
+   "ende": 1084.3,
+   "text": "Das heißt, jedes Mal, wenn jemand kommentiert und ich nicht daraus reagiere, ist das eben für die Reichweite wieder von Nachteil.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1084.8,
+   "ende": 1088.32,
+   "text": "Das heißt, man versucht dann, einen Weg zu finden, darauf zu reagieren,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1088.4,
+   "ende": 1092.08,
+   "text": "dass der Algorithmus merkt, okay, da ist irgendwie Bewegung, scheint interessant zu sein, das Video.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1092.86,
+   "ende": 1097.12,
+   "text": "Ohne sich irgendwie, ohne jetzt rumzuzicken, sage ich mal.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1097.58,
+   "ende": 1100.68,
+   "text": "Und ohne aber jetzt eine endlose Diskussion aufzumachen.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1100.84,
+   "ende": 1104.26,
+   "text": "Weil ehrlicherweise einem ja auch bewusst ist, was will man mit Menschen,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1104.32,
+   "ende": 1106.84,
+   "text": "die einen nach 30 Sekunden derart beurteilen, diskutieren.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1107.5,
+   "ende": 1111.56,
+   "text": "Ein, zwei Kommentare waren dabei, wo man nochmal in so ein Zwiegespräch gegangen ist.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1111.56,
+   "ende": 1129.74,
+   "text": "Und da bin ich auch immer die Letzte, die irgendwie nicht gerne diskutiert oder irgendwie auch so eine Gespräche führt. Aber die meisten Kommentare davon sind ja einfach lächerlich, weil, was ich auch das ein oder andere Mal geschrieben habe, warum kommentiere ich überhaupt irgendwas, was für mich gar nicht relevant ist?",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1129.74,
+   "ende": 1153.16,
+   "text": "Ja, also wenn ich jetzt nicht diese ganze Folge gehört habe und nicht selber in Zapa war und das ganz anders sehe, dann interessiert mich doch diese Aussage normalerweise gar nicht. Also das ist halt das, was mich so wütend gemacht hat, dass ich am liebsten gesagt hätte, halt doch deine Fresse, Alter, was geht es dich an? Du weißt im Zweifel noch nicht mal, wo Zapa ist, ja?",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1153.16,
+   "ende": 1175.82,
+   "text": "So das würde ich gerne sagen, aber das kommt vielleicht nicht so gut an. Dann wird mein Kommentar wahrscheinlich auch gelöscht wegen Beleidigung. Aber ich habe mich natürlich gefragt, was bewegt denn die Leute dazu, das überhaupt sich 30 Sekunden anzugucken und einen Kommentar dazu zu schreiben und im Zweifel noch einen Kommentar dazu zu schreiben, wenn sie doch eh anderer Meinung sind oder das für sie gar nicht relevant ist.",
+   "avg_logprob": -0.039,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1175.82,
+   "ende": 1196.48,
+   "text": "Weil relevant wäre es ja, wie gesagt, nur wenn sie selber dort waren und es ganz anders empfunden haben. Und dann kam sozusagen zwischen es regt mich auf und es macht mich wütend halt auch dann eben dazu. Und jetzt muss ich mich mit der Scheiße auch noch befassen, weil grundsätzlich natürlich ich ja möchte, dass mehr Leute das Video sehen oder nicht nur das allgemein.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1196.48,
+   "ende": 1217.96,
+   "text": "Also ich möchte ja den Algorithmus bedienen, damit mehr Leute auf den Podcast aufmerksam werden. Also muss ich dieses dämliche Spiel irgendwie mitspielen und meine Zeit damit vergeuden, das zu lesen und mir zu überlegen, wie ich darauf antworte und nicht vollkommen ausfallend werde oder nicht irgendwie mich noch mehr zum Obst mache.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1217.96,
+   "ende": 1246.04,
+   "text": "Ja, und das war halt mal eine spannende Erfahrung jetzt für mich, weil ich sie eben zum ersten Mal gemacht habe, weil ich ja bisher einfach, sage ich mal, verwöhnt bin insofern, als dass ich einen kleinen Kanal habe mit irgendwie 330 Followern, von denen mich die meisten, glaube ich, irgendwie kennen, wenn es über Ecken ist, dass sie jemanden kennen, der mich kennt oder man sich einfach auch darüber kennengelernt hat, auch wenn man sich vielleicht noch nie persönlich gesehen hat.",
+   "avg_logprob": -0.043,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1246.04,
+   "ende": 1260.62,
+   "text": "Aber der Großteil der Follower, die meine Storys schauen, die meine Videos sehen und so weiter, haben irgendwie einen Bezug zu mir und sind mir ja wohlwollend gegenüber gehalten, weil sonst würden sie mir ja wahrscheinlich nicht mehr folgen.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 1260.62,
+   "ende": 1281.92,
+   "text": "Ja, irgendwie finden sie das, was ich oder findet ihr. Es hört ja jetzt nicht jeder den Podcast, der auch bei Instagram ist. Aber grundsätzlich habe ich, finde ich ein sehr angenehmes Publikum, weil auch wenn kontroversere Themen sind, was wir auch mal hatten mit Waffen und beim Militär, wo wir waren und so, halt jeder auch sagen kann, okay, ich finde das nicht gut.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1281.92,
+   "ende": 1284.54,
+   "text": "Ich würde das vielleicht so nicht machen oder mit meinen Kindern auch nicht so machen.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1285.0,
+   "ende": 1290.7,
+   "text": "Aber es kommt halt nicht dieser Wut und dieser Hass und dieses Beleidigende und Bewertende.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1290.78,
+   "ende": 1293.54,
+   "text": "Und wie kannst du so sein und wie kannst du sowas sagen?",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1293.7,
+   "ende": 1295.76,
+   "text": "Und zwar das kannte ich halt vorher nicht.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1296.9,
+   "ende": 1299.58,
+   "text": "Und dann war das schon erstmal ein bisschen schockierend.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1299.64,
+   "ende": 1303.32,
+   "text": "Und es hat mir halt natürlich auch so einen kleinen Einblick gegeben in diese Welt,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1304.42,
+   "ende": 1308.5,
+   "text": "in die man eventuell reinrutschen kann, wenn sich das so entwickelt,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1308.5,
+   "ende": 1318.9,
+   "text": "dass es wirklich vielleicht irgendwann mal ein bisschen bekannter wird und ein bisschen größer wird und dann eben Menschen dazukommen, die einen eben nicht kennen und die vielleicht auch mit der direkten Art so nicht umgehen können.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1318.9,
+   "ende": 1330.62,
+   "text": "Denn natürlich sind die Leute, die das kommentiert haben, nicht die Menschen, von denen ich will, dass sie meinen Podcast hören. Und die würden ihn ja auch gar nicht hören, weil sie ja meine Aussagen vollkommen absurd finden.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 1331.5,
+   "ende": 1340.08,
+   "text": "Aber nichtsdestotrotz ist es ja so die Intention, dass man andere Menschen erreicht, die ähnlich denken, ticken und so weiter,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1340.18,
+   "ende": 1346.36,
+   "text": "die man damit irgendwie motivieren kann, wo man informieren kann, wo Leute nach der Folge denken,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1346.36,
+   "ende": 1352.58,
+   "text": "ja, jetzt habe ich irgendwas mitgenommen, entweder eine Info für meine nächste Reise oder einen mentalen Shift oder was auch immer.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1353.24,
+   "ende": 1359.7,
+   "text": "Das heißt, ich zähle ja gar nicht auf so eine Leute ab, aber die sind ja trotzdem da und die spricht man dann eben automatisch mit an.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1359.7,
+   "ende": 1363.34,
+   "text": "und in dem Fall jetzt habe ich nur diese Leute angesprochen.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1363.52,
+   "ende": 1367.76,
+   "text": "Ich habe ja offenbar niemanden im positiven Sinne mit dieser Folge erreicht",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1367.76,
+   "ende": 1371.8,
+   "text": "oder mit diesem Ausschnitt und dann kam auch für mich zum ersten Mal",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1371.8,
+   "ende": 1376.0,
+   "text": "dieser Gedanke, also ich bin ja",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1376.0,
+   "ende": 1379.9,
+   "text": "relativ freizügig auch auf Instagram, also wir zeigen ja die Kinder",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1379.9,
+   "ende": 1383.72,
+   "text": "und das machen wir ja nicht heimlich, für die Kinder ist das ja auch okay, wenn es irgendwann nicht mehr",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1383.72,
+   "ende": 1387.42,
+   "text": "okay ist, mache ich es nicht mehr und ich weiß auch da gibt es halt",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1387.42,
+   "ende": 1389.32,
+   "text": "selbst im WhatsApp-Status, ja auch",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1389.32,
+   "ende": 1391.28,
+   "text": "in meinem Freundeskreis, Menschen, die",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1391.28,
+   "ende": 1393.18,
+   "text": "eben Kinder nicht zeigen oder halt",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1393.18,
+   "ende": 1395.26,
+   "text": "ein Emoji übers Gesicht legen oder wie auch immer",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1395.26,
+   "ende": 1397.32,
+   "text": "und dann gibt es halt genauso viele, die",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1397.32,
+   "ende": 1399.24,
+   "text": "genauso wie wir, das sowohl im",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1399.24,
+   "ende": 1400.98,
+   "text": "Status als auch auf Instagram und so",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1400.98,
+   "ende": 1403.24,
+   "text": "kein Problem damit haben, die Kinder zu zeigen.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1403.32,
+   "ende": 1405.28,
+   "text": "Aber ich glaube einfach, weil man bisher eben",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1405.28,
+   "ende": 1406.94,
+   "text": "immer in so einer, ich sag jetzt mal,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1407.1,
+   "ende": 1409.22,
+   "text": "anonymen Runde war,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1409.34,
+   "ende": 1410.62,
+   "text": "in Anführungszeichen, sofern",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1410.62,
+   "ende": 1413.06,
+   "text": "selbst WhatsApp-Status hat ja nichts",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1413.06,
+   "ende": 1415.22,
+   "text": "mit Anonymität zu tun, aber in der Welt, in der wir",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1415.22,
+   "ende": 1417.24,
+   "text": "heute leben, allein das, was ich im",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1417.24,
+   "ende": 1419.14,
+   "text": "Podcast erzähle, also die",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1419.14,
+   "ende": 1421.2,
+   "text": "ältere Generation, die das hört, sagt ja auch",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1421.2,
+   "ende": 1423.18,
+   "text": "zum Teil, okay, du erzählst",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1423.18,
+   "ende": 1424.66,
+   "text": "ja ganz schön viel Privates, ja.",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1426.0,
+   "ende": 1427.14,
+   "text": "Weil ja noch diese",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1427.14,
+   "ende": 1428.62,
+   "text": "Haltung da ist, über",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1428.62,
+   "ende": 1430.2,
+   "text": "das geht keinem was an,",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1430.94,
+   "ende": 1433.04,
+   "text": "oder über das Privatleben spricht man nicht,",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1433.2,
+   "ende": 1434.96,
+   "text": "oder über Geld spricht man nicht,",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1435.08,
+   "ende": 1437.12,
+   "text": "oder über Streit spricht man nicht, oder was auch immer.",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1437.9,
+   "ende": 1439.02,
+   "text": "Und dann sage ich auch,",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1439.1,
+   "ende": 1440.92,
+   "text": "naja, wenn ich jetzt nicht über private Dinge",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1440.92,
+   "ende": 1443.12,
+   "text": "sprechen würde, dann bräuchte ich den Podcast",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1443.12,
+   "ende": 1444.76,
+   "text": "ja nicht machen, weil es ist ja kein",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1444.76,
+   "ende": 1446.98,
+   "text": "Informatik, also kein,",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 1446.98,
+   "ende": 1452.26,
+   "text": "wie soll ich das sagen, kein wissenschaftlicher Podcast oder sowas in der Art, sondern es geht ja um mein Leben.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1452.38,
+   "ende": 1455.54,
+   "text": "Und wenn ich nichts von meinem Leben erzähle, weil ich nichts preisgeben will, brauche ich keinen Podcast.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1456.2,
+   "ende": 1463.42,
+   "text": "Aber da ist eben trotzdem für mich nochmal so klar geworden, ja, ich erzähle das jetzt hier immer so frei Schnauze,",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1463.48,
+   "ende": 1467.52,
+   "text": "weil ich irgendwie das Gefühl habe, ich sitze hier mit ein paar Leuten im Wohnzimmer und wir quatschen einfach.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1468.28,
+   "ende": 1473.8,
+   "text": "Und das ist ja auch das positive Feedback, was ich immer bekomme, dass sich das so authentisch anhört, der Podcast,",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1473.8,
+   "ende": 1485.9,
+   "text": "Und dass Menschen, die mich dann in Realität auch kennenlernen oder eben schon vorher kannten, keinen Unterschied merken zwischen unserer Unterhaltung in Person und dem, was ich im Podcast sage.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.35
+  },
+  {
+   "start": 1485.9,
+   "ende": 1505.38,
+   "text": "Und das ist halt für mich eigentlich das größte Kompliment, weil das für mich beruflich wie privat immer ein ganz großer Wert, also für mich sehr wichtig ist, authentisch zu sein und nicht irgendwas zu suggerieren, was ich nicht bin oder was ich nicht habe oder wie auch immer.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1505.38,
+   "ende": 1535.2,
+   "text": "Ja, aber diese Authentizität ist natürlich auch wie so, ist halt auch blank machen, ja, also allein die Tatsache, dass ich jetzt auch den Videopodcast, also das ganze Video auf YouTube als Video hochlade, auch da habe ich schon gedacht, okay, jetzt kann mich jeder sehen, natürlich kann mich vorher auch irgendwer auf Instagram oder in den Videos kurz sehen, aber halt nicht irgendwie 40 Minuten lang mir die ganze Zeit ins Gesicht gucken, ja, und durch diese Kommentare und durch dieses, eben durch dieses Bewerten und gleich so,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1535.38,
+   "ende": 1556.08,
+   "text": "Und abfällig, schon irgendwo auch aggressiv, habe ich gedacht, ja, ich zeige ja auch meine Kinder, ich zeige unseren Alltag und so weiter. Ist das überhaupt so gut? Ja, habe ich mir genug Gedanken vorher darüber gemacht, was das bedeuten kann? Schade ich jemandem damit?",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 1556.08,
+   "ende": 1580.32,
+   "text": "Und ja, das hat halt wirklich viel losgetreten. Und wenn ich mir jetzt überlege, dass ich da so eine kleine Nummer bin und da von 40 Kommentaren, also mit hin und her zum Teil, das so viel bei mir angeregt hat gedanklich, dann hatte ich schon auch Momente, wo ich sage, dann will ich das nicht.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1580.32,
+   "ende": 1601.84,
+   "text": "Also dann will ich nicht groß werden, in Anführungszeichen, sowohl auf Instagram auch als mit dem Podcast. Dann will ich eigentlich mit euch hier klein in unserer kleinen Runde bleiben und dass mir nur die Leute zuhören, die ich halt kenne. Und ja, habe mich dann halt gefragt, bin ich überhaupt vom Typ her jemand, der das so könnte?",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 1601.84,
+   "ende": 1620.16,
+   "text": "Also ich habe gerne früher Theater gespielt, ich habe auch gerne Referate gehalten und Vorträge gehalten und ich bin, glaube ich, auch ein geselliger Mensch, aber ich bin nicht per se jemand, der unbedingt im Mittelpunkt stehen will oder muss oder das irgendwie für seine eigenen Bestätigungen braucht.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1620.16,
+   "ende": 1622.9,
+   "text": "und jetzt habe ich dann auch so gedacht,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1623.06,
+   "ende": 1624.56,
+   "text": "so wie ich mich inzwischen",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1624.56,
+   "ende": 1626.36,
+   "text": "exponiere im Internet, ja,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1628.12,
+   "ende": 1628.8,
+   "text": "ist ja schon die",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1628.8,
+   "ende": 1630.72,
+   "text": "Aufmerksamkeit dann auf der eigenen Person",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1630.72,
+   "ende": 1633.04,
+   "text": "und würde ich damit umgehen",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1633.04,
+   "ende": 1634.76,
+   "text": "können, wenn",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1634.76,
+   "ende": 1636.8,
+   "text": "es, man sagt, so ein Schnitt dauert",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1636.8,
+   "ende": 1638.9,
+   "text": "es zwei Jahre, bis so ein Podcast wirklich Erfolg",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1638.9,
+   "ende": 1640.74,
+   "text": "hat, ja, ich bin jetzt fast bei einem",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1640.74,
+   "ende": 1642.64,
+   "text": "Jahr, das heißt, ich habe noch ein bisschen Zeit, mich daran",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1642.64,
+   "ende": 1644.38,
+   "text": "zu gewöhnen, aber",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1644.38,
+   "ende": 1646.56,
+   "text": "ja, ich habe mich trotzdem",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1646.56,
+   "ende": 1648.54,
+   "text": "gefragt, wie wäre das, ne, und",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1648.54,
+   "ende": 1652.84,
+   "text": "Und natürlich geht es jetzt nicht so weit, dass ich sage, okay, ich mache jetzt keinen Podcast mehr.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1652.94,
+   "ende": 1655.0,
+   "text": "Ich mache Instagram zu, alles mir als zu viel.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1655.58,
+   "ende": 1656.4,
+   "text": "Will ich nicht.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1657.12,
+   "ende": 1660.02,
+   "text": "Ich habe jetzt Angst, dass irgendwer die Kinder sieht und so weiter.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1661.3,
+   "ende": 1662.58,
+   "text": "So weit geht es jetzt nicht.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1662.58,
+   "ende": 1669.66,
+   "text": "Aber ich habe auf jeden Fall schon mal so ein leichtes Gefühl dafür bekommen, wie sich vielleicht auch andere fühlen im Internet.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1670.08,
+   "ende": 1676.88,
+   "text": "Und es gibt ja immer mehr Creator auch, die darauf aufmerksam machen, mit was für Kommentaren sie sich auseinandersetzen müssen.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1676.88,
+   "ende": 1696.82,
+   "text": "Und da sind ja weitaus schlimmere Dinge dabei als dumme Pute oder dumm wie Brot. Ja, und da gibt es ja auch ganz andere Themen, wo Leute sich anmaßen zu kommentieren oder zu bewerten. Und das fand ich für mich auch mal interessant, wirklich da noch ein viel besseres Verständnis für zu bekommen, wie sich manch einer wirklich fühlen muss.",
+   "avg_logprob": -0.027,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1696.82,
+   "ende": 1712.7,
+   "text": "Und wenn ich dann darüber nachdenke, dass ich wirklich, glaube ich, ein sehr selbstbewusster Mensch bin und auch durch das ganze Reflektieren mir nochmal bewusst gemacht habe, okay, es ist irgendwie verständlich, ein bisschen verständlich, dass die Leute auf die Aussage so reagieren, weil sie aus dem Zusammenhang gerissen ist.",
+   "avg_logprob": -0.053,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1712.7,
+   "ende": 1733.36,
+   "text": "Aber ich wollte es ja aus dem Zusammenhang blablabla. Aber nichtsdestotrotz bin ich halt ein selbstbewusster Mensch, den das trotzdem erstmal beschäftigt hat. Und ich habe mich dann gefragt, wie muss das für Menschen sein, die eben nicht dieses Selbstbewusstsein haben? Wie ist das für junge Leute, die noch viel mehr in diesem Vergleichen sind und daran zu denken, dass das, was auf Instagram passiert, die Realität ist?",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1733.36,
+   "ende": 1738.22,
+   "text": "oder eben auch Menschen, die an sich schon unsicher sind,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1738.36,
+   "ende": 1741.64,
+   "text": "die sich vielleicht, keine Ahnung, eine sportliche Transformation wollen",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1741.64,
+   "ende": 1745.54,
+   "text": "und sich dann zeigen, was sie vorher gewogen haben und wo sie hinkommen.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1745.66,
+   "ende": 1748.18,
+   "text": "Und dann halt wirklich Leute schreiben, du fettes Schwein,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1748.26,
+   "ende": 1749.78,
+   "text": "warum gehst du überhaupt ins Fitnessstudio und so.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1750.42,
+   "ende": 1752.8,
+   "text": "Und ich habe das ja vorher auch schon gelesen und mich gefragt,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1752.96,
+   "ende": 1755.34,
+   "text": "okay, was stimmt nicht mit den Leuten?",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1755.5,
+   "ende": 1758.04,
+   "text": "Aber ich konnte mich nicht da hineinversetzen,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1758.18,
+   "ende": 1760.16,
+   "text": "wie die Menschen sich fühlen, die das lesen.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1760.16,
+   "ende": 1789.34,
+   "text": "Ja, und du fettes Schwein, warum gehst du überhaupt ins Fitnessstudio? Ist ja viel krasser als jetzt du dumme Pute oder du arrogante Schnäpfe. Ja, aber auf jeden Fall weiß ich schon mal, wenn es mehr werden würde, wenn ich jetzt sozusagen wirklich irgendwann zu den Menschen gehöre, die einen größeren Podcast haben und mehr Community und das alles sich, sage ich mal, noch größer entwickelt und wir nicht in unserer kleinen süßen",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1790.16,
+   "ende": 1792.08,
+   "text": "Juliettes Podcast-Welt-Bubble",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1792.08,
+   "ende": 1794.22,
+   "text": "bleiben, dann wäre auf jeden Fall",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1794.22,
+   "ende": 1795.94,
+   "text": "eine der ersten Dinge, die ich tun würde, mir",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1795.94,
+   "ende": 1797.86,
+   "text": "jemanden zu suchen, also so",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1797.86,
+   "ende": 1799.86,
+   "text": "eine virtuelle Assistentin ist ja auch",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1799.86,
+   "ende": 1802.06,
+   "text": "ähnlich, was ich anfangs gemacht habe",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1802.06,
+   "ende": 1802.92,
+   "text": "in meiner Selbstständigkeit,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1803.92,
+   "ende": 1806.0,
+   "text": "wo ich das halt auslagere, ja, wo ich einfach",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1806.0,
+   "ende": 1808.02,
+   "text": "das nicht mehr lesen muss und mich nicht damit",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1808.02,
+   "ende": 1809.42,
+   "text": "beschäftigen muss und",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1809.42,
+   "ende": 1812.14,
+   "text": "ja, einfach gar nichts mehr damit zu tun",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1812.14,
+   "ende": 1814.14,
+   "text": "habe und das dann auch wirklich nicht lesen würde,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1814.66,
+   "ende": 1816.14,
+   "text": "weil es geht ja",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1816.14,
+   "ende": 1818.0,
+   "text": "auch nicht darum zu gucken, okay, was wollen",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1818.0,
+   "ende": 1820.1,
+   "text": "die hören, also dass ich mich jetzt davor verschließe,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1820.16,
+   "ende": 1822.1,
+   "text": "was meine Hörerschaft möchte,",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1822.38,
+   "ende": 1826.16,
+   "text": "wenn es konstruktive Kritik ist",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1826.16,
+   "ende": 1827.16,
+   "text": "oder wenn es Dinge sind,",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1827.48,
+   "ende": 1828.7,
+   "text": "wo jemand sagt,",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1828.8,
+   "ende": 1829.98,
+   "text": "hey, da erzähl doch mal darüber,",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1830.06,
+   "ende": 1831.0,
+   "text": "was du so um Gottes Willen.",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1831.06,
+   "ende": 1832.08,
+   "text": "Aber das geben so Leute,",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1832.24,
+   "ende": 1834.08,
+   "text": "die dann sich um sowas kümmern,",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1834.16,
+   "ende": 1834.94,
+   "text": "einen ja auch weiter,",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1835.06,
+   "ende": 1836.92,
+   "text": "wenn wirklich da was Sinnvolles dabei ist.",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1837.28,
+   "ende": 1840.94,
+   "text": "Aber mir einfach nur irgendwie frustrierte Kommentare",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1840.94,
+   "ende": 1842.3,
+   "text": "von Menschen durchzulesen,",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1842.4,
+   "ende": 1844.74,
+   "text": "die mit mir überhaupt nichts zu tun haben",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1844.74,
+   "ende": 1846.06,
+   "text": "und offenbar sich wahrscheinlich",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1846.06,
+   "ende": 1847.42,
+   "text": "auch für dieses Thema nicht interessieren,",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1847.48,
+   "ende": 1849.22,
+   "text": "weil allein die Tatsache von,",
+   "avg_logprob": -0.212,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1849.22,
+   "ende": 1857.74,
+   "text": "Ja, fahr doch nach Sylt oder so, deutsches Gemecker oder dann bleib doch in Deutschland oder wie auch immer.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1858.32,
+   "ende": 1862.8,
+   "text": "Das zeigt ja ganz eindeutig, dass sie eben noch nicht mal wissen, dass ich eben gar nicht in Deutschland lebe.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1863.12,
+   "ende": 1865.04,
+   "text": "Aber ja, wie auch immer.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1865.16,
+   "ende": 1874.32,
+   "text": "Also das war mal so ein kleiner Schwenk aus meinem Influencer-Leben, was ich glaube ich echt nicht führen wollen würde.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1874.32,
+   "ende": 1889.84,
+   "text": "Also ich meine, ich mache ja da mit meinen zwei, drei Beiträgen in der Woche und ab und zu meine Story bin ich wirklich schon auch an meinem Influencer-Limit, was ich leisten möchte. Ja, weil ich möchte ja nicht, ich möchte nicht, es ist wirklich super viel Arbeit.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1889.84,
+   "ende": 1909.48,
+   "text": "Also so ein Instagram-Account zu pflegen und da irgendwie hoffentlich sinnvolle Dinge zu machen und auch so einen Podcast zu machen, ist unfassbar viel Arbeit. Also es geht da sehr viel Zeit rein und wenn man das nicht gerne macht oder Spaß daran hat, was ich habe, dann würde die Zeit überhaupt gar nicht im Verhältnis stehen.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1909.48,
+   "ende": 1912.54,
+   "text": "aber ich bin da auf jeden Fall",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1912.54,
+   "ende": 1914.58,
+   "text": "so, was den Content",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1914.58,
+   "ende": 1916.42,
+   "text": "angeht, für dem, was ich",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1916.42,
+   "ende": 1918.5,
+   "text": "leisten möchte, auf jeden Fall an meinem Limit",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1918.5,
+   "ende": 1920.64,
+   "text": "deshalb weit weg",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1920.64,
+   "ende": 1922.32,
+   "text": "von dem, was tatsächliche",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1922.32,
+   "ende": 1923.72,
+   "text": "Influencer leisten",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1923.72,
+   "ende": 1926.44,
+   "text": "oder große Podcaster, aber wie gesagt, die haben dann",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1926.44,
+   "ende": 1928.64,
+   "text": "ja einfach Leute, die das für die regeln",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1928.64,
+   "ende": 1930.52,
+   "text": "oder die, die da so ein bisschen von",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1930.52,
+   "ende": 1932.36,
+   "text": "abschotten, aber es hat mir wirklich",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1932.36,
+   "ende": 1934.3,
+   "text": "einen guten Einblick mal gegeben",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1934.3,
+   "ende": 1936.38,
+   "text": "wie diese Welt",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1936.38,
+   "ende": 1938.46,
+   "text": "da wirklich ist, auch wenn man immer davon gehört hat",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1938.46,
+   "ende": 1954.94,
+   "text": "Und es hat mich durchaus auch schockiert. Und ja, werden wir mal sehen, wie es weitergeht. Bisher kamen dann zu anderen Reels oder so keine Kommentare in die Richtung. Ja, mal schauen.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.33
+  },
+  {
+   "start": 1954.94,
+   "ende": 1972.38,
+   "text": "So, das war nur mal so am Rande ein kleiner Schwank aus meinem Leben als Podcaster. Und ja, wir hören uns dann nächste Woche wieder mit. Mal schauen, was mich bis dahin umtreibt.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.25
+  },
+  {
+   "start": 1972.38,
+   "ende": 1980.3,
+   "text": "Wir haben jetzt ja erstmal, wenn ihr die Folge hört oder am Montag, wenn sie rauskommt, ist ja hier thailändisches Neujahr, das Songkran-Fest mit der Wasserschlacht.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1980.66,
+   "ende": 1984.9,
+   "text": "Mal schauen, ob da interessante Sachen passieren, die es sich dann lohnt, im Podcast zu teilen.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1985.92,
+   "ende": 1988.5,
+   "text": "Und falls nicht, wird mir schon was Spannendes einfallen.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1989.34,
+   "ende": 1997.08,
+   "text": "Ich freue mich, dass ihr zuhört und dass ihr nett zu mir seid und wünsche euch eine schöne Woche. Bis dann!",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.52
+  }
+ ]
+}

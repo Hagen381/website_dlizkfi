@@ -1,0 +1,4026 @@
+{
+ "meta": {
+  "slug": "kulturelle-unterschiede-was-ich-in-thailand-uber-konflikte-lerne",
+  "titel": "Kulturelle Unterschiede: Was ich in Thailand über Konflikte lerne",
+  "datum": "2026-06-29T01:14:07.000Z",
+  "dauer_sekunden": 2366,
+  "guid": "85b6c8e8-a8a5-43b4-b31d-847e4b21fa81",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T06:43:33Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 4,
+   "transkription": 1222
+  },
+  "echtzeitfaktor": 0.52,
+  "anzahl_segmente": 500,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 7.86,
+   "ende": 14.3,
+   "text": "Da ging es um verschwundene Menschen und tatsächlich auch Mordfälle auf Koh Phangan.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 14.86,
+   "ende": 19.34,
+   "text": "Und da hat jemand geschrieben, hinter jedem Thai-Lächeln verbirgt sich ein Haifischzahn.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 19.98,
+   "ende": 23.98,
+   "text": "Jetzt kann man sagen, gut, das kann man ja auch über jede Nation sagen, ist auch so.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 28.92,
+   "ende": 32.18,
+   "text": "Hallo und herzlich willkommen zu einer neuen Folge DLIZKFI.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 32.28,
+   "ende": 33.78,
+   "text": "Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 34.48,
+   "ende": 37.72,
+   "text": "Meine Rubrik Ich grüße jemanden hat Anklang gefunden.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 37.72,
+   "ende": 41.72,
+   "text": "Es hat sich tatsächlich gleich jemand gemeldet, der auch gegrüßt werden möchte.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 42.02,
+   "ende": 44.44,
+   "text": "besser gesagt, die auch gegrüßt werden möchte.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 44.68,
+   "ende": 47.6,
+   "text": "Deshalb grüße ich heute Sabine. Hallo Sabine!",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 48.38,
+   "ende": 52.22,
+   "text": "Sabine ist eine ehemalige Kollegin, Arbeitskollegin von AIDA.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 52.46,
+   "ende": 56.74,
+   "text": "Also sie ist inzwischen auch nicht mehr da, aber wir haben da beide ein paar Jahre zusammen gearbeitet.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 57.6,
+   "ende": 62.94,
+   "text": "Und Sabine ist nach wie vor meine Sparringspartnerin in Sachen Grammatik und Rechtschreibung.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 62.94,
+   "ende": 67.16,
+   "text": "Wenn ich nämlich irgendwas auf Instagram falsch schreibe, dann weiß ich ganz genau,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 67.84,
+   "ende": 70.48,
+   "text": "dass Sabine es auffallen wird. Nicht, dass sie mich darauf hinweist,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 70.48,
+   "ende": 74.1,
+   "text": "Aber ich denke dann sofort an sie, weil uns beiden sowas nämlich total wichtig ist.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 75.66,
+   "ende": 80.66,
+   "text": "Und ich weiß, letztens habe ich einmal anstatt, also klar, mal so ein Tippfehler, das korrigiere ich dann auch nicht immer.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 80.8,
+   "ende": 84.6,
+   "text": "Aber wenn ich dann zum Beispiel so wie letztens habe ich irgendwann mal Villas gesagt statt Villen.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 85.72,
+   "ende": 87.86,
+   "text": "Und sowas triggert mich übelst.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 88.18,
+   "ende": 92.8,
+   "text": "Oder wenn Leute nicht wissen, dass Visa die Mehrzahl von Visum ist.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 93.3,
+   "ende": 95.18,
+   "text": "Ein Visum, mehrere Visa.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 95.84,
+   "ende": 99.84,
+   "text": "Und die meisten Leute verwenden aber immer Visa, egal in welcher Konstellation.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 100.72,
+   "ende": 102.52,
+   "text": "Und genau, sowas triggert mich halt.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 102.6,
+   "ende": 104.92,
+   "text": "Und dann habe ich halt in meiner Story noch mal darauf hingewiesen,",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 105.0,
+   "ende": 106.08,
+   "text": "dass ich das falsch geschrieben habe,",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 106.16,
+   "ende": 107.54,
+   "text": "aber es jetzt einfach so stehen lasse.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 107.6,
+   "ende": 109.32,
+   "text": "Und das sind so Momente, wo ich ganz genau weiß,",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 109.42,
+   "ende": 110.68,
+   "text": "dass Sabine sowas auffallen wird",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 110.68,
+   "ende": 113.4,
+   "text": "und dass sie irgendeinen Lachsmiley oder so dazu schreibt.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 113.6,
+   "ende": 115.46,
+   "text": "Und wir haben auch den gleichen Humor,",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 115.54,
+   "ende": 119.04,
+   "text": "weil manchmal poste ich auch irgendwie ein Bild oder einen Spruch.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 119.5,
+   "ende": 122.24,
+   "text": "Und ich bin mir dann relativ sicher,",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 122.38,
+   "ende": 124.18,
+   "text": "dass sich genau zwei Leute darauf melden werden.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 124.3,
+   "ende": 125.54,
+   "text": "Das sind nämlich Sabine und Carolin,",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 126.38,
+   "ende": 128.16,
+   "text": "die sich übrigens nicht kennen.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 128.62,
+   "ende": 132.06,
+   "text": "Aber ich sage dann immer, ich wusste genau, dass du darauf reagierst,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 132.18,
+   "ende": 136.86,
+   "text": "obwohl der Rest der Leute, die das lesen in meinem Status oder in meiner Story,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 137.02,
+   "ende": 139.12,
+   "text": "wahrscheinlich denen das gar nicht auffällt.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 139.82,
+   "ende": 143.5,
+   "text": "Aber ja, so, Sabine, ich hoffe, das war ein schöner Gruß,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 143.58,
+   "ende": 145.86,
+   "text": "weil sie hat gesagt, sie ist mal gespannt, wie ich sie anmoderiere.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 147.08,
+   "ende": 150.32,
+   "text": "So, jetzt kommen wir aber zum eigentlichen Thema der Podcast-Folge.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 150.32,
+   "ende": 154.1,
+   "text": "Und zwar wollte ich heute mal ein bisschen über kulturelle Unterschiede sprechen,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 155.18,
+   "ende": 157.04,
+   "text": "wobei ich das ein bisschen eingrenzen werde,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 157.04,
+   "ende": 175.22,
+   "text": "Weil ich glaube, generell kann man über kulturelle Unterschiede Unmengen, darüber könnte man wahrscheinlich einen kompletten Podcast machen in dem jeweiligen Land, wo man gerade ist, weil kulturelle Unterschiede sich ja auch erst zeigen, je länger man in irgendeinem Land ist, desto mehr tut sich da auf.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 175.22,
+   "ende": 180.18,
+   "text": "und genau, deshalb, wer jetzt das hört, wird vielleicht denken,",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 180.26,
+   "ende": 183.1,
+   "text": "ja, aber das ist ja nicht nur das, das ist ja auch noch ein Mega-Unterschied",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 183.1,
+   "ende": 184.4,
+   "text": "und das ist auch noch ein Mega-Unterschied.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 184.94,
+   "ende": 187.68,
+   "text": "Also deswegen werde ich jetzt bestimmt hier nicht alle Sachen beleuchten.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 187.68,
+   "ende": 193.0,
+   "text": "Mir geht es jetzt in erster Linie um das Thema kulturelle Unterschiede,",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 193.08,
+   "ende": 197.5,
+   "text": "was so Konfliktverhalten, Meinungsfreiheit und so weiter angeht.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 197.58,
+   "ende": 200.6,
+   "text": "Einfach aufgrund dessen, weil ich jetzt in den letzten Wochen",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 200.6,
+   "ende": 203.12,
+   "text": "da mit verschiedenen Erfahrungen gemacht habe",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 203.12,
+   "ende": 209.24,
+   "text": "oder einfach in die Situation gekommen bin, in der ich dann gemerkt habe, okay, das ist halt extrem anders.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 210.2,
+   "ende": 215.8,
+   "text": "Ich fange mal mit der Meinungsfreiheit an, weil ich bin jemand, der selbst in Deutschland schon gedacht hat,",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 216.02,
+   "ende": 221.7,
+   "text": "dass unsere Meinungsfreiheit leidet oder dass wir nicht mehr die volle Meinungsfreiheit haben.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 223.16,
+   "ende": 231.78,
+   "text": "Denn ich bin jemand, der irgendwie halt immer seine Meinung sagt, oft auch zu oft und oft auch ungefragt.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 232.58,
+   "ende": 234.24,
+   "text": "Es ist, glaube ich, schon besser geworden.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 234.42,
+   "ende": 237.86,
+   "text": "Aber ich bin eigentlich überhaupt, also ich bin null konfliktscheu.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 237.94,
+   "ende": 242.56,
+   "text": "Ich könnte vermutlich etwas konfliktscheuer sein, würde mir vermutlich nicht schlecht tun.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 243.24,
+   "ende": 247.9,
+   "text": "Das heißt, wenn Leute so an ihrem Konfliktverhalten arbeiten oder gesagt wird,",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 248.14,
+   "ende": 251.62,
+   "text": "ja, gerade so als Frauen wird ja immer unterstellt, dass wir so groß geworden sind,",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 251.68,
+   "ende": 254.8,
+   "text": "dass wir so brave und liebe Mädchen sind, dass wir unsere Meinung nicht sagen dürfen,",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 254.92,
+   "ende": 256.62,
+   "text": "dass wir uns immer unterdrücken lassen und so weiter.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 256.76,
+   "ende": 261.42,
+   "text": "Und ich kann auch gerade in diesem ganzen Coaching-Bereich mit all dem überhaupt nichts anfangen,",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 261.42,
+   "ende": 267.12,
+   "text": "weil das halt auf mich gar nicht zutrifft. Also ich habe mich noch nie unterdrückt gefühlt.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 267.22,
+   "ende": 271.34,
+   "text": "Und natürlich ist mir klar, dass ich weniger verdient habe als vielleicht ein Mann oder keine Ahnung.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 271.68,
+   "ende": 277.08,
+   "text": "Aber ja, das hat mich jetzt, ich habe das nicht so persönlich genommen, sagen wir mal so.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 277.2,
+   "ende": 282.54,
+   "text": "Also ich fand es dann vielleicht nicht fair, aber ich fand es auch in anderen Konstellationen irgendwelche Sachen nicht fair,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 282.64,
+   "ende": 283.64,
+   "text": "egal ob jetzt Mann oder Frau.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 284.56,
+   "ende": 289.42,
+   "text": "Und deshalb bin ich halt jemand, der schon immer seine Meinung gesagt hat",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 289.42,
+   "ende": 308.9,
+   "text": "Und mir auch schon immer recht egal war, was daraus resultiert. Und ja, deshalb habe ich schon in Deutschland manchmal gedacht, beziehungsweise extrem fing das natürlich in der Corona-Zeit an, wo ich das Gefühl hatte, man darf nicht seine Meinung sagen oder man darf nicht sagen, wie man über irgendetwas denkt.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 308.9,
+   "ende": 321.02,
+   "text": "weil das dann eben von außen und nicht nur jetzt von Freunden, sondern eben tatsächlich auch von der Politik her einem irgendwie die Worte im Mund umgedreht werden können",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 321.02,
+   "ende": 324.9,
+   "text": "oder man in irgendeine Ecke gestellt wird, in die man eigentlich gar nicht gehört.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 326.04,
+   "ende": 335.08,
+   "text": "Jetzt habe ich aber hier gemerkt, was es wirklich bedeutet, wenn man nicht hundertprozentige Meinungsfreiheit hat,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 335.08,
+   "ende": 350.74,
+   "text": "Weil in Deutschland habe ich mir nie darüber Gedanken gemacht, was ich in meinem Podcast sage. Auch wenn ich jetzt kritische Sachen über Deutschland sage, dann natürlich weiß ich, dass das vielleicht irgendeinem Hörer aufstößt, der dann vielleicht denkt, ja, wieso musst du jetzt über Deutschland lästern und so weiter.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 350.74,
+   "ende": 372.06,
+   "text": "Aber ich hätte natürlich überhaupt keine Sorge, dass jetzt sich irgendjemand regierungstechnisch daran stört. Natürlich bin ich jetzt auch sehr klein. Wer Ben Ungeskriptet, den Podcast, kennt, der weiß, dass es natürlich auch ab einem gewissen Level dann auch in Deutschland versucht wird, dass Meinungen vielleicht nicht mehr so geäußert werden.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 372.82,
+   "ende": 375.1,
+   "text": "Aber ich sage mal jetzt so in einem ganz kleinen Stil wie bei mir,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 375.6,
+   "ende": 378.74,
+   "text": "mache ich mir einfach überhaupt keine Sorgen darüber, was ich im Podcast sage oder nicht",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 378.74,
+   "ende": 382.24,
+   "text": "oder was ich für Videos zeige oder worüber ich mich aufrege oder was auch immer.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 382.82,
+   "ende": 388.14,
+   "text": "Das war jetzt ganz anders, als ich über die Folge über diese Abschiebehaft aufgenommen habe,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 389.14,
+   "ende": 393.7,
+   "text": "zu der ich ja auch Videos und Bilder bekommen habe und eben auch gesehen habe,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 393.7,
+   "ende": 398.78,
+   "text": "was für Zustände das sind, nämlich wirklich aus meiner Sicht menschenunwürdige Zustände",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 398.78,
+   "ende": 404.18,
+   "text": "und habe dann halt eigentlich, also intuitiv die Folge aufgenommen",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 404.18,
+   "ende": 407.12,
+   "text": "und wollte halt ein Reel auch machen mit diesen Videos, um das zu zeigen.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 407.62,
+   "ende": 410.66,
+   "text": "Und dann hatte der Bekannte, um den es da geht, mir halt schon gesagt,",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 410.86,
+   "ende": 412.4,
+   "text": "dass ich mir das halt überlegen soll.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 412.48,
+   "ende": 415.38,
+   "text": "Der ist ja auch schon länger in Thailand, hat ja auch eine thailändische Partnerin",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 415.38,
+   "ende": 420.08,
+   "text": "und dass ich mir halt überlegen soll, was da eventuell auf mich zukommen könnte,",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 420.08,
+   "ende": 424.44,
+   "text": "wenn ich sowas veröffentliche und dass ich dann eben auch unseren Chat löschen soll",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 424.44,
+   "ende": 428.56,
+   "text": "und dass ich halt die Sachen dann auch von meinem Handy löschen soll,",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 428.56,
+   "ende": 434.84,
+   "text": "die Bilder und so weiter, weil es gibt hier sowas wie die Majestätsbeleidigung.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 434.96,
+   "ende": 437.6,
+   "text": "Das ist zwar nochmal ein bisschen was anderes, aber grundsätzlich kann man,",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 437.64,
+   "ende": 440.84,
+   "text": "und das ist jetzt auch nicht nur so dahergesagt, in Thailand dafür ins Gefängnis kommen,",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 440.9,
+   "ende": 442.3,
+   "text": "wenn man das Königshaus beleidigt.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 442.66,
+   "ende": 448.18,
+   "text": "Das ist jetzt, sage ich mal so, die oberste Geschichte, die einem hier passieren kann.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 448.78,
+   "ende": 453.04,
+   "text": "Aber unabhängig jetzt davon, ob man jetzt wirklich explizit das Königshaus beleidigt,",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 453.04,
+   "ende": 461.08,
+   "text": "ist es an sich hier in Thailand schon so, dass Beleidigungen, Denunzierung, falsche Anschuldigungen und so weiter,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 461.84,
+   "ende": 467.0,
+   "text": "dass das strafbar ist und dass man sowas auch zur Anzeige bringen kann und das auch regelmäßig gemacht wird.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 467.42,
+   "ende": 474.32,
+   "text": "Und da reicht es halt schon, wenn man hier, sage ich jetzt mal, wirklich, was im Internet inzwischen ja völlig üblich ist,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 474.62,
+   "ende": 478.28,
+   "text": "sich aufs Schärfste beleidigt, wenn ich das jetzt hier einem Thai gegenüber machen würde,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 478.28,
+   "ende": 481.6,
+   "text": "weil ich mich, keine Ahnung, im Straßenverkehr aufrege, was auch immer,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 482.22,
+   "ende": 484.3,
+   "text": "dann kann das richtig doll Ärger geben.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 484.48,
+   "ende": 486.72,
+   "text": "Also inklusive Polizei und allem Pipapo.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 486.96,
+   "ende": 491.12,
+   "text": "Und im schlimmsten Fall kann man dann halt vielleicht auch mal eine Nacht irgendwie hinter Gittern verbringen.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 491.52,
+   "ende": 494.3,
+   "text": "Bei Majestätsbeleidigungen nicht nur eine Nacht, sondern im Zweifel Jahre.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 495.74,
+   "ende": 500.66,
+   "text": "Das heißt, als er mich dann so darauf hingewiesen hat, habe ich dann angefangen zu recherchieren.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 501.1,
+   "ende": 505.26,
+   "text": "Okay, was darf ich denn zeigen? Darf ich das überhaupt zeigen? Was kann mir passieren?",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 506.56,
+   "ende": 510.48,
+   "text": "Und habe dann eben festgestellt, dass das jetzt wirklich nicht ganz ohne ist.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 510.48,
+   "ende": 531.48,
+   "text": "Und natürlich kann man jetzt sagen, naja, das hätte ja gar keiner mitgekriegt, aber man weiß ja nie, also man versteht ja auch gerade bei Instagram den Algorithmus null, ja, ich checke null, warum jetzt dieses eine Video, wo ich eine beschissene Straße filme, irgendwie, keine Ahnung, sich hammer viele Leute angucken, zweieinhalb Minuten dämliche Kommentare abgeben und irgendwelche coolen Videos, wo ich mir hammer viel Mühe gebe, die zu schneiden und so weiter und dann kommt einfach nichts, ja.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 531.48,
+   "ende": 548.06,
+   "text": "Deshalb checke ich diesen Algorithmus einfach nicht. Aber wenn es jetzt eben genau in dem Moment, wo ich solche Videos veröffentliche, der Algorithmus irgendwie erkennt, ja, das ist ja eigentlich was, was man gar nicht veröffentlichen darf und das dann doch irgendwie eine große Leserschaft nicht.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 548.06,
+   "ende": 561.5,
+   "text": "Aber sehr viele Leute dann eben sehen, weil ich das ja auch auf YouTube ausstrahle und so, habe ich mir dann gedacht, okay, vielleicht sollte ich das lieber nicht machen, weil im schlimmsten Fall steht dann hier jemand und fragt mich, wo ich die Videos her habe.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 561.86,
+   "ende": 573.36,
+   "text": "Und ich weiß nicht, wenn ich jetzt hier im thailändischen Frauenknast sitzen würde, keine Ahnung, ob meine Loyalität zu unserem Bekannten dann so groß wäre, dass ich nicht sagen würde, von wem ich diese Videos habe.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 574.26,
+   "ende": 580.2,
+   "text": "Und das mag sich jetzt ein bisschen krass anhören, ja, von wegen, naja, als ob da gleich die Polizei kommen würde.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 580.3,
+   "ende": 582.74,
+   "text": "Aber wir haben es hier selbst auf dem Gelände mitbekommen.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 582.9,
+   "ende": 588.28,
+   "text": "Da hat nämlich auch ein Verrang hier eine, ja, eine, die hier auch wohnt, sage ich mal.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 588.4,
+   "ende": 591.86,
+   "text": "Ich habe es, glaube ich, schon mal angedeutet, so subtil ein bisschen bedroht.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 591.86,
+   "ende": 595.96,
+   "text": "So sinngemäß, ja, wenn dein Freund weg ist, dann hoffe ich, du fühlst dich noch sicher, so in die Richtung.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 596.76,
+   "ende": 599.98,
+   "text": "Und dann sind die eben zur Polizei gegangen und haben das angezeigt.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 600.76,
+   "ende": 605.86,
+   "text": "Er hat dann auch den Freund beleidigt und sind dann eben zur Polizei und zum Anwalt",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 605.86,
+   "ende": 609.14,
+   "text": "und haben das eben zur Anzeige gebracht wegen Beleidigung und Drohung und so weiter.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 609.7,
+   "ende": 612.64,
+   "text": "Und dann kamen hier eben, ich glaube, drei oder vier Polizisten.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 613.0,
+   "ende": 617.2,
+   "text": "Und ihm ist da nichts weiter passiert, aber sie haben ihn halt aus dem Bungalow rausgerufen.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 617.2,
+   "ende": 621.84,
+   "text": "Und er stand dann hier auf dem Gelände mit eben dem betroffenen Paar und dem Polizisten",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 621.84,
+   "ende": 626.84,
+   "text": "und hat dann eben so eine Ansprache bekommen und ist dann letztendlich auch hier weggezogen.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 627.52,
+   "ende": 628.74,
+   "text": "Keine Ahnung, wo er jetzt ist.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 629.24,
+   "ende": 633.02,
+   "text": "Aber Fakt ist, dass sie halt hier mit sowas nicht spaßen.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 633.16,
+   "ende": 637.16,
+   "text": "Und allein die Geschichte, wie das alles abgelaufen ist mit der Abschiebehaft",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 637.16,
+   "ende": 643.14,
+   "text": "und wie dieses Ganze, also wie die Abschiebehaft als solche, was da passiert,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 643.3,
+   "ende": 646.76,
+   "text": "wie da mit den Menschen umgegangen wird, unter was für Umständen denn Menschen da leben,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 646.82,
+   "ende": 649.12,
+   "text": "habe ich auch im Nachhinein in meiner Recherche herausgefunden,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 649.12,
+   "ende": 652.8,
+   "text": "dass es auch einige Menschenrechtsorganisationen gibt, die sich mit dem Thema schon befassen,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 653.62,
+   "ende": 657.9,
+   "text": "habe ich dann gedacht, okay, ist vielleicht jetzt gar nicht so unheikel die Nummer",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 657.9,
+   "ende": 662.92,
+   "text": "und habe ja dann an diese Podcast-Folge im Nachhinein nochmal was aufgenommen,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 663.14,
+   "ende": 669.5,
+   "text": "sozusagen, dass die eben zur Aufklärung dient und habe dann ja auch nochmal in dem Reel gesagt,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 669.62,
+   "ende": 674.38,
+   "text": "dass ich eben die Bilder und Videos nicht veröffentlichen werde, weil ich einfach nicht weiß, was auf mich zukommt.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 674.38,
+   "ende": 692.0,
+   "text": "Und das Spannende fand ich da bei mir zu beobachten, wie krass sich, also wie viele Gedanken ich mir halt darüber gemacht habe und wie sehr ich darüber nachgedacht habe, ob ich die Folge überhaupt veröffentliche, ob ich sie nochmal komplett neu aufnehmen muss und irgendwelche Sachen dann vielleicht nicht sage.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 692.68,
+   "ende": 697.64,
+   "text": "Ich habe sie dann auch noch mal in die KI gegeben und wirklich sozusagen prüfen lassen.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 698.08,
+   "ende": 700.64,
+   "text": "Natürlich ist das jetzt keine journalistische Rechtsberatung,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 700.82,
+   "ende": 706.22,
+   "text": "aber ob da irgendwelche Aussagen super kritisch oder vielleicht sogar strafbar sind.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 706.86,
+   "ende": 709.2,
+   "text": "Und dann kam halt auch, dass wenn ich zum Beispiel sowas sage,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 709.2,
+   "ende": 713.38,
+   "text": "also den 24-7-Licht anzulassen, das grenzt ja schon an Folter.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 714.28,
+   "ende": 716.06,
+   "text": "Das ist halt schon ein bisschen kritisch.",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 716.56,
+   "ende": 721.78,
+   "text": "Aber wenn ich jetzt wirklich sagen würde, es wird 24 Stunden lang das Licht angelassen,",
+   "avg_logprob": -0.145,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 721.78,
+   "ende": 728.6,
+   "text": "um die Menschen dort zu foltern, diese Formulierung wäre dann schon eine Anschuldigung und die könnte dann schon strafbar sein.",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 729.24,
+   "ende": 734.62,
+   "text": "Also ich habe mich am Ende dazu entschieden, dass alle Sachen, auch wenn ich sage, was habe ich denn noch gesagt,",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 734.78,
+   "ende": 744.06,
+   "text": "Knast, Abschiebe Knast, ja, statt Abschiebe Haft oder Ausländerhass, das sind alles schon sehr krasse Aussagen,",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 744.18,
+   "ende": 750.22,
+   "text": "aber gehen eher so in die Richtung meiner persönlichen Meinung und deswegen habe ich die Folge an sich so stehen lassen",
+   "avg_logprob": -0.078,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 750.22,
+   "ende": 754.38,
+   "text": "und habe eben nur im Vorfeld noch diese kleine Ansprache gemacht,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 754.54,
+   "ende": 756.82,
+   "text": "dass sie eben nicht falsch verstanden wird.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 757.44,
+   "ende": 759.24,
+   "text": "Und letztendlich ist da jetzt auch gar nichts passiert.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 759.36,
+   "ende": 763.74,
+   "text": "Die ist jetzt auch nicht viral gegangen, egal, aber man weiß das ja vorher immer nicht.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 763.74,
+   "ende": 768.98,
+   "text": "Und es war einfach nur krass, dass ich mir überhaupt eben so eine Gedanken machen musste,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 769.54,
+   "ende": 774.7,
+   "text": "wohingegen ich das eben überhaupt nie haben würde, wenn ich irgendwas über Deutschland sage.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 775.3,
+   "ende": 779.0,
+   "text": "Und unser Bekannter und ich, wir haben uns auch darüber unterhalten,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 779.0,
+   "ende": 783.8,
+   "text": "wenn wir nicht in Thailand wohnen würden. Also wenn er jetzt hier nicht mehr wäre und wir jetzt auch vor hätten,",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 783.94,
+   "ende": 788.5,
+   "text": "wir würden, keine Ahnung, nächsten Monat dann in Kambodscha leben oder keine Ahnung wo,",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 789.04,
+   "ende": 796.14,
+   "text": "dann wären wir ganz anders damit umgegangen und hätten tatsächlich das auch vor allem eher an eine viel größere Glocke gehangen.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 796.5,
+   "ende": 805.18,
+   "text": "Und hätte schon versucht, dass das medial auch mehr Aufmerksamkeit bekommt, weil es halt einfach absolut krass ist, was da abgeht.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 805.18,
+   "ende": 826.98,
+   "text": "Und man macht es aber nicht, weil man einfach weiß, dass man hier dann im Zweifel richtig, richtig viel Ärger bekommen kann. Und da habe ich zum ersten Mal für mich auch festgestellt, okay, meine Sicht auf, ja, in Deutschland dürfen wir unsere Meinung gar nicht mehr so sagen und Meinungsfreiheit wird da immer eingeschränkt und so, ist vielleicht für deutsche Verhältnisse inzwischen auch ein bisschen so.",
+   "avg_logprob": -0.041,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 826.98,
+   "ende": 846.34,
+   "text": "Ja, aber im Vergleich zu anderen Ländern, da haben wir noch sehr viel Meinungsfreiheit und ich habe dann einfach gemerkt, wie komisch man sich fühlt. Man fühlt sich so, und das hat auch unser Bekannter gesagt, man fühlt sich, als hätte man was falsch gemacht, ohne dass man was falsch gemacht hat.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 846.34,
+   "ende": 859.92,
+   "text": "Also allein die Tatsache, dass ich darüber nachgedacht habe, die Bilder zu veröffentlichen und über diese Sache gesprochen habe und sie sozusagen in die Öffentlichkeit getragen habe, hat einen so fühlen lassen, als ob man jetzt irgendwas Verbotenes getan hat.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 859.92,
+   "ende": 882.28,
+   "text": "Und das war auf jeden Fall richtig strange. Und in dem Zusammenhang Meinungsfreiheit kam jetzt auch noch was dazu. Und da haben wir den Spruch gehört und das fand ich auch sehr bezeichnend. In Thailand wird nicht der bestraft, über den sich beschwert wurde, sondern es wird der bestraft, der sich beschwert.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 883.08,
+   "ende": 885.78,
+   "text": "Und warum haben wir den Spruch gehört?",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 885.92,
+   "ende": 889.52,
+   "text": "Es ist ein paar, die mir jetzt auf Instagram folgen, haben das vielleicht da gesehen.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 889.66,
+   "ende": 893.08,
+   "text": "Es ist seit einer Weile so, dass hier in der Ecke ist ein Reiterhof.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 893.66,
+   "ende": 900.86,
+   "text": "Reiterhof, also eine Pferdekoppel, wo Sattel sind und wo Touristen eben so Strandausritte buchen können.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 900.86,
+   "ende": 903.64,
+   "text": "Es ist kein Reiterhof, wo ich jetzt, sage ich mal, Reitunterricht nehmen kann.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 904.42,
+   "ende": 911.48,
+   "text": "Und seit einigen Tagen, also ich habe das schon vor ein paar Wochen manchmal bei einer Nachbarin in der Story gesehen,",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 911.48,
+   "ende": 915.48,
+   "text": "oder im Status, dass sie nachts gefilmt hat, wie die Pferde hier gegrast haben.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 915.56,
+   "ende": 918.74,
+   "text": "Und dann habe ich noch so gedacht, oh, wie cool, ich will auch mal sehen, wenn die Pferde hier sind.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 919.14,
+   "ende": 923.44,
+   "text": "Und jetzt fing das aber vor ein paar Tagen auch an, dass sie eben auch tagsüber hier auf dem Gelände waren",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 923.44,
+   "ende": 925.68,
+   "text": "und nicht nur ein Pferd, sondern mehrere.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 926.44,
+   "ende": 930.84,
+   "text": "Und im ersten Moment denkt man halt so, oh, wie schön, die Pferde sind hier.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 930.96,
+   "ende": 934.6,
+   "text": "Und dann sofort denkt man natürlich, aber hä, wie die Pferde sind hier?",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 934.72,
+   "ende": 936.54,
+   "text": "Wie können denn die Pferde überhaupt hier sein?",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 936.64,
+   "ende": 938.5,
+   "text": "Die sind ja da hinten eigentlich auf der Koppel, ja.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 939.1,
+   "ende": 940.38,
+   "text": "Und die ist ja umzäunt.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 940.96,
+   "ende": 944.06,
+   "text": "Und dann war es eben, wie gesagt, einen Tag war mal eins da,",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 944.16,
+   "ende": 946.74,
+   "text": "dann nächsten Tag waren mal zwei da und den einen Tag waren dann hier fünf.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 947.5,
+   "ende": 953.54,
+   "text": "Und dann ist es natürlich so, ach so, wir hatten davor irgendwann mal bei uns hier vom Bungalow",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 953.54,
+   "ende": 956.82,
+   "text": "zwei riesige Scheißehaufen liegen und konnten uns überhaupt nicht erklären,",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 956.92,
+   "ende": 960.58,
+   "text": "von was für einem Tier die sein sollten, weil es ganz offensichtlich nicht von einem Hund war",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 960.58,
+   "ende": 963.44,
+   "text": "und offensichtlich von einem sehr großen Tier war.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 963.44,
+   "ende": 968.24,
+   "text": "Und wir uns halt gefragt haben, hä, was für ein großes Tier ist denn so nah an unserem Bungalow,",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 968.32,
+   "ende": 969.72,
+   "text": "das so einen großen Haufen macht?",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 970.42,
+   "ende": 973.68,
+   "text": "Oder haben die Kinder schon gesagt, ja, das sieht aus vielleicht von den Pferden, habe ich gesagt.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 973.78,
+   "ende": 979.02,
+   "text": "Aber die Reiter, also wenn die jetzt hier ihren Sonnenuntergangstrip machen mit den Pferden,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 979.3,
+   "ende": 983.74,
+   "text": "dann reiten die ja nicht zu unserem Bungalow und lassen die Pferde direkt vor unsere Tür scheißen,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 983.82,
+   "ende": 986.16,
+   "text": "auf Deutsch gesagt, und reiten dann einfach weiter.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 986.94,
+   "ende": 991.52,
+   "text": "So, und dann, naja, und als wir dann eben sahen, dass die Pferde hier frei rumliefen,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 991.52,
+   "ende": 993.22,
+   "text": "haben wir gedacht, okay, ist doch von den Pferden.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 993.94,
+   "ende": 996.36,
+   "text": "Und dann werden die natürlich hier verscheucht.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 996.36,
+   "ende": 1003.92,
+   "text": "Und mit verscheucht meine ich, dass zum Teil Steine nach denen geworfen werden, damit die eben hier nicht auf dem Gelände sind und eben hier nicht alles vollkacken.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1003.92,
+   "ende": 1010.3,
+   "text": "Und auch einfach faktisch ist es ja nicht ungefährlich. Hier ist ja Verkehr, also hier ist ja auch noch ein Restaurant.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1010.92,
+   "ende": 1015.98,
+   "text": "Hier sind Leute am Strand, hier sind Leute im Restaurant, die Leute fahren hier mit den Rollern hin und her, die Kinder spielen hier.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1016.44,
+   "ende": 1022.28,
+   "text": "Nur wenn die Pferde dann eben vertrieben werden in Form von, sie werden mit Steinen beworfen, dann sind die natürlich aufgeregt.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1022.28,
+   "ende": 1029.68,
+   "text": "Und dann fangen die natürlich wie bekloppt an, hier wegzurennen und rennen dann wieder auf die Straße, wo ja ganz normaler Straßenverkehr ist.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1029.72,
+   "ende": 1035.86,
+   "text": "Autos, Roller, alles mögliche, Lieferwagen, teilweise letztens kam ja auch ein Krankenwagen angedonnert.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1036.6,
+   "ende": 1038.88,
+   "text": "Und das passiert ja nicht nur tagsüber, sondern auch nachts.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1039.04,
+   "ende": 1044.94,
+   "text": "Das heißt, also erstmal rechnet ja sowieso keiner, der mit dem Roller langfährt, damit, dass auf einmal so ein Pferd auf die Straße springt.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1044.98,
+   "ende": 1046.56,
+   "text": "Aber nachts natürlich noch weniger.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1046.78,
+   "ende": 1050.54,
+   "text": "Also es ist für mich absolutes Wunder, dass bis jetzt noch kein Unfall passiert ist.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1050.54,
+   "ende": 1063.34,
+   "text": "Mal ganz abgesehen von den Unfällen, die hier passieren können, wenn die Pferde eben plötzlich losrennen und hier irgendwelche Fußgänger langlaufen, weil sie zum Strand wollen oder gar unsere Kinder oder wer auch immer hier auf dem Gelände rumrennt.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.36
+  },
+  {
+   "start": 1063.34,
+   "ende": 1067.04,
+   "text": "Und dann haben wir hier mit Nachbarn gesprochen, ob die wissen, was da los ist.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1067.14,
+   "ende": 1071.42,
+   "text": "Und dann meinte die, ja, es gibt ja wohl Ärger zwischen dem Besitzer dieser Koppel und dem Manager.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1072.32,
+   "ende": 1074.98,
+   "text": "Weil, wenn ich es richtig checke, ist der Besitzer gar nicht hier vor Ort.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1075.04,
+   "ende": 1078.02,
+   "text": "Der hat wohl noch zwei, drei weitere so Reiterhöfe, auch in Phuket und so.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1078.68,
+   "ende": 1080.4,
+   "text": "Und das wird halt hier von so einem Manager betrieben.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1080.48,
+   "ende": 1081.52,
+   "text": "Und die haben wohl Ärger.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1082.0,
+   "ende": 1086.84,
+   "text": "Und jetzt ist es wohl so, dass die Pferde nicht mehr gefüttert werden und diese Koppel da aufgemacht wurde.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1087.66,
+   "ende": 1090.4,
+   "text": "Und ja, sich da halt keiner mehr drum kümmert.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1090.4,
+   "ende": 1094.94,
+   "text": "und dann denkt man ja erstmal so, hä, ja das geht doch nicht, das kann doch nicht sein,",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 1095.06,
+   "ende": 1097.94,
+   "text": "das kann doch keiner machen, also wie die Koppel wird aufgemacht,",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 1098.02,
+   "ende": 1100.12,
+   "text": "wie die Pferde werden nicht mehr gefüttert, das ist doch gar nicht möglich.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 1100.88,
+   "ende": 1103.94,
+   "text": "Dann sind wir da hingefahren, das ist ja, wie gesagt, hier gleich um die Ecke",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 1103.94,
+   "ende": 1107.7,
+   "text": "und dann war es, also ich habe dann auch gerufen, da war halt keiner",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 1107.7,
+   "ende": 1112.06,
+   "text": "und es ist tatsächlich so gewesen, dass halt ein großer Teil der Koppel komplett offen stand,",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 1112.54,
+   "ende": 1116.36,
+   "text": "da hingen noch die Sattel und alles, aber es war halt kein Mensch da",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 1116.36,
+   "ende": 1119.9,
+   "text": "und die Koppel an sich ist natürlich abgegrast, das ist alles nur Sand",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 1119.9,
+   "ende": 1123.64,
+   "text": "und dann waren halt ein paar Pferde da drin, ein paar waren am Straßenrand.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1123.92,
+   "ende": 1126.8,
+   "text": "Ich meine, sie haben ja zum Glück hier genug Grün, wo sie fressen können,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1126.98,
+   "ende": 1131.24,
+   "text": "aber jetzt bei den Temperaturen reicht das trotzdem auch zum Beispiel wassertechnisch nicht aus,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1131.24,
+   "ende": 1135.84,
+   "text": "dass sie über das Grasfressen sozusagen genug Flüssigkeit aufnehmen.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1136.62,
+   "ende": 1139.28,
+   "text": "Ja und dann habe ich so gedacht, ja was machen wir denn jetzt,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1139.38,
+   "ende": 1142.74,
+   "text": "weil das ist ja in so vielen Hinsichten geht das ja nicht.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1142.86,
+   "ende": 1147.48,
+   "text": "Also es geht nicht, dass die Pferde verhungern, es geht nicht, dass sie hier mit Stein beworfen werden,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1147.48,
+   "ende": 1152.24,
+   "text": "Weil wenn sie dann mit einem Stein getroffen werden und noch verletzt sind, dann ist es ja richtig kacke.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1152.48,
+   "ende": 1156.16,
+   "text": "Hier bei den Temperaturen entzünden sich ja solche Sachen sofort.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1157.28,
+   "ende": 1159.5,
+   "text": "Es geht nicht, dass sie auf der Straße rumrennen.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1159.6,
+   "ende": 1161.56,
+   "text": "Es geht nicht, dass sie auf dem Gelände hier rumrennen.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1161.68,
+   "ende": 1163.44,
+   "text": "Es geht nicht, dass sie Unfälle provozieren.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1163.84,
+   "ende": 1166.2,
+   "text": "Dann habe ich gedacht, wen kann man denn da jetzt informieren?",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1166.36,
+   "ende": 1171.88,
+   "text": "Weil ich sage mal, mit den Straßenhunden, da kann ich mir hier 20 Organisationen aussuchen, wo ich anrufen kann.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1172.78,
+   "ende": 1174.48,
+   "text": "Ob die mir dann unbedingt helfen, ist dahingestellt.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1174.48,
+   "ende": 1178.7,
+   "text": "hingestellt, aber ich habe ja, ich habe die Möglichkeit, den Hund irgendwo hinzubringen.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1178.78,
+   "ende": 1182.42,
+   "text": "Ich habe die Möglichkeit, jemanden anzurufen, der vielleicht kommt. Also ich habe",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1182.42,
+   "ende": 1186.46,
+   "text": "mit Straßenhunden und Katzen hier einfach ein großes Angebot,",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1186.56,
+   "ende": 1190.64,
+   "text": "wo ich mir Rat oder auch Hilfe holen kann. Bei Pferden",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1190.64,
+   "ende": 1194.78,
+   "text": "habe ich gedacht, okay, wer kümmert sich denn hier um Pferde, die einfach so",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1194.78,
+   "ende": 1198.82,
+   "text": "sich selbst überlassen sind. Dann sind wir zu dem einzigen",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1198.82,
+   "ende": 1202.7,
+   "text": "Platz gefahren, wo ich wusste, wo halt Menschen leben, die selber Pferde",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1202.7,
+   "ende": 1204.66,
+   "text": "haben und eben wirklich Pferdeliebhaber sind,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1204.74,
+   "ende": 1206.64,
+   "text": "weil der Mann da auch im Stall mit schläft",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1206.64,
+   "ende": 1208.3,
+   "text": "und zwar an dem See, wo wir seit",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1208.3,
+   "ende": 1209.78,
+   "text": "kurzem ganz gerne sind.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1210.88,
+   "ende": 1212.62,
+   "text": "Und die kennen wir ja jetzt nicht,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1212.9,
+   "ende": 1214.62,
+   "text": "die kennen wir, weil wir da jetzt eh schon ein paar Mal",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1214.62,
+   "ende": 1216.16,
+   "text": "waren, so wie man sich dann halt kennt,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1216.3,
+   "ende": 1218.36,
+   "text": "wenn man immer wieder am gleichen Ort ist.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1218.86,
+   "ende": 1220.66,
+   "text": "Das sind jetzt ja keine Freunde oder so von uns,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1220.72,
+   "ende": 1222.1,
+   "text": "aber wir sind dann einfach hingefahren.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1222.22,
+   "ende": 1224.5,
+   "text": "Ich hatte Videos gemacht, wie das",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1224.5,
+   "ende": 1226.4,
+   "text": "hier ist, wie die bei uns auf dem Gelände sind, wie das auf der",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1226.4,
+   "ende": 1228.36,
+   "text": "Koppel aussieht. Und dann haben wir",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1228.36,
+   "ende": 1230.42,
+   "text": "ihn halt gefragt, ob wir ihm das halt mal zeigen",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1230.42,
+   "ende": 1232.46,
+   "text": "dürfen und ob er uns irgendwie",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1232.46,
+   "ende": 1236.34,
+   "text": "sagen kann, was man jetzt machen kann, ob es eine Institution gibt, die man anrufen",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1236.34,
+   "ende": 1240.72,
+   "text": "kann, ob die irgendwas machen können, ob die irgendwie vielleicht, ich habe auch die",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1240.72,
+   "ende": 1244.9,
+   "text": "Telefonnummer fotografiert, ob die vielleicht mal als Tais unter Tais da anrufen können",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1244.9,
+   "ende": 1249.3,
+   "text": "und dann meinte er halt ja, dass das Problem bekannt sei, das ist wohl schon länger so",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1249.3,
+   "ende": 1254.82,
+   "text": "und die haben wohl schon seit einem Jahr Streit und der Besitzer ist wohl ein Anwalt",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1254.82,
+   "ende": 1259.3,
+   "text": "und der dreht sich halt im Zweifel, dass dann alles so, wie es halt für ihn richtig ist",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1259.3,
+   "ende": 1286.4,
+   "text": "Und der Manager hat halt wohl schon ein paar Mal gesagt, dass die Zustände da nicht tragbar sind und dass da was geändert werden muss und dass das sicherer gemacht werden muss. Und der Besitzer veranlasst das aber nicht. Und jetzt hat halt der Manager wohl keinen Bock mehr. Und sie würden den Manager kennen und sie könnten uns halt manchmal anbieten, dass sie den nochmal anrufen, weil natürlich tut es ihnen auch im Herzen weh, als Pferdeliebhaber gerade zu hören, dass die eben auch kein Futter und kein Wasser bekommen.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1286.4,
+   "ende": 1290.04,
+   "text": "Aber sie können halt nicht so viel mehr machen",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1290.04,
+   "ende": 1293.48,
+   "text": "Und das Problem sei halt bekannt",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1293.48,
+   "ende": 1297.58,
+   "text": "Und dann habe ich auch gesagt, okay, und was kann ich machen",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1297.58,
+   "ende": 1299.78,
+   "text": "Wenn ich zum Beispiel sehe, dass da ein Pferd einfach liegt",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1299.78,
+   "ende": 1302.5,
+   "text": "Weil es halt verletzt ist oder weil es zusammengebrochen ist",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1302.5,
+   "ende": 1304.88,
+   "text": "Oder vielleicht sogar gestorben ist",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1304.88,
+   "ende": 1308.76,
+   "text": "Und dann meinen sie auch, ja, es gibt halt hier keinen Arzt für Pferde",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1308.76,
+   "ende": 1312.02,
+   "text": "In dem Sinne, wenn die irgendwas mit ihren Pferden haben, machen sie das alles selber",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1312.02,
+   "ende": 1316.56,
+   "text": "und maximal rufen sie halt auch mal im Dog and Cat Rescue an",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1316.56,
+   "ende": 1319.5,
+   "text": "und fragen den Tierarzt, den kennen sie wohl sehr gut",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1319.5,
+   "ende": 1322.92,
+   "text": "und der kommt dann auch mal so ausnahmsweise,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1323.38,
+   "ende": 1326.86,
+   "text": "aber ansonsten gibt es hier einfach nichts für Pferde,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1327.02,
+   "ende": 1329.4,
+   "text": "die da so frei rumlaufen.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1329.4,
+   "ende": 1334.68,
+   "text": "Er meint, es gibt halt ein District Office,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1335.14,
+   "ende": 1337.88,
+   "text": "das ist jetzt eben nicht extra für Tierangelegenheiten,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1337.96,
+   "ende": 1340.8,
+   "text": "sondern für alle Angelegenheiten, was Koh Samui betrifft.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1341.46,
+   "ende": 1348.14,
+   "text": "da könnten wir das halt mal platzieren, aber ja, ob die dann irgendwas machen, sei dahingestellt.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1348.72,
+   "ende": 1353.54,
+   "text": "So, dann haben wir nochmal mit unseren Nachbarn geredet und gesagt, okay, hey, wir waren da jetzt so und so ist die Lage",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1353.54,
+   "ende": 1361.64,
+   "text": "und man könnte das noch bei diesem District Office melden, aber eventuell wäre es besser, wenn das jemand ein Teil macht,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1361.64,
+   "ende": 1365.66,
+   "text": "als wenn wir das jetzt als Verrangs machen, weil wir dann vielleicht eh nicht so wirklich ernst genommen werden.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1365.66,
+   "ende": 1375.68,
+   "text": "Und dann kam eben dieser Satz, ja, hier gilt aber eben das Sprichwort, es wird nicht der bestraft, über den sich beschwert wird, sondern der, der sich beschwert.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1375.76,
+   "ende": 1380.6,
+   "text": "Und das haben wir gerade live in einem fernen Bekanntenkreis mitbekommen, war so die Rückmeldung.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1381.32,
+   "ende": 1388.58,
+   "text": "Und da habe ich dann auch wieder gedacht, ja krass, also nicht krass, dass die jetzt nichts machen, sondern ich habe es auch sofort geglaubt.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1388.58,
+   "ende": 1392.32,
+   "text": "Also es machte auch einfach komplett Sinn, dieser Spruch oder dieses Sprichwort.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1393.3,
+   "ende": 1395.98,
+   "text": "Und dann habe ich auch wieder gedacht, ja, es ist so krass,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1396.54,
+   "ende": 1401.38,
+   "text": "es geht halt darum hier, dass man sich quasi nicht einmischt",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1401.38,
+   "ende": 1406.0,
+   "text": "und dass jeder so, ja, dass man niemanden irgendwie,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1406.64,
+   "ende": 1410.7,
+   "text": "über niemanden schlecht redet, dass man niemandem unterstellt,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1410.7,
+   "ende": 1414.4,
+   "text": "dass er irgendwas falsch macht oder dass er irgendwie, ja,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1415.32,
+   "ende": 1419.42,
+   "text": "dass er halt, wir hatten auch in einer Garküche, wo wir immer sind,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1419.52,
+   "ende": 1422.04,
+   "text": "da hat uns die Köchin oder die Besitzerin der Garküche",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1422.04,
+   "ende": 1424.12,
+   "text": "auch mal erzählt, dass bei ihr mal eingebrochen wurde",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 1424.12,
+   "ende": 1426.0,
+   "text": "und dann hat der Hund,",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 1426.1,
+   "ende": 1427.82,
+   "text": "deren Hund, den Einbrecher",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 1427.82,
+   "ende": 1429.82,
+   "text": "in den Arm gebissen. Und dann hat der",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 1429.82,
+   "ende": 1431.7,
+   "text": "Einbrecher sozusagen",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 1431.7,
+   "ende": 1433.74,
+   "text": "die angezeigt wegen der Verletzung",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 1433.74,
+   "ende": 1436.0,
+   "text": "und wollte, dass sie sozusagen die Arztkosten bezahlen.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 1436.4,
+   "ende": 1437.8,
+   "text": "Und obwohl sie, weil die hat ja",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 1437.8,
+   "ende": 1439.74,
+   "text": "jede Überwachungskamera, obwohl sie auf der",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 1439.74,
+   "ende": 1441.74,
+   "text": "Überwachungskamera hatten, dass der Mann",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 1441.74,
+   "ende": 1443.98,
+   "text": "eingebrochen ist und der Hund sozusagen",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 1443.98,
+   "ende": 1445.22,
+   "text": "sein Revier verteidigt hat,",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 1445.74,
+   "ende": 1447.3,
+   "text": "obwohl sie das auf Kamera hatten,",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 1447.8,
+   "ende": 1449.76,
+   "text": "haben sie diese Aufnahmen nicht der Polizei",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 1449.76,
+   "ende": 1451.82,
+   "text": "gegeben, sondern haben einfach diese Arztkosten",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.92
+  },
+  {
+   "start": 1451.82,
+   "ende": 1458.54,
+   "text": "bezahlt und haben zu uns gesagt, Thai people always choose peace. Also sie gehen immer",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1458.54,
+   "ende": 1463.36,
+   "text": "den Weg des geringsten Widerstands und gehen immer den Weg, der am meisten Frieden bringt,",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1463.86,
+   "ende": 1469.24,
+   "text": "weil sie sagen, wenn dann sowas vor Gericht geht, wenn das hin und her geht, dann geht",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1469.24,
+   "ende": 1474.88,
+   "text": "das halt über Wochen, Monate oder sogar Jahre, wird man quasi mit diesem Thema konfrontiert,",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1475.34,
+   "ende": 1480.76,
+   "text": "wird immer wieder daran erinnert, muss immer wieder vielleicht irgendwelche Beweise vorlegen,",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1480.76,
+   "ende": 1482.86,
+   "text": "Aussagen machen und so weiter",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1482.86,
+   "ende": 1485.46,
+   "text": "und das würde die sozusagen aufregen",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1485.46,
+   "ende": 1487.2,
+   "text": "und deshalb choosen sie dann",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1487.2,
+   "ende": 1489.2,
+   "text": "Peace und sagen, okay, ich bezahle einfach",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1489.2,
+   "ende": 1491.4,
+   "text": "die scheiß Arztkosten und dann ist das Thema erledigt.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1492.08,
+   "ende": 1492.68,
+   "text": "Und das",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1492.68,
+   "ende": 1495.32,
+   "text": "ist also für Leute wie mich",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1495.32,
+   "ende": 1497.2,
+   "text": "vor allem unvorstellbar. Ich habe",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1497.2,
+   "ende": 1499.32,
+   "text": "irgendwie über dreieinhalb Jahre, glaube",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1499.32,
+   "ende": 1500.84,
+   "text": "ich, mich mit unserem",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1500.84,
+   "ende": 1503.76,
+   "text": "vorherigen Vermieter rumgestritten,",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1503.92,
+   "ende": 1505.24,
+   "text": "also einen Rechtsstreit gehabt, wegen der",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1505.24,
+   "ende": 1506.16,
+   "text": "Koalition, ja.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1507.38,
+   "ende": 1509.3,
+   "text": "Und es ist aber richtig, jedes Mal, wenn ich",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1509.3,
+   "ende": 1511.26,
+   "text": "eine E-Mail von meiner Anwältin bekommen habe,",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1511.38,
+   "ende": 1513.08,
+   "text": "wo wieder irgendeine Aussage von dem war,",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1513.18,
+   "ende": 1514.78,
+   "text": "wo wieder irgendein richterlicher Bescheid war,",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1514.9,
+   "ende": 1516.5,
+   "text": "wo wieder irgendwas war, wo man dachte,",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1517.44,
+   "ende": 1519.46,
+   "text": "es hat einen immer wieder sozusagen,",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1519.82,
+   "ende": 1521.56,
+   "text": "auch nach drei Jahren hat es einen immer wieder",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1521.56,
+   "ende": 1522.58,
+   "text": "ein Stück weit aufgeregt.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1522.66,
+   "ende": 1524.98,
+   "text": "Und deswegen fand ich diese Haltung eigentlich",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1524.98,
+   "ende": 1526.48,
+   "text": "total cool mit Choose Peace,",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1526.58,
+   "ende": 1529.32,
+   "text": "weil ich selber gemerkt habe,",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1529.4,
+   "ende": 1530.9,
+   "text": "wie es eben ist, wenn man nicht",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1530.9,
+   "ende": 1533.1,
+   "text": "den Frieden schießt, sondern halt",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1533.1,
+   "ende": 1534.74,
+   "text": "einfach auf sein Recht beharrt.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1535.8,
+   "ende": 1537.14,
+   "text": "Aber trotzdem habe ich mich gleichzeitig",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1537.14,
+   "ende": 1539.0,
+   "text": "gefragt, ob ich das könnte",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1539.0,
+   "ende": 1560.94,
+   "text": "Und wahrscheinlich könnte ich es nicht. Und jetzt ist das halt auch so mit der Pferdesituation. Ich habe dann auch noch mit einer anderen Bekannten gesprochen, die Laura, die ja auch mal im Interview war, die nach Ägypten auswandert. Und die hat gesagt, das ist da genau das Gleiche. Dass man sich nicht einmischt in die Angelegenheiten der Nachbarn oder dass man jetzt nicht zu jemandem sagt, hey, das kannst du so nicht machen.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1560.94,
+   "ende": 1569.2,
+   "text": "Ja, weil wenn ich mir das jetzt so vorstelle, in Deutschland, in dem Ort, wo wir gewohnt haben, ja in Gorsdorf, da ist auch eine Pferdekoppel die Straße runter gewesen.",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1569.94,
+   "ende": 1579.02,
+   "text": "Wenn ich mir jetzt vorstelle, dass jemand diese Pferdekoppel aufmacht, weil er da mit dem Besitzer irgendwie Stress hat und die Pferde den ganzen Tag bei uns durchs Dorf rennen würden",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1579.02,
+   "ende": 1587.98,
+   "text": "und bei jedem von uns im Garten Gras gefressen hätten und irgendwelche Nachbarn die Pferde mit Steinen bewerfen, damit sie aus ihrem Garten rausgehen",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1587.98,
+   "ende": 1604.68,
+   "text": "Und morgens die Kinder zum Schulbus gehen und Angst haben müssen, dass im Grunde genommen irgendwelche fünf Pferde im Galopp über die drüber rennen. Das würde noch nicht mal, ich habe keine Ahnung, wie lange das funktionieren würde. Also ich würde sagen, keine 24 Stunden, wenn es überhaupt 24 Stunden funktionieren würde.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1604.68,
+   "ende": 1607.68,
+   "text": "Oder ich meine, ich wüsste jetzt auf Anhieb in Deutschland auch nicht,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1607.82,
+   "ende": 1609.34,
+   "text": "okay, wen rufe ich denn an?",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1609.48,
+   "ende": 1613.66,
+   "text": "Wäre wahrscheinlich das Ordnungsamt erst mal oder im Worst Case die Polizei.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1613.84,
+   "ende": 1614.58,
+   "text": "Ich habe keine Ahnung.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1614.9,
+   "ende": 1616.98,
+   "text": "Aber ich glaube, so weit müsste ich gar nicht kommen,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1617.06,
+   "ende": 1619.06,
+   "text": "dass ich mir Gedanken mache, wen ich da jetzt anrufe,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1619.16,
+   "ende": 1621.8,
+   "text": "weil schon irgendein anderer Nachbar hundertprozentig angerufen hätte.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1621.8,
+   "ende": 1627.38,
+   "text": "Also es ist unvorstellbar, dass wochenlang und es sind inzwischen Wochen,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1627.52,
+   "ende": 1630.08,
+   "text": "also jetzt so häufig, dass sie wirklich jeden Tag kommen,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1630.16,
+   "ende": 1631.16,
+   "text": "das ist vielleicht seit einer Woche,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1631.64,
+   "ende": 1633.84,
+   "text": "aber dass sie auch schon mal ab und zu vereinzelt kam,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1633.84,
+   "ende": 1635.96,
+   "text": "ist bestimmt schon seit drei, vier Wochen so.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1637.12,
+   "ende": 1641.54,
+   "text": "Und wenn ich mir das vorstelle, dass das einfach mal so drei, vier Wochen läuft",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1641.54,
+   "ende": 1644.72,
+   "text": "und die ja auch auf der Pferdekuppel hier bei dem See gesagt haben,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1644.76,
+   "ende": 1645.84,
+   "text": "ja, es ist ein bekanntes Problem.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1646.0,
+   "ende": 1649.46,
+   "text": "Also da liegen 18 Kilometer zwischen auf dem Berg, ja.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1649.56,
+   "ende": 1653.88,
+   "text": "Und trotzdem ist es denen auch bekannt, was das hier und wo wir jetzt wohnen.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1653.92,
+   "ende": 1655.9,
+   "text": "Das ist ja auch kein Touri-Ort oder so.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1656.3,
+   "ende": 1660.46,
+   "text": "Also es ist einfach bekannt auf der Insel, dass die Zustände hier so sind.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1660.46,
+   "ende": 1683.1,
+   "text": "Und keiner macht was, weil alle sagen, das ist nicht unsere Angelegenheit, wir dürfen uns da nicht einmischen, weil wenn wir uns da einmischen, dann haben wir am Ende noch Ärger. Und meine Intention war dann auch erstmal, okay, ich hämme einfach dieses Gatter da wieder zu, wir besorgen uns hier ein paar Palmenstämme, weiß ich nicht, ich denke dann nicht so weit, wie die Umsetzung praktisch wäre, aber damit die da nicht mehr rauskommen.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1683.5,
+   "ende": 1687.46,
+   "text": "Aber Punkt eins, wenn sie da nicht mehr rauskommen, können sie ja auch nicht mehr fressen irgendwo.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1688.18,
+   "ende": 1692.14,
+   "text": "Und Punkt zwei ist, wenn ich dann da irgendwie das Gatter zuhämmer,",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1692.24,
+   "ende": 1696.24,
+   "text": "dann habe ich am Ende noch eine Anzeige wegen Hausfriedensbruch oder keine Ahnung, was es hier so gibt.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1697.06,
+   "ende": 1700.42,
+   "text": "Dann war meine Idee, ja komm, dann kaufen wir einfach ein bisschen Futter für die Pferde.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1700.42,
+   "ende": 1705.24,
+   "text": "Wo Hagen auch gesagt hat, also hast du eine Vorstellung davon, wie viel Pferde fressen?",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1705.28,
+   "ende": 1709.82,
+   "text": "Also wo willst du so viel Futter kaufen? Das sind bestimmt 15 oder 20 Pferde.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1710.58,
+   "ende": 1711.86,
+   "text": "Alleine dann mit Wasser.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1712.46,
+   "ende": 1715.08,
+   "text": "Das ist jetzt zwar um die Ecke, aber das ist jetzt auch nicht so dicht,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1715.2,
+   "ende": 1717.42,
+   "text": "dass ich da unseren Wasserschlauch mit hinnehmen kann.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1718.24,
+   "ende": 1721.04,
+   "text": "Und wir haben hier so 18 Liter Kanister, das sind so eine Dinger.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1721.86,
+   "ende": 1722.78,
+   "text": "Ich weiß nicht, wie viel.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1723.04,
+   "ende": 1729.12,
+   "text": "Also ich denke mal, dass ein Pferd wahrscheinlich sofort so ein 18 Liter Kanister ausgesoffen hat.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1729.54,
+   "ende": 1733.46,
+   "text": "Ich habe keine Vorstellung davon, wie ich für so viele Pferde ohne Wasserschlauch",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1733.46,
+   "ende": 1735.86,
+   "text": "Wasser dort bereitstellen soll.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1735.98,
+   "ende": 1737.86,
+   "text": "Und das nützt ja auch nichts, wenn ich das einmal mache.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 1738.6,
+   "ende": 1743.08,
+   "text": "Und man ist jetzt sozusagen komplett handlungsunfähig.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1743.16,
+   "ende": 1745.32,
+   "text": "Die Pferde kommen weiterhin hierher.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1746.14,
+   "ende": 1748.7,
+   "text": "Ich weiß nicht, ob die vom See da jetzt bei dem Manager angerufen haben.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1748.84,
+   "ende": 1751.14,
+   "text": "Selbst wenn, weiß ich ja auch nicht, was dabei rauskam.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1751.76,
+   "ende": 1754.62,
+   "text": "Aber ja, ich merke halt.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1754.88,
+   "ende": 1757.94,
+   "text": "Und dann nochmal, hatte Laura eben auch gesagt, in Ägypten ist das auch so.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1757.94,
+   "ende": 1764.3,
+   "text": "Und sie weiß auch schon, wenn sie dann da lebt, dass sie da sich bestimmt an der einen oder anderen Stelle mal einmischen wird.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1764.3,
+   "ende": 1780.04,
+   "text": "Und dass dadurch, dass ihr Mann ja jetzt nun auch schon eine Weile mit ihr verheiratet ist, manchmal auch so ein bisschen dann auch mitmacht und sagt, okay, Leute, das können wir so nicht machen. Aber sie sagt, auch da ist es im Großen und Ganzen so, dass man es einfach so hinnehmen muss und nichts dagegen tun kann.",
+   "avg_logprob": -0.043,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1780.04,
+   "ende": 1789.14,
+   "text": "Und egal, wie sehr einem das Herz blutet und egal, wie sehr man irgendwie denkt, das geht doch so nicht, das kann man doch so nicht machen, wird es da halt so gemacht.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1789.32,
+   "ende": 1801.68,
+   "text": "Und eben schon immer und nicht jetzt, weil ich jetzt hier als Jet auf Koh Samui sage, also das ist unzumutbar, es ist unzumutbar, dass die Pferde, weil man denkt dann ja auch, okay, so ein Pferd hat ja auch einen Wert.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1801.68,
+   "ende": 1828.22,
+   "text": "Also bei den Straßenhunden, die sind denen scheißegal am Ende, weil es gibt ja genug. Aber so ein Pferd hat ja auch einen Wert. Also ich würde jetzt mal behaupten, in Gosorf, bei uns auf dem Dorf, nicht irgendwer von den Nachbarn, aber wenn irgendwie von außen irgendjemand, der so halb kriminelle Machenschaften am Laufen hätte, mitkriegen würde, dass wochenlang dort Pferde rumrennen, die keinen interessieren,",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1828.22,
+   "ende": 1830.76,
+   "text": "dann hätten sich bestimmt schon so ein paar Leute",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1830.76,
+   "ende": 1833.0,
+   "text": "zusammengeschlossen und überlegt, okay, wie kriege ich die Pferde",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1833.0,
+   "ende": 1834.98,
+   "text": "da weg und wie kann ich sie gewinnbringend verkaufen",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1834.98,
+   "ende": 1836.2,
+   "text": "ja, also",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1836.2,
+   "ende": 1839.14,
+   "text": "einfach das auch sozusagen",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1839.14,
+   "ende": 1840.8,
+   "text": "sowohl dem Besitzer als auch dem Manager",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1840.8,
+   "ende": 1843.2,
+   "text": "dass man dann nicht an den Punkt",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1843.2,
+   "ende": 1845.36,
+   "text": "kommt und sagt, okay, dann verkaufen wir jetzt die Pferde",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1845.36,
+   "ende": 1847.28,
+   "text": "oder ich weiß es nicht, keine Ahnung",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1847.28,
+   "ende": 1849.2,
+   "text": "vielleicht ist es auch super schwer ein Pferd zu verkaufen",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1849.2,
+   "ende": 1851.6,
+   "text": "aber es sind so viele Fragezeichen",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1851.6,
+   "ende": 1853.62,
+   "text": "und so viele Situationen",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1853.62,
+   "ende": 1855.12,
+   "text": "in denen man so denkt, das kann doch alles",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1855.12,
+   "ende": 1857.0,
+   "text": "nicht wahr sein und wie kann man das machen",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 1857.0,
+   "ende": 1879.3,
+   "text": "Und da muss doch jemand und da müssen wir doch mal und da müssen die doch mal. Und warum machen die das nicht? Und warum werfen die mit Stein, anstatt mit denen zu reden? Ja, weil das geht für mich auch überhaupt nicht in meinen Kopf, wie nette, freundliche Menschen, mit denen man sich gut versteht, mit denen man irgendwie ja sonst auf einer Wellenlänge ist, wie die mit Stein werfen können nach den Tieren.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1879.88,
+   "ende": 1885.5,
+   "text": "Auf der anderen Seite verstehe ich natürlich trotzdem auch, dass die hier ihr Grundstück auch irgendwie schützen wollen,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1885.58,
+   "ende": 1890.9,
+   "text": "dass die eben sowohl die Leute, die hier verkehren, schützen wollen, als auch nicht ständig hier überall Pferdescheiße haben wollen.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1892.48,
+   "ende": 1902.94,
+   "text": "Aber ja, das ist schon schwierig, sozusagen das mit anzugucken und irgendwie zu wissen, dass man nichts machen kann.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1903.06,
+   "ende": 1906.58,
+   "text": "Und na klar kann man sagen, ja, ist ja auch nicht mein Business. Was mische ich mich da überhaupt ein?",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1906.58,
+   "ende": 1924.16,
+   "text": "Was fahre ich da überhaupt hin und gucke, ob das Gatter offen ist? Was fahre ich da überhaupt zum See und frage, ob die was machen können? Aber ja, weiß ich nicht. Irgendwie vielleicht, ja, vielleicht wird man irgendwann so. Vielleicht sage ich in drei Jahren auch in solchen Situationen, ja, brauche ich gar nicht hinfahren, bringt sowieso nichts, kann man eh nichts machen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1924.16,
+   "ende": 1933.04,
+   "text": "Aber irgendwie fühle ich mich trotzdem irgendwie besser, wenn ich zumindest irgendwie versucht habe, was daran zu ändern",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1933.04,
+   "ende": 1935.46,
+   "text": "Auch wenn ich es eben letztendlich nicht ändern kann",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1935.46,
+   "ende": 1943.82,
+   "text": "Und wahrscheinlich wäre ich vor einem halben Jahr oder damals in dem Jahr, wo wir hier waren, wäre ich wahrscheinlich noch zum Distrikt-Officer gegangen",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1943.82,
+   "ende": 1951.04,
+   "text": "Weil ich dann noch in meinem, wie sagt man dazu, in meinem Revoluzzer-Denken gedacht hätte",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1951.04,
+   "ende": 1954.98,
+   "text": "Ja, das geht doch nicht. Ja, da muss ich jetzt mal hier mit der Polizei sprechen.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1956.16,
+   "ende": 1959.24,
+   "text": "Jetzt, wo man halt schon ein paar Erfahrungen gemacht hat.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1959.84,
+   "ende": 1964.54,
+   "text": "Ich komme da auch immer wieder auf die Erfahrungen, die wir mit dem Unfall, also wie sich da die Polizei verhalten hat.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1964.6,
+   "ende": 1971.22,
+   "text": "Mal abgesehen von dem ganzen Klischee, was die Polizei hier auch hat, muss ich auch schon wieder aufpassen, dass ich jetzt nicht zu viel sage.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1971.36,
+   "ende": 1976.7,
+   "text": "Aber nachdem ich jetzt eben gerade in den letzten Wochen und Monaten man die eine oder andere Sache gehört hat,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 1976.7,
+   "ende": 1978.4,
+   "text": "die eine oder andere Erfahrung gemacht hat,",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1978.94,
+   "ende": 1980.76,
+   "text": "ist man jetzt auf jeden Fall",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1980.76,
+   "ende": 1982.72,
+   "text": "an dem Punkt, wo ich sage, okay, wenn von",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1982.72,
+   "ende": 1984.5,
+   "text": "den Teilnachbarn hier, die ja das",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1984.5,
+   "ende": 1986.46,
+   "text": "genauso betrifft, das betrifft ja nicht uns",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1986.46,
+   "ende": 1987.68,
+   "text": "mehr als die anderen,",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1988.44,
+   "ende": 1990.74,
+   "text": "wenn von denen keiner zum Distriktofficer geht,",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1990.82,
+   "ende": 1992.76,
+   "text": "wer bin ich dann als der Ausländer,",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1993.14,
+   "ende": 1994.48,
+   "text": "der das dann macht und",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1994.48,
+   "ende": 1995.58,
+   "text": "im Zweifel dann",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1995.58,
+   "ende": 1998.54,
+   "text": "getreu dem Sprichwort noch einen auf den Deckel",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1998.54,
+   "ende": 1998.92,
+   "text": "bekommt.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2001.16,
+   "ende": 2002.58,
+   "text": "Das sind so",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2002.58,
+   "ende": 2004.42,
+   "text": "kulturelle Unterschiede.",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2004.46,
+   "ende": 2006.32,
+   "text": "Wie gesagt, es gibt noch tausend mehr",
+   "avg_logprob": -0.141,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2006.32,
+   "ende": 2016.1,
+   "text": "Und bestimmt werde ich auch immer mal wieder irgendwie was dazu sagen, wenn wirklich Sachen dann gerade gravierend bei uns im Leben vorherrschen.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2017.38,
+   "ende": 2028.96,
+   "text": "Aber das ist halt dieses, was ich letztens schon mal auch in der einen, in der, ich weiß nicht wo, auf jeden Fall, ich habe ja auch schon mehrmals gesagt, dass dieses Lächeln und dieses immer freundlich sein und so weiter,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2028.96,
+   "ende": 2040.4,
+   "text": "dass das nicht so unbedingt so ist, dass jetzt hier wirklich jeder von Grund auf ein total gut gelaunter, überfreundlicher, herzlicher Mensch ist.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 2040.46,
+   "ende": 2044.84,
+   "text": "Das ist ja auch vollkommen klar. In jedem Land gibt es Menschen, die sind nett und nicht so nett.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 2045.3,
+   "ende": 2050.16,
+   "text": "Der eine oder andere würde jetzt sagen, die großen Menschenfreunde würden sagen, alle Menschen sind gut und alle Menschen sind nett.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 2050.78,
+   "ende": 2053.86,
+   "text": "Sie können es vielleicht nur nicht so zeigen, wie auch immer, aber ihr wisst, was ich meine.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 2053.86,
+   "ende": 2079.66,
+   "text": "Es ist ja auch jedem klar, dass jetzt nicht eine ganze Nation das pure Glück verkörpert und es da keine Leute gibt, die irgendwie Böses im Sinn haben und da keine übellaunigen Leute sind. Aber im Großen und Ganzen hat man ja hier in Thailand schon, also ist es ja berechtigt, dass Thailand dieses Image hat, dass die Leute hier eben immer lächeln und dass man sich gut fühlt, weil sie alle freundlich sind und alle lächeln im Gegensatz zu anderen Ländern wie eben auch Deutschland.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2079.66,
+   "ende": 2098.08,
+   "text": "Und da geht es jetzt auch nicht um Deutschland-Bashing. Ich glaube, jeder weiß selber, auch bei sich selbst und eben auch, wenn man in Deutschland in einen Laden geht oder am Flughafen ankommt oder wo auch immer ist, dass wir jetzt nicht das herzlichste Volk sind, um es mal milder auszudrücken.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 2098.94,
+   "ende": 2105.64,
+   "text": "Aber das heißt eben trotzdem nicht, dass jeder, nur weil man in Thailand dieses Gefühl, diese Herzlichkeit hat,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2105.64,
+   "ende": 2109.5,
+   "text": "und es ist mir immer noch lieber, es wird nur so getan, als ob ich herzlich wäre,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2109.66,
+   "ende": 2115.58,
+   "text": "als wenn wir eben mit unserer deutschen Attitüde permanent alles so rauslassen, wozu ich ja auch gehöre.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2116.16,
+   "ende": 2122.48,
+   "text": "Also ich fühle mich da trotzdem wohler im Kreis von Menschen, die erstmal freundlich sind und lächeln.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2122.48,
+   "ende": 2138.82,
+   "text": "Aber dazu habe ich letztens einen Satz gelesen, da ging es auch um so ein Thema, da war ein bisschen gravierender, da ging es um verschwundene Menschen und tatsächlich auch Mordfälle auf Koh Phangan.",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 2139.44,
+   "ende": 2143.98,
+   "text": "Und da hat jemand geschrieben, hinter jedem Teillächeln verbirgt sich ein Haifischzahn.",
+   "avg_logprob": -0.176,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 2144.64,
+   "ende": 2148.64,
+   "text": "Jetzt kann man sagen, gut, das kann man ja auch über jede Nation sagen, ist auch so.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2148.9,
+   "ende": 2155.88,
+   "text": "Nehmen wir jetzt mal das Lächeln weg und sagen, hinter jedem aufgesetzten Lächeln verbirgt sich ein Haifischzahn, ohne die Nation dazu zu erwähnen.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2155.88,
+   "ende": 2166.36,
+   "text": "Aber es fand ich schon ganz treffend, weil man jetzt an solchen Sachen eben auch merkt, dass es eben Situationen gibt,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2166.9,
+   "ende": 2172.64,
+   "text": "in denen dann es nicht mehr so mit der Nächstenliebe und mit der Freundlichkeit und Herzlichkeit so ist,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2172.64,
+   "ende": 2190.84,
+   "text": "sondern dann wird eben mit Steinen geworfen und dann ist mir auch egal, ob so ein Pferd verreckt, ja, obwohl ich ja, sage ich jetzt mal, in der Religion hier eigentlich, ja, wie soll ich das sagen, ich will jetzt nicht so tief auf den Buddhismus eingehen, das wäre auch eine Folge für sich,",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 2190.84,
+   "ende": 2208.9,
+   "text": "Aber an sich geht es ja schon auch darum, zu helfen, dass alle Lebewesen gleich viel wert sind und man allen Lebewesen auch helfen muss. Und dann auf der anderen Seite ist es mir aber egal, was mit diesen Tieren jetzt ist, passt dann auch nicht so zusammen.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 2208.9,
+   "ende": 2230.04,
+   "text": "Genau. Aber ja, das ist im Moment halt so ein großes Learning, was vor allem ich habe, weil ich, also ich glaube, die Kinder, gut, die hinterfragen das dann in dem Moment, wo es ist, aber denken da jetzt nicht weiter drüber nach, haben jetzt wahrscheinlich auch nicht zu dem Pferdehof gefahren.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2230.04,
+   "ende": 2232.4,
+   "text": "Der hat das dann auch nur gemacht, weil ich das gesagt habe.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2232.96,
+   "ende": 2238.72,
+   "text": "Aber für mich ist das schon was, wo ich mich halt viel mit beschäftige,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2238.72,
+   "ende": 2244.44,
+   "text": "weil ich halt auch sehe, dass ich eben nicht mit dem Kopf durch die Wand gehe",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2244.44,
+   "ende": 2247.2,
+   "text": "und jetzt auf Biegen und Brechen, meine Güte, das ist heute wieder so warm,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2247.74,
+   "ende": 2251.98,
+   "text": "auf Biegen und Brechen da jetzt irgendwie versuche, das Problem zu lösen,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2252.06,
+   "ende": 2256.36,
+   "text": "sondern jetzt es einfach annehmen muss und damit klarkommen muss.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2256.42,
+   "ende": 2258.86,
+   "text": "Ich kann halt aufpassen, dass natürlich, wenn die Pferde hier sind,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2258.86,
+   "ende": 2260.4,
+   "text": "die Kinder irgendwie nicht da rumrennen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2260.92,
+   "ende": 2262.72,
+   "text": "Ich kann auch nur hoffen, dass uns irgendwie",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2262.72,
+   "ende": 2264.9,
+   "text": "keins vor das Auto läuft, wenn wir hier abends ankommen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2266.48,
+   "ende": 2266.8,
+   "text": "Aber",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2266.8,
+   "ende": 2268.88,
+   "text": "ja, ansonsten muss ich es halt einfach so",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2268.88,
+   "ende": 2271.04,
+   "text": "hinnehmen und wenn hier vorne irgendwann",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2271.04,
+   "ende": 2272.82,
+   "text": "keine Ahnung, jemand mit dem Roller auf der",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2272.82,
+   "ende": 2274.74,
+   "text": "Straße mit so einem Pferd kollidiert und",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2274.74,
+   "ende": 2276.74,
+   "text": "dann irgendwas Schlimmes passiert, keine Ahnung,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2276.86,
+   "ende": 2278.84,
+   "text": "ob sich dann was ändert. Ja, das in Deutschland",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2278.84,
+   "ende": 2280.84,
+   "text": "sagt man ja manchmal, da muss erst ein Unfall passieren,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2280.9,
+   "ende": 2282.84,
+   "text": "bevor ein Verkehrsschild aufgestellt",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2282.84,
+   "ende": 2284.84,
+   "text": "wird, wobei wir eigentlich recht viele Verkehrsschilder",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2284.84,
+   "ende": 2286.76,
+   "text": "haben, aber ich weiß nicht, wie das dann",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2286.76,
+   "ende": 2288.62,
+   "text": "hier ist, ob sich dann",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2288.62,
+   "ende": 2290.56,
+   "text": "jemand dafür interessiert, wenn hier wirklich was",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2290.56,
+   "ende": 2292.8,
+   "text": "vorgefallen ist oder wenn",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2292.8,
+   "ende": 2294.6,
+   "text": "so ein Pferd vielleicht einfach mal auf der Straße wirklich",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2294.6,
+   "ende": 2296.68,
+   "text": "zusammenbricht und der Verkehr",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2296.68,
+   "ende": 2297.58,
+   "text": "dann aufgehalten wird.",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2298.56,
+   "ende": 2300.68,
+   "text": "Wir werden sehen. Ich werde euch,",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2300.68,
+   "ende": 2302.48,
+   "text": "wenn irgendwas ist, auf dem Laufenden halten,",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2302.68,
+   "ende": 2304.56,
+   "text": "aber so viel mal zu",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2304.56,
+   "ende": 2306.98,
+   "text": "Meinungsfreiheit, Konfliktverhalten,",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2307.52,
+   "ende": 2308.36,
+   "text": "wie da so die",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2308.36,
+   "ende": 2310.48,
+   "text": "Unterschiede zu Deutschland sind und vor allem auch",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2310.48,
+   "ende": 2312.76,
+   "text": "zu dem, wie ich sonst eigentlich",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2312.76,
+   "ende": 2314.64,
+   "text": "handle oder",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2314.64,
+   "ende": 2316.26,
+   "text": "drauf bin und",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 2316.26,
+   "ende": 2322.32,
+   "text": "Und wie sehr ich dann mich hier auch einfach, wie sehr ich lernen muss, mich dann auch mehr zurückzunehmen.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2322.88,
+   "ende": 2329.62,
+   "text": "Schadet mir vielleicht nicht, aber jetzt gerade in dem Fall, wenn es eben um das Wohl einfach von anderen,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2330.18,
+   "ende": 2335.34,
+   "text": "ob es jetzt Menschen oder Tiere sind, geht, ist das natürlich schon was anderes, sich da zurückzuhalten,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2335.34,
+   "ende": 2338.24,
+   "text": "als wenn es jetzt einmal darum geht, ob ich irgendwo meine Meinung sagen möchte oder nicht.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2338.66,
+   "ende": 2343.06,
+   "text": "Ja, so, okay, das war es für heute. Wir hören uns nächste Woche.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2343.06,
+   "ende": 2357.0,
+   "text": "Wer gegrüßt werden möchte, möge sich bei mir melden und ansonsten wünsche ich euch eine schöne neue Woche mit hoffentlich noch ganz viel Sonnenschein und dass die Hitzewelle nicht enden mag. Bis dann, ciao!",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.32
+  }
+ ]
+}

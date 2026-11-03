@@ -1,0 +1,769 @@
+{
+ "meta": {
+  "slug": "das-leben-ist-zu-kurz-fur-irgendwann-einstiegsfolge",
+  "titel": "Das Leben ist zu kurz für irgendwann - Einstiegsfolge",
+  "datum": "2025-05-19T06:22:24.000Z",
+  "dauer_sekunden": 561,
+  "guid": "e6ef38a9-cef0-4f40-86b5-b6b62cd212b6",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T08:31:53Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 5,
+   "transkription": 364
+  },
+  "echtzeitfaktor": 0.65,
+  "anzahl_segmente": 92,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": [
+   {
+    "start": 378.53,
+    "ende": 382.11,
+    "text": "Auf jeden Fall abonniert mich einfach, dann verpasst ihr auch keine Folge.",
+    "grund": "Floskel: abonniert"
+   }
+  ]
+ },
+ "segmente": [
+  {
+   "start": 0.27,
+   "ende": 20.79,
+   "text": "Zur ersten Folge von Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.139,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 21.43,
+   "ende": 28.85,
+   "text": "Mein Name ist Juliette und ich werde bald mit meiner Familie, also mit meinem Freund Hagen,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.139,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 28.85,
+   "ende": 33.85,
+   "text": "wir sind nicht verheiratet, und unseren beiden Kindern, Hermine und Heinrich, nach Thailand auswandern.",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.139,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 34.87,
+   "ende": 42.67,
+   "text": "Und in der ganzen Planung oder in dem Gedanken, dass wir das bald tun werden, haben wir auch überlegt,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.139,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 43.51,
+   "ende": 45.25,
+   "text": "beziehungsweise nein, das ist eigentlich Quatsch.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 45.83,
+   "ende": 49.83,
+   "text": "Ich habe noch eine Freundin, die bald nach Schweden auswandert, nächstes Jahr.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 50.69,
+   "ende": 55.81,
+   "text": "Und dann hat sie mal irgendwann gesagt, ja, wenn wir dann beide irgendwo in einem anderen Land wohnen,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 55.85,
+   "ende": 59.63,
+   "text": "dann können wir ja einen Podcast machen, das Land versus das Land.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 60.11,
+   "ende": 61.89,
+   "text": "Und ich so, ja, cool, das machen wir.",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 61.97,
+   "ende": 65.81,
+   "text": "Dann haben wir ja auch immer schon einmal die Woche verpflichtenden Termin,",
+   "avg_logprob": -0.138,
+   "no_speech_prob": 0.015,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 65.81,
+   "ende": 73.19,
+   "text": "wo wir uns dann auf jeden Fall per Videocall sehen und damit auch gut und entspannt in Kontakt bleiben können.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 74.25,
+   "ende": 80.39,
+   "text": "Und ja, als ich dann das herauskristallisierte, dass wir jetzt tatsächlich schon dieses Jahr gehen werden,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 80.53,
+   "ende": 85.03,
+   "text": "also ein ganzes Jahr früher, als eben meine Freundin auswandern wird,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 85.65,
+   "ende": 88.61,
+   "text": "habe ich so gedacht, hey, aber eigentlich könnte ich ja auch einen Podcast machen.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 88.81,
+   "ende": 91.95,
+   "text": "Also wir können unseren ja dann trotzdem noch zusammen machen.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 91.95,
+   "ende": 110.85,
+   "text": "Aber ich könnte ja auch jetzt über die Zeit schon mal loslegen, was halt vorher alles so ansteht und wie es dann eben auch dort ist und ja, allgemein über Themen, die vielleicht vor allem so auch Freunde und Familie interessieren, die dann irgendwie auf dem neuesten Stand bleiben wollen.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 111.77,
+   "ende": 116.97,
+   "text": "Und so ist dann die Idee immer mehr gewachsen und ich fand dann auch, ja, gefallen daran,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 117.29,
+   "ende": 120.75,
+   "text": "einfach zu wissen, dass ich einmal die Woche ein bisschen was aus unserem Leben erzähle,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 121.33,
+   "ende": 126.27,
+   "text": "sodass vor allen Dingen die Menschen halt, die uns kennen, ja, mitverfolgen können,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 126.35,
+   "ende": 128.67,
+   "text": "wie es uns so ergeht und was bei uns alles so passiert.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 129.83,
+   "ende": 133.71,
+   "text": "Und ja, dann hatte ich kurz überlegt, das bei Steady zu machen.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 133.71,
+   "ende": 139.79,
+   "text": "Das ist ja eine Paid-Podcast-Plattform, da ist der Mindestbeitrag aber irgendwie 3 Euro,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 139.79,
+   "ende": 149.19,
+   "text": "Also man kann den Podcast da quasi nicht kostenfrei veröffentlichen und dann dachte ich, ja, ist ja gut drei Euro, die wird ja auch jeder irgendwie übrig haben, der sich dafür interessiert.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 150.07,
+   "ende": 160.61,
+   "text": "Aber ja, Hagen meinte dann, naja, im Zuge der Reichweite und so wäre es schon besser bei Spotify, also ich hätte auf jeden Fall Hemmungen, mich irgendwie bei so einer anderen Plattform anzumelden und dann auch noch Geld dafür zu bezahlen und so.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 160.61,
+   "ende": 167.95,
+   "text": "Und du hast ja jetzt auch nicht hunderte von tausende von Followern auf Instagram, die dann gleich die drei Euro in die Hand nehmen.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 167.95,
+   "ende": 188.19,
+   "text": "Genau, und so bin ich jetzt hier bei Spotify gelandet und naja, als erstes, nachdem man sich gefragt hat, worüber man eigentlich, also ob man überhaupt was zu erzählen hat, fragt man sich dann natürlich auch, wie soll denn der Podcast heißen und da kam mir relativ schnell die Idee von Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.026,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 188.19,
+   "ende": 208.95,
+   "text": "Ich habe hier nämlich eine Postkarte bei mir im Wohnzimmer stehen, auf der das steht. Und ja, irgendwie fand ich das ganz passend, weil das ja auch einer der Gründe, warum wir gehen, schon aber so ein Gedanke ist, dass man immer oder oft bei Dingen sagt, ja, irgendwann mache ich das mal.",
+   "avg_logprob": -0.046,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 208.95,
+   "ende": 227.45,
+   "text": "Oder wenn das und das ist, dann will ich das und das machen. Oder wenn ich so und so alt bin, dann werde ich mal dies und jenes tun. Und manchmal kommt es dann aber nicht mehr dazu, aus den unterschiedlichsten Gründen. Und deshalb finde ich, passt irgendwie dieser Satz, das Leben ist zu kurz für irgendwann, eigentlich so ziemlich zu jeder Lebenslage.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 227.45,
+   "ende": 232.91,
+   "text": "und ich wollte mir dadurch halt auch einfach so ein bisschen auch den Spielraum hier in dem Podcast",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 232.91,
+   "ende": 239.17,
+   "text": "offen lassen, dass ich jetzt nicht nur über das Auswandern reden werde, weil für mich, für jeden",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 239.17,
+   "ende": 244.27,
+   "text": "ist das vielleicht auch interessant. Natürlich ist es jetzt aktuell ein Thema, was uns sehr beschäftigt",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 244.27,
+   "ende": 248.85,
+   "text": "und was so der Mittelpunkt unseres Lebens ist. Von dem her wird es auch anfangs natürlich viel",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 248.85,
+   "ende": 254.97,
+   "text": "um diese Thematik gehen, aber grundsätzlich, ja, stelle ich mir auch vor, dass vielleicht dann",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 254.97,
+   "ende": 257.17,
+   "text": "irgendwann mal Interviewpartner",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 257.17,
+   "ende": 259.13,
+   "text": "hier im Podcast sein werden,",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 259.21,
+   "ende": 260.91,
+   "text": "die zu dem Thema was sagen können",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 260.91,
+   "ende": 263.11,
+   "text": "oder ja, man auch über so",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 263.11,
+   "ende": 265.03,
+   "text": "ich mal über so Dinge spreche, wie",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 265.03,
+   "ende": 266.91,
+   "text": "ich habe zum Beispiel mit 39 Jahren",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 266.91,
+   "ende": 268.99,
+   "text": "mit Pole Dance angefangen, ja, würde vielleicht",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 268.99,
+   "ende": 271.01,
+   "text": "auch der ein oder andere sagen, ja, ich",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 271.01,
+   "ende": 272.91,
+   "text": "bin jetzt schon zu alt für dies oder jenes",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 272.91,
+   "ende": 274.99,
+   "text": "und ich hätte gerne mal das gemacht, aber",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 274.99,
+   "ende": 276.99,
+   "text": "jetzt brauche ich damit auch nicht",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 276.99,
+   "ende": 278.97,
+   "text": "mehr anfangen, passt für mich",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 278.97,
+   "ende": 280.99,
+   "text": "halt auch super in die Kategorie, das Leben ist zu",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 280.99,
+   "ende": 283.05,
+   "text": "kurz für irgendwann und",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 283.05,
+   "ende": 284.95,
+   "text": "ja, genau, deshalb ist das",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 284.95,
+   "ende": 290.03,
+   "text": "der Titel. Für den einen oder anderen, der sich vielleicht wundert, was auf dem Cover",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 290.03,
+   "ende": 295.71,
+   "text": "steht, Glitzkwi. Glitzkwi, ich finde, das ist so ein Wort, vielleicht mache ich da irgendwann",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 295.71,
+   "ende": 302.21,
+   "text": "nochmal so eine Challenge draus, wer zehnmal Glitzkwi ohne Versprecher ganz schnell sagen",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 302.21,
+   "ende": 307.79,
+   "text": "kann, bekommt irgendwas. Ja, also falls jemand da eine Idee hat, was dazu eine coole Challenge",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 307.79,
+   "ende": 314.93,
+   "text": "wäre, schreibt mir gerne. Und Glitzkwi sind die Anfangsbuchstaben von Das Leben ist zu",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.038,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 314.93,
+   "ende": 319.55,
+   "text": "kurz für irgendwann, weil mir natürlich bewusst ist, dass das ein recht langer Podcast-Titel ist.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 320.47,
+   "ende": 325.73,
+   "text": "Ja, aber ich wollte auch nicht davon abweichen, deshalb fand ich diese Abkürzung dann irgendwie auch ganz gut",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 325.73,
+   "ende": 330.53,
+   "text": "und vielleicht prägt die sich ja auch einfach, weil sie so schwer auszusprechen ist, irgendwann ein.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 331.63,
+   "ende": 333.57,
+   "text": "Ja, ansonsten, was erwartet euch hier?",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 333.97,
+   "ende": 339.81,
+   "text": "Ich gehe mal davon aus, dass ich einmal pro Woche eine Folge veröffentlichen werde, wahrscheinlich immer montags.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 339.81,
+   "ende": 346.87,
+   "text": "Ich bin aber an sich jemand, der sich ungerne auf irgendetwas so doll festlegt",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 346.87,
+   "ende": 350.33,
+   "text": "Und dann muss das immer so sein, weil man das irgendwann mal so gesagt hat",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 350.33,
+   "ende": 354.43,
+   "text": "Also vielleicht veröffentliche ich auch mal zwei Folgen in einer Woche",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 354.43,
+   "ende": 356.83,
+   "text": "Vielleicht veröffentliche ich auch mal drei Wochen gar keine Folge",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 356.83,
+   "ende": 361.01,
+   "text": "Vielleicht ist es auch nicht immer montags, vielleicht ist es auch mal mittwochs",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 361.01,
+   "ende": 365.29,
+   "text": "Naja, auf jeden Fall, damit ihr keine Folge verpasst, könnt ihr natürlich bei Spotify",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 365.29,
+   "ende": 369.33,
+   "text": "Diese kleine Glocke aktivieren",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 369.33,
+   "ende": 378.37,
+   "text": "Ich bin kein Apple-Nutzer, ich weiß nicht, wie das dann auf Apple Music oder wie das da, wo man da über Apple Podcasts hört, wie das da funktioniert.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 378.53,
+   "ende": 382.11,
+   "text": "Auf jeden Fall abonniert mich einfach, dann verpasst ihr auch keine Folge.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 382.79,
+   "ende": 390.57,
+   "text": "Auf dem Instagram-Kanal molloy-crew werde ich natürlich auch immer Bescheid geben, wenn eine neue Folge online ist.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 390.71,
+   "ende": 394.45,
+   "text": "Aber wir starten erstmal mit einer Folge pro Woche, montags.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 394.93,
+   "ende": 399.01,
+   "text": "Und ja, ansonsten bin ich selber sehr gespannt, wie sich dieser Podcast entwickelt.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 399.33,
+   "ende": 418.25,
+   "text": "Ähm, ja, was, ich mach das ja auch zum ersten Mal und, ähm, ich hab jetzt schon ein paar Folgen aufgenommen auch, also schon bevor ich jetzt diese Eingangsfolge aufnehme und die auch schon, ähm, ja, Leuten gegeben zum Hören, weil man doch sich manchmal die Frage stellt, interessiert das überhaupt jemanden, was ich hier sage?",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 418.25,
+   "ende": 425.37,
+   "text": "und die Resonanz war auf jeden Fall sehr positiv, dennoch bin ich natürlich auch immer voll dankbar,",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 425.37,
+   "ende": 431.23,
+   "text": "wenn irgendwer sagt, hey, das hier, weiß ich nicht, in der Folge hört man ab der Hälfte nichts mehr,",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 431.53,
+   "ende": 437.23,
+   "text": "nein, eigentlich technisch, glaube ich, sind wir ganz gut aufgestellt, aber auch wenn ihr irgendwie Ideen habt, ja,",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 437.33,
+   "ende": 441.27,
+   "text": "und Wünsche habt und sagt, hey, wäre mal cool, wenn du da und dazu was erzählst, weil wie gesagt,",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 441.37,
+   "ende": 447.09,
+   "text": "manche Dinge sind für einen selbst total normal und man redet dann vielleicht gar nicht so darüber",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 447.09,
+   "ende": 450.45,
+   "text": "und andere denken sich, ja, wieso sagt sie eigentlich dazu nichts, ja.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 450.95,
+   "ende": 455.69,
+   "text": "Also, ja, schreibt mir einfach, wenn ihr über irgendwelche bestimmten Themen was wissen wollt.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 456.63,
+   "ende": 460.21,
+   "text": "Ich bin ja auch selbstständig mit einem Online-Business,",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 460.53,
+   "ende": 463.11,
+   "text": "das heißt, ab und zu wird es vielleicht auch mal eine Folge geben,",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 463.21,
+   "ende": 466.37,
+   "text": "die so ein bisschen auch in die Business-Richtung geht.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 467.05,
+   "ende": 471.95,
+   "text": "Der Podcast an sich gehört nicht zu meinem Business und ist wirklich rein privater Natur,",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 471.95,
+   "ende": 490.25,
+   "text": "Aber dadurch, dass ich ortsunabhängig arbeite und das auch unter anderem so gewählt habe, damit Privat- und Berufsleben auch mehr miteinander verschmelzen können, wird es sicherlich die ein oder andere Thematik auch geben, die dann auch mein Business mit betrifft.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 490.25,
+   "ende": 507.69,
+   "text": "Genau. Ja, ich glaube, das war's. Das reicht ja erstmal hier so für den Einstieg. Achso, ich sehe gerade, so acht Minuten habe ich jetzt hier schon gesabbelt. Also, ich versuche, dass die Folgen, ja, so zwischen, also maximal 30 Minuten lang sind. Meistens sind sie vielleicht so eher um die 20 Minuten rum.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 508.45,
+   "ende": 512.07,
+   "text": "Es sei denn, ich habe dann vielleicht wirklich mal einen Interviewpartner, dann wird es wahrscheinlich länger sein.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 512.37,
+   "ende": 516.99,
+   "text": "Aber ja, ich sage mal, irgendwas so zwischen einer Viertelstunde und einer halben Stunde werden die Folgen gehen.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 517.75,
+   "ende": 522.73,
+   "text": "Ich kenne es ja selber, man hat einfach auch immer weniger Zeit.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 522.89,
+   "ende": 528.83,
+   "text": "Ich meine, es ist ja gut, dass man dann Inhalte auch unterwegs konsumieren kann, wie durch so einen Podcast.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 530.23,
+   "ende": 536.79,
+   "text": "Ja, aber dennoch soll es halt ganz gut auf irgendwie den Autofahrten von irgendwo hin und dann wieder zurück passen.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 536.79,
+   "ende": 541.95,
+   "text": "Und wenn man dann gleich sieht, der Podcast geht irgendwie anderthalb Stunden, habe ich zumindest meistens schon gar keine Lust mehr.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 542.89,
+   "ende": 552.31,
+   "text": "Okay, dann wünsche ich euch ganz viel Spaß mit den kommenden Folgen und freue mich und bin ganz gespannt, wie sich das hier alles aussehen wird.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 553.23,
+   "ende": 554.15,
+   "text": "Bis bald!",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.41
+  }
+ ]
+}

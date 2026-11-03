@@ -1,0 +1,2458 @@
+{
+ "meta": {
+  "slug": "elefanten-camps-worauf-du-achten-solltest",
+  "titel": "Elefanten Camps - Worauf du achten solltest",
+  "datum": "2026-03-09T06:00:00.000Z",
+  "dauer_sekunden": 2053,
+  "guid": "024a5371-f9e0-4aff-be51-3be90e73ed81",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T07:29:33Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 5,
+   "transkription": 1965
+  },
+  "echtzeitfaktor": 0.96,
+  "anzahl_segmente": 304,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.72,
+   "ende": 25.13,
+   "text": "Da ist eine Touristin ums Leben gekommen, die beim Elefantenbaden eben, die das Elefantenbaden gebucht hat und der Elefant einfach super gestresst war und dann mit dem Rüssel ausgeschlagen hat und die Touristin den Rüssel an den Kopf bekommen hat und sich das Genick gebrochen hat und daran gestorben ist.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 29.3,
+   "ende": 34.98,
+   "text": "Hallo und herzlich willkommen zu einer neuen Folge DLIZKFI. Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 34.98,
+   "ende": 59.38,
+   "text": "Ich war vor zwei, drei Wochen ungefähr mehr oder weniger zufällig, unfreiwillig in so einem Elefanten-Sanctuary und da tatsächlich fast jeder, der mich nach Tipps auf Koh Samui fragt, auch nach diesen Elefanten-Camps fragt und ich bisher nie wirklich was dazu sagen konnte, weil ich hier auf Samui noch in keinem war,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 59.38,
+   "ende": 69.66,
+   "text": "habe ich gedacht, nehme ich das direkt mal zum Anlass, um eine kurze Folge zum Thema Elefanten in Thailand und auf Koh Samui zu machen,",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 69.8,
+   "ende": 79.22,
+   "text": "damit, falls jemand Interesse hat, so ein Elefantencamp mal zu besuchen, man so eine kleine Orientierung hat, wonach man bei der Auswahl gehen soll.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 79.22,
+   "ende": 82.06,
+   "text": "es ist nämlich so, dass",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 82.06,
+   "ende": 84.32,
+   "text": "der ein oder andere das vielleicht schon mal gesehen hat",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 84.32,
+   "ende": 85.78,
+   "text": "oder auch schon gemacht hat, dass",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 85.78,
+   "ende": 87.74,
+   "text": "ja auch in einigen",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 87.74,
+   "ende": 90.18,
+   "text": "Camps oder",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 90.18,
+   "ende": 92.4,
+   "text": "Stationen Elefantenreiten",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 92.4,
+   "ende": 94.1,
+   "text": "angeboten wird, dass es war",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 94.1,
+   "ende": 96.0,
+   "text": "eine Zeit lang relativ verbreitet",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 96.0,
+   "ende": 98.16,
+   "text": "ich muss sagen, ich selbst habe",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 98.16,
+   "ende": 100.5,
+   "text": "das auch mal gemacht, als ich 2008",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 100.5,
+   "ende": 102.4,
+   "text": "das erste Mal mit einer Freundin",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 102.4,
+   "ende": 103.24,
+   "text": "in Thailand war",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 103.24,
+   "ende": 106.3,
+   "text": "die wollte unbedingt Elefantenreiten machen",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 106.3,
+   "ende": 108.12,
+   "text": "das hat sie schon in Deutschland gesagt und ich",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 108.12,
+   "ende": 110.62,
+   "text": "Ich habe so gedacht, gar keinen Bock auf so eine Touri-Nummer.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 111.78,
+   "ende": 114.5,
+   "text": "Ehrlicherweise habe ich da jetzt gar nicht so groß drüber nachgedacht,",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 114.6,
+   "ende": 116.78,
+   "text": "ob das jetzt für die Elefanten gut oder schlecht ist,",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 116.92,
+   "ende": 121.38,
+   "text": "sondern ich hatte halt einfach keine Lust auf so eine Massenveranstaltung, sage ich mal.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 122.06,
+   "ende": 126.96,
+   "text": "Aber bin dann natürlich ihr zuliebe mitgegangen, weil sie halt auch nicht alleine gehen wollte.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 127.84,
+   "ende": 133.74,
+   "text": "Und da waren wir eben in so einem Camp, wo man auch die Elefanten zuvor gefüttert hat.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 133.74,
+   "ende": 135.6,
+   "text": "Die standen hinter so einer Absperrung.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 135.6,
+   "ende": 139.98,
+   "text": "und danach ist man quasi mit denen, saß man zu zweit auf so einem,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 140.32,
+   "ende": 143.98,
+   "text": "das ist dann so ein Gestell, was auf dem Elefantenrücken aufgeschnallt wird,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 145.14,
+   "ende": 149.54,
+   "text": "sitzt man immer zu zweit und da sind wir dann eben durch den Dschungel gewandert,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 149.54,
+   "ende": 153.06,
+   "text": "in Anführungszeichen. War jetzt okay, aber wo ich auch da schon dachte,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 153.22,
+   "ende": 156.56,
+   "text": "okay, muss ich jetzt nicht nochmal haben, ist jetzt auch nicht so super spannend.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 158.26,
+   "ende": 163.3,
+   "text": "Erst viel später habe ich eigentlich realisiert, dass das gar nicht so cool ist",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 163.3,
+   "ende": 181.46,
+   "text": "Und dass das etwas ist, was man nicht unbedingt noch unterstützen sollte. Aber vielleicht mal kurz zurück zum Ursprung, warum es überhaupt so viele Elefanten-Camps oder so viele Attraktionen in Thailand gibt, wo mit Elefanten Geld verdient wird.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 181.46,
+   "ende": 193.96,
+   "text": "Und ursprünglich wurden die Elefanten halt ganz klassisch, also ganz klassisch jetzt zumindest für Länder wie Thailand, als Arbeitstier eingesetzt, vor allem in der Holzwirtschaft.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 194.62,
+   "ende": 207.36,
+   "text": "Und 1989 wurde die Abholzung in Thailand verboten, sodass halt relativ schnell sehr viele Familien mit den Elefanten mehr oder weniger arbeitslos geworden sind.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 207.36,
+   "ende": 228.08,
+   "text": "Das heißt, die Elefanten werden ja sehr alt. Das ist ja nicht wie bei Hunden, die irgendwie nach zehn Jahren oder meinetwegen vielleicht auch 15 Jahren sterben, sondern Elefanten werden sehr alt. Das heißt, die waren dann eben noch da und die Menschen waren auch da und sie hatten aber kein Einkommen mehr, weil sie eben nicht mehr in der Holzwirtschaft mit den Elefanten arbeiten konnten.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 228.8,
+   "ende": 234.72,
+   "text": "Und dann ist es dazu gekommen, dass sehr viele Familien mit den Elefanten auf die Straße gegangen sind zum Betteln.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 235.3,
+   "ende": 237.6,
+   "text": "Das nennt man dann auch richtig Battle-Elefanten.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 238.6,
+   "ende": 244.66,
+   "text": "In dem Sanctuary, wo ich jetzt war, wurde auch zu der Geschichte der Elefanten erzählt.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 244.66,
+   "ende": 249.82,
+   "text": "Und ein Elefant war auch dabei, der ein Battle-Elefant in Bangkok war.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 250.76,
+   "ende": 257.56,
+   "text": "Und da hat unser Guide, der Bot, ein deutschsprachiger, also ein Thai, der sehr gut Deutsch gesprochen hat,",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 257.56,
+   "ende": 262.76,
+   "text": "weil er mal in Berlin gelebt hat, hat dann eben erzählt, dass das für die Elefanten super unangenehm ist,",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 262.84,
+   "ende": 266.28,
+   "text": "halt den ganzen Tag in der Hitze auf dem heißen Asphalt zu laufen.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 267.1,
+   "ende": 273.44,
+   "text": "Und viele Battle-Elefanten oder viele Elefanten in den Sanctuaries halt ursprünglich mal Battle-Elefanten waren",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 273.44,
+   "ende": 282.54,
+   "text": "oder eben anderweitig eingesetzt wurden durch irgendwelche, ich nenne es jetzt mal artistischen Aufführungen,",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 282.54,
+   "ende": 299.26,
+   "text": "Ob das jetzt eine zirkusähnliche Einrichtung war oder dann eben das Elefantenreiten angeboten wurde oder irgendwelche anderen Kunststücke, tanzende Elefanten, wie man das halt auch von früher mit Bären oder anderen Tieren aus dem Zirkus kennt.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 299.26,
+   "ende": 311.32,
+   "text": "Und das war letztendlich die einzige Möglichkeit für diese vielen arbeitslosen Familien, noch an Geld zu kommen, was natürlich aber für die Elefanten nicht so schön war.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 312.16,
+   "ende": 326.26,
+   "text": "Allgemein muss man natürlich sagen, finde ich, ist es immer ein sehr zweischneidiges Schwert, was die Verurteilung solcher Dinge angeht, also zumindest jetzt nicht, also man kann es natürlich verurteilen, wenn man als Tourist sowas unterstützt,",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 326.26,
+   "ende": 334.54,
+   "text": "Aber aus Sicht der Familien, wenn man keine Möglichkeit hat, mehr Geld zu verdienen oder einem die Existenzgrundlage genommen wird, was bleibt einem groß?",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 334.7,
+   "ende": 339.72,
+   "text": "Wir haben auch das Thema, als wir in Namibia waren, haben wir so ein Shita Conservation Center besucht.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 341.06,
+   "ende": 345.18,
+   "text": "Also Shita sind ja Geparden, die auch vom Aussterben bedroht waren.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 345.32,
+   "ende": 353.58,
+   "text": "Und da ging es halt darum, dass viele Farmer die Geparden halt erschossen haben, weil sie sie oft mit den Leoparden verwechseln.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 353.58,
+   "ende": 361.48,
+   "text": "Also Leoparden sind sozusagen die etwas größeren, kräftigeren Tiere, die eben auch diese schwarzen Punkte haben.",
+   "avg_logprob": -0.045,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 362.06,
+   "ende": 368.1,
+   "text": "Und die Geparden sind ja diese, sag ich mal, drahtigen, schnelleren Tiere, die sich aber eben sehr ähnlich sehen.",
+   "avg_logprob": -0.045,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 368.74,
+   "ende": 373.3,
+   "text": "Und die Leoparden reißen halt die Schafe, Kühe und so weiter.",
+   "avg_logprob": -0.045,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 373.94,
+   "ende": 381.66,
+   "text": "Und die Farmer können das natürlich nicht unterscheiden und erschießen dann im Zweifel die Geparden, obwohl die vielleicht gar nichts gemacht haben.",
+   "avg_logprob": -0.045,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 381.66,
+   "ende": 403.44,
+   "text": "Und auch da muss man natürlich sagen, okay, die Farmer haben eben die Nutztiere als ihre Einkommensquelle, die ernähren damit ihre ganze Familie. Wenn dann irgendein Tier kommt, egal welches es ist, das diese Einkommensquelle bedroht, weil es eben die reißt, dann versteht man vielleicht trotzdem auf eine Art und Weise, dass die sich dann eben zur Wehr setzen.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 403.44,
+   "ende": 409.34,
+   "text": "und diese Geparden, schräg schräg Leoparden, je nachdem, wen sie dann treffen, halt erschießen.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 409.66,
+   "ende": 416.0,
+   "text": "So, dass wir auch immer versuchen, uns in die Lage zu versetzen, ja, es ist nicht cool,",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 416.18,
+   "ende": 420.4,
+   "text": "aber wie würde man selbst handeln, wenn es darum geht, seine Familie zu ernähren?",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 420.58,
+   "ende": 426.34,
+   "text": "Und würde man dann nicht auch mit dem Elefanten im Zweifel versuchen, Geld zu verdienen,",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 426.78,
+   "ende": 429.3,
+   "text": "wenn man eben keine andere Wahl mehr hat?",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 429.3,
+   "ende": 444.74,
+   "text": "Und letztendlich ist es dann aber, hat es sich dann eben so etabliert, dass es immer mehr von 1989 fortan diese, ja, die Elefanten zu touristischen Zwecken auch genutzt wurden, wenn sie eben keine Battle-Elefanten waren.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 445.62,
+   "ende": 450.18,
+   "text": "Und wie gesagt, ich bin 2008 auf dem Elefanten geritten.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 450.36,
+   "ende": 456.4,
+   "text": "Als wir mit Heinrich 2016 das erste Mal auf Koh Samui waren, war das komplett üblich,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 456.4,
+   "ende": 460.5,
+   "text": "dass jedes Elefantencamp hier Reiten angeboten hat.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 461.26,
+   "ende": 466.38,
+   "text": "Hier standen auch zum Teil noch Elefanten, sage ich mal, am Straßenrand,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 466.52,
+   "ende": 470.52,
+   "text": "die zu irgendwelchen Hütten gehörten, die dann zwar angekettet waren,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 470.64,
+   "ende": 474.58,
+   "text": "aber man konnte halt einfach kurz mal mit dem Auto anhalten und die fotografieren.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 474.58,
+   "ende": 498.48,
+   "text": "Also da war das hier völlig normal. Und dann waren wir ja 2019 hier etwas länger, für sechs Wochen. Da wurden die ersten Sanctuaries hier aufgemacht. Unter anderem auch das Elephant Kingdom, in dem ich jetzt war. Das war eines der ersten Camps oder Sanctuaries in dieser Art, die 2019 geöffnet haben.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 498.48,
+   "ende": 505.26,
+   "text": "und der Guide hat uns auch erklärt, dass es, ich weiß es nicht mehr wie viele,",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 505.26,
+   "ende": 509.8,
+   "text": "sagen wir jetzt mal, es gab 20 Reitcamps bis 2019",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 509.8,
+   "ende": 516.0,
+   "text": "und jetzt sind von den 20 Reitcamps 18 Sanctuaries und zwei nur noch Reitcamps.",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 516.22,
+   "ende": 518.68,
+   "text": "Also vielleicht sind es auch 10 und 8, ich weiß es jetzt gerade nicht mehr,",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 519.16,
+   "ende": 521.5,
+   "text": "aber auf jeden Fall hat sich das massiv reduziert.",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 521.62,
+   "ende": 526.28,
+   "text": "Dennoch gibt es nach wie vor die Möglichkeit auf Koh Samui auf Elefanten zu reiten,",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 526.28,
+   "ende": 528.82,
+   "text": "ganz speziell am",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 528.82,
+   "ende": 530.9,
+   "text": "Namuang-Wasserfall, am unteren Teil",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 530.9,
+   "ende": 532.94,
+   "text": "es gibt ja zwei Namuang-Wasserfälle",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 532.94,
+   "ende": 535.2,
+   "text": "Namuang 1 und 2 und am unteren Teil",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 535.2,
+   "ende": 536.86,
+   "text": "am Parkplatz",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 536.86,
+   "ende": 538.86,
+   "text": "wer da schon mal war, da sind eben",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 538.86,
+   "ende": 540.92,
+   "text": "Elefanten wirklich liegen in Ketten",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 540.92,
+   "ende": 543.26,
+   "text": "an den Füßen, auch zum Teil Baby-Elefanten",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 543.26,
+   "ende": 545.02,
+   "text": "sind da und da",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 545.02,
+   "ende": 546.74,
+   "text": "wird eben nach wie vor Reiten angeboten",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 546.74,
+   "ende": 548.78,
+   "text": "und am oberen Wasserfall",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 548.78,
+   "ende": 551.1,
+   "text": "Bereich ist eben",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 551.1,
+   "ende": 553.34,
+   "text": "dieses Elephant Kingdom Sanctuary",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 553.34,
+   "ende": 555.16,
+   "text": "und da",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 555.16,
+   "ende": 569.78,
+   "text": "Da geht es eben anders zu. Ich erkläre gleich nochmal, was genau der Unterschied ist. Es ist aber so, dass es gesetzlich, also von der Regierung her, wird zwar abgeraten, Elefantenreiten zu machen, aber es wird eben trotzdem nicht gänzlich verboten.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 569.78,
+   "ende": 581.16,
+   "text": "Das heißt, die hier nach wie vor, nicht nur auf Koh Samui, wir haben das auch in Ayutthaya, das ist die Tempelstadt nördlich von Bangkok, da kann man mit dem Elefanten zum Beispiel durch die Tempelanlagen reiten.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 581.16,
+   "ende": 596.24,
+   "text": "Also da wird man natürlich geführt, man reitet ja nicht alleine, aber mit diesen Sitzen obendrauf. Wir haben oft auch das Wort Chinesentaxi gehört, weil das wohl sehr viel von chinesischen Touristen genutzt wird.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.32
+  },
+  {
+   "start": 596.9,
+   "ende": 602.08,
+   "text": "Also nicht nur auf Koh Samui ist das so, sondern das ist halt in ganz Thailand nach wie vor verbreitet,",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 602.22,
+   "ende": 607.14,
+   "text": "weil es eben keine Sanktionen seitens der Regierung gibt.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 607.14,
+   "ende": 615.1,
+   "text": "Das heißt, alle, die sich eben dazu entschlossen haben, diese Sanctuaries zu eröffnen, tun das aus Überzeugung.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 615.86,
+   "ende": 625.38,
+   "text": "Und speziell das Elephant Kingdom Sanctuary hat auch versucht, denen, die quasi am unteren Wasserfall noch das Elefantenreiten anbieten, die Elefanten abzukaufen.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 626.24,
+   "ende": 627.76,
+   "text": "Aber die haben eben verneint.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 628.44,
+   "ende": 632.96,
+   "text": "Und auch hier kommen wir wieder zu dem Punkt, was ist vielleicht die Alternative?",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 633.38,
+   "ende": 638.6,
+   "text": "Also dann verkaufen sie die Elefanten, bestimmt auch zu einem guten Preis.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 639.22,
+   "ende": 643.82,
+   "text": "Aber gegebenenfalls ist das nicht der Preis, womit sie halt den Rest ihres Lebens ihre Familie ernähren können.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 645.36,
+   "ende": 648.52,
+   "text": "Ich weiß es nicht. Ich kann natürlich nicht für die sprechen.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 648.72,
+   "ende": 651.66,
+   "text": "Aber man muss das halt immer im Hinterkopf behalten,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 651.66,
+   "ende": 658.5,
+   "text": "dass das ja meistens nicht aus Tierquälerei, also aus eigener Boshaftigkeit den Tieren gegenüber gemacht wird,",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 658.56,
+   "ende": 663.5,
+   "text": "sondern weil die Leute vielleicht auch aus bildungstechnischen Gründen keine Alternative sehen.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 663.98,
+   "ende": 670.1,
+   "text": "Aber nichtsdestotrotz ist es ja schon mal gut, dass es von sehr vielen Reitcamps auf Koh Samui zumindest auf zwei reduziert wurde",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 670.1,
+   "ende": 673.96,
+   "text": "und die anderen eben diese Auffangstationen sind.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 674.72,
+   "ende": 675.92,
+   "text": "Was heißt Auffangstationen?",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 675.92,
+   "ende": 680.2,
+   "text": "Das sind halt in der Regel Elefanten, die aus diesen Verhältnissen kommen,",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 680.28,
+   "ende": 686.04,
+   "text": "die für die Elefanten nicht gut sind und dort im besten Fall ein großes Areal haben,",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 686.12,
+   "ende": 692.66,
+   "text": "wo sie sich frei bewegen können und dann dennoch es aber für touristische Zwecke genutzt wird,",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 692.66,
+   "ende": 697.98,
+   "text": "indem man als Besucher in diese Camps kommen kann und mit den Elefanten Zeit verbringen kann.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 698.5,
+   "ende": 702.92,
+   "text": "Wie diese Zeit aussieht, ist auch sehr unterschiedlich und auch da muss man für sich überlegen,",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 703.02,
+   "ende": 704.64,
+   "text": "was kann man für sich vertreten.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 704.64,
+   "ende": 724.82,
+   "text": "Es gibt nach wie vor sehr viele Camps, die Elefanten baden mit anbieten. Auch wir haben 2019 im Khao Sok National Park oder in der Nähe des Khao Sok National Parks Elefanten baden gemacht. Wir waren die einzigen, also Heinrich, Hermine, Hagen und ich. Hermine war da gerade mal vier oder fünf Monate alt.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 724.82,
+   "ende": 738.42,
+   "text": "Und da hatte man auch kurz am Anfang den Elefanten einmal gesehen, konnte ihn füttern und dann ist man mit dem Elefanten zu Fuß, also wir sind nebenher gelaufen mit dem Mahout, zu so einem Teich gegangen, wo der dann gebadet hat.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 739.1,
+   "ende": 745.62,
+   "text": "Und wir sind sozusagen mit in diesen Teich rein und haben ihn da mit dem Schlamm mit abgerieben und so weiter.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 745.62,
+   "ende": 769.86,
+   "text": "Aber wir dachten damals, dass das eben die bessere, also die gute Alternative ist, mal Elefanten hautnah zu erleben. Ich habe erst jetzt bei meinem Besuch im Elephant Kingdom gelernt, dass auch das Elefantenbaden nicht gut für die Elefanten ist, weil letztendlich die Elefanten trotzdem, also sie baden im Normal, im Durchschnitt zwei bis drei Mal am Tag, gehen sie freiwillig ins Wasser.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 769.86,
+   "ende": 775.72,
+   "text": "Aber wenn so ein Camp angeboten wird, werden sie bis zu 18 Mal am Tag ins Wasser gezwungen.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 776.02,
+   "ende": 781.16,
+   "text": "Also ein Vielfaches von dem, was sie eigentlich, ein Sechsfaches in dem Fall ja, was sie eigentlich tun würden.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 782.2,
+   "ende": 789.74,
+   "text": "Und sobald eben ein Zwang dabei ist, also sobald das Tier etwas machen soll, was es natürlicherweise nicht tun würde,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 790.96,
+   "ende": 794.92,
+   "text": "dann ist man ja schon an dem Punkt, wo man sich die Frage stellen muss, ist das okay?",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 795.24,
+   "ende": 798.68,
+   "text": "Ist das okay fürs Tier? Ist das okay für mich? Kann ich das vertreten?",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 799.86,
+   "ende": 811.64,
+   "text": "Und es kommt noch dazu, das hat uns auch der Bot, unser deutscher Thai-Guide erklärt, dass durch das viele Baden die Haut eben auch aufweicht.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 811.7,
+   "ende": 815.94,
+   "text": "Man kennt das ja auch selber, wenn man den ganzen Tag oder alleine nur eine Stunde in der Badewanne liegt.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 816.3,
+   "ende": 822.94,
+   "text": "Und dadurch, dass die Elefanten so schwer sind und wenn sie dann danach ständig auf diesen aufgeweichten Füßen,",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 822.94,
+   "ende": 828.0,
+   "text": "also das ist alles weich und ihr ganzes Gewicht steht dann aber trotzdem auf dieser weichen Haut,",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 828.0,
+   "ende": 846.98,
+   "text": "passiert es eben schnell, dass denen sozusagen die Füße aufplatzen oder auch zum Teil die Fußnägel, wenn man das so nennen kann, abplatzen, sodass es eigentlich, wenn man ganz auf Nummer sicher gehen möchte, man auch kein Camp sich aussuchen sollte, in dem Elefantenbaden angeboten wird.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 846.98,
+   "ende": 875.24,
+   "text": "Es gab wohl sogar letztes Jahr auf Koh Samui den Fall, dass in einem Camp, ich weiß den Namen nicht und ich glaube, ich würde ihn vielleicht auch gar nicht sagen wollen, wenn ich es wüsste, aber da ist eine Touristin ums Leben gekommen, die das Elefantenbaden gebucht hat und der Elefant einfach super gestresst war und dann mit dem Rüssel ausgeschlagen hat und die Touristin den Rüssel an den Kopf bekommen hat und sich das Genick gebrochen hat und daran gestorben ist.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 875.8,
+   "ende": 878.22,
+   "text": "Also es ist auch nicht, das passiert jetzt hier nicht ständig,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 878.56,
+   "ende": 882.48,
+   "text": "aber grundsätzlich auch als wir mit dem Elefant gebadet haben,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 882.56,
+   "ende": 885.06,
+   "text": "habe ich mich das ein oder andere Mal gefragt, was passiert eigentlich,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 885.14,
+   "ende": 889.02,
+   "text": "wenn der sich jetzt einfach fallen lässt und wir an der Seite oder hinter dem sind",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 889.02,
+   "ende": 893.8,
+   "text": "und der auf uns drauf fällt, weil die schmeißen sich ja auch so richtig rein ins Wasser.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 895.54,
+   "ende": 899.02,
+   "text": "Also von daher muss man vielleicht auch gerade mit Kindern sich überlegen,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 899.02,
+   "ende": 902.08,
+   "text": "ob man das so vom Sicherheitsaspekt her vertreten kann.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 902.08,
+   "ende": 907.76,
+   "text": "Das heißt, das ist so ein Punkt, worauf man achten sollte, kein Elefantenbaden",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 907.76,
+   "ende": 912.44,
+   "text": "Und der andere Punkt, worauf man auch achten sollte, ist keine Zucht",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 912.44,
+   "ende": 917.92,
+   "text": "Also dass eben in diesen Camps keine Vermehrung stattfindet",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 917.92,
+   "ende": 920.98,
+   "text": "Also das hatte ich auch gefragt in dem Elephant Sanctuary, den Guide",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 920.98,
+   "ende": 924.32,
+   "text": "Also die Männchen sind ja von den Weibchen grundsätzlich getrennt",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 924.32,
+   "ende": 928.36,
+   "text": "Das ist in der Natur aber auch gang und gäbe, dass die Elefanten eben",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 928.36,
+   "ende": 932.74,
+   "text": "die Elefanten-Kühe mit dem Nachwuchs in der Herde zusammen sind",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 932.74,
+   "ende": 937.78,
+   "text": "und die Männchen halt durch die Bullen sozusagen alleine durch die Gegend streifen,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 938.18,
+   "ende": 939.86,
+   "text": "weil die relativ aggressiv sind.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 939.96,
+   "ende": 943.02,
+   "text": "Und gerade wenn dann eben auch zwei Bullen oder mehr in einer Herde sind,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 943.08,
+   "ende": 944.38,
+   "text": "kommt es halt immer zu Kämpfen.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 944.9,
+   "ende": 947.42,
+   "text": "Und dann werden die ab dem Punkt, wo das losgeht,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 947.52,
+   "ende": 951.62,
+   "text": "werden die sozusagen von der Leitkuh ausgestoßen aus der Herde.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 952.04,
+   "ende": 954.68,
+   "text": "Deshalb ist es nicht unüblich, dass auch in diesen Camps",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 954.68,
+   "ende": 956.94,
+   "text": "eben nur die Elefanten-Kühe zusammen sind",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 956.94,
+   "ende": 958.5,
+   "text": "und die Bullen eben separat.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 959.48,
+   "ende": 963.7,
+   "text": "Nichtsdestotrotz könnte man sie ja zur Fortpflanzung zusammenführen.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 964.58,
+   "ende": 966.06,
+   "text": "Aber der Guide hat uns auch gesagt,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 966.5,
+   "ende": 971.8,
+   "text": "dass er als Guide sich speziell für das Elephant Kingdom Sanctuary entschieden hat,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 972.38,
+   "ende": 975.9,
+   "text": "weil dort eben dadurch, also es wird kein Baden angeboten",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 975.9,
+   "ende": 977.92,
+   "text": "und es wird aber auch kein, es wird nicht gezüchtet.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 977.92,
+   "ende": 981.14,
+   "text": "Sie nehmen nur Elefanten auf, die eben schon existieren",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 981.14,
+   "ende": 984.78,
+   "text": "und die Hilfe brauchen und die aus schlechten Verhältnissen kommen.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 984.78,
+   "ende": 1004.32,
+   "text": "Und er sagt, wenn Elefanten gezüchtet werden, zum einen nimmt es dann natürlich den Platz, um Elefanten aufzunehmen, denen es schlecht geht. Und zum anderen ist es an sich für Elefanten eben auch nicht schön, in Gefangenschaft aufzuwachsen, weil sie sind ja letztendlich trotzdem in Gefangenschaft, auch wenn sie in so einem Sanctuary sind.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1005.14,
+   "ende": 1008.78,
+   "text": "Was aber auch so ist, es wäre, also vor allen Dingen auf so einer Insel wie Koh Samui,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1008.86,
+   "ende": 1013.06,
+   "text": "wäre es ja gar nicht mehr möglich, dass die Elefanten in der freien Wildnis leben.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1014.7,
+   "ende": 1020.32,
+   "text": "Und die meisten Elefanten, die sie dort haben, sind es auch gar nicht mehr gewöhnt über,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1020.68,
+   "ende": 1024.38,
+   "text": "also die sind ja schon sozusagen aus einer Arbeiterfamilie gekommen.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1024.38,
+   "ende": 1029.62,
+   "text": "Das heißt, als Arbeitstier ist der Elefant hier schon seit sehr, sehr vielen Jahren domestiziert",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1029.62,
+   "ende": 1033.78,
+   "text": "und eigentlich nicht mehr in der Lage, komplett alleine in der Wildnis zu überleben.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1034.32,
+   "ende": 1057.92,
+   "text": "Und nichtsdestotrotz möchte dieses Camp halt nicht unterstützen, dass eben noch mehr Elefanten als Babys in Gefangenschaft groß werden müssen mit der Aussicht auf, es passiert sowieso nichts weiter, als dass ich hier in diesem Lager bleibe oder im schlimmsten Fall dann eben die Elefantenbabys verkauft werden an Zoos oder andere Einrichtungen, wo man im Zweifel gar nicht weiß, was dann mit denen passiert.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1058.76,
+   "ende": 1079.06,
+   "text": "Und auch da gibt es natürlich keine Regularien. Es gibt auch in Thailand und Koh Samui Camps, wo auch Elefanten gezüchtet werden, also wo sie sich einfach vermehren dürfen. Und das ist eben ein zweiter Punkt, worauf man achten könnte, wenn man sich ethisch, sage ich mal, komplett korrekt verhalten möchte. Kein Baden, keine Zucht.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1079.06,
+   "ende": 1088.44,
+   "text": "Ja, jetzt kommen wir zu so einem Punkt zwischen ethisch eigentlich auch schon nicht mehr gut, aber so wird es eigentlich in allen Camps praktiziert.",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1089.46,
+   "ende": 1096.16,
+   "text": "Was ist mit der Situation, dass ich die Elefanten füttere und dass ich mit den Elefanten Fotos machen darf?",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1096.16,
+   "ende": 1114.94,
+   "text": "Ja, weil auch da in dem Moment, wo ich mit dem Elefant, wo die Elefanten zu einer Stelle gebracht werden, wo dann die Touristengruppe wartet, um dann nach und nach sich den Elefanten zu nähern und mit ihnen Fotos zu machen, auch dann werden sie eigentlich ja in eine Situation gezwungen, die sie natürlicherweise nicht tun würden.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1114.94,
+   "ende": 1123.08,
+   "text": "In dem Elephant Kingdom war der Ablauf so, dass man erstmal Futter zubereitet hat, was ganz süß war",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1123.08,
+   "ende": 1130.72,
+   "text": "Das war dann halt alles schon, da war Banane drin, Reismehl, Kürbis und so Pellets, die man allgemein als Tierfutter kennt",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1130.72,
+   "ende": 1136.52,
+   "text": "Und dann hat man das mit Wasser vermischt und so Kugeln geformt und konnte dann, die Elefanten waren sozusagen auf ihrem Areal",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1136.52,
+   "ende": 1142.74,
+   "text": "Das Areal beim Elephant Kingdom ist fünf Hektar groß, wo die sozusagen tagsüber sind",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1142.74,
+   "ende": 1146.1,
+   "text": "Und kommen später nochmal dazu, was dann abends ist.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1146.16,
+   "ende": 1148.2,
+   "text": "Auf jeden Fall können sie sich da frei bewegen.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1148.7,
+   "ende": 1153.06,
+   "text": "Und dann kommen die sozusagen, wie Tiere das natürlich wissen,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1153.22,
+   "ende": 1157.84,
+   "text": "also auch Tiere in freier Wildbahn wissen ja, wo ihre Futterstation ist",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1157.84,
+   "ende": 1159.42,
+   "text": "und kommen freiwillig dorthin.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1159.56,
+   "ende": 1162.86,
+   "text": "Das heißt, die Elefanten wissen, da sind Leute, da wird Essen zubereitet,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1162.98,
+   "ende": 1164.52,
+   "text": "also gehe ich da hin, weil da kriege ich gleich was.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1164.52,
+   "ende": 1168.8,
+   "text": "Ich glaube, es ist doch durchaus ein ganz natürliches tierisches Verhalten.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1169.58,
+   "ende": 1172.62,
+   "text": "Die Hunde hier gehen auch immer zu dem Bungalow, wo es das beste Essen",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1172.62,
+   "ende": 1189.08,
+   "text": "Auf jeden Fall hat man dann diese Kugeln vorbereitet und die dann hinter der Absperrung hingehalten. Die haben die dann mit dem Rüssel genommen und danach ist der Ablauf dann so, es gibt einen sogenannten Skywalk über das komplette Gelände.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 1189.08,
+   "ende": 1194.14,
+   "text": "Das sind über 400 Meter geht dieser Skywalk, der ist super schön angelegt.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1194.34,
+   "ende": 1196.66,
+   "text": "Also es sieht einfach wirklich wunderschön dort aus.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1197.36,
+   "ende": 1205.14,
+   "text": "Und da bekommt man dann nochmal so einen Futterkorb, wo Zuckerrohr drin ist, Bananen und Gras.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1205.44,
+   "ende": 1210.32,
+   "text": "Und dann kann man sozusagen von oben kommen dann die Elefanten oder auch nicht.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1210.6,
+   "ende": 1214.4,
+   "text": "Aber auch da wieder, wenn sie mitkriegen, es gibt was zu essen, dann kommen sie da halt hin.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1214.84,
+   "ende": 1219.06,
+   "text": "Reicht man denen das eben von oben so rein und dann auch da können sie das mit dem Rüssel dann nehmen.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1219.88,
+   "ende": 1226.44,
+   "text": "Also ich sage mal, diese beiden Aktivitäten sind doch recht, aus meiner Sicht, freiwillig.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1227.02,
+   "ende": 1230.74,
+   "text": "Und Elefanten essen auch wirklich sehr viel am Tag.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1231.1,
+   "ende": 1236.6,
+   "text": "Also kleine oder junge Elefanten um die 100 Kilo am Tag, größere noch mehr.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1237.18,
+   "ende": 1241.42,
+   "text": "Das heißt, man muss jetzt eigentlich auch nicht Sorge haben, dass man sie überfüttert.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1241.56,
+   "ende": 1246.88,
+   "text": "Was vielleicht auch bei anderen Tieren, wo Füttern angeboten wird, durchaus mal der Fall sein kann.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1246.88,
+   "ende": 1256.16,
+   "text": "Aber dann hat man eben auch als dritten Act, nenne ich es jetzt mal, die Möglichkeit, dass man eben ins Gehege reingeht",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1256.16,
+   "ende": 1261.38,
+   "text": "Und die Elefanten mit ihrem jeweiligen Mahout dort stehen oder ein paar von ihnen, nicht alle",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1261.38,
+   "ende": 1265.42,
+   "text": "Und man dann eben sich ihnen nähern darf",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1265.42,
+   "ende": 1270.38,
+   "text": "Man kriegt natürlich erklärt, dass man nur von vorne kommen soll und vorsichtig sein soll",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1270.38,
+   "ende": 1276.78,
+   "text": "Und dann kann man sie eben ein bisschen am Rüssel streicheln oder an der Seite und eben ein paar Fotos machen",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1276.78,
+   "ende": 1296.38,
+   "text": "Wir waren jetzt eine relativ kleine Gruppe, ich glaube vielleicht acht Leute oder so. Und das ganze Anfassen, Fotomachen hat schätze ich mal so 10, 15 Minuten gedauert. Und dann ist man wieder rausgegangen. Aber wir waren eben eine Gruppe, also wir sind ja nicht die einzige Gruppe an diesem Tag.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1296.38,
+   "ende": 1316.38,
+   "text": "Das heißt, die Elefanten werden ja mehrmals zu diesem Platz geführt, wo dann Fotos gemacht werden können. Und letztendlich muss man auch da dann sagen, ist das artgerecht im Sinne von, würden sie halt normalerweise da hingehen? Nein, weil in ihrem normalen Lebensraum kommt ja keiner und macht mit ihnen zusammen Fotos.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 1316.38,
+   "ende": 1338.34,
+   "text": "Jetzt kommt aber die andere Seite der Medaille. So ein Elefant kostet im Monat ungefähr 4000 Euro an Unterhaltskosten. Plus dann eben auch diese Anlage zu unterhalten, diese Anlage überhaupt erstmal anzulegen, das alles so schön zu machen für die Elefanten.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 1338.34,
+   "ende": 1354.14,
+   "text": "Das heißt, Leute, die so ein Sanctuary betreiben, um den Elefanten zu helfen, die sind natürlich darauf angewiesen, dass Geld kommt, weil dadurch, dass es ja auch staatlich nicht groß gefördert wird, sind die eben komplett darauf angewiesen, dass Leute kommen und dafür bezahlen, dass sie da rein können.",
+   "avg_logprob": -0.016,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1354.14,
+   "ende": 1373.58,
+   "text": "Und da gibt es auch ganz klar Betreiber oder auch Mahouts, die sagen, ja, ich weiß, dass das Elefantenbaden eigentlich auch nicht gut ist, aber je weniger nah wir die Touristen an die Elefanten lassen, desto weniger Geld bezahlen sie. Und je weniger Geld sie bezahlen, desto weniger haben wir die Möglichkeit, die Elefanten zu unterstützen.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1373.58,
+   "ende": 1395.86,
+   "text": "Das heißt, auch hier ist es aus meiner Sicht wieder ein ganz schmaler Drahtseilakt zwischen ich verhalte mich ethisch korrekt und zwischen ich kann das noch vertreten, das zu machen oder dass sowas angeboten wird, man muss es ja nicht machen, weil die damit eben ihre Einnahmen finanzieren können.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1395.86,
+   "ende": 1411.18,
+   "text": "Und das ist halt dann wieder so ein Punkt, den ich schon verstehen kann, weil das Ticket ist nicht günstig. Ich glaube, es waren so, je nachdem, ob Kind oder Erwachsener, wir haben es direkt vor Ort gekauft, wir haben jetzt keine Tour gemacht.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.36
+  },
+  {
+   "start": 1411.18,
+   "ende": 1436.42,
+   "text": "Aber ja, ich denke mal so je nach Camp auch so zwischen 50 und 70 Euro. Teilweise, wenn man eine Tour bucht, vielleicht auch 100 Euro pro Person muss man da halt schon hinlegen. Und das ist ja schon relativ viel Geld. Und dann ist die Frage, würde man 100 Euro oder meinetwegen auch 80 Euro dafür bezahlen, um einfach nur über den Skywalk zu gehen und die Tiere von Weitem zu beobachten?",
+   "avg_logprob": -0.046,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1437.32,
+   "ende": 1460.04,
+   "text": "Vermutlich würden das nicht so viele machen, weil die Menschen, die einfach Natur oder die Tiere, allgemein Tiere in ihrer freien Wildbahn beobachten wollen, also wirklich im Sinne des Beobachtens, die fliegen ja nicht nach Koh Samui in Urlaub, sondern die fliegen dann nach Tansania oder Namibia oder in irgendwelche afrikanischen Länder, wo das halt wesentlich besser geht.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1460.98,
+   "ende": 1465.22,
+   "text": "Das heißt, der klassische Thailand-Tourist ist ja kein Tierbeobachter.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1465.22,
+   "ende": 1472.24,
+   "text": "Und der, der da eben 80 Euro hinschafft, der möchte, ich sage jetzt mal krass, für sein Geld auch was geboten bekommen.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1472.9,
+   "ende": 1479.9,
+   "text": "Und dann ist es halt gut, dass er dafür nicht geboten bekommt, auf den Elefanten zu reiten oder irgendwelche Kunststücke vorgeführt werden,",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1480.54,
+   "ende": 1486.06,
+   "text": "sondern dass es einigermaßen noch in einem vertretbaren Rahmen abläuft,",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1486.06,
+   "ende": 1512.1,
+   "text": "So dass meine Empfehlung, wenn ihr sowas machen wollt, schon wäre okay, macht vielleicht nicht unbedingt das Baden, achtet darauf, dass keine Elefanten gezüchtet werden, aber wenn die Camps, die ihr aussucht, anbieten, dass man eben, das nennt sich dann hautnah Erlebnis, ja, mit den Elefanten, dass man sie anfassen kann und dass man vielleicht auch ein Foto machen kann, dann entscheidet, ob das für euch okay ist.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1512.1,
+   "ende": 1525.42,
+   "text": "Und ich hatte ja gesagt, ich bin mehr oder weniger zufällig da gelandet, weil Hermine, wir hatten hier eine Woche lang sehr liebe Nachbarn aus der Schweiz und Hermine hat sich mit dem Jungen sehr gut verstanden, sodass der eben oft auch bei uns war.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1526.0,
+   "ende": 1537.82,
+   "text": "Und dann wollten die Eltern halt zu diesem Elefantencamp fahren und Hermine mitnehmen und sie da einladen als kleines Dankeschön, dass wir halt auf den Jungen öfter mal aufgepasst haben.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1538.48,
+   "ende": 1541.98,
+   "text": "Und an dem Morgen, wo es dann losging, ging es Hermine aber nicht gut.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1542.08,
+   "ende": 1545.28,
+   "text": "Also ich hatte kurz das Gefühl, sie wird krank und dann wollte sie halt nicht alleine mit.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1546.2,
+   "ende": 1550.14,
+   "text": "Und ja, dann haben Heinrich und ich gesagt, okay, weil es war eigentlich ausgebucht,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1550.28,
+   "ende": 1553.1,
+   "text": "dann fahren wir halt mit hingucken, ob wir an der Kasse noch ein Ticket kriegen.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1553.2,
+   "ende": 1556.1,
+   "text": "Und wenn nicht, warten wir halt dort an der Kasse einfach,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1556.24,
+   "ende": 1559.16,
+   "text": "falls Hermine zwischendurch sich wirklich nicht gut fühlt und raus will,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1559.16,
+   "ende": 1562.0,
+   "text": "dass jetzt nicht die andere Familie diesen ganzen Ausflug abbrechen muss.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1562.88,
+   "ende": 1569.26,
+   "text": "weil wir so von uns aus nicht auf die Idee gekommen wären, jetzt sowas zu machen.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1569.48,
+   "ende": 1570.98,
+   "text": "Wir haben das einmal gemacht mit den Kindern.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1571.12,
+   "ende": 1574.18,
+   "text": "Wie gesagt, das Elefantenbaden 2019.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1575.7,
+   "ende": 1577.56,
+   "text": "Wir waren schon zweimal in Namibia.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1578.52,
+   "ende": 1581.42,
+   "text": "Deshalb wäre das jetzt nichts gewesen, was wir uns hier ausgesucht hätten.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1582.22,
+   "ende": 1584.0,
+   "text": "Nun hatten sie noch Tickets an der Kasse.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1584.58,
+   "ende": 1588.0,
+   "text": "Wir sind also mit reingegangen und ich war wirklich positiv überrascht.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1588.0,
+   "ende": 1591.18,
+   "text": "Also ich habe es super angenehm dort empfunden.",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1592.0,
+   "ende": 1599.7,
+   "text": "Und fand es eben auch wichtig und interessant, nochmal wirklich zu erfahren, worauf sollte ich achten, warum ist es so, wie es ist, warum gibt es überhaupt diese ganzen Camps.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1600.62,
+   "ende": 1616.12,
+   "text": "Und von daher bin ich ganz froh, dass ich jetzt auch euch was darüber erzählen kann oder dass, wenn mich jemand fragt, hey, kannst du so ein Elefantencamp empfehlen, dass ich auch dazu sagen kann, auch wenn ich das Camp vielleicht nicht kenne, worauf man achten sollte.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1616.12,
+   "ende": 1621.62,
+   "text": "Aber an sich, wenn man jetzt sagt, ich kann das alles nicht vertreten",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1621.62,
+   "ende": 1624.98,
+   "text": "kann man es natürlich auch ganz lassen und einfach nur spenden",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1624.98,
+   "ende": 1627.36,
+   "text": "oder es einfach aus seinem Kopf streichen",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1627.36,
+   "ende": 1631.72,
+   "text": "Aber ich wollte noch ganz kurz sagen, worauf man achtet",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1631.72,
+   "ende": 1636.72,
+   "text": "auch unabhängig jetzt von diesen beiden Sachen, die Baden und Zucht",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1636.72,
+   "ende": 1639.48,
+   "text": "dass die Elefanten halt auch viel Platz haben",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1639.48,
+   "ende": 1644.46,
+   "text": "Und in dem Fall waren es ja diese 5 Hektar, hatte ich gesagt",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1644.46,
+   "ende": 1661.78,
+   "text": "Aber wenn das schließt um 17 Uhr, das Camp, dann gehen die Elefanten mit ihren Mahouts aufs Nebengelände und da sind 18 Hektar und da stehen eben auch die Hütten der Mahouts, das heißt die Elefanten und ihre Mahouts leben in Anführungszeichen zusammen, soweit das bei 18 Hektar möglich ist.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1661.78,
+   "ende": 1682.6,
+   "text": "Und die Elefanten werden deshalb rübergeführt und mit den Mahouts sozusagen auch auf der großen Fläche, wo sie sich verlaufen können oder sich besser ausbreiten können, weil nämlich dieses Camp, speziell das Elephant Kingdom, liegt eben unterhalb des Wasserfalls Namuang, eben dem oberen Teil von dem Wasserfall.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 1682.6,
+   "ende": 1690.28,
+   "text": "und da hat der Guide uns erzählt, dass da eben ab und an mal auch der ein oder andere angetrocknete Tourist",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1690.28,
+   "ende": 1693.98,
+   "text": "sich dann, wenn er vom Wasserfall kommt und dort geschlossen ist, sich einfach dahinsetzt.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1694.06,
+   "ende": 1698.3,
+   "text": "Das ist halt alles sehr offen gestaltet, die dann da auch zum Teil noch weiter trinken",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1698.3,
+   "ende": 1705.84,
+   "text": "und dann da anfangen über die Zäune zu klettern und die Elefanten zum Teil geärgert haben,",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1706.0,
+   "ende": 1710.94,
+   "text": "zum Teil da in das Becken, wo die Elefantenbaden selber reingesprungen sind, um zu baden",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1710.94,
+   "ende": 1716.52,
+   "text": "und halt die wildesten Sachen auf den Überwachungskameras aufgezeichnet wurden.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1717.02,
+   "ende": 1719.04,
+   "text": "Und deshalb hat man sich dann dazu entschlossen,",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1719.26,
+   "ende": 1723.84,
+   "text": "dass die Elefanten halt gar nicht mehr auf dieses 5-Hektar-Gelände abends können.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1724.08,
+   "ende": 1727.02,
+   "text": "Also sie werden dann sozusagen mit rübergenommen auf das große Gelände",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1727.02,
+   "ende": 1731.42,
+   "text": "und da ist dann ein Tor zu, sodass sie auch gar nicht wieder zurück können in diesen Bereich",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1731.42,
+   "ende": 1735.78,
+   "text": "und erst morgens wieder zusammen, wenn alle geöffnet ist und dort Menschen sind,",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1735.86,
+   "ende": 1739.1,
+   "text": "die aufpassen, erst dann wieder auf dieses Areal gelassen werden.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1739.1,
+   "ende": 1752.54,
+   "text": "Das heißt, auch hier kann man halt ein bisschen das ausmachen, ob das jetzt gut ist oder schlecht ist oder vertretbar schlecht, aber zumindest besser vertretbar, wie viel Platz die Elefanten da einfach haben.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1752.54,
+   "ende": 1768.12,
+   "text": "Wenn man das zum Beispiel sieht an dem unteren Wasserfall, wo Elefantenreiten angeboten wird, die sind halt in einem sehr, sehr kleinen Gehege stehen, die den ganzen Tag anketten und warten, dass jemand das Reiten bucht. Und das ist natürlich augenscheinlich nicht gut für die Elefanten.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1768.12,
+   "ende": 1774.52,
+   "text": "Was vielleicht der ein oder andere denkt, naja, aber die machen das ja sowieso",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1774.52,
+   "ende": 1778.84,
+   "text": "Dann kann ich ja auch das Reiten buchen, dann tue ich ja vielleicht noch was Gutes",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1778.84,
+   "ende": 1782.34,
+   "text": "Weil ich denen dann ja auch mein Geld gebe",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1782.34,
+   "ende": 1786.18,
+   "text": "Das ist egal, in welchem Zusammenhang",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1786.18,
+   "ende": 1792.74,
+   "text": "Wenn es nicht vertretbar ist, dass Tiere etwas tun oder Menschen etwas tun",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1792.74,
+   "ende": 1795.1,
+   "text": "Ich meine speziell dann auch bei Menschen zum Beispiel",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1795.1,
+   "ende": 1813.34,
+   "text": "Wenn Kinder kommen und betteln oder wenn Kinder kommen und dir was verkaufen wollen. Es wird da ausgenutzt, dass man Mitleid mit dem Kind hat. Es ist für ein Kind nicht gut, dass es bettelt auf der Straße oder dass es auf der Straße fremden Leuten hinterherläuft und ihnen was verkauft.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1813.34,
+   "ende": 1834.72,
+   "text": "Und das ist einfach gang und gäbe in diesen Ländern. Nichtsdestotrotz ist es ja nicht gut für dieses Kind. Und wenn man dann Geld gibt, egal ob man jetzt dem Bettler Geld gibt oder ob man dem Kind was abkauft oder dem Kind Geld gibt, dann unterstützt man das auf eine Art und Weise, weil wiederum dann die Besitzer oder die Eltern oder wer auch immer lernen, das funktioniert.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1835.62,
+   "ende": 1839.42,
+   "text": "Und natürlich unterlassen die das jetzt nicht sofort,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1839.52,
+   "ende": 1843.06,
+   "text": "weil ich jetzt als eine Person eben diesem Kind nichts abkaufe",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1843.06,
+   "ende": 1846.32,
+   "text": "oder diesem Bettler nichts gebe oder dieses Elefantenreiten nicht buche.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1846.44,
+   "ende": 1849.1,
+   "text": "Aber wenn immer mehr Menschen so denken würden",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1849.1,
+   "ende": 1851.12,
+   "text": "und immer mehr Menschen das Bewusstsein hätten,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1851.84,
+   "ende": 1853.98,
+   "text": "ich buche dieses Elefantenreiten nicht",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1853.98,
+   "ende": 1858.32,
+   "text": "und sie irgendwann realisieren, dass sie damit eben kein Geld mehr verdienen,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1858.78,
+   "ende": 1861.48,
+   "text": "dann würden sie sich vielleicht irgendwann auch Gedanken machen,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1861.6,
+   "ende": 1863.1,
+   "text": "was sie für eine Alternative haben.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 1863.54,
+   "ende": 1866.84,
+   "text": "Und genauso ist es eben auch mit denen, die ihre Kinder vorschicken.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1866.96,
+   "ende": 1870.76,
+   "text": "Es gibt richtige Ringe, ja, ich meine, da kann man eine eigene Folge zu machen.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1870.92,
+   "ende": 1874.72,
+   "text": "Aber wo irgendwelche Frauen mit fremden Babys auf die Straße gesetzt werden,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1874.76,
+   "ende": 1879.28,
+   "text": "die noch nicht mal ihre eigenen Kinder sind, einfach nur, um mehr Geld zu erbetteln,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1879.34,
+   "ende": 1880.6,
+   "text": "weil die Leute halt Mitleid haben.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1880.7,
+   "ende": 1883.54,
+   "text": "Und solange sowas funktioniert, solange wird sowas halt auch gemacht.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1884.2,
+   "ende": 1888.04,
+   "text": "Deshalb so sehr einem da auch das Herz blutet, gerade bei den Kindern,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1888.04,
+   "ende": 1891.0,
+   "text": "ja, oder auch, da muss man ja noch nicht mal so weit,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1891.0,
+   "ende": 1914.88,
+   "text": "Das ist ja auch selbst in Deutschland so. Kauft denen vielleicht was zu essen, wenn ihr helfen wollt oder gebt denen, wir hatten in Namibia oder Südafrika haben wir dann oft, wenn sowas war, den Kindern, von unseren Kindern irgendwelche Kleidung gegeben oder Spielsachen oder mal ein paar Süßigkeiten oder was auch immer oder Stifte, solche Sachen, aber halt kein Geld, weil das müssen sie sowieso abgeben.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1914.88,
+   "ende": 1918.4,
+   "text": "Das wird ja nicht, sie dürfen es ja nicht mit nach Hause nehmen.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1919.34,
+   "ende": 1923.5,
+   "text": "Aber ja, das jetzt nur noch mal so als kleine Randnotiz zu dem Gedanken,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1923.64,
+   "ende": 1926.74,
+   "text": "dass man vielleicht doch was Gutes tut, wenn man das Elefantenreiten bucht,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1926.84,
+   "ende": 1928.26,
+   "text": "weil man ihnen dann doch Geld gibt.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1928.38,
+   "ende": 1934.12,
+   "text": "Aber nein, je weniger Leute das machen, desto mehr wird dann vielleicht auch irgendwann darauf verzichtet,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1934.2,
+   "ende": 1936.66,
+   "text": "weil sie realisieren, sie verdienen damit sowieso kein Geld mehr.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1937.76,
+   "ende": 1943.36,
+   "text": "So, das war's. Eine kleine Infofolge zum Thema Elefanten.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1943.36,
+   "ende": 1952.42,
+   "text": "Ich werde das Elephant Kingdom Sanctuary hier verlinken, aber es gibt natürlich noch weitaus mehr auf Koh Samui oder auch in ganz Thailand.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1952.9,
+   "ende": 1964.94,
+   "text": "Das heißt, wenn ihr selber eins aussuchen möchtet oder im Internet recherchiert, wo ihr eins machen könntet, könnt ihr einfach ein bisschen auf die Sachen vielleicht achten, die ich jetzt gesagt habe.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1964.94,
+   "ende": 1985.66,
+   "text": "Und allgemein, wenn ihr sowas bucht, oft wird einem ja sowas wie Get Your Guide oder so vorgeschlagen. Kann ich nur sagen, das ist natürlich weitaus teurer, als wenn ihr direkt bei dem entsprechenden Camp eure Tickets bucht. In der Regel haben die fast alle auch eine Online-Buchungsplattform, wo man die Tickets kaufen kann.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1985.66,
+   "ende": 2005.94,
+   "text": "Und hier in Thailand ist es auch super üblich, ganz viel über WhatsApp zu regeln, also wirklich vom Arzttermin über Wohnungsbesichtigung oder auch eben Ticketbuchung. Das heißt, ihr könnt immer mal auf der Seite von dem Camp, was ihr besuchen wollt, nach einer Nummer gucken und den einfach per WhatsApp schreiben, wenn ihr jetzt keinen Ticketshop findet.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2005.94,
+   "ende": 2008.46,
+   "text": "Und da geht es natürlich direkt dahin.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2008.54,
+   "ende": 2011.78,
+   "text": "Die zahlen auch keine Gebühren an Anbieter wie GetYourGuide.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2012.28,
+   "ende": 2014.44,
+   "text": "Und ich will GetYourGuide nicht schlecht machen, um Gottes Willen.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2014.58,
+   "ende": 2018.34,
+   "text": "Aber ich habe da schon Angebote gesehen in einem anderen Zusammenhang.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2018.88,
+   "ende": 2021.64,
+   "text": "Da, wo wir selber sind, da kostet der Eintritt 400 Baht.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2022.26,
+   "ende": 2025.22,
+   "text": "Und das Ticket wird halt auf GetYourGuide für 3000 Baht verkauft.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2025.52,
+   "ende": 2029.04,
+   "text": "Also da ist wirklich, alle müssen ihr Geld verdienen, keine Frage.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2029.04,
+   "ende": 2032.62,
+   "text": "Aber da ist halt wirklich eine riesige Diskrepanz zum Teil.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2033.46,
+   "ende": 2036.76,
+   "text": "Deshalb schaut vielleicht einfach direkt auf der Website bei den Camps vorbei.",
+   "avg_logprob": -0.146,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.19
+  },
+  {
+   "start": 2037.88,
+   "ende": 2041.68,
+   "text": "Gut, ihr Lieben, dann war es das für heute und wir hören uns nächste Woche.",
+   "avg_logprob": -0.146,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.19
+  }
+ ]
+}

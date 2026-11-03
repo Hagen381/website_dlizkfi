@@ -1,0 +1,1266 @@
+{
+ "meta": {
+  "slug": "was-ist-eigentlich-mit-schule-the-number-one-question",
+  "titel": "Was ist eigentlich mit Schule? The number one question",
+  "datum": "2025-05-26T06:26:00.000Z",
+  "dauer_sekunden": 1140,
+  "guid": "89116351-4f56-4a5f-a81e-d39ff0258c86",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T08:34:27Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 4,
+   "transkription": 554
+  },
+  "echtzeitfaktor": 0.49,
+  "anzahl_segmente": 155,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.0,
+   "ende": 14.96,
+   "text": "Ich weiß, dass der ein oder andere, gerade in der älteren Generation, denkt, dass da vielleicht kein fließendes Wasser ist und keine richtigen Straßen und alle irgendwie hinter dem Mond leben. Das ist aber nicht so. Tatsächlich gibt es Bereiche, die wesentlich fortschrittlicher sind als bei uns in Deutschland.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.068,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 14.96,
+   "ende": 31.33,
+   "text": "Hallo, herzlich willkommen zu einer neuen Folge von Glitzkvieh, Glitzkvieh, das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.173,
+   "no_speech_prob": 0.202,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 32.49,
+   "ende": 38.89,
+   "text": "Ja, heute oder beziehungsweise diese Woche ist irgendwie ganz schön viel los gewesen und irgendwie war es trotzdem,",
+   "avg_logprob": -0.173,
+   "no_speech_prob": 0.202,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 39.95,
+   "ende": 51.25,
+   "text": "dass so viele epische Momente in der Woche lagen, hat es sich aber irgendwie gar nicht so spektakulär angefühlt.",
+   "avg_logprob": -0.173,
+   "no_speech_prob": 0.202,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 51.25,
+   "ende": 75.09,
+   "text": "Und unter anderem hat Hagen seinen Job gekündigt. Ich meine, es ist noch ein bisschen Zeit, er hätte das jetzt noch nicht machen müssen, aber die Firma hat, er hatte das der Firma halt schon gesagt und die haben ihn dann gefragt, ob er das schon machen könnte, weil sie sonst eben die Stelle noch nicht ausschreiben können und haben dann aber auch schon gesagt, hey, wenn sich was ändert, dann nageln wir dich jetzt hier auch nicht darauf fest und wenn du wiederkommst, dann kannst du dich auch melden.",
+   "avg_logprob": -0.032,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 75.09,
+   "ende": 99.73,
+   "text": "Also es war eigentlich ganz cool. Das gibt einem natürlich auch noch ein positives Gefühl. Dann haben wir schon vor einer Weile eigentlich angefangen, bei eBay Kleinanzeigen auch ein paar Sachen schon zu verkaufen und waren jetzt auf dem ersten Flohmarkt, wo wir dann auch, ja, da haben wir 330 Euro eingenommen. 30 Euro mussten wir Standgebühren zahlen, also haben wir 300 Euro verdient.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 99.73,
+   "ende": 107.83,
+   "text": "Und ich gucke jetzt hier auch gerade an so eine leere Wand, an der eigentlich mal ein großer Bildschirm hing und zwei Bilder, die sind auch schon verkauft.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 108.77,
+   "ende": 110.23,
+   "text": "Also da geht es auch vorwärts.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 111.07,
+   "ende": 115.83,
+   "text": "Dann habe ich diese Woche meiner Vermieterin gesagt, dass wir ausziehen werden.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 115.83,
+   "ende": 121.71,
+   "text": "Die wohnt halt hier mit im Haus, also wir wohnen in so einem alten Gutshaus und da sind vier Mietparteien.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 122.39,
+   "ende": 130.35,
+   "text": "Drei davon sind eben Mieter und eine Wohnung wird eben von der Eigentümerin und Vermieterin auch gleichzeitig mit ihrer Familie bewohnt.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 130.35,
+   "ende": 139.23,
+   "text": "Und unsere Kinder gehen auch in eine Klasse und dadurch wollte ich halt, dass sie auch mit einer der ersten Personen ist, die davon erfährt.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 140.25,
+   "ende": 149.71,
+   "text": "Denn wenn man jetzt in irgendeiner Wohnung wohnt mit einer Hausverwaltung oder so, da kann einem das ja letztendlich total egal sein, wann man da verkündet oder ob man da überhaupt,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 149.71,
+   "ende": 168.93,
+   "text": "Da kündigt man halt irgendwann seine Wohnung fristgerecht und gut, ob man dann auswandert oder woanders hinzieht, interessiert die ja nicht. Ja, aber da wir ja schon sehr, ja, was heißt engeres Verhältnis, aber man wohnt eben, wir haben ja auch alle einen Garten oder man begegnet sich regelmäßig und es ist ein kleines Dorf.",
+   "avg_logprob": -0.05,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 168.93,
+   "ende": 186.67,
+   "text": "Wie gesagt, die Kinder gehen in eine Klasse. So etwas spricht sich ja dann auch immer schnell rum. Und irgendwie wollte ich halt auch nicht mehr die ganze Zeit aufpassen, wem ich das sage und wem ich das nicht sage und wann ich den Kindern sage. Da dürft ihr es erzählen, da dürft ihr es aber nicht erzählen.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 187.59,
+   "ende": 191.25,
+   "text": "Genau, und deshalb haben wir ihr das jetzt halt auch schon zu einem Zeitpunkt gesagt,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 191.41,
+   "ende": 194.23,
+   "text": "lange vor der eigentlichen Kündigungsfrist.",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 195.55,
+   "ende": 197.51,
+   "text": "Und was ist noch passiert?",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 197.81,
+   "ende": 202.05,
+   "text": "Ach so, dann habe ich der Schule auch Bescheid gesagt, damit die sich im Zweifel nicht wundern,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 202.67,
+   "ende": 208.01,
+   "text": "ja, wenn jetzt unser Sohn davon erzählt und die dann denken, ja, hier, was erzählt er eigentlich für einen Quatsch.",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 209.35,
+   "ende": 214.15,
+   "text": "Dann habe ich bei der neuen Schule heute auch eine E-Mail geschrieben,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 214.15,
+   "ende": 220.93,
+   "text": "beziehungsweise erstmal angerufen und gefragt, wie es da ist, weil wir tendenziell ja planen, Ende September zu fliegen",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 220.93,
+   "ende": 226.91,
+   "text": "und die Sommerferien bei uns in Mecklenburg-Vorpommern gehen bis Ende der ersten Septemberwoche.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 227.79,
+   "ende": 232.27,
+   "text": "Und abmelden kann man sich aber maximal eine Woche, bevor man das Land verlässt,",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 232.33,
+   "ende": 239.23,
+   "text": "sodass dann dazwischen noch zwei bis drei Wochen liegen, in denen er eigentlich natürlich offiziell noch in die Schule gehen müsste,",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 240.01,
+   "ende": 241.83,
+   "text": "was aber natürlich gar keinen Sinn ergibt.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 241.83,
+   "ende": 260.27,
+   "text": "Also zum einen wäre es natürlich blöd, ihn da in irgendeinen Klassenverband zu integrieren, aus dem er dann zwei, drei Wochen später wieder raus muss. Also im besten Fall sitzt er die Zeit nur ab und denkt sich, ich bin froh, wenn ich gleich weg bin.",
+   "avg_logprob": -0.013,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 260.27,
+   "ende": 282.91,
+   "text": "Und im blödesten Fall knüpft er halt in den drei Wochen noch super enge Freundschaften, weil gerade so nach der vierten Klasse mit dem Wechsel, ne, werden ja auch einige Verbindungen, liegt ja an der Natur der Sache, ja, werden sich, also egal, ob wir jetzt ausgewandert werden oder nicht, werden einige Verbindungen nach der vierten Klasse ja auch einfach nicht mehr so standhaben oder standhalten.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 282.91,
+   "ende": 297.23,
+   "text": "Und genau, dann wäre es ja auch irgendwie blöd, wenn er dann erstmal noch hier nochmal neue Freundschaften knüpft, die er dann halt wieder aufgeben muss. Und deshalb wollen wir eben, dass er diese zwei, drei Wochen nochmal beurlaubt wird.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 297.23,
+   "ende": 309.43,
+   "text": "Und genau, auch alleine sowas wie Schulsachen kaufen, wir können ja dann, wenn er drei Wochen dahin geht, auch nicht sagen, ja gut, musst aber dann ohne Hefte und ohne Bücher hingehen, weil wir das jetzt für drei Wochen nicht mehr alles anschaffen.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 309.43,
+   "ende": 319.81,
+   "text": "Also wer Schulkinder hat und jeden Sommer die Liste bekommt, was man alles anschaffen muss, der weiß, dass da auch ein Kostenpunkt hinter steht und den können wir uns ja einfach sparen.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 320.61,
+   "ende": 343.47,
+   "text": "Aber wo ich gerade beim Thema Schule bin, tatsächlich ist das auch, also ich habe ja schon gesagt, ich weiß gar nicht, ob die Folge jetzt schon veröffentlicht ist oder ob die danach kommt, aber ich habe ja auf jeden Fall auch die Folge zur Schulpflicht gemacht und das war ja immer so das große Thema, wenn wir während der Schulzeit länger verreist waren oder auch wo wir das Jahr weg waren, wie wir das machen konnten, weil es ja eigentlich die Schulpflicht gibt.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 343.47,
+   "ende": 364.29,
+   "text": "Und jetzt, wenn wir auswandern, ist den meisten, glaube ich, schon klar, dass wir in Deutschland keine Schulpflicht mehr haben. Dennoch ist es wirklich so, dass nach wie vor das Thema Schule das allumschwebende, also wie soll ich das sagen, es geht immer darum oder um die Frage, wie macht ihr das dann mit der Schule?",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 364.29,
+   "ende": 380.03,
+   "text": "Also, wo wohnt ihr, was habt ihr vor, cool und ja, hey, und was macht ihr dann so und also irgendwie, komm auch mal, aber wenn, kommen die Fragen eher so an zweiter oder dritter Stelle.",
+   "avg_logprob": -0.165,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 380.03,
+   "ende": 390.79,
+   "text": "Die erste Frage ist eigentlich immer, ach, da war wieder mein WhatsApp. Naja, hatte ich schon mal in einer Folge, weiß ich nicht. Hey, das war auch in der Schulpflicht-Folge. Irgendwie hat das damit zu tun.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.31
+  },
+  {
+   "start": 391.53,
+   "ende": 399.01,
+   "text": "Naja, auf jeden Fall ist das für die Leute alle, egal auch welchen Alters, total wichtig,",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 399.81,
+   "ende": 405.37,
+   "text": "was wir dann machen, wenn wir in einem anderen Land leben, wie unsere Kinder dann zur Schule gehen.",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 406.27,
+   "ende": 410.31,
+   "text": "Also erstmal gibt es ja auch in anderen Ländern Schulen.",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 410.31,
+   "ende": 413.95,
+   "text": "Ich glaube, das weiß auch jeder, hoffe ich.",
+   "avg_logprob": -0.149,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 414.85,
+   "ende": 421.17,
+   "text": "Und wir wandern ja nach Thailand aus, was per se schon mal ein sehr entwickeltes und fortschrittliches Land ist.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 421.99,
+   "ende": 425.57,
+   "text": "Ich weiß, dass der ein oder andere, gerade in der älteren Generation, denkt,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 425.75,
+   "ende": 431.29,
+   "text": "dass da vielleicht kein fließendes Wasser ist und keine richtigen Straßen und alle irgendwie hinter dem Mond leben.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 431.37,
+   "ende": 432.29,
+   "text": "Das ist aber nicht so.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 432.57,
+   "ende": 436.69,
+   "text": "Tatsächlich gibt es Bereiche, die wesentlich fortschrittlicher sind als bei uns in Deutschland.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 437.55,
+   "ende": 442.67,
+   "text": "Und dann wandern wir ja nicht nur nach Thailand aus, irgendwo aufs Land, sondern nach Koh Samui.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 442.67,
+   "ende": 467.53,
+   "text": "Also da gibt es halt einfach alles und alles im Überfluss und natürlich auch Schulen. Und es gibt öffentliche Schulen und es gibt Privatschulen. Und in dem Moment, wo man aus der Schulpflicht raus ist, was wir dann ja sind, wenn wir hier abgemeldet sind, haben wir einfach die freie Wahl, wie wir unsere Kinder beschulen wollen.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 467.53,
+   "ende": 482.11,
+   "text": "Und das kann natürlich auch an einer öffentlichen Schule stattfinden, das kann an einer Privatschule stattfinden, das kann an einer Online-Schule stattfinden, das kann im Homeschooling stattfinden, das kann als Freilerner stattfinden, das kann im Privatunterricht zu Hause stattfinden.",
+   "avg_logprob": -0.044,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 2.02
+  },
+  {
+   "start": 482.11,
+   "ende": 498.51,
+   "text": "Es gibt unzählige Möglichkeiten und das ist ja auch mit einer der Gründe, warum wir ganz gehen, um genau diese Freiheit zu haben, diese Entscheidung selbst treffen zu können.",
+   "avg_logprob": -0.053,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.24
+  },
+  {
+   "start": 498.51,
+   "ende": 519.61,
+   "text": "Also wir, für uns wäre es auch total okay gewesen, vier, fünf Monate im Winter reisen zu können, ja, unterwegs irgendwie durch eine Onlineschule oder was auch immer, die Beschulung zu klären und dann in den Sommermonaten wieder hier zu sein. Wir lieben Rostock, wir lieben die Ostsee. Ja, also von uns aus hätten wir nie komplett gehen müssen.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 520.45,
+   "ende": 528.67,
+   "text": "Aber sobald man schulpflichtige Kinder hat, hat man eben nur zwei Möglichkeiten, entweder ganz bleiben oder ganz gehen und durch die Schulpflicht eben.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 528.67,
+   "ende": 541.91,
+   "text": "Und deshalb ist es für uns dann dazu jetzt gekommen, dass wir ganz gehen und jetzt haben wir aber dann ja einfach die Freiheit, wirklich komplett selbst zu entscheiden, wie die Kinder beschult werden.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 542.75,
+   "ende": 551.07,
+   "text": "Und gerade weil ich diese Entscheidung jetzt selber habe, gibt es für mich überhaupt keinen Grund, das jetzt schon irgendwie festzulegen.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 551.07,
+   "ende": 562.53,
+   "text": "Weil wir einfach ja dann irgendwann mal da sind und jetzt gerade auch super viel los ist und wenn wir ankommen, wahrscheinlich auch super viel los sein wird und alles sich erstmal irgendwie eingrooven muss.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 563.33,
+   "ende": 573.75,
+   "text": "Und ich glaube, das ist für viele total unverständlich, aber ich muss ganz ehrlich sagen, die Schule, wie wir das mit der Schule machen, steht für mich ganz an letzter Stelle.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 574.29,
+   "ende": 581.09,
+   "text": "Und ich glaube, jetzt kriegen ganz viele große Augen und denken, mein Gott, wie kann sie nur und wie kann sie das den Kindern nur antun, die Armen.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 581.09,
+   "ende": 597.13,
+   "text": "Aber ich weiß nicht, also ich verstehe das zum Teil, weil wenn man sich mit dem Thema nicht beschäftigt und wenn man auch keine Menschen kennt oder Kinder kennt, die nicht zur Schule gehen, dann ist das nicht greifbar.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 597.13,
+   "ende": 615.69,
+   "text": "Ich beschäftige mich schon, ich habe schon vor vielen Jahren mal eine Reportage zu Freilernen gesehen, da habe ich selber noch gar nicht über sowas nachgedacht, aber es ist auf jeden Fall so, dass es Kinder gibt, die nicht zur Schule gehen und trotzdem irgendwann studieren gehen und trotzdem einen vernünftigen Job lernen.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 615.69,
+   "ende": 631.81,
+   "text": "Mal abgesehen davon, dass Studieren und vernünftiger Job auch nicht zwangsläufig aneinander gekoppelt sein müssen. Aber für mich geht es eher um die Frage Bildung. Und Bildung hat für mich nichts damit zu tun, Bildung hat für mich nichts mit Schule per se zu tun.",
+   "avg_logprob": -0.028,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 631.81,
+   "ende": 651.61,
+   "text": "Und Bildung ist auch nichts, was in einem Gebäude stattfinden muss oder unter einem gewissen Konzept ablaufen muss, sondern Bildung passiert an so vielen Stellen. Und natürlich, ja, also Hagen sagt auch, naja, aber jetzt gerade die Kleine, die ist ja noch nicht hier, die muss doch irgendwie lesen lernen und die muss doch auch schreiben lernen und die muss doch auch rechnen lernen, klar.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 651.61,
+   "ende": 675.41,
+   "text": "Ja, aber muss sie das jetzt mit sieben? Muss sie das mit zehn? Muss sie das mit fünf? Das ist so wie mit dem Laufen lernen. Manche Kinder laufen mit zehn Monaten, andere Kinder laufen mit anderthalb Jahren. Hat dich schon mal als Erwachsener irgendjemand gefragt, wann du laufen konntest? Also mich hat das noch nie einer gefragt. Es ist halt ab irgendeinem Punkt total egal, wann man das gelernt hat. Und mich hat auch noch nie einer gefragt, wann ich lesen konnte.",
+   "avg_logprob": -0.036,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 675.41,
+   "ende": 693.67,
+   "text": "Und wenn die Kinder irgendwann mal in dem Alter sind, dass sie gerne zum Beispiel studieren wollen, weil das ist letztendlich ja das Einzige, wofür ich diese schulische Bildung oder eine Abschlussprüfung oder was auch immer brauche, denn was weiß ich, wenn Heinrich irgendwie mit 16 meint, er will jetzt eine Keitschule aufmachen, dann kann er das machen.",
+   "avg_logprob": -0.028,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 693.67,
+   "ende": 711.69,
+   "text": "Ja, dafür hätte er theoretisch dann nicht irgendwie in die Schule gehen müssen. Aber wenn sie dann von sich aus irgendwann sagen, sie möchten jetzt irgendwo ein Abi machen oder irgendwo studieren gehen, dann wird niemand fragen, hast du eigentlich mit sieben lesen gelernt oder hast du eigentlich mit zehn lesen gelernt?",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 711.69,
+   "ende": 734.33,
+   "text": "Ich glaube, dass Kinder sehr viel lernen aus Eigeninitiative und sich sehr viele Sachen einfach ergeben. Heinrich konnte zum Beispiel mit drei schon das Alphabet und hat trotzdem keinen Bock auf Lernen oder Schule oder keine Ahnung so. Und Hermine interessiert sich noch gar nicht für irgendwelche Sachen wie Lesen, Schreiben oder Rechnen und würde aber in manchen Bundesländern diesen Sommer schon in die Schule kommen.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 734.33,
+   "ende": 737.17,
+   "text": "in Mecklenburg-Vorpommern, würde sie halt erst nächstes Jahr in die Schule kommen.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 738.13,
+   "ende": 745.85,
+   "text": "Und deshalb bin ich diesem ganzen Lernen, Schule, Bildungsthema sehr frei und tolerant",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 745.85,
+   "ende": 751.09,
+   "text": "und offen gegenüber eingestellt. Und nicht, weil es mir egal ist, ob meine Kinder irgendwas",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 751.09,
+   "ende": 756.45,
+   "text": "lernen oder was aus meinen Kindern wird, sondern weil ich einfach das Vertrauen habe,",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 756.45,
+   "ende": 766.67,
+   "text": "dass sie einfach selber diese Motivation haben werden und wir dadurch sehen können, was eignet sich.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 766.83,
+   "ende": 775.93,
+   "text": "Wenn wir dann zum Beispiel da sind und sagen, ich hätte zum Beispiel, fände es gut, wenn wir dann erstmal jemanden haben, der zu uns kommt und uns Teil beibringt,",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 776.01,
+   "ende": 778.11,
+   "text": "dass man da erstmal so eine Basis hat.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 779.17,
+   "ende": 786.05,
+   "text": "Und Heinrich hat auch schon so neben der Schule ab und an irgendwelche Online-Kurse gemacht, dass er da schaut, was kann er machen.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 786.05,
+   "ende": 809.83,
+   "text": "Wie gesagt, bei Hermine hätten wir rein von der Schulpflicht in Deutschland noch eh ein Jahr Zeit. Aber dass wir halt einfach gucken, was funktioniert und was funktioniert nicht. Und wenn sie sagen, hey, wir haben irgendwie Bock auf Schule oder wenn einer sagt, ich habe Bock auf Schule und der andere sagt, ich habe keinen Bock auf Schule und einer will an die Online-Schule und der nächste will aber vor Ort an eine Schule oder dann wieder gar nicht, dann wird man das einfach sehen, wie sich das entwickelt.",
+   "avg_logprob": -0.034,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 809.83,
+   "ende": 830.89,
+   "text": "Und ich werde dann bestimmt auch nächstes Jahr um die Zeit eine Folge aufnehmen oder vielleicht auch schon früher und dann sagen, hey, das hat überhaupt nicht geklappt mit dem Zuhause. Also was auf alle Fälle schon mal feststeht, ist, dass ich nicht mehr mich mit Heinrich hinsetze und irgendwelche Schulaufgaben mache, weil das war in dem Jahr und das war auch in den sechs Wochen jetzt einfach nur Hölle.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 830.89,
+   "ende": 841.77,
+   "text": "Aber ja, genau, ich werde bestimmt dann zwischendurch auch immer mal wieder Bericht erstatten und sagen, hey, das hat gut geklappt, das klappt nicht, jetzt versuchen wir mal dies, jetzt versuchen wir mal jenes.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 842.75,
+   "ende": 849.31,
+   "text": "Und ja, ich denke nicht, dass wir, weil das habe ich auch schon gehört, was wir unseren Kindern damit antun.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 849.41,
+   "ende": 858.21,
+   "text": "Ich denke nicht, dass wir ihnen damit irgendetwas antun, sondern im Gegenteil, dass sie sich dadurch irgendwie frei entfalten können.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 858.21,
+   "ende": 866.31,
+   "text": "Und frei entfalten ist jetzt hier wieder so ein, wie sagt Hagen immer, so eine open-minded, dinkeldörrte Einstellung.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 866.55,
+   "ende": 867.75,
+   "text": "So sind wir überhaupt nicht drauf.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 867.75,
+   "ende": 880.95,
+   "text": "Ja, wir sind, glaube ich, auch relativ streng in der Erziehung so, auch gar nicht mehr so heutzutage ja so angesagt, dass man auch wirklich zu Hause mal durchgreift und seinen Kindern Regeln aufzeigt.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 880.95,
+   "ende": 897.97,
+   "text": "Also ich glaube, wir sind da relativ, sogar relativ altmodisch in unserer Erziehung. Aber ja, was das Thema Schule angeht, habe ich einfach aufgrund dessen, dass ich so viele Familien und auch Kinder jetzt schon gesehen habe, die eben so ein alternatives Schulkonzept verfolgen.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 897.97,
+   "ende": 903.83,
+   "text": "und man, ja, das sind jetzt nicht irgendwie Kinder, die nicht bis drei zählen können",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 903.83,
+   "ende": 906.71,
+   "text": "oder die irgendwie wie wirken, als wären sie vor einen Schrank gelaufen.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 906.91,
+   "ende": 912.53,
+   "text": "Also im Gegenteil, auch Reisen bildet und sich in anderen Kulturen aufzuhalten bildet.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 912.53,
+   "ende": 917.05,
+   "text": "Allein die Sprachen, sie werden halt natürlich relativ schnell Englisch sprechen,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 917.15,
+   "ende": 919.35,
+   "text": "sie werden hoffentlich auch Zeitnatei sprechen.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 920.81,
+   "ende": 923.95,
+   "text": "Na klar lernt man auch Englisch in der Schule, aber Heinrich ist jetzt in der vierten Klasse",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 923.95,
+   "ende": 927.25,
+   "text": "und schreibt seinen Englisch-Test wieder über Fruits.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 927.25,
+   "ende": 939.63,
+   "text": "Ich glaube, er hat in der zweiten Klasse schon einen Englishtest über Fruits geschrieben. Also ich weiß nicht, wie viele Fruits es gibt, dass man die vier Jahre lang durchziehen muss, aber das Sprechen lernt man da auf jeden Fall nicht.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 940.51,
+   "ende": 947.41,
+   "text": "Aber gut, ich will mich jetzt hier auch nicht so tief dann in einzelnen Fächern oder in einzelnen Dingen verlieren.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 948.01,
+   "ende": 955.59,
+   "text": "Ich will nur versuchen, ein bisschen Verständnis oder auch Offenheit und Toleranz dafür zu entwickeln,",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 955.89,
+   "ende": 960.77,
+   "text": "dass nur weil ein Kind nicht in einem deutschen Schulgebäude gesessen hat,",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 961.41,
+   "ende": 967.59,
+   "text": "heißt das nicht, dass aus diesem Kind nichts wird oder dass man diesem Kind damit etwas verwehrt",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 967.59,
+   "ende": 984.23,
+   "text": "Oder ja, was auch immer für Gedanken dann in dem Köpfen mancher Menschen rumschwirren. Und selbst, also man muss das ja nicht für sein eigenes Kind so machen oder für seine eigene Familie. Aber wenn andere das halt so machen, dann kann man es ja auch einfach mal akzeptieren.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 984.23,
+   "ende": 997.87,
+   "text": "Und ich meine, am Ende mit dem Finger zu zeigen und zu sagen, ja, das habe ich euch ja gleich gesagt, dass das nicht funktionieren kann. Das kann ja auch jeder machen. Also das ist ja, liegt ja so ein bisschen auch in unserer Natur, dann zu sagen, ja, wusste ich doch, wusste ich doch.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 997.87,
+   "ende": 1020.17,
+   "text": "Ähm, ja, aber wir haben das jetzt erstmal so entschieden und werden das einfach auf uns zukommen lassen und schauen, wie das mit der Schule so wird. Und wie gesagt, ich gebe da immer mal Updates und ich bin aber ganz sicher, dass es, dass unsere Kinder dadurch nicht verblöden werden, ganz im Gegenteil.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1020.17,
+   "ende": 1022.97,
+   "text": "und ja, freue mich auf jeden Fall",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1022.97,
+   "ende": 1024.21,
+   "text": "auch auf",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1024.21,
+   "ende": 1027.09,
+   "text": "darauf, diese Experimente,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1027.21,
+   "ende": 1028.53,
+   "text": "ich nenne es jetzt auch wirklich bewusst,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1028.61,
+   "ende": 1030.69,
+   "text": "Experimente machen zu können, nämlich",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1030.69,
+   "ende": 1032.87,
+   "text": "zu schauen, welche Art von Bildung",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1032.87,
+   "ende": 1034.79,
+   "text": "in welcher Form ist für welches Kind",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1034.79,
+   "ende": 1036.81,
+   "text": "am besten, weil was ich schon mal",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1036.81,
+   "ende": 1038.87,
+   "text": "weiß, ist, dass Heinrich eine ganz andere",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1038.87,
+   "ende": 1040.63,
+   "text": "Art hat zu lernen und der",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1040.63,
+   "ende": 1042.45,
+   "text": "totale Autodidakt ist und",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1042.45,
+   "ende": 1044.37,
+   "text": "ganz anders ist,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1044.83,
+   "ende": 1046.67,
+   "text": "also ganz andere Formen von Bildung",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1046.67,
+   "ende": 1048.55,
+   "text": "braucht, als es Hermine wahrscheinlich brauchen wird,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1048.55,
+   "ende": 1050.53,
+   "text": "weil sie einfach vom Typ her",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1050.53,
+   "ende": 1051.91,
+   "text": "total unterschiedlich sind und",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1051.91,
+   "ende": 1054.37,
+   "text": "ja deshalb finde ich es selber auch sehr spannend",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1054.37,
+   "ende": 1056.61,
+   "text": "und falls es meinen Podcast",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1056.61,
+   "ende": 1058.57,
+   "text": "in 10 Jahren noch gibt",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1058.57,
+   "ende": 1060.35,
+   "text": "denn ja",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1060.35,
+   "ende": 1061.43,
+   "text": "werden wir mal sehen",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1061.43,
+   "ende": 1064.39,
+   "text": "was aus Heinrich und Termine geworden ist",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1064.39,
+   "ende": 1066.19,
+   "text": "nachdem wir ihnen das angetan haben",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1066.19,
+   "ende": 1068.41,
+   "text": "dass wir sie aus der Schule, nicht nur aus der Schule",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1068.41,
+   "ende": 1070.09,
+   "text": "genommen haben, sondern jetzt noch nicht mal",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1070.09,
+   "ende": 1072.25,
+   "text": "einen festen Plan haben, was exakt",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1072.25,
+   "ende": 1074.13,
+   "text": "passiert ab dem Moment, wo wir",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1074.13,
+   "ende": 1075.87,
+   "text": "Thailand erreicht haben, also",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1075.87,
+   "ende": 1078.17,
+   "text": "am besten wäre es wahrscheinlich, wir würden sie direkt vom",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1078.17,
+   "ende": 1080.21,
+   "text": "Flughafen mit dem",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1080.21,
+   "ende": 1082.41,
+   "text": "öffentlichen Schulbus abtransportieren",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1082.41,
+   "ende": 1084.27,
+   "text": "lassen und direkt in eine Schule setzen.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1084.53,
+   "ende": 1086.03,
+   "text": "Weil, ja, nein,",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1086.09,
+   "ende": 1088.09,
+   "text": "das ist natürlich ein bisschen überspitzt dargestellt, aber",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1088.09,
+   "ende": 1090.35,
+   "text": "ja, da wollte ich euch einfach",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1090.35,
+   "ende": 1091.51,
+   "text": "mal dran teilhaben lassen,",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1092.03,
+   "ende": 1094.35,
+   "text": "worüber wir halt",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1094.35,
+   "ende": 1096.13,
+   "text": "so reden müssen, oder was heißt",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1096.13,
+   "ende": 1098.27,
+   "text": "reden müssen, aber was wir so gefragt werden",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1098.27,
+   "ende": 1100.25,
+   "text": "und in welchen Bereichen",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1100.25,
+   "ende": 1102.19,
+   "text": "man dann auch",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1102.19,
+   "ende": 1104.53,
+   "text": "sich ab und an mal in so einer Position",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1104.53,
+   "ende": 1106.37,
+   "text": "befindet, sich irgendwie rechtfertigen",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1106.37,
+   "ende": 1108.35,
+   "text": "zu müssen, obwohl man das ja",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1108.35,
+   "ende": 1109.27,
+   "text": "eigentlich gar nicht muss.",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1110.49,
+   "ende": 1112.31,
+   "text": "Okay, dann wünsche",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1112.31,
+   "ende": 1114.27,
+   "text": "ich euch einen schönen Tag, eine schöne",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1114.27,
+   "ende": 1116.25,
+   "text": "Woche und freue mich",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1116.25,
+   "ende": 1118.61,
+   "text": "auf die nächste Folge und",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1118.61,
+   "ende": 1120.43,
+   "text": "ja, schreibt mir gerne,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1120.55,
+   "ende": 1122.35,
+   "text": "wie es euch gefallen hat oder falls ihr irgendwelche",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1122.35,
+   "ende": 1123.83,
+   "text": "Themenwünsche habt, worüber ich mal",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1123.83,
+   "ende": 1126.35,
+   "text": "erzählen soll oder falls",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1126.35,
+   "ende": 1128.25,
+   "text": "du vielleicht auch jemand bist, der sagt, ich",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1128.25,
+   "ende": 1130.03,
+   "text": "habe irgendwas total Wichtiges",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1130.03,
+   "ende": 1131.55,
+   "text": "dazu zu sagen,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1132.29,
+   "ende": 1134.09,
+   "text": "das Leben ist zu kurz für irgendwann,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1134.89,
+   "ende": 1136.27,
+   "text": "dann melde dich gerne bei mir",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1136.27,
+   "ende": 1138.35,
+   "text": "und dann schauen wir mal, ob wir ein Interview",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.0
+  },
+  {
+   "start": 1138.35,
+   "ende": 1140.39,
+   "text": "machen können. Bis dann!",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.0
+  }
+ ]
+}

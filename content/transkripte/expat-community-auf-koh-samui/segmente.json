@@ -1,0 +1,2498 @@
+{
+ "meta": {
+  "slug": "expat-community-auf-koh-samui",
+  "titel": "Expat-Community auf Koh Samui",
+  "datum": "2026-02-09T05:00:01.000Z",
+  "dauer_sekunden": 2336,
+  "guid": "32ec813c-6962-4031-bb4c-d16b3d4500b6",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T07:27:28Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 4,
+   "transkription": 1161
+  },
+  "echtzeitfaktor": 0.5,
+  "anzahl_segmente": 309,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.72,
+   "ende": 25.2,
+   "text": "Ich finde, es ist ja toll, wenn man so eine Leute trifft und die dann ausfragen kann. Aber das ändert halt nichts daran, dass wenn man selber dieses Gespräch schon 10, 20, 30 Mal geführt hat, dass man irgendwann keine Lust mehr hat, dieses Gespräch zu führen.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.092,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 30.42,
+   "ende": 35.34,
+   "text": "Herzlich willkommen zu Glitzkwi. Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.448,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 36.28,
+   "ende": 41.0,
+   "text": "Auf jeden Fall ist das Leben zu kurz, um mehrmals die gleiche Podcast-Folge aufzunehmen.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.448,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 41.1,
+   "ende": 46.9,
+   "text": "Leute, ich sage es euch, ich sitze jetzt hier seit zweieinhalb Stunden und versuche, diese Folge aufzunehmen.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.448,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 47.02,
+   "ende": 49.62,
+   "text": "Also ich versuche es nicht nur, ich habe es auch gemacht, sie war schon fertig,",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.448,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 50.4,
+   "ende": 54.3,
+   "text": "aber es war auf jeden Fall ein super grottiger Sound.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.448,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 54.3,
+   "ende": 63.12,
+   "text": "und wir haben jetzt in den letzten 2, 1,5, 1,75 Stunden versucht herauszufinden, woran das liegt.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 63.24,
+   "ende": 69.36,
+   "text": "Die Mikros mit allen möglichen Endgeräten hier getestet und jetzt haben wir hier eine ganz wilde Konstellation,",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 69.98,
+   "ende": 73.22,
+   "text": "weil ich habe ja eigentlich so ein ganz tolles Tool, wofür ich auch monatlich Geld bezahle",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 73.22,
+   "ende": 79.48,
+   "text": "und dann möchte man das natürlich damit auch machen, aber irgendwie hat das jetzt alles nicht funktioniert.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 79.48,
+   "ende": 88.68,
+   "text": "So, ich versuche das jetzt nochmal und wenn das jetzt wieder nicht geht, gibt es halt morgen einfach keine Folge, also dann ist halt, keine Ahnung, der Arsch gebacken.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 88.94,
+   "ende": 104.58,
+   "text": "So, worum geht es denn heute? Und zwar um ein Thema, was ich so, wo ich glaube ich gar nicht selber auf die Idee gekommen wäre, darüber zu sprechen, was aber, ich hatte auch ein bisschen Themenfindungsschwierigkeiten für diese Woche, wenn man es mal so sagen will.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 104.58,
+   "ende": 116.52,
+   "text": "Ich hatte irgendwie, ja, es ist schon schwierig herauszufinden, worüber man reden soll, weil vieles für einen ja so normal ist und man dann irgendwie denkt, ja, ist doch immer langweilig, wenn ich darüber spreche.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 117.52,
+   "ende": 139.8,
+   "text": "Deswegen habe ich nochmal eine Umfrage gemacht auf Instagram, aber auch nochmal hier der Aufruf an alle, die auch vielleicht nicht auf Instagram sind, ihr könnt mir jederzeit auf den verschiedensten Kanälen, ob hier im Podcast, im Kommentar oder per Handy, also WhatsApp oder wie auch immer, E-Mail, wenn ihr irgendwas habt, wo ihr denkt, erzähl doch mal was darüber, dann schickt mir das gerne als Inspiration.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 139.8,
+   "ende": 162.52,
+   "text": "Auf jeden Fall habe ich jetzt die Umfrage gestern gestartet und da kam es von zwei unterschiedlichen Personen, die sich auch nicht kennen, die Frage nach, wie hier so die Ausländer-Community ist und wie man es schafft, hier sich ein Netzwerk aufzubauen, wie viele Ausländer überhaupt hier leben, was die so arbeiten und wie man so Anschluss findet, sage ich mal.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 163.5,
+   "ende": 165.82,
+   "text": "Also Stichwort Community ist da zweimal gefallen.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 166.98,
+   "ende": 169.54,
+   "text": "Und genau, da wollte ich heute mal drauf eingehen.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 169.68,
+   "ende": 173.46,
+   "text": "Und ich wäre insofern nicht auf die Idee gekommen, von selbst darüber zu reden,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 173.6,
+   "ende": 177.88,
+   "text": "weil das für uns eigentlich gar nicht so wichtig ist,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 178.0,
+   "ende": 182.9,
+   "text": "beziehungsweise vielleicht auch zu den Dingen gehört, die irgendwie einfach so selbstverständlich sind.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 184.2,
+   "ende": 188.32,
+   "text": "Ich kann immer nur wieder betonen, dass es, glaube ich, ein erheblicher Vorteil ist,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 188.32,
+   "ende": 195.2,
+   "text": "wenn man irgendwo hin auswandert, wo man vorher schon mal eine längere Zeit gelebt hat und wo man nicht irgendwie nur mal zwei Wochen im Urlaub war.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 196.14,
+   "ende": 204.64,
+   "text": "Sodass wir natürlich auch zum Teil aus dem Jahr, wo wir hier gewohnt haben, schon Kontakte haben, die jetzt auch weiterhin fortbestehen.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 204.84,
+   "ende": 212.46,
+   "text": "Und wo man im Vorfeld auch schon wusste, wenn wir da hinkommen, dann sind da Menschen, mit denen wir befreundet sind, mit denen die Kinder befreundet sind.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 212.46,
+   "ende": 231.64,
+   "text": "Und man ist sozusagen nicht alleine. Aber um mal von vorne anzufangen, wie viele Ausländer gibt es hier überhaupt? Ich habe erst überlegt, ob ich das so nach Gefühl mache, aber habe dann doch mal Google befragt bzw. ChatGPT.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.29
+  },
+  {
+   "start": 231.64,
+   "ende": 239.3,
+   "text": "Und tatsächlich gibt es jetzt nur auf Koh Samui gesehen keine wirklich empirischen Statistiken dazu.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 240.58,
+   "ende": 248.48,
+   "text": "Es wird geschätzt, dass zwischen 60.000 und 70.000 Menschen auf Koh Samui leben, die die thailändische Staatsbürgerschaft haben.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 248.58,
+   "ende": 256.62,
+   "text": "Ich betone das deshalb so, weil nicht jeder Thailänder, der auf Koh Samui lebt, auch Koh Samuianer ist, also nicht hier unbedingt geboren ist.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 256.62,
+   "ende": 264.12,
+   "text": "tatsächlich sind, dass eher wenige, die wirklich hier über viele Generationen auf der Insel leben.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 264.66,
+   "ende": 269.16,
+   "text": "Die meisten Thailänder auf Koh Samui sind tatsächlich vom Festland hierher gezogen,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 269.9,
+   "ende": 275.86,
+   "text": "kommen auch viel aus dem Norden von Thailand, um einfach hier im Tourismus Geld zu verdienen.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 276.3,
+   "ende": 279.4,
+   "text": "Und das ist ja auch nicht unüblich, das kennt man ja auch aus anderen Ländern,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 279.4,
+   "ende": 291.7,
+   "text": "Dann auch Türkei zum Beispiel, weiß ich, ist das auch viel, dass eben die Leute eben aus dem Umland kommen oder aus entlegerenden Regionen und dann in den Touristenorten arbeiten und Geld zu verdienen.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.34
+  },
+  {
+   "start": 291.7,
+   "ende": 299.48,
+   "text": "Von diesen 60.000 bis 70.000 Thailändern sind ungefähr 10% Ausländer, Schrägstrich Farangs.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 301.36,
+   "ende": 307.02,
+   "text": "Ich, also das ist so, wird immer wieder zitiert oder diese Zahl taucht immer wieder auf.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 307.14,
+   "ende": 312.56,
+   "text": "Ich persönlich würde jetzt denken, dass es noch mehr sind, aber das ist ja immer so eine Sache.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 312.56,
+   "ende": 316.52,
+   "text": "Das ist ja wie mit gefühlte Temperatur und tatsächliche Temperatur.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 318.2,
+   "ende": 323.12,
+   "text": "Und auch, aus welcher Nation kommen die Ausländer, die hier leben?",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 323.88,
+   "ende": 335.16,
+   "text": "Es ist laut Internet die größte Nation Engländer, relativ dicht gefolgt auch von Deutschen und Australiern und dann Franzosen.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 335.98,
+   "ende": 341.96,
+   "text": "Wiederum hat man aber eher das Gefühl, dass hier die meisten Ausländer eher Russen und Israelis sind.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 341.96,
+   "ende": 353.8,
+   "text": "Was auch, wenn man sich hier unterhält, auch wenn es um Geschäfte geht und so weiter, ganz oft vor allem Israelis auch genannt werden, die hier wirklich viel auch übernommen haben.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 354.64,
+   "ende": 356.96,
+   "text": "Nicht unbedingt zur Freude der Thailänder.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 357.72,
+   "ende": 365.58,
+   "text": "Und wiederum werden aber Israelis und Russen eher in die Kategorie gesteckt, dass sie den Hauptteil der Touristen ausmachen.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 365.58,
+   "ende": 392.28,
+   "text": "Weil man muss natürlich unterscheiden, wie viele Ausländer sind auf Koh Samui. Relativ viele, aber nicht alle werden gelistet als sogenannte Residents. Auch wir mit unserer Form des Visa sind keine Residents, sondern wir haben ja eigentlich auch nur dieses digitale Nomaden-Visa-Visum, was darauf abzielt, dass man ja spätestens alle halbe Jahre das erneuern muss durch eine Ausreise oder einen Antrag vor Ort.",
+   "avg_logprob": -0.033,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 392.28,
+   "ende": 403.82,
+   "text": "aber eigentlich selbst das halbe Jahr so nicht gedacht war, sondern wirklich mal ein paar Wochen oder Monate hier ist, ein paar Wochen, Monate in anderen Ländern und man innerhalb in diesen fünf Jahren aber mehrmals ein- und ausreisen kann.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 404.54,
+   "ende": 412.18,
+   "text": "Und nun nutzt natürlich jeder, der hier gerne langfristig leben möchte, seine Grauzonen der Visa-Arten aus.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 412.18,
+   "ende": 432.66,
+   "text": "Genauso gibt es ja auch unglaublich viele Verrangs, die hier, sage ich mal, mit einem Touristenvisum sind und einfach durch die Visa-Runs oder sogenannte Border-Runs hier Touristenvisum immer unendlich verlängern und hier zum Teil seit Jahren leben, aber nicht offiziell als Residence aufgelistet werden.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 432.66,
+   "ende": 440.16,
+   "text": "und deshalb ist es sicherlich auch so, dass mein Gefühl, dass hier mehr als 10% sind, gar nicht so falsch,",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 440.16,
+   "ende": 447.86,
+   "text": "weil die Statistiken oder die groben Statistiken, sage ich jetzt mal, eben nur die zählen, die hier wirklich eine Residency haben",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 447.86,
+   "ende": 456.64,
+   "text": "und trotzdem sind es aber viel mehr Farangs, die hier leben und wie schon gesagt, auch die Deutschen machen einen großen Teil aus,",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 456.8,
+   "ende": 461.6,
+   "text": "das heißt, gerade wenn man jetzt sagt, okay, wenn ich jetzt irgendwie ein anderes Land ziehen würde,",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 461.6,
+   "ende": 467.78,
+   "text": "dann wäre es mir schon wichtig, auch mit Leuten Kontakt zu haben, die aus meinem Land kommen, um die gleiche Sprache sprechen",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 467.78,
+   "ende": 476.0,
+   "text": "und auch vielleicht gleiche gesellschaftliche Ansichten haben oder einfach aus dem gleichen Kulturkreis kommen.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 477.84,
+   "ende": 487.68,
+   "text": "Uns persönlich ist das egal, wo die Leute herkommen, aber nichtsdestotrotz kommt man auch einfach automatisch viel mit Deutschen in Kontakt.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 487.68,
+   "ende": 491.3,
+   "text": "und gerade wenn jetzt irgendwer hört, dass jemand Deutsch redet zum Beispiel,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 492.36,
+   "ende": 495.64,
+   "text": "aber um jetzt mal konkret auf das Thema zu kommen,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 495.64,
+   "ende": 500.24,
+   "text": "okay, wie könnte man denn so eine Community oder an Leute kommen?",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 500.4,
+   "ende": 504.28,
+   "text": "Es läuft hier ganz viel über Facebook Marketplace oder überhaupt Facebook,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 504.56,
+   "ende": 511.14,
+   "text": "also Facebook Marketplace und Facebook Gruppen, so wie wir oder in Deutschland weiß ich,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 511.26,
+   "ende": 514.58,
+   "text": "ich weiß gar nicht, ob das weltweit so ist, aber wird ja eher immer Facebook so gesagt,",
+   "avg_logprob": -0.135,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 514.58,
+   "ende": 522.36,
+   "text": "naja, das ist eher für die ältere Generation, die jungen Leute sind irgendwie bei TikTok und Instagram und ups, und das ist sicherlich auch so,",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 522.78,
+   "ende": 530.04,
+   "text": "aber hier ist Facebook so ein bisschen wie, sag mal, das Ebay-Kleinanzeigen, was man aus Deutschland kennt,",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 530.18,
+   "ende": 535.72,
+   "text": "also wir haben zum Beispiel auch unser Auto ja über Facebook-Marketplace gefunden oder über so eine Gruppe sogar, ich weiß nicht,",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 536.12,
+   "ende": 541.66,
+   "text": "aber auch Wohnungen, man kann hier Klamotten verkaufen, so wie man es halt von Ebay-Kleinanzeigen auch kennt",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 541.66,
+   "ende": 562.64,
+   "text": "Und dann gibt es eben Gruppen. Auch da geht es von Kusamui for Rent oder Buy and Sell Kusamui oder Kusamui with Kids oder Kusamui Experts. Also es gibt halt ganz viele Gruppen, wo sich Leute zusammenfinden zu einem gewissen Thema und das wird hier sehr intensiv genutzt zur Informationsfindung.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 562.64,
+   "ende": 575.38,
+   "text": "aber auch für, also ich lese da auch manchmal Sachen von, ja Hilfe, ich brauche in zwei Stunden das und das, weiß jemand, wo ich das herkriege und da finden die Leute, also auch für sehr kurzfristige Entscheidungen werden diese Gruppen genutzt.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 575.38,
+   "ende": 578.46,
+   "text": "ich selbst habe zum Beispiel auch",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 578.46,
+   "ende": 579.6,
+   "text": "über so eine Gruppe",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 579.6,
+   "ende": 582.22,
+   "text": "die Andrea kennengelernt",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 582.22,
+   "ende": 583.78,
+   "text": "mit dem Tobi",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 583.78,
+   "ende": 586.14,
+   "text": "wir sind inzwischen auch befreundet",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 586.14,
+   "ende": 587.36,
+   "text": "und sehen uns regelmäßig",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 587.36,
+   "ende": 590.38,
+   "text": "und ich habe die aber schon vor einem Dreivierteljahr",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 590.38,
+   "ende": 592.32,
+   "text": "oder so über so eine Gruppe gefunden, weil ich jemanden",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 592.32,
+   "ende": 594.34,
+   "text": "gesucht hatte, der auch mit dem DTV-Visum",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 594.34,
+   "ende": 596.02,
+   "text": "in Thailand ist und wollte einfach mal so",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 596.02,
+   "ende": 597.72,
+   "text": "einen Erfahrungsbericht hören",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 597.72,
+   "ende": 600.4,
+   "text": "und dann sind wir einfach irgendwie in Kontakt geblieben",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 600.4,
+   "ende": 602.3,
+   "text": "und die hatten damals auch",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 602.3,
+   "ende": 604.24,
+   "text": "gerade, waren zwar schon hier, aber haben ein neues",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 604.24,
+   "ende": 609.14,
+   "text": "Haus gesucht und wir haben ja auch nach Unterkünften geschaut und so haben wir uns dann ab und an mal",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.132,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 609.14,
+   "ende": 615.82,
+   "text": "gegenseitig Links geschickt und ja, man ist einfach so im Kontakt gewesen und als wir dann hier waren,",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.132,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 615.96,
+   "ende": 620.24,
+   "text": "nachdem wir uns ein bisschen eingegroovt hatten, habe ich dann halt mal gefragt, hey, wollen wir uns",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.132,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 620.24,
+   "ende": 625.06,
+   "text": "mal treffen und dann haben wir uns auch getroffen, ihren Mann Tobi kannte ich ja noch nicht, Hagen und",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.132,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 625.06,
+   "ende": 629.52,
+   "text": "die Kinder kannten ja sie auch noch nicht und dann weiß man natürlich auch immer nicht, okay, wie",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.132,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 629.52,
+   "ende": 634.06,
+   "text": "wird das dann, wenn man sich dann zum ersten Mal live sieht, ist das dann trotzdem cool oder denkt",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.132,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 634.06,
+   "ende": 639.82,
+   "text": "man so, okay, ja, wie kriegen wir jetzt die Zeit rum und das hat aber gleich super gepasst",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 639.82,
+   "ende": 645.18,
+   "text": "und genau und so haben wir uns dann, sag ich mal, auf dem Weg jetzt nochmal neue Freunde",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 645.18,
+   "ende": 650.6,
+   "text": "gefunden und die Nicole mit ihren Kindern, die ich jetzt auch schon öfters erwähnt",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 650.6,
+   "ende": 657.76,
+   "text": "hatte, die habe ich schon vor, ich glaube, vier, über vier Jahren oder so auf Instagram",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 657.76,
+   "ende": 662.24,
+   "text": "kennengelernt, weil ich damals Reiseaccounts gefolgt bin und ich war mal mit den Kindern",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 662.24,
+   "ende": 666.52,
+   "text": "für eine Woche alleine in Ägypten und hab dann halt überlegt, wo genau ich hinfahre",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 666.52,
+   "ende": 669.92,
+   "text": "und hab die Nicole dann angeschrieben, sie hatte auch einen Blog",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 669.92,
+   "ende": 674.12,
+   "text": "und bin so darauf, weil sie dann eine Weile in Dahab waren und dann hab ich halt",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 674.12,
+   "ende": 678.04,
+   "text": "sie angeschrieben, ob sie mir da Tipps mit den Kindern geben kann, ob sie denkt, dass man das als Frau alleine",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 678.04,
+   "ende": 682.0,
+   "text": "machen kann und so weiter und so sind wir dann auch in Kontakt geblieben",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 682.0,
+   "ende": 685.7,
+   "text": "und auch wo wir dann in dem Jahr hier waren, haben wir uns dann das erste Mal getroffen",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 685.7,
+   "ende": 690.14,
+   "text": "mit den Kindern, aber auch glaube ich nur einmal und",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.025,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 690.14,
+   "ende": 693.84,
+   "text": "Und dann sind wir halt weiter in Kontakt geblieben, wo wir letztes Jahr im Februar hier waren.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 693.92,
+   "ende": 695.98,
+   "text": "Die sechs Wochen haben wir uns dann relativ häufig gesehen.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 696.66,
+   "ende": 701.36,
+   "text": "Und ja, so hat sich das dann halt entwickelt, dass wir da in dem Fall eben auch schon wussten,",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 701.44,
+   "ende": 705.52,
+   "text": "wenn wir hierher kommen, hier ist halt jemand und auch für die Kinder vor allem.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 705.76,
+   "ende": 707.8,
+   "text": "Weil auch das hatte ich ja schon manchmal erwähnt.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 707.86,
+   "ende": 712.8,
+   "text": "Das sind ja insgesamt fünf Kinder, also vier Kinder von Nicole und noch ein Teilmädel,",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 712.8,
+   "ende": 714.84,
+   "text": "die mit ihrer Familie auch mit denen zusammenlebt.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 714.84,
+   "ende": 724.28,
+   "text": "Und plus unsere Kinder sind insgesamt sieben Kinder, die dann da zwischen drei und 16 Jahren immer wieder regelmäßig zusammenkommen.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 725.4,
+   "ende": 735.02,
+   "text": "Was wir halt sehr schön finden und auch aus unserer Sicht eigentlich auch ausreichend ist für dieses soziale Kontakte knüpfen.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 735.56,
+   "ende": 740.88,
+   "text": "Denn es wird ja oft gesagt, dass die Kinder halt in den Kindergarten und in die Schule gehen müssen,",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 740.88,
+   "ende": 744.56,
+   "text": "um eben diese sozialen Fähigkeiten auch zu erlernen und Kontakte zu knüpfen.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 744.84,
+   "ende": 761.44,
+   "text": "Und nun ist ja nicht in jedem Land das so wie in Deutschland, dass in einer Klasse irgendwie 20 oder 30 Kinder in einer Altersgruppe sind oder im Kindergarten dann eben zwischen maximal drei bis sechs Jahren, wenn das so ein, wie nennt man das, altersüberschreitende Gruppen sind oder so.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 761.44,
+   "ende": 764.44,
+   "text": "Aber selbst manchmal wird das ja auch in kleinere Gruppen eingeteilt.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 765.26,
+   "ende": 768.64,
+   "text": "Es gibt ja auch einfach unabhängig von Thailand auch andere Länder auf der Welt,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 769.72,
+   "ende": 774.58,
+   "text": "wo einfach durch die Lage der Orte und Dörfer so wenig Kinder da sind,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 774.7,
+   "ende": 779.16,
+   "text": "dass so eine Klasse auch einfach mal nur aus allen Kindern besteht, die halt in dem Ort leben.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 779.32,
+   "ende": 781.72,
+   "text": "Ich muss da oft an die Kinder von Bulabü denken.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 781.88,
+   "ende": 786.02,
+   "text": "Natürlich spielt das jetzt noch ein paar Jahre vor der aktuellen Zeit.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 786.2,
+   "ende": 789.88,
+   "text": "Aber nichtsdestotrotz ist das ja nicht aus der Luft gegriffen.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 789.88,
+   "ende": 811.3,
+   "text": "Und sodass, glaube ich, die Fähigkeit, sich auf unterschiedliche Kinder einstellen zu können, auf unterschiedliche Bedürfnisse und Altersklassen nicht nur funktioniert, wenn ich in einer Klasse mit 30 anderen Kindern bin, sondern eben das auch in einem kleineren Rahmen von sieben Kindern passieren kann, die eben eine sehr breite Altersrange haben.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 811.8,
+   "ende": 818.34,
+   "text": "Aber selbst wenn einem das jetzt zu wenig wäre, sind natürlich, was hier auch sehr verbreitet ist,",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 818.44,
+   "ende": 822.18,
+   "text": "die ganzen Sportangebote sowohl für Erwachsene als auch für Kinder.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 822.74,
+   "ende": 825.14,
+   "text": "Auch darüber kann man natürlich Kontakte knüpfen.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 826.14,
+   "ende": 831.8,
+   "text": "Man sieht dann auch beim Sport, sage ich mal, wenn man jetzt in der vierten Woche immer noch die Leute sieht,",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 831.8,
+   "ende": 836.4,
+   "text": "die auch in der ersten Woche schon da waren, dann ist meistens davon auszugehen, dass die eben auch hier leben",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 836.4,
+   "ende": 839.46,
+   "text": "oder zumindest für ein paar Monate hier sind.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 839.46,
+   "ende": 851.52,
+   "text": "Es gibt ja hier auch diese Community, die wirklich hier überwintert. Das sind auch oft Rentner, die dann wirklich ganz klassisch ein halbes Jahr in Deutschland, ein halbes Jahr in Thailand oder auf Koh Samui leben.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 852.56,
+   "ende": 862.5,
+   "text": "Und dann gibt es auch welche, die wirklich so ganz klassische digitale Nomaden sind. Die sind dann aber auch meistens für drei bis sechs Monate an einem Ort.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 862.98,
+   "ende": 868.16,
+   "text": "Also von daher sind die Sportkurse, wo man die Leute mehr, also nach Woche drei,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 868.42,
+   "ende": 871.12,
+   "text": "zwischen zwei und drei Wochen sind ja dann so vielleicht die klassischen Urlaube,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 871.56,
+   "ende": 877.04,
+   "text": "immer noch sieht, kann man auch davon ausgehen, dass man sich, sag ich mal, mit denen anfreunden kann.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 877.1,
+   "ende": 880.2,
+   "text": "Man kann sich natürlich auch mit den Leuten anfreunden, die man zum ersten Mal trifft,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 880.2,
+   "ende": 886.86,
+   "text": "aber man merkt schon jetzt so, gerade nach dem Jahr, wo wir hier waren und auch jetzt, wo man weiß, man bleibt hier,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 886.86,
+   "ende": 893.74,
+   "text": "dass man nicht so richtig doll Lust hat, sich wirklich mit jedem, mit dem man vielleicht sich gut versteht, auch anzufreunden,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 893.84,
+   "ende": 896.86,
+   "text": "weil die meisten Leute, die man kennenlernt, ja dann doch irgendwann wieder abreisen.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 897.6,
+   "ende": 903.9,
+   "text": "Und das ist sowohl als Erwachsener als auch als Kind für die Kinder nicht, ja, dann irgendwie traurig,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 903.98,
+   "ende": 908.06,
+   "text": "wenn man sich wirklich gut mit Leuten versteht und dann sind die halt in ein oder zwei Wochen wieder weg.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 909.1,
+   "ende": 914.5,
+   "text": "Man hat auch, das merken wir auch, man hat auch irgendwann einfach keine Lust mehr auf diese Gespräche,",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 915.1,
+   "ende": 921.1,
+   "text": "weil die laufen halt komplett gleich ab, also theoretisch könnte man das auch aufnehmen und immer wieder abspielen,",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 921.22,
+   "ende": 928.5,
+   "text": "weil logischerweise, wenn Leute dann, der Ablauf ist immer so, ja, seid ihr hier im Urlaub oder wo kommt ihr her",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 928.5,
+   "ende": 932.96,
+   "text": "oder auch wenn man sich verabschiedet, ja, dann schön Urlaub noch und wenn man dann sagt, nee, wir leben hier,",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 933.02,
+   "ende": 937.34,
+   "text": "dann geht es natürlich los mit, oh, cool, krass und wie macht ihr das und so weiter und das verstehe ich natürlich,",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 937.46,
+   "ende": 941.1,
+   "text": "weil genau so mache ich das ja, habe ich das ja auch gemacht oder würde ich auch immer wieder machen,",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.87
+  },
+  {
+   "start": 941.1,
+   "ende": 960.8,
+   "text": "Wenn Leute irgendetwas machen, was ich vielleicht cool finde, ist ja toll, wenn man so eine Leute trifft und die dann ausfragen kann, aber das ändert halt nichts daran, dass wenn man selber dieses Gespräch schon 10, 20, 30 Mal geführt hat, dass man irgendwann keine Lust mehr hat, dieses Gespräch zu führen und dann oft auch gar nicht mehr darauf reagiert.",
+   "avg_logprob": -0.05,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 960.8,
+   "ende": 970.08,
+   "text": "Also wenn dann jemand sagt, ja, schönen Urlaub noch, dann sagt, nickt man auch manchmal nur oder erwähnt gar nicht, dass man hier lebt, weil man einfach keine Lust auf diese Gespräche hat.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 970.32,
+   "ende": 981.86,
+   "text": "So gemein das jetzt sich vielleicht auch anhört, aber ich glaube, ja, man kann das vielleicht verstehen, wenn man selber mal irgendwas schon in der Dauerschleife jemandem erklärt und erzählt hat.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 983.16,
+   "ende": 990.02,
+   "text": "Genau, deshalb versucht man natürlich schon auch ein bisschen herauszufiltern, okay, wo stecke ich jetzt, in welche Person stecke ich auch meine Zeit?",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 990.66,
+   "ende": 992.26,
+   "text": "Und auch mit den Kindern.",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 992.42,
+   "ende": 995.08,
+   "text": "Es gibt zum Beispiel eben in der Facebook-Gruppe",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 995.08,
+   "ende": 998.18,
+   "text": "Kosa Mui with Kids, da schreiben auch ganz viele Eltern rein,",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 998.28,
+   "ende": 1001.1,
+   "text": "hey, wir sind von dann und dann bis dann und dann auf Kosa Mui.",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1001.18,
+   "ende": 1002.44,
+   "text": "Unsere Kinder sind so und so alt.",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1002.56,
+   "ende": 1006.14,
+   "text": "Vielleicht hat ja jemand Lust, sich für ein Playdate zu verabreden.",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1006.82,
+   "ende": 1009.38,
+   "text": "Und auch da reagiere ich halt,",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1009.64,
+   "ende": 1010.82,
+   "text": "früher habe ich da noch hingeschrieben,",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1010.94,
+   "ende": 1012.06,
+   "text": "auch in dem Jahr, wo wir hier waren.",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1012.26,
+   "ende": 1013.6,
+   "text": "Jetzt mache ich das nicht mehr,",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1013.76,
+   "ende": 1016.32,
+   "text": "weil ich es auch für die Kinder halt schade finde,",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1016.32,
+   "ende": 1019.66,
+   "text": "wenn die sich, Kinder freuten sich ja viel schneller an.",
+   "avg_logprob": -0.153,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1019.66,
+   "ende": 1024.04,
+   "text": "Wenn die irgendwie zwei Stunden cool zusammen gespielt haben, dann sind die ja Best Friends im Grunde.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1024.72,
+   "ende": 1028.66,
+   "text": "Und dann finde ich es halt schade, wenn die dann immer wieder die Erfahrung machen müssten,",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1029.52,
+   "ende": 1034.98,
+   "text": "dass diese Leute, die sie jetzt gerade neu gewonnen haben, einfach wieder gehen in zwei, drei Tagen.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1035.5,
+   "ende": 1038.22,
+   "text": "Deswegen melde ich mich inzwischen auf so Playdates nicht mehr.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1038.86,
+   "ende": 1043.64,
+   "text": "Aber ich muss natürlich auch sagen, wir haben eben diesen Vorteil mit der Konstellation,",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1043.64,
+   "ende": 1049.22,
+   "text": "mit Nicole und ihrer Familie, dass die Kinder auch gut ausgelastet sind.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1049.66,
+   "ende": 1067.28,
+   "text": "Sowohl in der Konstantin als auch in den Sportkursen. Von daher ist da im Moment nicht so die Not. Jetzt kommt bald ein Zeitpunkt, wo Nicole für zwei Monate mit ihrer Familie rumreist und wir dann eben hier sind.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.3
+  },
+  {
+   "start": 1067.96,
+   "ende": 1072.42,
+   "text": "Und da bin ich dann auch mal gespannt, ob sich vielleicht da auch dann andere Freundschaften noch entwickeln,",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1072.56,
+   "ende": 1076.4,
+   "text": "ob dann eben die Kinder vielleicht auch beim Sport versuchen, noch mehr Kontakte zu knüpfen",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1076.4,
+   "ende": 1081.48,
+   "text": "und sich mit anderen verabreden, als sie jetzt das halt machen,",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1081.58,
+   "ende": 1084.92,
+   "text": "weil sie jetzt aus ihrer Sicht ja gar nicht noch andere Kinder brauchen.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1086.28,
+   "ende": 1093.06,
+   "text": "Was natürlich auch ein großer Hebel sicherlich ist, um hier Kontakte zu knüpfen,",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1093.16,
+   "ende": 1096.38,
+   "text": "vor allen Dingen als Familie, ist natürlich, wenn die Kinder hier zu einer Schule gehen.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1097.28,
+   "ende": 1119.48,
+   "text": "Also hier gibt es ja sehr, sehr viele internationale Schulen und die Schulen haben auch oft so Veranstaltungen, wo dann eben die Eltern auch mit eingeladen sind und hier werden zum Beispiel, wir waren mal auf einen Kindergeburtstag eingeladen, die Kindergeburtstage hier von den Farang-Kindern werden auch sehr intensiv gefeiert, also im Sinne von sehr groß.",
+   "avg_logprob": -0.043,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1119.48,
+   "ende": 1126.72,
+   "text": "Da wird dann halt ein Beachclub angemietet und dann gibt es da Buffet und dann wird da auch die ganze Klasse eingeladen und alle Eltern sind mit dabei.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1126.98,
+   "ende": 1134.38,
+   "text": "Also auch nicht nur, dass man die Kinder kurz hinbringt und wartet, ob die warm werden und dann wieder losfährt, wie man das oft in Deutschland ja auf den Kindergeburtstagen macht,",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1134.82,
+   "ende": 1138.0,
+   "text": "sondern wirklich auch alle Eltern mit anwesend sind.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1138.74,
+   "ende": 1147.22,
+   "text": "Und ja, das ist schon so eine Größenordnung zum Teil, wie wenn wir in Deutschland irgendwie eine Einschulung oder eine Konfirmation oder sowas feiern.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1147.22,
+   "ende": 1160.96,
+   "text": "Nur, dass jetzt hier natürlich so im preislichen Rahmen man das sich eher leisten kann, so eine große Feier zu machen, als man das jetzt in Deutschland weiß, wenn man irgendwie für 50 Leute eine Feier ausrichtet.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 1161.9,
+   "ende": 1179.48,
+   "text": "Aber wenn man eben, wir waren jetzt sozusagen die einzigen Gäste, die nicht in der Klasse waren, aber dadurch, dass dann wirklich ganz viele Eltern da sind von Kindern, die jetzt noch nicht vielleicht am Nachmittag so normal miteinander gespielt haben, lernt man da eben auch noch andere Eltern kennen.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1179.48,
+   "ende": 1188.26,
+   "text": "und das ist, glaube ich, als Familie, sage ich mal, der Haupthebel, um wirklich Kontakt mit anderen zu schließen.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1189.02,
+   "ende": 1193.44,
+   "text": "Was man auch machen kann, ist natürlich ganz gezielt nach Wohnsituationen zu schauen,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1193.44,
+   "ende": 1196.74,
+   "text": "wo die so einen, sage ich mal, Community-Charakter haben.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1198.0,
+   "ende": 1203.06,
+   "text": "Es gibt ja hier sehr viele Anlagen, die dann eben auch nur auf Langzeitmieten ausgelegt sind",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1203.06,
+   "ende": 1209.28,
+   "text": "und die sind relativ oft ähnlich aufgebaut, dass es irgendwo einen zentralen Pool gibt",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1209.28,
+   "ende": 1216.22,
+   "text": "und dann eben drumherum Bungalows oder kleinere Häuser stehen und man da dann einfach weiß,",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1216.34,
+   "ende": 1221.4,
+   "text": "okay, wenn ich hier am Pool jemanden treffe oder mein Nachbar jetzt da ist, der wird dann auch erstmal eine Weile bleiben",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1221.4,
+   "ende": 1225.16,
+   "text": "und das ist jetzt kein Tourist, der irgendwie nach zwei Tagen wieder abreist,",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1225.72,
+   "ende": 1232.64,
+   "text": "sodass man da auch gezielt zum Teil schauen kann, leben da hauptsächlich deutschsprachige Leute",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1232.64,
+   "ende": 1235.4,
+   "text": "oder sind das eher Leute aus England oder wie auch immer.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1235.4,
+   "ende": 1252.26,
+   "text": "Also es gibt es natürlich auch gemischt, aber man kann, wenn man darauf Wert legt, natürlich schon auch ganz gezielt Wohnsituationen finden, in denen man in so einer Art Community ist und in denen auch für alle, die dort leben, klar ist, dass dieser Community-Gedanke gelebt wird und gewollt ist.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1252.26,
+   "ende": 1267.24,
+   "text": "Das ist natürlich auch sehr typabhängig, weil Hagen und ich sind überhaupt nicht die Typen für sowas und wir würden am liebsten irgendwo so leben, dass um uns herum gar keiner wohnt.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1267.24,
+   "ende": 1277.2,
+   "text": "Also dass wir quasi alleine sind, weil wir einfach ja auch super viel unterwegs sind und viel machen und sehr viel aktiv sind und eben dann beim Sport sind und uns mit Freunden treffen und so weiter.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1277.2,
+   "ende": 1297.32,
+   "text": "Und ich brauche dann im Grunde nicht unbedingt noch Nachbarn. Deshalb haben wir ja noch nie nach sowas gezielt geguckt. Natürlich finden wir es auch toll, dass so wie jetzt hier die Besitzer von der Bungalow-Anlage und die da im Restaurant eben mitarbeiten, die sind auch den Kindern sehr zugetan.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 1297.32,
+   "ende": 1309.72,
+   "text": "Und ich weiß, wenn Hermine dann vorne zum Strand geht und da mit der Katze vorm Restaurant spielt und so, dass da Leute sind, die wissen, sie gehört hierhin und mit ihr auch sich unterhalten und sie mal eine Kokosnuss geschenkt bekommt und so weiter.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1310.94,
+   "ende": 1315.24,
+   "text": "Also sowas, sag ich mal so, in der Form Community finde ich auch gut.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1315.24,
+   "ende": 1321.92,
+   "text": "Aber ich brauche, so war zum Beispiel die eine Formulierung, schafft man es sich ein Dorf aufzubauen?",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1321.92,
+   "ende": 1341.26,
+   "text": "Da gibt es ja auch dieses Sprichwort, dass man, um Kinder zu erziehen, halt nicht nur die Eltern braucht, sondern eigentlich ein ganzes Dorf, was ich grundsätzlich auch begrüßen kann und auch gut finde und das ja auch in der Vergangenheit, also in sehr langer Vergangenheit früher so war, aber so ist unsere Gesellschaft ja nicht mehr.",
+   "avg_logprob": -0.05,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1341.26,
+   "ende": 1358.28,
+   "text": "Also egal, ob man jetzt ausgewandert ist oder in Deutschland lebt, wenn man nicht gerade vielleicht mit den Eltern irgendwie in einer Doppelhaushälfte lebt oder sogar in einem Haus, dann ist es ja selten so, dass wirklich dieses Familienkonstrukt intensiv gelebt wird, wo alle sich unter die Arme greifen und sich alle gegenseitig helfen.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1358.28,
+   "ende": 1362.48,
+   "text": "und speziell in unserem Fall, ich habe das auch schon ja in der Folge,",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1363.46,
+   "ende": 1367.78,
+   "text": "was Freunde und Familie zur Auswanderung sagen und auch was die Kinder dazu sagen,",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1368.26,
+   "ende": 1372.12,
+   "text": "auch schon zweimal aufgegriffen, dass wir diese Konstellation sowieso nie hatten",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1372.12,
+   "ende": 1377.4,
+   "text": "und demnach schon immer es so war, dass wir eigentlich unter uns waren",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1377.4,
+   "ende": 1380.36,
+   "text": "und auf uns gestellt waren auch einfach.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1380.72,
+   "ende": 1385.3,
+   "text": "Deshalb kennen wir das nicht anders und haben dann auch gar nicht so diesen Anspruch,",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 1385.3,
+   "ende": 1391.74,
+   "text": "dass wir jetzt irgendwie in einem Konstrukt leben müssen, wo wir vielleicht auch Unterstützung noch haben,",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1392.78,
+   "ende": 1397.78,
+   "text": "dass man eben mal schnell zum Nachbarn sagen kann, Mensch, hier, ich gehe mal gerade einkaufen, gucke mal auf die Kinder oder so.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1397.84,
+   "ende": 1403.66,
+   "text": "Klar, wenn sich sowas ergeben würde, cool, aber wir sind nicht so aktiv auf der Suche nach sowas.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1405.36,
+   "ende": 1408.74,
+   "text": "Deshalb, ja, glaube ich, ist das schon eben auch ein bisschen typabhängig,",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1408.74,
+   "ende": 1433.76,
+   "text": "Aber ich will nur sagen, es gibt hier sehr viele Möglichkeiten, wirklich gezielt sich sowohl von der Wohnsituation als auch von der Freizeitgestaltung Gruppen anzuschließen oder immer wieder irgendwo hinzugehen, wo man weiß, da sind Gleichgesinnte im Sinne von, ob das jetzt ein Bastelnachmittag ist oder ein Keramikworkshop, wo ich weiß, okay, die Kinder, die dann zu diesem Keramikworkshop gehen, interessieren sich offenbar für solche Dinge.",
+   "avg_logprob": -0.046,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1434.34,
+   "ende": 1437.36,
+   "text": "So, und dann komme ich ja auch automatisch mit den Eltern ins Gespräch.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1437.44,
+   "ende": 1444.84,
+   "text": "Ich glaube, das ist allgemein natürlich so, dass wenn man Kinder hat, auch oft neue Bekanntschaften darüber stattfinden.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1445.36,
+   "ende": 1453.3,
+   "text": "Weil auch in Deutschland jetzt als Erwachsener, viele Freunde, die man als Erwachsener hat, hat man ja schon oft aus der Kindheit.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1453.84,
+   "ende": 1457.78,
+   "text": "Und neue Freundschaften entstehen ja auch in Deutschland eher durch gemeinsame Interessen,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1457.92,
+   "ende": 1462.34,
+   "text": "wie zum Beispiel ein Verein oder vielleicht auch jemand aus dem Kollegium.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1462.86,
+   "ende": 1467.26,
+   "text": "Wenn man natürlich selbstständig ist, so wie ich es ja in Deutschland auch die letzten Jahre schon war",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1467.26,
+   "ende": 1472.06,
+   "text": "und vor allen Dingen so einen Job macht, wo ich einfach nur ganz alleine mit mir am Computer arbeite,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1472.18,
+   "ende": 1474.0,
+   "text": "dann habe ich natürlich auch keine Kollegen.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1474.0,
+   "ende": 1478.44,
+   "text": "Aber das ist ja unabhängig davon, ob ich in Deutschland oder in Thailand lebe und arbeite.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1479.04,
+   "ende": 1484.14,
+   "text": "Ich meine nur, dass man wirklich sich ein Netzwerk von Freunden und Unterstützern aufbaut,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1484.62,
+   "ende": 1491.98,
+   "text": "passiert als Erwachsener ja auch viel über Kinder oder eben Vereine, also Freizeitaktivitäten.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1491.98,
+   "ende": 1510.88,
+   "text": "Und so ist das hier im Endeffekt nicht anders. Was ich beobachtet habe, sowohl jetzt, wenn wir hier leben, aber auch schon früher auf Reisen, dass wenn man in dieser Umgebung andere Menschen kennenlernt, ist man wesentlich schneller, enger miteinander.",
+   "avg_logprob": -0.033,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1510.88,
+   "ende": 1528.12,
+   "text": "Also es dauert nicht so lange, bis sich eine Freundschaft entwickelt, weil alle, die sich hier treffen, halt schon mal einen gemeinsamen Nenner haben, nämlich den, dass sie irgendein Land verlassen haben und dieses gerade als das auserkoren haben, was sie schön finden.",
+   "avg_logprob": -0.025,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1528.12,
+   "ende": 1551.34,
+   "text": "Und genauso auf Reisen, wenn ich jetzt nicht irgendwie zwei Wochen in einem All-Inclusive-Hotel bin. Auch da, selbst dann, habe ich ja Gleichgesinnte, weil ich habe dann ja auch nicht den Individualtouristen im All-Inclusive-Hotel, der sich die ganze Zeit darüber beschwert, wie langweilig das ist. Also zumindest wäre das Quatsch. Und genauso habe ich jetzt im Individualtourismus-Bereich selten Leute, die eigentlich nur All-Inclusive machen wollen.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1551.34,
+   "ende": 1557.2,
+   "text": "Weil wenn die so sind und dann mal was Aufregendes machen wollen, dann buchen sie ja auch dann meistens im Ausland eine geführte Reise.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1557.7,
+   "ende": 1566.96,
+   "text": "Das heißt, man auch auf Reisen, wo man nicht unbedingt gleich ausgewandert ist, lernt man eigentlich immer Leute kennen, mit denen man, sag ich mal, schnell auf einer Wellenlänge ist,",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1567.1,
+   "ende": 1576.1,
+   "text": "weil man die gleichen Gedanken hat und die gleichen Wünsche fürs Leben und sich über die gleichen Sachen freut, die gleichen Dinge einen glücklich machen.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1576.1,
+   "ende": 1597.18,
+   "text": "Und bei Auswanderern ist es, glaube ich, noch krasser, als wenn man sich nur im Urlaub kennenlernt, weil man ja eine sehr intensive Lebensentscheidung getroffen hat, die ja oft auch daraus resultiert, dass man mit anderen Dingen vielleicht nicht so zufrieden war, die man in der Heimat eben so miterlebt hat.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1598.1,
+   "ende": 1620.34,
+   "text": "Ich will da jetzt nicht näher drauf eingehen, aber ich kann zum Beispiel sagen, dass eigentlich jeder, den wir, also fast jeder, ich würde mal sagen, mir sind tatsächlich gerade zwei eingefallen, wo es nicht so ist, aber ich würde mal sagen, 85 Prozent der Menschen, die wir hier kennenlernen, mit denen wir auch immer mehr zu tun haben, sind zum Beispiel totale Corona-Gegner und auch nicht geimpft.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1620.34,
+   "ende": 1625.84,
+   "text": "Und wohingegen Hagen und ich ja damals zu der Zeit, wo das alles akut war,",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1625.88,
+   "ende": 1629.32,
+   "text": "einer der wenigen Menschen waren in unserem Umfeld, die nicht geimpft waren",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1629.32,
+   "ende": 1635.02,
+   "text": "und immer wieder uns dafür rechtfertigen mussten, plus inklusive anfeinden lassen mussten",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1635.02,
+   "ende": 1637.94,
+   "text": "und auch niemanden, also Leute sich auch abgewendet haben.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1638.36,
+   "ende": 1642.68,
+   "text": "Und das ist zum Beispiel hier mit den Leuten, die hier sind, ganz anders.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1642.78,
+   "ende": 1645.8,
+   "text": "Es gibt auch ganz viele, die genau in der Corona-Zeit ausgewandert sind.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1646.66,
+   "ende": 1650.12,
+   "text": "Oder ich weiß, wir sind einmal im Lockdown für vier Wochen nach Namibia gegangen.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.027,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1650.12,
+   "ende": 1664.68,
+   "text": "Da haben die Leute uns für verrückt erklärt. Aber das macht natürlich auch was, wenn man über so gesellschaftliche Themen spricht und da sofort auf einer Wellenlänge ist und sich auch einfach mehr verstanden fühlt.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1665.14,
+   "ende": 1674.44,
+   "text": "Deshalb habe ich das Gefühl, dass man, wenn man ausgewandert ist, eigentlich keine Angst haben muss, keinen Anschluss zu finden oder vielleicht einsam zu sein.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1674.44,
+   "ende": 1688.04,
+   "text": "Ich meine, man muss natürlich auch immer sagen, wo geht man hin? Also wir sind jetzt hier halt auf einer Insel, die extrem touristisch ist und wo man ja auch schon durch das Jahr wusste, hier sind auch viele Expats, die hier leben.",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 1688.04,
+   "ende": 1707.22,
+   "text": "Wenn ich jetzt nach Schweden in die Einöde ziehe und mein nächster Nachbar irgendwie 15 Kilometer weit weg wohnt, dann habe ich vielleicht nicht sofort den Community-Anschluss. Aber das sind ja Entscheidungen, die sollte man zumindest nicht einfach so aus einem Schnips heraus treffen.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 1707.22,
+   "ende": 1714.86,
+   "text": "Das heißt, wenn ich jemand bin, der in Schweden in die Einöde zieht und der nächste Nachbar 15 Kilometer weit weg wohnt, dann ist das ja eine ganz bewusste Entscheidung.",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1715.32,
+   "ende": 1721.06,
+   "text": "Und dann möchte ich ja genauso ein Leben, weil ich vielleicht jemand bin, der überhaupt keinen Bock auf Menschen hat oder was auch immer.",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1721.42,
+   "ende": 1732.52,
+   "text": "Oder es mir halt reicht, wenn ich irgendwie sonntags ins örtliche Lokal fahre und da das Mittagsbuffet einnehme und dann mal zu zwei, drei Leuten Hallo sage und den Rest der Woche will ich wieder meine Ruhe haben.",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1732.52,
+   "ende": 1746.2,
+   "text": "Also ich glaube nicht, dass jemand nach Schweden in die Einöde zieht und sich dann beschwert, dass er eben kein Community-Treffen hat oder dass er nicht beim Keramik-Workshop teilnehmen kann oder die Kinder jetzt nicht 97 Sportangebote haben.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 1746.2,
+   "ende": 1768.96,
+   "text": "Also das ist jetzt hier in so einem Rahmen, wo man sich hier in Koh Samui oder auch Koh Phangan, Hua Hin, auch Bangkok, Chiang Mai, also so die Orte, die man schon mal so gehört hat von Thailand und im Zusammenhang mit Ausländern, da sind einfach ganz viele Gleichgesinnte.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.018,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 1768.96,
+   "ende": 1774.44,
+   "text": "und man kann das intensiv betreiben, indem man eben auch gleich in so einer Community wohnt",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1774.44,
+   "ende": 1778.88,
+   "text": "und, sag ich mal, ja, da sehr stark auch engagiert ist.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1779.16,
+   "ende": 1785.84,
+   "text": "Es gibt ja auch so Bewegungen wie Frauenkreise oder Kirchengemeinden, also hier ist ja der Buddhismus,",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1785.84,
+   "ende": 1791.2,
+   "text": "aber es gibt natürlich auch hier Kirchenanhänger, die dann auch zum Teil an die Häuser kommen.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1791.26,
+   "ende": 1793.8,
+   "text": "Ich sag jetzt mal so ein bisschen wie Zeugen Jehovas, nur dass es keine sind.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1793.8,
+   "ende": 1808.8,
+   "text": "Und es gibt, glaube ich, noch in ganz vielen anderen Bereichen Möglichkeiten, sich zusammenzuschließen, die ich jetzt gar nicht weiß, weil ich es einfach nicht brauche oder mir vielleicht nicht so wichtig ist oder keine Ahnung, dass nicht meine Interessen sind.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1809.14,
+   "ende": 1815.8,
+   "text": "Aber ich denke, es muss jetzt keiner Angst haben, dass er hier vereinsamt oder keinen Anschluss findet.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1815.8,
+   "ende": 1825.2,
+   "text": "und dann kam auch noch die Frage wegen beruflich, also was machen denn die Leute alle",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1825.2,
+   "ende": 1829.3,
+   "text": "oder was arbeiten denn die Leute alle, die dann hier eben ihr Expertleben führen,",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1829.3,
+   "ende": 1834.82,
+   "text": "die man dann in so einem Community-Dorf oder so kennenlernen würde.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1836.02,
+   "ende": 1840.18,
+   "text": "Also die meisten Menschen, die hier wirklich vor Ort im Sinne arbeiten,",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1840.32,
+   "ende": 1844.22,
+   "text": "also die nicht so wie ich jetzt ein Online-Business haben, was auch sehr viele machen,",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1844.22,
+   "ende": 1873.42,
+   "text": "Also auch immer mehr, vor allem durch dieses DTV-Visum, weil das Visum, was wir haben, erlaubt uns ja nicht, in Thailand zu arbeiten und hier wirklich in Thailand, thailändisches Geld zu verdienen mit thailändischen Kunden, sondern wir erwirtschaften sozusagen digital, also online, unser Geld im Ausland mit ausländischen Kunden und können hier von diesem Geld dann leben, was wir dann, wenn wir länger als 180 Tage hier sind,",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1873.42,
+   "ende": 1881.28,
+   "text": "auch natürlich hier versteuern müssen, das nur mal so als kleine Randnotiz, aber wenn man jetzt wirklich hier vor Ort arbeiten möchte,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1881.46,
+   "ende": 1887.14,
+   "text": "dann braucht man eigentlich ein Arbeitserlaubnis, wenn man jetzt hier irgendwo angestellt wäre oder ein Business-Visum.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1887.78,
+   "ende": 1896.06,
+   "text": "Ein Arbeitserlaubnis ist sehr schwierig, also es stellen wenig wirklich Ausländer an, weil wenn man ein Business-Visum hat",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1896.06,
+   "ende": 1900.78,
+   "text": "oder in verschiedenen Konstrukten hier als Ausländer arbeitet, oft, oder auch nicht nur als Ausländer,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 1900.78,
+   "ende": 1907.6,
+   "text": "Also oft ist auch die Bedingung, dass eben Thailänder in diesem Unternehmen arbeiten müssen oder in dem Café, Restaurant, was auch immer.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1908.54,
+   "ende": 1913.66,
+   "text": "Das heißt, man arbeitet hier selten als klassischer Angestellter irgendwo.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1913.94,
+   "ende": 1917.54,
+   "text": "Es sei denn, man ist über seine eigene Firma hierhin versetzt worden.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1917.7,
+   "ende": 1924.74,
+   "text": "Gerade in Bangkok gibt es natürlich viele internationale Firmen, wo auch Ausländer einfach innerhalb der Firma versetzt wurden.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1924.88,
+   "ende": 1928.32,
+   "text": "Aber hier auf Koh Samui ist der Hauptsektor natürlich Tourismus.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1928.32,
+   "ende": 1934.6,
+   "text": "Das heißt, die Menschen, die hier so vor Ort leben und arbeiten und Ausländer sind, sind entweder in der Immobilienbranche oder in der Gastronomie.",
+   "avg_logprob": -0.039,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1935.08,
+   "ende": 1947.46,
+   "text": "Mit Immobilienbranche meine ich, dass sie entweder ein Haus bauen lassen, in Bauvorhaben investieren, Hotels übernehmen, Bungalow-Anlagen übernehmen",
+   "avg_logprob": -0.039,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1947.46,
+   "ende": 1972.9,
+   "text": "oder eben auch einfach bereits bestehende Gebäude kaufen, die dann vermieten oder größere Anlagen auch im kleinen Stil, also auch in einem Haus, also man mietet das sogenannte Subletting, also das habe ich ja auch schon mal erzählt, dass wir es auch überlegt hatten, man mietet sozusagen irgendwo für lange Zeit eine Unterkunft an und vermietet die dann an Touristen weiter,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1972.9,
+   "ende": 1988.74,
+   "text": "Weil ich ja, oder auch an langer Zeit auf jeden Fall, verdiene ich mein Geld damit, dass ich nur eine geringe Miete an den Besitzer zahle und ich aber eine höhere Miete an wiederum andere Ausländer abgebe. Das ist ja hier leider so eine Spirale, die auch die ganzen Mietpreise extrem in die Höhe getrieben hat.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1988.74,
+   "ende": 1998.9,
+   "text": "Aber eben, wie gesagt, auch einfach, ich kaufe ein Haus oder eine Hotelanlage und bin halt ganz klassisch im Tourismussektor tätig.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1999.04,
+   "ende": 2010.02,
+   "text": "Das ist zum Teil rechtens, zum Teil nicht. Also das ist hier halt eine große Grauzone. Bei manchen geht das jahrelang gut, bei anderen nicht.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 2010.08,
+   "ende": 2017.84,
+   "text": "Ich hatte das jetzt gerade die Woche auch in einer Instagram-Story. Hier gibt es auch super viele Bauruinen, wo Leute sich entweder verspekuliert haben",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 2017.84,
+   "ende": 2020.78,
+   "text": "oder eben festgestellt wurde, dass es nicht mit rechten Dingen zuging,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 2020.86,
+   "ende": 2023.24,
+   "text": "weil irgendwelche Visa-Vorschriften nicht beachtet wurden",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 2023.24,
+   "ende": 2027.06,
+   "text": "oder irgendwie zu viele Ausländer da mit drin hingen und so weiter",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 2027.06,
+   "ende": 2030.08,
+   "text": "und dann so eine Bauvorhaben auch einfach gestoppt werden.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 2030.76,
+   "ende": 2033.86,
+   "text": "Und das andere ist halt der Gastronomie-Sektor.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 2034.02,
+   "ende": 2038.72,
+   "text": "Das heißt, sage ich mal, der Klassiker, ich bin Deutscher, habe eine thailändische Frau,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 2038.88,
+   "ende": 2041.66,
+   "text": "also mache ich ein deutsches Restaurant auf.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 2042.2,
+   "ende": 2046.26,
+   "text": "Ich bin Italiener, habe eine thailändische Frau, also mache ich ein italienisches Restaurant auf.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 2046.26,
+   "ende": 2049.66,
+   "text": "Ich bin Japaner und habe eine thailändische Frau, also mache ich ein Sushi-Restaurant auf.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.93
+  },
+  {
+   "start": 2049.66,
+   "ende": 2059.24,
+   "text": "So ist halt eine ganz klassische Konstellation hier, also oft in Verbindung mit ich bin ein Farang und habe meistens eine thailändische Frau.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.93
+  },
+  {
+   "start": 2059.36,
+   "ende": 2064.64,
+   "text": "Es gibt natürlich auch Frauen, die thailändische Männer haben, aber das ist also Farang-Frauen, die thailändische Männer haben,",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.93
+  },
+  {
+   "start": 2064.74,
+   "ende": 2066.8,
+   "text": "aber das ist eher die Minderheit, zumindest sieht man das kaum.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.93
+  },
+  {
+   "start": 2067.7,
+   "ende": 2075.96,
+   "text": "Weil der Vorteil ist natürlich, wenn ich jetzt ein Farang bin und einen thailändischen Partner habe, ist diese ganze Business-Visa-Nummer wesentlich leichter.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.93
+  },
+  {
+   "start": 2076.26,
+   "ende": 2088.38,
+   "text": "Ähm, so dass genau sehr viele dann in diesem Gastrosektor arbeiten, ähm, was natürlich dann das gleiche ist, als wenn ich in meinem eigenen Land einen Gastronomiebetrieb hätte, ne.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2088.46,
+   "ende": 2098.14,
+   "text": "Also das heißt, diese Menschen arbeiten halt einfach wirklich auch von morgens bis abends jeden Tag, ähm, und, ähm, ja, haben, haben das dann wahrscheinlich nicht entschieden,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2098.14,
+   "ende": 2123.96,
+   "text": "um sich irgendwie die Füße hochzulegen und die Seele baumeln zu lassen, weil Gastro natürlich ein harter Job ist und der ist hier genauso hart, wie er in jedem anderen Land auch ist und jeder, der, glaube ich mal, hier dieses, wie heißt das, Goodbye Deutschland oder so mitverfolgt, sieht ja auch sehr viele scheitern, die dann meinen, ja, ich mache jetzt halt den Dönerladen da auf oder ich mache jetzt dieses und jenes auf und dann feststellen, dass das irgendwie doch alles gar nicht so einfach ist, wie sie dachten.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 2123.96,
+   "ende": 2152.34,
+   "text": "Aber im digitalen Nomadenbereich, sage ich jetzt mal, also die, die online arbeiten, auch hier gibt es die Möglichkeit, sich zu vernetzen. Ich weiß mindestens von einem sogenannten Business Lunch, das jeden Freitag stattfindet in Fisherman's Village, wo man eben als selbstständiger Online-Unternehmer hinkommen kann und andere treffen kann, die ähnliche Jobs machen.",
+   "avg_logprob": -0.05,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 2152.34,
+   "ende": 2171.06,
+   "text": "Ich war da persönlich noch nie, weil Netzwerktreffen für mich die absolute Hölle sind. Zumindest wenn ich alleine, also ich alleine in so eine Runde zu kommen, wo ich niemanden kenne und mich einfach dazu zu setzen oder zu stellen und irgendwie zu sagen, hey, ich bin Gert, ich mache das und das, was machst du so, ist für mich, geht gar nicht. Das finde ich ganz schlimm.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2171.6,
+   "ende": 2173.68,
+   "text": "Ich bewundere alle Menschen, die sowas können.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2174.86,
+   "ende": 2177.24,
+   "text": "Ja, aber deshalb gehe ich zu sowas nicht.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2177.8,
+   "ende": 2181.26,
+   "text": "Ich habe, sage ich mal, eher dann so ein Online-Netzwerk.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2181.8,
+   "ende": 2185.6,
+   "text": "Also ich kenne dann eher Leute, mit denen ich mich auch beruflich austausche,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2185.88,
+   "ende": 2188.16,
+   "text": "die ich dann aber eben auch nur online kenne.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2188.76,
+   "ende": 2193.08,
+   "text": "Aber auch da, wenn man eben jemand ist, der da Bock drauf hat,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2193.08,
+   "ende": 2198.02,
+   "text": "hier wirklich auch persönlich mit einem Business-Netzwerk sich aufzubauen,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2198.56,
+   "ende": 2203.66,
+   "text": "Auch der hat hier Möglichkeiten und auch in Bangkok, klar, das ist jetzt hier nicht um die Ecke,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2203.66,
+   "ende": 2207.74,
+   "text": "aber wenn man in München lebt, fährt man ja auch mal nach Berlin zu irgendeiner Konferenz.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2208.32,
+   "ende": 2213.24,
+   "text": "Und auch in Bangkok gibt es natürlich super viele Events im Business-Kontext.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2213.46,
+   "ende": 2216.8,
+   "text": "Also von daher ist man jetzt hier nicht irgendwie aufgeschmissen.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2217.92,
+   "ende": 2223.92,
+   "text": "Ja, also das heißt, um die Frage nochmal zusammenzufassen,",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 2223.92,
+   "ende": 2250.52,
+   "text": "Aus meiner Sicht ist es super leicht, hier sich ein Netzwerk aufzubauen, sowohl im Business-Kontext als auch im privaten Kontext. Viele Sachen funktionieren ähnlich wie auch in Deutschland, vor allem als Familie über Kinder und ohne Familie dann, wie gesagt, also wenn man keine Kinder hat und jetzt eben nicht vielleicht zu irgendwelchen Playdates sich verabredet, lernt man sich wahrscheinlich auch auf, was wir jetzt nicht so viel machen,",
+   "avg_logprob": -0.053,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2250.52,
+   "ende": 2277.78,
+   "text": "Wenn man abends irgendwie ausgeht oder in irgendwelchen Cafés vielleicht auch sitzt zum Arbeiten, auch das mache ich wenig. Viele mögen das ja auch, im Café zu arbeiten. Auch da würde man ja sofort Gleichgesinnte treffen. Das heißt, es gibt einfach super viele Anlaufstellen hier, wo man Menschen trifft, mit denen man sich connecten kann oder eben auch vorher digital connectet und sich dann im Real Life sozusagen hier verabreden kann.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 2278.78,
+   "ende": 2300.58,
+   "text": "Deshalb muss aus meiner Sicht keiner Sorge haben, wenn er jetzt mit dem Gedanken spielt, auszuwandern, sowohl für sich als auch für die Kinder, zu denken, ja, ich finde da keinen Anschluss oder ich finde da keine Freunde oder ja, ich lasse dann meine ganzen Freunde hinter mir und finde dann keine neuen, weil ich jetzt vielleicht schon zu alt bin oder so.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2300.58,
+   "ende": 2310.64,
+   "text": "Also ich glaube tatsächlich, dass das hier fast noch ein bisschen einfacher ist, als Erwachsener in Deutschland oder in seinem normalen Alltag neue Freundschaft zu schließen.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2311.82,
+   "ende": 2315.44,
+   "text": "So, gut, ich hoffe, ich habe jetzt hier 38 Minuten gesprochen.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2315.6,
+   "ende": 2318.76,
+   "text": "Wenn ich gleich versuche, das zu testen, dass das hier alles gut geklappt hat.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2319.38,
+   "ende": 2321.66,
+   "text": "Ansonsten kriege ich einen Nervenzusammenbruch.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 2322.96,
+   "ende": 2326.24,
+   "text": "Ja, und dann hören wir uns nächste Woche wieder. Bis dann!",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  }
+ ]
+}

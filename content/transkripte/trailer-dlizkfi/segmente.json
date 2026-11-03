@@ -1,0 +1,114 @@
+{
+ "meta": {
+  "slug": "trailer-dlizkfi",
+  "titel": "Trailer DLIZKFI",
+  "datum": "2025-05-16T11:12:50.000Z",
+  "dauer_sekunden": 86,
+  "guid": "d4dba676-33cd-4036-a7e8-5c164f31615e",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T08:27:56Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 6,
+   "transkription": 112
+  },
+  "echtzeitfaktor": 1.29,
+  "anzahl_segmente": 11,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.4,
+   "ende": 3.9,
+   "text": "Und dann saß ich hier ganz still, hab mich natürlich auch nicht bewegt und hab so, wie ich auch normal rede, da reingesprochen und hab das aufgenommen.",
+   "avg_logprob": -0.148,
+   "no_speech_prob": 0.802,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 4.2,
+   "ende": 8.02,
+   "text": "Aber wenn ich jetzt halt, wenn ich lauter rede, aber warum ist das, hast du jetzt was anderes eingestellt als vorher?",
+   "avg_logprob": -0.148,
+   "no_speech_prob": 0.802,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 8.92,
+   "ende": 14.44,
+   "text": "Achso, weil wenn ich jetzt aber so sprechen würde zum Beispiel, ne, dann ist das auf jeden Fall ja eine anstrengendere Art zu sprechen und vor allen Dingen ist es ja dann auch eher so ein bisschen strenger, sag ich mal.",
+   "avg_logprob": -0.148,
+   "no_speech_prob": 0.802,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 14.72,
+   "ende": 19.98,
+   "text": "Und nicht so locker flockig, weißt du? Und ich glaube, wenn ich so halb 20 oder 30 Minuten geredet habe, tut mir hammer doll der Hals weh und ich konzentriere mich so drauf, so schnell zu reden.",
+   "avg_logprob": -0.148,
+   "no_speech_prob": 0.802,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 19.98,
+   "ende": 22.82,
+   "text": "Und jetzt rede ich nochmal ganz normal, so wie ich es gemacht habe, weil ich eine ganz sanfte kleine Maus bin.",
+   "avg_logprob": -0.148,
+   "no_speech_prob": 0.802,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 22.82,
+   "ende": 34.32,
+   "text": "Ja, nochmal mehr. Ich habe den Podcast über die Schulpflicht aufgenommen, weil du kannst natürlich, übrigens hat in meinem Podcast dreimal mein WhatsApp hier gebingt, aber ich möchte einen Podcast haben, der nicht geschnitten ist, damit er total real ist und ich habe dann auch gesagt, dass du jetzt hier die ganze Zeit das hochbingst, obwohl ich dachte, ich hätte alles ausgemacht, aber dass das jetzt so normal ist.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 35.16,
+   "ende": 43.96,
+   "text": "Hallo, ich hoffe, ihr findet das genauso lustig wie ich. Also ich finde es super lustig und ich finde, wenn man über sein eigenes Intro so sehr lachen kann, dann muss es das auch einfach werden.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 43.96,
+   "ende": 51.24,
+   "text": "Mein Name ist Juliette. Ich bin eure Podcast-Hosterin von Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.115,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 52.1,
+   "ende": 59.58,
+   "text": "Hier wirst du in erster Linie spannende oder vielleicht auch nicht so spannende, je nachdem, wie du das findest, Geschichten aus meinem Leben hören.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.115,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 60.32,
+   "ende": 69.04,
+   "text": "Aber langfristig stelle ich mir natürlich hier auch Interviewpartner vor, die auch irgendetwas rund um das Thema Das Leben ist zu kurz für irgendwann zu sagen haben.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.115,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 69.04,
+   "ende": 81.92,
+   "text": "Das ist ja ein sehr breit gefächerter Spruch, Motto und ja, ich bin selbst gespannt, wie sich dieser Podcast hier entwickelt und ich freue mich, dass du dabei bist und wünsche dir ganz viel Spaß.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.29
+  }
+ ]
+}

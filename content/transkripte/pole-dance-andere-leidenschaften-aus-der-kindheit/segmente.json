@@ -1,0 +1,914 @@
+{
+ "meta": {
+  "slug": "pole-dance-andere-leidenschaften-aus-der-kindheit",
+  "titel": "Pole Dance & andere Leidenschaften aus der Kindheit",
+  "datum": "2025-07-14T06:30:05.000Z",
+  "dauer_sekunden": 932,
+  "guid": "5f925db1-72a1-49b2-b39b-bc16ea54abe2",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T08:21:33Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 4,
+   "transkription": 480
+  },
+  "echtzeitfaktor": 0.51,
+  "anzahl_segmente": 111,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 2.54,
+   "ende": 11.36,
+   "text": "Gerührt, also ich stand wirklich da und war den Tränen nah, weil mich das so berührt hat, wie diese beiden Frauen an diesen Stangen getanzt haben.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.068,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 11.68,
+   "ende": 25.02,
+   "text": "Und herzlich willkommen zu einer neuen Folge Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.068,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 25.84,
+   "ende": 34.5,
+   "text": "Ich hatte eingangs in meiner, ich glaube Einstiegsfolge war das, gesagt, dass ich ja nicht immer nur über das Auswandern reden möchte,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.068,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 34.5,
+   "ende": 45.42,
+   "text": "sondern vielleicht auch mal zu anderen Themen was sagen will und hatte dann angedeutet zum Beispiel, wie es ist, wenn man mit Ende 30 mit so einer Sportart wie Pole Dance anfängt.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 46.08,
+   "ende": 49.18,
+   "text": "Und da dachte ich mir, mache ich doch jetzt mal diese Folge.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 50.38,
+   "ende": 61.2,
+   "text": "Ich habe dann überlegt oder ich hatte, genau, ich habe das irgendwo gelesen oder gehört, dass gesagt wurde, man soll darüber nachdenken, was man als Kind gerne gemacht hat und was man aus den Augen verloren hat.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 61.76,
+   "ende": 69.58,
+   "text": "So manche haben vielleicht super gerne gepuzzelt als Kind oder andere sind total gerne auf Bäume geklettert und der Nächste hat halt gerne gemalt, was auch immer.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 70.54,
+   "ende": 75.2,
+   "text": "Und ich habe sofort daran gedacht, dass ich als Kind schon immer unglaublich gerne getanzt habe.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 75.2,
+   "ende": 79.76,
+   "text": "Also ich habe das nie professionell gemacht, aber ich war halt so eine Dirty Dancing Maus.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 79.96,
+   "ende": 86.04,
+   "text": "Ja, meine, die Freundin von meiner Mutter hat, sie hat dann immer heimlich für mich in der Videothek den Film ausgeliehen.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 86.64,
+   "ende": 90.86,
+   "text": "Ich habe die Videokassette dann immer unterm Sofa versteckt, damit meine Mutter die nicht findet.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 91.9,
+   "ende": 118.8,
+   "text": "Irgendwann hat sie es natürlich gefunden und nachdem sie sich völlig empört auch ihrer Freundin gegenüber es gar nicht fassen konnte, dass sie mir diesen Film ausgesehen hat, da war ich glaube ich fünf oder so, da wird ja auch schon ein bisschen geknutscht und so, ne? Und naja, das sollte ich dann natürlich nicht sehen, aber irgendwie, ich weiß gar nicht mehr wie, auf jeden Fall hat meine Mutter dann glaube ich verstanden, dass ich den Film wirklich gerne gucke und hat mir dann diese Videokassette gekauft.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 119.76,
+   "ende": 125.58,
+   "text": "die Hagen übrigens letztens bei eBay Kleinanzeigen zum Videorekorder als kleines Giveaway mit dazugegeben hat.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 125.58,
+   "ende": 134.74,
+   "text": "Ich konnte es nicht fassen, dass diese wertvolle Videokassette jetzt einfach so ein Beiwerk von so einem eBay Kleinanzeigenkauf ist.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 134.92,
+   "ende": 139.18,
+   "text": "Okay, auf jeden Fall hatte ich diese Videokassette, habe diesen Film hoch und runter geguckt jeden Tag",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 139.18,
+   "ende": 145.36,
+   "text": "und habe Hebefiguren auf der Sofa-Lehne gemacht und Tanzen war auf jeden Fall das, was ich immer sehr gerne gemacht habe.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 145.36,
+   "ende": 156.3,
+   "text": "Und dann dachte ich mir, hey, wenn ich jetzt hier ein Jahr bin und Zeit habe, dann kann ich doch mal damit anfangen und schauen, ob das stimmt mit, man soll etwas machen, was man als Kind super gerne gemacht hat.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 157.3,
+   "ende": 170.08,
+   "text": "Und dann war ich da in einem recht großen Tanzstudio auf Kusamo und habe dann halt so verschiedene Kurse, also einmal Twerken habe ich ausprobiert, dann Contemporary, wobei ich da nicht so mich reinfühlen kann.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 170.92,
+   "ende": 177.96,
+   "text": "Naja, und auf jeden Fall fiel dann irgendein Kurs aus und dann sagte die Besitzerin, ja, kannst du nicht zum, du kannst heute zum Pole kommen.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 178.1,
+   "ende": 180.54,
+   "text": "Ich sage, nee, ich kann bestimmt nicht zum Pole Dance kommen.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 180.54,
+   "ende": 186.14,
+   "text": "Ich kann gar nichts, ich habe noch nie Gymnastik gemacht, Akrobatik oder irgendwas in dieser Richtung.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 188.04,
+   "ende": 191.46,
+   "text": "Ich hatte mir da Videos angeguckt und dachte, auf gar keinen Fall kann ich zum Pole Dance kommen.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 192.28,
+   "ende": 197.44,
+   "text": "Naja, und sie hat mich dann irgendwie trotzdem überredet und meinte, da ist halt nur eine, die macht das schon ein bisschen länger.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 197.44,
+   "ende": 209.84,
+   "text": "Und wenn kein zweiter kommt, fällt der Kurs für sie wieder aus und probier es doch mal aus. Und jeder fängt ja mal irgendwann an und so. Und dann dachte ich, ja gut, dann gehe ich da halt hin. Irgendwie tat mir das dann für die andere leid.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 210.8,
+   "ende": 219.66,
+   "text": "Und da war da so eine russische Trainerin, die mich dann erstmal völlig, also so, ja und wie lange machst du schon Puls?",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 219.66,
+   "ende": 224.14,
+   "text": "Und ich so, ja, na, gar nicht bisher. Und dann hat sie auch schon so sinngemäß, ja und was willst du dann hier?",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 224.2,
+   "ende": 228.26,
+   "text": "Und dann habe ich halt gesagt, ja, so und so war das. Und sie so, ja, ob ich sonst irgendeinen Sport mache?",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 228.34,
+   "ende": 232.46,
+   "text": "Ich sage, ja, Yoga. Da hat sie dann schon so mit den Augen gerollt, so sinngemäß, das ist doch kein Sport.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 233.38,
+   "ende": 237.6,
+   "text": "Und dann meinte sie, ja, dann, naja, dann bist du jetzt hier, dann mach mal mit, ne.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 237.6,
+   "ende": 254.4,
+   "text": "Ja, und dann habe ich mir erst mal das angeguckt, was die da gemacht haben, haben da so eine Choreografie getanzt und dann war ich so gerührt. Also ich stand wirklich da und war den Tränen nah, weil mich das so berührt hat, wie diese beiden Frauen an diesen Stangen getanzt haben.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 254.4,
+   "ende": 277.94,
+   "text": "Und ich glaube, wenn jetzt hier jemand, also dass viele, die jetzt zuhören, ohne jetzt irgendwelche Vorurteile sagen, aber ich glaube vor allem Männer, die zuhören, sich natürlich unter Pol-Dance was ganz anderes vorstellen und ich will nicht lügen, ich habe diese Vorstellung natürlich auch gehabt, weil das das Einzige war, was ich davon kannte, aber als ich da stand, da war mein Gedanke, das ist Kunst.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 277.94,
+   "ende": 293.52,
+   "text": "Ja, also es war für mich wirklich Kunst, was die da gemacht haben. Und ich fand das so beeindruckend und habe sofort auch einfach so einen tiefen Respekt vor allen Frauen bekommen, die diese Sportart machen, aber auch die diesen Beruf machen.",
+   "avg_logprob": -0.039,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 293.52,
+   "ende": 316.7,
+   "text": "Weil egal, ob man jetzt irgendwie der Meinung ist, dass man, wenn man da ein Stück weit seinen Körper präsentiert und verkauft, also wenn wir jetzt mal nicht im akrobatischen Sinne denken, sondern in dem Sinne, womit viele Pole Dance verbinden, auch wenn man das nicht gut heißen mag, hatte ich trotzdem so einen tiefen Respekt vor diesen Frauen, weil es einfach so, was die da leisten.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 316.7,
+   "ende": 331.66,
+   "text": "Das ist wirklich eine unfassbar kraftintensive Sportart und die, die das wirklich professionell machen, die leisten einfach so viel, das ist der absolute Wahnsinn. Auf jeden Fall habe ich dann gedacht, okay, mache ich da, versuche ich das mal.",
+   "avg_logprob": -0.045,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 331.66,
+   "ende": 352.42,
+   "text": "Aber sie hat dann auch gesagt, dieses tänzerische, wirklich diese Choreografientanzen ist eigentlich der zweite Schritt. Also ich rede jetzt von dem Studio in Thailand. Auch hier in Deutschland werden Sachen wieder anders praktiziert. Mach erst mal den Kurs Pole Sports, nannte sich das, wo man wirklich dann so die Grundlagen an der Stange kennenlernt.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 353.38,
+   "ende": 359.48,
+   "text": "Und ja, als ich da das erste Mal war, dachte ich so, okay, ich habe einfach mal überhaupt gar keine Muskeln irgendwo in meinem Körper.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 359.48,
+   "ende": 365.7,
+   "text": "Ja, also es hat einfach nicht, also man braucht so viel Kraft und ich hatte das Gefühl, ich habe einfach gar keine.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 367.08,
+   "ende": 375.34,
+   "text": "Dann hatte ich, meine ganzen Hände waren offen, meine Kniekehlen waren blau, alles war rot, es hat einfach alles nur wehgetan.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 376.32,
+   "ende": 388.42,
+   "text": "Und irgendwie war es aber trotzdem danach so, wo ich dachte, boah, geil, richtig geil, weil es einfach, es hat einen total verausgabt und man hatte keine Zeit, irgendwie über irgendwas nachzudenken oder so.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 388.42,
+   "ende": 397.44,
+   "text": "Man musste sich so konzentrieren, da mitzukommen und irgendwie das zu verstehen, dass mich das eigentlich auf Anhieb begeistert hat.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 397.44,
+   "ende": 416.38,
+   "text": "Und ich habe dann auch noch in dem gleichen Studio, also nachdem ich eine Weile da war und so ein bisschen auch gemerkt habe, okay, mir macht das Spaß, habe ich halt überlegt, was ich noch machen kann, weil man kann es halt auch nicht jeden Tag machen, also kann man schon, aber wenn man es jetzt so als Hobby macht, dann ist es auch einfach zu krass für den Körper.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 416.38,
+   "ende": 422.52,
+   "text": "und dann sagt man schon, such dir vielleicht noch eine andere Sportart, so als Gegenpart.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 422.94,
+   "ende": 429.5,
+   "text": "Und dann gab es noch dort Aerial Hoop, also das sind diese Metallringe, das kennt man auch aus dem Zirkus.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 430.4,
+   "ende": 435.18,
+   "text": "Und dann an den Tüchern nennt sich dort Aerial Silks, ist auch immer verbreitet,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 435.3,
+   "ende": 438.34,
+   "text": "da sieht man inzwischen auch auf vielen Shows oder im Zirkus.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 439.7,
+   "ende": 444.78,
+   "text": "Und das mit den Tüchern hat mich aber irgendwie nicht so gereizt und dann habe ich noch mit dem Ring angefangen",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 444.78,
+   "ende": 457.3,
+   "text": "Und das hat mich auch total begeistert, weil das tatsächlich nicht so schwer ist, also im Vergleich zu Pole Dance ist zumindest meine Meinung. Und ja, da hat man relativ schnell Fortschritte gemacht.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.33
+  },
+  {
+   "start": 457.3,
+   "ende": 477.88,
+   "text": "Und ja, so bin ich dann. Ich war, als ich damit anfing, 39 oder bin dann 39 geworden, genau. Und hätte natürlich nie für möglich gehalten, wenn mir das irgendwer gesagt, also wie gesagt, als sie beim ersten Mal meinte, er kommt nochmal zur Polklasse, habe ich gedacht, hä, auf keinen Fall.",
+   "avg_logprob": -0.125,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 477.88,
+   "ende": 500.1,
+   "text": "Aber auch so hätte ich mal irgendwann mit jemandem darüber geredet, der hätte, glaube ich, behauptet, dass man solche Sportarten mit Akrobatik und wo man irgendwie gelenkig sein muss und so viel Kraft haben muss und dass man das mit 39 nicht mehr anfangen braucht, weil ich irgendwie wahrscheinlich gedacht hätte, was weiß ich, der Körper ist dann so gebrechlich oder was, keine Ahnung, was ich gedacht hätte.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 500.1,
+   "ende": 529.12,
+   "text": "Aber auf jeden Fall hätte ich, glaube ich, schon gesagt, nee, ach, dafür bin ich jetzt zu alt. Und irgendwie hatte ich gar nicht die Chance, darüber nachzudenken, ob ich dafür zu alt bin, weil ich ja einfach da so reingerutscht bin. Und jetzt einfach im Laufe der Zeit, also ich bin nach wie vor, gerade jetzt hier, wenn wir wieder zurück sind, erstmal den Ring, also in Rostock gibt es nirgendwo, wo ich das, also keine Trainer dafür, man kann im Zirkus bei uns so einen Ring aufhängen und dann selber üben.",
+   "avg_logprob": -0.034,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 529.12,
+   "ende": 550.76,
+   "text": "Aber dafür bin ich einfach nicht gut genug, um mir das selber beizubringen. Und ich konnte hier zwar Pole Dance weitermachen, ich habe dann hier in Deutschland tatsächlich auch nochmal mit den Tüchern angefangen und konnte an sich diese Sportart weiter ausführen, aber natürlich nicht so intensiv, einfach vom Zeitfaktor her, weil man ja hier dann doch wieder mehr Alltag hat.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 550.76,
+   "ende": 553.26,
+   "text": "Die Kinder haben Sport, Schule, Kindergarten.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 553.54,
+   "ende": 559.38,
+   "text": "Naja, der Tagesablauf, wie er halt so ist, ist natürlich anders, als wenn man ein Jahr irgendwie Holiday in Santa Fe hat.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 560.14,
+   "ende": 567.96,
+   "text": "Und demnach bin ich jetzt nach wie vor noch nicht irgendwie auf so einem Level, wo man jetzt sagen würde, hey, die kann es jetzt richtig gut oder so.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 567.96,
+   "ende": 569.68,
+   "text": "Aber das ist auch okay.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 569.98,
+   "ende": 573.52,
+   "text": "Also ich bin ja, habe ja jetzt nicht vor, irgendwo aufzutreten oder so.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 574.78,
+   "ende": 577.56,
+   "text": "Aber auf jeden Fall habe ich es halt weitergemacht.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 577.68,
+   "ende": 580.74,
+   "text": "Und man merkt natürlich, je öfter man es macht, desto besser wird man auch.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 581.62,
+   "ende": 590.24,
+   "text": "Und ich hätte es einfach tatsächlich nicht für möglich gehalten, dass man so einen akrobatischen Sport lernen kann.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 590.24,
+   "ende": 599.58,
+   "text": "Auf der anderen Seite hat mir das aber auch gezeigt, dass alles, also man sieht irgendwas, wenn mir jetzt einer sagen würde, was weiß ich, fang mal mit Fußball an, ja, wäre jetzt auch was.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 600.1,
+   "ende": 604.86,
+   "text": "Wo ich sagen würde, mal abgesehen davon, dass mich die Sportart nicht interessiert, aber ist ja wurscht.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 604.86,
+   "ende": 624.62,
+   "text": "Und ich würde trotzdem sagen, ich habe keine Ahnung von Fußball, also ich habe keine Ahnung von den Regeln, ich habe überhaupt keine Ahnung von der Dynamik da in so einem Team und so weiter und würde dann auch behaupten, ja, ich brauche ja jetzt mit Anfang 40 nicht mehr mit Fußball anzufangen, weil mir da einer ein Bein stellt und ich hinfliege, dann habe ich mir wahrscheinlich gleich alles gebrochen.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 624.62,
+   "ende": 633.9,
+   "text": "So, ne? Natürlich nicht, weil auch wenn ich von der Stange runterfalle, breche ich mir ja auch nicht sofort alles. Kann immer passieren, aber kann dir halt auch bei allen anderen Sachen passieren.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 634.6,
+   "ende": 648.46,
+   "text": "So, will nur sagen, dass ich oft Sportarten oder Dinge von außen sehe und denke, boah krass, wie kann man sowas können? Also ich kann mir nicht vorstellen, dass man zu sowas fähig ist, ja, weil man überhaupt nicht die Technik dahinter versteht.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 648.46,
+   "ende": 671.62,
+   "text": "Und genau das ist aber der Punkt, wenn man etwas lernt, natürlich kann man es nicht sofort, sondern man lernt es wie bei allen anderen Dingen im Leben auch Schritt für Schritt von Anfang an und es gibt dann ja einfach, sag ich jetzt mal, einzelne Steps in so eine Hebefigur oder in so eine Rolle oder in keine Ahnung was, ja, wie man da hinkommt.",
+   "avg_logprob": -0.049,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 671.62,
+   "ende": 698.46,
+   "text": "Man ist ja nicht beim Training und dann sagt einer so, jetzt mach das mal, sondern es wird einem ja gezeigt, wie man da hinkommt. Und diese einzelnen Schritte, die kann man natürlich lernen, egal wie alt man ist. Und solange einem das Spaß macht, also selbst wenn man am Anfang denkt, okay, ich habe die Fitness dafür nicht, ich habe die Ausdauer nicht, ich habe die Kraft nicht, genauso wie mit Laufen, ja, habe ich auch immer gedacht, naja, es gibt halt so Leute, die laufen schon ihr ganzes Leben und irgendwann laufen die halt einen Marathon.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 698.46,
+   "ende": 700.52,
+   "text": "und ich gehöre halt nicht dazu.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 701.66,
+   "ende": 705.8,
+   "text": "Nichtsdestotrotz habe ich immer wieder mich im Laufen versucht, im Joggen,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 706.3,
+   "ende": 708.88,
+   "text": "habe es auch mal eine Zeit lang wirklich eine Weile durchgezogen,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 709.52,
+   "ende": 713.32,
+   "text": "bin dann auch mal fünf Kilometer gelaufen, wo ich früher halt auch gedacht hätte,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 713.76,
+   "ende": 717.9,
+   "text": "keine Ahnung, ich schaffe hier eine Runde um den Sportplatz und dann war es das",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 717.9,
+   "ende": 722.64,
+   "text": "und konnte dann irgendwann trotzdem auch fünf Kilometer laufen, ohne zu sterben.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 723.44,
+   "ende": 728.26,
+   "text": "Und deshalb, also alles, wenn man es möchte und wenn man Bock darauf hat",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 728.26,
+   "ende": 744.36,
+   "text": "Und wenn es einem Glücksgefühle gibt, dann ist es völlig egal, wie alt man ist, dann kann man das lernen. Hagen macht zum Beispiel Kitesurfen. Ich meine, er macht das jetzt schon 15 Jahre, aber das ist auch so ein Sport, wo auch tatsächlich viele ältere Leute dabei sind.",
+   "avg_logprob": -0.053,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.36
+  },
+  {
+   "start": 744.36,
+   "ende": 759.66,
+   "text": "Also es ist wirklich von jung bis alt. Heinrich hat damit ja auch schon angefangen. Aber man sieht auf dem Wasser auch wirklich noch ältere Leute, wobei ich weiß auch gar nicht, wenn man jetzt Anfang 40 ist, wir sind ja auch dann schon ältere Leute für viele Menschen.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 760.58,
+   "ende": 762.06,
+   "text": "Aber na, ihr wisst, was ich meine, ja.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 762.18,
+   "ende": 767.12,
+   "text": "Also da sind dann halt schon Leute auf dem Wasser, wo man vielleicht denkt,",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 767.2,
+   "ende": 769.92,
+   "text": "okay, es könnte mein Vater sein oder es könnte mein Opa sein.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 771.02,
+   "ende": 773.96,
+   "text": "Also auch das ist ja eigentlich eine Sportart, wo man von außen vielleicht denken würde,",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 774.08,
+   "ende": 775.36,
+   "text": "okay, never ever könnte ich sowas.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 775.46,
+   "ende": 779.18,
+   "text": "Im Übrigen habe ich auch mal einen Kite-Kurs gemacht und habe auf jeden Fall weiterhin für mich befunden,",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 779.3,
+   "ende": 780.46,
+   "text": "never ever könnte ich sowas.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 781.2,
+   "ende": 782.58,
+   "text": "Aber ich habe es halt ausprobiert.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 783.36,
+   "ende": 786.9,
+   "text": "Und ja, also, lange Rede, kurzer Sinn.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 786.9,
+   "ende": 808.26,
+   "text": "Denn ich wollte nur damit sagen, dass wenn, also dass gerade sowas, ja, also ich finde dieses, das Leben ist zu kurz für irgendwann, gerade bei solchen Sachen wie ich möchte eine neue Sportart lernen oder ich wollte schon immer Klavier spielen lernen oder ich würde gerne singen können oder ich würde gerne malen können, egal was es ist, ja.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 808.26,
+   "ende": 812.84,
+   "text": "Man ist auf gar keinen Fall zu alt dafür, egal in welchem Alter man ist.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 813.76,
+   "ende": 824.36,
+   "text": "Deshalb hoffe ich, dass ich jetzt den einen oder anderen mit meiner Pole-Dance-Story dazu motivieren konnte, mit irgendetwas Neuem zu beginnen.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 824.6,
+   "ende": 826.84,
+   "text": "Irgendetwas, was du als Kind gerne gemacht hast.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 827.0,
+   "ende": 828.3,
+   "text": "Denk wirklich mal drüber nach.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 829.02,
+   "ende": 832.74,
+   "text": "Und vielleicht machst du ja auch schon was, was du als Kind auch schon gerne gemacht hast.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 832.8,
+   "ende": 833.92,
+   "text": "Dann natürlich top, ja.",
+   "avg_logprob": -0.132,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 834.48,
+   "ende": 838.26,
+   "text": "Aber vielleicht sind ja auch noch Sachen dabei, die du als Kind total gerne gemacht hast,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 838.38,
+   "ende": 839.72,
+   "text": "die du aus den Augen verloren hast.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 840.16,
+   "ende": 842.6,
+   "text": "Und bitte tu mir den Gefallen, probiere es einfach nochmal aus.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 842.72,
+   "ende": 844.7,
+   "text": "Mach es einfach nochmal ein, zwei, drei Mal.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 845.2,
+   "ende": 847.38,
+   "text": "Und wenn es zum Beispiel Singen ist, dann geht es ja nicht darum,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 847.48,
+   "ende": 851.86,
+   "text": "dass du irgendwann berühmt wirst, ja, und auf einer Bühne stehst,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 851.98,
+   "ende": 855.34,
+   "text": "weil vielleicht ist dafür wirklich der Zug schon abgefahren.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 856.68,
+   "ende": 860.12,
+   "text": "Aber vielleicht ist es die nächste Hochzeit bei jemandem",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 860.12,
+   "ende": 887.9,
+   "text": "Oder vielleicht auch einfach nur für dich, ja, oder für, keine Ahnung, für jemanden, den du gerne hast oder du, wenn du doch noch versuchst berühmt zu werden, lädst du irgendwelche YouTube-Videos hoch. Das ist ja alles der zweite Schritt. Ich will nur sagen, nicht, nicht dich davon abhalten lassen, weil man vielleicht irgendwie vermeintlich damit nichts mehr erreicht oder weil man nicht Profi genug dann darin wird oder so, sondern wirklich einfach nur für dich, ja, um einer Leidenschaft nachzugehen, die irgendwann mal in dir gebrodelt hat.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 887.9,
+   "ende": 890.58,
+   "text": "und es einfach nochmal auszuprobieren.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 890.7,
+   "ende": 894.32,
+   "text": "Vielleicht merkt man ja auch, okay, war als Kind geil auf Bäume klettern.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 894.82,
+   "ende": 897.16,
+   "text": "Jetzt finde ich es irgendwie so mit 50 nicht mehr so geil.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 897.74,
+   "ende": 900.46,
+   "text": "Aber ja, vielleicht ist es auch richtig cool",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 900.46,
+   "ende": 903.46,
+   "text": "und du fängst dann an zu bouldern oder keine Ahnung was.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 904.0,
+   "ende": 909.04,
+   "text": "Also, berichtet mir gerne, wenn ihr irgendwas für euch jetzt ausprobiert",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 909.04,
+   "ende": 911.3,
+   "text": "und dann sagt, hey, das habe ich nur gemacht,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 911.4,
+   "ende": 912.98,
+   "text": "weil Juliette das im Podcast gesagt hat,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 913.4,
+   "ende": 915.16,
+   "text": "würde ich mich auf jeden Fall mega freuen,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 915.3,
+   "ende": 917.1,
+   "text": "wenn ihr mich daran teilhaben lasst.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 917.9,
+   "ende": 923.12,
+   "text": "Gut, dann hören wir uns nächste Woche wieder und schön, dass ihr wieder da wart. Bis dann!",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.08
+  }
+ ]
+}

@@ -1,0 +1,1218 @@
+{
+ "meta": {
+  "slug": "was-darf-sich-verandern-obwohl-es-mal-dein-traum-war-eine-frage-fur-den-sommer",
+  "titel": "Was darf sich verändern, obwohl es mal dein Traum war? Eine Frage für den Sommer",
+  "datum": "2026-08-10T03:17:06.000Z",
+  "dauer_sekunden": 994,
+  "guid": "f7a0ba86-3e99-4024-b4df-205edceed517",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T06:27:27Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 6,
+   "transkription": 997
+  },
+  "echtzeitfaktor": 1.0,
+  "anzahl_segmente": 149,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 1.36,
+   "ende": 19.07,
+   "text": "Das passt jetzt eigentlich gar nicht mehr so richtig zu meiner Lebenssituation und es fällt dir dann aber vielleicht schwer, das irgendwie loszulassen, weil es eben immer dein Traum war.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.052,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 24.95,
+   "ende": 29.69,
+   "text": "Hallo und herzlich willkommen zu einer neuen Folge DLIZKFI – Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.052,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 30.63,
+   "ende": 41.89,
+   "text": "Heute mit der letzten Folge zur Sommerserie. Eine Frage für den Sommer. Also heute bin ich mit der sechsten Frage dabei. Das heißt, wir haben es jetzt sechs Wochen gemacht.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.052,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 42.91,
+   "ende": 47.43,
+   "text": "Es sind natürlich noch nicht überall die Sommerferien vorbei und der Sommer sowieso nicht.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 47.63,
+   "ende": 49.83,
+   "text": "Und der ist ja auch in Deutschland recht schön, habe ich gehört.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 51.49,
+   "ende": 55.27,
+   "text": "Genau, aber ich habe halt auch ein bisschen was zu erzählen, weil wir umgezogen sind und so.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 55.39,
+   "ende": 58.97,
+   "text": "Und deswegen dachte ich, ja, reicht es jetzt mit den kurzen Folgen.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 59.65,
+   "ende": 64.95,
+   "text": "Ab nächster Woche gibt es dann wieder ganz normal die Folgen, was hier so passiert und so.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 65.63,
+   "ende": 71.71,
+   "text": "Aber die letzte Frage für den Sommer ist auch so ein bisschen, auch so ein ganz bisschen was damit zu tun.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 71.71,
+   "ende": 90.41,
+   "text": "Beziehungsweise ist das gleich so ein Beispiel, was ich dafür nehmen konnte mit dem Umzug. Denn die Frage lautet, welcher Traum darf gehen oder was in deinem Leben darf gehen, von dem du dachtest, dass es immer dein Traum wäre?",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 91.01,
+   "ende": 93.19,
+   "text": "Also, das ist jetzt ein bisschen kompliziert ausgedrückt.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.091,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 93.29,
+   "ende": 97.03,
+   "text": "Ich muss mir natürlich für den Titel der Folge das nochmal ein bisschen kompakter überlegen.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.091,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 97.03,
+   "ende": 102.91,
+   "text": "Aber die Frage zieht daraus ab, du kennst das ja wahrscheinlich oder hoffentlich,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.091,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 103.19,
+   "ende": 106.43,
+   "text": "dass man dann irgendwie so einen Traum hat, auf den man dann hinarbeitet.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.091,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 107.01,
+   "ende": 112.79,
+   "text": "Und dann stellt man vielleicht irgendwann fest, dass das gar nicht mehr so der Traum ist",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.091,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 112.79,
+   "ende": 115.79,
+   "text": "oder dass der Traum eigentlich gar nicht mehr so zu einem passt.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.091,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 115.79,
+   "ende": 133.99,
+   "text": "Also entweder ist man noch dabei, ihn zu verwirklichen und merkt da schon, dass der Wunsch vielleicht doch gar nicht mehr so groß ist oder dass man es sich vielleicht irgendwann mal anders ausgemalt hat und jetzt rennt man dem vielleicht einfach nur hinterher, weil man immer dachte, es wäre der Traum.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 133.99,
+   "ende": 152.05,
+   "text": "Oder man ist halt schon da drin und verwirklicht ihn schon und stellt dann fest, das passt jetzt eigentlich gar nicht mehr so richtig zu meiner Lebenssituation und es fällt dir dann aber vielleicht schwer, das irgendwie loszulassen, weil es eben immer dein Traum war.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 152.05,
+   "ende": 176.21,
+   "text": "Also ein ganz klassisches Beispiel ist, das ist jetzt nicht von mir, ich habe das aber schon häufig gehört von Bekannten, die zum Beispiel seit ihrer Jugend den Traum hatten, dass sie irgendwann mal ein Haus haben werden, dass sie ein Haus bauen werden und dass sie eben entweder eins bauen oder eins kaufen und dann ihr Eigentum haben mit Garten und allem Pipapo und diesen Traum auch irgendwann verwirklichen.",
+   "avg_logprob": -0.038,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 176.21,
+   "ende": 181.91,
+   "text": "und dann aber feststellen, dass das irgendwie doch ganz schön anstrengend ist und dass",
+   "avg_logprob": -0.03,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 181.91,
+   "ende": 186.39,
+   "text": "das viel Geld frisst und dass das viel Zeit frisst und dass man sich zwar diesen Traum",
+   "avg_logprob": -0.03,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 186.39,
+   "ende": 192.09,
+   "text": "verwirklicht hat, aber einfach dann merkt, dass es eben nicht alles nur toll ist, was",
+   "avg_logprob": -0.03,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 192.09,
+   "ende": 195.73,
+   "text": "damit verbunden ist, ein Haus zu haben, sondern dass da eben sehr, sehr viel Arbeit drin steckt",
+   "avg_logprob": -0.03,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 195.73,
+   "ende": 200.69,
+   "text": "und sie sich manchmal wünschen, einfach nur eine Mietswohnung zu haben, vielleicht mit",
+   "avg_logprob": -0.03,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 200.69,
+   "ende": 205.73,
+   "text": "einem kleinen Balkon oder so, damit sie einfach wieder mehr Zeit und eben auch mehr Geld",
+   "avg_logprob": -0.03,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 205.73,
+   "ende": 226.43,
+   "text": "Es gibt ja Menschen, die fahren, keine Ahnung, zehn Jahre oder so nicht mehr in Urlaub, weil sie halt das ganze Geld ins Haus stecken müssen. Oder die sagen, jedes Wochenende bin ich irgendwie im Garten, muss Rasen mähen, muss Unkraut zupfen und so weiter und ich kann meinen Garten eigentlich gar nicht genießen, weil ich die meiste Zeit damit beschäftigt bin, den zu pflegen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 226.43,
+   "ende": 231.57,
+   "text": "und es fällt dann aber trotzdem den meisten Menschen wirklich sehr schwer,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 232.25,
+   "ende": 235.97,
+   "text": "diesen Traum aufzugeben, also sprich, dieses Haus aufzugeben",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 235.97,
+   "ende": 239.05,
+   "text": "und dann vielleicht wirklich in eine Wohnung zu ziehen.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 239.93,
+   "ende": 243.53,
+   "text": "Mit aufgeben muss es ja jetzt nicht immer heißen, ich muss das Haus verkaufen,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 243.53,
+   "ende": 248.69,
+   "text": "aber man könnte es ja zum Beispiel vermieten und dann eben selber auch in eine Mietswohnung ziehen.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 248.93,
+   "ende": 251.83,
+   "text": "Ich kenne tatsächlich nur zwei Menschen, die das gemacht haben,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 251.83,
+   "ende": 258.37,
+   "text": "die wirklich, also einer der hat das glaube ich schon nach ein oder zwei Jahren",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 258.37,
+   "ende": 262.53,
+   "text": "ist ja sozusagen von einer Stadt in die andere gezogen, weil da Familie war",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 262.53,
+   "ende": 267.75,
+   "text": "Kind bekommen, Haus bauen, Nestbau, dieses wir müssen ja an der Familie sein und so weiter",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 267.75,
+   "ende": 270.41,
+   "text": "und hat dann irgendwie nach einem Jahr schon festgestellt",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 270.41,
+   "ende": 273.49,
+   "text": "oder die Familie insgesamt, also Mutter, Vater, Kind",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 273.49,
+   "ende": 275.87,
+   "text": "das Kind war ein Baby, das hat sie natürlich nicht festgestellt",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 275.87,
+   "ende": 281.53,
+   "text": "aber dass halt dieser vermeintliche Traum dann mit einem Kind ein Haus zu haben",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 281.53,
+   "ende": 287.95,
+   "text": "bei der Familie wohnen, gar nicht unbedingt das ist, was man sich fürs eigene Leben vorstellt",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 287.95,
+   "ende": 292.51,
+   "text": "und was dann zum eigenen Leben passt, weil man vorher vielleicht in einer größeren Stadt gewohnt hat,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 292.57,
+   "ende": 297.55,
+   "text": "wo mehr los war und ja, wo man einfach einen anderen Lifestyle hatte und dann irgendwie ein Haus",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 297.55,
+   "ende": 304.17,
+   "text": "auf dem Dorf gekauft hat in der Nähe von der Familie und dann den Mut zu haben, zu sagen,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 305.03,
+   "ende": 309.43,
+   "text": "das passt einfach nicht zu mir und dann wirklich auch nach einem Jahr zu sagen,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 309.43,
+   "ende": 316.77,
+   "text": "sagen, okay, diese ganze Haus-Dorf-Nummer lassen wir wieder und dann wieder zurückzugehen in die Stadt,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 316.89,
+   "ende": 322.33,
+   "text": "also in die größere Stadt, in eine Wohnung zu gehen und sich dann wirklich auch freier zu fühlen",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 322.33,
+   "ende": 326.69,
+   "text": "und zu sagen, hey, das war eine total gute Entscheidung, weil ich jetzt einfach wieder mehr Zeit habe",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 326.69,
+   "ende": 333.35,
+   "text": "und ja, auch diesen Lifestyle wieder habe, den ich vorher hatte, auch wenn der natürlich mit Kind sich trotzdem verändert,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 333.35,
+   "ende": 339.09,
+   "text": "aber wirklich nicht krampfhaft an diesem Haus festzuhalten, obwohl man damit unglücklich ist,",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 339.43,
+   "ende": 348.11,
+   "text": "Also kenne ich, die das jetzt so gemacht hat, nur eine Person und dann noch eine andere Person, die halt einfach wirklich durch einen Wegzug dann gesagt hat,",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.94
+  },
+  {
+   "start": 348.11,
+   "ende": 354.25,
+   "text": "okay, wenn wir jetzt umziehen, dann kaufen wir da kein neues Haus oder bauen da kein neues Haus, sondern nehmen uns dann halt einfach eine Wohnung.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.94
+  },
+  {
+   "start": 354.93,
+   "ende": 361.29,
+   "text": "Und auch da dann wirklich vorher vielleicht schon ein bisschen die Angst, dass okay, wie ist das, wenn man wirklich weniger Platz hat?",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.94
+  },
+  {
+   "start": 361.35,
+   "ende": 366.13,
+   "text": "Wie ist das, wenn ich eben keinen Garten mehr habe, sondern nur einen Balkon? Wie ist das, wenn es nicht mehr meins ist?",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.94
+  },
+  {
+   "start": 366.63,
+   "ende": 376.91,
+   "text": "Und auch diese Person war total erleichtert dann und kann halt wirklich genießen, jetzt einfach die Wochenenden was unternehmen zu können und in Urlaub fahren zu können und so weiter.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 377.35,
+   "ende": 387.97,
+   "text": "Aber ich glaube, die wenigsten machen das. Die wenigsten trauen sich das und die wenigsten können sich das auch eingestehen, dass sie das vielleicht doch gar nicht mehr wollen.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 388.03,
+   "ende": 394.45,
+   "text": "Ob jetzt nach einem Jahr oder nach zehn Jahren, weil natürlich so ein Hausbau und so weiter auch einfach so ein großer Traum ist.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 394.45,
+   "ende": 411.39,
+   "text": "Und wenn man sich den dann irgendwann verwirklicht hat, dann ist es, glaube ich, wirklich auch schwer, wieder zurückzugehen und sich wieder zu verkleinern. Und das hat ja auch was mit Status zu tun und so weiter. Und ähnlich ist es ja auch jetzt, sage ich mal, mit uns, mit der Auswanderung.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 412.33,
+   "ende": 418.33,
+   "text": "Wir haben von Anfang an gesagt, wenn wir realisieren, dass das irgendwie alles nicht so ist,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 418.39,
+   "ende": 421.69,
+   "text": "wie wir uns das vorgestellt haben, ob jetzt nach zwei Jahren, also wir haben uns eigentlich gesagt,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 421.75,
+   "ende": 425.85,
+   "text": "wir geben uns auf jeden Fall zwei Jahre, weil wir ja schon mal ein Jahr weg waren",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 425.85,
+   "ende": 427.71,
+   "text": "und es muss ja irgendwie länger sein als vorher.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 429.79,
+   "ende": 433.87,
+   "text": "Manche haben verstanden mit, wir geben uns zwei Jahre, dass wir nach zwei Jahren erstmal wieder zurückkommen.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 433.95,
+   "ende": 438.15,
+   "text": "So ist das nicht gemeint, aber wir haben von Anfang an gesagt, okay, zwei Jahre sollte man schon durchhalten.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.88
+  },
+  {
+   "start": 438.15,
+   "ende": 459.07,
+   "text": "Aber egal, ob jetzt nach zwei Jahren oder auch nach acht Jahren oder nach 15 Jahren, wenn man halt irgendwann das Gefühl hat, ja, es ist irgendwie doch nicht mehr so cool, wie man, obwohl es immer der Traum war, dann würde man das Zurückgehen nicht als scheitern betrachten, sondern einfach als, ja, wir haben halt die Erfahrung gemacht und so ist das halt entstanden und wir hatten halt eine geile Zeit und irgendwann war die Zeit vielleicht nicht mehr geil.",
+   "avg_logprob": -0.032,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 459.07,
+   "ende": 474.09,
+   "text": "Und deswegen geht man jetzt halt wieder back to the roots. Keine Ahnung, vielleicht finde ich irgendwann in zehn Jahren die Vorstellung, in einem Dorf zu wohnen mit einem Haus und einem Garten und einem Zaun und gleichen Tagesabläufen und so weiter.",
+   "avg_logprob": -0.038,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 474.09,
+   "ende": 490.41,
+   "text": "Vielleicht findet man diese Vorstellung irgendwann wieder total toll oder auch mit der Selbstständigkeit, weiß ich nicht, ich bin jetzt natürlich auch schon über 40, irgendwann kriegt man wahrscheinlich keinen Angestelltenjob mehr, aber es kann ja auch sein, dass man irgendwann wieder sagt, ich will wieder diese Sicherheit haben, dass ich wirklich ein geregeltes Einkommen habe und so weiter.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 491.07,
+   "ende": 496.13,
+   "text": "Anyway, aber es ist jetzt eben, ich komme jetzt auf das Auswandern, weil das natürlich auch viele gefragt haben,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 496.19,
+   "ende": 501.75,
+   "text": "was ich jetzt gerade persönlich gemerkt habe, wo ich an einem Traum festgehalten habe,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 501.75,
+   "ende": 507.53,
+   "text": "der eigentlich nicht mehr zu unserer Lebenssituation passt, war tatsächlich die Wohnsituation, die wir hatten,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 507.69,
+   "ende": 512.37,
+   "text": "nämlich diese beiden Bungalows, weil ich weiß, damals, wo wir das Jahr hier gelebt haben,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 512.97,
+   "ende": 516.61,
+   "text": "habe ich danach oder am Ende hin, haben Hagen und ich immer schon so gesagt,",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 516.69,
+   "ende": 519.81,
+   "text": "also eigentlich könnte man ja in diesen zwei Bungalows sein Leben lang leben.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 519.81,
+   "ende": 535.09,
+   "text": "Was will man mehr? Man ist direkt am Strand, man hat diese wunderschöne Aussicht, die Bungalows sind groß, sie sind hell, man hat eine Outdoor-Küche, es ist immer warm, die Leute sind da nett. Aus welchen Gründen sollte man hier je wegziehen? So haben wir damals so geredet.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 535.09,
+   "ende": 541.41,
+   "text": "Ja, weil ich sage jetzt mal vom Platzangebot rein von der Quadratmeterzahl war das ja eine Riesenfläche.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 542.23,
+   "ende": 550.43,
+   "text": "So nun hat es sich aber einfach, ist es einfach so, dass zu der Zeit damals, wo wir das Jahr gelebt haben, hatten wir eine ganz andere Situation.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 550.65,
+   "ende": 557.47,
+   "text": "Zum einen waren die Kinder wesentlich jünger und damit meine ich ganz speziell auch Heinrich, der war damals acht, ja, der wird jetzt zwölf.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 558.73,
+   "ende": 562.51,
+   "text": "Und zum anderen haben wir ja auch nicht so wirklich gearbeitet.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 562.51,
+   "ende": 573.37,
+   "text": "Also ich hatte mich zwar damals schon selbstständig gemacht und hatte auch eine Weiterbildung gemacht und so weiter, aber ich hatte halt nicht dieses, ich muss halt jeden Tag irgendwie schon mal ein paar Stunden mich konzentrieren und irgendwie auch was machen.",
+   "avg_logprob": -0.041,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 573.37,
+   "ende": 589.59,
+   "text": "Wir hatten noch keinen Podcast. Also es war trotzdem noch ein bisschen anders. Und die, ich sag mal, die ganze Situation ist damals, es war kurz nach Corona, es war super ruhig. Kaum Leute da, alle, die da gewohnt haben, waren auch auf Langzeitmiete.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 589.59,
+   "ende": 596.05,
+   "text": "und dadurch war einfach damals eine andere Situation, als sie jetzt ist",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 596.05,
+   "ende": 601.87,
+   "text": "und ich habe halt gemerkt, dass es mich jetzt schon so um die zehn Monate gekostet hat,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 601.95,
+   "ende": 609.13,
+   "text": "zu realisieren, dass die Wohnsituation jetzt eigentlich gar nicht mehr so richtig zu unseren Lebensumständen passt",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 609.13,
+   "ende": 616.11,
+   "text": "und es ist mir super schwer gefallen, das einzusehen und nicht nur das einzusehen,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 616.11,
+   "ende": 635.83,
+   "text": "sondern dann letztendlich auch danach zu handeln, weil ich immer so in meinem Kopf die ganze Zeit war, aber es war doch mein Traum, dass wir hier leben, aber es war doch mein Traum oder aber ich habe doch immer so gedacht, das ist unser Zuhause, das war der Ort, von dem ich geträumt habe, als wir wieder zurück in Deutschland waren, das ist der Ort, den ich von der Fähre sehe, wo ich sofort so ein Gefühl von Zuhause habe,",
+   "avg_logprob": -0.044,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 635.83,
+   "ende": 644.53,
+   "text": "Das ist dieser, dieses, ja, einfach mein Traumstrand, meine Traumaussicht, alles so toll, ja.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 645.05,
+   "ende": 650.73,
+   "text": "Und die ganzen Umstände, die sich aber verändert haben, die habe ich natürlich realisiert und die haben mich auch gestört.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 651.07,
+   "ende": 656.07,
+   "text": "Aber oben drüber stand immer dieses, aber es ist doch mein Traum gewesen.",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 656.25,
+   "ende": 657.89,
+   "text": "Wieso soll ich den jetzt aufgeben, ja?",
+   "avg_logprob": -0.129,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 657.89,
+   "ende": 663.83,
+   "text": "und ich glaube, dass man das halt vielleicht öfter mal hat,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 664.11,
+   "ende": 666.59,
+   "text": "ohne dass man sich das so wirklich klar macht,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 666.59,
+   "ende": 670.77,
+   "text": "dass man dann etwas weitermacht und etwas weiterlebt,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 671.41,
+   "ende": 676.37,
+   "text": "weil diese Stimme, die vielleicht sagt,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 676.57,
+   "ende": 678.93,
+   "text": "ja, aber passt das noch zu dir, ist das wirklich noch dein Traum,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 679.53,
+   "ende": 682.23,
+   "text": "die regelt man dann halt schnell wieder runter,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 682.45,
+   "ende": 684.09,
+   "text": "weil man einfach so denkt, ja klar,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 684.25,
+   "ende": 685.81,
+   "text": "also ich sage jetzt mal, wenn es immer mein Traum war,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 685.85,
+   "ende": 687.41,
+   "text": "Kinder zu kriegen und ich stelle dann fest,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 687.41,
+   "ende": 693.71,
+   "text": "wenn ich Kinder habe, es war jetzt doch keine gute Idee, dann muss ich diese Stimme ja schon irgendwie runter regeln,",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 693.79,
+   "ende": 698.37,
+   "text": "weil es natürlich blöd wäre dann zu sagen, ja gut, war jetzt immer mein Traum Kinder zu kriegen,",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 698.81,
+   "ende": 702.01,
+   "text": "jetzt finde ich es doof, kann man jetzt nicht mehr wirklich ändern.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 702.59,
+   "ende": 706.73,
+   "text": "Genauso wenn man jetzt, klar, wenn man geträumt hat, man möchte immer heiraten und dann hat man geheiratet,",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 706.79,
+   "ende": 710.97,
+   "text": "natürlich kann man sich scheiden lassen, aber das sind ja trotzdem Entscheidungen, die trifft man nicht einfach so.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 711.49,
+   "ende": 716.93,
+   "text": "Das dauert ja, das braucht ja einen Prozess, um wirklich zu realisieren, das ist das, was ich immer wollte,",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 716.93,
+   "ende": 733.41,
+   "text": "Aber irgendwie will ich es jetzt doch nicht mehr. Und das gibt es halt im Kleinen wie im Großen. Wie gesagt, manche Dinge sind dann halt nicht zu ändern. Und natürlich ist es vielleicht auch beim Thema Haus auch nicht so ein Schritt, den ich jetzt einfach mal so, weil ich zwei, drei Wochen merke, das passt mir nicht mehr, machen kann.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 733.41,
+   "ende": 754.83,
+   "text": "Aber trotzdem ist es, glaube ich, wichtig, ab und an mal die Dinge zu hinterfragen oder die Träume zu hinterfragen. Vor allem, wenn man vielleicht noch dabei ist, sie zu erfüllen, aber schon merkt, es wird schon irgendwie ruckelig und es fühlt sich irgendwie auch gar nicht mehr so smooth an, das zu machen.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 754.83,
+   "ende": 773.57,
+   "text": "Dann sich vielleicht wirklich mal zu fragen, ist das überhaupt noch mein Traum? Und deshalb eingangs die Frage, was darf gehen oder was darfst du loslassen? Was eigentlich mal dein Traum war, gilt sowohl, wenn der Traum schon erfüllt ist, als auch wenn du gerade dabei bist, ihn zu erfüllen.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 773.57,
+   "ende": 775.37,
+   "text": "wirklich nochmal",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 775.37,
+   "ende": 777.69,
+   "text": "in dich zu horchen, auch die",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 777.69,
+   "ende": 779.91,
+   "text": "Signale, wie ich es gemacht habe, nicht zu ignorieren.",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 780.37,
+   "ende": 781.85,
+   "text": "Ich erzähle das in der Folge",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 781.85,
+   "ende": 783.97,
+   "text": "dann auch mit dem Umzug,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 784.59,
+   "ende": 785.85,
+   "text": "was alles für Gründe,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 786.03,
+   "ende": 787.75,
+   "text": "offensichtliche Gründe gibt, warum es total",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 787.75,
+   "ende": 789.79,
+   "text": "richtig war, umzuziehen, was ich aber",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 789.79,
+   "ende": 791.83,
+   "text": "einfach nicht war. Also ich kann",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 791.83,
+   "ende": 793.53,
+   "text": "auch nicht mal sagen, dass ich es nicht wahrhaben wollte.",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 794.55,
+   "ende": 795.83,
+   "text": "Es ist mir klar",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 795.83,
+   "ende": 797.55,
+   "text": "gewesen, es ist in meinem Bewusstsein gewesen.",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 797.69,
+   "ende": 799.55,
+   "text": "Ich habe die Sachen auch laut ausgesprochen, aber",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 799.55,
+   "ende": 801.69,
+   "text": "ich habe trotzdem gesagt, trotzdem,",
+   "avg_logprob": -0.152,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 801.69,
+   "ende": 819.73,
+   "text": "Aber trotzdem will ich nicht. Aber trotzdem, das war doch immer so und so. Aber trotzdem, ich wollte doch immer hier wohnen. Und dieses trotzdem hat mich auch so hin und her gerissen, weil ich irgendwie wusste, dass die andere Entscheidung die richtigere ist.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 819.73,
+   "ende": 837.43,
+   "text": "Aber es fiel mir einfach super schwer, loszulassen. Und deshalb alle, die vielleicht in einer ähnlichen Situation sind, wo sie das Gefühl haben, sie müssen was loslassen, aber können es nicht. Also auf jeden Fall lasst euch Zeit. Ich meine jetzt nicht damit, hey, lasst jetzt sofort alles fallen, weil das euch gerade nicht passt.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 837.43,
+   "ende": 851.13,
+   "text": "Und es ist schon okay, sich da auch eine gewisse Zeit zu geben und auch gerade, wenn es einem schwerfällt, dann auch wirklich die Entscheidung so lange hinaus zu zögern, bis man auch wirklich mit der anderen Entscheidung gut leben kann.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 851.63,
+   "ende": 860.61,
+   "text": "Weil es nützt ja auch nichts, den Traum aufzugeben und dann dazustehen und zu denken, ja, was mache ich jetzt? Jetzt habe ich irgendwie keine Alternative, jetzt fühle ich mich in der anderen Situation auch total unwohl.",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 860.61,
+   "ende": 868.41,
+   "text": "Aber ich will nur damit sagen, für mich hat sich das eben irgendwie nach Scheitern angefühlt",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 868.41,
+   "ende": 871.27,
+   "text": "Obwohl es völliger Bullshit ist",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 871.27,
+   "ende": 877.03,
+   "text": "Und was ich letztendlich gemacht habe, ich weiß nicht, ob das für jeden was ist",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 877.03,
+   "ende": 879.81,
+   "text": "Und ich weiß ja auch nicht, ob das jetzt der finale Moment war",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 879.81,
+   "ende": 883.41,
+   "text": "Vielleicht sind es einfach die kleinen Teile, die sich nach und nach aufbauen",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 883.41,
+   "ende": 887.37,
+   "text": "Ich habe irgendwann einfach mal aufgeschrieben, was alles in meinem Kopf vorgeht",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 887.37,
+   "ende": 889.39,
+   "text": "Was sich damit verbindet",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 889.39,
+   "ende": 907.47,
+   "text": "Zum Beispiel habe ich sowas aufgeschrieben, wie es fühlt sich nach Scheitern an, habe jetzt aber auch nicht erklären können, warum, aber es muss sich ja auch nicht für mich, wenn ich das aufschreibe, erklären, ja. Aber einfach mal so komplett wirr die Gedanken, die man dazu hat, halt aufzuschreiben, damit sie irgendwie aus dem Kopf raus sind und dann wird vielleicht auch manches schon klarer.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 908.27,
+   "ende": 918.89,
+   "text": "Aber ja, auf jeden Fall wollte ich jetzt mit dieser Folge einfach nochmal für alle, die irgendwo in so einer Situation sind, sagen, es ist kein Scheitern, nur weil es immer dein Traum war.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 918.99,
+   "ende": 924.87,
+   "text": "Ja, wenn du merkst, das passt jetzt nicht mehr zu dir, dann gib ihn einfach aus, wenn du noch in der Vorphase bist.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 925.51,
+   "ende": 930.49,
+   "text": "Oder wenn du schon mittendrin bist, ändere ihn ja und mach irgendwas anderes zu deinem Traum.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.016,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 930.49,
+   "ende": 937.85,
+   "text": "Und man muss Träume haben, man muss, finde ich, immer irgendwas haben, worauf man hinarbeitet oder wo man denkt, hey, das wäre cool, wenn das so und so wäre und so.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 938.41,
+   "ende": 939.91,
+   "text": "Aber da findet sich vielleicht was anderes.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 940.31,
+   "ende": 949.43,
+   "text": "Und wenn man dann eben so wie jetzt in so einer Haussituation, wie gesagt, von denen ich das weiß, die dann wirklich nicht sagen konnten, okay, das fällt mir schwer, das Haus aufzugeben.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 950.21,
+   "ende": 954.29,
+   "text": "Aber ich freue mich halt darauf, dass ich am Wochenende einen Ausflug immer machen kann.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 954.29,
+   "ende": 956.59,
+   "text": "Ich freue mich darauf, dass ich wieder mehr Geld übrig habe.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 956.71,
+   "ende": 958.39,
+   "text": "Ich freue mich darauf, dass ich weniger putzen muss.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 958.47,
+   "ende": 959.21,
+   "text": "Keine Ahnung, ja.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 960.49,
+   "ende": 963.85,
+   "text": "Genau, ja. So, jetzt habe ich, glaube ich, viel länger geredet als zehn Minuten.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 963.99,
+   "ende": 965.89,
+   "text": "Naja, das war die Abschlussfolge der Sommerserie.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 967.05,
+   "ende": 971.01,
+   "text": "Ich freue mich, dass ihr dabei wart. Es waren auf jeden Fall deutlich weniger Leute dabei.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 971.11,
+   "ende": 973.01,
+   "text": "Das habe ich ja vermutet, deswegen haben wir das auch gemacht.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 973.85,
+   "ende": 976.81,
+   "text": "Alle, die das jetzt im Nachhinein hören, vielleicht zu irgendeiner anderen Jahreszeit.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 976.89,
+   "ende": 981.29,
+   "text": "Man kann die Fragen, glaube ich, zu jeder Jahreszeit adaptieren.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 982.17,
+   "ende": 985.93,
+   "text": "Und ja, nächste Woche gibt es dann wieder mehr. Bis dann. Tschüss.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  }
+ ]
+}

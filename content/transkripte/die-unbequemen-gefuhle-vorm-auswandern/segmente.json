@@ -1,0 +1,1090 @@
+{
+ "meta": {
+  "slug": "die-unbequemen-gefuhle-vorm-auswandern",
+  "titel": "Die unbequemen Gefühle vorm Auswandern",
+  "datum": "2025-06-30T05:00:00.000Z",
+  "dauer_sekunden": 1326,
+  "guid": "7fd435b4-0d0a-42dc-8e2a-fccbd159d3e7",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T08:38:16Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 6,
+   "transkription": 1333
+  },
+  "echtzeitfaktor": 1.0,
+  "anzahl_segmente": 133,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 1.33,
+   "ende": 7.11,
+   "text": "Aber ja, man hat dann ja, wenn man so eine Entscheidung trifft, irgendwie immer das Gefühl, dass man dann verantwortlich auch für alles ist.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 7.23,
+   "ende": 12.91,
+   "text": "Also, dass man dann vielleicht an den Punkt kommt und sagt, ja, wären wir hier nicht hingegangen, dann wäre das jetzt auch nicht passiert.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 22.1,
+   "ende": 29.4,
+   "text": "Hallo und herzlich willkommen zurück bei DLIZKFI. Ich freue mich, dass ihr wieder dabei seid.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.039,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 30.06,
+   "ende": 41.98,
+   "text": "Heute werde ich mal ein bisschen emotionaler, denn ich wollte über Ängste und Gefühle im Zuge einer Auswanderung reden.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.093,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 42.78,
+   "ende": 50.3,
+   "text": "Denn auch wenn man, wie ich, das eigentlich schon sein ganzes Leben wollte und ja auch schon viel im Ausland unterwegs war",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.093,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 50.3,
+   "ende": 57.64,
+   "text": "und eigentlich mehr oder weniger das meiste einschätzen kann, gibt es natürlich trotzdem Momente,",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.093,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 57.64,
+   "ende": 63.9,
+   "text": "in denen man einfach Ängste und Sorgen hat oder in denen man ambivalente Gefühle hat.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 65.22,
+   "ende": 70.02,
+   "text": "Und ja, die wollte ich heute einfach mal teilen, denn ich glaube, man hat so die Vorstellung,",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 70.18,
+   "ende": 75.04,
+   "text": "dass das Ganze so ein, ja, einfach nur so ein aufregendes Abenteuer ist im Vorfeld",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 75.04,
+   "ende": 82.5,
+   "text": "und man die ganze Zeit irgendwie so wie ein Kind kurz vorm Geburtstag in freudiger Erwartung ist.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 82.5,
+   "ende": 99.84,
+   "text": "Aber tatsächlich ist der größte Teil der Zeit natürlich mit organisatorischen Dingen belegt und es gibt einfach super viele Momente, in denen man wirklich, ich sage jetzt mal, kurze Panikattacken hat und denkt, oh Gott, oh Gott, ist das wirklich alles so richtig?",
+   "avg_logprob": -0.155,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.39
+  },
+  {
+   "start": 99.84,
+   "ende": 108.88,
+   "text": "und das kann halt sein, dass man morgens aufwacht, also ich habe zum Beispiel so ein, ja für mich mal irgendwann festgelegt,",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 108.88,
+   "ende": 117.6,
+   "text": "wenn ich irgendetwas entscheiden muss, wo ich mir nicht hundertprozentig sicher bin und hin und her schwanke,",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 117.74,
+   "ende": 121.58,
+   "text": "dann höre ich auf das Gefühl, was ich habe, wenn ich am nächsten Morgen aufwache.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 122.22,
+   "ende": 126.8,
+   "text": "Also ich entscheide dann, das muss jetzt nicht immer, heute habe ich das Gefühl und morgen treffe ich die Entscheidung,",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 126.8,
+   "ende": 142.74,
+   "text": "Aber es kann auch sich mal über Tage hinwegziehen. Und wenn ich aber merke, okay, ich komme da nicht weiter, dann entscheide ich an irgendeinem Abend, okay, wenn ich morgen früh aufwache und was ich dann als erstes denke, das wird es sein. Und in der Regel befolge ich das dann auch so.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 142.74,
+   "ende": 156.5,
+   "text": "Nur wenn ich danach zum Thema Auswanderung gehen würde, was ich morgens, wenn ich aufwache, denke oder vielleicht auch abends, wenn ich einschlafe, dann hätte ich, glaube ich, jetzt schon relativ häufig das wieder abgebrochen.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 157.54,
+   "ende": 168.0,
+   "text": "Weil man natürlich gerade, wenn man zur Ruhe kommt, abends im Bett oder morgens, wenn man gerade aufwacht, ja, die Welt um einen herum still ist und man dann Zeit hat, nachzudenken.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 168.0,
+   "ende": 173.88,
+   "text": "und dann gibt es natürlich schon Momente, in denen man sich halt fragt, okay, ist das richtig, ja,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 174.02,
+   "ende": 180.96,
+   "text": "oder man hat andere von außen, andere Menschen sagen etwas, das können Kleinigkeiten sein",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 180.96,
+   "ende": 187.66,
+   "text": "und man denkt dann darüber nach und fragt sich, ja, stimmt eigentlich, also ich hatte ja zum Beispiel eine Mutter",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 187.66,
+   "ende": 194.1,
+   "text": "von einem Kindergartenfreund von Hermine, die auch hier im Dorf wohnt, sagte, als sie das mitbekam,",
+   "avg_logprob": -0.107,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 194.1,
+   "ende": 201.34,
+   "text": "dass wir auswandern. Ach schade, ich hatte mir das schon so schön vorgestellt, wenn M. und Hermine",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 201.34,
+   "ende": 206.58,
+   "text": "später zusammen mit dem Fahrrad in die Schule fahren. Und das ist ja jetzt eigentlich kein besonderer Satz,",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 206.7,
+   "ende": 217.08,
+   "text": "aber in dem Moment war für mich so, ja, genau, das nehme ich ihr, diesen Zustand, dass sie mit den Kindern,",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 217.18,
+   "ende": 221.14,
+   "text": "mit denen sie jetzt im Kindergarten aufgewachsen ist, mit denen sie zum Teil auch in einem Dorf lebt,",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 221.14,
+   "ende": 242.2,
+   "text": "Und ich nehme ihr damit weg, dass sie mit diesen Kindern dann irgendwann gemeinsam mit dem Fahrrad in die Schule fahren kann. Und dann fühlt sich das irgendwie egoistisch an und dann fühlt sich das nicht richtig an und dann mache ich mir Sorgen darüber, ob das langfristig irgendwas ist, was die Kinder vielleicht uns auch vorhalten.",
+   "avg_logprob": -0.033,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 242.2,
+   "ende": 266.82,
+   "text": "Also letztendlich sind sie ja seit ihrer Geburt beide gewöhnt, dass sie sehr viel unterwegs sind und sich ja auch, hatte ich glaube ich auch schon gesagt, sehr gut immer integrieren können, sowohl im Ausland als auch wenn sie dann nach längerer Zeit zurückkommen, sodass wir auf der einen Seite natürlich schon, glaube ich, gut einschätzen können, wie das für die Kinder ist, zumal sie auch beide sehr viel reden.",
+   "avg_logprob": -0.042,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 266.82,
+   "ende": 288.0,
+   "text": "Also wer uns persönlich kennt, weiß das auch. Und ja, sie sind ja beide total begeistert und möchten ja auch unbedingt. Heinrich sagt das schon auch seit mehreren Jahren. Trotzdem weiß man ja nicht, natürlich sind es Kinder und sie können es nicht hundertprozentig einschätzen und deswegen, man weiß ja nicht, was sie allen, wenn sie erwachsen sind, irgendwann mal vorhalten.",
+   "avg_logprob": -0.044,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 288.0,
+   "ende": 313.06,
+   "text": "Also das weiß man ja sowieso nicht. Man versucht ja in seiner Erziehung immer alles nach bestem Wissen und Gewissen zu machen, aber man kennt es ja auch aus der eigenen Kindheit. Es gibt ja Dinge, die einem als Erwachsener irgendwie nachhallen, auf denen man irgendwie rumkaut, im Zweifel sogar Jahre, die aber vielleicht einfach nur irgendein dummer Spruch von irgendeinem Elternteil oder irgendeinem Verwandten war, was gar nicht so tief gemeint war, aber eben tief sitzt.",
+   "avg_logprob": -0.024,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 313.06,
+   "ende": 328.12,
+   "text": "Und diese Gedanken macht man sich, glaube ich, als Eltern immer. Was werden meine Kinder für Erwachsene sein? Und wenn man dann so eine lebensverändernde Entscheidung trifft, haben die Kinder letztendlich auch keine andere Wahl, als die mitzugehen.",
+   "avg_logprob": -0.05,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 328.12,
+   "ende": 341.12,
+   "text": "Und ja, da fragt man sich in so Momenten wie, ja, ich dachte, M-Punkt und Termine können dann zusammen mit dem Fahrrad zur Schule fahren. Macht man sich dann Sorgen darum, ob man dem Kind damit etwas verwehrt?",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.34
+  },
+  {
+   "start": 341.6,
+   "ende": 348.28,
+   "text": "Natürlich kommt dann auch im Gegenzug gleich, okay, sie lernt da ja auch Kinder kennen und dann fahren sie vielleicht nicht mit dem Fahrrad zur Schule,",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 348.28,
+   "ende": 357.26,
+   "text": "sondern dann gehen sie vielleicht zusammen Kokosnüsse knacken oder sie ziehen eine Schlange, die sie irgendwie tot unterm Busch gefunden haben.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 358.18,
+   "ende": 363.82,
+   "text": "Und das sind ja auch tolle Erlebnisse. Also je nachdem, wie man es nimmt, Schlange zu ziehen ist vielleicht nicht für jeden was.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 363.82,
+   "ende": 378.92,
+   "text": "Aber ja, genauso hatte ich, als wir von nach dem Jahr wieder zurückgekommen sind, hat Heinrich mit Segeln angefangen und dann hatte ich ja auch, wie gesagt, schon mit dem Gedanken gespielt, dass ich eigentlich gerne ganz weg möchte.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 378.92,
+   "ende": 393.76,
+   "text": "Und da hatte ich auch bei diesem Segeln so dieses Gefühl von, ja, das kann ich aber nicht machen, weil das ist so eine tolle Sportart und dann ist immer bei schönem Wetter, sind wir dann am Wasser an der Warnow und wir lieben ja auch Rostock und jetzt hat er da so ein Hobby für sich gefunden.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 393.82,
+   "ende": 420.52,
+   "text": "Und das ist ja jetzt auch was, nicht wie Fußball, was man jetzt überall machen kann. Und letztendlich stellte sich aber heraus, dass das einfach überhaupt nicht seine Sportart war und er ein Jahr später schon gar nicht mehr, also wir ihn ein Jahr später von dem Verein wieder abgemeldet haben, weil sowohl der Verein als auch die Sportart an sich einfach weder er noch wir da irgendwie reingepasst haben in diese ganze Segler-Community, sage ich mal.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 420.52,
+   "ende": 426.3,
+   "text": "und trotzdem habe ich aber zu dem Zeitpunkt lange das Gefühl gehabt,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 426.3,
+   "ende": 429.64,
+   "text": "ich würde ihm damit etwas antun, wenn wir jetzt auswandern würden",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 429.64,
+   "ende": 431.3,
+   "text": "und er nicht mehr zum Segeln gehen könnte.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 432.44,
+   "ende": 437.2,
+   "text": "Und ja, deswegen weiß ich auf der einen Seite, dass die Dinge sich natürlich verändern",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 437.2,
+   "ende": 444.78,
+   "text": "und das, wo man heute vielleicht denkt, okay, was nehme ich mir oder den Kindern damit,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 444.9,
+   "ende": 448.9,
+   "text": "was verwehre ich uns damit, dass das in einem halben Jahr oder Jahr",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 448.9,
+   "ende": 450.66,
+   "text": "schon wieder ganz anders aussehen kann.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 451.52,
+   "ende": 457.92,
+   "text": "Dennoch ist aber, gibt es halt diese Momente, in denen man denkt, oh Gott, was mache ich",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 457.92,
+   "ende": 463.38,
+   "text": "hier, ist das richtig, haben wir uns das gut überlegt und obwohl ich ja weiß und wenn",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 463.38,
+   "ende": 467.72,
+   "text": "ihr die Podcast-Folgen bis hierher gehört habt, wisst ihr ja auch, dass ich es mir sehr",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 467.72,
+   "ende": 472.46,
+   "text": "gut überlegt habe oder wir letztendlich, also ich schon, bevor ich Hagen kennengelernt",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 472.46,
+   "ende": 478.24,
+   "text": "habe und seit wir zusammen sind, wir das zusammen überlegt haben und immer wieder auch längere",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.013,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 478.24,
+   "ende": 482.52,
+   "text": "Zeiten im Ausland verbracht haben. Wir sind ja jetzt nicht die Auswanderer, die zwei Wochen",
+   "avg_logprob": -0.039,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 482.52,
+   "ende": 486.1,
+   "text": "im Urlaub waren irgendwo und dachten, oh, ist so geil hier, lassen wir auswandern und",
+   "avg_logprob": -0.039,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 486.1,
+   "ende": 489.9,
+   "text": "dann feststellen, ach so, ist ja doch ein bisschen anders, ob man jetzt zwei Wochen",
+   "avg_logprob": -0.039,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 489.9,
+   "ende": 494.2,
+   "text": "Urlaub irgendwo macht oder ob man da lebt. Das heißt, ich kann mir die Frage, habe ich",
+   "avg_logprob": -0.039,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 494.2,
+   "ende": 500.36,
+   "text": "mir das gut überlegt, ja immer wieder ganz klar mit Ja beantworten. Aber ich habe mich",
+   "avg_logprob": -0.039,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 500.36,
+   "ende": 505.56,
+   "text": "dann trotzdem, gerade weil es in letzter Zeit wieder häufig hochkommt, so ein kleines",
+   "avg_logprob": -0.039,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 505.56,
+   "ende": 513.18,
+   "text": "panisches Gefühl und ich habe mich dann gefragt, warum, woher kommt das jetzt, warum kommt das jetzt,",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 513.24,
+   "ende": 516.24,
+   "text": "weil das sind einfach, wie gesagt, super unterschiedliche Situationen, das kann auch",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 516.24,
+   "ende": 522.86,
+   "text": "mal ein Lied sein. Ich habe gestern zum Beispiel ein Lied gehört in der Turnhalle und dieses Lied",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 522.86,
+   "ende": 527.32,
+   "text": "habe ich auch immer beim Sport in Thailand gehört und eigentlich ist es ja dann eine positive",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 527.32,
+   "ende": 531.38,
+   "text": "Assoziation, weil ich dann denke, ah ja, das habe ich auch immer in Thailand gehört, aber es war",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 531.38,
+   "ende": 536.3,
+   "text": "eher so ein Gefühl von, ja, bald bin ich da und dann bin ich auf dieser Insel und es",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 536.3,
+   "ende": 540.52,
+   "text": "ist auch nur eine Insel und eine Insel ist irgendwie kleiner als das Festland und man",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 540.52,
+   "ende": 545.58,
+   "text": "ist dann gefühlt irgendwie so eingeengt, also ich finde, Inseln an sich haben immer",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 545.58,
+   "ende": 552.32,
+   "text": "so ein leicht einengendes Gefühl, weil sie eben begrenzt sind und dann gebe ich hier",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 552.32,
+   "ende": 556.2,
+   "text": "alles auf und dann sitze ich nie wieder in dieser Turnhalle hier, sind wir wieder beim",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 556.2,
+   "ende": 560.08,
+   "text": "Segeln, wer weiß, ob wir nächstes Jahr noch in der Turnhalle sitzen würden, aber",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.86
+  },
+  {
+   "start": 560.08,
+   "ende": 582.34,
+   "text": "Aber naja, und die Antwort auf die Frage, woher kommt das plötzlich, habe ich mir inzwischen damit beantwortet, dass doch dieses Thema Komfortzone, man sagt das immer, Komfortzone verlassen, Komfortzone hier, Komfortzone da, aber was heißt das jetzt eigentlich konkret oder wie fühlt sich das an, seine Komfortzone verlassen?",
+   "avg_logprob": -0.041,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 582.34,
+   "ende": 610.96,
+   "text": "Und ich habe wirklich inzwischen das Gefühl, dass in den Momenten, wo diese Panikmomente hochkommen, mein System, also mein Inneres krampfhaft versucht, an dem festzuhalten, was ist. Weil das ist das Gewohnte, das ist der Alltag, das ist gefühlt verlässlich, das ist gefühlt sicher. Ich weiß, was auf mich zukommt. Also das sind so Gedanken wie, ach, vielleicht bleiben wir doch lieber hier, weil dann weiß ich ja, wie der Rest meines Lebens verlaufen wird.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 610.96,
+   "ende": 627.18,
+   "text": "Und das ist so strange, weil das ist ja eigentlich genau das, was gerade ich als Charakter Juliette gar nichts für mich ist. Ich mag es überhaupt nicht, mich festzulegen. Ich mag es überhaupt nicht, irgendwie jeden Tag den gleichen Ablauf zu haben. Ich muss immer in Bewegung sein.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 627.18,
+   "ende": 642.34,
+   "text": "Ich meine, wir sind auch so als Familie, wir unternehmen super viel, wo andere manchmal schon voraus und sagen, boah, ist euch das nicht zu stressig und ständig seid ihr da und macht dies und macht jenes. Und wir sind aber so, wir sind immer in Bewegung, wir müssen immer irgendwas machen.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 642.34,
+   "ende": 670.58,
+   "text": "Und für mich ist dieses, dann weiß ich, wie der Rest meines Lebens verläuft, eigentlich ein Satz, der mich eher in Panik versetzt. Aber das eine ist, glaube ich, eben so der Kopf und auch das Herz und das andere ist einfach, letztendlich bin ich jetzt über 40 Jahre in diesem Leben gewesen und das ist das, was ich kenne, in- und auswendig und mein Körper auch kennt und all meine Sinne.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 672.34,
+   "ende": 698.12,
+   "text": "Wenn man jetzt einen Schritt macht, wo man all das hinter sich lässt und natürlich kann man zu Besuch kommen, keine Frage, aber wir haben ja auch kein eigenes Haus, was wir verkaufen oder so, aber trotzdem, man lässt ja nicht nur jetzt eine Wohnung, in der man lange gelebt hat, hinter sich oder einen Ort oder Freunde oder so, sondern man lässt irgendwie gefühlt die letzten 40 Jahre hinter sich und fängt tatsächlich komplett bei null an.",
+   "avg_logprob": -0.046,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 698.12,
+   "ende": 725.24,
+   "text": "Und ich glaube, das ist schon überfordernd für so einen Geist. Und dann hat er ab und an eben dieses Bedürfnis, sich wahnsinnig doll an das Altbewährte zu klammern. Und ich glaube, das sind diese Momente, in denen ich dann diese leichte Panik verspüre, als ob wirklich innerlich jemand an mir zerrt und sagt, bleib hier, bleib hier, hier bist du sicher, das kennst du, hier weißt du, was passiert.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 726.1,
+   "ende": 732.1,
+   "text": "Und das Ding ist, dass das ja aber auch eigentlich Quatsch ist, weil ich weiß ja nicht, was hier passiert, keiner weiß es.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 732.1,
+   "ende": 740.26,
+   "text": "Und ich bin politisch jetzt nicht so, dass ich die ganze Zeit die Nachrichten verfolge.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 740.48,
+   "ende": 745.84,
+   "text": "Hagen ist da anders so, der möchte auch unbedingt mal ins Interview kommen.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 745.94,
+   "ende": 747.78,
+   "text": "Ich habe aber gesagt, wir reden da nicht über Politik.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 748.78,
+   "ende": 753.16,
+   "text": "Aber es ist ja trotzdem im Moment eine Zeit, in der sehr viel Ungewissheit ist",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 753.16,
+   "ende": 756.9,
+   "text": "und in der eben auch viele Menschen darüber nachdenken, was bringt die Zukunft,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 756.9,
+   "ende": 760.02,
+   "text": "wie entwickelt sich Deutschland, wie entwickelt sich dadurch auch mein Leben.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 760.88,
+   "ende": 765.18,
+   "text": "Und von daher ist eigentlich die Annahme, dass hier zu bleiben bedeutet,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 765.32,
+   "ende": 769.14,
+   "text": "zu wissen, wie der Rest meines Lebens verläuft und was auf mich zukommt,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 769.62,
+   "ende": 773.1,
+   "text": "diese Annahme ist ja gerade aktuell gesehen totaler Quatsch.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 773.1,
+   "ende": 785.56,
+   "text": "Und von daher, ja, versuche ich mir das dann auch immer wieder klarzumachen und zu sagen, okay, ja, ich weiß nicht, was da auf mich zukommt, aber letztendlich weiß ich halt auch nicht, was hier auf mich zukommt, ne.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 785.56,
+   "ende": 814.84,
+   "text": "Ja, und von diesen, sage ich jetzt mal, eher tieferen Gedanken, die dazu da sind, gibt es aber auch so ganz oberflächliche Ängste, ja, also im Sinne von, was ist, wenn das Geld, also was ist, wenn ich, also das Geld ist ja bei uns, wie gesagt, ich mache da nochmal vielleicht eine Extrafolge zu, aber im Moment ist es ja so, dass ich durch meine Online-Selbstständigkeit ein gewisses Einkommen habe, was ich ja auch hier schon habe und was sich dort fortsetzen wird.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 815.64,
+   "ende": 824.68,
+   "text": "Und wir haben halt einen gewissen Puffer, wo wir sagen, okay, wenn jetzt, keine Ahnung, ich einen Kunden verlieren würde oder was auch immer, dann würden wir trotzdem erstmal weiterkommen.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 824.68,
+   "ende": 831.04,
+   "text": "Aber unser Puffer ist sicherlich nicht so groß, wie die meisten vielleicht denken oder wie die meisten es bräuchten als Sicherheit.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 831.98,
+   "ende": 837.06,
+   "text": "Und dadurch ist natürlich schon manchmal der Gedanke, okay, was ist, wenn es doch nicht gut ausgeht mit dem Geld?",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 837.16,
+   "ende": 841.62,
+   "text": "Was ist, wenn wir doch merken, dass das Leben dort viel teurer ist, als wir eigentlich dachten?",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 842.28,
+   "ende": 848.64,
+   "text": "Denn tatsächlich hat es sich, gerade was die Mieten angeht, extrem verteuert im Vergleich von vor zwei Jahren.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 849.92,
+   "ende": 854.24,
+   "text": "Und dann sind aber auch so Sachen wie, okay, was ist, wenn wir einen Rollerunfall haben?",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 854.7,
+   "ende": 864.14,
+   "text": "Auch das ist natürlich nicht, also wir hatten toi toi toi noch keinen, aber wer Koh Samui kennt oder vielleicht es auch schon mal irgendwo gelesen hat,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 864.84,
+   "ende": 871.2,
+   "text": "weiß, dass es tatsächlich vom Straßenverkehr, auch wenn es nur so eine kleine Urlaubsinsel ist, extrem gefährlich ist.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 871.2,
+   "ende": 895.52,
+   "text": "Also man sieht jeden Tag Rollerunfälle, die meisten fahren dort ohne Helm, zum Teil ohne Kleidung, also naja gut, eine Badehose haben die meisten noch an, aber ohne Schuhe, also sowohl die Touristen als auch die Thais fahren meistens ohne Helm und man sieht jeden Tag auf jeden Fall die Unfälle und ich habe mal gehört, dass statistisch gesehen wohl einmal am Tag ein Todesfall auf Koh Samui ist.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 895.52,
+   "ende": 915.14,
+   "text": "Ob das stimmt, ich habe dazu, ich habe das auch schon mal versucht zu recherchieren, leider nichts gefunden. Vielleicht ist es auch nur Hörensagen, aber man selbst weiß auf jeden Fall von einigen Todesfällen. Und ja, so eine Gedanken kommen dann auch, oh Gott, ich möchte die eigentlich die ganze Zeit nur in Motorradkleidung packen für den Fall, dass was passiert.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 915.78,
+   "ende": 918.22,
+   "text": "dann kann man natürlich sagen, ja, dann fahrt doch einfach kein Roller.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 919.78,
+   "ende": 923.1,
+   "text": "Alle, die schon mal da waren, können vielleicht nachvollziehen,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 923.18,
+   "ende": 924.66,
+   "text": "wenn ich sage, dass das halt irgendwie,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 924.66,
+   "ende": 928.3,
+   "text": "oder auch alle, die vielleicht hier in Deutschland einen Motorradführerschein oder so haben,",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 928.82,
+   "ende": 932.0,
+   "text": "das ist ja irgendein Gefühl von Freiheit, was das auslöst.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 932.32,
+   "ende": 936.58,
+   "text": "Und letztendlich ist es auch gefährlich, auf einer Ladefläche von einem Pickup zu sitzen.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 936.92,
+   "ende": 942.44,
+   "text": "Nichtsdestotrotz haben wir es gemacht, weil man es einfach darf und weil es Spaß macht.",
+   "avg_logprob": -0.117,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 942.44,
+   "ende": 962.3,
+   "text": "Also kann man einfach, ganz einfach gesagt, macht es Spaß. Und es gibt halt Dinge, die Spaß machen, die auch irgendwie gefährlich sind. Ja, es macht mir auch Spaß, Bungee-Jumps zu machen oder Fallschirmsprünge zu machen. Kann auch was passieren, kann aber auch dir im Alltag ständig was passieren.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 962.3,
+   "ende": 984.22,
+   "text": "Von daher das immer so mit, ja, mach das mal lieber nicht, das ist gefährlich, ist eigentlich nicht unsere Herangehensweise. Gerade letztes Jahr hat Hermine sich ja zweimal innerhalb von einem Jahr den Arm gebrochen und beim zweiten Mal am Ellbogengelenk, was einfach so massiv, ein massiv schlimmer Bruch war, dass wir bis heute damit zu tun haben und im Zweifel sie den Rest ihres Lebens damit zu tun haben wird.",
+   "avg_logprob": -0.036,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 984.22,
+   "ende": 1002.34,
+   "text": "Und das ist einfach passiert, weil sie von einer ganz niedrigen Höhe bei einer Hüpfburg quasi runtergefallen ist. Und eine Sekunde vor ihr ist ihre Freundin runtergefallen. Also exakt der gleiche Move. Die hat sich gar nichts getan. Und Hermine ist halt der ganze Ellenbogen zersplittert.",
+   "avg_logprob": -0.05,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 1002.34,
+   "ende": 1016.36,
+   "text": "Und deswegen weiß ich auch, dass es immer irgendwas passieren kann und man es einfach nicht kontrollieren kann. Nichtsdestotrotz kommen dann so Momente, in denen ich denke, was ist, wenn Hagen mit den Kindern Roller fährt und sie einen Unfall haben und alle sterben?",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1016.36,
+   "ende": 1034.5,
+   "text": "Ja, das dominiert jetzt natürlich nicht permanent mein Gedanke, weil dann würde ich ja wahnsinnig werden. Aber solche Gedanken sind auch da. Oder was ist, wenn einer im Wasser von einer Würfelqualle erwischt wird? Das ist eine sehr gefährliche Quallenart, die zu einer gewissen Jahreszeit von Australien rübergespült wird.",
+   "avg_logprob": -0.048,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1034.5,
+   "ende": 1047.86,
+   "text": "Und da gibt es halt einfach die Fälle, dass Menschen beim Schwimmen davon getroffen werden und vor allem für Kinder ist es einfach sehr gefährlich bis hin zu tödlich. Oder was ist, wenn uns eine Kobra beißt?",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.27
+  },
+  {
+   "start": 1047.86,
+   "ende": 1068.38,
+   "text": "Ja, also das sind halt, oder was, wir waren ja letztens, wo ich mit den Kindern zurückgereist bin, waren wir ja freitags, von Freitag auf Samstag nochmal in Bangkok und eine Woche später war, gab es, oder zwei Wochen später, glaube ich, exakt am gleichen Tag, gab es ja dieses Erdbeben in Bangkok, wo auch Menschen ums Leben gekommen sind.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1068.38,
+   "ende": 1083.12,
+   "text": "Natürlich in Myanmar weitaus mehr Schäden und Todesfälle, aber egal. Ich will damit sagen, man hat halt auch wirklich so ganz klassische Ängste von, was ist, wenn jemand sich verletzt, was ist, wenn jemand schlimm krank wird, was ist, wenn jemand stirbt.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1083.12,
+   "ende": 1106.16,
+   "text": "So. Die Gedanken habe ich natürlich, jetzt hat man die vielleicht auch mal, wenn, keine Ahnung, wenn wir auf der Autobahn sind, denke ich auch mal, okay, was, wenn wir jetzt einen schlimmen Unfall haben. Aber ja, man hat dann ja, wenn man so eine Entscheidung trifft, irgendwie immer das Gefühl, dass man dann verantwortlich auch für alles ist. Also, dass man dann vielleicht an den Punkt kommt und sagt, ja, wären wir hier nicht hingegangen, dann wäre das jetzt auch nicht passiert.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1106.16,
+   "ende": 1120.86,
+   "text": "Ich kann natürlich auch sagen, wäre ich den Tag nicht zu diesem Geburtstag mit Hermine gegangen, dann wäre sie auch nicht von der Hüpfburg gefallen. So kann man ja nicht leben. Aber ja, das sind eben auch solche Themen, die einen dann immer wieder überkommen.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.017,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 1120.86,
+   "ende": 1139.6,
+   "text": "Und ich glaube, auch da ist es eben so dieser innere Gegner, der eben alles safe halten möchte und der einen halt in der Komfortzone halten möchte und der dafür sorgen möchte, dass man eben nicht das Wagnis eingeht, sondern einfach alles so bleibt, wie es ist.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1139.6,
+   "ende": 1157.74,
+   "text": "Und ja, das macht einen manchmal ganz schön mürbe in der Birne, sage ich jetzt mal. Aber ja, ich denke, es gehört auch irgendwie dazu. Und ich habe das auch zum Teil vor größeren Reisen, dass ich solche Gedanken habe.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.34
+  },
+  {
+   "start": 1157.74,
+   "ende": 1183.18,
+   "text": "Oder vielleicht ist es auch irgendwie so ein bisschen so ein Mutterinstinkt mäßig, dass man die ganze Zeit irgendwie sowas, ich glaube alle Eltern kennen das, dass man gefühlt sich irgendwie permanent Sorgen macht, was ist wenn dies, was ist wenn jenes und was ist wenn mein Kind älter ist und alleine unterwegs ist, was ist wenn ihr dann was passiert oder was ist wenn er dann in irgendwelche Schlägereien gerät oder keine Ahnung.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1183.18,
+   "ende": 1202.7,
+   "text": "Also ich glaube, man hat als Eltern so allgemein immer so, ich habe das mal gelesen, mit dem Moment, wo man Kinder bekommt, wird man Sorge nie wieder los. Und ich glaube, ich bin nicht so typisch anfällig für Panik, Sorgen, immer den Teufel an die Wand malen und so weiter.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 1202.7,
+   "ende": 1222.46,
+   "text": "Aber trotzdem sind diese Gefühle auch da und ich wollte die einfach mal teilen, damit ihr auch so ein Gefühl dafür bekommt, was geht so in einem vor, wenn man auswandert. Und vielleicht ist das bei anderen Leuten ganz anders. Also falls hier Auswanderer zuhören, schreibt mir gerne, wie das bei euch war.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 1222.46,
+   "ende": 1240.92,
+   "text": "Vielleicht sagt ihr auch, hey, was labert die? Also ich habe mich die ganze Zeit mega gefreut. Aber ja, mir geht es so oder uns geht es so. Also ich habe jetzt natürlich nur so von meiner Gefühlswelt berichtet, aber Hagen sagt es halt auch ab und an, dass er diese Momente hat, in denen er denkt, oh Gott, oh Gott, oh Gott, das geht alles nicht.",
+   "avg_logprob": -0.035,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1241.66,
+   "ende": 1242.66,
+   "text": "Die werden immer weniger.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1242.78,
+   "ende": 1244.5,
+   "text": "Die hatten wir am Anfang fast täglich.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1245.88,
+   "ende": 1247.44,
+   "text": "Ja, es wird immer weniger.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1248.04,
+   "ende": 1251.02,
+   "text": "Man hat sich ja jetzt auch einfach inzwischen in so eine Position gebracht,",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1251.18,
+   "ende": 1253.08,
+   "text": "wo es halt geritzt ist, die Sache.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1253.82,
+   "ende": 1256.04,
+   "text": "Was auch gut ist, das mache ich im Übrigen auch öfter,",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1256.32,
+   "ende": 1258.92,
+   "text": "dass ich mich dann einfach in Situationen bringe,",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1258.92,
+   "ende": 1261.52,
+   "text": "in denen ich mehr oder weniger nicht mehr zurück kann.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1262.24,
+   "ende": 1264.24,
+   "text": "Und dann ist das halt so, die Entscheidung ist getroffen",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1264.24,
+   "ende": 1265.82,
+   "text": "und dann geht es halt straight forward.",
+   "avg_logprob": -0.142,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1265.82,
+   "ende": 1276.18,
+   "text": "Und ja, aber teilt gerne mal mit, ob ihr solche Gedanken kennt, vielleicht auch vor Urlauben oder anderen Entscheidungen.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.17
+  },
+  {
+   "start": 1276.18,
+   "ende": 1296.38,
+   "text": "Und wenn ihr gerade unabhängig vom Auswandern vielleicht auch vor einer Entscheidung steht oder sie auch schon getroffen habt und eigentlich auch 100% davon überzeugt seid, dass sie richtig ist, dann wundert euch nicht, wenn vielleicht doch irgendwie ab und an komische Gedanken hochkommen.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1296.38,
+   "ende": 1310.2,
+   "text": "Das ist nur der kleine Komfortzonen-Mann, der an euch zerrt, der gerne zu Hause bleiben möchte. Aber ja, geht trotzdem weiter euren Weg, denn das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.33
+  },
+  {
+   "start": 1311.48,
+   "ende": 1316.68,
+   "text": "Und damit beende ich die Folge und freue mich auf nächste Woche. Bis bald.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.33
+  }
+ ]
+}

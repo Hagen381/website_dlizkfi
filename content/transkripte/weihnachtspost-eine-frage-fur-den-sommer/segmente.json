@@ -1,0 +1,1074 @@
+{
+ "meta": {
+  "slug": "weihnachtspost-eine-frage-fur-den-sommer",
+  "titel": "Weihnachtspost – Eine Frage für den Sommer",
+  "datum": "2026-07-27T02:00:00.000Z",
+  "dauer_sekunden": 688,
+  "guid": "546a1bba-d277-42a1-a5d8-9debc3e18f7b",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T06:22:20Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 6,
+   "transkription": 688
+  },
+  "echtzeitfaktor": 1.0,
+  "anzahl_segmente": 131,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 1.36,
+   "ende": 22.49,
+   "text": "Wenn es auch nur ganz kleine Sachen sind, sodass du dir keinen Jammerbrief schreiben musst, sondern dass du dir wirklich, dass du an Weihnachten das liest und denkst, hey, cool, stimmt ja, das hat geklappt, das hat geklappt, das hat geklappt.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 27.32,
+   "ende": 35.72,
+   "text": "Hallo und herzlich willkommen zu einer neuen Folge DLIZKFI. Das Leben ist zu kurz für irgendwann. Heute in fünf Monaten ist Weihnachten vorbei.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 35.72,
+   "ende": 41.82,
+   "text": "Ja, also je nachdem, wann du natürlich die Folge hörst, ist es vielleicht auch erst schon in vier Monaten soweit.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 42.26,
+   "ende": 50.16,
+   "text": "Aber heute, wo die Folge ausgestrahlt wird, fünf Monate später, ist der 27. Dezember und demnach sind dann die Weihnachtsfeiertage vorbei.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 50.36,
+   "ende": 56.8,
+   "text": "Man ist total vollgefressen, wahrscheinlich reich beschenkt worden, hatte hoffentlich gemütliche Tage.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 57.54,
+   "ende": 64.0,
+   "text": "So, warum ist das wichtig? Gerade ich als nicht so super krasser Weihnachtsfan, warum rede ich jetzt im Juli schon von Weihnachten?",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 64.8,
+   "ende": 71.26,
+   "text": "weil ich gerne in meiner vierten Folge zu meiner Sommerserie, zu meiner kleinen Miniserie,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 71.36,
+   "ende": 75.7,
+   "text": "eine Frage für den Sommer, würde ich dir gerne die Frage stellen,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 75.98,
+   "ende": 78.64,
+   "text": "was möchtest du dir an Weihnachten sagen?",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 79.0,
+   "ende": 82.14,
+   "text": "Also was möchtest du bis Weihnachten erreicht haben?",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 82.14,
+   "ende": 89.1,
+   "text": "Oder was möchtest du, wenn du an Weihnachten nochmal zurückblickst auf diese letzten fünf Monate ab heute,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 89.7,
+   "ende": 91.62,
+   "text": "was würdest du dir dann sagen wollen?",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 92.16,
+   "ende": 96.68,
+   "text": "Und es geht nicht nur darum, dass du jetzt darüber nachdenkst, was du dir gerne sagen wollen würdest",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 96.68,
+   "ende": 99.32,
+   "text": "und das gegebenenfalls dann an Weihnachten schon wieder vergessen hast,",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 99.8,
+   "ende": 106.0,
+   "text": "sondern ich möchte, dass du dir einen Brief schreibst oder eine Postkarte oder eine E-Mail, wie auch immer.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 106.18,
+   "ende": 109.92,
+   "text": "Also du sollst dich wirklich hinsetzen und dir überlegen,",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 109.92,
+   "ende": 116.36,
+   "text": "okay, wenn ich jetzt heute in fünf Monaten mit mir sprechen würde oder mir was sagen würde,",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 116.42,
+   "ende": 120.2,
+   "text": "was jetzt in den letzten fünf Monaten seit Sommer passiert ist, ja, was wäre das?",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 120.2,
+   "ende": 124.64,
+   "text": "und im besten Fall soll das natürlich was Positives sein.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 124.78,
+   "ende": 128.92,
+   "text": "Also wenn du jetzt gerade in irgendwie in einer nicht so schönen Phase bist",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 128.92,
+   "ende": 132.76,
+   "text": "oder eher in so einem Selbstmitleidskreislauf steckst,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 132.82,
+   "ende": 134.84,
+   "text": "also dann solltest du dir jetzt natürlich nicht schreiben,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 134.96,
+   "ende": 138.02,
+   "text": "es ist alles immer noch genauso scheiße wie vor fünf Monaten",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 138.02,
+   "ende": 140.56,
+   "text": "und das hat nicht geklappt und das hat auch nicht geklappt",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 140.56,
+   "ende": 142.34,
+   "text": "und das wird sowieso alles nie besser.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 142.86,
+   "ende": 145.4,
+   "text": "Ja, das ist natürlich nicht Sinn und Zweck der Sache,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 145.54,
+   "ende": 146.94,
+   "text": "auch wenn du jetzt gerade so fühlst,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 146.94,
+   "ende": 154.52,
+   "text": "sondern gerade wenn du dich vielleicht wirklich so fühlst, gucken, okay, was könntest du vielleicht in fünf Monaten realistischerweise geändert haben,",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 155.04,
+   "ende": 159.36,
+   "text": "wenn es auch nur ganz kleine Sachen sind, sodass du dir keinen Jammerbrief schreiben musst, ja,",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 159.36,
+   "ende": 168.8,
+   "text": "sondern dass du dir wirklich, dass du an Weihnachten das liest, ja, und denkst, hey, cool, stimmt, ja, das hat geklappt, das hat geklappt, das hat geklappt.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 168.8,
+   "ende": 174.08,
+   "text": "und es wäre halt wirklich schön, wenn du die Möglichkeit hast,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 174.3,
+   "ende": 178.26,
+   "text": "dass du dich entweder stellst zu dir wirklich, also schreibst einen Brief oder was auch immer,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 178.42,
+   "ende": 182.1,
+   "text": "versteckst ihn irgendwo oder legst ihn irgendwo hin, wir sind ja keine kleinen Kinder mehr",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 182.1,
+   "ende": 184.96,
+   "text": "und machst dir dann vielleicht eine Erinnerung an Weihnachten,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 185.06,
+   "ende": 189.22,
+   "text": "dass du weißt, dass du den lesen sollst oder du bittest vielleicht sogar jemanden,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 189.22,
+   "ende": 194.3,
+   "text": "dir den zu schicken, also dass du wirklich mit Briefumschlag und Briefmark und allem Pipapo zugeklebt",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 194.3,
+   "ende": 197.8,
+   "text": "dem jemanden gibst und sagst, hey, schick mir den bitte an Weihnachten",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.8
+  },
+  {
+   "start": 198.34,
+   "ende": 205.54,
+   "text": "Oder es gibt auch so E-Mail-Anbieter, E-Mail an mein Zukunfts-Ich oder so, da gibt es schon verschiedene.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 205.6,
+   "ende": 207.86,
+   "text": "Ich habe das tatsächlich mal ausprobiert, schon vor langer Zeit.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 207.94,
+   "ende": 210.78,
+   "text": "Es hat nicht geklappt, dass ich diese E-Mail wirklich bekommen habe.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 211.24,
+   "ende": 215.9,
+   "text": "Deswegen kann ich da jetzt auch nicht wirklich was zu sagen, aber das kann man sicherlich mal googeln.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 216.3,
+   "ende": 219.54,
+   "text": "Wenn jetzt jemand sagt, ich bin nicht so der Briefe-Postkartenschreiber, wie auch immer,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 220.04,
+   "ende": 222.88,
+   "text": "dann vielleicht geht das über so einen E-Mail-Service.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 222.88,
+   "ende": 237.54,
+   "text": "Also finde auf jeden Fall eine Möglichkeit, dass du dann an Weihnachten dir diesen Brief oder diese Postkarte oder diese E-Mail durchliest und dich darüber freust, dass das eingetreten ist.",
+   "avg_logprob": -0.053,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 238.52,
+   "ende": 245.92,
+   "text": "Und damit du besser verstehst, was ich da meine oder was man da so schreiben kann, habe ich das für mich schon gemacht.",
+   "avg_logprob": -0.053,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 245.92,
+   "ende": 256.84,
+   "text": "Ich habe jetzt vor der Folge halt mir diesen Brief schon geschrieben und ich lese dir den jetzt vor und dann kriegst du vielleicht so ein Gefühl dafür, was ich da meinen könnte, ja?",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 257.06,
+   "ende": 260.54,
+   "text": "Okay, also, dann legen wir mal los.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 260.98,
+   "ende": 266.12,
+   "text": "Ich habe auch das Datum hingeschrieben dann, damit du auch wirklich weißt, weil nicht jeder hört ja jetzt die Folge.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 266.12,
+   "ende": 272.7,
+   "text": "Also, wie gesagt, wenn du die Folge dann erst im, keine Ahnung, November hörst, dann hast du halt nur noch zwei Monate Zeit.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 272.7,
+   "ende": 280.08,
+   "text": "Und aber schreib dir ruhig das Datum hin, damit du auch nochmal weißt, okay, wann war das eigentlich, als ich diese Dinge gedacht habe.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 280.64,
+   "ende": 281.82,
+   "text": "So, geht los.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 281.98,
+   "ende": 289.34,
+   "text": "Liebe Juliette, ich wünsche dir ein wunderbares Weihnachtsfest, sofern du denn in Weihnachtsstimmung kommst, bei Sommer, Sonne und dem Anblick von Palmen.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 289.64,
+   "ende": 298.22,
+   "text": "Es ist nun rund fünf Monate her, als ich dir das letzte Mal geschrieben habe und ich wollte dir erzählen, was in diesen fünf Monaten alles passiert ist.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 298.76,
+   "ende": 301.04,
+   "text": "Kurz nachdem ich dir schrieb, sind wir umgezogen.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 301.04,
+   "ende": 303.94,
+   "text": "Es fiel mir sehr schwer, die Strandbungalows aufzugeben.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 304.42,
+   "ende": 306.46,
+   "text": "Es fühlte sich irgendwie wie ein Rückschritt an.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 306.96,
+   "ende": 309.98,
+   "text": "Doch als wir uns in unserem kleinen Hexenhäuschen eingerichtet hatten,",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 310.12,
+   "ende": 313.98,
+   "text": "fühlte ich mich direkt pudelwohl und im Nachhinein verstehe ich gar nicht mehr,",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 314.04,
+   "ende": 316.1,
+   "text": "warum ich so an diesem Blick aus dem Fenster hing.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 317.0,
+   "ende": 320.86,
+   "text": "Also ich verstehe es schon, aber die neue Wohnsituation ist einfach so viel besser.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 321.68,
+   "ende": 326.46,
+   "text": "Im September waren wir unter anderem auf Lombok und haben uns da mit meinen Eltern und meinem Bruder getroffen.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 326.8,
+   "ende": 330.24,
+   "text": "Lange haben wir uns ja nicht an andere indonesische Inseln herangetraut,",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 330.24,
+   "ende": 334.58,
+   "text": "weil wir Bali so doof finden und somit Indonesien als Ganzes abgehakt hatten.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 335.34,
+   "ende": 336.66,
+   "text": "Total kleinkariert eigentlich.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 337.24,
+   "ende": 341.36,
+   "text": "Zum Glück haben wir dem Ganzen nochmal eine Chance gegeben, denn die Reise war super schön.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 341.68,
+   "ende": 344.62,
+   "text": "Und in der Konstellation haben wir noch nie zusammen Urlaub gemacht",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 344.62,
+   "ende": 348.7,
+   "text": "und es war richtig cool und eine tolle Mischung aus Entspannung und Abenteuer.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 349.56,
+   "ende": 353.78,
+   "text": "Ja, und dann hatten wir ja im August eine größere Investition in mein Business getätigt.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 354.18,
+   "ende": 356.84,
+   "text": "Das war zu dem Zeitpunkt eine Riesenentscheidung für uns.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 357.28,
+   "ende": 359.26,
+   "text": "Aber ich bin so froh, dass wir das gemacht haben.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 359.7,
+   "ende": 361.92,
+   "text": "Nun hat das Geld endlich angefangen zu fließen.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 362.82,
+   "ende": 365.28,
+   "text": "Ich war ja nie der Typ, der unbedingt reich werden wollte.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 365.78,
+   "ende": 370.54,
+   "text": "Als ich angestellt war, stand vor Geld für mich immer der Spaß am Job und neue Herausforderungen.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 371.08,
+   "ende": 375.66,
+   "text": "In der Selbstständigkeit waren dann Zeit und Ortsunabhängigkeit wichtiger für mich als viel Geld.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 376.18,
+   "ende": 378.3,
+   "text": "Und letztendlich hat das ja immer ausgereicht.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 378.54,
+   "ende": 380.52,
+   "text": "Schließlich konnten wir damit sogar auswandern.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 381.22,
+   "ende": 386.8,
+   "text": "Aber irgendwann kommt der Punkt, wo man auch mal etwas ins Unternehmen investieren muss, um sich weiterzuentwickeln.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 387.28,
+   "ende": 391.34,
+   "text": "Es ist schön zu sehen, dass Hagen und ich mein Business nun zu zweit weiterentwickelt haben",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 391.34,
+   "ende": 394.0,
+   "text": "und jeder seinen Bereich hat, den er gut kann.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 394.6,
+   "ende": 396.74,
+   "text": "Ohne ihn hätte ich diesen Schritt vermutlich nicht gemacht.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 397.38,
+   "ende": 402.32,
+   "text": "Und ja, es ist auch schön, dass wir nun endlich, dass wir nun nicht mehr so viel über Geld nachdenken müssen,",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 402.32,
+   "ende": 408.44,
+   "text": "weil es einfach da ist und wir noch mehr unsere Träume leben können, als wir es eh schon getan haben.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 409.4,
+   "ende": 413.06,
+   "text": "Und zu guter Letzt, und das ist eigentlich das Wichtigste, sind alle gesund.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 413.06,
+   "ende": 417.68,
+   "text": "Es gab keine größeren Krankheiten, Unfälle oder Krankenhausaufenthalte.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 418.14,
+   "ende": 419.72,
+   "text": "Du siehst, alles läuft prima.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 420.36,
+   "ende": 422.32,
+   "text": "Und das verdanke ich nicht zuletzt dir.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 422.64,
+   "ende": 425.08,
+   "text": "Denn du gibst nie auf und gehst immer vorwärts.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 425.4,
+   "ende": 427.88,
+   "text": "Und vor allem glaubst du an uns.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 428.22,
+   "ende": 429.22,
+   "text": "Bis bald, Juliette.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 430.08,
+   "ende": 434.4,
+   "text": "So, das ist jetzt mein Weihnachtsbrief, den ich mir an Weihnachten wieder durchlesen werde.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 434.46,
+   "ende": 437.28,
+   "text": "Jetzt kann man natürlich sagen, also ich sage mir das.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 437.56,
+   "ende": 438.72,
+   "text": "Okay, ich habe das jetzt geschrieben.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 438.84,
+   "ende": 441.48,
+   "text": "Ich habe das bis Weihnachten nicht vergessen, dass ich das geschrieben habe.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 441.48,
+   "ende": 459.26,
+   "text": "Also ich weiß ganz genau, man könnte mich in dreieinhalb Monaten fragen, hey, was hast du eigentlich damals in diesem Brief geschrieben, wäre ich mir ziemlich sicher, dass ich das sofort wiedergeben könnte. Ich weiß nicht, ob ich es schon mal erwähnt hatte, dass Hagen mich Protokoll-Druide nennt, weil ich mir einfach sehr gut Sachen merken kann.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 460.24,
+   "ende": 463.44,
+   "text": "aber das ist auch gar nicht schlimm.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 463.68,
+   "ende": 468.94,
+   "text": "Also selbst wenn ich wirklich, oder auch du, wenn du dir diesen Briefkarte, was auch immer, schreibst",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 468.94,
+   "ende": 473.9,
+   "text": "und dann die ganze Zeit das im Kopf hast, das ist halt genau dieser positive Effekt.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 473.9,
+   "ende": 481.28,
+   "text": "Also wenn ich jetzt weiß, dass ich da reingeschrieben habe, dass ich mich in der neuen Wohnsituation total wohlfühlen werde,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 481.72,
+   "ende": 484.26,
+   "text": "dann ist das ja so ein unterbewusstes Mantra.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 484.76,
+   "ende": 488.64,
+   "text": "Ich kann natürlich jetzt nicht beeinflussen, ob jemand noch mal krank wird,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 488.64,
+   "ende": 491.2,
+   "text": "ob jemand irgendwie einen Unfall hat oder keine Ahnung.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 491.74,
+   "ende": 496.4,
+   "text": "Aber wenn ich da jetzt reinschreiben würde, ja, und ich hatte die ganzen fünf Monate Angst,",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 496.5,
+   "ende": 499.54,
+   "text": "dass noch ein Unfall passiert und ich hatte die ganze Zeit Angst,",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 499.64,
+   "ende": 503.24,
+   "text": "dass wir an Weihnachten wieder total krank werden, weil wir waren ja letztes Jahr krank so,",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 503.86,
+   "ende": 507.78,
+   "text": "dann ist das ja etwas, wo mein Geist die ganze Zeit mit beschäftigt ist.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 507.88,
+   "ende": 510.9,
+   "text": "Und deshalb sage ich auch, auch wenn jetzt gerade irgendwas nicht cool ist",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 510.9,
+   "ende": 514.12,
+   "text": "und du dir vielleicht auch nicht vorstellen kannst, dass es jetzt an Weihnachten so viel besser ist,",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 515.24,
+   "ende": 517.68,
+   "text": "versuch trotzdem, dich auf positive Sachen zu konzentrieren,",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 517.68,
+   "ende": 531.72,
+   "text": "Weil das sind die Dinge, mit denen sich dein Kopf dann einfach bis dahin beschäftigt. Und je mehr du dich daran erinnern kannst, was du geschrieben hast und da das halt immer mal wieder präsent hast, desto wahrscheinlicher ist es einfach, dass das auch eintritt.",
+   "avg_logprob": -0.035,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 531.72,
+   "ende": 556.2,
+   "text": "Also das, was wir nähren und im ersten Moment sind das unsere Gedanken, aber womit wir die nähren, wie gesagt, ich könnte wahrscheinlich stundenlang folgen über dieses ganze spirituelle Manifestieren, da gibt es andere Profis für, die sich da besser auskennen und dafür stehe ich ja jetzt auch nicht und nicht jeder Hörer kann vielleicht auch was damit anfangen.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 556.2,
+   "ende": 571.96,
+   "text": "Aber ich bin trotzdem davon überzeugt, dass jeder verstehen kann oder jedem irgendwie klar ist, dass wenn ich die ganze Zeit über was Negatives nachdenke und davon überzeugt bin, dass was Negatives eintritt, dass es dann sehr, sehr schwer ist, dass daraus was Positives entsteht.",
+   "avg_logprob": -0.052,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 571.96,
+   "ende": 586.6,
+   "text": "Und andersrum genauso, wenn ich halt eine positive Einstellung habe und wenn ich fest daran glaube, dass etwas gut wird, dann ist es wahrscheinlicher, dass das auch passiert. Und natürlich kann trotzdem irgendwas Blödes passieren. Vielleicht tritt auch nicht alles ein von dem, was ich hier geschrieben habe.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 586.6,
+   "ende": 594.7,
+   "text": "Ja, aber dann habe ich zumindest auch an Weihnachten nochmal so einen Moment, okay, das ist so gar nicht gekommen.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.9
+  },
+  {
+   "start": 594.86,
+   "ende": 599.9,
+   "text": "Warum ist das vielleicht so nicht gekommen? Ist es anders gekommen? Ist es besser gekommen? Ist es schlechter gekommen?",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.9
+  },
+  {
+   "start": 600.34,
+   "ende": 603.4,
+   "text": "Kann das vielleicht noch so kommen? Was kann ich vielleicht noch tun, damit das so kommt?",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.9
+  },
+  {
+   "start": 603.94,
+   "ende": 606.08,
+   "text": "Was weiß ich, dann schreibe ich mir vielleicht nochmal zu Ostern einen Brief.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.9
+  },
+  {
+   "start": 606.32,
+   "ende": 608.04,
+   "text": "Also ich habe das jetzt auch zum ersten Mal gemacht.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.9
+  },
+  {
+   "start": 608.12,
+   "ende": 612.34,
+   "text": "Ist jetzt nicht so, dass ich mir in regelmäßigen Abständen irgendwelche Briefe an mein Zukunfts-Ich schreibe.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.9
+  },
+  {
+   "start": 612.92,
+   "ende": 616.9,
+   "text": "Aber das kam jetzt halt in diesem Zuge eine Frage für den Sommer.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 617.68,
+   "ende": 620.7,
+   "text": "Dachte ich so, wir sprechen die ganze Zeit so wie letzte Woche.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 620.82,
+   "ende": 622.86,
+   "text": "Hey, was würdest du jetzt tun, wenn es dein letztes Mal wäre?",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 623.48,
+   "ende": 626.42,
+   "text": "Oder was war mal irgendwann dein Irgendwann?",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 626.54,
+   "ende": 631.56,
+   "text": "Das sind dann so Momentaufnahmen, da denkt man vielleicht mal kurz drüber nach, reflektiert die ein bisschen und so.",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 632.52,
+   "ende": 639.66,
+   "text": "Aber die Sache ist jetzt halt eine Frage, die du dir jetzt stellst und wo du dann halt einfach in fünf Monaten,",
+   "avg_logprob": -0.136,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 639.66,
+   "ende": 644.24,
+   "text": "also zum Jahresende einfach nochmal drüber nachdenken kannst und schauen kannst, was davon eingetreten ist.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 644.38,
+   "ende": 651.04,
+   "text": "Deshalb, also ich würde mich freuen, wenn du das kleine Experiment mitmachst und dir auch was Schönes schreibst.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 651.22,
+   "ende": 660.42,
+   "text": "Und wenn du dann an Weihnachten irgendwie was davon eingetreten ist oder irgendein positiver Effekt daraus entstanden ist,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 660.5,
+   "ende": 661.58,
+   "text": "dann lass es mich gerne wissen.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 663.38,
+   "ende": 669.34,
+   "text": "Ja, ich freue mich. Ich bin sehr gespannt, was hier aus meinem Buch dann so sein wird.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 669.34,
+   "ende": 674.78,
+   "text": "Aber ich bin eigentlich, ich bin davon überzeugt, dass alles genau so eintreffen wird, wie ich das hier geschrieben habe.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.35
+  },
+  {
+   "start": 675.48,
+   "ende": 679.6,
+   "text": "Und ja, wir sehen uns dann und hören uns dann nächste Woche. Bis bald. Ciao.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.35
+  }
+ ]
+}

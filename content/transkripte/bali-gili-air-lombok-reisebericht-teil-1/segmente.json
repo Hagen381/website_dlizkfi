@@ -1,0 +1,3610 @@
+{
+ "meta": {
+  "slug": "bali-gili-air-lombok-reisebericht-teil-1",
+  "titel": "Bali, Gili Air, Lombok – Reisebericht Teil 1",
+  "datum": "2026-09-28T03:00:00.000Z",
+  "dauer_sekunden": 2548,
+  "guid": "abe7a46e-e1d9-4958-a8dc-679ddd3ecbe3",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T06:56:27Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 6,
+   "transkription": 2713
+  },
+  "echtzeitfaktor": 1.06,
+  "anzahl_segmente": 448,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 4.69,
+   "ende": 16.49,
+   "text": "Aber dann steckst du da auf die Air aus und denkst so, Alter, ne, im Hafen, das Wasser so klar, also glasklar, man kann bis auf den Boden gucken, sofort sieht man da die bunten Fische schwimmen und so.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 17.03,
+   "ende": 22.45,
+   "text": "Und es ist einfach alles sofort wie weggeblasen. Also wirklich, es war sofort, oh Gott, ja, es hat sich alles gelohnt.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 27.73,
+   "ende": 37.09,
+   "text": "Hallo und herzlich willkommen zu einer neuen Folge DLIZKFI. Das Leben ist zu kurz für irgendwann. Heute live aus den Reisfeldern von Tetebadu.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 37.09,
+   "ende": 40.69,
+   "text": "Ihr könnt es hier sehen, alle, die bei YouTube zugucken, sehen sie hinter mir.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 41.53,
+   "ende": 44.93,
+   "text": "Ich sehe auch da hinten meine Mama, sehe ich gerade, aber...",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 44.93,
+   "ende": 47.37,
+   "text": "Hallo Mama, du bist im Podcast.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 48.31,
+   "ende": 49.73,
+   "text": "Ja, das wird sie dann später hören.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 50.27,
+   "ende": 55.45,
+   "text": "Ja, ich bin heute da mit einem kleinen Reisebericht mit unserem ersten Teil unserer,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 56.09,
+   "ende": 58.65,
+   "text": "ich nenne es immer noch Visa-Reise, ja, oder Urlaub.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 58.79,
+   "ende": 63.03,
+   "text": "Wer die letzte Folge gehört hat, weiß, dass ich mich mit dem Begriff Urlaub ein bisschen schwer tue,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 63.17,
+   "ende": 65.15,
+   "text": "wobei es sich wirklich sehr nach Urlaub anfühlt.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 65.15,
+   "ende": 74.87,
+   "text": "Wir sind ja vor, was haben wir denn heute? Ja, vor etwas, vor knapp einer Woche sind wir ja von Koh Samui nach Bali geflogen",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 74.87,
+   "ende": 79.59,
+   "text": "Allerdings nur für eine Nacht, also wir kamen abends an und wussten, am nächsten Tag geht es gleich weiter",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 79.59,
+   "ende": 83.45,
+   "text": "Weil wer uns näher kennt, weiß, dass wir absolut keine Bali-Fans sind",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 83.45,
+   "ende": 89.07,
+   "text": "Wir haben es zweimal versucht, tatsächlich war Bali die erste Fernreise für Hagen und mich, als wir uns kennengelernt hatten",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 89.69,
+   "ende": 95.29,
+   "text": "Ich glaube, so ziemlich genau nach einem Jahr sind wir dann nach Bali geflogen.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 95.41,
+   "ende": 97.77,
+   "text": "Für Hagen war es generell die erste Fernreise.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 98.69,
+   "ende": 102.39,
+   "text": "Und ja, ich war ja vorher auch schon viel unterwegs, aber eben noch nicht auf Bali.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 103.01,
+   "ende": 106.21,
+   "text": "Und damals waren wir auch schon nicht so begeistert von Bali.",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 106.43,
+   "ende": 108.61,
+   "text": "Also wir hatten eigentlich geplant, dort länger zu bleiben,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 108.83,
+   "ende": 112.35,
+   "text": "wollten zwischendurch mal ganz kurz auf die Nachbarinsel Lembongan für zwei Tage,",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 113.03,
+   "ende": 115.81,
+   "text": "waren dann auch für zwei Tage auf Lembongan, sind zurück nach Bali",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 115.81,
+   "ende": 117.79,
+   "text": "und hatten dann eigentlich noch zehn Tage vor uns",
+   "avg_logprob": -0.105,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 117.79,
+   "ende": 122.49,
+   "text": "und haben irgendwie nach zwei Tagen schon gedacht, irgendwie war es auf Lembongan viel besser",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 122.49,
+   "ende": 129.27,
+   "text": "und sind dann einfach mit so einem kleinen Fischer-Holzboot wieder rüber gefahren nach Lembongan",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 129.27,
+   "ende": 131.69,
+   "text": "und haben eigentlich den kompletten Urlaub damals dort verbracht.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 132.59,
+   "ende": 138.53,
+   "text": "Und dann haben wir nochmal in der Elternzeitreise mit Hermine, da waren wir ja insgesamt vier Monate unterwegs,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 138.53,
+   "ende": 143.45,
+   "text": "da haben wir dann Bali nochmal eine Chance gegeben und haben gesagt, wir bleiben dann einfach mal einen ganzen Monat da,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 143.45,
+   "ende": 154.69,
+   "text": "Weil alle Leute sind halt so mega begeistert von Bali und ja, vielleicht war es, warum auch immer es uns damals nicht so gefallen hat. Und ja, die fanden dann auch den ganzen Monat einfach richtig kacke.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 154.69,
+   "ende": 177.01,
+   "text": "Und deswegen war für uns Bali durch und damit irgendwie auch Indonesien, was mir immer schon so ein bisschen leid tat, weil mir irgendwie trotzdem bewusst war, okay, es ist irgendwie nicht fair, Indonesien und Bali immer so in einen Hut zu werfen, weil Bali am Ende, also Indonesien hat 17.000 Inseln.",
+   "avg_logprob": -0.039,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 177.01,
+   "ende": 196.01,
+   "text": "Davon sind natürlich jetzt nicht alle bewohnt und auch nicht alle bereisbar, aber an sich ist es halt ein riesiges Land. Und Bali ist davon halt eine kleine Insel, die zwar um ein Vielfaches größer ist als Koh Samui. Also eine kleine Insel ist da trotzdem relativ. Ich glaube, Hagen hatte nachgelesen, 28 mal so groß wie Koh Samui ist Bali.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 197.01,
+   "ende": 202.67,
+   "text": "Aber nichtsdestotrotz im Vergleich zu 17.000 Inseln war es nicht fair, immer zu sagen,",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 202.81,
+   "ende": 206.13,
+   "text": "ja, wir fliegen nicht nach Indonesien, weil Bali halt kacke ist.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 206.69,
+   "ende": 211.89,
+   "text": "Nun kam es so, dass mein Bruder jetzt im September halt auch wieder Urlaub machen wollte",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 211.89,
+   "ende": 220.29,
+   "text": "und wir wussten auch, wir müssen im September wieder raus aufgrund unseres Visums, also aufgrund unserer Visa.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 220.29,
+   "ende": 239.09,
+   "text": "Ja, so und dann hatte er eben gesagt, er würde gerne nach Bali und dann habe ich gesagt, okay, aber dann ohne uns, also für uns kommt es halt auf keinen Fall in Frage, so sehr ich dich auch gerne irgendwie wieder treffen würde im Urlaub oder dass wir zusammen Urlaub machen, aber sorry, da gibt es keinen Verhandlungsspielraum mit Bali.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.009,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 239.09,
+   "ende": 249.91,
+   "text": "Und dann habe ich gesagt, aber wir könnten halt, worauf ich mich einlassen würde, wären halt die anderen Inseln, Lombok und ja, was da sonst noch so gibt.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 250.51,
+   "ende": 260.91,
+   "text": "Und dann waren auch Freunde von uns tatsächlich kurz vorher, haben hier eine Tour gemacht mit Gili und Lombok und Flores und Komodo Nationalpark und so und waren dann auch total begeistert.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 261.09,
+   "ende": 266.27,
+   "text": "Und unsere ganzen anderen Recherchen, Philippinen war eigentlich ganz hoch im Rennen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 266.27,
+   "ende": 281.73,
+   "text": "Mein Bruder wäre auch gerne mal nach Kambodscha, da waren wir zwar schon, aber da wären wir auch noch mal mit, aber war alles von der Reisezeit irgendwie nicht optimal und am Ende kam man dann immer wieder auf den Punkt, dass eigentlich für den Zeitraum jetzt Indonesien das beste Ziel wäre.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 281.73,
+   "ende": 301.13,
+   "text": "Und so hat sich das dann ergeben und auch so, dass dann meine Mutter und mein Stiefvater dann ja auch mitgekommen sind, also dass wir das dann klar, wir treffen uns hier einfach alle. Dadurch war auch klar, dass wir jetzt nicht nur so wie damals in Vietnam eine Woche machen, sondern einfach drei Wochen bleiben, weil aus Deutschland die weite Anreise hätte sich sonst gar nicht gelohnt.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 301.13,
+   "ende": 313.05,
+   "text": "Und ja, so sind wir dann trotzdem nach Bali geflogen, weil die Flugverbindungen einfach sowohl von Deutschland als auch von Koh Samui einfacher sind, in Denpasar auf Bali zu landen als zum Beispiel in Lombok.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 313.05,
+   "ende": 321.05,
+   "text": "Ja, also man kann auch nach Lombok direkt fliegen, aber ist von den Verbindungen einfach mehr zeitaufwendiger und eben auch teilweise teurer.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 322.05,
+   "ende": 325.47,
+   "text": "Und ja, so waren wir dann da eine Nacht in einem Flughafenhotel.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 325.59,
+   "ende": 328.13,
+   "text": "Wer uns auf Instagram folgt, hat die Bilder gesehen.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 328.23,
+   "ende": 330.65,
+   "text": "Das war wirklich super ugly.",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 330.65,
+   "ende": 349.93,
+   "text": "Also es hatte eigentlich ganz gute Bewertungen und wir haben ja auch so gedacht, ja mein Gott, es ist nur eine Nacht. Wir sind irgendwie um acht oder so angekommen. Meine Family ist irgendwie nachts um elf oder so angekommen, also gelandet, bis man einen Koffer hat und so weiter und dachten, ja gut, die paar Stunden am nächsten Morgen fahren wir ja gleich weiter.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 350.79,
+   "ende": 355.29,
+   "text": "Aber es war trotzdem, ja, es war trotzdem ganz schön krass.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 355.45,
+   "ende": 363.11,
+   "text": "Also es hat halt mal, wenn man reinkam, war man erst noch so, okay, war ein kleiner Pool im Innenhof und so kleine Terrassen vor den Zimmern.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 363.55,
+   "ende": 368.13,
+   "text": "Das war erst mal ganz niedlich und der Besitzer, auch die Vorabstimmung, alle super nett.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 368.29,
+   "ende": 370.63,
+   "text": "Und dann wurden wir vom Flughafen abgeholt.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 370.71,
+   "ende": 374.59,
+   "text": "Der Fahrer stellte sich heraus, war der Besitzer, war auch mega freundlich und so.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 374.65,
+   "ende": 376.85,
+   "text": "Und dann ist man eigentlich total positiv schon da rangegangen.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 377.55,
+   "ende": 382.45,
+   "text": "Und dann wurden wir aber in die zweite Etage gebracht, zu unseren beiden Zimmern.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 382.59,
+   "ende": 386.45,
+   "text": "Also Hagen und ich hatten jeweils, also wir hatten zwei Zimmer jeweils mit den Kindern.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 387.27,
+   "ende": 392.37,
+   "text": "Und dann hat das da schon so super muffig gerochen und der Flur sah auch ein bisschen komisch aus.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 392.37,
+   "ende": 396.77,
+   "text": "Aber es war ja auch dunkel und man war ja auch irgendwie müde und musste noch was essen und so.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 396.95,
+   "ende": 399.95,
+   "text": "Und dann, naja, haben wir dann das halt, dann haben wir uns hingelegt.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 400.01,
+   "ende": 403.11,
+   "text": "Dann hat man gesehen, dass das Bettzeug auch teilweise ganz schön dreckig war.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 403.11,
+   "ende": 410.33,
+   "text": "Also es war nicht dreckig im Sinne von, dass sie es nicht gewechselt hätten, sondern einfach dreckig im Sinne von, dass die Flecken halt nicht mehr rausgehen.",
+   "avg_logprob": -0.043,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 411.17,
+   "ende": 422.85,
+   "text": "Und ja, wir haben es dann halt einfach so hingenommen, weil wir jetzt irgendwie auch um die Uhrzeit keinen Bock hatten, nochmal was anderes zu suchen und eben auch nicht mit dem Wissen, dass man am nächsten Morgen gleich weiterfährt.",
+   "avg_logprob": -0.043,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 422.97,
+   "ende": 430.55,
+   "text": "Und als wir dann aber morgens im Hellen das nochmal gesehen haben, war halt auch direkt im Flur über unserer Zimmertür die Decke, die war gar nicht mehr vorhanden.",
+   "avg_logprob": -0.043,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 430.55,
+   "ende": 455.73,
+   "text": "Ja, da waren riesige Löcher drin. Das komplette Zimmer, die Wand war halt, ja, der Putz kam ab, weil es so feucht war. Das hat natürlich auch diesen Geruch erklärt. Das Badezimmer, ich habe mich geduscht und das Handtuch dann da reingehangen und dann bin ich halt ins Bett und dann musste ich irgendwann nochmal auf die Toilette und bin dann ins Bad rein und ich konnte fast nicht in diesem Bad sein, weil so ein ekelhafter Gestank in dem Bad war.",
+   "avg_logprob": -0.038,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 455.73,
+   "ende": 463.05,
+   "text": "Weil dieses Handtuch, das nasse, womit ich mich abgeträumt hatte, keine Ahnung, was da drin war.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 463.29,
+   "ende": 469.83,
+   "text": "Also das hat, ich glaube, jeder kennt das, wenn Sachen nicht so richtig trocknen, dann riechen die so säuerlich halt, irgendwie so komisch.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 469.89,
+   "ende": 471.91,
+   "text": "Und das war aber irgendwie mal 100, ja.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 471.99,
+   "ende": 479.31,
+   "text": "Das heißt, ich konnte wirklich kaum auf die Toilette gehen und da pinkeln, weil ich von diesem Geruch, also das war krass, ja.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 479.33,
+   "ende": 484.35,
+   "text": "Dann habe ich die Badtür aufgelassen, damit sich das da drinnen nicht so staut, habe mich wieder hingelegt.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 485.17,
+   "ende": 490.05,
+   "text": "Und bin dann irgendwann wieder aufgestanden, weil dann das ganze Zimmer angefangen hat, nach diesem räudigen Handtuch zu riechen.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 490.55,
+   "ende": 496.07,
+   "text": "Da bin ich wieder aufgestanden, habe das Handtuch auf die Terrasse geschmissen und habe dann die Badtür wieder zugemacht.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 496.07,
+   "ende": 506.77,
+   "text": "Und es war wirklich grenzwertig. Dann sind wir morgens zum Frühstück runter und das Frühstück war halt auch so, naja, es war nicht so geil.",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 506.91,
+   "ende": 510.81,
+   "text": "Und es war dann auch wieder so, wo wir dachten, und das ist einer der Gründe, warum wir Bali nicht mögen,",
+   "avg_logprob": -0.095,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 510.81,
+   "ende": 517.71,
+   "text": "Weil wir wirklich immer, wenn wir auf Bali waren, wo wir dann einen Monat da waren, hatten wir insgesamt zwei Unterkünfte.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 517.87,
+   "ende": 523.31,
+   "text": "Und wo wir damals mit Hagen und ich als erster waren, waren wir, glaube ich, insgesamt in zwei oder drei verschiedenen Unterkünften.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 524.09,
+   "ende": 526.81,
+   "text": "Und es ist immer das Gleiche, egal auch, was die gekostet haben.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 526.89,
+   "ende": 529.15,
+   "text": "Das Flughafenhotel war zum Beispiel super günstig.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 530.11,
+   "ende": 538.89,
+   "text": "Aber wo wir den Monat da waren, da hatten wir halt so eine Villa für sechs Leute aus Glas und alles total fancy und luxuriös.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 538.89,
+   "ende": 540.67,
+   "text": "Aber trotzdem super abgewohnt.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 540.81,
+   "ende": 558.73,
+   "text": "Die erste Unterkunft, die wir damals hatten in Limona, sind wir nachts angekommen, da lagen überall Zigarettenstummel rum, es war dreckig, das Licht ging nicht und das waren aber dann so Preise für, wir hatten dann so Long Term für einen Monat gemietet, für irgendwie 1000, 1200 Euro.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 559.49,
+   "ende": 563.11,
+   "text": "Ja, ich weiß, wir haben zum Beispiel in Ungarn für eine Woche 1.000 Euro bezahlt.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 563.31,
+   "ende": 568.87,
+   "text": "Das ist für den Urlaub an sich nicht teuer, aber für uns, wir sind ja viel in Asien unterwegs.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 568.87,
+   "ende": 575.83,
+   "text": "Ich weiß ja, was ich in Thailand oder auch in anderen Ländern für 1.200 Euro für eine Monatsmiete, was ich dann da bekomme.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 576.77,
+   "ende": 581.15,
+   "text": "Und das ist halt, aus unserer Sicht stimmt das Preis-Leistungs-Verhältnis auf Bali halt einfach nicht,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 581.27,
+   "ende": 583.89,
+   "text": "beziehungsweise man weiß einfach nicht, was man für sein Geld bekommt.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 583.89,
+   "ende": 593.73,
+   "text": "Und ich habe das auch schon mal gesagt, es ist halt, wenn ich jetzt 20 Euro die Nacht bezahle, dann weiß ich, okay, ich kriege halt auch nur was für 20 Euro die Nacht.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 593.73,
+   "ende": 599.67,
+   "text": "So in Thailand zum Beispiel, ja. Aber trotzdem ist es dann sauber und ordentlich und nicht irgendeine abgeranzte Bruchbude.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 600.23,
+   "ende": 611.23,
+   "text": "Wenn ich 150 oder 200 Euro die Nacht bezahle, in Thailand zum Beispiel oder auch Vietnam oder in anderen Ländern, wo wir unterwegs waren, dann kriege ich eben auch was für 200 Euro.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 611.23,
+   "ende": 627.21,
+   "text": "Und das heißt, das ist dann halt wirklich luxuriös und toll und keine Ahnung. Auf Bali ist es eben so, dass ich, ob ich jetzt, ich kann für 20 Euro was Schönes haben, ich kann für 20 Euro die totale Bruchbude haben, ich kann aber auch für 150 Euro die totale Bruchbude haben, das weiß ich halt vorher nicht.",
+   "avg_logprob": -0.024,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 627.21,
+   "ende": 640.19,
+   "text": "Und das ist natürlich eine sehr subjektive Erfahrung und ich weiß, es gibt super viele Menschen, also wahrscheinlich, keine Ahnung, 80 Prozent der Leute, die wir kennen, lieben Bali, die schon mal auf Bali waren und haben ganz andere Erfahrungen gemacht.",
+   "avg_logprob": -0.056,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 640.19,
+   "ende": 651.77,
+   "text": "Ich kenne genug, die nach Bali auswandern wollten oder immer noch vorhaben, aber für uns hat das diese Flughafenhotelnummer einfach uns wieder darin bestätigt, dass das einfach nicht passt.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 651.97,
+   "ende": 658.25,
+   "text": "Egal, wir sind dann am nächsten Morgen halt mit der Fähre nach Gili Air übergesetzt.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 658.39,
+   "ende": 662.15,
+   "text": "Es gibt ja drei Gili-Inseln, hat vielleicht auch schon mal der ein oder andere gehört.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 662.15,
+   "ende": 665.61,
+   "text": "Gili Tarawang, wenn ich es richtig ausgespreche, Gili Meno und Gili Air.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 666.31,
+   "ende": 670.17,
+   "text": "Und Gili Tarawang ist so eine größere Insel, die eher so partymäßig auch ist.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 670.25,
+   "ende": 674.97,
+   "text": "Gili Meno ist wohl super klein und ganz ruhig und Gili Air ist sozusagen so dazwischen.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 675.61,
+   "ende": 679.33,
+   "text": "Und man fährt mit dem Speedboot ungefähr zwei Stunden von Padang Bay.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 680.31,
+   "ende": 682.41,
+   "text": "Es gibt zwei Häfen, die da hinfahren.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 682.53,
+   "ende": 685.03,
+   "text": "Das ist einmal Padang Bay und Sanur auf Bali.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 685.03,
+   "ende": 690.13,
+   "text": "Sanur ist super dicht am Flughafen, aber die Fährfahrt würde dann eben länger dauern.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 690.21,
+   "ende": 691.81,
+   "text": "Deswegen haben wir uns für Padang Bay entschieden.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 692.15,
+   "ende": 701.07,
+   "text": "dass man nur zwei Stunden fährt, weil es in jüngster Zeit relativ viele Fährunglücke in Indonesien gab.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 701.39,
+   "ende": 704.89,
+   "text": "Ich habe das in irgendeiner anderen Folge auch schon mal angesprochen,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 705.73,
+   "ende": 710.01,
+   "text": "dass das schon ein bisschen ein mulmiges Gefühl vorher gemacht hat.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 710.11,
+   "ende": 714.23,
+   "text": "Allerdings natürlich bei einem Land, das aus 17.000 Inseln besteht",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 714.23,
+   "ende": 718.83,
+   "text": "und das Boot oder die Fähre eines der Hauptfortbewegungsmittel ist,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 718.83,
+   "ende": 736.97,
+   "text": "weil man einfach von A nach B damit, also zu den anderen Inseln kommt, ist natürlich die Wahrscheinlichkeit auch höher, dass mehr Fährunglücke passieren, weil einfach mehr Fähren da sind und mehr Fähren fahren oder Boote, ja, nichtsdestotrotz, ja, ist wohl auch ein sehr hoher Wellengang,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 736.97,
+   "ende": 742.51,
+   "text": "weil zwischen Bali und Lombok, also die Gili-Inseln sind sozusagen nah an Lombok dran",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 742.51,
+   "ende": 750.73,
+   "text": "und zwischen Bali und Lombok verläuft die sogenannte Wolles-Linie und das ist auch ein sehr tiefer Graben",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 750.73,
+   "ende": 758.63,
+   "text": "und diese Wolles-Linie kommt halt aus, ich würde nicht sagen Urzeiten, aber ich bin in solchen Sachen auch super schlecht.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 758.93,
+   "ende": 766.95,
+   "text": "Auf jeden Fall war das mal zusammen und durch diese Trennung hat sich auf Bali eine komplett andere Flora und Fauna entwickelt,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 766.95,
+   "ende": 769.85,
+   "text": "als auf Lombok, obwohl die Inseln so dicht beieinander liegen.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 770.49,
+   "ende": 772.97,
+   "text": "Aber dadurch, dass das eben genau da lang geht,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 773.07,
+   "ende": 776.49,
+   "text": "ist die Fährfahrt auch oft oder die Überfahrt auch oft sehr wellig.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 776.67,
+   "ende": 778.61,
+   "text": "Ja, da ist halt wirklich tiefste See.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 779.33,
+   "ende": 783.53,
+   "text": "Und das kann ja eben auch zu seekrank, also nicht jeder,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 783.91,
+   "ende": 786.81,
+   "text": "also seekrank weiß ich, ist jetzt nicht so, wo man sagen kann,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 786.85,
+   "ende": 787.89,
+   "text": "der eine ist es, der andere nicht.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 787.99,
+   "ende": 790.25,
+   "text": "Ich habe ja auch auf dem Schiff gearbeitet, das kann halt mal kommen.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 790.73,
+   "ende": 792.55,
+   "text": "Und es kann auch nicht kommen, man weiß es vorher auch nicht.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 792.61,
+   "ende": 794.25,
+   "text": "Auch wenn man in seinem Leben noch nie seekrank war,",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 794.25,
+   "ende": 796.69,
+   "text": "kann es plötzlich dann bei der einen Fahrt mal sein.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.014,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 796.95,
+   "ende": 813.89,
+   "text": "Und ja, dann haben wir halt gesagt, okay, nehmen wir halt diese kürzere Fahrt von nur zwei Stunden und eben nicht dreieinhalb oder vier Stunden. Aber ich muss sagen, ich habe mir unter Fähre auch irgendwie was anderes vorgestellt, weil ich kenne halt die Fähre ja von Suratani nach Kusamui.",
+   "avg_logprob": -0.053,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 813.89,
+   "ende": 832.35,
+   "text": "Ich meine, das ist auch eine Autofähre, ist klar, dass die anders aufgemacht ist. Aber ich habe schon irgendwie in meinem Kopf, sind die Wörter Fähre und Boot und Speedboot und keine Ahnung anders konnotiert. Und dann kamen wir erstmal fast zu spät, weil das sind irgendwie nicht so viele Kilometer.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 832.35,
+   "ende": 856.47,
+   "text": "Wir sind zwei Stunden vor Abfahrt losgefahren und waren dann wirklich eine Viertelstunde vor Abfahrt im Hafen und wir dachten halt, ja, da ist halt ein Hafen, da fährt das Boot oder die Fähre ab und gut ist, aber da sind halt super viele unterschiedliche Anbieter und man muss dann immer erst zu dem Büro gehen und sich da anmelden und von da aus läuft man dann sozusagen runter, wo die Boote ablegen.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 857.35,
+   "ende": 862.75,
+   "text": "Und da ist halt super viel Verkehrschaos, haben wir viele Leute und wir haben echt schon gedacht, wir verpassen das Ding.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 862.85,
+   "ende": 868.17,
+   "text": "Deswegen sind wir dann da echt die Letzten gewesen, die, sag ich mal, aufs Boot gegangen sind.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 868.47,
+   "ende": 874.23,
+   "text": "Und ich sage dann Boot, weil wir sind dann da rausgekommen auf diese Pier und dann lag da halt so ein ganz flaches Boot.",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 874.23,
+   "ende": 882.31,
+   "text": "Also so, ja wie so ein, ich werde mal sagen, wer zum Beispiel diese Ausflugsboote in Kopenhagen kennt,",
+   "avg_logprob": -0.113,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 882.31,
+   "ende": 902.13,
+   "text": "Ja, wo man diese Flussfahrten macht, die so flach sind, damit sie unter den Brücken durchpassen. Gefühlt war das so. Es war nicht ganz so flach, aber es war eben weit weg von meiner Vorstellung von Fähre. Und dann kam man da halt rauf. Das Gepäck musste man abgeben, wo auch immer die das da verstaut haben. Keine Ahnung. Wir waren froh, dass das dann mit ankam.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 902.13,
+   "ende": 906.65,
+   "text": "und dann ist man da drei Stufen runter und dann waren vorne so ein paar Sitze",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 906.65,
+   "ende": 908.85,
+   "text": "und dann konnte man reingehen, das war dann klimatisiert,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 908.97,
+   "ende": 912.25,
+   "text": "aber da saßen dann, da waren links und rechts so Vierer oder Fünfer rein.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 913.31,
+   "ende": 917.17,
+   "text": "Man saß super gequetscht, also auch jede Körpergröße und jede Körperbreite,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 917.27,
+   "ende": 918.95,
+   "text": "ja, musste ja dann nun mal draufpassen.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 919.35,
+   "ende": 922.49,
+   "text": "Das waren auch nichts, wo du rumlaufen konntest oder stehen konntest oder so,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 922.49,
+   "ende": 927.03,
+   "text": "sondern die saßen da wie eingefärscht in diesem Ding, was klimatisiert war",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 927.03,
+   "ende": 930.31,
+   "text": "und ich habe dann gleich gedacht, okay, wir setzen uns hier vorne hin,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 930.31,
+   "ende": 942.87,
+   "text": "Und weil, falls irgendwas ist, sind wir gleich am Ausgang und wenn das Boot sinkt, springen wir einfach raus und sind nicht in dieser Fisch-Sardinen-Öl-Sardinen-Dose eingefangen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 943.37,
+   "ende": 954.05,
+   "text": "Und da waren auch gleich die Schwimmwesten und dann fuhr das halt los und dann hat das auch gleich, also wirklich so dieses, es fährt Vollgas los und knallt die ganze Zeit wie bekloppt auf die Wellen.",
+   "avg_logprob": -0.093,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 954.05,
+   "ende": 979.35,
+   "text": "Ja, in einer Lautstärke und ich kenne das ja. Ich meine, ich war als Kind jedes Jahr in Kroatien. Mein Vater hat Segel- und Motorjachtturns veranstaltet. Ich war einmal im Jahr entweder auf einer Motorjacht oder auf einer Segeljacht. Ich bin schon auf verschiedenen Tauchbooten gefahren. Ich habe auf einem Kreuzfahrtschiff gearbeitet. Ich bin also schon, sage ich mal, einigermaßen vertraut mit Schiffen, Booten, auf dem Wasser sein und so weiter.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 979.35,
+   "ende": 986.47,
+   "text": "Aber diese Nummer, wenn das Boot so hoch, also so wie abhebt",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 986.47,
+   "ende": 991.95,
+   "text": "Und so auf dem Wasser wieder aufklatscht, finde ich immer schon eh und je super unangenehm",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 991.95,
+   "ende": 997.03,
+   "text": "Weil ich immer so denke, das kracht einfach von unten, splittert das auf",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 997.03,
+   "ende": 1000.43,
+   "text": "Und dann war halt die ganze Zeit in meinem Kopf",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1000.43,
+   "ende": 1003.23,
+   "text": "Ich habe das die ganze Zeit erfolgreich versucht zu verdrängen",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1003.23,
+   "ende": 1008.17,
+   "text": "Aber dann, wo ich auf diesem Boot war, war halt die ganze Zeit in meinem Kopf",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1008.17,
+   "ende": 1010.83,
+   "text": "dass das halt auf jeden Fall kentern wird.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1010.99,
+   "ende": 1014.87,
+   "text": "Ja, also es war für mich so klar, dass wir auf dieser Fährfahrt, diese zwei Stunden, wir werden kentern.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1015.15,
+   "ende": 1015.97,
+   "text": "Fakt ist Fakt.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1016.77,
+   "ende": 1019.85,
+   "text": "Und ich saß da halt einfach nur und hatte die ganze Zeit tierisch Angst.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1020.11,
+   "ende": 1024.97,
+   "text": "Und ja, die Kinder fanden das eigentlich lustig, ja, dieses Geknalle.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1025.11,
+   "ende": 1029.03,
+   "text": "Ich habe dann die ganze Zeit, also es ist auch einfach so, wenn man Kinder hat,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1030.05,
+   "ende": 1033.27,
+   "text": "macht man sich einfach andere Sorgen, als wenn man alleine unterwegs ist.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1033.27,
+   "ende": 1038.53,
+   "text": "weil was ich vorhin erzählt habe, wo Hagen und ich da in diesem Fischerboot nach Lembongan wieder rüber gefahren sind,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1038.75,
+   "ende": 1042.81,
+   "text": "das war überhaupt kein Typ, der jetzt irgendwie Leute transportiert.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1042.89,
+   "ende": 1047.39,
+   "text": "Das war einfach so ein Fischer, der da normalerweise irgendwie ein bisschen übers Riff fährt und angeln geht.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1047.57,
+   "ende": 1052.01,
+   "text": "Und der wollte halt Kohle verdienen und der hat uns dann einfach rüber nach Lembongan gefahren,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1052.23,
+   "ende": 1055.55,
+   "text": "was jetzt nicht ungefährlich war in dieser Konstellation.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1056.05,
+   "ende": 1059.85,
+   "text": "Aber da waren wir halt irgendwie jung, ohne Kinder, da hat man sich über sowas keine Gedanken gemacht.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 1059.85,
+   "ende": 1063.93,
+   "text": "Und jetzt auf dieser Fahrt war die ganze Zeit nur in meinem Kopf, was ist, wenn wir untergehen?",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1064.29,
+   "ende": 1067.01,
+   "text": "Wie kriege ich Hermine gegriffen sozusagen?",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1067.57,
+   "ende": 1072.65,
+   "text": "Und es hört sich jetzt ein bisschen blöd an, weil ich denke, wie kriege ich Heinrich gegriffen?",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1072.71,
+   "ende": 1077.11,
+   "text": "Es ist halt einfach nur mal so, sie ist die Kleinste, er wird jetzt zwölf, er ist fast so groß wie ich.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1077.63,
+   "ende": 1083.65,
+   "text": "Ich war dann irgendwie so überzeugt, naja, er wird sich schon an die Wasseroberfläche kämpfen, aber sie vielleicht nicht.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1083.65,
+   "ende": 1087.93,
+   "text": "Und ja, so habe ich halt wirklich diese ganze Zeit damit verbracht, meine Angst zu kontrollieren.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1087.93,
+   "ende": 1117.13,
+   "text": "Und gleichzeitig aber auch hatte ich dann Angst, dass es mir schlecht wird, weil wenn man so Angst hat, dann geht ja auch der Herzschlag so doll, dann wird einem ja eh schon ein bisschen mulmig und übel und so und dann war so diese ganze Zeit, okay, ist mir jetzt schlecht, weil mir wirklich schlecht ist im Sinne von seekrank, ist mir jetzt schlecht, weil ich Angst habe, was ist, wenn ich kotzen muss, okay, dann kann ich da rauskotzen, was ist, wenn ich Durchfall kriege, weil ich war am Anfang einmal auf Toilette und dachte, das ist auf jeden Fall keine Toilette, auf der ich Durchfall haben möchte oder sonst länger mich aufhalten will.",
+   "avg_logprob": -0.027,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.91
+  },
+  {
+   "start": 1117.93,
+   "ende": 1128.15,
+   "text": "Und ja, ich war super innerlich super gestresst, wollte jetzt aber auch mich jetzt nicht irgendwie so total gehen lassen, weil ich wollte ja auch nicht, dass die Kinder dann Angst kriegen.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1129.25,
+   "ende": 1139.43,
+   "text": "Und irgendwann hat der Kapitän aber die Kinder nach vorne gerufen in seinen Cockpit, sage ich jetzt mal, und hat die dann da sitzen lassen und hat denen ein paar Sachen erklärt.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1139.43,
+   "ende": 1147.81,
+   "text": "Und dann habe ich mich ein bisschen beruhigt, weil ich dachte, okay, der ist sich ja seiner Sache schon sicher, sonst würde der ja jetzt nicht noch seine Zeit damit vergeuden, den Kindern da irgendwas zu erklären.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 1147.93,
+   "ende": 1166.15,
+   "text": "Und ich glaube, es war auch kein schlimmes Wetter. Also es war strahlend blauer Himmel, es war Sonnenschein. Wenn ich aus dieser kleinen Tür geguckt habe, dann war das Meer flach. Also ich glaube, es gibt halt richtig viel krassere Bedingungen unter denen, die da rüberfahren.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 1166.89,
+   "ende": 1171.11,
+   "text": "Aber für mich war es auf jeden Fall erst mal so eine halbe, dreiviertel Stunde die totale Hölle.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1171.57,
+   "ende": 1175.57,
+   "text": "Ich habe die ganze Zeit gedacht, weil meine Eltern und mein Bruder sind ja einen Tag später erst angereist.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1175.63,
+   "ende": 1180.01,
+   "text": "Die hatten also noch dieses schreckliche Hotel vor sich und die hatten diese Fährfahrt noch vor sich.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1180.01,
+   "ende": 1185.63,
+   "text": "Und ich habe gedacht, die fragen sich bestimmt, was machen wir hier? Was hat die gebucht? Ist die bescheuert?",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1185.69,
+   "ende": 1187.73,
+   "text": "Wie kann die uns nun all diese Sachen aussetzen?",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1188.55,
+   "ende": 1193.85,
+   "text": "Und dann sind wir aber auf Gili Air angekommen und dann steigst du da aus.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1193.85,
+   "ende": 1213.51,
+   "text": "Und es ist so, ich meine, wir kommen von Koh Samui, wir kommen vermeintlich schon aus dem Paradies, aber dann steckst du da auf Gili Air aus und denkst so, Alter, im Hafen, das Wasser so klar, also glasklar, man kann bis auf den Boden gucken, sofort sieht man da die bunten Fische schwimmen und so und es ist einfach alles sofort wie weggeblasen.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1213.51,
+   "ende": 1223.23,
+   "text": "Also wirklich, es war sofort, oh Gott, ja, es hat sich alles gelohnt, ja, es hat dieses hässliche Hotel gelohnt, dieser Gestank von dem Handtuch hat sich gelohnt, diese Angst auf der Fährfahrt, alles hat sich gelohnt.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1223.85,
+   "ende": 1236.23,
+   "text": "Und dann läuft man, haben wir so geguckt, weil es auf Gili Air gibt es keine Autos und keine Motore, also keine motorisierten Fahrgeräte, außer E-Roller, Fahrräder und Kutschen.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1237.09,
+   "ende": 1244.35,
+   "text": "Und dann haben wir so geguckt, ja, es sind nur fünf Minuten zu Fuß, brauchen wir jetzt auch keine Kutsche fürs Gepäck nehmen oder so und sind dann zum Hotel gelaufen.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1245.19,
+   "ende": 1251.29,
+   "text": "Und es ist halt wie in einer anderen Welt. Es ist halt einfach, es gibt ja ganz, also so richtige Straßen in dem Sinne gibt es gar nicht.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1251.29,
+   "ende": 1271.67,
+   "text": "Es gibt manchmal so asphaltierte Flächen, aber das meiste sind halt Sandwege und dann läuft man halt durch so eine Gassen, dann ist da der Schreiner, der macht da gerade irgendwie Tische und dann läufst du da durch diese Sandweggassen, alles total urig, also wirklich und jetzt ist es ja schon super touristisch da, also ich weiß gar nicht, wie das da vor 10 oder 20 Jahren war.",
+   "avg_logprob": -0.044,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1271.67,
+   "ende": 1278.03,
+   "text": "Ich habe auch vor 10, 15 Jahren schon von Gili gehört, dass Leute da auf den Gilis sind und so.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1278.35,
+   "ende": 1280.99,
+   "text": "Und jetzt war es schon wie eine andere Welt.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1281.11,
+   "ende": 1284.87,
+   "text": "Das muss vor 10, 15, 20 Jahren ein absoluter Wahnsinn gewesen sein.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1285.39,
+   "ende": 1288.13,
+   "text": "Ja, und dann kommen wir da halt in unser Hotel.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1288.77,
+   "ende": 1291.69,
+   "text": "Es ist auch so eine ganz gemütliche kleine Anlage gewesen.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1291.85,
+   "ende": 1295.09,
+   "text": "Dann hatten wir so ein Familienzimmer, hieß das, oder Familienbungalow.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1295.09,
+   "ende": 1301.15,
+   "text": "Aber es war halt riesig, ebenerdig, aber so traditionell aus Holz und riesige Zimmer.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 1301.67,
+   "ende": 1306.03,
+   "text": "Und eine Outdoor-Dusche und dann so eine Art Himmelbett mit so weißen Vorhängen.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1306.15,
+   "ende": 1309.01,
+   "text": "Also echt Bombe, ja. Superschön.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1309.63,
+   "ende": 1311.33,
+   "text": "Und da waren wir einfach mega glücklich.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1311.61,
+   "ende": 1314.25,
+   "text": "Und ich habe dann auch meinem Bruder noch aufgesprochen.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1314.39,
+   "ende": 1318.95,
+   "text": "Ach so, es war auch noch so geil, weil mein Bruder und ich hatten uns vorher schon darüber ausgetauscht,",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1319.01,
+   "ende": 1322.83,
+   "text": "über die ganzen Fährunglücke und haben auch gesagt, dass wir unseren Eltern das nicht sagen,",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1322.93,
+   "ende": 1325.25,
+   "text": "weil wir nicht wollten, dass die dann unnötig Angst haben.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1325.83,
+   "ende": 1327.97,
+   "text": "Dann habe ich meinem Bruder das halt aufgesprochen.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1327.97,
+   "ende": 1342.77,
+   "text": "Die waren ja quasi unterwegs. Einmal so, hey, am Flughafen der und der Fahrer und übrigens das Hotel ist scheiße und erschreckt euch nicht. Und habe die schon versucht darauf vorzubereiten und habe dann eben auch, als wir dann mit der Fähre drüben waren, ihm das halt auch alles gesagt.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1342.77,
+   "ende": 1366.55,
+   "text": "Okay, das war echt krass mit der Fähre, aber vielleicht habe ich es auch nur so krass empfunden und setzt euch nach vorne und nicht nach hinten und ihm Fotos geschickt und so. Und dann habe ich eine Instagram-Story und einen WhatsApp-Status über dieses Hotel gemacht, über die Fährfahrt und über unsere Ankunft und habe sowohl meinen Bruder als auch meine Mutter und meinen Stiefvater extra blockiert, dass sie das nicht sehen können.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1366.55,
+   "ende": 1382.37,
+   "text": "Ja, weil ich dachte, wenn meine Eltern das sehen, dann kriegen sie eben ja vielleicht Angst. Und wenn mein Bruder das sieht, dann denkt er, oh, wenn unsere Eltern das jetzt gesehen haben, warum macht sie das? Deswegen habe ich einfach alle drei blockiert. Ja, aber aus irgendwelchen Gründen hat meine Mutter das trotzdem gesehen.",
+   "avg_logprob": -0.059,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 1382.37,
+   "ende": 1400.23,
+   "text": "Also mein Bruder und mein Schiefvater konnten das nicht sehen, aber sie schon. Und dann wache ich nachts auf um vier. Ich hatte ja davor die Nächte auch schon nicht geschlafen. Und dann bin ich da in diesem schönen Hotel und freue mich, oh geil, schön schlafen. Und dann wache ich um vier Uhr auf. Ich glaube, ich musste auf Toilette, keine Ahnung.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1400.23,
+   "ende": 1404.25,
+   "text": "und gucke auch noch auf mein Handy, obwohl ich das eigentlich nicht mal mit ans Bett nehme",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1404.25,
+   "ende": 1409.15,
+   "text": "und sehe, wie meine Mutter auf diesen Status reagiert mit so einem erschrockenen Smiley,",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1409.15,
+   "ende": 1413.43,
+   "text": "wo ich auf dieser Fähre filme und dazu schreibe, was ich für eine Angst hatte.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1413.95,
+   "ende": 1415.37,
+   "text": "Boah, ich konnte nicht mehr schlafen.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1415.63,
+   "ende": 1416.91,
+   "text": "Für mich war die Nacht gelaufen.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1417.07,
+   "ende": 1420.83,
+   "text": "Ich habe mir so eine Vorwürfe gemacht, dass die jetzt mit dieser Angst, die ich hatte,",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1421.23,
+   "ende": 1424.49,
+   "text": "auf diese Fähre gehen, weil sie eben doch meinen Status sehen konnte.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1424.59,
+   "ende": 1426.41,
+   "text": "Das heißt, ich war dann schon ab um vier wach.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 1426.41,
+   "ende": 1433.69,
+   "text": "und ja, am nächsten Tag kamen die dann ja eigentlich gegen Spätnachmittag an",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1433.69,
+   "ende": 1437.65,
+   "text": "und dann hatte die Fähre aber noch Verspätung bei denen",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1437.65,
+   "ende": 1441.13,
+   "text": "und dann habe ich schon gedacht, weil mein Bruder meinte, hier ist so ein Absperrband am Hafen.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1441.13,
+   "ende": 1445.01,
+   "text": "Ich dachte, das war bei uns auch nicht, dass eure Fähre schon weg ist und nein, Verspätung.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1445.05,
+   "ende": 1448.71,
+   "text": "Auf jeden Fall haben wir die dann erst am nächsten Abend eigentlich in Empfang genommen",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1448.71,
+   "ende": 1451.99,
+   "text": "und dann kamen die aber nicht mit der Fähre so an wie wir,",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1451.99,
+   "ende": 1459.09,
+   "text": "sondern die wurden dann auf dem, also weiter draußen quasi rausgelassen und mussten nochmal auf so ein anderes Boot umsteigen.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1459.23,
+   "ende": 1461.65,
+   "text": "Ja, so eine Art Zubringerboot. Bei uns war das aber nicht so.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1462.41,
+   "ende": 1465.07,
+   "text": "Und dann hatte aber zwischendurch mein Bruder mir schon ein Video geschickt,",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1465.15,
+   "ende": 1469.79,
+   "text": "wie die da so auf so einem Sonnendeck sitzen mit Bierchen in der Hand und ne schön so Video machen.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1469.89,
+   "ende": 1471.75,
+   "text": "Ich denke so, hä, was haben die denn für eine Fähre, ne?",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1472.11,
+   "ende": 1477.05,
+   "text": "Ja, auf jeden Fall kam die super entspannt an, weil die hatten halt, haben ja die geile Fähre, die war viel größer.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1477.11,
+   "ende": 1479.97,
+   "text": "Die konnten da draußen chillen, war auch überhaupt nicht dolle Wellengang.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1479.97,
+   "ende": 1481.55,
+   "text": "Also die fanden es eigentlich super entspannt.",
+   "avg_logprob": -0.08,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1481.99,
+   "ende": 1504.93,
+   "text": "Das heißt, ich habe mir zum einen völlig umsonst so einen Kopf gemacht und zum anderen habe ich dann auch gesehen, okay, es ist anscheinend, also wir haben die gleiche, den gleichen Anbieter gehabt, die sind einfach nur zwei Stunden später gefahren, aber das heißt, jeder, der das jetzt hört und denkt, oh, ich würde auch mal gerne nach Gili Air, aber auf so eine Fähre, was Jetta beschrieben hat, habe ich gar keinen Bock, es ist anscheinend wirklich nicht klar, was man für ein Boot bekommt.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1504.93,
+   "ende": 1508.35,
+   "text": "Und es kann halt so eine kleine Ölsardinen-Dose sein, wie wir hatten.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1508.87,
+   "ende": 1514.65,
+   "text": "Es kann aber anscheinend auch eine ganz entspannte Fähre sein, wo man draußen sitzen kann und wo es halt relativ chillig ist.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1515.13,
+   "ende": 1520.41,
+   "text": "Genau, und dann waren wir halt alle auf Gili Air und das Schöne da ist, also da kann man eigentlich auch nichts machen auf Gili Air,",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1520.53,
+   "ende": 1525.93,
+   "text": "außer Fahrrad fahren, E-Roller fahren, um die Insel laufen und schnorcheln und essen.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1526.45,
+   "ende": 1527.51,
+   "text": "Also mehr ist da nicht.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1528.73,
+   "ende": 1532.71,
+   "text": "Und wenn man rumläuft, sind es einmal irgendwie fünf Kilometer ungefähr.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1532.71,
+   "ende": 1535.83,
+   "text": "und ja, Fahrräder haben wir uns",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1535.83,
+   "ende": 1537.71,
+   "text": "auch gleich ausgeliehen, Schnorchelzeug, man kann halt",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1537.71,
+   "ende": 1539.99,
+   "text": "direkt vom Strand zu Fuß",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1539.99,
+   "ende": 1541.61,
+   "text": "ins Wasser und da direkt",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1541.61,
+   "ende": 1543.63,
+   "text": "schnorcheln, also man muss jetzt nicht irgendwo mit dem Boot",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1543.63,
+   "ende": 1545.65,
+   "text": "hinfahren und es wurden auch von den anderen",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1545.65,
+   "ende": 1547.85,
+   "text": "Inseln von, wurden halt morgens",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1547.85,
+   "ende": 1549.77,
+   "text": "oder den ganzen Tag eigentlich, kamen",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1549.77,
+   "ende": 1551.59,
+   "text": "immer so Boote an mit Tauchern und",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1551.59,
+   "ende": 1553.35,
+   "text": "Schnorchlern, das heißt, es scheint also",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1553.35,
+   "ende": 1555.63,
+   "text": "einfach auch Gili, er, auch wenn man",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1555.63,
+   "ende": 1557.71,
+   "text": "da nicht auf der Insel selbst",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1557.71,
+   "ende": 1559.67,
+   "text": "ist, scheint es halt trotzdem der Spot zu",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1559.67,
+   "ende": 1561.73,
+   "text": "sein, wo auch von den umliegenden Inseln",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1561.73,
+   "ende": 1563.99,
+   "text": "die Leute zum Schnorcheln und so hingebracht werden.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1564.47,
+   "ende": 1568.67,
+   "text": "Und das war halt für uns geil, wir konnten halt einfach direkt nach dem Frühstück zum Strand gehen.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1568.73,
+   "ende": 1574.23,
+   "text": "Der war irgendwie, keine Ahnung, 100 Meter, 150 Meter weg und konnten einfach schon um 10 Uhr",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1574.23,
+   "ende": 1578.45,
+   "text": "oder auch um 8, wann auch immer man aufsteht, konnte man da schnorcheln.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1578.53,
+   "ende": 1583.55,
+   "text": "Und es war wirklich auch im flachesten Wasser die geilste Vielfalt an Fischen.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1583.85,
+   "ende": 1588.49,
+   "text": "Was ein bisschen strange sich angefühlt hat, war, also man geht vom Strand rein",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1588.49,
+   "ende": 1590.09,
+   "text": "und es ist aber sofort Korallenriff.",
+   "avg_logprob": -0.085,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1590.09,
+   "ende": 1606.15,
+   "text": "Das heißt, man latscht halt einfach über das Korallenriff. Man kann nicht anders. Also selbst wenn man nicht schnorchelt und nur baden geht, tritt man halt auf dieses Korallenriff. Und das sind ja eigentlich genau die Sachen, die man nicht machen soll, weil das dann halt abstirbt.",
+   "avg_logprob": -0.03,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.51
+  },
+  {
+   "start": 1606.15,
+   "ende": 1625.73,
+   "text": "Also wenn ich mir überlege, wie viele Menschen da waren und alle latschen auf diesem Korallenriff rum und trotzdem war da noch so eine krasse Vielfalt an Fischen, ist es, wie gesagt, auch da nicht auszumalen, wie das halt vor 20, 30 Jahren gewesen sein muss, wo dann auch nicht jeder Hoshi über diese Korallen gelatscht ist.",
+   "avg_logprob": -0.053,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1625.73,
+   "ende": 1627.95,
+   "text": "und man kann dort eigentlich auch",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1627.95,
+   "ende": 1630.17,
+   "text": "große Meeresschildkröten beim Schnorcheln sehen",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1630.17,
+   "ende": 1632.27,
+   "text": "tatsächlich hatten nur Hagen und Heinrich",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1632.27,
+   "ende": 1632.79,
+   "text": "das Glück",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1632.79,
+   "ende": 1636.23,
+   "text": "wir waren eigentlich zweimal am Tag schnorcheln",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1636.23,
+   "ende": 1638.21,
+   "text": "und wir alle",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1638.21,
+   "ende": 1640.17,
+   "text": "haben leider keine gesehen, es gab dann",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1640.17,
+   "ende": 1642.09,
+   "text": "einmal einen Morgen, wo Hagen und",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1642.09,
+   "ende": 1644.29,
+   "text": "Heinrich alleine schnorcheln waren",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1644.29,
+   "ende": 1646.21,
+   "text": "weil Hermine ein bisschen krank war",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1646.21,
+   "ende": 1648.29,
+   "text": "und ich weiß gar nicht, ich glaube mein Bruder",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1648.29,
+   "ende": 1650.01,
+   "text": "war beim Sport und wie auch immer",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1650.01,
+   "ende": 1652.15,
+   "text": "auf jeden Fall sind Hagen und Heinrich dann einmal alleine los",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1652.15,
+   "ende": 1654.01,
+   "text": "und haben dann wirklich so eine große",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 1654.01,
+   "ende": 1655.93,
+   "text": "Meeresschildkröte auch gesehen und dann",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1655.93,
+   "ende": 1658.05,
+   "text": "sind sie natürlich zurück und haben uns das erzählt, dann sind",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1658.05,
+   "ende": 1660.07,
+   "text": "wir alle hin, aber haben dann leider keine mehr",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1660.07,
+   "ende": 1662.01,
+   "text": "gesehen. Aber",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1662.01,
+   "ende": 1663.93,
+   "text": "grundsätzlich ist es möglich.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1664.45,
+   "ende": 1665.95,
+   "text": "Uns wurde von denen, die das",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1665.95,
+   "ende": 1668.13,
+   "text": "Schnorchelset aushängen, gesagt, ja, wir sollen morgens um sieben",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1668.13,
+   "ende": 1670.09,
+   "text": "kommen, aber ja, ehrlich",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1670.09,
+   "ende": 1671.99,
+   "text": "gesagt, hatte da irgendwie keiner Bock drauf,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1672.09,
+   "ende": 1674.03,
+   "text": "um sechs aufzustehen und um sieben irgendwie beim",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1674.03,
+   "ende": 1675.69,
+   "text": "Schnorcheln zu sein. Aber",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1675.69,
+   "ende": 1677.95,
+   "text": "auch ohne die Meeresschildkröten",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1677.95,
+   "ende": 1679.93,
+   "text": "war es einfach wirklich eine tolle",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1679.93,
+   "ende": 1681.97,
+   "text": "Erfahrung, einfach jederzeit mit dem Schnorchel",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 1681.97,
+   "ende": 1685.75,
+   "text": "ins Wasser zu können und wie in so einem Aquarium einfach zu schnorcheln.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1686.45,
+   "ende": 1690.31,
+   "text": "Und ja, dann ansonsten war das auch immer so der Tagesablauf.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1690.45,
+   "ende": 1692.91,
+   "text": "Ein bisschen schnorcheln, ein bisschen Fahrrad fahren, ein bisschen spazieren gehen.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1693.69,
+   "ende": 1698.09,
+   "text": "Und ja, dann sind wir irgendwie nach, also wir waren vier Nächte da, meine Family dann drei Nächte.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1698.15,
+   "ende": 1701.39,
+   "text": "Dann sind wir weiter nach Lombok.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1701.95,
+   "ende": 1704.81,
+   "text": "Das ist tatsächlich nur eine kurze Überfahrt von zehn Minuten.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1705.77,
+   "ende": 1709.25,
+   "text": "Und ja, wir wussten dann auch nicht, mit was für Booten wird das eigentlich gemacht.",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1709.25,
+   "ende": 1725.23,
+   "text": "Hermine hatte dann schon so ein bisschen Sorge und hat gesagt, ich will eigentlich nicht wieder auf so eine Fähre, weil sie fand das auch lustig, dass das da immer so gehoppelt hat mit dem Boot. Aber sie hatte einfach Angst, dass ihr schlecht wird, weil eben sie auch oft, wo wir rüber gefahren sind, auf die Gliedinseln mitbekommen hat, dass da einer neben uns gekotzt hat.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 1726.19,
+   "ende": 1732.85,
+   "text": "Und dann haben die gesagt, ja einfach morgens zum Hafen kommen, 10.25 Uhr und dann jede Stunde oder so fährt halt,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1732.93,
+   "ende": 1735.61,
+   "text": "oder 11.25 Uhr fährt jede Stunde ein Boot rüber.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1736.37,
+   "ende": 1742.27,
+   "text": "Und dann kamen wir da, wir sind ja zu siebt und hatten irgendwie noch eine Stunde Zeit, weil wir halt schon auschecken mussten.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1742.99,
+   "ende": 1747.87,
+   "text": "Und dann haben wir die Tickets gekauft und dann meinte der so, ja ihr könnt, also es fährt halt erst in einer Stunde,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1747.87,
+   "ende": 1750.21,
+   "text": "aber ihr könnt auch jetzt schon fahren, lauft mal dem Kapitän.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1750.21,
+   "ende": 1770.47,
+   "text": "Dann kamen wir zu so einem ganz kleinen Motorboot, wo wirklich alle sieben Leute drauf gepasst haben plus Gepäck, dann war das auch schon voll und dann haben die uns quasi einfach privat rüber gefahren in so einem richtigen Motorboot, jetzt nicht super modern, aber jetzt auch nicht irgendwie die olste Kiste, also einfach total chillig.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1770.47,
+   "ende": 1776.01,
+   "text": "Da habe ich mich richtig gefreut. Das ist eher so das Bootsleben, was ich dann gut finde.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1778.43,
+   "ende": 1782.33,
+   "text": "Dann wurden wir rüber gefahren. Dann haben wir da aber tatsächlich auch noch mal eine Stunde warten müssen,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1782.43,
+   "ende": 1785.25,
+   "text": "weil wir unsere Mietwagen erst ab 12 Uhr mittags bestellt hatten.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1785.97,
+   "ende": 1792.47,
+   "text": "Dann haben wir unsere beiden Mietwagen bekommen und sind dann zu unserem ersten Stopp nach Senaru gefahren.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1792.57,
+   "ende": 1796.05,
+   "text": "Das ist im Norden von Lombok. Lombok hat ja einen Vulkan, den Rinjani.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1796.05,
+   "ende": 1800.51,
+   "text": "und da um den Vulkan rum gibt es auch ganz viele Wasserfälle",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1800.51,
+   "ende": 1805.87,
+   "text": "und zwei der größten und bekanntesten Wasserfälle sind eben in der Nähe von Senaru.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1806.07,
+   "ende": 1810.93,
+   "text": "An sich ist Senaru eher so der Ausgangspunkt für wirklich die Trekking-Touren,",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1810.93,
+   "ende": 1816.81,
+   "text": "die auf den Vulkan gehen mit Zelten unterwegs, mit Kratersee und allem Pipapo.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1817.55,
+   "ende": 1820.67,
+   "text": "Das war natürlich vorher schon klar, dass wir es mit den Kindern nicht machen können.",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1821.37,
+   "ende": 1825.75,
+   "text": "Wir haben dann, als wir ankamen, nochmal gefragt, okay, was für Trekking-Touren gibt es denn hier?",
+   "avg_logprob": -0.094,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1825.75,
+   "ende": 1831.85,
+   "text": "Da haben wir so einen Guide kennengelernt und die kürzeste war irgendwie 14 Stunden, also sieben Stunden hin und sieben Stunden zurück.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1832.43,
+   "ende": 1837.99,
+   "text": "Und da war auch klar, also auch ohne Übernachtung, also das können wir halt einfach nicht machen, weder mit meinen Eltern noch mit den Kindern.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1839.07,
+   "ende": 1843.51,
+   "text": "Und genau, dann haben wir erst mal am nächsten Tag diese beiden krassen Wasserfälle gemacht.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1844.51,
+   "ende": 1846.57,
+   "text": "Den einen haben wir auch schon von unserem Hotel gesehen.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1846.67,
+   "ende": 1854.53,
+   "text": "Wir hatten so ein Hotel, wo der Pool dann so in die Berge, also auf den Vulkan gezeigt hat und man da den einen Wasserfall schon sah.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 1854.53,
+   "ende": 1858.21,
+   "text": "und den ersten Abend, als wir vom Essen zurückkamen, wo es schon dunkel war,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1858.87,
+   "ende": 1864.15,
+   "text": "waren oben auf dem Vulkan, hat es so, also ja, wie, also geglüht, ja.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1864.63,
+   "ende": 1869.89,
+   "text": "Und dann haben wir kurz gedacht, hä, ist das jetzt Lava, so, hä?",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1869.89,
+   "ende": 1872.99,
+   "text": "Und dann haben wir da im Hotel gefragt, so, ja, was ist das da oben?",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1873.71,
+   "ende": 1877.07,
+   "text": "Und die so, nee, der Vulkan ist nicht aktiv, das sind Lagerfeuer.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1877.69,
+   "ende": 1881.91,
+   "text": "Und dann denkt man, Lagerfeuer, wie viele, 120?",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1882.43,
+   "ende": 1887.67,
+   "text": "Also das war einfach glockenklar, dass das jetzt nicht, das war so großflächig, hat das da geblüht.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1888.09,
+   "ende": 1890.71,
+   "text": "Das war klar, dass das jetzt nicht ein Lagerfeuer sein kann.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1891.03,
+   "ende": 1894.95,
+   "text": "Aber die, ja, ich habe dann gedacht, das muss mit dem Englischen zusammenhängen,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1894.95,
+   "ende": 1899.95,
+   "text": "dass die entweder nicht wussten, was das heißt oder auf jeden Fall sind da ja nicht 120 Lagerfeuer",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1900.55,
+   "ende": 1903.25,
+   "text": "und ganz Lombok sitzt da und macht Stockbrot oder sowas.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1904.65,
+   "ende": 1907.39,
+   "text": "Und dann haben wir am nächsten Tag den Guide gefragt und der hat gesagt,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1907.39,
+   "ende": 1915.05,
+   "text": "nee, das sind Brände tatsächlich, also so ganz klassische Waldbrände, ausgelöst durch eine Zigarette oder was auch immer.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1916.17,
+   "ende": 1920.21,
+   "text": "Und dann dadurch, dass es Trockenzeit ist, verbreitet sich das halt.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1920.67,
+   "ende": 1925.67,
+   "text": "Und das kann eigentlich aufgrund der Lage nur mit Hubschraubern gelöscht werden.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1926.41,
+   "ende": 1933.17,
+   "text": "Und es wurde wohl dann, er hat gesagt, das wird dann auch angefragt bei der Regierung, gemeldet, dass die das schicken müssen.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1933.17,
+   "ende": 1956.87,
+   "text": "Und die haben dann entschieden, dass es zu teuer ist. Und dann bleibt das einfach so. Und hat dann also auch den nächsten Tag hat man dann, wir dachten erst, es sind Wolken, aber es war dann halt wirklich dicker Rauch. Das ist halt so weit weg, dass wir haben da unten im Dorf nichts von gerochen oder mitbekommen. Aber es war irgendwie trotzdem strange zu sehen, dass das einfach tagelang da ein riesiger Flächenbrand ist und das einfach so gelassen wird.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.71
+  },
+  {
+   "start": 1956.87,
+   "ende": 1977.29,
+   "text": "Aber gut, so ist das halt. Es war insofern für uns schön, weil es wirklich spektakulär aussah abends. Der Rand hat die ganze Zeit so geglüht und geglimmt. Es sah schon toll aus, auch wenn es an sich nicht so cool ist, so einen riesigen Brand da zu haben.",
+   "avg_logprob": -0.134,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 1978.29,
+   "ende": 1980.59,
+   "text": "Ja, und nächsten Tag, wie gesagt, dann die beiden Wasserfälle.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1981.63,
+   "ende": 1983.49,
+   "text": "Wow, jetzt hat es hier richtig geknallt.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1985.19,
+   "ende": 1989.05,
+   "text": "Und da war der eine, ja, den konnte man von außen so angucken.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1989.13,
+   "ende": 1990.87,
+   "text": "Bei dem anderen konnte man auch richtig baden.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1991.09,
+   "ende": 1994.19,
+   "text": "Und das war, also das war so, es war richtig windig, wenn man da stand.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1994.65,
+   "ende": 1997.49,
+   "text": "Und wir waren da mit einem Guide, der hat auch gesagt, nicht zu nah ran.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 1997.49,
+   "ende": 2000.39,
+   "text": "Es gibt wohl da wirklich auch Fälle, dass Leute da sterben,",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2000.47,
+   "ende": 2002.31,
+   "text": "weil die sich irgendwie das Genick oder so brechen,",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2002.59,
+   "ende": 2005.35,
+   "text": "wenn die sich unter diesen Hauptschwall stellen.",
+   "avg_logprob": -0.131,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 2005.85,
+   "ende": 2008.33,
+   "text": "Wir konnten dann ein bisschen an der Seite uns drunter stellen.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2008.47,
+   "ende": 2013.27,
+   "text": "Es war auch schweinekalt, das Wasser, aber es war mega eindrucksvoll.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2014.19,
+   "ende": 2018.49,
+   "text": "Und am nächsten Tag, also da waren wir zwei Nächte, sind wir dann aufgebrochen nach Tetebatu,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2018.57,
+   "ende": 2023.29,
+   "text": "wo wir jetzt sind, wie ihr hier sehen könnt hinter mir, was ich am Anfang meinte mit den Reisfeldern.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2023.97,
+   "ende": 2028.07,
+   "text": "Und auf dem Weg von Senaru nach Tetebatu, man fährt dann sozusagen,",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2028.71,
+   "ende": 2031.27,
+   "text": "also der Vulkan ist wie gesagt im Norden von Lombok",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 2031.27,
+   "ende": 2059.21,
+   "text": "Und dann fährt man sozusagen um den Vulkan rum nach Tetebato und kommt dann auf der anderen Seite von dem Vulkan wieder raus. Das sind so von Senaru so zwei, zweieinhalb Stunden Fahrt. Wunderschöne Fahrt. Also ich meine, wenn jemand schnell schlecht wird im Auto, vielleicht nicht so geil, weil es halt die ganze Zeit natürlich hoch geht, serpentinmäßig und serpentinmäßig wieder runter, wie man das auch so vielleicht aus Österreich von so Passstraßen und so kennt.",
+   "avg_logprob": -0.058,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 2059.77,
+   "ende": 2064.89,
+   "text": "Aber es ist einfach so eindrucksvoll gewesen, da durch diese Vulkanlandschaft zu fahren.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2064.89,
+   "ende": 2071.35,
+   "text": "Alles ist so, die Berge sind natürlich alle bewachsen, so jetzt ein bisschen bräunlich, weil Trockenzeit ist.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2071.99,
+   "ende": 2074.13,
+   "text": "In der Regenzeit ist das wahrscheinlich alles grün.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2074.29,
+   "ende": 2078.05,
+   "text": "Also es sieht so aus, als ob die ganzen Berge so mit einem Teppich überzogen sind.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2078.17,
+   "ende": 2079.71,
+   "text": "Also wirklich wunderschön.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2081.29,
+   "ende": 2087.73,
+   "text": "Und auf dem Weg gibt es noch einen Wanderweg, ja, den uns auch der Guide empfohlen hatte,",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 2087.73,
+   "ende": 2092.29,
+   "text": "der eben nicht 14 Stunden geht und den man eben auch ohne Guide machen kann",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2092.29,
+   "ende": 2094.83,
+   "text": "und wo man zwar jetzt nicht auf den Vulkan direkt kommt,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2095.27,
+   "ende": 2098.67,
+   "text": "aber sozusagen auf so einen Berg neben dem Vulkan hoch wandert",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2098.67,
+   "ende": 2103.05,
+   "text": "und von da aus dann eben einen schönen Blick halt auf den Kraterrand und so hat.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2103.89,
+   "ende": 2105.07,
+   "text": "Und das wollten wir halt machen.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2105.19,
+   "ende": 2108.73,
+   "text": "Das schaut bei Google Maps auch so, ja, wir sind eigentlich nur Flachlandwanderer",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2109.47,
+   "ende": 2112.01,
+   "text": "und das ist ein bisschen steiler, aber es war gut machbar.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2112.67,
+   "ende": 2117.35,
+   "text": "Und es hieß so, ja, anderthalb Stunden einen Weg hoch und drei Stunden hin und zurück.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 2117.35,
+   "ende": 2132.31,
+   "text": "Und ja, dann haben wir gesagt, okay, probieren wir das mal aus. Wir fahren da mehr oder weniger eh fast vorbei. Und dann haben wir unten, wo wir das Ticket gekauft haben, halt auch nochmal gefragt, so, ja, wie lang ist denn der Weg? Und dann meinte der so, ja, drei Stunden. Und ich so, äh, ein Weg? Und er so, nee, hin und zurück.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2132.95,
+   "ende": 2139.71,
+   "text": "Okay, dann sind wir los, dann ging es schon sehr steile Treppen hoch und dann hat mir der Schiefer da schon gesagt,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2139.79,
+   "ende": 2145.95,
+   "text": "ja, ich weiß nicht, also ob ich das jetzt hier bis nach oben, ne, und dann endeten aber die Treppen, die schon anstrengend waren",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2145.95,
+   "ende": 2152.39,
+   "text": "und es war eigentlich dann nur noch Sand und also Erde, ursttrockene Erde, es war ein bisschen wie Namibia,",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2152.39,
+   "ende": 2161.65,
+   "text": "hat mich ein bisschen daran erinnert und zwischen dieser Erde, diesem Erdhang eben Felsen, ne, und so musste man dann da hochkraxeln",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2161.65,
+   "ende": 2181.71,
+   "text": "Und da hat mein Bruder auch gleich am Anfang gesagt, nee, also das ist jetzt nichts hier für unsere Eltern und so, wir gehen zurück. Und ja, wir konnten dann meine Mutter aber überreden, dass sie mit uns noch mitkommt. Also Hagen, ich und die Kinder sind dann mit meiner Mutter weitergegangen und mein Bruder ist dann halt mit unserem Vater zurück. Die sind dann schon ins Hotel nach Tete-Bato gefahren.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 2182.69,
+   "ende": 2185.13,
+   "text": "Und ja, es wurde halt immer krasser, immer krasser.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2185.69,
+   "ende": 2189.45,
+   "text": "Also es war, ich weiß gar nicht, wir hatten das auch schon mal in Österreich,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2189.59,
+   "ende": 2192.07,
+   "text": "da war so ein Familienklettersteig, da hatten wir aber noch keine Kinder.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2192.69,
+   "ende": 2194.99,
+   "text": "Da hingen Ragen und ich an dieser Felswand und dachten,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2195.17,
+   "ende": 2197.79,
+   "text": "hä, wie Familienklettersteig für Kinder ab sechs?",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2197.99,
+   "ende": 2199.93,
+   "text": "So, wir kommen hier gar nicht klar, ja.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2200.45,
+   "ende": 2201.87,
+   "text": "Und so war das halt da auch.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2201.87,
+   "ende": 2206.13,
+   "text": "Also wir sind halt keine Wanderer und vielleicht ist das dann für erfahrene Wanderer,",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2206.13,
+   "ende": 2207.61,
+   "text": "ist es dann vielleicht auch nicht krass.",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2207.69,
+   "ende": 2210.73,
+   "text": "Aber wir dachten so, wie soll das gut machbar sein?",
+   "avg_logprob": -0.123,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2210.73,
+   "ende": 2236.53,
+   "text": "Das ist super crazy. Man hat ja, man ist ja nicht gesichert, gar nichts. Man kraxelt halt diesen, diesen Hang da einfach hoch, ja. Und irgendwann waren wir dann so gefühlt auf drei Viertel und dachten, okay, jetzt sind wir gleich da und haben eine Pause gemacht, weil von oben Leute runterkamen. Und das ist ja nicht so, dass da ein Links- und Rechtsspur ist, ja. Also die mussten ja irgendwie an uns vorbei. Und das ist auch wirklich, also der Hang ist, also man läuft da auf so einer Fläche hoch und links und rechts geht es halt runter.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2236.53,
+   "ende": 2241.19,
+   "text": "Da ist ja kein Geländer oder irgendwas, ja. Da ist mal ein Baum, wo man sich mal dran festhalten kann.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2241.83,
+   "ende": 2245.11,
+   "text": "Da haben wir uns dann eine Stelle gesucht, wo ein bisschen mehr Platz ist, dass wir da warten.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2245.21,
+   "ende": 2247.45,
+   "text": "Und dann kam so ein jüngeres Pärchen erst mal runter.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2247.69,
+   "ende": 2252.75,
+   "text": "Und wir haben halt gesehen, ja, lass mal kurz warten, die kommen da runter und denken, die haben ja lange gebraucht.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2252.91,
+   "ende": 2255.11,
+   "text": "Also wir haben die ja schon, die waren ja schon in Sichtweite.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2255.77,
+   "ende": 2258.83,
+   "text": "Und dann haben wir die gesagt, hey, wie weit ist es denn jetzt noch bis um?",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2258.83,
+   "ende": 2261.77,
+   "text": "Und dann sagt der so, ja, ich denke mal so eine Stunde.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2262.51,
+   "ende": 2265.27,
+   "text": "Und wir so, nee, also hier gleich zum Gipfel.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.81
+  },
+  {
+   "start": 2265.69,
+   "ende": 2267.03,
+   "text": "Ja, also eine Stunde ungefähr.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 2267.49,
+   "ende": 2268.93,
+   "text": "Wir so, hä, aber das ist doch gleich da.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 2269.31,
+   "ende": 2273.39,
+   "text": "Und er so, nee, nee, das ist halt, also hier, jetzt kommt der schwierige Part",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 2273.39,
+   "ende": 2278.03,
+   "text": "und dann geht ihr über so ein Feld und dann müsst ihr noch mal ein Stück auf den Gipfel laufen.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 2278.79,
+   "ende": 2282.85,
+   "text": "Und dann meinten die so, okay, und würdet ihr das empfehlen?",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 2282.85,
+   "ende": 2286.71,
+   "text": "Und dann meinten sie ja, ehrlicherweise ist es wesentlich schwieriger, als man ihnen gesagt hätte.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 2286.77,
+   "ende": 2288.39,
+   "text": "Und das war ein erfahrener Wanderer.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 2288.53,
+   "ende": 2291.83,
+   "text": "Er meint, er macht das Hammer oft und er meint, er hat das komplett unterschätzt",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 2291.83,
+   "ende": 2294.37,
+   "text": "und es ist absolut nicht so, wie einem suggeriert wird.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.75
+  },
+  {
+   "start": 2294.91,
+   "ende": 2296.09,
+   "text": "Dann kam die nächste Gruppe,",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2296.73,
+   "ende": 2298.77,
+   "text": "dann sind die weiter, dann kam die nächste Gruppe runter.",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2298.87,
+   "ende": 2300.71,
+   "text": "Es war eine größere Gruppe, auch mit einem Guide.",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2301.37,
+   "ende": 2302.81,
+   "text": "Schon mit älteren Leuten auch,",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2302.87,
+   "ende": 2305.05,
+   "text": "aber alle die übelst krasse Wanderausrüstungen",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2305.05,
+   "ende": 2307.27,
+   "text": "haben auch super lange gebraucht.",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2307.83,
+   "ende": 2309.35,
+   "text": "Und dann haben wir die halt auch noch mal gefragt",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2309.35,
+   "ende": 2311.49,
+   "text": "und die haben auch gesagt, es ist so krass.",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2311.71,
+   "ende": 2314.13,
+   "text": "Und meinten, der Part, wo die dann eben runterkamen,",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2314.61,
+   "ende": 2315.69,
+   "text": "der wäre so gefährlich.",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2315.77,
+   "ende": 2318.11,
+   "text": "Und das Schwierige ist natürlich auch das Raufkommen,",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2318.11,
+   "ende": 2319.61,
+   "text": "aber vor allem das Runterkommen.",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2319.93,
+   "ende": 2321.89,
+   "text": "Die eine Frau meinte, sie hat tierisch Angst gehabt",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2321.89,
+   "ende": 2323.35,
+   "text": "an der einen Stelle da oben.",
+   "avg_logprob": -0.163,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 2324.37,
+   "ende": 2354.35,
+   "text": "Und die meinten dann auch dafür, dass wir das, also wir haben dann gesagt, ja, wir sind keine Wanderer und die meinten halt, also dafür, dass ihr das noch gar nicht gemacht habt, ist es erstaunlich, dass ihr überhaupt hier seid, also an der Stelle, wo wir uns getroffen haben, ja, und haben dann auch gesagt, also sie würden es nicht machen, ja, plus, dass es eben auch wirklich noch weit ist, also das einfach noch lange dauert und die haben gesagt, die haben, die waren am Gipfel und die haben zweieinhalb Stunden für einen Weg gebraucht, ja, und ja, und dann kamen immer mehr Leute runter,",
+   "avg_logprob": -0.072,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 2.0
+  },
+  {
+   "start": 2354.37,
+   "ende": 2364.03,
+   "text": "Alle mit Guide und alle haben das Gleiche gesagt, es ist super schwer da oben und wie gesagt, das Runterkommen am allerschwierigsten und dann haben wir halt gesagt, okay, wir gehen jetzt nicht weiter.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2365.45,
+   "ende": 2379.43,
+   "text": "Die Kinder und ich waren ein bisschen traurig, weil wir haben dann auch so, jetzt haben wir es alles umsonst gemacht und jetzt sind wir noch nicht mal am Gipfel und so und Hagen war dann eher so der Vernünftigere, der dann halt immer wieder gesagt hat, wir müssen hier auch wieder runterkommen.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.022,
+   "compression_ratio": 1.79
+  },
+  {
+   "start": 2379.43,
+   "ende": 2397.39,
+   "text": "Und ich habe dann gesagt, ja, aber wir müssen ja sowieso wieder runterkommen, ob wir jetzt dreiviertel des Weges wieder runterkommen müssen oder den ganzen Weg wieder runterkommen müssen, ist doch egal. Und meine Mutter war, also die hat das super gut gemacht, die hatte jetzt auch keine Angst oder so, aber sie hat dann auch schon gesagt, ja, aber wenn die das alle sagen, dann ist es vielleicht nicht so gut.",
+   "avg_logprob": -0.047,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.82
+  },
+  {
+   "start": 2397.39,
+   "ende": 2412.79,
+   "text": "Und ich habe dann halt einfach so gedacht, ich habe einfach, also ich hätte es noch weiter probiert, die Kinder auch, weil mein Gedanke war halt so, wir müssen sowieso, es ist eh scheiße jetzt, ja. Es ist jetzt eh ein Punkt, wo wir super schlecht runterkommen wieder, weil es halt so ist, wie es ist.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 2412.79,
+   "ende": 2426.27,
+   "text": "Und ob ich jetzt ja nochmal weiter super schlecht runterkomme oder nur weniger super schlecht runterkomme, wir waren ja schon, also wir haben ja schon einen super langen Weg vor uns, hatten wir ja eh, den wir wieder runtergehen mussten.",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 2426.27,
+   "ende": 2441.11,
+   "text": "Was mich nur ein bisschen abgeschreckt hat, war dann tatsächlich die Tatsache, dass von dem Punkt, wo wir waren, es eben nochmal eine Stunde mindestens gewesen wäre, um wirklich oben anzukommen. Und ja, darauf hatten wir eigentlich auch alle keine Lust.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 2441.11,
+   "ende": 2446.65,
+   "text": "Und naja, dann wurde das quasi so halbdemokratisch entschieden, dass wir wieder runtergehen.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2447.45,
+   "ende": 2452.93,
+   "text": "Und es war wirklich tricky, also weil einfach durch diese Trockenheit, das war einfach so rutschig.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2452.99,
+   "ende": 2454.99,
+   "text": "Und wir haben ja alle nur ganz normale Turnschuhe angehabt.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2455.05,
+   "ende": 2456.75,
+   "text": "Wir hatten ja keine Wanderschuhe oder sowas.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2457.39,
+   "ende": 2462.11,
+   "text": "Und wir sahen aus wie die Schweine, wirklich der Staub, der war bis im Schlüpper.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2462.37,
+   "ende": 2465.23,
+   "text": "Ich hatte es heute Morgen noch in den Augen, wenn man sich die Nase geputzt hat.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2465.39,
+   "ende": 2468.39,
+   "text": "Also wir sahen wirklich richtig dreckig, waren wir.",
+   "avg_logprob": -0.099,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 2469.19,
+   "ende": 2471.71,
+   "text": "Und ja, sind dann halt wieder runtergegangen.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2471.81,
+   "ende": 2473.69,
+   "text": "Das hat auch bestimmt noch mal eine Stunde gedauert.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2473.97,
+   "ende": 2475.61,
+   "text": "Und ja, war auf jeden Fall ein Abenteuer.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2476.39,
+   "ende": 2480.61,
+   "text": "Und dann sind wir eben nach Tete-Bato gefahren und haben hier ein super süßes Hotel.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2480.77,
+   "ende": 2483.97,
+   "text": "Das hat irgendwie fünf Zimmer, von denen haben wir vier belegt.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2484.05,
+   "ende": 2487.55,
+   "text": "Die haben erst im August aufgemacht, haben hier einen kleinen Pool direkt in den Reisfeldern.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2487.55,
+   "ende": 2491.15,
+   "text": "Wir wollen jetzt gleich mal, wenn ich hier fertig bin, durch die Reisfelder laufen.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2491.89,
+   "ende": 2494.49,
+   "text": "Und hier bleiben wir jetzt insgesamt drei Nächte.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2494.63,
+   "ende": 2495.93,
+   "text": "Also zwei, eine haben wir schon.",
+   "avg_logprob": -0.137,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 2496.55,
+   "ende": 2500.75,
+   "text": "Und dann fahren wir nochmal an die Küste runter nach Lombok und dann geht es nochmal weiter.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2500.83,
+   "ende": 2503.59,
+   "text": "Aber das erzähle ich dann nächste Woche mit dem Reisebericht Teil 2.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2504.25,
+   "ende": 2508.67,
+   "text": "Das war jetzt erstmal Teil 1 mit Bali, Lombok, Gili Air.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2508.99,
+   "ende": 2511.35,
+   "text": "Ne, Bali, Gili Air, Lombok, so rum.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2511.89,
+   "ende": 2513.51,
+   "text": "Und nächste Woche gibt es dann Teil 2.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2514.31,
+   "ende": 2518.73,
+   "text": "Und ja, also falls jemand jetzt Lust bekommen hat, auch mal eine Indonesienreise zu machen,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2518.83,
+   "ende": 2520.37,
+   "text": "kann ich auf jeden Fall empfehlen.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2520.37,
+   "ende": 2523.05,
+   "text": "Und es ist auf jeden Fall auch mein Bali-Trauma jetzt geheilt,",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 2523.05,
+   "ende": 2525.43,
+   "text": "weil ich jetzt definitiv",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2525.43,
+   "ende": 2527.43,
+   "text": "auch wenn ich es vorher schon wusste, aber definitiv",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2527.43,
+   "ende": 2529.23,
+   "text": "verstanden habe, dass Bali nicht",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2529.23,
+   "ende": 2531.25,
+   "text": "Indonesien ist und das nur",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2531.25,
+   "ende": 2532.45,
+   "text": "weil man Bali doof findet",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2532.45,
+   "ende": 2534.97,
+   "text": "man es trotzdem auf Lombok und Gili Air",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2534.97,
+   "ende": 2537.03,
+   "text": "wunderschön finden kann und deshalb",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2537.03,
+   "ende": 2539.39,
+   "text": "kann ich hier jedem eine Reise nur empfehlen",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2539.39,
+   "ende": 2541.57,
+   "text": "So, das war's und dann",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 2541.57,
+   "ende": 2543.39,
+   "text": "sehen wir uns nächste Woche, tschüss!",
+   "avg_logprob": -0.121,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.49
+  }
+ ]
+}

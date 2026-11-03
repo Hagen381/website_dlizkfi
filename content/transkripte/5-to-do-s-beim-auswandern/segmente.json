@@ -1,0 +1,1962 @@
+{
+ "meta": {
+  "slug": "5-to-do-s-beim-auswandern",
+  "titel": "5 To Do´s beim Auswandern",
+  "datum": "2025-06-23T05:16:38.000Z",
+  "dauer_sekunden": 1747,
+  "guid": "55bc7ec2-9206-4dae-bbfe-17c30d556c38",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T08:45:30Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 6,
+   "transkription": 1680
+  },
+  "echtzeitfaktor": 0.96,
+  "anzahl_segmente": 242,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.0,
+   "ende": 5.66,
+   "text": "Geht einmal über die Grenze, kommt wieder zurück. Deswegen Visa Run, weil man mehr oder weniger einmal durchrennt.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.075,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 6.66,
+   "ende": 9.56,
+   "text": "Und dann ist man quasi einmal ausgereist und wieder eingereist.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.075,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 18.2,
+   "ende": 22.7,
+   "text": "Hallo und herzlich willkommen zu einer neuen Folge von DLIZKFI.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.075,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 23.08,
+   "ende": 24.78,
+   "text": "Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.075,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 25.52,
+   "ende": 30.4,
+   "text": "Nachdem wir in den letzten Folgen ein bisschen in der Vergangenheit unterwegs waren,",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.075,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 31.28,
+   "ende": 36.44,
+   "text": "dachte ich mir, dass ich mal eine Folge zu den Themen mache, die uns so aktuell beschäftigen.",
+   "avg_logprob": -0.118,
+   "no_speech_prob": 0.075,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 36.44,
+   "ende": 41.26,
+   "text": "also die so ganz unmittelbar auch im Zusammenhang mit einer Auswanderung stehen.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 42.16,
+   "ende": 46.88,
+   "text": "Und deshalb bekommt ihr heute fünf To-Dos oder fünf Themenbereiche,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 47.04,
+   "ende": 51.2,
+   "text": "mit denen man sich quasi befassen muss, wenn man plant, auszuwandern.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 51.48,
+   "ende": 56.7,
+   "text": "Als erstes habe ich da aufgelistet oder liste ich hier die Krankenversicherung auf.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 57.34,
+   "ende": 62.4,
+   "text": "Grundsätzlich ist man natürlich nicht verpflichtet, sich dann im Ausland kranken zu versichern,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 62.5,
+   "ende": 64.16,
+   "text": "je nachdem natürlich, in welches Land man geht.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 64.16,
+   "ende": 73.02,
+   "text": "Aber in Thailand wäre das jetzt eben nicht der Fall. Das heißt, wir können das in dem Moment, wo wir in Deutschland abgemeldet sind, frei entscheiden, ob wir uns krankenversichern wollen oder nicht.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 73.6,
+   "ende": 78.5,
+   "text": "Bei den Reiseversicherungen im Zuge einer Auswanderung gibt es im Grunde zwei verschiedene Arten.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 78.76,
+   "ende": 86.5,
+   "text": "Das eine ist eine internationale Krankenversicherung. Wie es der Name schon sagt, ist die auch international, also weltweit gültig.",
+   "avg_logprob": -0.054,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 86.5,
+   "ende": 104.28,
+   "text": "Man kann sie auch, egal wo man ist, abschließen. Und die ist zu vergleichen mit unserer deutschen Krankenversicherung. Das nennt sich dann Vollversicherung. Also das, was wir hier in Deutschland haben, ist eine Vollversicherung. Und so eine internationale Krankenversicherung ist auch eine Vollversicherung.",
+   "avg_logprob": -0.082,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 105.2,
+   "ende": 109.6,
+   "text": "Da gibt es ganz unterschiedliche Anbieter, auch Anbieter, die man aus Deutschland kennt,",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 109.6,
+   "ende": 115.4,
+   "text": "aber eben auch andere, die generell auch auf internationale Krankenversicherungen sich spezialisiert haben.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 116.16,
+   "ende": 120.52,
+   "text": "Und preislich ist die auch ungefähr so in dem Rahmen wie unsere deutschen Krankenversicherungen.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 121.18,
+   "ende": 126.62,
+   "text": "Ich als Selbstständige sehe das ja, also habe da ja sowieso einen Betrag, den ich selbst überweisen muss.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 126.72,
+   "ende": 131.94,
+   "text": "Und wenn man angestellt ist, sieht man auch den Betrag für die Krankenversicherung auf seiner Lohnabrechnung.",
+   "avg_logprob": -0.079,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 131.94,
+   "ende": 144.24,
+   "text": "Und dann kann man sich eigentlich ganz gut ausrechnen, was man so innerhalb einer Familie im Monat an Krankenversicherungsbeiträgen zahlt. Und das, wie gesagt, ist ungefähr auch das, was so eine internationale Vollversicherung kosten würde.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 144.24,
+   "ende": 163.46,
+   "text": "Und dann gibt es noch eine Alternative, die sogenannte Langzeitreisekrankenversicherung. Das ist eine Versicherungsart, die maximal fünf Jahre geht. Die ist extra für Langzeitreisende entwickelt worden, die jetzt nicht unbedingt dauerhaft im Ausland leben.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 163.46,
+   "ende": 183.06,
+   "text": "Bei uns ist es ja so, dass das schon der Plan ist, natürlich dauerhaft im Ausland zu leben. Aber da komme ich gleich zum nächsten Punkt auch dazu. Wir werden auch ein Visum haben, was nur fünf Jahre gültig ist im ersten Schritt und demnach haben wir uns auch dann für diese fünfjährige Versicherung entschieden.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.44
+  },
+  {
+   "start": 183.9,
+   "ende": 188.66,
+   "text": "Die ist zum einen deutlich günstiger, zum anderen ist sie von der Hanse Merkur,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 188.94,
+   "ende": 193.56,
+   "text": "mit der wir einfach auch bisher immer irgendwie unsere ganzen Reiseversicherungen abgeschlossen haben",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 193.56,
+   "ende": 195.7,
+   "text": "und da auch immer sehr zufrieden waren.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 196.38,
+   "ende": 199.54,
+   "text": "Und man darf die aber nur einmal abschließen.",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 199.54,
+   "ende": 205.68,
+   "text": "Das heißt, nach den fünf Jahren muss man dann in jedem Fall sich eben um die internationale Krankenversicherung kümmern",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 205.68,
+   "ende": 211.42,
+   "text": "oder je nachdem, wenn man jetzt wirklich in einem Land lebt, wo man auch gemeldet ist und so,",
+   "avg_logprob": -0.091,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 211.42,
+   "ende": 217.12,
+   "text": "Dann kann man natürlich auch schauen, ob man dann eine landestypische Krankenversicherung findet.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 218.24,
+   "ende": 222.02,
+   "text": "Aber ich komme dann auch direkt zu Punkt 2, nämlich das Visum.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 222.1,
+   "ende": 223.28,
+   "text": "Ich habe es gerade schon angedeutet.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 223.46,
+   "ende": 227.58,
+   "text": "Wir werden dann mit einem Visum einreisen nach Thailand, das fünf Jahre gültig ist.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 227.68,
+   "ende": 229.7,
+   "text": "Das ist das DTV-Visum.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 230.54,
+   "ende": 236.42,
+   "text": "Für alle, die sich vielleicht auch schon mal damit beschäftigt haben, länger als zwei, drei Wochen in Thailand zu bleiben.",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 236.42,
+   "ende": 249.62,
+   "text": "Die wissen vielleicht, dass es ganz unterschiedliche Visa-Arten für Thailand gibt und dieses DTV-Visum gibt es tatsächlich noch gar nicht so lange und das ist extra für digitale Nomaden entwickelt worden.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 250.5,
+   "ende": 257.02,
+   "text": "Das heißt, sowohl als Selbstständiger als auch als Angestellter kann man dieses Visum nutzen.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 257.42,
+   "ende": 263.42,
+   "text": "Voraussetzung ist eben, dass der Job hergibt, dass man zu 100% remote arbeiten kann.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 263.42,
+   "ende": 281.82,
+   "text": "Das heißt, in meinem Fall, ich bin ja mit einem Online-Business selbstständig, ist das quasi gar kein Problem, aber auch wenn man jetzt angestellt wäre, könnte man mit diesem Visum reisen, sofern der Arbeitgeber einem eben bestätigt, dass der Job zu 100% remote ausführbar ist.",
+   "avg_logprob": -0.063,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.34
+  },
+  {
+   "start": 282.82,
+   "ende": 289.8,
+   "text": "Und bei diesem Fünf-Jahres-Visum hat man die Möglichkeit, bis 180 Tage am Stück im Land zu bleiben.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 290.5,
+   "ende": 299.1,
+   "text": "Und dann kann man entweder eine Verlängerung beantragen, dann hat man wieder 180 Tage und dann kann man wieder eine Verlängerung beantragen",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 299.1,
+   "ende": 307.56,
+   "text": "und kann sozusagen innerhalb dieser fünf Jahre mehrmals ein- und ausreisen und mehrmals das Visum eben auch verlängern,",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 308.44,
+   "ende": 310.78,
+   "text": "bis es eben diese Fünf-Jahres-Grenze erreicht hat.",
+   "avg_logprob": -0.092,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 311.76,
+   "ende": 322.76,
+   "text": "Alternativ kann man natürlich auch sagen, okay, ich gehe halt einfach alle 180 Tage und mache einen kleinen Trip in die umliegenden Länder oder fliege mal nach Deutschland, wie auch immer.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 322.76,
+   "ende": 332.74,
+   "text": "Also dann muss man es quasi nicht offiziell verlängern, sondern dann reist man aus, macht irgendwo Urlaub, kommt wieder und dann gehen die 180 Tage wieder von vorne los.",
+   "avg_logprob": -0.068,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 332.74,
+   "ende": 347.52,
+   "text": "Um dieses Visum beantragen zu können, braucht man, wie gesagt, einmal den Nachweis der Selbstständigkeit mit einem Online-Business oder eben den Nachweis über die Remote Work und auch einen deutschen Wohnsitz bzw. einen Wohnsitz.",
+   "avg_logprob": -0.069,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.36
+  },
+  {
+   "start": 347.52,
+   "ende": 355.7,
+   "text": "Es ist ja nicht nur für Deutsche, dieses DTV-Visum, aber es geht darum, dass man eben irgendwo außerhalb von Thailand einen Wohnsitz hat.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 356.66,
+   "ende": 364.18,
+   "text": "Denn das Wichtige bei diesem Visum ist eben, dass es kein, ja, keine Aufenthaltserlaubnis ist oder kein Business-Visum für Thailand.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 364.72,
+   "ende": 371.16,
+   "text": "Das heißt, man muss seinen Wohnsitz außerhalb von Thailand haben und das Business muss auch außerhalb von Thailand laufen.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 371.74,
+   "ende": 377.2,
+   "text": "Das heißt, ich kann mit diesem Visum zum Beispiel in Thailand keine Bar aufmachen und sagen,",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 377.36,
+   "ende": 384.24,
+   "text": "ja, ich mache jetzt hier mal für die fünf Jahre eine Strandbar auf, sondern ich muss, oder was auch immer,",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 384.24,
+   "ende": 391.72,
+   "text": "also sofern ich thailändische Kunden habe und in Thailand mein Business habe, kann ich dieses Visum nicht benutzen.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 391.94,
+   "ende": 399.52,
+   "text": "Somit passt das aber auch in unserem Fall, weil meine Kunden ja in der Regel aus Deutschland oder Europa kommen",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 399.52,
+   "ende": 407.72,
+   "text": "und genau, das ist eben auch wichtig, diesen Wohnsitznachweis braucht man allerdings nur bei der Antragstellung.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 408.68,
+   "ende": 412.7,
+   "text": "Wir wissen ja schon oder es ist ja klar, dass wir uns aus Deutschland abmelden werden,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 413.08,
+   "ende": 417.94,
+   "text": "in allererster Linie aufgrund der Schulpflicht und das ist dann aber kein Problem.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 417.94,
+   "ende": 421.78,
+   "text": "Man muss innerhalb dieser fünf Jahre, wenn man das Visum einmal bewilligt bekommen hat,",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 422.24,
+   "ende": 424.84,
+   "text": "nichts weiter nachträglich nochmal nachweisen.",
+   "avg_logprob": -0.128,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 424.84,
+   "ende": 447.62,
+   "text": "Und ja, neben dem Wohnsitz und der beruflichen Ausrichtung, sage ich jetzt mal, muss man noch einen Kontostand von 500.000 Baht nachweisen. Das sind je nach Umrechnungskurse zwischen 13.000 und 15.000 Euro, was gemessen an anderen Visa-Arten für Thailand auch wirklich human ist.",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.36
+  },
+  {
+   "start": 447.62,
+   "ende": 467.56,
+   "text": "Also es gibt zum einen natürlich Visa-Arten, die generell einfach teurer sind von dem, was das Visum kostet, aber auch bei den meisten muss man deutlich mehr Kapital nachweisen, wenn man das Visum beantragen möchte. Und da ist man mit dem DTV-Visum mit 500.000 Watt eigentlich noch ganz gut dran.",
+   "avg_logprob": -0.077,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 467.56,
+   "ende": 496.28,
+   "text": "Dann, das Wieso müssen wir alle beantragen, die Kinder haben natürlich kein Online-Business, aber wenn das für die Eltern bewilligt wird, dann werden die Kinder automatisch auch bewilligt, trotzdem muss man es halt für jeden Einzelnen beantragen und es kostet pro Person 350 Euro, was ich auch auf jeden Fall angemessen finde, denn auf die fünf Jahre gesehen, 350 Euro ist tatsächlich relativ günstig.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 496.28,
+   "ende": 522.02,
+   "text": "Wenn man so einreist und vor Ort immer wieder sein Visum verlängert oder einen Visa Run macht, was ja sehr viele machen in Thailand, haben wir auch in dem Jahr gemacht. Also Visa Run bedeutet, man fährt zum Beispiel zu irgendeiner naheliegenden Grenze, bei Südthailand ist das Malaysia, geht einmal über die Grenze, kommt wieder zurück, deswegen Visa Run, weil man mehr oder weniger einmal durchrennt und dann ist man quasi einmal ausgereist und wieder eingereist.",
+   "avg_logprob": -0.05,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 522.02,
+   "ende": 536.86,
+   "text": "Und das muss man dann, wenn man kein offizielles Langzeitvisum hat, im Zweifel alle zwei Monate machen und das geht natürlich dann auch ins Geld. Von daher sind die 350 Euro da pro Person tatsächlich, ja, kommt man guten Bitt weg.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.28
+  },
+  {
+   "start": 536.86,
+   "ende": 553.24,
+   "text": "Ähm, ja, ähm, ich hatte es auch schon gerade angedeutet, dann komme ich direkt zu Punkt 3, ähm, nämlich, dass ich ein Online-Business habe. Die meisten, die hier zuhören, kennen mich, glaube ich, tatsächlich im Moment noch persönlich und wissen das.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.38
+  },
+  {
+   "start": 553.24,
+   "ende": 570.76,
+   "text": "Aber im Zuge einer Selbstständigkeit muss man sich natürlich bei der Auswanderung auch überlegen, was macht man mit dem Unternehmen. Bei mir ist es ein Einzelunternehmen und letztendlich war es von Anfang an so konzipiert, dass ich das überall mit hinnehmen kann.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 570.76,
+   "ende": 589.84,
+   "text": "Deswegen ist es eben ein reines Online-Business. Das heißt, ich kann von überall auf der Welt meine Kunden betreuen und wiederum meine Kunden sitzen auch an unterschiedlichen Orten. Wie gesagt, zum Teil die meisten in Europa, aber auch meine Kunden reisen sehr viel, sind dann zwischenzeitlich eben auch mal auf Bali oder woanders.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 590.84,
+   "ende": 599.3,
+   "text": "Und von daher ist, sage ich mal, die Business-Struktur nicht das Thema, sondern eher das Thema, wo hat die Firma ihren Sitz.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 600.26,
+   "ende": 603.58,
+   "text": "Und unsere Auswanderung ist ja überhaupt nicht steuerlich motiviert.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 603.86,
+   "ende": 608.12,
+   "text": "Also es gibt ja immer oft dieses Vorurteil, ja, auswandern gleich Steuern sparen.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 608.58,
+   "ende": 610.62,
+   "text": "Das ist jetzt bei uns gar nicht der Punkt gewesen.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 610.62,
+   "ende": 618.7,
+   "text": "Und ehrlicherweise, das würde jetzt in der Folge aber zu weit gehen, ist eine Auswanderung im ersten Schritt auf jeden Fall nicht damit verbunden,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 618.7,
+   "ende": 631.54,
+   "text": "dass man Geld spart oder Steuern spart. Ganz im Gegenteil. Deutschland gehört zu den wenigen, wenn nicht sogar einzigen Land. Das weiß ich gar nicht. Müsste ich nochmal recherchieren. Aber bisher habe ich noch von kein anderem Land gehört, wo das so ist.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 631.54,
+   "ende": 634.9,
+   "text": "hat Deutschland eine sogenannte Wegzugsbesteuerung.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 635.8,
+   "ende": 639.18,
+   "text": "Das heißt, wenn man auswandert und sein Unternehmen mitnimmt",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 639.18,
+   "ende": 641.52,
+   "text": "und seinen Firmensitz in ein anderes Land verlagert",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 641.52,
+   "ende": 644.78,
+   "text": "und die Firmentätigkeiten komplett so weitermacht,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 645.2,
+   "ende": 650.12,
+   "text": "dann muss man Deutschland eine Art Steuerausfall zahlen.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 650.44,
+   "ende": 652.14,
+   "text": "Das ist jetzt ein bisschen,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 652.22,
+   "ende": 654.58,
+   "text": "vielleicht mache ich dazu nochmal eine eigene Folge,",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 654.58,
+   "ende": 657.04,
+   "text": "wobei so eine ganze Folge über Steuerthemen",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 657.04,
+   "ende": 658.36,
+   "text": "vermutlich ziemlich trocken ist.",
+   "avg_logprob": -0.116,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 658.36,
+   "ende": 678.54,
+   "text": "Aber auf jeden Fall nimmt Deutschland dann einen Steuersatz an oder einen Betrag an, der ihnen in den nächsten fünf Jahren entgehen wird und besteuert diesen, sodass das vor allen Dingen für etwas größere Unternehmen manchmal wirklich eine Frage des Geldes ist, ob man sich es überhaupt leisten kann, auszuwandern, also im Sinne von steuerlich leisten kann.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 678.54,
+   "ende": 701.0,
+   "text": "Deshalb ist Auswandern gleich, Steuern sparen wirklich nicht immer der Fall. Aber zurück zu meinem Business. Ich werde natürlich dann auch mein Einzelunternehmen hier abmelden. Natürlich könnte ich grundsätzlich auch im Ausland arbeiten, mein Unternehmen hier gemeldet lassen und weiter in Deutschland Steuern bezahlen.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.49
+  },
+  {
+   "start": 701.0,
+   "ende": 715.98,
+   "text": "Man bräuchte dann natürlich aber auch einen Wohnsitz und wenn ich ein Unternehmen und einen Wohnsitz hier habe, muss ich natürlich auch in Deutschland Krankenversicherung bezahlen und ganz ausschlaggebend in unserem Fall, Wohnsitz in Deutschland heißt auch Schulpflicht für die Kinder.",
+   "avg_logprob": -0.086,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 715.98,
+   "ende": 725.44,
+   "text": "Ja, natürlich könnte man jetzt sagen, okay, dann meldet sich einfach nur Hagen mit den Kindern ab und ich bleibe mit meinem Unternehmen und allem drum und dran hier gemeldet.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 726.16,
+   "ende": 731.58,
+   "text": "Bräuchte dann natürlich aber im Zweifel eine Wohnung oder jemanden, der sagt, hey, du kannst dich bei mir melden.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 732.52,
+   "ende": 744.64,
+   "text": "Aber ja, dadurch, dass wir ja jetzt nicht wie beim letzten Mal vorhaben, nur auf eine bestimmte Zeit wegzugehen, sondern ja, im besten Fall für immer, gibt es natürlich keinen Grund, sein Unternehmen hier zu lassen.",
+   "avg_logprob": -0.101,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 744.64,
+   "ende": 767.58,
+   "text": "Und genau, dadurch melde ich das Unternehmen ab. Und dann ist natürlich die Frage, okay, wo und wie kann man dann im Ausland sein Unternehmen gründen? Ich hatte ja schon im Zuge des Visums gesagt, dass ich zum Beispiel kein Unternehmen in Thailand gründen kann, zumindest nicht mit dieser Visumsart, dann bräuchte man ein Business-Visum. Und je nachdem, was man machen will, darf man faktisch auch als Ausländer nicht alles in Thailand machen.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 768.48,
+   "ende": 773.76,
+   "text": "Vielleicht kommt es irgendwann nochmal, dass ich in Thailand gründe,",
+   "avg_logprob": -0.157,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 773.92,
+   "ende": 776.64,
+   "text": "aber zum aktuellen Zeitpunkt haben wir uns dafür entschieden,",
+   "avg_logprob": -0.157,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 777.22,
+   "ende": 782.44,
+   "text": "einen internationalen Firmensitz zu haben, in Anführungszeichen international.",
+   "avg_logprob": -0.157,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 783.48,
+   "ende": 790.24,
+   "text": "Wir gründen in Estland, denn Estland ist Vorreiter in Sachen Digitalisierung.",
+   "avg_logprob": -0.157,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 791.34,
+   "ende": 795.3,
+   "text": "Und so wie Thailand dieses spezielle Visum für digitale Nomaden hat,",
+   "avg_logprob": -0.157,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 795.3,
+   "ende": 800.16,
+   "text": "hat Estland eine spezielle Gründungsform für digitale Nomaden.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 800.3,
+   "ende": 808.18,
+   "text": "Das heißt, wenn ich, ich habe jetzt die Möglichkeit, meinen Firmensitz in Estland zu haben, digital gesehen.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 808.3,
+   "ende": 811.9,
+   "text": "Ich habe da natürlich auch eine Adresse und das ist da alles gemeldet.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 812.0,
+   "ende": 817.4,
+   "text": "Und man arbeitet dann auch mit so einer Agentur zusammen, die sich auf Buchhaltung in Estland spezialisiert hat.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 817.5,
+   "ende": 824.8,
+   "text": "Also man kann das jetzt nicht einfach briefkastenfirmamäßig alles so irgendwo nur gespeichert haben.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.6
+  },
+  {
+   "start": 824.8,
+   "ende": 829.58,
+   "text": "und dann hat man halt eine Firmaadresse oder so, sondern es ist alles schon hochoffiziell,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 829.76,
+   "ende": 832.8,
+   "text": "nur mit dem Unterschied, dass eben alles digital abläuft.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 832.96,
+   "ende": 840.56,
+   "text": "Also man muss niemals nach Estland reisen letztendlich, man muss auch keinen Papierkram hin und her schicken,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 840.94,
+   "ende": 845.22,
+   "text": "sondern man hat jetzt einmal anfangs eine sogenannte E-Residency beantragt,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 845.86,
+   "ende": 850.62,
+   "text": "auch wenn der Name ein bisschen irreführend ist, weil man eben nicht dazu berechtigt ist.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 850.62,
+   "ende": 870.54,
+   "text": "Also man ist kein Staatsbürger von Estland damit und man kann jetzt auch in Estland kein Geschäft vor Ort eröffnen oder so. Nichtsdestotrotz heißt diese Karte so und die holt man dann einmal hier in Deutschland bei der Estnischen Botschaft ab und auf dieser Karte sind dann eben alle Personen- und Firmendaten gespeichert.",
+   "avg_logprob": -0.057,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.47
+  },
+  {
+   "start": 870.54,
+   "ende": 876.84,
+   "text": "und damit ist man dann eben in der Lage, in Zusammenarbeit mit so einer Buchhaltungsagentur",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 876.84,
+   "ende": 879.64,
+   "text": "ein Online-Unternehmen zu eröffnen.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 881.26,
+   "ende": 887.06,
+   "text": "Das wird dann in unserem Fall eine GmbH sein, das nennt sich dann OÜ, also eine estnische OÜ",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 887.06,
+   "ende": 894.48,
+   "text": "und genau, dann hat man aus meiner Sicht den Vorteil, dass es eben trotzdem ein EU-Unternehmen ist",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.5
+  },
+  {
+   "start": 894.48,
+   "ende": 898.84,
+   "text": "und dadurch, dass ich hauptsächlich Kunden in der EU habe,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 899.04,
+   "ende": 903.66,
+   "text": "da eine gewisse Vertrauenswürdigkeit auch einfach mitschwingt aus meiner Sicht.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 904.44,
+   "ende": 909.54,
+   "text": "Wer sich mit dem Thema beschäftigt hat, bestimmt auch schon sehr oft die US LLC gehört.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 909.54,
+   "ende": 914.52,
+   "text": "Das ist so die, glaube ich, aus meiner Sicht, wenn ich das so mitkriege,",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 914.6,
+   "ende": 919.84,
+   "text": "die meistgegründetste Form, wenn man auswandert oder wenn man digital arbeitet.",
+   "avg_logprob": -0.108,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 919.84,
+   "ende": 934.42,
+   "text": "Das ist aber auch hier wieder für deutsche Staatsbürger etwas restriktiver als für andere Länder. Also selbst Österreich und Schweiz kommen da besser weg als wir in Deutschland wieder.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.011,
+   "compression_ratio": 1.29
+  },
+  {
+   "start": 934.42,
+   "ende": 941.8,
+   "text": "und auch die LLC hat eben zum Teil auch den Ruf dieser klassischen Briefkastenfirma,",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 942.36,
+   "ende": 943.62,
+   "text": "was es mit Sicherheit nicht ist.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 943.72,
+   "ende": 945.76,
+   "text": "Ich habe selber auch Kunden, die LLCs haben,",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 945.76,
+   "ende": 950.06,
+   "text": "also letztendlich ist das auch eine sehr gute Alternative,",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 950.96,
+   "ende": 956.8,
+   "text": "aber sie hat trotzdem weniger Vertrauenswürdigkeit als zum Beispiel so eine estnische GmbH.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 957.24,
+   "ende": 961.1,
+   "text": "Deshalb haben wir uns jetzt im ersten Schritt für diese Variante entschieden,",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 961.1,
+   "ende": 965.92,
+   "text": "weil die mir einfach am, ja ich sag mal, korrektesten erschienen.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 966.8,
+   "ende": 971.04,
+   "text": "Und man hat tatsächlich im Zuge der Auswanderung am allermeisten Angst",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 971.04,
+   "ende": 972.94,
+   "text": "vor dem Finanzamt und vor der Schulbehörde.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 973.1,
+   "ende": 979.26,
+   "text": "Das sind die Themen, wo man denkt, oh Gott, hoffentlich komme ich nicht ins Gefängnis.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 979.84,
+   "ende": 982.48,
+   "text": "Nein, aber das ist ja, ja ich glaube, das weiß auch jeder,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 982.64,
+   "ende": 985.64,
+   "text": "mit dem Finanzamt in Deutschland ist tatsächlich nicht zu spaßen.",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 986.2,
+   "ende": 989.64,
+   "text": "Und nicht immer ist das Problem der Moment, in dem man geht,",
+   "avg_logprob": -0.106,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.56
+  },
+  {
+   "start": 989.64,
+   "ende": 997.26,
+   "text": "sondern oft fällt einem sowas, wenn man es nicht korrekt abgewickelt hat, auch erst auf die Füße, wenn man vielleicht aus irgendwelchen Gründen wiederkommen muss.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 998.32,
+   "ende": 1008.62,
+   "text": "Genau, soviel zu dem Thema Firmengründung. Das ist natürlich auch alles viel komplexer, als wie ich es jetzt hier anreißen konnte.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1009.36,
+   "ende": 1015.94,
+   "text": "Wir sind mit dem ganzen Prozess ja auch noch nicht durch. Gegebenenfalls mache ich dann irgendwann nochmal auch eine eigene Folge,",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 1015.94,
+   "ende": 1036.2,
+   "text": "Eventuell in Kombination mit den Steuern muss ich mal schauen, wie das alles ausgeht und dann kann ich auch final ja auch nochmal vielleicht was zu den Kosten sagen, was dann tatsächlich die Firmenschließung, Neueröffnung, Steuern, letzte Steuererklärung in Deutschland und so weiter, was dann alles so auf einen zugekommen ist.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1036.2,
+   "ende": 1054.02,
+   "text": "Ja, und dann haben wir jetzt drei To-Dos abgehandelt. Dann komme ich jetzt zu Punkt vier und zwar Haushaltsauflösung im Sinne von, ja, was macht man eigentlich mit dem ganzen Kram, den man hier so hat.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.019,
+   "compression_ratio": 1.27
+  },
+  {
+   "start": 1054.02,
+   "ende": 1071.22,
+   "text": "Ich bin tatsächlich davon ausgegangen, dass wir gar nicht so viel haben, musste jetzt aber feststellen, dadurch, dass wir wirklich schon jetzt seit ein paar Wochen Sachen auf Ebay Kleinanzeigen verkaufen und jetzt auch schon das zweite Mal auf dem Flohmarkt waren, dass man doch mehr hat, als man irgendwie dachte.",
+   "avg_logprob": -0.071,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.52
+  },
+  {
+   "start": 1071.22,
+   "ende": 1078.02,
+   "text": "und ja, manche Sachen gestalten, manche Sachen gehen weg wie warme Semmeln, auf Deutsch gesagt",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1078.02,
+   "ende": 1083.08,
+   "text": "und andere Sachen gestalten sich natürlich ein bisschen schwieriger, also ich hatte mir zum Beispiel",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1083.08,
+   "ende": 1089.36,
+   "text": "letztes Jahr das erste Mal einen künstlichen Weihnachtsbaum gekauft, weil ich ja irgendwie es nicht mehr",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1089.36,
+   "ende": 1095.58,
+   "text": "übers Herz gebracht habe, jedes Jahr einen Weihnachtsbaum wegzuschmeißen letztendlich, nachdem er gefällt wurde",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1095.58,
+   "ende": 1100.94,
+   "text": "und ja, bin mit dem auch total zufrieden, der ist wirklich richtig schön,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1101.1,
+   "ende": 1104.3,
+   "text": "aber jetzt im Sommer verkauft es sich natürlich total schwer,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1104.56,
+   "ende": 1107.86,
+   "text": "weil kein Mensch sucht auf Ebay Kleinanzeigen nach Weihnachtsbäumen.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1108.46,
+   "ende": 1112.16,
+   "text": "Ich hatte den jetzt auch mit auf dem Flohmarkt und alle waren natürlich auch begeistert",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1112.16,
+   "ende": 1114.92,
+   "text": "und dachten, hey, coole Idee, aber gekauft hat ihn trotzdem keiner.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1115.86,
+   "ende": 1119.4,
+   "text": "Naja, vielleicht habe ich jetzt bald eine Abnehmerin, da hatte sich noch jemand gemeldet,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1119.4,
+   "ende": 1124.0,
+   "text": "aber ja, das sind dann halt so Sachen, über die man natürlich vorher jetzt auch nicht nachdenkt,",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 1124.0,
+   "ende": 1145.14,
+   "text": "Ja, dass im Mai oder Juni keiner bei Ebay Weihnachtsbaum eingibt in die Suchfunktion. Und dann hat man auch so diesen Gedanken, okay, irgendwie brauche ich ja doch noch einige Sachen bis zum Schluss. Also Bett, Küche, Bettdecken, Geschirr, Handtücher, das sind Fahrräder vielleicht auch.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 1145.14,
+   "ende": 1165.36,
+   "text": "Ja, das sind halt alles so Dinge, die man ja nicht jetzt schon verkaufen kann. Und dann haben wir jetzt aber das Glück gehabt, dass jemand, also wir hatten dann, ich habe bei Küche zum Beispiel gesagt, ja, wenn jetzt jemand in zwei, drei Monaten umzieht, sucht er ja wahrscheinlich auch jetzt schon nach einer Küche und nicht erst, wenn er eingezogen ist.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1166.06,
+   "ende": 1172.34,
+   "text": "Deswegen hatten wir dann einfach mal die Küche schon reingestellt und dazu geschrieben, Abholung zu Ende August.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1172.58,
+   "ende": 1179.3,
+   "text": "Und da hat sich tatsächlich jemand gemeldet, der dann vorbeikam und dann uns echt noch relativ viele Möbel abgenommen hat,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1179.84,
+   "ende": 1185.48,
+   "text": "weil derjenige gerade eine Ferienwohnung einrichtet und die aber im Moment noch komplett sanieren muss.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1186.12,
+   "ende": 1189.52,
+   "text": "Und der war dann natürlich froh, dass er die ganzen Sachen schon kaufen konnte,",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1189.64,
+   "ende": 1194.34,
+   "text": "aber sich nicht darum kümmern musste, wo er sie einlagert, bis er da mit der Renovierung fertig ist.",
+   "avg_logprob": -0.084,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1194.34,
+   "ende": 1202.86,
+   "text": "und so war das quasi eine Win-Win-Situation und nachdem der dann uns hier einige große Möbelstücke auch abgenommen hatte,",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1203.86,
+   "ende": 1210.48,
+   "text": "die wir jetzt ja eben noch nutzen können, haben wir dann angefangen auch weiter Sachen einzustellen mit dem Vermerk,",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1210.48,
+   "ende": 1215.86,
+   "text": "dass Abholung eben erst Mitte, Ende August ist und auch das funktioniert tatsächlich ganz gut.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1216.1,
+   "ende": 1218.76,
+   "text": "Also auch da haben wir jetzt schon einige Sachen losgekriegt.",
+   "avg_logprob": -0.088,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1218.76,
+   "ende": 1238.98,
+   "text": "Wir machen es dann immer so, dass die Leute die Hälfte anzahlen müssen und man das dann eben, die schlussendliche Zahlung bei Übergabe macht. Und dann habe ich mir auch eine Liste gemacht mit Freunden und Verwandten, die was übernehmen wollen, die schon gesagt haben, ich hätte gern das, ich hätte gern das und auch das können wir dann ja jetzt erstmal noch benutzen.",
+   "avg_logprob": -0.062,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 1239.92,
+   "ende": 1259.82,
+   "text": "Aber ich habe trotzdem das Gefühl, dass irgendwann der Tag X kommt, wo man halt da steht und weiß, jetzt muss die Wohnung leer sein. Also der Tag X ist der 31.8., weil wir konnten nicht zur Mitte des Monats kündigen und haben, also wir fliegen ja am 17. September und dadurch haben wir dann jetzt am 31. zum 31.8. gekündigt.",
+   "avg_logprob": -0.103,
+   "no_speech_prob": 0.005,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1260.62,
+   "ende": 1266.4,
+   "text": "Und natürlich hat man immer diesen Fall, wenn man umzieht, dass man irgendwann dieser Moment ist,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1266.48,
+   "ende": 1270.04,
+   "text": "wo aus der einen Wohnung alles raus muss und in die andere Wohnung rein muss",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1270.04,
+   "ende": 1273.9,
+   "text": "und man trotzdem noch einmal da übernachten musste, essen musste und so weiter.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1274.9,
+   "ende": 1279.68,
+   "text": "Aber in unserem Fall muss es ja nur raus und nirgends mehr rein.",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1280.68,
+   "ende": 1287.32,
+   "text": "Und ja, da wird bestimmt noch eine ganze Menge übrig bleiben, was man dann wahrscheinlich auf den Sperrmüll geben muss,",
+   "avg_logprob": -0.111,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.67
+  },
+  {
+   "start": 1287.32,
+   "ende": 1302.16,
+   "text": "was mir jetzt schon das Herz bricht, aber ja, man kann halt nicht alles mitnehmen und somit komme ich zum fünften und letzten To-Do, nämlich die Frage, was nimmt man mit, was bleibt hier und wie bekommt man das alles mit.",
+   "avg_logprob": -0.139,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 1302.16,
+   "ende": 1324.66,
+   "text": "Wir haben da verschiedene Ideen verfolgt, natürlich auch die Idee, etwas verschiffen zu lassen. Da gibt es Anbieter, da kann man eben gewisse Kubikmeter-Anzahlen in Containern anmieten und das geht dann los, dass der erste Kubikmeter zwischen 400 und 500 Euro kostet und jeder weitere dann 100 Euro.",
+   "avg_logprob": -0.065,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.46
+  },
+  {
+   "start": 1324.66,
+   "ende": 1352.1,
+   "text": "Das war aber doch relativ kompliziert mit der Kommunikation, weil der Anbieter ist natürlich in Deutschland, die ganze Abwicklung, vor allem dann auch die Zollabwicklung findet dann aber in Thailand statt und naja, wie es halt so ist in Thailand, kommst du heute nicht, kommst du morgen oder gar nicht und Informationen kriegst du im Teufel halt auch nicht oder sie sind vielleicht nicht so ganz korrekt",
+   "avg_logprob": -0.075,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 1352.1,
+   "ende": 1361.04,
+   "text": "Und wie es dann wirklich abläuft, wenn man in Thailand am Zoll steht und seine Sachen haben will, weiß man auch erst, wenn man dann am Zoll steht.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1361.94,
+   "ende": 1371.16,
+   "text": "Und das war uns dann alles irgendwie ein bisschen zu heikel, zumal wir auch einfach ja jetzt nicht irgendwie dann ein Haus gekauft haben, was wir dann mit unseren Möbeln hier einrichten wollen,",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1371.24,
+   "ende": 1377.36,
+   "text": "sondern im ersten Schritt hätten wir ja auch gar keinen Platz für größere Sachen, also für Möbel und so weiter.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 1378.34,
+   "ende": 1388.86,
+   "text": "Und ja, dann haben wir uns halt dazu entschlossen, tatsächlich alles zu verkaufen und ja, nur so Sachen mitzunehmen, die einem besonders wichtig sind.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1388.86,
+   "ende": 1393.86,
+   "text": "Am Anfang war mir noch besonders wichtig, dass ich meinen Airfryer mitnehmen kann, da bin ich inzwischen auch wieder von abgerückt.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1394.94,
+   "ende": 1407.1,
+   "text": "Aber ja, wir haben dann geschaut, welche Airlines bieten Sportgepäck an, welche haben die höchste Freigepäcksgrenze und so weiter.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 1407.36,
+   "ende": 1428.76,
+   "text": "Wir sind ja bisher oft mit einmal umsteigen geflogen. Das stört uns an sich auch nicht. Ganz im Gegenteil. Wir finden das eigentlich ganz gut, weil die Kinder dann nochmal ein bisschen rumrennen können und haben dann jetzt aber gesagt, okay, wenn wir jetzt wirklich jeder unser Freigepäck voll machen und auch noch Sportgepäck mitnehmen, dann sind das natürlich eine Menge Gepäckstücke.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.55
+  },
+  {
+   "start": 1428.76,
+   "ende": 1432.94,
+   "text": "und je öfter man damit umsteigen muss, man hat damit ja nichts zu tun,",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1433.06,
+   "ende": 1436.16,
+   "text": "aber die Wahrscheinlichkeit, dass dann vielleicht irgendwo mal eins nicht mitkommt,",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1436.7,
+   "ende": 1438.72,
+   "text": "ist natürlich größer als auf einem Direktflug.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1439.54,
+   "ende": 1443.62,
+   "text": "Deshalb haben wir uns jetzt für einen Direktflug mit Thai Airways entschieden.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1443.62,
+   "ende": 1448.72,
+   "text": "Da haben wir 23 Kilo Freigepäck, viermal ja, weil auch die Kinder das haben.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1448.8,
+   "ende": 1451.48,
+   "text": "Dann haben wir theoretisch noch jeder sieben Kilo Handgepäck",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1451.48,
+   "ende": 1456.8,
+   "text": "und man kann für 150 US-Dollar Sportgepäck mitnehmen.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1456.8,
+   "ende": 1469.88,
+   "text": "Und dann haben wir natürlich auch wieder gerechnet, okay, Guthagens Kaltzeug ist indiskutabel, ja, das kommt auf jeden Fall mit und das ist auch für 150 US-Dollar da total fein vom Preis.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1470.54,
+   "ende": 1482.86,
+   "text": "Aber zum Beispiel unsere zwei SUPs, die wir mitnehmen wollten, da fragt man sich natürlich, okay, bezahle ich jetzt 130 Euro Sportgepäck für zwei SUPs oder verkaufe ich sie hier und kaufe in Thailand dann einfach neue.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.007,
+   "compression_ratio": 1.48
+  },
+  {
+   "start": 1483.58,
+   "ende": 1494.42,
+   "text": "Und auch da haben wir dann quasi angefangen, bei allen Dingen, die wir mitnehmen wollten, zu gucken, wie viel würde ich hier dafür kriegen und was würde es mich in Thailand kosten.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1495.12,
+   "ende": 1499.2,
+   "text": "Viele Sachen sind natürlich in Thailand deutlich günstiger, aber eben auch nicht alle.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1500.4,
+   "ende": 1508.58,
+   "text": "Und vor allem, wenn man jetzt eine gewisse Marke oder auch eine gewisse Qualität haben möchte, dann heißt es nicht zwangsläufig, dass es in Thailand billiger ist.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 1508.58,
+   "ende": 1525.16,
+   "text": "Aber trotzdem muss man dann ja nicht nur den Wert des Gegenstandes berechnen, sondern auch, was würde ich hier noch dafür kriegen und was würde es mich kosten, ihn mitzunehmen. Und dann ist es manchmal eben doch günstiger, es dort neu zu kaufen.",
+   "avg_logprob": -0.081,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.45
+  },
+  {
+   "start": 1525.16,
+   "ende": 1541.22,
+   "text": "Ähm, so ist es dann auch mit den SUPs geschehen. Wir haben sie hier verkauft und kaufen uns dann im Zweifel dort neue. Dann gibt es so ein paar Sachen, die irgendwie schwieriger zu handeln sind. Zum Beispiel möchte Heinrich unbedingt gern sein Hoverboard mitnehmen, das er jetzt auch noch nicht so lange hat.",
+   "avg_logprob": -0.076,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 1541.22,
+   "ende": 1556.8,
+   "text": "Und ja, er hat da so ein Spezielles, was ich bisher in Thailand auch noch nicht so gefunden habe. Und das wiegt aber irgendwie 13 Kilo und somit wäre ein Koffer schon fast nur voll mit so einem Hoverboard, was ja irgendwie bei 23 Kilo auch keinen Sinn macht.",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.42
+  },
+  {
+   "start": 1556.8,
+   "ende": 1584.2,
+   "text": "Ja, genau, und so muss man sich permanent irgendwie mit dem Gepäckthema beschäftigen, weil wir haben uns jetzt, wir haben noch einmal Freunde, die fliegen jetzt wieder für drei Wochen Ende Juni, die sind so, nach Koh Samui, die sind so nett und nehmen einen kompletten Koffer von uns schon mal mit, den wir wiederum dann bei einer lieben Freundin auf Samui unterstellen können, so lange.",
+   "avg_logprob": -0.097,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.57
+  },
+  {
+   "start": 1585.0,
+   "ende": 1588.98,
+   "text": "Und dann haben wir noch entschieden, jetzt ein Paket im Vorfeld zu schicken.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1589.06,
+   "ende": 1592.0,
+   "text": "Das haben wir damals bei dem Jahr auch mit dem Kaizeug von Hagen gemacht.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1592.1,
+   "ende": 1596.0,
+   "text": "Das kostete irgendwie zwischen 120 und 160 Euro.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1596.46,
+   "ende": 1604.16,
+   "text": "Und da wollen wir dann Spielsachen von den Kindern, Kuscheltiere und sowas wie ein Monopoly-Spiel oder Siedler.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1604.3,
+   "ende": 1606.2,
+   "text": "Also das sind halt so Sachen, die man da nicht bekommt.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1606.76,
+   "ende": 1608.62,
+   "text": "Das wollen wir dann vorab schon mal schicken.",
+   "avg_logprob": -0.114,
+   "no_speech_prob": 0.008,
+   "compression_ratio": 1.58
+  },
+  {
+   "start": 1608.62,
+   "ende": 1625.5,
+   "text": "Dann, wie gesagt, unser Gepäck, was ich gerade aufgezählt habe bei Thai Airways und dann werde ich noch ein, zwei Kartons packen mit Sachen, die ich zwar gerne mitnehmen würde, aber jetzt nicht mehr reinpassen, die dann vielleicht nach und nach mal Besucher mitbringen.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.003,
+   "compression_ratio": 1.4
+  },
+  {
+   "start": 1626.12,
+   "ende": 1642.04,
+   "text": "Aber auch da, genauso wie mit den Möbeln und dem Hausstand, glaube ich, dass irgendwann der Tag kommen wird, in dem man realisiert, dass man bei weitem nicht so viel in die Koffer bekommt, wie man eigentlich dachte und sich dann doch vielleicht noch von mehr trennen muss, als einem lieb ist.",
+   "avg_logprob": -0.066,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 1642.92,
+   "ende": 1645.42,
+   "text": "Aber ja, an sich muss ich sagen,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1645.96,
+   "ende": 1647.72,
+   "text": "also auch wenn es sich jetzt gerade nicht so anhört,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1648.28,
+   "ende": 1652.0,
+   "text": "fällt es uns doch recht leicht, uns von den Sachen zu trennen,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1652.12,
+   "ende": 1655.6,
+   "text": "weil wir, glaube ich, da beide auch sehr rational sind",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1655.6,
+   "ende": 1659.44,
+   "text": "und einfach sagen, okay, ist zwar schade,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1660.04,
+   "ende": 1661.74,
+   "text": "aber es ist halt auch ein schönes Gefühl,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1661.74,
+   "ende": 1663.62,
+   "text": "wenn manchmal kauft ja auch jemand was,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1663.76,
+   "ende": 1666.46,
+   "text": "wo man wirklich merkt, der freut sich total darüber.",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1666.58,
+   "ende": 1668.04,
+   "text": "Ich habe hier zum Beispiel meinen Schreibtisch,",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1668.12,
+   "ende": 1670.98,
+   "text": "den liebe ich über alles, den habe ich aus einem Antiquitätenladen",
+   "avg_logprob": -0.124,
+   "no_speech_prob": 0.004,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1670.98,
+   "ende": 1673.56,
+   "text": "in dem ich mal gearbeitet habe und",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1673.56,
+   "ende": 1675.74,
+   "text": "als die Frau hier war, die eigentlich",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1675.74,
+   "ende": 1677.76,
+   "text": "was anderes kaufen wollte, hat sie den gesehen",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1677.76,
+   "ende": 1679.54,
+   "text": "und war total begeistert und",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1679.54,
+   "ende": 1681.64,
+   "text": "den hätte ich gern und so und dann",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1681.64,
+   "ende": 1683.56,
+   "text": "fällt es einem auch leichter, die Sachen",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1683.56,
+   "ende": 1685.72,
+   "text": "zu verkaufen oder loszuwerden,",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1685.84,
+   "ende": 1687.72,
+   "text": "weil man einfach weiß, dass der Empfänger es",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1687.72,
+   "ende": 1689.7,
+   "text": "auch irgendwie zu schätzen weiß und sich",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1689.7,
+   "ende": 1690.84,
+   "text": "dann daran erfreut.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1691.76,
+   "ende": 1693.76,
+   "text": "Ja, das waren",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1693.76,
+   "ende": 1695.66,
+   "text": "die fünf To-Dos. Meine Güte, das",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1695.66,
+   "ende": 1697.34,
+   "text": "ist ja eine richtig lange Folge geworden.",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1698.14,
+   "ende": 1699.62,
+   "text": "Aber ja, das sind so die Themen, die",
+   "avg_logprob": -0.112,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.62
+  },
+  {
+   "start": 1699.62,
+   "ende": 1701.76,
+   "text": "uns gerade beschäftigen und",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1701.76,
+   "ende": 1703.64,
+   "text": "die uns wirklich",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1703.64,
+   "ende": 1705.24,
+   "text": "viel Zeit und Nerven kosten",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1705.24,
+   "ende": 1707.42,
+   "text": "und ja,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1707.52,
+   "ende": 1709.6,
+   "text": "das wird bestimmt nicht die letzte Folge sein, denn",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1709.6,
+   "ende": 1711.4,
+   "text": "jetzt geht es ja in die heiße Phase,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1711.54,
+   "ende": 1713.6,
+   "text": "also nicht die letzte Folge sowieso nicht, aber die letzte",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1713.6,
+   "ende": 1715.44,
+   "text": "Folge zu solchen Themen, denn jetzt geht es ja",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1715.44,
+   "ende": 1717.4,
+   "text": "in die, ja,",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1717.52,
+   "ende": 1719.46,
+   "text": "letzten drei, wir sind jetzt so 90 Tage",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1719.46,
+   "ende": 1721.66,
+   "text": "vorab, Reisephase, da kann man",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1721.66,
+   "ende": 1723.5,
+   "text": "dann viel erledigen, vieles kann man",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1723.5,
+   "ende": 1725.56,
+   "text": "vorher noch nicht machen und",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1725.56,
+   "ende": 1727.46,
+   "text": "da wird es bestimmt noch mal",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1727.46,
+   "ende": 1728.88,
+   "text": "eine Fortsetzung von",
+   "avg_logprob": -0.115,
+   "no_speech_prob": 0.012,
+   "compression_ratio": 1.83
+  },
+  {
+   "start": 1728.88,
+   "ende": 1731.18,
+   "text": "fünf To-Dos im Zuge einer",
+   "avg_logprob": -0.208,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.17
+  },
+  {
+   "start": 1731.18,
+   "ende": 1733.26,
+   "text": "Auswanderung geben. Ich freue",
+   "avg_logprob": -0.208,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.17
+  },
+  {
+   "start": 1733.26,
+   "ende": 1735.38,
+   "text": "mich, dass ihr zugehört habt und",
+   "avg_logprob": -0.208,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.17
+  },
+  {
+   "start": 1735.38,
+   "ende": 1737.42,
+   "text": "wir hören uns,",
+   "avg_logprob": -0.208,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.17
+  },
+  {
+   "start": 1737.5,
+   "ende": 1739.44,
+   "text": "ihr hört mich nächste Woche wieder.",
+   "avg_logprob": -0.208,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.17
+  },
+  {
+   "start": 1739.64,
+   "ende": 1740.18,
+   "text": "Bis dann!",
+   "avg_logprob": -0.208,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.17
+  }
+ ]
+}

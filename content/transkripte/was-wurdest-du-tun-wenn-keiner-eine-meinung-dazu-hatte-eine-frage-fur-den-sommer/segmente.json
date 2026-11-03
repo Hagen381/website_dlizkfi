@@ -1,0 +1,922 @@
+{
+ "meta": {
+  "slug": "was-wurdest-du-tun-wenn-keiner-eine-meinung-dazu-hatte-eine-frage-fur-den-sommer",
+  "titel": "Was würdest du tun, wenn keiner eine Meinung dazu hätte? Eine Frage für den Sommer",
+  "datum": "2026-08-03T00:10:00.000Z",
+  "dauer_sekunden": 809,
+  "guid": "1c645d70-b791-4d4d-8fb1-389b8d6eba15",
+  "modell": "large-v3",
+  "werkzeug": "faster-whisper (CPU, int8)",
+  "sprache": "de",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "initial_prompt": "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, Bangkok, Visum, Immigration, Farang, Thai.",
+  "erstellt": "2026-11-03T06:23:53Z",
+  "laufzeit_sekunden": {
+   "modell_laden": 6,
+   "transkription": 780
+  },
+  "echtzeitfaktor": 0.96,
+  "anzahl_segmente": 112,
+  "moegliche_schleifen": [],
+  "moegliche_halluzinationen": []
+ },
+ "segmente": [
+  {
+   "start": 0.85,
+   "ende": 23.07,
+   "text": "Die Leute hatten super viele Meinungen, die ganze Welt hatte eine Meinung dazu, wenn irgendwer nicht geimpft war, inklusive uns, ja, also die, die, gerade wie gesagt auf dem Dorf, die Leute haben eine Meinung dazu, auf welche weiterführenden Schule die Kinder gehen, unsere Vermieterin hat sogar eine Meinung dazu gehabt, um wie viel Uhr wir Abendbrot essen, ja.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.052,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 28.52,
+   "ende": 31.68,
+   "text": "Hallo und herzlich willkommen zu einer neuen Folge Glitzkwi.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.19,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 31.86,
+   "ende": 33.6,
+   "text": "Das Leben ist zu kurz für irgendwann.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.19,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 34.06,
+   "ende": 36.84,
+   "text": "Heute schon mit der fünften Frage für den Sommer.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.19,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 37.44,
+   "ende": 39.44,
+   "text": "Also seit fünf Wochen machen wir das jetzt schon.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.19,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 39.54,
+   "ende": 42.02,
+   "text": "Ich weiß gar nicht mehr, was ich mir vorgenommen hatte.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.19,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 42.1,
+   "ende": 43.62,
+   "text": "Ich glaube, irgendwie so sechs bis acht Wochen.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.19,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 43.74,
+   "ende": 46.2,
+   "text": "Ich war irgendwie so im Sommerferienmodus.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.19,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 47.24,
+   "ende": 48.78,
+   "text": "Ich weiß gar nicht, wie lange die gehen.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.19,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 48.88,
+   "ende": 52.02,
+   "text": "Naja, mal gucken, wie viele Fragen mir noch einfallen.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.19,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 52.16,
+   "ende": 53.04,
+   "text": "Danach richte ich das dann.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.19,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 53.1,
+   "ende": 55.86,
+   "text": "Oder wann ich wieder Lust habe, ein bisschen mehr zu erzählen.",
+   "avg_logprob": -0.151,
+   "no_speech_prob": 0.19,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 55.86,
+   "ende": 64.5,
+   "text": "Die heutige Frage für dich für den Sommer lautet, was würdest du tun, wenn keiner eine Meinung dazu hätte?",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 65.38,
+   "ende": 75.84,
+   "text": "Das ist natürlich eine völlig absurde Frage, weil es never ever eintreten wird, dass keiner eine Meinung zu irgendetwas hat, was irgendjemand anderes tut.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 76.0,
+   "ende": 85.44,
+   "text": "Also das ist, gefühlt liegt das ja so hart in unserer Natur, dass jeder eine Meinung zu allem hat und ich schließe mich da gar nicht aus.",
+   "avg_logprob": -0.089,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 85.44,
+   "ende": 114.14,
+   "text": "Also man richtet sich ja oft irgendwie darüber auf, wenn jetzt irgendwer eine Meinung zu irgendwas hat, was einen selber betrifft, aber wenn man mal ganz ehrlich zu sich selber ist, hat man ja auch oft irgendwelche Meinungen, ob man die vielleicht dann immer so kundtut oder nicht, aber was weiß ich, ob es jetzt ist, wie lange die einen Kinder Fernsehen gucken, wie viele Süßigkeiten die dürfen, was irgendwer angehabt hat, warum irgendwer sich von irgendjemandem getrennt hat und so weiter.",
+   "avg_logprob": -0.037,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.77
+  },
+  {
+   "start": 114.14,
+   "ende": 133.26,
+   "text": "Also man hat ja doch oft irgendwelche Meinungen zu irgendwelchen Sachen, die einem eigentlich gar nichts angehen oder die einem eigentlich egal sein könnten. Und ich finde, seit Social Media ist das ja einfach noch krasser, dass man ja jetzt nicht nur so untereinander im Freundeskreis oder im entfernten Bekanntenkreis Meinungen hat oder in einem Dorf.",
+   "avg_logprob": -0.03,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 133.26,
+   "ende": 145.42,
+   "text": "Ja, also im Dorf ist ja ganz schlimm. Da hat ja jeder zu allem eine Meinung. Aber so im Internet haben ja auch einfach wildfremde Menschen, die einen noch nie gesehen haben, außer vielleicht mal ganz kurz gerade ein Video, auch eine Meinung dazu.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 145.54,
+   "ende": 157.64,
+   "text": "Das heißt, wenn man jetzt darüber nachdenkt, was würde ich tun, wenn keiner eine Meinung dazu hätte, dann muss man sich vielleicht mal kurz davon freimachen, dass das nicht wirklich eine ernst gemeinte Frage ist, beziehungsweise nicht wirklich eintreten wird.",
+   "avg_logprob": -0.051,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.73
+  },
+  {
+   "start": 157.64,
+   "ende": 182.86,
+   "text": "Ja, weil, wie gesagt, immer jeder eine Meinung zu irgendwas haben wird. Und ich habe mich das natürlich auch gefragt. Wie immer bei jeder Frage mache ich das ja auch mit, so wie letzte Woche mit dem Brief. Und ich habe so gedacht, für mich ist es wirklich schwierig, diese Frage zu beantworten, weil ich eigentlich immer mache, was ich für richtig halte.",
+   "avg_logprob": -0.096,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 182.86,
+   "ende": 198.48,
+   "text": "Und mir, ich will jetzt nicht sagen, mir egal ist, was andere für eine Meinung dazu haben, weil manchmal würde man sich vielleicht schon wünschen, dass bestimmte Leute dann vielleicht eine bessere Meinung dazu hätten oder einen mehr darin bestärken würden oder was auch immer.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 199.32,
+   "ende": 209.76,
+   "text": "Aber mich hat das trotzdem am Ende nie davon abgehalten, irgendetwas zu machen, was jetzt nach außen hin betrachtet vielleicht nicht jeder nachvollziehen kann.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.006,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 209.76,
+   "ende": 227.78,
+   "text": "Und wenn ich das so rückblickend sehe auf mein bisheriges noch junges Leben, war das eigentlich auch schon immer so. Und meine Mutter hat früher immer zu mir gesagt, ja, Juliette, wenn du so weitermachst, dann wirst du dein ganzes Leben lang anecken.",
+   "avg_logprob": -0.07,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.43
+  },
+  {
+   "start": 227.78,
+   "ende": 243.18,
+   "text": "Und als ich jung war, habe ich immer gedacht, ja, dass das was Schlechtes ist und dachte, ja, blöd, will ich ja eigentlich nicht. Letztendlich ist es aber so. Also sie hat recht behalten. Ich ecke immer, immer irgendwo an mit irgendwem, mit irgendwas, wie auch immer.",
+   "avg_logprob": -0.098,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.53
+  },
+  {
+   "start": 243.18,
+   "ende": 253.28,
+   "text": "Aber inzwischen empfinde ich das jetzt gar nicht mehr so als super schlechte Eigenschaft oder als irgendetwas, woran man permanent arbeiten muss, dass man nicht mehr aneckt.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 253.28,
+   "ende": 270.58,
+   "text": "Weil ich halt in vielen Situationen auch einfach froh darüber bin, dass mir das dann halt auch einfach egal ist, was andere dazu sagen und ich eben nicht irgendwie etwas mache oder etwas nicht mache.",
+   "avg_logprob": -0.109,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 270.58,
+   "ende": 284.06,
+   "text": "Ja, weil ich denke, dass das irgendwie nach außen gesehen blöd ankommt oder sonst was. Also ich bin dann in vielen Situationen auch einfach froh, dass ich anecke, damit ich dann einfach meinen Weg halt auch weitergehen kann.",
+   "avg_logprob": -0.035,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.41
+  },
+  {
+   "start": 284.06,
+   "ende": 307.68,
+   "text": "Und deshalb empfinde ich das gar nicht mehr so als schlechtes. Aber wenn ich halt auch so, ich meine, allein das Thema Auswanderung ist ja schon, jeder hat eine Meinung dazu. Also jeder hat dann nicht nur, ob man jetzt auswandert oder nicht auswandert, auch Sachen, die da mit einem hergehen, was mit den Kindern ist, dass man sie aus ihrem Freundeskreis rausreißt, dass sie nicht in die Schule gehen.",
+   "avg_logprob": -0.046,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.68
+  },
+  {
+   "start": 307.68,
+   "ende": 324.7,
+   "text": "Da hat ja auch jeder eine Meinung zu. Die Leute haben eine Meinung dazu, warum Hagen und ich überhaupt noch zusammen sind. Die Leute haben eine Meinung dazu, warum wir im Lockdown irgendwie eine Reise nach Namibia gemacht haben. Die Leute hatten super viele Meinungen. Die ganze Welt hatte eine Meinung dazu, wenn irgendwer nicht geimpft war, inklusive uns.",
+   "avg_logprob": -0.083,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.78
+  },
+  {
+   "start": 324.7,
+   "ende": 346.18,
+   "text": "Ja, also die, die gerade wie gesagt auf dem Dorf, die Leute haben eine Meinung dazu, auf welche weiterführenden Schule die Kinder gehen. Unsere Vermieterin hat sogar eine Meinung dazu gehabt, um wie viel Uhr wir Abendbrot essen. Ja, also das muss man sich mal überlegen. Es hat jeder immer zu irgendwas eine Meinung, ob es den, ob es die Person irgendwie persönlich betrifft oder nicht.",
+   "avg_logprob": -0.031,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 346.18,
+   "ende": 361.42,
+   "text": "Ich verstehe ja noch, wenn jetzt sagen wir mal zum Beispiel mit dem Thema Auswandern, wenn ich da als Angehörige oder als Freund eine Meinung zu habe und keine positive zu habe, weil ich einfach traurig bin, dass die Leute weggehen, dann verstehe ich ja noch, wenn man, sage ich mal, eine Meinung dazu hat und die auch kundtut.",
+   "avg_logprob": -0.06,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 361.42,
+   "ende": 366.12,
+   "text": "Aber es gibt ja einfach auch super viele Meinungen, die Leute haben, die sie dann auch kundtun.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 367.52,
+   "ende": 370.48,
+   "text": "Meistens ja aber einem nicht selbst gegenüber, sondern irgendwem anders.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 371.8,
+   "ende": 374.54,
+   "text": "Die ihr eigenes Leben gar nicht betrifft.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 375.56,
+   "ende": 377.66,
+   "text": "Also, naja, ihr wisst, was ich meine.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 378.3,
+   "ende": 383.16,
+   "text": "Also, es betrifft ja jetzt jemand anderen überhaupt nicht, wann ich zum Beispiel Abendbrot esse.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 383.36,
+   "ende": 387.72,
+   "text": "Es sei denn, derjenige will sich mit mir zum Abendbrot verabreden und dem ist das dann zu früh.",
+   "avg_logprob": -0.104,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.65
+  },
+  {
+   "start": 387.72,
+   "ende": 392.3,
+   "text": "und ich weigere mich jetzt partout, dass ich schön deutsch, um 18 Uhr wird Abendbrot gegessen",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 392.3,
+   "ende": 395.04,
+   "text": "und um 19 Uhr geht auf keinen Fall und deswegen können wir uns auch nicht treffen.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 395.14,
+   "ende": 397.52,
+   "text": "Gut, dann betrifft es die Person, dann kann sie sich vielleicht auch darüber aufregen.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 398.02,
+   "ende": 399.08,
+   "text": "Ist jetzt so nicht vorgekommen.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 399.4,
+   "ende": 402.04,
+   "text": "Aber ich meine mal so, es gibt ja so viele Sachen, wo Leute eine Meinung haben,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 402.52,
+   "ende": 407.78,
+   "text": "wo es für ihr eigenes Leben völlig egal ist, ob du das machst oder nicht machst.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 409.48,
+   "ende": 414.96,
+   "text": "Und da muss ich sagen, dass ich halt, ja, ich habe lange gekramt in meinem Kopf",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.63
+  },
+  {
+   "start": 414.96,
+   "ende": 421.6,
+   "text": "und habe überlegt, habe ich schon mal irgendetwas nicht gemacht, weil es mir unangenehm war",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 421.6,
+   "ende": 426.84,
+   "text": "oder weil ich Sorge darum hatte, wie das bei anderen ankommt, wie andere das finden könnten.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 428.6,
+   "ende": 430.64,
+   "text": "Ich will jetzt nicht sagen, ob es andere verletzt.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 430.84,
+   "ende": 436.88,
+   "text": "Natürlich mache ich nicht bewusst irgendwelche Sachen, um jemanden damit zu verletzen.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 436.98,
+   "ende": 439.82,
+   "text": "Heißt ja nicht, dass man nicht trotzdem Menschen mit irgendwas verletzen kann.",
+   "avg_logprob": -0.122,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.66
+  },
+  {
+   "start": 439.82,
+   "ende": 466.82,
+   "text": "Ja, also gerade jetzt auch sowas wie mit größeren Lebensentscheidungen kann natürlich sich jemand davon irgendwie verletzt fühlen, weil er sich da zu wenig berücksichtigt fühlt oder was auch immer. Aber ja, mir ist tatsächlich nichts eingefallen, wo ich jetzt sagen könnte, ja, das wäre auch mal so ein Traum von mir oder das hätte ich mal gerne gemacht und habe es aber dann nicht gemacht, weil ich nicht wollte, dass das irgendwer doof findet.",
+   "avg_logprob": -0.061,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.64
+  },
+  {
+   "start": 467.54,
+   "ende": 474.26,
+   "text": "Und deshalb, demnach kann ich jetzt auch gar nicht sagen, okay, was würde ich machen, wenn keiner eine Meinung dazu hätte.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 475.72,
+   "ende": 477.64,
+   "text": "Aber vielleicht ist es ja bei dir anders.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 477.82,
+   "ende": 485.34,
+   "text": "Vielleicht bist du eben nicht der Typ, der ständig aneckt und vielleicht bist du jemand, der schon viel darüber nachdenkt,",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 485.34,
+   "ende": 490.42,
+   "text": "wie andere etwas finden und dich dann vielleicht auch eher zurücknimmst oder zurückhältst.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 490.62,
+   "ende": 495.86,
+   "text": "Und deshalb ist heute die Frage, denk mal darüber nach, was du vielleicht gerne machen würdest.",
+   "avg_logprob": -0.126,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.76
+  },
+  {
+   "start": 495.86,
+   "ende": 504.26,
+   "text": "Und wie immer in allen diesen ganzen Lebensfragen finde ich es immer wichtig, dass das nicht so groß aufgepusht werden muss.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 504.34,
+   "ende": 506.9,
+   "text": "Und es muss jetzt nicht um eine super große Entscheidung gehen.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 507.44,
+   "ende": 514.1,
+   "text": "Kann es natürlich, wenn das gerade auf dem Tablett ist, dann gerne auch da einfach machen.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 514.68,
+   "ende": 517.26,
+   "text": "Egal, was irgendwer für eine Meinung dazu hat.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 518.66,
+   "ende": 521.06,
+   "text": "Aber es können ja, wie gesagt, auch kleinere Sachen sein.",
+   "avg_logprob": -0.087,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54
+  },
+  {
+   "start": 521.06,
+   "ende": 537.8,
+   "text": "Sei es vielleicht irgendwas auch, also keine Ahnung, irgendwas zum Anziehen, sich zu kaufen oder das hat man vielleicht schon, zieht es aber nicht an, weil irgendwer, ob es jetzt der Partner ist oder die Familie oder was auch immer, irgendwer ist der Meinung, man kann das nicht tragen, man ist zu alt oder zu jung, um sowas zu tragen.",
+   "avg_logprob": -0.067,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.74
+  },
+  {
+   "start": 537.8,
+   "ende": 567.02,
+   "text": "Die Farbe steht einem nicht, bla bla bla, ja. Kann halt sowas sein. Kann aber auch jetzt so, gerade so im Social-Media-Kontext vielleicht auch irgendwas sein, okay, was sich in irgendeiner Form zu zeigen oder, obwohl, wo ich das gerade sage, sich zu zeigen, wenn keiner, doch, da fällt mir jetzt, wo ich drüber spreche, da habe ich auch selber schon mal in einem Podcast-Interview drüber gesprochen, dass ich teilweise, also nicht jetzt erst als Social-Media,",
+   "avg_logprob": -0.074,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.7
+  },
+  {
+   "start": 567.02,
+   "ende": 592.84,
+   "text": "Aber dass ich schon mit 12, 13, 14, 15, da war mir jetzt auch noch egal, da bin ich auch mit bauchfrei, rückenfrei, Minirock, Stiefeln, allem Pipapo durch die Gegend gerannt. Aber wo ich älter wurde, habe ich zum Beispiel gerade auch im beruflichen Kontext und so oft darauf geachtet, wie ich mich anziehe, dass ich nicht zu viel Ausschnitt habe, dass es jetzt nicht super eng ist, dass es jetzt nicht super kurz ist.",
+   "avg_logprob": -0.055,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 592.84,
+   "ende": 612.08,
+   "text": "Ich habe mir jetzt auch nicht bieder gekleidet, aber ich mag es nicht, wenn andere denken könnten, dass ich mich mit meinem Aussehen und meiner Kleidung in den Vordergrund stellen möchte.",
+   "avg_logprob": -0.133,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.37
+  },
+  {
+   "start": 612.08,
+   "ende": 615.72,
+   "text": "das ist mir höchst unangenehm",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 615.72,
+   "ende": 617.7,
+   "text": "und deshalb bemerke ich",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 617.7,
+   "ende": 619.6,
+   "text": "manchmal, dass ich etwas nicht",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 619.6,
+   "ende": 621.52,
+   "text": "anziehe, weil ich denke, das",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 621.52,
+   "ende": 623.36,
+   "text": "könnte vielleicht zu aufreizend sein",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 623.36,
+   "ende": 625.48,
+   "text": "und mich manchmal",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 625.48,
+   "ende": 627.62,
+   "text": "dann richtig dazu zwinge",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 627.62,
+   "ende": 629.62,
+   "text": "das dann trotzdem anzuziehen, weil",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 629.62,
+   "ende": 630.92,
+   "text": "es mir ja trotzdem gefällt",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 630.92,
+   "ende": 633.56,
+   "text": "und ja, da",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 633.56,
+   "ende": 635.24,
+   "text": "so ein bisschen dran über, also ja, das",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 635.24,
+   "ende": 637.4,
+   "text": "da siehst du, jetzt finde ich doch was",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 637.4,
+   "ende": 639.36,
+   "text": "also das ist dann was, was würde ich tun, wenn",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 639.36,
+   "ende": 640.44,
+   "text": "keiner eine Meinung dazu hätte",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.72
+  },
+  {
+   "start": 640.44,
+   "ende": 644.92,
+   "text": "hätte ich mich vielleicht, würde ich mich vielleicht manchmal anders zeigen.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 646.44,
+   "ende": 651.14,
+   "text": "Genau, aber ja, vielleicht, wie gesagt, ist es für dich auch nicht sofort so einleuchtend",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 651.14,
+   "ende": 655.22,
+   "text": "und du denkst jetzt auch im ersten Moment, ja, keine Ahnung, ich mache eigentlich auch immer, was ich will",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 655.22,
+   "ende": 658.28,
+   "text": "und mir eigentlich auch scheißegal, was andere denken.",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 658.42,
+   "ende": 662.78,
+   "text": "Ja, vielleicht geht es dir da auch so wie mir, aber wenn du vielleicht ein bisschen länger drüber nachdenkst",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 662.78,
+   "ende": 667.32,
+   "text": "oder vielleicht auch in ein paar Tagen dir was einfällt, vielleicht ist da ja was dabei,",
+   "avg_logprob": -0.102,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.89
+  },
+  {
+   "start": 667.32,
+   "ende": 672.9,
+   "text": "wo du dann sagst, hey, stimmt, da habe ich auch immer so eine kleine Hemmschwelle, das mache ich jetzt einfach mal.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 672.98,
+   "ende": 680.4,
+   "text": "Oder ich achte zumindest, mache mir das bewusst und achte vielleicht zukünftig öfter darauf, das immer mal wieder irgendwie zu machen.",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 681.14,
+   "ende": 687.26,
+   "text": "Und andersrum, wenn du halt jemand bist, der sehr viel darüber nachdenkt, was andere sagen oder wie andere das finden könnten,",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 688.86,
+   "ende": 692.56,
+   "text": "das kann man natürlich, ist mir auch klar, es ist ja auch so eine Persönlichkeitseigenschaft,",
+   "avg_logprob": -0.073,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 692.56,
+   "ende": 709.5,
+   "text": "Ja, man kann das jetzt nicht einfach so abstellen und sagen, na, Juliette hat im Podcast jetzt gesagt, mir soll das scheißegal sein, was andere denken, dann ist mir das jetzt auch scheißegal. Das geht ja nicht so einfach. Schon gar nicht, wenn man das jetzt schon 20, 30, 40 Jahre so gemacht hat. Aber man kann sich da ja vielleicht eine kleine Sache raussuchen.",
+   "avg_logprob": -0.064,
+   "no_speech_prob": 0.002,
+   "compression_ratio": 1.61
+  },
+  {
+   "start": 709.5,
+   "ende": 719.0,
+   "text": "Also irgendetwas, wo es nur so ein bisschen Überwindung kostet, das zu machen und sich da dann halt immer so dran üben.",
+   "avg_logprob": -0.044,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 719.16,
+   "ende": 726.58,
+   "text": "Und dann vielleicht auch, wenn man die Erfahrung gemacht hat, okay, ich mache dieses kleine bisschen, was mich so ein ganz bisschen Überwindung gekostet hat, das mache ich jetzt.",
+   "avg_logprob": -0.044,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 726.62,
+   "ende": 731.78,
+   "text": "Und dann sehe ich halt, es passiert ja gar nicht so viel, außer dass irgendwer eine Meinung dazu hat.",
+   "avg_logprob": -0.044,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 731.86,
+   "ende": 738.84,
+   "text": "Aber diese Meinung ändert ja nicht dann das, dass ich das jetzt gemacht habe und es mir auch Spaß gemacht hat, mir gefallen hat, was auch immer.",
+   "avg_logprob": -0.044,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.84
+  },
+  {
+   "start": 738.84,
+   "ende": 742.94,
+   "text": "ich dadurch weitergekommen bin und dann traut man sich vielleicht halt immer mehr.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 743.82,
+   "ende": 746.64,
+   "text": "Genau, so, das ist die Frage für den Sommer.",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 746.82,
+   "ende": 750.1,
+   "text": "Also was würdest du tun, wenn keiner eine Meinung dazu hätte,",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 750.54,
+   "ende": 754.18,
+   "text": "beziehungsweise das wird nicht passieren, deshalb tu es einfach,",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 754.3,
+   "ende": 759.86,
+   "text": "egal was irgendwer für eine Meinung dazu hat und schau, wie sich das anfühlt",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 759.86,
+   "ende": 763.76,
+   "text": "und ja, ich werde mir das dann auch zu Herzen nehmen",
+   "avg_logprob": -0.127,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.59
+  },
+  {
+   "start": 763.76,
+   "ende": 769.58,
+   "text": "und nächste Woche im Bikini die Podcast-Folge aufnehmen.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 769.66,
+   "ende": 770.5,
+   "text": "Nein, natürlich nicht.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 771.0,
+   "ende": 777.2,
+   "text": "Aber ja, mal gucken, wie ich da meinen, wie sagt man denn dazu?",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 778.22,
+   "ende": 780.3,
+   "text": "Nee, keine Ahnung, fällt mir jetzt nichts ein, wie man das nennt.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 780.42,
+   "ende": 782.42,
+   "text": "Aber mein Geltungsbedürfnis oder so?",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 782.6,
+   "ende": 784.52,
+   "text": "Nee, das habe ich ja eigentlich nicht so krass.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 784.74,
+   "ende": 788.64,
+   "text": "Wobei, wenn man einen Podcast hat, hat man wahrscheinlich per se schon ein Geltungsbedürfnis.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 788.64,
+   "ende": 790.52,
+   "text": "Sonst würde man ja keinen Podcast aufnehmen, ne?",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 790.88,
+   "ende": 792.56,
+   "text": "Naja, das geht jetzt hier alles zu weit.",
+   "avg_logprob": -0.119,
+   "no_speech_prob": 0.001,
+   "compression_ratio": 1.69
+  },
+  {
+   "start": 792.56,
+   "ende": 794.1,
+   "text": "Und wir wollen ja nur 10, 15 Minuten machen.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.2
+  },
+  {
+   "start": 794.28,
+   "ende": 795.8,
+   "text": "Also, wir sehen uns nächste Woche.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.2
+  },
+  {
+   "start": 796.64,
+   "ende": 798.62,
+   "text": "Ich bin gespannt, was ihr euch bis dahin getraut habt.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.2
+  },
+  {
+   "start": 799.14,
+   "ende": 800.52,
+   "text": "Und bis bald. Tschüss.",
+   "avg_logprob": -0.169,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.2
+  }
+ ]
+}
