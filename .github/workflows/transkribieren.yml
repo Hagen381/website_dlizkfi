@@ -1,0 +1,215 @@
+name: Folgen transkribieren
+
+# Transkribiert Folgen aus content/folgen.json mit faster-whisper (CPU, int8,
+# Sprache de, VAD-Filter) und committet die Ergebnisse nach
+# content/transkripte/<slug>/ (transkript.md + segmente.json).
+#
+# Ablauf:
+#   1. vorbereiten   – Slugs gegen content/folgen.json pruefen, Matrix bauen
+#   2. transkribieren – ein Job pro Folge (parallel), Ergebnis als Artefakt
+#   3. einsammeln    – alle Artefakte holen, EIN gemeinsamer Commit (Bot),
+#                      so gibt es keine Push-Konflikte zwischen den Jobs
+#
+# Die MP3 wird nur im Runner geladen, nie ins Repo.
+# Transkripte werden NICHT auf der Website ausgeliefert (sie liegen ausserhalb
+# von public/, der Export enthaelt sie nicht; Deploy und Vorschau pruefen das).
+#
+# Spaeter fuer alle Folgen: slugs = "alle". Bereits transkribierte Folgen
+# werden dann uebersprungen, ausser "neu_erstellen" ist gesetzt.
+
+on:
+  workflow_dispatch:
+    inputs:
+      slugs:
+        description: 'Folgen-Slugs, kommagetrennt (oder "alle" bzw. "fehlende")'
+        required: true
+        type: string
+      modell:
+        description: "Whisper-Modell"
+        required: false
+        default: large-v3
+        type: string
+      neu_erstellen:
+        description: "Vorhandene Transkripte ueberschreiben"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: transkribieren
+  cancel-in-progress: false
+
+jobs:
+  vorbereiten:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.liste.outputs.matrix }}
+      anzahl: ${{ steps.liste.outputs.anzahl }}
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Slugs pruefen
+        id: liste
+        env:
+          SLUGS: ${{ inputs.slugs }}
+          NEU: ${{ inputs.neu_erstellen }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          node <<'EOF' >> "$GITHUB_OUTPUT"
+          const fs = require("fs");
+          const folgen = JSON.parse(fs.readFileSync("content/folgen.json", "utf8")).folgen;
+          const eingabe = process.env.SLUGS.trim();
+          const neu = process.env.NEU === "true";
+          const vorhanden = (s) => fs.existsSync(`content/transkripte/${s}/transkript.md`);
+          let slugs;
+          if (eingabe === "alle" || eingabe === "fehlende") slugs = folgen.map((f) => f.slug);
+          else slugs = [...new Set(eingabe.split(/[,\s]+/).map((s) => s.trim()).filter(Boolean))];
+          const unbekannt = slugs.filter((s) => !folgen.some((f) => f.slug === s));
+          if (unbekannt.length) {
+            console.error(`::error::Unbekannte Slugs (nicht in content/folgen.json): ${unbekannt.join(", ")}`);
+            process.exit(1);
+          }
+          const ohneMp3 = slugs.filter((s) => !folgen.find((f) => f.slug === s).mp3);
+          if (ohneMp3.length) {
+            console.error(`::error::Folgen ohne MP3-URL: ${ohneMp3.join(", ")}`);
+            process.exit(1);
+          }
+          if (!neu && (eingabe === "alle" || eingabe === "fehlende")) slugs = slugs.filter((s) => !vorhanden(s));
+          if (!slugs.length) {
+            console.error("::error::Nichts zu tun – alle gewaehlten Folgen sind schon transkribiert.");
+            process.exit(1);
+          }
+          if (slugs.length > 256) {
+            console.error("::error::Mehr als 256 Folgen in einem Lauf (Matrix-Grenze).");
+            process.exit(1);
+          }
+          console.error(`${slugs.length} Folge(n): ${slugs.join(", ")}`);
+          console.log(`matrix=${JSON.stringify(slugs)}`);
+          console.log(`anzahl=${slugs.length}`);
+          EOF
+
+  transkribieren:
+    needs: vorbereiten
+    runs-on: ubuntu-latest
+    # Grosszuegig: large-v3 auf CPU braucht etwa Echtzeit bis doppelte
+    # Echtzeit, die laengste Folge hat 79 Minuten. Obergrenze fuer
+    # GitHub-Runner sind 360 Minuten.
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        slug: ${{ fromJson(needs.vorbereiten.outputs.matrix) }}
+    name: ${{ matrix.slug }}
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/transkribieren-requirements.txt
+
+      - name: faster-whisper installieren
+        run: pip install -r scripts/transkribieren-requirements.txt
+
+      - name: Whisper-Modell aus dem Cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-${{ inputs.modell }}-v1
+
+      - name: MP3 laden (nur im Runner)
+        env:
+          SLUG: ${{ matrix.slug }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          url=$(node -p "require('./content/folgen.json').folgen.find(f => f.slug === process.env.SLUG).mp3")
+          curl -sSfL --retry 3 --retry-delay 5 -o "$RUNNER_TEMP/folge.mp3" "$url"
+          ls -l "$RUNNER_TEMP/folge.mp3"
+
+      - name: Transkribieren
+        env:
+          SLUG: ${{ matrix.slug }}
+          MODELL: ${{ inputs.modell }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          start=$(date +%s)
+          python scripts/transkribieren.py "$SLUG" "$RUNNER_TEMP/folge.mp3" "$RUNNER_TEMP/ausgabe" --modell "$MODELL" \
+            | tee "$RUNNER_TEMP/log.txt"
+          ende=$(date +%s)
+          {
+            echo "### $SLUG"
+            echo
+            echo "- Job-Laufzeit Transkription: $(( (ende - start) / 60 )) min $(( (ende - start) % 60 )) s"
+            echo "- $(tail -1 "$RUNNER_TEMP/log.txt")"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Ergebnis als Artefakt ablegen
+        uses: actions/upload-artifact@v4
+        with:
+          name: transkript-${{ matrix.slug }}
+          path: ${{ runner.temp }}/ausgabe/
+          retention-days: 7
+          if-no-files-found: error
+
+  einsammeln:
+    needs: [vorbereiten, transkribieren]
+    # Auch wenn einzelne Folgen scheitern: die fertigen werden committet.
+    if: always() && needs.vorbereiten.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Artefakte holen
+        uses: actions/download-artifact@v4
+        with:
+          pattern: transkript-*
+          path: ${{ runner.temp }}/artefakte
+          merge-multiple: true
+
+      - name: Ein gemeinsamer Commit
+        env:
+          MODELL: ${{ inputs.modell }}
+          GEPLANT: ${{ needs.vorbereiten.outputs.anzahl }}
+          ERGEBNIS: ${{ needs.transkribieren.result }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p content/transkripte
+          if [ ! -d "$RUNNER_TEMP/artefakte" ] || [ -z "$(ls -A "$RUNNER_TEMP/artefakte")" ]; then
+            echo "::error::Keine Transkripte entstanden."
+            exit 1
+          fi
+          cp -r "$RUNNER_TEMP/artefakte/." content/transkripte/
+          fertig=$(find "$RUNNER_TEMP/artefakte" -name transkript.md | wc -l)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/transkripte
+          if git diff --cached --quiet; then
+            echo "Keine Aenderungen."
+          else
+            git commit -m "Transkripte: $fertig von $GEPLANT Folge(n) (faster-whisper $MODELL)"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push origin HEAD:main && break
+              [ "$i" = 3 ] && exit 1
+              sleep $((i * 5))
+            done
+          fi
+          echo "## Transkription: $fertig von $GEPLANT Folge(n) fertig" >> "$GITHUB_STEP_SUMMARY"
+          if [ "$ERGEBNIS" != "success" ]; then
+            echo "::error::Mindestens eine Folge ist gescheitert (siehe Jobs). Die fertigen sind committet."
+            exit 1
+          fi

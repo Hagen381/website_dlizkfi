@@ -72,6 +72,19 @@ jobs:
       - name: Vorschau pruefen (Pfade mit basePath)
         run: node scripts/vorschau-pfade-pruefen.mjs "${{ steps.pages.outputs.base_path }}"
 
+      # Transkripte sind Arbeitsmaterial und gehoeren nicht in die Vorschau.
+      - name: Vorschau pruefen (keine Transkripte)
+        shell: bash
+        run: |
+          set -euo pipefail
+          treffer=$( { find out -ipath '*transkript*' -o -name 'segmente.json'; grep -rl --binary-files=without-match "dlizkfi-transkript" out/ || true; } | sort -u )
+          if [ -n "$treffer" ]; then
+            echo "::error::Transkripte im Export:"
+            echo "$treffer" | sed 's/^/  /'
+            exit 1
+          fi
+          echo "sauber"
+
       - name: Pages-Artefakt hochladen
         uses: actions/upload-pages-artifact@v3
         with:

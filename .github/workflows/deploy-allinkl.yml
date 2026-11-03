@@ -186,6 +186,19 @@ jobs:
           fi
           echo "::endgroup::"
 
+          echo "::group::g) keine Transkripte im Export"
+          # Transkripte (content/transkripte/) sind Arbeitsmaterial fuer den
+          # Blog und werden nicht veroeffentlicht.
+          treffer=$( { find out -ipath '*transkript*' -o -name 'segmente.json'; grep -rl --binary-files=without-match "dlizkfi-transkript" out/ || true; } | sort -u )
+          if [ -n "$treffer" ]; then
+            echo "::error::Transkripte im Export:"
+            echo "$treffer" | sed 's/^/  /'
+            fehler=1
+          else
+            echo "sauber"
+          fi
+          echo "::endgroup::"
+
           if [ "$fehler" -ne 0 ]; then
             echo "Sicherheitspruefung fehlgeschlagen — es wird nichts hochgeladen."
             exit 1
@@ -222,6 +235,7 @@ jobs:
           echo "Ziel: ./ (FTPS, Zertifikat wird geprueft)"
           mirror -R --verbose --no-perms --parallel=4 \
             --exclude-glob .htpasswd --exclude-glob '.git*' \
+            --exclude-glob 'transkripte/' --exclude-glob 'segmente.json' \
             out/ ./
           bye
           EOF

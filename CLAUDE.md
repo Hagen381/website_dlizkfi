@@ -64,6 +64,24 @@ Adressen bleiben 1:1 wie bei PodView.
   `sitemap-episodes.xml`. `scripts/adressen-pruefen.mjs` läuft vor jedem Build
   und bricht ab, wenn eine davon fehlt.
 
+### Transkripte (Vorbereitung Blog)
+
+- Workflow `.github/workflows/transkribieren.yml` (nur manuell): Eingabe
+  `slugs` (kommagetrennt, oder `fehlende` = alle noch nicht transkribierten),
+  optional `modell` (Standard `large-v3`) und `neu_erstellen`.
+- faster-whisper auf CPU (int8), Sprache `de`, VAD-Filter an, `initial_prompt`
+  mit Namen/Begriffen (siehe `scripts/transkribieren.py`). Ein Job pro Folge
+  (Matrix, parallel), am Ende EIN gemeinsamer Commit vom Bot.
+- Ergebnis: `content/transkripte/<slug>/transkript.md` (Absätze, alle 2–3 min
+  eine Zeitmarke `[mm:ss]`) und `segmente.json` (Rohsegmente mit Start/Ende).
+- **Transkripte bleiben wörtlich** — nichts glätten oder korrigieren. Für
+  Blogartikel daraus zitieren, nicht das Transkript selbst ändern.
+- **Transkripte werden nicht veröffentlicht.** Sie liegen außerhalb von
+  `public/`, nichts unter `src/` importiert sie. Vorschau und Deploy brechen
+  ab, wenn `transkript`, `segmente.json` oder die Markierung
+  `dlizkfi-transkript` im Export auftaucht; `lftp` schließt `transkripte/`
+  zusätzlich aus. MP3s werden nur im Runner geladen, nie ins Repo.
+
 ## SEO-Grundregeln
 
 - **Jede Seite setzt ihr eigenes Canonical** (`alternates: { canonical:
@@ -124,7 +142,7 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
 - Sicherheitsprüfung vor dem Upload (bricht ab, nichts wird hochgeladen):
   kein `noindex` außerhalb der 404-Seiten, kein `hagen381.github.io` und kein
   `/website_dlizkfi` im Export, `index.html` und `sitemap.xml` vorhanden, alle
-  alten Folgen-Adressen vorhanden.
+  alten Folgen-Adressen vorhanden, keine Transkripte im Export.
 
 ## Regeln, die nicht verhandelbar sind
 
