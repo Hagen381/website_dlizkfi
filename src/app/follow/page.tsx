@@ -7,7 +7,7 @@ import { plattformen, siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
   title: "Abonnieren",
-  description: `${siteConfig.name} abonnieren – auf Apple Podcasts, Spotify und allen anderen Podcast-Apps oder per RSS-Feed.`,
+  description: `${siteConfig.name} abonnieren – auf Spotify, Apple Podcasts und YouTube oder per RSS-Feed in jeder anderen Podcast-App.`,
   alternates: { canonical: "/follow/" },
 };
 
@@ -32,7 +32,7 @@ export default function Abonnieren() {
           ))}
         </ul>
         <div className="mt-8 border-t border-border pt-8">
-          <p className="text-sm text-muted">Oder per RSS abonnieren</p>
+          <p className="text-sm text-muted">Oder per RSS-Feed in jeder anderen Podcast-App abonnieren</p>
           <a href={siteConfig.feed} className="mt-3 inline-flex min-h-11 items-center gap-2 rounded-lg bg-secondary/15 px-4 text-secondary-text transition hover:bg-secondary/25">
             <Rss className="h-5 w-5" />
             RSS-Feed

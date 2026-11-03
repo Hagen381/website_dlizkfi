@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Cover from "@/components/Cover";
 import PlattformLogo from "@/components/PlattformLogo";
 import { breadcrumb, JsonLd } from "@/lib/seo";
-import { plattformen, siteConfig } from "@/lib/site-config";
+import { plattform, plattformen, siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
   title: "Über",
@@ -55,8 +55,8 @@ export default function Ueber() {
 
         <h2 className="mt-10 text-xl font-semibold">Links</h2>
         <p className="mt-3">
-          <a href={siteConfig.youtube} target="_blank" rel="noopener" className="inline-flex min-h-11 items-center text-secondary-text underline underline-offset-2 [overflow-wrap:anywhere]">
-            {siteConfig.youtube}
+          <a href={plattform("youtube").url} target="_blank" rel="noopener" className="inline-flex min-h-11 items-center text-secondary-text underline underline-offset-2 [overflow-wrap:anywhere]">
+            {plattform("youtube").url}
           </a>
         </p>
 

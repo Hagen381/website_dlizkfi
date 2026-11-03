@@ -6,7 +6,6 @@ import { footerNavigation, plattformen, siteConfig } from "@/lib/site-config";
 // Fusszeile wie auf der Live-Seite, aber ohne "Erstellt mit PodView" und
 // ohne den PodSEO-Werbelink. Dafür Impressum + Datenschutz.
 export default function Footer() {
-  const kurz = plattformen.filter((p) => p.kurzliste);
   return (
     <footer className="mt-auto border-t border-border bg-surface">
       <div className="mx-auto max-w-7xl px-6 pt-12 pb-8">
@@ -31,8 +30,8 @@ export default function Footer() {
           </div>
           <div>
             <h2 className="text-sm font-semibold tracking-wider uppercase">Abonnieren</h2>
-            <ul className="mt-2 grid grid-cols-2 gap-x-4">
-              {kurz.map((p) => (
+            <ul className="mt-2 grid grid-cols-1">
+              {plattformen.map((p) => (
                 <li key={p.id}>
                   <a href={p.url} target="_blank" rel="noopener" className="flex min-h-11 items-center gap-2 text-sm text-muted transition hover:text-text md:min-h-7">
                     <PlattformLogo p={p} groesse={16} />
@@ -40,11 +39,6 @@ export default function Footer() {
                   </a>
                 </li>
               ))}
-              <li className="col-span-2">
-                <Link href="/follow/" className="flex min-h-11 items-center gap-1 text-sm text-muted transition hover:text-text md:min-h-7">
-                  Alle Podcast-Apps <span aria-hidden="true">→</span>
-                </Link>
-              </li>
             </ul>
           </div>
         </div>

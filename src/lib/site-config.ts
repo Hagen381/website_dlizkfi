@@ -19,7 +19,6 @@ export const siteConfig = {
   // Kontakt-Mailadresse ist noch offen. Solange hier null steht, zeigen
   // Kontaktseite, Impressum und Datenschutz sichtbar "[Mailadresse folgt]".
   kontaktEmail: null as string | null,
-  youtube: "https://www.youtube.com/@DLIZKFIPodcast",
   // Folgen pro Seite auf /episodes/ (wie bei PodView).
   folgenProSeite: 12,
 } as const;
@@ -27,30 +26,23 @@ export const siteConfig = {
 export const MAIL_PLATZHALTER = "[Mailadresse folgt]";
 
 export type Plattform = {
-  id: string;
+  id: "spotify" | "apple" | "youtube";
   name: string;
   url: string;
-  logo: string; // Pfad unter public/
-  // Erscheint in der "Anhören auf"-Zeile im Hero und in der Fusszeile
-  // (auf der Live-Seite dieselben sechs).
-  kurzliste?: boolean;
+  logo: string; // Pfad unter public/ (selbst gehostet, offizielle Logos unverändert)
 };
 
-// Reihenfolge und Adressen 1:1 von https://www.daslebenistzukurzfuerirgendwann.de/follow/
-// (siehe docs/original/stile/follow-1280.json).
+// DIE Plattform-Liste — einzige Stelle. Hero, Folgenseiten, Fusszeile,
+// /follow/, /about/ und JSON-LD (sameAs) lesen nur von hier. Reihenfolge =
+// Anzeigereihenfolge. (Andere Apps erreichen den Podcast über den RSS-Feed
+// auf /follow/.)
 export const plattformen: Plattform[] = [
-  { id: "apple", name: "Apple Podcasts", url: "https://podcasts.apple.com/podcast/id1821004400", logo: "/plattformen/apple.svg", kurzliste: true },
-  { id: "castbox", name: "Castbox", url: "https://castbox.fm/vic/1821004400", logo: "/plattformen/castbox.svg", kurzliste: true },
-  { id: "castro", name: "Castro", url: "https://castro.fm/itunes/1821004400", logo: "/plattformen/castro.svg", kurzliste: true },
-  { id: "goodpods", name: "Goodpods", url: "https://www.goodpods.com/podcasts-aid/1821004400", logo: "/plattformen/goodpods.svg", kurzliste: true },
-  { id: "moonfm", name: "Moon FM", url: "https://moon.fm/itunes/1821004400", logo: "/plattformen/moonfm.svg", kurzliste: true },
-  { id: "overcast", name: "Overcast", url: "https://overcast.fm/itunes1821004400", logo: "/plattformen/overcast.svg", kurzliste: true },
-  { id: "pocketcasts", name: "Pocket Casts", url: "https://pca.st/itunes/1821004400", logo: "/plattformen/pocketcasts.svg" },
-  { id: "podbean", name: "Podbean", url: "https://www.podbean.com/itunes/1821004400", logo: "/plattformen/podbean.png" },
-  { id: "podcastaddict", name: "Podcast Addict", url: "https://podcastaddict.com/feed/https%3A%2F%2Fanchor.fm%2Fs%2F104754158%2Fpodcast%2Frss", logo: "/plattformen/podcastaddict.svg" },
-  { id: "podcastrepublic", name: "Podcast Republic", url: "https://www.podcastrepublic.net/podcast/1821004400", logo: "/plattformen/podcastrepublic.svg" },
   { id: "spotify", name: "Spotify", url: "https://open.spotify.com/show/0m7DHiEhXuUZJPDkmtmWb0", logo: "/plattformen/spotify.svg" },
+  { id: "apple", name: "Apple Podcasts", url: "https://podcasts.apple.com/podcast/id1821004400", logo: "/plattformen/apple.svg" },
+  { id: "youtube", name: "YouTube", url: "https://www.youtube.com/@DLIZKFIPodcast", logo: "/plattformen/youtube.svg" },
 ];
+
+export const plattform = (id: Plattform["id"]) => plattformen.find((p) => p.id === id)!;
 
 export const navigation = [
   { label: "Folgen", href: "/episodes/" },

@@ -25,7 +25,6 @@ const heroZeilen = [
 export default function Startseite() {
   const [frisch] = folgen;
   const neueste = folgen.slice(0, 5);
-  const kurz = plattformen.filter((p) => p.kurzliste);
 
   return (
     <>
@@ -44,18 +43,13 @@ export default function Startseite() {
         <div className="mt-10">
           <p className="text-xs font-semibold tracking-[0.16em] text-muted uppercase">Anhören auf</p>
           <ul className="mt-2 flex flex-wrap items-center justify-center gap-2">
-            {kurz.map((p) => (
+            {plattformen.map((p) => (
               <li key={p.id}>
                 <a href={p.url} target="_blank" rel="noopener" aria-label={p.name} title={p.name} className="flex h-11 w-11 items-center justify-center rounded-md border border-border bg-surface/80 transition hover:-translate-y-0.5 hover:shadow-sm">
                   <PlattformLogo p={p} />
                 </a>
               </li>
             ))}
-            <li>
-              <Link href="/follow/" aria-label="Alle Podcast-Apps" className="flex h-11 items-center justify-center rounded-md border border-border bg-surface/80 px-3 text-sm font-medium transition hover:-translate-y-0.5 hover:shadow-sm">
-                Mehr
-              </Link>
-            </li>
           </ul>
         </div>
       </section>

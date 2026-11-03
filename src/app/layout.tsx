@@ -68,7 +68,7 @@ const serie = {
   image: `${siteConfig.url}/images/og-cover.jpg`,
   webFeed: siteConfig.feed,
   author: { "@type": "Person", name: siteConfig.moderation },
-  sameAs: [...plattformen.map((p) => p.url), siteConfig.youtube],
+  sameAs: plattformen.map((p) => p.url),
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

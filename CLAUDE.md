@@ -42,6 +42,12 @@ Adressen bleiben 1:1 wie bei PodView.
 - Keine Cookies, kein Tracking. Statistik kommt aus All-Inkl (Server-Logs).
 - Zentrale Angaben (Domain, Feed, Mailadresse, Plattform-Links) stehen NUR in
   `src/lib/site-config.ts`. Die Live-Domain (mit www) steht dort genau einmal.
+- **„Anhören auf" = genau drei Plattformen**, in dieser Reihenfolge: Spotify,
+  Apple Podcasts, YouTube (`plattformen` in `src/lib/site-config.ts`). Hero,
+  Folgenseiten, Fusszeile, `/follow/`, `/about/` und JSON-LD `sameAs` lesen nur
+  von dort. Andere Apps nur über den RSS-Feed auf `/follow/`. Logos liegen
+  unter `public/plattformen/` (offizielle Logos, unverändert; YouTube-Icon
+  aus Simple Icons, CC0, Pfad aus YouTubes Brand Resources).
 
 ### Folgen-Daten
 
