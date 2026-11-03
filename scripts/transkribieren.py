@@ -63,7 +63,9 @@ def normal(text: str) -> str:
 
 # Typische Whisper-Halluzinationen (Abspann-/Untertitel-Floskeln aus den
 # Trainingsdaten) und das Abschreiben des Prompts. Gemeldet, nicht entfernt.
-HALLUZINATION_FLOSKELN = ["wdr", "untertitel", "amara", "copyright", "www.", "mediagroup", "swr", "zdf", "vielen dank fürs zuschauen", "abonniert"]
+HALLUZINATION_FLOSKELN = ["wdr", "untertitel", "amara", "copyright", "www.", "mediagroup", "swr", "zdf", "vielen dank fürs zuschauen"]
+# Nicht in der Liste: „abonniert" — kommt im Podcast ständig wirklich vor
+# („abonniert mich einfach") und gab im 75er-Lauf 3 Fehlalarme.
 
 
 def halluzinationen_finden(segmente: list[dict]) -> list[dict]:
