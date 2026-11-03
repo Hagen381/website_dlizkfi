@@ -147,12 +147,18 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   (`lftp --env-password`). **Kein `set -x`, kein lftp-`debug`.**
 - Hochladen **ohne Löschen** (`mirror -R` ohne `--delete`).
 - `.htaccess` wird im Build erzeugt (`scripts/nach-dem-build.mjs`):
-  http→https, ohne www → mit www (301), alte `?page=N` → `/episodes/page/N/`,
-  `ErrorDocument 404`, `Options -Indexes`, Cache-Header für Bilder/Schriften.
+  ohne www → `https://www` (301), sonst http→https mit unverändertem Host
+  (damit `test.` als Generalprobe funktioniert), alte `/sitemap-pages.xml` und
+  `/sitemap-episodes.xml?…` → `/sitemap.xml`, alte `?page=N` →
+  `/episodes/page/N/`, `ErrorDocument 404`, `Options -Indexes`, Cache-Header
+  für Bilder/Schriften.
+- `https://test.daslebenistzukurzfuerirgendwann.de` zeigt auf denselben
+  Ordner (Generalprobe vor dem Live-Gang). Nicht ändern.
 - Sicherheitsprüfung vor dem Upload (bricht ab, nichts wird hochgeladen):
   kein `noindex` außerhalb der 404-Seiten, kein `hagen381.github.io` und kein
   `/website_dlizkfi` im Export, `index.html` und `sitemap.xml` vorhanden, alle
-  alten Folgen-Adressen vorhanden, keine Transkripte im Export.
+  alten Folgen-Adressen vorhanden, keine Transkripte, keine Platzhalter und
+  kein Entwurf-Hinweis im Export.
 
 ## Regeln, die nicht verhandelbar sind
 
@@ -163,9 +169,15 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
 - Mobil zuerst, Tippflächen mindestens 44 px, Kontrast mindestens 4,5:1.
   Gelb/Orange als Textfarbe auf hellem Grund deshalb nur in den dunkleren
   Varianten `text-primary-text` / `text-secondary-text`.
-- Datenschutzerklärung ist ein ENTWURF (sichtbarer Hinweis „Entwurf – wird
-  geprüft" bleibt, bis sie geprüft ist). Impressum ist ausgefüllt (Juliette
-  Oppel, Anschrift in Thailand, ohne Telefon).
+- Datenschutzerklärung ist FINAL (Stand November 2026, kein Entwurf mehr).
+  Abschnitt 3 beschreibt die KAS-Einstellung der Logfiles (IP sofort
+  vollständig anonymisiert, Löschung nach 7 Tagen, Statistik passwort-
+  geschützt) — ändert sich dort etwas, den Text anpassen.
+- Impressum ist ausgefüllt (Juliette Oppel, Anschrift in Thailand). Einziger
+  Kontaktweg ist die Mailadresse, kein Telefon.
+- Platzhalter (`Platzhalter.tsx`, `EntwurfHinweis.tsx`, fehlende Mailadresse)
+  tragen `data-platzhalter`; die Live-Sicherheitsprüfung bricht ab, wenn das
+  oder „Entwurf – wird geprüft" im Export steht.
 - Name, Anschrift und Mailadresse stehen NUR in `src/lib/site-config.ts`
   (`verantwortlich`, `kontaktEmail`); Impressum, Datenschutz und Kontakt lesen
   von dort (`Anschrift.tsx`, `Mailadresse.tsx`). Die Mailadresse liegt dort in

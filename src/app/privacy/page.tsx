@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Anschrift from "@/components/Anschrift";
-import EntwurfHinweis from "@/components/EntwurfHinweis";
 import Mailadresse from "@/components/Mailadresse";
-import Platzhalter from "@/components/Platzhalter";
 import Textseite from "@/components/Textseite";
 import { breadcrumb, JsonLd } from "@/lib/seo";
 import { siteConfig } from "@/lib/site-config";
@@ -13,13 +11,14 @@ export const metadata: Metadata = {
   alternates: { canonical: "/privacy/" },
 };
 
-// ENTWURF für die statische Seite bei All-Inkl. Muss vor dem Live-Gang
-// geprüft werden. Platzhalter in [eckigen Klammern] sind noch offen.
+// Final (November 2026). Angaben zu den Server-Logfiles entsprechen der
+// KAS-Einstellung bei All-Inkl: IP sofort vollständig anonymisiert,
+// Löschung nach 7 Tagen, Statistik passwortgeschützt. Ändert sich dort etwas,
+// muss Abschnitt 3 angepasst werden.
 export default function Datenschutz() {
   return (
     <Textseite>
       <JsonLd daten={{ "@graph": [breadcrumb([{ name: "Datenschutzerklärung", pfad: "/privacy/" }])] }} />
-      <EntwurfHinweis>Entwurf – wird geprüft. Diese Datenschutzerklärung ist noch nicht rechtlich geprüft und nicht final.</EntwurfHinweis>
       <h1>Datenschutzerklärung</h1>
 
       <h2>1. Verantwortliche Stelle</h2>
@@ -41,12 +40,12 @@ export default function Datenschutz() {
 
       <h2>3. Hosting und Server-Logfiles</h2>
       <p>
-        Diese Website wird bei ALL-INKL.COM – Neue Medien Münnich, Hauptstraße 68, 02742 Friedersdorf, gehostet{" "}
-        <Platzhalter>Anschrift und Auftragsverarbeitungsvertrag mit All-Inkl prüfen</Platzhalter>. Beim Aufruf der Website verarbeitet der Server automatisch Daten, die
+        Diese Website wird bei ALL-INKL.COM – Neue Medien Münnich, Hauptstraße 68, 02742 Friedersdorf, gehostet. Beim Aufruf der Website verarbeitet der Server
+        automatisch Daten, die
         dein Browser übermittelt, und speichert sie in Logfiles:
       </p>
       <ul>
-        <li>IP-Adresse des anfragenden Geräts</li>
+        <li>IP-Adresse des anfragenden Geräts – sie wird vom Server sofort vollständig anonymisiert (aus 11.22.33.44 wird 0.0.0.0), wir können sie nicht sehen</li>
         <li>Datum und Uhrzeit des Zugriffs</li>
         <li>aufgerufene Seite bzw. Datei und übertragene Datenmenge</li>
         <li>Statusmeldung (z. B. ob der Abruf erfolgreich war)</li>
@@ -54,10 +53,10 @@ export default function Datenschutz() {
         <li>Browsertyp, Betriebssystem und Gerät (User-Agent)</li>
       </ul>
       <p>
-        Die Verarbeitung ist für den sicheren und stabilen Betrieb der Website erforderlich und dient der Erkennung und Abwehr von Angriffen. Aus den Logfiles erstellt der
-        Hoster außerdem eine anonyme Zugriffsstatistik (Seitenaufrufe), die wir zur Einschätzung der Reichweite nutzen. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO
-        (berechtigtes Interesse am sicheren Betrieb und an der Reichweitenmessung ohne Tracking). Die Logfiles werden nach{" "}
-        <Platzhalter>Speicherdauer laut All-Inkl-Einstellung eintragen</Platzhalter> gelöscht bzw. anonymisiert.
+        Die Verarbeitung ist für den sicheren und stabilen Betrieb der Website erforderlich und dient der Erkennung und Abwehr von Angriffen. Aus den anonymisierten
+        Logfiles erstellt der Hoster eine Zugriffsstatistik (z. B. Seitenaufrufe pro Tag). Sie ist passwortgeschützt und nur für uns einsehbar. Rechtsgrundlage ist
+        Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse am sicheren Betrieb und an der Reichweitenmessung ohne Tracking). Die Logfiles werden nach 7 Tagen
+        automatisch gelöscht.
       </p>
 
       <h2>4. Abspielen von Podcast-Folgen</h2>
@@ -68,7 +67,7 @@ export default function Datenschutz() {
       <p>
         Sobald du abspielst, lädt dein Browser die Audiodatei direkt von Servern von Spotify (anchor.fm) und deren Auslieferungsnetz (Amazon CloudFront). Dabei werden deine
         IP-Adresse, Datum und Uhrzeit, die abgerufene Datei sowie Angaben zu Browser und Gerät an diese Anbieter übertragen. Anbieter ist die Spotify AB, Regeringsgatan 19, 111
-        53 Stockholm, Schweden <Platzhalter>Angaben zu Spotify prüfen</Platzhalter>. Dabei kann es auch zu einer Übermittlung in Drittländer wie die USA kommen. Spotify nutzt
+        53 Stockholm, Schweden. Dabei kann es auch zu einer Übermittlung in Drittländer wie die USA kommen. Spotify nutzt
         diese Daten unter anderem für Abrufstatistiken des Podcasts. Näheres findest du in der Datenschutzerklärung von Spotify:{" "}
         <a href="https://www.spotify.com/de/legal/privacy-policy/" target="_blank" rel="noopener">
           spotify.com/de/legal/privacy-policy
@@ -109,13 +108,13 @@ export default function Datenschutz() {
         <li>Widerspruch gegen Verarbeitungen auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (Art. 21 DSGVO).</li>
       </ul>
       <p>
-        Wende dich dafür an <Mailadresse />. Außerdem hast du das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren (Art. 77 DSGVO){" "}
-        <Platzhalter>zuständige Aufsichtsbehörde ergänzen</Platzhalter>.
+        Wende dich dafür an <Mailadresse />. Außerdem hast du das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren (Art. 77 DSGVO), insbesondere in dem
+        EU-Mitgliedstaat, in dem du dich aufhältst.
       </p>
 
       <h2>9. Änderungen</h2>
       <p>
-        Wir passen diese Datenschutzerklärung an, wenn sich die Website oder die rechtlichen Vorgaben ändern. Stand: <Platzhalter>Datum nach Prüfung eintragen</Platzhalter>
+        Wir passen diese Datenschutzerklärung an, wenn sich die Website oder die rechtlichen Vorgaben ändern. Stand: November 2026
       </p>
       <p>
         Siehe auch das <Link href="/impressum/">Impressum</Link> von {siteConfig.name}.

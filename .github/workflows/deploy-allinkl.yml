@@ -186,6 +186,18 @@ jobs:
           fi
           echo "::endgroup::"
 
+          echo "::group::h) keine Platzhalter und kein Entwurf-Hinweis"
+          # Platzhalter-Komponenten tragen data-platzhalter (Platzhalter,
+          # EntwurfHinweis, fehlende Mailadresse). Nichts davon geht live.
+          if treffer=$(grep -rlE --binary-files=without-match 'data-platzhalter|Entwurf – wird geprüft|\[Mailadresse folgt\]' out/); then
+            echo "::error::Platzhalter oder Entwurf-Hinweis im Export:"
+            echo "$treffer" | sed 's/^/  /'
+            fehler=1
+          else
+            echo "sauber"
+          fi
+          echo "::endgroup::"
+
           echo "::group::g) keine Transkripte im Export"
           # Transkripte (content/transkripte/) sind Arbeitsmaterial fuer den
           # Blog und werden nicht veroeffentlicht.

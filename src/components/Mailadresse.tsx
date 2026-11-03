@@ -5,6 +5,6 @@ import { MAIL_PLATZHALTER, siteConfig } from "@/lib/site-config";
 // siehe MailLink) — oder sichtbar den Platzhalter, solange keine feststeht.
 export default function Mailadresse({ className = "" }: { className?: string }) {
   const mail = siteConfig.kontaktEmail;
-  if (!mail) return <span className={`rounded bg-primary/20 px-1.5 font-medium ${className}`}>{MAIL_PLATZHALTER}</span>;
+  if (!mail) return <span data-platzhalter="" className={`rounded bg-primary/20 px-1.5 font-medium ${className}`}>{MAIL_PLATZHALTER}</span>;
   return <MailLink name={mail.name} domain={mail.domain} className={className} />;
 }

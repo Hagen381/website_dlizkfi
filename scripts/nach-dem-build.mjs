@@ -54,10 +54,17 @@ AddDefaultCharset UTF-8
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
-# http -> https und ohne www -> mit www, in EINEM 301-Schritt
-RewriteCond %{HTTPS} !=on [OR]
+# Ohne www -> https://www (auch von http, in EINEM 301-Schritt)
 RewriteCond %{HTTP_HOST} ^${esc(ohneWww)}$ [NC]
 RewriteRule ^(.*)$ https://${host}/$1 [R=301,L]
+
+# Sonst nur http -> https, der Hostname bleibt erhalten (so landet z. B. die
+# Generalprobe auf test.${ohneWww} nicht auf der Live-Domain)
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# Alte PodView-Sitemaps -> /sitemap.xml (Query wie ?page=1 wird verworfen)
+RewriteRule ^sitemap-(pages|episodes)\\.xml$ /sitemap.xml? [R=301,L]
 
 # Alte PodView-Blätteradressen: /episodes/?page=N -> /episodes/page/N/
 RewriteCond %{QUERY_STRING} (^|&)page=([2-9]|[1-9][0-9]+)(&|$)
