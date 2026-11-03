@@ -46,3 +46,7 @@ next-env.d.ts
 
 # python
 __pycache__/
+
+# Blog-Bilder (aus content/blog/bilder, ohne Metadaten neu erzeugt)
+/public/images/blog/
+/src/generated/

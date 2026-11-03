@@ -16,17 +16,17 @@ Adressen bleiben 1:1 wie bei PodView.
   Workflow „Referenz der Live-Seite sichern" manuell starten. PodViews
   CSS/JS-Dateien werden nicht kopiert — das Aussehen ist mit eigenem Tailwind
   nachgebaut.
-- Später kommt ein Blog dazu (pro Folge ein Artikel). Die Struktur steht
-  (`content/blog/`, `/blog/`, `/blog/<slug>/`), Artikel gibt es noch keine.
+- Blog unter `/blog/` (pro Folge ein Artikel), siehe Abschnitt „Blog".
 
 ## Technik
 
 - Next.js 16.4.x (unabhängig von website_molloybusiness), App Router,
   `output: "export"`, `trailingSlash: true`, Tailwind 4. Kein Server, alles
   statisch. `next-image-export-optimizer` statt Next/Image-Serveroptimierung.
-- **Bilder nur über `src/components/Cover.tsx`**, nie `ExportedImage` direkt:
-  Nur so bekommt jedes Bild den basePath (Vorschau) und `placeholder="empty"`
-  (Blur-Bilder werden nicht erzeugt, sonst 404 auf `…-opt-10.WEBP`).
+- **Bilder nur über `src/components/Cover.tsx` bzw. `BlogBild.tsx`**, nie
+  `ExportedImage` direkt: Nur so bekommt jedes Bild den basePath (Vorschau)
+  und `placeholder="empty"` (Blur-Bilder werden nicht erzeugt, sonst 404 auf
+  `…-opt-10.WEBP`).
   Kleine Logos aus `public/` laufen über `mitBasePath()` (`src/lib/base-path.ts`).
 - Design-Tokens in `src/app/globals.css` (aus der Live-Seite):
   primary `#ffc814`, secondary/accent `#ff7828`, background `#FEFCE8`,
@@ -91,6 +91,34 @@ Adressen bleiben 1:1 wie bei PodView.
   ab, wenn `transkript`, `segmente.json` oder die Markierung
   `dlizkfi-transkript` im Export auftaucht; `lftp` schließt `transkripte/`
   zusätzlich aus. MP3s werden nur im Runner geladen, nie ins Repo.
+
+### Blog
+
+- Artikel liegen als Markdown unter `content/blog/<slug>.md` (Frontmatter:
+  `titel`, `folge-slug`, `datum`, `beschreibung`; Vorlage in
+  `content/blog/README.md`). Dateiname ohne `.md` = Adresse `/blog/<slug>/`.
+- **Artikel und Bilder liefert Juliette bzw. Claude aus dem Chat. Den Text
+  nicht ändern oder umschreiben** — nur einbauen.
+- **Datei mit `_` am Anfang = Entwurf**: live unsichtbar (nicht gelesen, keine
+  Bilder im Export, nicht in Navigation/Sitemap), in der Vorschau sichtbar mit
+  Hinweis „Entwurf". Veröffentlichen = `_` entfernen, committen, pushen.
+- Bilder: `content/blog/bilder/<slug>/datei.jpg`, im Text als eigener Absatz
+  `![Bildunterschrift](bilder/<slug>/datei.jpg)` (Text = figcaption und alt).
+  **Ohne Metadaten** liefern. `scripts/blog-bilder.mjs` kodiert sie vor dem
+  Build trotzdem neu ohne EXIF/GPS nach `public/images/blog/` (Build-Ergebnis,
+  nicht im Repo), fehlt ein Bild, bricht der Build ab.
+  `scripts/metadaten-pruefen.mjs` prüft in Vorschau und Deploy jedes Bild im
+  Export auf EXIF/XMP/IPTC.
+- **Kinder (Heinrich, Hermine) nie frontal erkennbar** — und auch keine
+  fremden Kinder. Silhouetten, von hinten, klein im Hintergrund sind okay.
+  Vor dem Veröffentlichen jedes Bild daraufhin ansehen.
+- Layout: Lesespalte ~65 Zeichen (36,5 rem), Literata 18 px, `##` in Bricolage,
+  Beschreibung als Lead, Kasten „Zur Folge" mit Player am Ende; Bilder max.
+  620 px hoch (object-fit: cover). `/blog/` zeigt Karten mit dem ersten Bild.
+- „Blog" steht in der Navigation zwischen Folgen und Über, sobald mindestens
+  ein veröffentlichter Artikel existiert. Die Folgenseite verlinkt den Artikel
+  („Zum Blogartikel"). JSON-LD `BlogPosting` (Autorin Juliette Oppel, Bild,
+  Datum, `about` → PodcastEpisode), OG-Bild = erstes Artikelbild.
 
 ### Header
 
@@ -175,7 +203,7 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   kein `noindex` außerhalb der 404-Seiten, kein `hagen381.github.io` und kein
   `/website_dlizkfi` im Export, `index.html` und `sitemap.xml` vorhanden, alle
   alten Folgen-Adressen vorhanden, keine Transkripte, keine Platzhalter und
-  kein Entwurf-Hinweis im Export.
+  kein Entwurf-Hinweis im Export, keine Bild-Metadaten (EXIF/GPS/XMP/IPTC).
 
 ## Regeln, die nicht verhandelbar sind
 

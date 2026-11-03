@@ -85,6 +85,9 @@ jobs:
           fi
           echo "sauber"
 
+      - name: Vorschau pruefen (keine Bild-Metadaten)
+        run: node scripts/metadaten-pruefen.mjs out
+
       - name: Pages-Artefakt hochladen
         uses: actions/upload-pages-artifact@v3
         with:

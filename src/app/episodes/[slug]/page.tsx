@@ -112,9 +112,18 @@ export default async function FolgenSeite({ params }: Props) {
           )}
 
           {artikel && (
-            <Link href={`/blog/${artikel.slug}/`} className="mt-6 flex min-h-11 items-center gap-3 rounded-xl border border-border bg-bg px-4 py-3 font-medium transition hover:shadow-sm">
-              <Artikel className="h-5 w-5 text-secondary-text" />
-              Zum Blogartikel: {artikel.titel}
+            <Link
+              href={`/blog/${artikel.slug}/`}
+              className="group mt-6 flex min-h-11 items-center gap-4 rounded-2xl border-2 border-primary bg-primary/15 p-4 transition hover:bg-primary/25 sm:p-5"
+            >
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-primary text-text">
+                <Artikel className="h-5 w-5" />
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block font-heading text-lg font-bold">Zum Blogartikel</span>
+                <span className="block text-muted [overflow-wrap:anywhere]">{artikel.titel}</span>
+              </span>
+              <ChevronRechts className="h-5 w-5 shrink-0 transition group-hover:translate-x-0.5" />
             </Link>
           )}
 

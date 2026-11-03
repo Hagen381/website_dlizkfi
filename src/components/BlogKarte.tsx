@@ -1,0 +1,31 @@
+import Link from "next/link";
+import { BlogBildRoh } from "@/components/BlogBild";
+import Cover from "@/components/Cover";
+import { datumLesbar, type Artikel } from "@/lib/blog";
+
+// Karte für /blog/: erstes Artikelbild, Titel, Datum, Beschreibung.
+export default function BlogKarte({ a }: { a: Artikel }) {
+  return (
+    <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-surface shadow-xs transition hover:shadow-md">
+      <div className="aspect-[4/3] overflow-hidden bg-border/40">
+        {a.erstesBild ? (
+          <BlogBildRoh bild={a.erstesBild} sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw" className="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]" />
+        ) : (
+          <Cover groesse={400} sizes="400px" className="h-full w-full" />
+        )}
+      </div>
+      <div className="flex flex-1 flex-col p-5 sm:p-6">
+        <p className="text-sm text-muted">
+          <time dateTime={a.datum}>{datumLesbar(a.datum)}</time>
+          {a.entwurf && <span className="ml-2 rounded bg-secondary/20 px-1.5 text-xs font-semibold text-text">Entwurf</span>}
+        </p>
+        <h2 className="mt-2 font-heading text-xl leading-snug font-bold text-balance">
+          <Link href={`/blog/${a.slug}/`} className="after:absolute after:inset-0 after:content-[''] hover:underline">
+            {a.titel}
+          </Link>
+        </h2>
+        <p className="mt-3 line-clamp-4 text-muted">{a.beschreibung}</p>
+      </div>
+    </article>
+  );
+}

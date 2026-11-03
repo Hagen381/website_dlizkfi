@@ -8,14 +8,23 @@ Der Dateiname (ohne `.md`) wird zur Adresse `/blog/<slug>/`.
 titel: "Überschrift des Artikels"
 folge-slug: "slug-der-folge-aus-content-folgen-json"
 datum: 2026-11-02
-beschreibung: "Ein bis zwei Sätze für Google und die Vorschau."
+beschreibung: "Ein bis zwei Sätze — Lead unter dem Titel, Google, Vorschau."
 ---
 
-Artikeltext in Markdown …
+Artikeltext in Markdown, Zwischenüberschriften mit `##` …
+
+![Bildunterschrift (auch alt-Text)](bilder/<slug>/datei.jpg)
 ```
 
-- Solange hier kein Artikel liegt, erscheint `/blog/` weder in der Navigation
-  noch in der Sitemap.
+- **Entwurf:** Dateiname mit `_` am Anfang (`_<slug>.md`). Live unsichtbar,
+  in der Vorschau (GitHub Pages) sichtbar mit Hinweis „Entwurf".
+  Veröffentlichen = `_` entfernen.
+- **Bilder** unter `content/blog/bilder/<slug>/`, jeweils als eigener Absatz.
+  Ohne Metadaten liefern (sie werden beim Build ohnehin neu kodiert und
+  geprüft). Fehlt ein Bild, bricht der Build ab.
+- **Kinder nie frontal erkennbar** (Heinrich, Hermine und fremde Kinder).
+- Text aus dem Chat **nicht umschreiben**.
+- Solange kein veröffentlichter Artikel existiert, erscheint `/blog/` weder
+  in der Navigation noch in der Sitemap.
 - Ist `folge-slug` gesetzt, verlinkt die Folgenseite auf den Artikel und der
-  Artikel auf die Folge.
-- Dateien, die mit `_` beginnen, werden ignoriert (Entwürfe).
+  Artikel endet mit dem Kasten „Zur Folge" (inkl. Player).

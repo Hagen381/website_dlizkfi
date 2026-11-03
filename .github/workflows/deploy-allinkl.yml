@@ -215,6 +215,10 @@ jobs:
           fi
           echo "::endgroup::"
 
+          echo "::group::j) keine Bild-Metadaten (EXIF/GPS/XMP/IPTC)"
+          node scripts/metadaten-pruefen.mjs out || fehler=1
+          echo "::endgroup::"
+
           echo "::group::g) keine Transkripte im Export"
           # Transkripte (content/transkripte/) sind Arbeitsmaterial fuer den
           # Blog und werden nicht veroeffentlicht.
