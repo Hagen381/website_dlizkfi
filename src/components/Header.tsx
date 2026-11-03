@@ -3,8 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import ExportedImage from "next-image-export-optimizer";
-import cover from "@/assets/images/cover.jpg";
+import Cover from "@/components/Cover";
 import { navigation, siteConfig } from "@/lib/site-config";
 
 function istAktiv(pathname: string, href: string) {
@@ -45,7 +44,7 @@ export default function Header({ blog = false }: { blog?: boolean }) {
     <header className="bg-bg">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-6">
         <Link href="/" className="flex min-h-11 items-center" aria-label={`${siteConfig.name} – Startseite`}>
-          <ExportedImage src={cover} alt="" width={32} height={32} sizes="32px" className="h-8 w-8 rounded-sm object-cover" priority />
+          <Cover groesse={32} sizes="32px" className="h-8 w-8 rounded-sm" priority />
         </Link>
         <nav aria-label="Hauptnavigation" className="hidden items-center gap-6 md:flex">
           {punkte.map((item) => (

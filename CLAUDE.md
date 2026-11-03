@@ -21,9 +21,13 @@ Adressen bleiben 1:1 wie bei PodView.
 
 ## Technik
 
-- Next.js 16.3 (wie website_molloybusiness), App Router, `output: "export"`,
-  `trailingSlash: true`, Tailwind 4. Kein Server, alles statisch.
-  `next-image-export-optimizer` statt Next/Image-Serveroptimierung.
+- Next.js 16.4.x (unabhängig von website_molloybusiness), App Router,
+  `output: "export"`, `trailingSlash: true`, Tailwind 4. Kein Server, alles
+  statisch. `next-image-export-optimizer` statt Next/Image-Serveroptimierung.
+- **Bilder nur über `src/components/Cover.tsx`**, nie `ExportedImage` direkt:
+  Nur so bekommt jedes Bild den basePath (Vorschau) und `placeholder="empty"`
+  (Blur-Bilder werden nicht erzeugt, sonst 404 auf `…-opt-10.WEBP`).
+  Kleine Logos aus `public/` laufen über `mitBasePath()` (`src/lib/base-path.ts`).
 - Design-Tokens in `src/app/globals.css` (aus der Live-Seite):
   primary `#ffc814`, secondary/accent `#ff7828`, background `#FEFCE8`,
   text `#1A2E05`; Überschriften Bricolage Grotesque, Fließtext Literata.
@@ -73,6 +77,16 @@ Jeder Push auf `main` baut per `.github/workflows/gh-pages.yml` neu
 (basePath über `NEXT_BUILD_BASE_PATH`). Der Vorschau-Build setzt auf jeder
 Seite `noindex` und eine robots.txt mit `Disallow: /`; der Workflow prüft das
 und bricht sonst ab. Die Vorschau darf nie in Google landen.
+
+Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
+- `scripts/vorschau-pfade-pruefen.mjs`: Jede `src`/`srcset`/`url(...)` im
+  Export (HTML, CSS, RSC-.txt), die mit `/` beginnt, muss mit
+  `/website_dlizkfi/` anfangen.
+- Job `bilder-pruefen` nach dem Deploy: `scripts/vorschau-bilder-pruefen.mjs`
+  ruft Start, `/episodes/`, eine Folgenseite und `/follow/` (390 und 1280 px)
+  mit Headless-Chromium auf, scrollt bis unten und meldet jedes Bild, jede
+  Schrift und jedes CSS/JS mit Fehler. Lokal: Export unter
+  `/website_dlizkfi/` ausliefern und das Skript mit dieser Basis aufrufen.
 
 Repo: `https://github.com/Hagen381/website_dlizkfi` (öffentlich, Pflicht für
 Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.

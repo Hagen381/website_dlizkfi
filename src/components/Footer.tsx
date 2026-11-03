@@ -1,6 +1,5 @@
 import Link from "next/link";
-import ExportedImage from "next-image-export-optimizer";
-import cover from "@/assets/images/cover.jpg";
+import Cover from "@/components/Cover";
 import PlattformLogo from "@/components/PlattformLogo";
 import { footerNavigation, plattformen, siteConfig } from "@/lib/site-config";
 
@@ -14,7 +13,7 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-3">
           <div>
             <Link href="/" className="inline-flex min-h-11 items-center" aria-label="Startseite">
-              <ExportedImage src={cover} alt="" width={40} height={40} sizes="40px" className="h-10 w-10 rounded-sm object-cover" />
+              <Cover groesse={40} sizes="40px" className="h-10 w-10 rounded-sm" />
             </Link>
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-muted">
               {siteConfig.tagline} Kennst du diesen Gedanken: Irgendwann …

@@ -67,6 +67,11 @@ jobs:
           [ "$fehler" -eq 0 ] && echo "Vorschau ist fuer Suchmaschinen gesperrt."
           exit $fehler
 
+      # Jede src-/srcset-/url()-Angabe im Export, die mit "/" beginnt, muss mit
+      # dem basePath (/website_dlizkfi/) anfangen — sonst 404 in der Vorschau.
+      - name: Vorschau pruefen (Pfade mit basePath)
+        run: node scripts/vorschau-pfade-pruefen.mjs "${{ steps.pages.outputs.base_path }}"
+
       - name: Pages-Artefakt hochladen
         uses: actions/upload-pages-artifact@v3
         with:
@@ -78,7 +83,51 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Auf GitHub Pages veroeffentlichen
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # Nach dem Veroeffentlichen: Headless-Browser ruft die echte Vorschau auf,
+  # scrollt bis unten (lazy-Bilder) und prueft, dass kein Bild, keine Schrift
+  # und kein CSS/JS mit Fehler antwortet. Sonst wird der Lauf rot.
+  bilder-pruefen:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Node einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Playwright installieren
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/werkzeug"
+          cd "$RUNNER_TEMP/werkzeug"
+          npm init -y >/dev/null
+          npm install --silent playwright@1.49.1
+          npx playwright install --with-deps chromium >/dev/null
+
+      - name: Bilder in der Vorschau pruefen
+        shell: bash
+        env:
+          PAGE_URL: ${{ needs.deploy.outputs.page_url }}
+        run: |
+          set -euo pipefail
+          cp scripts/vorschau-bilder-pruefen.mjs "$RUNNER_TEMP/werkzeug/"
+          folge=$(node -p "require('./content/alte-adressen.json').folgen[0].slug")
+          # Pages braucht nach dem Deploy manchmal einen Moment
+          for i in 1 2 3 4 5 6; do
+            curl -sf -o /dev/null "${PAGE_URL}" && break
+            sleep 10
+          done
+          node "$RUNNER_TEMP/werkzeug/vorschau-bilder-pruefen.mjs" "${PAGE_URL%/}" / /episodes/ "/episodes/$folge/" /follow/ \
+            | tee "$RUNNER_TEMP/bilder.txt"
+          { echo '### Bildpruefung der Vorschau'; echo '```'; cat "$RUNNER_TEMP/bilder.txt"; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
