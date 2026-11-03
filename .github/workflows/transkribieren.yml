@@ -14,14 +14,20 @@ name: Folgen transkribieren
 # Transkripte werden NICHT auf der Website ausgeliefert (sie liegen ausserhalb
 # von public/, der Export enthaelt sie nicht; Deploy und Vorschau pruefen das).
 #
-# Spaeter fuer alle Folgen: slugs = "alle". Bereits transkribierte Folgen
-# werden dann uebersprungen, ausser "neu_erstellen" ist gesetzt.
+# Eingabe slugs: kommagetrennte Slugs, dazu die Stichwoerter
+#   fehlende – alle Folgen ohne transkript.md
+#   alle     – alle Folgen (vorhandene nur mit neu_erstellen)
+# kombinierbar, z. B. "fehlende,visum-genehmigt-trotzdem-in-abschiebehaft".
+# Ausdruecklich genannte Slugs werden immer (neu) transkribiert.
+#
+# probelauf: nichts committen; das Transkript steht dann im Job-Protokoll
+# und in der Zusammenfassung des Laufs (zum Vergleich von Modellen).
 
 on:
   workflow_dispatch:
     inputs:
       slugs:
-        description: 'Folgen-Slugs, kommagetrennt (oder "alle" bzw. "fehlende")'
+        description: 'Folgen-Slugs, kommagetrennt; Stichwoerter: fehlende, alle (kombinierbar)'
         required: true
         type: string
       modell:
@@ -30,7 +36,12 @@ on:
         default: large-v3
         type: string
       neu_erstellen:
-        description: "Vorhandene Transkripte ueberschreiben"
+        description: 'Bei "alle": vorhandene Transkripte ueberschreiben'
+        required: false
+        default: false
+        type: boolean
+      probelauf:
+        description: "Probelauf: nichts committen, Transkript nur ins Protokoll"
         required: false
         default: false
         type: boolean
@@ -38,8 +49,9 @@ on:
 permissions:
   contents: write
 
+# Echte Laeufe nacheinander (gemeinsamer Commit), Probelaeufe duerfen parallel.
 concurrency:
-  group: transkribieren
+  group: ${{ inputs.probelauf && format('transkribieren-probe-{0}', github.run_id) || 'transkribieren' }}
   cancel-in-progress: false
 
 jobs:
@@ -66,9 +78,14 @@ jobs:
           const eingabe = process.env.SLUGS.trim();
           const neu = process.env.NEU === "true";
           const vorhanden = (s) => fs.existsSync(`content/transkripte/${s}/transkript.md`);
-          let slugs;
-          if (eingabe === "alle" || eingabe === "fehlende") slugs = folgen.map((f) => f.slug);
-          else slugs = [...new Set(eingabe.split(/[,\s]+/).map((s) => s.trim()).filter(Boolean))];
+          const teile = [...new Set(eingabe.split(/[,\s]+/).map((s) => s.trim()).filter(Boolean))];
+          let slugs = [];
+          for (const t of teile) {
+            if (t === "alle") slugs.push(...folgen.map((f) => f.slug).filter((s) => neu || !vorhanden(s)));
+            else if (t === "fehlende") slugs.push(...folgen.map((f) => f.slug).filter((s) => !vorhanden(s)));
+            else slugs.push(t);
+          }
+          slugs = [...new Set(slugs)];
           const unbekannt = slugs.filter((s) => !folgen.some((f) => f.slug === s));
           if (unbekannt.length) {
             console.error(`::error::Unbekannte Slugs (nicht in content/folgen.json): ${unbekannt.join(", ")}`);
@@ -79,7 +96,6 @@ jobs:
             console.error(`::error::Folgen ohne MP3-URL: ${ohneMp3.join(", ")}`);
             process.exit(1);
           }
-          if (!neu && (eingabe === "alle" || eingabe === "fehlende")) slugs = slugs.filter((s) => !vorhanden(s));
           if (!slugs.length) {
             console.error("::error::Nichts zu tun – alle gewaehlten Folgen sind schon transkribiert.");
             process.exit(1);
@@ -96,13 +112,15 @@ jobs:
   transkribieren:
     needs: vorbereiten
     runs-on: ubuntu-latest
-    # Grosszuegig: large-v3 auf CPU braucht etwa Echtzeit bis doppelte
-    # Echtzeit, die laengste Folge hat 79 Minuten. Obergrenze fuer
-    # GitHub-Runner sind 360 Minuten.
+    # Grosszuegig: large-v3 brauchte im Test 0,6–1,0 × Echtzeit, die laengste
+    # Folge hat 79 Minuten. Obergrenze fuer GitHub-Runner sind 360 Minuten.
     timeout-minutes: 350
     strategy:
       fail-fast: false
-      max-parallel: 20
+      # GitHub Free erlaubt 20 gleichzeitige Jobs pro Konto (alle Repos
+      # zusammen). 15 laesst Luft fuer Vorschau, Deploy und andere Repos;
+      # weitere Jobs warten in der Schlange statt abzubrechen.
+      max-parallel: 15
       matrix:
         slug: ${{ fromJson(needs.vorbereiten.outputs.matrix) }}
     name: ${{ matrix.slug }}
@@ -154,6 +172,17 @@ jobs:
             echo "- $(tail -1 "$RUNNER_TEMP/log.txt")"
           } >> "$GITHUB_STEP_SUMMARY"
 
+      - name: Probelauf – Transkript ins Protokoll
+        if: inputs.probelauf
+        env:
+          SLUG: ${{ matrix.slug }}
+        shell: bash
+        run: |
+          echo "===== TRANSKRIPT-ANFANG ====="
+          cat "$RUNNER_TEMP/ausgabe/$SLUG/transkript.md"
+          echo "===== TRANSKRIPT-ENDE ====="
+          { echo; echo '<details><summary>Transkript</summary>'; echo; cat "$RUNNER_TEMP/ausgabe/$SLUG/transkript.md"; echo '</details>'; } >> "$GITHUB_STEP_SUMMARY"
+
       - name: Ergebnis als Artefakt ablegen
         uses: actions/upload-artifact@v4
         with:
@@ -165,7 +194,8 @@ jobs:
   einsammeln:
     needs: [vorbereiten, transkribieren]
     # Auch wenn einzelne Folgen scheitern: die fertigen werden committet.
-    if: always() && needs.vorbereiten.result == 'success'
+    # Im Probelauf wird nichts committet.
+    if: always() && needs.vorbereiten.result == 'success' && !inputs.probelauf
     runs-on: ubuntu-latest
     steps:
       - name: Repo auschecken
@@ -208,7 +238,24 @@ jobs:
               sleep $((i * 5))
             done
           fi
-          echo "## Transkription: $fertig von $GEPLANT Folge(n) fertig" >> "$GITHUB_STEP_SUMMARY"
+          {
+            echo "## Transkription: $fertig von $GEPLANT Folge(n) fertig"
+            echo
+            echo "### Moegliche Schleifen (bitte anhoeren)"
+            node -e '
+              const fs = require("fs"), path = require("path");
+              const basis = process.argv[1]; let n = 0;
+              for (const slug of fs.readdirSync(basis)) {
+                const f = path.join(basis, slug, "segmente.json");
+                if (!fs.existsSync(f)) continue;
+                for (const s of JSON.parse(fs.readFileSync(f, "utf8")).meta.moegliche_schleifen || []) {
+                  const mm = String(Math.floor(s.start / 60)).padStart(2, "0"), ss = String(Math.floor(s.start % 60)).padStart(2, "0");
+                  console.log(`- ${slug} [${mm}:${ss}] ${s.anzahl}× „${s.text.slice(0, 80)}“`); n++;
+                }
+              }
+              if (!n) console.log("- keine");
+            ' "$RUNNER_TEMP/artefakte"
+          } >> "$GITHUB_STEP_SUMMARY"
           if [ "$ERGEBNIS" != "success" ]; then
             echo "::error::Mindestens eine Folge ist gescheitert (siehe Jobs). Die fertigen sind committet."
             exit 1

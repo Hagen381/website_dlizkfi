@@ -67,11 +67,17 @@ Adressen bleiben 1:1 wie bei PodView.
 ### Transkripte (Vorbereitung Blog)
 
 - Workflow `.github/workflows/transkribieren.yml` (nur manuell): Eingabe
-  `slugs` (kommagetrennt, oder `fehlende` = alle noch nicht transkribierten),
-  optional `modell` (Standard `large-v3`) und `neu_erstellen`.
-- faster-whisper auf CPU (int8), Sprache `de`, VAD-Filter an, `initial_prompt`
-  mit Namen/Begriffen (siehe `scripts/transkribieren.py`). Ein Job pro Folge
-  (Matrix, parallel), am Ende EIN gemeinsamer Commit vom Bot.
+  `slugs` (kommagetrennt; Stichwörter `fehlende` und `alle`, kombinierbar),
+  optional `modell` (Standard `large-v3`), `neu_erstellen` und `probelauf`
+  (nichts committen, Transkript nur ins Job-Protokoll — für Modellvergleiche).
+- faster-whisper auf CPU (int8), Sprache `de`, VAD-Filter an,
+  `condition_on_previous_text` AUS (sonst Wiederholungsschleifen), Namen und
+  Begriffe als `initial_prompt` und als `hotwords` für jedes Fenster (siehe
+  `scripts/transkribieren.py`). Ein Job pro Folge (Matrix, `max-parallel: 15`
+  wegen GitHubs Grenze von 20 gleichzeitigen Jobs pro Konto), am Ende EIN
+  gemeinsamer Commit vom Bot.
+- Mögliche Schleifen (gleicher Satz ≥ 3× in 60 s) werden als Warnung im Lauf
+  und in `segmente.json` (`meta.moegliche_schleifen`) gemeldet, nicht entfernt.
 - Ergebnis: `content/transkripte/<slug>/transkript.md` (Absätze, alle 2–3 min
   eine Zeitmarke `[mm:ss]`) und `segmente.json` (Rohsegmente mit Start/Ende).
 - **Transkripte bleiben wörtlich** — nichts glätten oder korrigieren. Für

@@ -26,9 +26,12 @@ from pathlib import Path
 
 WURZEL = Path(__file__).resolve().parent.parent
 
-# Namen und Begriffe, die richtig geschrieben werden sollen. Whisper bekommt
-# sie als initial_prompt (Kontext für das erste Fenster, danach trägt der
-# bisher erkannte Text den Kontext weiter).
+# Namen und Begriffe, die richtig geschrieben werden sollen.
+# - INITIAL_PROMPT: Kontext für das erste 30-Sekunden-Fenster.
+# - HOTWORDS: werden JEDEM Fenster mitgegeben. Nötig, weil
+#   condition_on_previous_text aus ist (siehe unten) und der Kontext sonst
+#   nach dem ersten Fenster verloren ginge.
+HOTWORDS = "Juliette Hagen Heinrich Hermine Koh Samui Thailand Bangkok DLIZKFI Visum Immigration"
 INITIAL_PROMPT = (
     "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. "
     "Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, "
@@ -41,6 +44,34 @@ ABSATZ_MIN = 150  # 2:30
 ABSATZ_MAX = 200  # 3:20
 
 MARKER = "<!-- dlizkfi-transkript: nicht auf der Website ausliefern -->"
+
+# Schleifen-Erkennung: Whisper wiederholt manchmal denselben Satz in
+# 1-Sekunden-Segmenten, statt den echten Ton zu erkennen (im ersten Lauf
+# 9× in Folge). Gemeldet wird, wenn derselbe Text (ab SCHLEIFE_MIN_ZEICHEN
+# Zeichen) innerhalb von SCHLEIFE_FENSTER Sekunden mindestens
+# SCHLEIFE_MIN_ANZAHL-mal vorkommt. Der Text wird NICHT verändert.
+SCHLEIFE_MIN_ZEICHEN = 15
+SCHLEIFE_MIN_ANZAHL = 3
+SCHLEIFE_FENSTER = 60
+
+
+def normal(text: str) -> str:
+    return "".join(ch for ch in text.lower() if ch.isalnum() or ch == " ").strip()
+
+
+def schleifen_finden(segmente: list[dict]) -> list[dict]:
+    gefunden: list[dict] = []
+    i = 0
+    while i < len(segmente):
+        t = normal(segmente[i]["text"])
+        if len(t) >= SCHLEIFE_MIN_ZEICHEN:
+            treffer = [j for j in range(i, len(segmente)) if segmente[j]["start"] - segmente[i]["start"] <= SCHLEIFE_FENSTER and normal(segmente[j]["text"]) == t]
+            if len(treffer) >= SCHLEIFE_MIN_ANZAHL:
+                gefunden.append({"start": segmente[i]["start"], "ende": segmente[treffer[-1]]["ende"], "anzahl": len(treffer), "text": segmente[i]["text"]})
+                i = treffer[-1] + 1
+                continue
+        i += 1
+    return gefunden
 
 
 def zeit(sek: float) -> str:
@@ -108,6 +139,11 @@ def main() -> int:
         task="transcribe",
         vad_filter=True,
         initial_prompt=INITIAL_PROMPT,
+        hotwords=HOTWORDS,
+        # Aus: Mit dem vorherigen Text als Kontext lief Whisper im ersten Lauf
+        # in Wiederholungsschleifen (gleicher Satz bis zu 9×, der echte Ton
+        # an dieser Stelle fehlte).
+        condition_on_previous_text=False,
         beam_size=5,
     )
     segmente = []
@@ -128,6 +164,10 @@ def main() -> int:
             print(f"  {zeit(s.end)} von {dauer_text(info.duration)} — {time.monotonic() - t1:.0f}s Rechenzeit", flush=True)
     t_transkription = time.monotonic() - t1
 
+    schleifen = schleifen_finden(segmente)
+    for sch in schleifen:
+        print(f"::warning title=Mögliche Schleife ({args.slug})::[{zeit(sch['start'])}] {sch['anzahl']}× „{sch['text'][:80]}“")
+
     ziel = Path(args.ausgabe) / args.slug
     ziel.mkdir(parents=True, exist_ok=True)
 
@@ -141,7 +181,9 @@ def main() -> int:
         "werkzeug": "faster-whisper (CPU, int8)",
         "sprache": "de",
         "vad_filter": True,
+        "condition_on_previous_text": False,
         "initial_prompt": INITIAL_PROMPT,
+        "hotwords": HOTWORDS,
         "erstellt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "laufzeit_sekunden": {
             "modell_laden": round(t_modell),
@@ -149,6 +191,7 @@ def main() -> int:
         },
         "echtzeitfaktor": round(t_transkription / info.duration, 2) if info.duration else None,
         "anzahl_segmente": len(segmente),
+        "moegliche_schleifen": schleifen,
     }
     (ziel / "segmente.json").write_text(
         json.dumps({"meta": meta, "segmente": segmente}, ensure_ascii=False, indent=1) + "\n", "utf-8"
@@ -177,7 +220,7 @@ def main() -> int:
     print(
         f"Fertig: {args.slug} — Audio {dauer_text(info.duration)}, "
         f"Transkription {dauer_text(t_transkription)} (Faktor {meta['echtzeitfaktor']}), "
-        f"Modell laden {t_modell:.0f}s, {len(segmente)} Segmente"
+        f"Modell laden {t_modell:.0f}s, {len(segmente)} Segmente, {len(schleifen)} mögliche Schleife(n)"
     )
     return 0
 
