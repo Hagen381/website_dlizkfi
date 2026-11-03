@@ -34,9 +34,17 @@ for (const breite of [390, 1280]) {
         if (r.status() >= 400) fehler.push(`${r.status()} ${typ} ${r.url()}`);
       }
     });
+    // Abgebrochene Anfragen (net::ERR_ABORTED) sind meist der Browser selbst:
+    // Er wechselt beim Scrollen/Laden auf eine andere srcset-Größe und bricht
+    // die alte Anfrage ab. Die werden unten direkt nachgeholt und nur dann als
+    // Fehler gezählt, wenn der Server wirklich einen Fehler liefert.
+    const abgebrochen = new Set();
     page.on("requestfailed", (r) => {
       const typ = r.resourceType();
-      if (["image", "font", "stylesheet", "script"].includes(typ)) fehler.push(`FEHLGESCHLAGEN ${typ} ${r.url()} (${r.failure()?.errorText})`);
+      if (!["image", "font", "stylesheet", "script"].includes(typ)) return;
+      const grund = r.failure()?.errorText ?? "";
+      if (grund.includes("ERR_ABORTED")) abgebrochen.add(r.url());
+      else fehler.push(`FEHLGESCHLAGEN ${typ} ${r.url()} (${grund})`);
     });
 
     const antwort = await page.goto(url, { waitUntil: "networkidle", timeout: 60000 });
@@ -58,10 +66,15 @@ for (const breite of [390, 1280]) {
       [...document.images].filter((i) => !i.complete || i.naturalWidth === 0).map((i) => i.currentSrc || i.src),
     );
     for (const k of kaputt) fehler.push(`<img> nicht geladen: ${k}`);
+    for (const u of abgebrochen) {
+      const r = await page.request.get(u).catch((e) => ({ status: () => `keine Antwort (${e.message})` }));
+      const st = r.status();
+      if (typeof st !== "number" || st >= 400) fehler.push(`${st} (nach Abbruch direkt geprüft) ${u}`);
+    }
     const anzahlImg = await page.evaluate(() => document.images.length);
 
     const status = fehler.length ? "FEHLER" : "ok";
-    console.log(`${status.padEnd(6)} ${String(breite).padStart(4)}px ${pfad}  — ${anzahlImg} <img>, ${bilder.size} Bildanfragen, ${fehler.length} Fehler`);
+    console.log(`${status.padEnd(6)} ${String(breite).padStart(4)}px ${pfad}  — ${anzahlImg} <img>, ${bilder.size} Bildanfragen, ${fehler.length} Fehler${abgebrochen.size ? ` (${abgebrochen.size} vom Browser abgebrochen, direkt nachgeprüft)` : ""}`);
     for (const f of fehler) console.log(`         ${f}`);
     fehlerGesamt += fehler.length;
     await ctx.close();
