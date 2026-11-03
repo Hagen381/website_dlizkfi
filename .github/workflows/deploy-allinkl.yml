@@ -198,6 +198,23 @@ jobs:
           fi
           echo "::endgroup::"
 
+          echo "::group::i) X-Robots-Tag nur fuer test.-Host"
+          # Die .htaccess setzt noindex per Header NUR fuer die Generalprobe
+          # test.<domain>. Jede andere X-Robots-Tag-Zeile wuerde die Live-Seite
+          # aus Google werfen.
+          if ! awk '
+            /^<If .*\^test\\\./ { imblock=1; next }
+            /^<\/If>/ { imblock=0; next }
+            /X-Robots-Tag/ { if (!imblock) { print "ausserhalb: " $0; bad=1 } else n++ }
+            END { if (n != 1) { print "erwartet genau 1 X-Robots-Tag im test.-Block, gefunden: " n+0; bad=1 }; exit bad }
+          ' out/.htaccess; then
+            echo "::error::X-Robots-Tag in der .htaccess nicht wie erwartet auf test.-Host beschraenkt."
+            fehler=1
+          else
+            echo "sauber"
+          fi
+          echo "::endgroup::"
+
           echo "::group::g) keine Transkripte im Export"
           # Transkripte (content/transkripte/) sind Arbeitsmaterial fuer den
           # Blog und werden nicht veroeffentlicht.

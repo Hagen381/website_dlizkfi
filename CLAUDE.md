@@ -167,7 +167,10 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   `/episodes/page/N/`, `ErrorDocument 404`, `Options -Indexes`, Cache-Header
   für Bilder/Schriften.
 - `https://test.daslebenistzukurzfuerirgendwann.de` zeigt auf denselben
-  Ordner (Generalprobe vor dem Live-Gang). Nicht ändern.
+  Ordner (Generalprobe vor dem Live-Gang). Nicht ändern. Die `.htaccess` setzt
+  NUR für genau diesen Host `X-Robots-Tag: noindex, nofollow` (`<If>`-Block);
+  www/live bleibt indexierbar. Der Deploy bricht ab, wenn `X-Robots-Tag`
+  außerhalb dieses Blocks steht oder der Block fehlt.
 - Sicherheitsprüfung vor dem Upload (bricht ab, nichts wird hochgeladen):
   kein `noindex` außerhalb der 404-Seiten, kein `hagen381.github.io` und kein
   `/website_dlizkfi` im Export, `index.html` und `sitemap.xml` vorhanden, alle

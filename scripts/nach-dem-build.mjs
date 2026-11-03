@@ -89,6 +89,12 @@ Header always set X-Content-Type-Options "nosniff"
 Header always set Referrer-Policy "strict-origin-when-cross-origin"
 Header always set X-Frame-Options "SAMEORIGIN"
 Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+
+# Generalprobe test.${ohneWww}: nie in Suchmaschinen (doppelter Inhalt).
+# Gilt NUR für genau diesen Host, www/live bleibt unberührt.
+<If "%{HTTP_HOST} =~ /^test\\.${esc(ohneWww)}(:[0-9]+)?$/i">
+Header always set X-Robots-Tag "noindex, nofollow"
+</If>
 </IfModule>
 
 <IfModule mod_expires.c>
