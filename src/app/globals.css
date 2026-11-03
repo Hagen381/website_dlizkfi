@@ -13,8 +13,8 @@
   --muted: #5e6c49; /* Nebentext, Navigation (5,4:1 auf --bg) */
   /* Barrierefreiheit: Gelb bzw. Orange als TEXT auf hellem Grund erreichen
      keine 4,5:1. Für Text in Akzentfarbe deshalb diese dunkleren Töne. */
-  --primary-text: #8a6100; /* 5,0:1 auf --bg */
-  --secondary-text: #b0430a; /* 5,0:1 auf --bg */
+  --primary-text: #8a6100; /* 5,4:1 auf --bg, 4,6:1 auf gelben Badges */
+  --secondary-text: #a33d08; /* 6,2:1 auf --bg, >= 4,5:1 auch auf den hellen Orange-Flächen */
 }
 
 @theme inline {
@@ -105,4 +105,37 @@
     transition: none !important;
     animation: none !important;
   }
+}
+
+/* Fortschrittsbalken des Players: gelb gefüllt bis --anteil */
+.spieler-balken {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+}
+.spieler-balken::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 9999px;
+  background: linear-gradient(to right, var(--color-primary) var(--anteil, 0%), var(--color-border) var(--anteil, 0%));
+}
+.spieler-balken::-moz-range-track {
+  height: 4px;
+  border-radius: 9999px;
+  background: linear-gradient(to right, var(--color-primary) var(--anteil, 0%), var(--color-border) var(--anteil, 0%));
+}
+.spieler-balken::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  margin-top: -6px;
+  height: 16px;
+  width: 16px;
+  border-radius: 9999px;
+  background: var(--color-primary);
+  border: 2px solid var(--color-text);
+}
+.spieler-balken::-moz-range-thumb {
+  height: 14px;
+  width: 14px;
+  border-radius: 9999px;
+  background: var(--color-primary);
+  border: 2px solid var(--color-text);
 }

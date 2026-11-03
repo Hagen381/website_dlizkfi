@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { hatBlog } from "@/lib/blog";
 import { istVorschau } from "@/lib/base-path";
 import { JsonLd, serieId } from "@/lib/seo";
 import { plattformen, siteConfig } from "@/lib/site-config";
@@ -78,7 +79,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           Zum Inhalt springen
         </a>
         <JsonLd daten={serie} />
-        <Header />
+        <Header blog={hatBlog} />
         <main id="inhalt" className="flex-1">
           {children}
         </main>

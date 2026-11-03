@@ -16,9 +16,11 @@ function istAktiv(pathname: string, href: string) {
 // Nachbau der PodView-Navigation: Logo links, Textlinks rechts. Unter 768px
 // ersetzt ein Drei-Punkte-Knopf (44×44) die Links und öffnet ein Menü, das
 // wie im Original von unten hereinfährt (ab md: von rechts).
-export default function Header() {
+export default function Header({ blog = false }: { blog?: boolean }) {
   const pathname = usePathname() ?? "/";
   const [offen, setOffen] = useState(false);
+  // Blog erscheint erst in der Navigation, wenn es Artikel gibt.
+  const punkte = blog ? [...navigation.slice(0, 1), { label: "Blog", href: "/blog/" }, ...navigation.slice(1)] : navigation;
   const knopf = useRef<HTMLButtonElement>(null);
   const panel = useRef<HTMLDivElement>(null);
 
@@ -46,7 +48,7 @@ export default function Header() {
           <ExportedImage src={cover} alt="" width={32} height={32} sizes="32px" className="h-8 w-8 rounded-sm object-cover" priority />
         </Link>
         <nav aria-label="Hauptnavigation" className="hidden items-center gap-6 md:flex">
-          {navigation.map((item) => (
+          {punkte.map((item) => (
             <Link
               key={item.href}
               href={item.href}
@@ -93,7 +95,7 @@ export default function Header() {
               </button>
             </div>
             <nav aria-label="Hauptnavigation mobil" className="min-h-0 flex-1 overflow-y-auto overscroll-contain p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))]">
-              {navigation.map((item) => (
+              {punkte.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}

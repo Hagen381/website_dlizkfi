@@ -10,7 +10,7 @@
     "dev": "next dev",
     "feed": "node scripts/feed-holen.mjs",
     "pruefen": "node scripts/adressen-pruefen.mjs",
-    "build": "node scripts/adressen-pruefen.mjs && next build && next-image-export-optimizer",
+    "build": "node scripts/adressen-pruefen.mjs && next build && next-image-export-optimizer && node scripts/nach-dem-build.mjs",
     "lint": "eslint"
   },
   "dependencies": {
