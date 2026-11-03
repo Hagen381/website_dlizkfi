@@ -1,0 +1,287 @@
+name: Deploy zu All-Inkl
+
+# Baut den Static Export und liefert ihn per FTPS an All-Inkl aus
+# (Domain-Ordner von www.daslebenistzukurzfuerirgendwann.de).
+#
+# WICHTIG: Die Domain zeigt bis zum Live-Gang noch auf PodView. Der Upload in
+# den Ordner ist trotzdem gewollt (Test des Verfahrens). KAS, DNS und
+# Domain-Einstellungen werden hier nicht angefasst.
+#
+# Ausloeser:
+#   - Push auf main
+#   - manuell (workflow_dispatch), Feed-Abgleich waehlbar
+#   - montags 03:30 UTC (Folgen erscheinen montags 02:00 UTC)
+# Beim Montagslauf (und manuell, wenn gewuenscht) wird zuerst der Feed geholt.
+# Hat sich content/folgen.json geaendert, wird das committet und gepusht,
+# danach gebaut und ausgeliefert.
+#
+# Hochgeladen wird mit lftp wie bei grannyg: All-Inkl verlangt, dass die
+# Datenverbindung die TLS-Sitzung der Anmeldung wiederverwendet.
+# Immer verschluesselt (ftp:ssl-force, ftp:ssl-protect-data), Zertifikat wird
+# geprueft (ssl:verify-certificate bleibt an). Zugangsdaten nur aus den
+# Secrets FTP_SERVER, FTP_USERNAME, FTP_PASSWORD ueber Umgebungsvariablen
+# (--env-password). Kein set -x, kein lftp-debug: sonst stuenden sie im Log.
+# mirror -R OHNE --delete: auf dem Server wird nichts geloescht.
+# Der FTP-Nutzer startet direkt im Domain-Ordner, Ziel ist deshalb ./
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      feed_holen:
+        description: "Vorher den RSS-Feed abgleichen"
+        type: boolean
+        default: true
+  schedule:
+    - cron: "30 3 * * 1"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: deploy-allinkl
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Node einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Abhaengigkeiten installieren
+        run: npm ci
+
+      # ------------------------------------------------------------------
+      # Feed-Abgleich (Montagslauf bzw. manuell)
+      # ------------------------------------------------------------------
+      - name: Feed holen
+        id: feed
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.feed_holen)
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! node scripts/feed-holen.mjs | tee "$RUNNER_TEMP/feed.txt"; then
+            echo "::warning::Feed konnte nicht geholt werden — es wird mit dem bisherigen Stand gebaut."
+            git checkout -- content/folgen.json 2>/dev/null || true
+            exit 0
+          fi
+          { echo '### Feed-Abgleich'; echo '```'; cat "$RUNNER_TEMP/feed.txt"; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          if git diff --quiet -- content/folgen.json; then
+            echo "geaendert=nein" >> "$GITHUB_OUTPUT"
+          else
+            echo "geaendert=ja" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Neue Folgen committen und pushen
+        if: steps.feed.outputs.geaendert == 'ja'
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Adressen pruefen, bevor etwas committet wird
+          node scripts/adressen-pruefen.mjs
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          anzahl=$(node -p "require('./content/folgen.json').anzahl")
+          neueste=$(node -p "require('./content/folgen.json').folgen[0].titel")
+          git add content/folgen.json
+          git commit -m "Feed-Abgleich: $anzahl Folgen (neueste: $neueste)"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            [ "$i" = 3 ] && exit 1
+            sleep $((i * 5))
+          done
+
+      # Pushes mit dem Actions-Token loesen keine anderen Workflows aus.
+      # Damit die Vorschau die neue Folge auch zeigt, wird sie hier angestossen.
+      - name: Vorschau neu bauen lassen
+        if: steps.feed.outputs.geaendert == 'ja'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run gh-pages.yml --ref main
+
+      # ------------------------------------------------------------------
+      # Build (Live: basePath ausdruecklich leer)
+      # ------------------------------------------------------------------
+      - name: Static Export bauen
+        run: npm run build
+        env:
+          NEXT_BUILD_BASE_PATH: ""
+
+      # ------------------------------------------------------------------
+      # Sicherheitspruefung. Faellt eine Bedingung durch, endet der Job hier
+      # und es wird NICHTS hochgeladen.
+      # ------------------------------------------------------------------
+      - name: Export pruefen
+        shell: bash
+        run: |
+          set -uo pipefail
+          fehler=0
+
+          echo "::group::a) noindex nur auf den 404-Seiten"
+          alle=$(grep -rl --binary-files=without-match --include="*.html" "noindex" out/ || true)
+          erlaubt='^out/404\.html$|^out/404/index\.html$|^out/_not-found/index\.html$'
+          treffer=$(printf '%s\n' "$alle" | grep -vE "$erlaubt" | grep -v '^$' || true)
+          if [ -n "$treffer" ]; then
+            echo "::error::noindex ausserhalb der 404-Seite:"
+            echo "$treffer" | sed 's/^/  /'
+            fehler=1
+          else
+            echo "sauber"
+          fi
+          if grep -qi 'Disallow: /$' out/robots.txt; then
+            echo "::error::robots.txt sperrt die ganze Seite (Vorschau-Einstellung im Live-Build)."
+            fehler=1
+          fi
+          echo "::endgroup::"
+
+          echo "::group::b) Vorschau-Host hagen381.github.io"
+          if treffer=$(grep -rl --binary-files=without-match "hagen381.github.io" out/); then
+            echo "::error::hagen381.github.io steht im Export:"
+            echo "$treffer" | sed 's/^/  /'
+            fehler=1
+          else
+            echo "sauber"
+          fi
+          echo "::endgroup::"
+
+          echo "::group::c) Vorschau-Pfad /website_dlizkfi"
+          if treffer=$(grep -rl --binary-files=without-match "/website_dlizkfi" out/); then
+            echo "::error::/website_dlizkfi steht im Export:"
+            echo "$treffer" | sed 's/^/  /'
+            fehler=1
+          else
+            echo "sauber"
+          fi
+          echo "::endgroup::"
+
+          echo "::group::d) Pflichtdateien"
+          for pflicht in index.html sitemap.xml 404.html robots.txt .htaccess; do
+            if [ -f "out/$pflicht" ]; then echo "vorhanden: $pflicht"; else echo "::error::out/$pflicht fehlt."; fehler=1; fi
+          done
+          echo "::endgroup::"
+
+          echo "::group::e) alle alten Folgen-Adressen"
+          node scripts/adressen-pruefen.mjs --export || fehler=1
+          echo "::endgroup::"
+
+          echo "::group::f) keine anderen Punkt-Dateien, keine .htpasswd"
+          if treffer=$(find out -name '.*' ! -path out/.htaccess -print); [ -n "$treffer" ]; then
+            echo "::error::Unerwartete Punkt-Dateien im Export:"
+            echo "$treffer" | sed 's/^/  /'
+            fehler=1
+          else
+            echo "sauber"
+          fi
+          echo "::endgroup::"
+
+          if [ "$fehler" -ne 0 ]; then
+            echo "Sicherheitspruefung fehlgeschlagen — es wird nichts hochgeladen."
+            exit 1
+          fi
+          echo "Sicherheitspruefung bestanden ($(find out -type f | wc -l) Dateien, $(du -sh out | cut -f1))."
+
+      - name: lftp installieren
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq lftp >/dev/null
+          lftp --version | head -1
+
+      - name: Per FTPS zu All-Inkl ausliefern
+        shell: bash
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          LFTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          set -euo pipefail
+          # --env-password liest das Passwort aus LFTP_PASSWORD, so steht
+          # es weder in der Befehlszeile noch im Log.
+          lftp <<EOF
+          set cmd:fail-exit true
+          set ftp:ssl-force true
+          set ftp:ssl-protect-data true
+          set ssl:verify-certificate true
+          set ftp:passive-mode true
+          set net:timeout 20
+          set net:max-retries 2
+          open --env-password -u "$FTP_USERNAME" "ftp://$FTP_SERVER"
+          echo "Ziel: ./ (FTPS, Zertifikat wird geprueft)"
+          mirror -R --verbose --no-perms --parallel=4 \
+            --exclude-glob .htpasswd --exclude-glob '.git*' \
+            out/ ./
+          bye
+          EOF
+
+      # Kontrolle: index.html, sitemap.xml und .htaccess zurueckholen und mit
+      # dem Export vergleichen. (Ueber die Domain geht das noch nicht, sie
+      # zeigt bis zum Live-Gang auf PodView.)
+      - name: Upload kontrollieren
+        shell: bash
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          LFTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/zurueck"
+          lftp <<EOF
+          set cmd:fail-exit true
+          set ftp:ssl-force true
+          set ftp:ssl-protect-data true
+          set ssl:verify-certificate true
+          set ftp:passive-mode true
+          set net:timeout 20
+          open --env-password -u "$FTP_USERNAME" "ftp://$FTP_SERVER"
+          lcd $RUNNER_TEMP/zurueck
+          get index.html
+          get sitemap.xml
+          get .htaccess
+          get episodes/kindergeburtstag-auf-koh-samui-wie-viel-party-muss-eigentlich-sein/index.html -o folge.html
+          bye
+          EOF
+          fehler=0
+          for d in index.html sitemap.xml .htaccess; do
+            if cmp -s "out/$d" "$RUNNER_TEMP/zurueck/$d"; then echo "identisch auf dem Server: $d"; else echo "::error::$d auf dem Server weicht vom Export ab."; fehler=1; fi
+          done
+          if cmp -s out/episodes/kindergeburtstag-auf-koh-samui-wie-viel-party-muss-eigentlich-sein/index.html "$RUNNER_TEMP/zurueck/folge.html"; then
+            echo "identisch auf dem Server: Folgenseite (alte Adresse)"
+          else
+            echo "::error::Folgenseite auf dem Server weicht ab."; fehler=1
+          fi
+          {
+            echo "## Deploy zu All-Inkl"
+            echo
+            echo "- Dateien im Export: **$(find out -type f | wc -l)** ($(du -sh out | cut -f1))"
+            echo "- Folgen: **$(node -p "require('./content/folgen.json').anzahl")**"
+            echo "- Kontrolle per FTPS: $([ $fehler -eq 0 ] && echo 'index.html, sitemap.xml, .htaccess und eine Folgenseite identisch' || echo 'ABWEICHUNG')"
+            echo "- Hinweis: Die Domain zeigt bis zum Live-Gang noch auf PodView."
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit $fehler
+
+      # Nur bei einem Fehler: Welcher Name steht im Zertifikat des
+      # FTP-Servers? Damit sieht man, ob die Pruefung am Hostnamen scheitert.
+      # Hier werden keine Zugangsdaten benutzt.
+      - name: Zertifikat des FTP-Servers anzeigen (nur bei Fehler)
+        if: failure()
+        shell: bash
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+        run: |
+          set -uo pipefail
+          echo | timeout 20 openssl s_client -starttls ftp -connect "$FTP_SERVER:21" 2>/dev/null \
+            | openssl x509 -noout -subject -issuer -enddate -ext subjectAltName \
+            || echo "Zertifikat konnte nicht gelesen werden."
