@@ -19,7 +19,7 @@ Und dann die Giveaways. Bevor wir Kinder hatten, wusste ich gar nicht, dass die 
 
 Hier auf Koh Samui, also bei uns Ausländern, wird ein Kindergeburtstag so gefeiert, wie man in Deutschland vielleicht eine Konfirmation, eine Jugendweihe oder sogar eine Hochzeit feiert. Beachclub oder Hotelanlage mit Pool gemietet, Buffet, übelste Luftballon-Arrangements, und eingeladen ist die komplette Klasse mitsamt Eltern. Auch, wenn das Kind gerade drei wird.
 
-![Pool und Palmen auf Koh Samui](bilder/kindergeburtstag-koh-samui-topfschlagen-statt-beachclub/20261025_182553.jpg)
+![Pool und Palmen auf Koh Samui](bilder/kindergeburtstag-koh-samui-topfschlagen-statt-beachclub/20261025_182553_pool.jpg)
 
 Es gibt ein Thüringer Wort dafür: bombfortionös. Also übelster Aufriss.
 
