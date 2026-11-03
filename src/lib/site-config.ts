@@ -53,12 +53,16 @@ export const plattformen: Plattform[] = [
 
 export const plattform = (id: Plattform["id"]) => plattformen.find((p) => p.id === id)!;
 
+// Hauptnavigation (Header). „Blog" reiht sich automatisch nach „Folgen" ein,
+// sobald es Artikel gibt (src/lib/blog.ts → hatBlog).
 export const navigation = [
   { label: "Folgen", href: "/episodes/" },
   { label: "Über", href: "/about/" },
   { label: "Kontakt", href: "/contact/" },
-  { label: "Abonnieren", href: "/follow/" },
 ] as const;
+
+// Stärkster Punkt im Header: als gelber Button gerendert.
+export const abonnieren = { label: "Abonnieren", href: "/follow/" } as const;
 
 export const footerNavigation = [
   { label: "Startseite", href: "/" },

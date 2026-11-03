@@ -75,7 +75,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="de" className={`${bricolage.variable} ${literata.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col">
-        <a href="#inhalt" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded focus:bg-surface focus:px-4 focus:py-3">
+        <a href="#inhalt" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[70] focus:rounded focus:bg-surface focus:px-4 focus:py-3">
           Zum Inhalt springen
         </a>
         <JsonLd daten={serie} />

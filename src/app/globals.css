@@ -35,6 +35,8 @@
 @layer base {
   html {
     -webkit-text-size-adjust: 100%;
+    /* Klebender Header (ca. 69 px): Sprungziele/Anker nicht darunter verstecken */
+    scroll-padding-top: calc(5.5rem + env(safe-area-inset-top));
   }
   body {
     background: var(--color-bg);

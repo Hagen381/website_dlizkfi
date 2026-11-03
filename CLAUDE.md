@@ -92,6 +92,20 @@ Adressen bleiben 1:1 wie bei PodView.
   `dlizkfi-transkript` im Export auftaucht; `lftp` schließt `transkripte/`
   zusätzlich aus. MP3s werden nur im Runner geladen, nie ins Repo.
 
+### Header
+
+- Bewusste Abweichung vom PodView-Original (ausdrücklicher Auftrag):
+  Cover 44 px mit Schriftzug „DLIZKFI" (ab 640 px zusätzlich „Das Leben ist zu
+  kurz für irgendwann"), Menüpunkte als Flächen (Bricolage semibold 16 px,
+  min. 44 px hoch), aktive Seite gelb mit `aria-current="page"` (auch auf
+  Unterseiten), „Abonnieren" als gelber Button mit Kopfhörer-Icon.
+- Klebt oben (`position: sticky`), halbtransparent mit backdrop-blur, Linie
+  unten erst nach dem Scrollen; `scroll-padding-top` in `globals.css`.
+- Unter 1024 px „☰ Menü"-Knopf; das Menü wird per Portal in `<body>`
+  gerendert (sonst wäre der Header wegen `backdrop-filter` der Bezugsrahmen
+  für `position: fixed`). Fokus bleibt im Menü, Escape/außerhalb schließt.
+- Menüpunkte in `navigation`, der Button in `abonnieren` (`site-config.ts`).
+
 ## SEO-Grundregeln
 
 - **Jede Seite setzt ihr eigenes Canonical** (`alternates: { canonical:
