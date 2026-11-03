@@ -241,17 +241,17 @@ jobs:
           {
             echo "## Transkription: $fertig von $GEPLANT Folge(n) fertig"
             echo
-            echo "### Moegliche Schleifen (bitte anhoeren)"
+            echo "### Moegliche Schleifen und Halluzinationen (bitte anhoeren)"
             node -e '
               const fs = require("fs"), path = require("path");
               const basis = process.argv[1]; let n = 0;
               for (const slug of fs.readdirSync(basis)) {
                 const f = path.join(basis, slug, "segmente.json");
                 if (!fs.existsSync(f)) continue;
-                for (const s of JSON.parse(fs.readFileSync(f, "utf8")).meta.moegliche_schleifen || []) {
-                  const mm = String(Math.floor(s.start / 60)).padStart(2, "0"), ss = String(Math.floor(s.start % 60)).padStart(2, "0");
-                  console.log(`- ${slug} [${mm}:${ss}] ${s.anzahl}× „${s.text.slice(0, 80)}“`); n++;
-                }
+                const meta = JSON.parse(fs.readFileSync(f, "utf8")).meta;
+                const zeit = (t) => `${String(Math.floor(t / 60)).padStart(2, "0")}:${String(Math.floor(t % 60)).padStart(2, "0")}`;
+                for (const s of meta.moegliche_schleifen || []) { console.log(`- ${slug} [${zeit(s.start)}] Schleife ${s.anzahl}× „${s.text.slice(0, 80)}“`); n++; }
+                for (const h of meta.moegliche_halluzinationen || []) { console.log(`- ${slug} [${zeit(h.start)}] ${h.grund}: „${h.text.slice(0, 80)}“`); n++; }
               }
               if (!n) console.log("- keine");
             ' "$RUNNER_TEMP/artefakte"

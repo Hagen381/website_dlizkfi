@@ -26,16 +26,18 @@ from pathlib import Path
 
 WURZEL = Path(__file__).resolve().parent.parent
 
-# Namen und Begriffe, die richtig geschrieben werden sollen.
-# - INITIAL_PROMPT: Kontext für das erste 30-Sekunden-Fenster.
-# - HOTWORDS: werden JEDEM Fenster mitgegeben. Nötig, weil
-#   condition_on_previous_text aus ist (siehe unten) und der Kontext sonst
-#   nach dem ersten Fenster verloren ginge.
-HOTWORDS = "Juliette Hagen Heinrich Hermine Koh Samui Thailand Bangkok DLIZKFI Visum Immigration"
+# Namen und Begriffe, die richtig geschrieben werden sollen, als
+# initial_prompt (Kontext für das erste 30-Sekunden-Fenster).
+#
+# KEINE hotwords: Im Probelauf mit large-v3 hat Whisper die hotword-Liste
+# wörtlich und vielfach in den Text geschrieben ("Hagen Heinrich Hermine Koh
+# Samui …") und dafür echte Passagen weggelassen. Die Namen erkennt Whisper
+# auch ohne hotwords zuverlässig (erster Lauf).
+PROMPT_BEGRIFFE = ["Juliette", "Hagen", "Heinrich", "Hermine", "Koh Samui", "Thailand", "Bangkok", "DLIZKFI", "Visum", "Immigration"]
 INITIAL_PROMPT = (
     "Das Leben ist zu kurz für irgendwann – der Podcast DLIZKFI. "
     "Mit Juliette, Hagen, Heinrich und Hermine auf Koh Samui (Samui) in Thailand, "
-    "Bangkok, Visum, Immigration."
+    "Bangkok, Visum, Immigration, Farang, Thai."
 )
 
 # Absätze: frühestens nach ABSATZ_MIN Sekunden an einem Satzende umbrechen,
@@ -57,6 +59,29 @@ SCHLEIFE_FENSTER = 60
 
 def normal(text: str) -> str:
     return "".join(ch for ch in text.lower() if ch.isalnum() or ch == " ").strip()
+
+
+# Typische Whisper-Halluzinationen (Abspann-/Untertitel-Floskeln aus den
+# Trainingsdaten) und das Abschreiben des Prompts. Gemeldet, nicht entfernt.
+HALLUZINATION_FLOSKELN = ["wdr", "untertitel", "amara", "copyright", "www.", "mediagroup", "swr", "zdf", "vielen dank fürs zuschauen", "abonniert"]
+
+
+def halluzinationen_finden(segmente: list[dict]) -> list[dict]:
+    gefunden = []
+    for seg in segmente:
+        t = seg["text"].lower()
+        prompt_treffer = sum(1 for b in PROMPT_BEGRIFFE if b.lower() in t)
+        rest = t
+        for b in PROMPT_BEGRIFFE:
+            rest = rest.replace(b.lower(), " ")
+        rest_woerter = len([w for w in rest.split() if any(c.isalpha() for c in w)])
+        # Prompt abgeschrieben = mindestens 4 Prompt-Begriffe und kaum andere
+        # Wörter (ein echter Satz mit vier Namen fällt nicht darunter).
+        prompt_kopie = prompt_treffer >= 4 and rest_woerter <= prompt_treffer
+        floskeln = [f for f in HALLUZINATION_FLOSKELN if f in t]
+        if prompt_kopie or floskeln:
+            gefunden.append({"start": seg["start"], "ende": seg["ende"], "text": seg["text"], "grund": "Prompt abgeschrieben" if prompt_kopie else "Floskel: " + ", ".join(floskeln)})
+    return gefunden
 
 
 def schleifen_finden(segmente: list[dict]) -> list[dict]:
@@ -139,7 +164,6 @@ def main() -> int:
         task="transcribe",
         vad_filter=True,
         initial_prompt=INITIAL_PROMPT,
-        hotwords=HOTWORDS,
         # Aus: Mit dem vorherigen Text als Kontext lief Whisper im ersten Lauf
         # in Wiederholungsschleifen (gleicher Satz bis zu 9×, der echte Ton
         # an dieser Stelle fehlte).
@@ -167,6 +191,9 @@ def main() -> int:
     schleifen = schleifen_finden(segmente)
     for sch in schleifen:
         print(f"::warning title=Mögliche Schleife ({args.slug})::[{zeit(sch['start'])}] {sch['anzahl']}× „{sch['text'][:80]}“")
+    halluzinationen = halluzinationen_finden(segmente)
+    for h in halluzinationen:
+        print(f"::warning title=Mögliche Halluzination ({args.slug})::[{zeit(h['start'])}] {h['grund']}: „{h['text'][:80]}“")
 
     ziel = Path(args.ausgabe) / args.slug
     ziel.mkdir(parents=True, exist_ok=True)
@@ -183,7 +210,6 @@ def main() -> int:
         "vad_filter": True,
         "condition_on_previous_text": False,
         "initial_prompt": INITIAL_PROMPT,
-        "hotwords": HOTWORDS,
         "erstellt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "laufzeit_sekunden": {
             "modell_laden": round(t_modell),
@@ -192,6 +218,7 @@ def main() -> int:
         "echtzeitfaktor": round(t_transkription / info.duration, 2) if info.duration else None,
         "anzahl_segmente": len(segmente),
         "moegliche_schleifen": schleifen,
+        "moegliche_halluzinationen": halluzinationen,
     }
     (ziel / "segmente.json").write_text(
         json.dumps({"meta": meta, "segmente": segmente}, ensure_ascii=False, indent=1) + "\n", "utf-8"
@@ -220,7 +247,7 @@ def main() -> int:
     print(
         f"Fertig: {args.slug} — Audio {dauer_text(info.duration)}, "
         f"Transkription {dauer_text(t_transkription)} (Faktor {meta['echtzeitfaktor']}), "
-        f"Modell laden {t_modell:.0f}s, {len(segmente)} Segmente, {len(schleifen)} mögliche Schleife(n)"
+        f"Modell laden {t_modell:.0f}s, {len(segmente)} Segmente, {len(schleifen)} mögliche Schleife(n), {len(halluzinationen)} mögliche Halluzination(en)"
     )
     return 0
 

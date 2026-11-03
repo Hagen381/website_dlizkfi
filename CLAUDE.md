@@ -72,12 +72,16 @@ Adressen bleiben 1:1 wie bei PodView.
   (nichts committen, Transkript nur ins Job-Protokoll — für Modellvergleiche).
 - faster-whisper auf CPU (int8), Sprache `de`, VAD-Filter an,
   `condition_on_previous_text` AUS (sonst Wiederholungsschleifen), Namen und
-  Begriffe als `initial_prompt` und als `hotwords` für jedes Fenster (siehe
-  `scripts/transkribieren.py`). Ein Job pro Folge (Matrix, `max-parallel: 15`
+  Begriffe als `initial_prompt` (siehe `scripts/transkribieren.py`).
+  **Keine `hotwords`**: large-v3 schrieb die Liste dann wörtlich in den Text
+  und ließ echte Passagen weg. Ein Job pro Folge (Matrix, `max-parallel: 15`
   wegen GitHubs Grenze von 20 gleichzeitigen Jobs pro Konto), am Ende EIN
   gemeinsamer Commit vom Bot.
-- Mögliche Schleifen (gleicher Satz ≥ 3× in 60 s) werden als Warnung im Lauf
-  und in `segmente.json` (`meta.moegliche_schleifen`) gemeldet, nicht entfernt.
+- Mögliche Schleifen (gleicher Satz ≥ 3× in 60 s) und Halluzinationen
+  (abgeschriebener Prompt, Untertitel-Floskeln wie „WDR", „Untertitel",
+  „www.") werden als Warnung im Lauf und in `segmente.json`
+  (`meta.moegliche_schleifen`, `meta.moegliche_halluzinationen`) gemeldet,
+  nicht entfernt.
 - Ergebnis: `content/transkripte/<slug>/transkript.md` (Absätze, alle 2–3 min
   eine Zeitmarke `[mm:ss]`) und `segmente.json` (Rohsegmente mit Start/Ende).
 - **Transkripte bleiben wörtlich** — nichts glätten oder korrigieren. Für
