@@ -48,7 +48,8 @@ Adressen bleiben 1:1 wie bei PodView.
   `content/folgen.json` (Feld `slug`) und wird beim erneuten Feed-Import über
   die guid übernommen — ein bestehender Slug ändert sich nie.
 - Neue Folgen bekommen einen Slug nach PodView-Regel: Kleinbuchstaben,
-  Umlaute zum Grundbuchstaben (ä→a, ö→o, ü→u, ß→ss), alles andere zu `-`.
+  Umlaute zum Grundbuchstaben (ä→a, ö→o, ü→u; ß fällt ersatzlos weg: „Straßenhunde" → `straenhunde`),
+  alles andere zu `-`.
 - `content/alte-adressen.json` = alle Folgen-Adressen aus PodViews
   `sitemap-episodes.xml`. `scripts/adressen-pruefen.mjs` läuft vor jedem Build
   und bricht ab, wenn eine davon fehlt.
