@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Cover from "@/components/Cover";
 import PlattformLogo from "@/components/PlattformLogo";
 import { breadcrumb, JsonLd } from "@/lib/seo";
-import { plattform, plattformen, siteConfig } from "@/lib/site-config";
+import { plattformen, siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
   title: "Über",
@@ -53,14 +53,7 @@ export default function Ueber() {
           <p>Du findest den Podcast auch auf allen gängigen Plattformen (siehe unten) und auf YouTube.</p>
         </div>
 
-        <h2 className="mt-10 text-xl font-semibold">Links</h2>
-        <p className="mt-3">
-          <a href={plattform("youtube").url} target="_blank" rel="noopener" className="inline-flex min-h-11 items-center text-secondary-text underline underline-offset-2 [overflow-wrap:anywhere]">
-            {plattform("youtube").url}
-          </a>
-        </p>
-
-        <h2 className="mt-8 text-xl font-semibold">Anhören auf</h2>
+        <h2 className="mt-10 text-xl font-semibold">Anhören auf</h2>
         <ul className="mt-4 flex flex-wrap gap-3">
           {plattformen.map((p) => (
             <li key={p.id}>
