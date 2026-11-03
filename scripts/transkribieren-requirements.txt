@@ -1,1 +1,5 @@
+# Feste Versionen: faster-whisper 1.2.1 ruft av.open(..., metadata_errors=...)
+# auf; PyAV 19 kennt den Parameter nicht mehr (TypeError). Mit 16.1.0 getestet.
 faster-whisper==1.2.1
+av==16.1.0
+ctranslate2==4.8.5
