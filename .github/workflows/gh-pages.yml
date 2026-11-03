@@ -1,0 +1,84 @@
+name: Vorschau auf GitHub Pages
+
+# Interner Vorschaukanal: https://hagen381.github.io/website_dlizkfi/
+# Live-Hosting ist All-Inkl (deploy-allinkl.yml). Laeuft bei jedem Push auf
+# main und erzeugt einen frischen Static Export mit basePath /website_dlizkfi.
+#
+# Die Vorschau darf NIE in Suchmaschinen landen (doppelter Inhalt): der Build
+# setzt bei gesetztem basePath auf jeder Seite noindex und eine robots.txt mit
+# "Disallow: /". Der Schritt "Vorschau pruefen" bricht ab, falls das fehlt.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Node einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Abhaengigkeiten installieren
+        run: npm ci
+
+      - name: GitHub Pages konfigurieren
+        id: pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Static Export bauen (Vorschau)
+        run: npm run build
+        env:
+          NEXT_BUILD_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+
+      - name: Vorschau pruefen (noindex + robots.txt)
+        shell: bash
+        run: |
+          set -euo pipefail
+          fehler=0
+          if ! grep -q 'Disallow: /' out/robots.txt; then
+            echo "::error::robots.txt der Vorschau sperrt nicht alles."
+            fehler=1
+          fi
+          ohne=$(find out -name '*.html' -print0 | xargs -0 grep -L 'name="robots" content="noindex' || true)
+          if [ -n "$ohne" ]; then
+            echo "::error::Diese Vorschau-Seiten haben kein noindex:"
+            echo "$ohne" | sed 's/^/  /'
+            fehler=1
+          fi
+          [ "$fehler" -eq 0 ] && echo "Vorschau ist fuer Suchmaschinen gesperrt."
+          exit $fehler
+
+      - name: Pages-Artefakt hochladen
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Auf GitHub Pages veroeffentlichen
+        id: deployment
+        uses: actions/deploy-pages@v4

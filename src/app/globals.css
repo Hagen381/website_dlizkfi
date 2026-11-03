@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+/* Design-Tokens der Live-Seite (PodView, :root-Variablen und berechnete Stile,
+   siehe docs/original/stile/). Nicht ohne ausdrücklichen Auftrag ändern. */
+:root {
+  --primary: #ffc814;
+  --secondary: #ff7828; /* = accent */
+  --bg: #fefce8;
+  --text: #1a2e05;
+  /* Abgeleitete Töne, an der Live-Seite gemessen: */
+  --surface: #f3f2dd; /* Karten, Fusszeile */
+  --border: #dcddc6;
+  --muted: #5e6c49; /* Nebentext, Navigation (5,4:1 auf --bg) */
+  /* Barrierefreiheit: Gelb bzw. Orange als TEXT auf hellem Grund erreichen
+     keine 4,5:1. Für Text in Akzentfarbe deshalb diese dunkleren Töne. */
+  --primary-text: #8a6100; /* 5,0:1 auf --bg */
+  --secondary-text: #b0430a; /* 5,0:1 auf --bg */
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-bg: var(--bg);
+  --color-text: var(--text);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-primary-text: var(--primary-text);
+  --color-secondary-text: var(--secondary-text);
+
+  --font-heading: var(--font-bricolage), "Bricolage Grotesque", system-ui, sans-serif;
+  --font-body: var(--font-literata), "Literata", Georgia, serif;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-heading);
+    color: var(--color-text);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-secondary-text);
+    outline-offset: 2px;
+  }
+}
+
+/* Shownotes / Fliesstext aus dem Feed bzw. Markdown */
+.prosa p {
+  margin: 0 0 1.25rem;
+}
+.prosa p:last-child {
+  margin-bottom: 0;
+}
+.prosa a {
+  color: var(--color-secondary-text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  overflow-wrap: anywhere;
+}
+.prosa ul,
+.prosa ol {
+  margin: 0 0 1.25rem 1.25rem;
+}
+.prosa ul {
+  list-style: disc;
+}
+.prosa ol {
+  list-style: decimal;
+}
+.prosa h2,
+.prosa h3 {
+  font-weight: 600;
+  margin: 1.75rem 0 0.75rem;
+}
+.prosa h2 {
+  font-size: 1.375rem;
+}
+.prosa h3 {
+  font-size: 1.15rem;
+}
+
+/* Weicher gelber Schein hinter Hero-/Folgenbereich wie auf der Live-Seite */
+.schein {
+  background:
+    radial-gradient(60% 50% at 85% 10%, rgb(255 200 20 / 0.14), transparent 70%),
+    radial-gradient(50% 45% at 5% 90%, rgb(255 120 40 / 0.1), transparent 70%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
