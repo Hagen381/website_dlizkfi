@@ -147,14 +147,21 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
 ## Regeln, die nicht verhandelbar sind
 
 - Erfinde keine Fakten, Zahlen, Adressen oder Zitate. Lieber eine sichtbare
-  Lücke (z. B. „[Mailadresse folgt]", Platzhalter im Impressum).
+  Lücke (z. B. Platzhalter in eckigen Klammern).
 - Zugangsdaten nur in den Secrets, nie im Code.
 - Ein Commit pro abgeschlossenem Teilschritt, aussagekräftige Nachrichten.
 - Mobil zuerst, Tippflächen mindestens 44 px, Kontrast mindestens 4,5:1.
   Gelb/Orange als Textfarbe auf hellem Grund deshalb nur in den dunkleren
   Varianten `text-primary-text` / `text-secondary-text`.
-- Datenschutzerklärung ist ein ENTWURF (sichtbarer Hinweis oben), Impressum
-  ein Gerüst mit Platzhaltern — beides vor dem Live-Gang prüfen lassen.
+- Datenschutzerklärung ist ein ENTWURF (sichtbarer Hinweis „Entwurf – wird
+  geprüft" bleibt, bis sie geprüft ist). Impressum ist ausgefüllt (Juliette
+  Oppel, Anschrift in Thailand, ohne Telefon).
+- Name, Anschrift und Mailadresse stehen NUR in `src/lib/site-config.ts`
+  (`verantwortlich`, `kontaktEmail`); Impressum, Datenschutz und Kontakt lesen
+  von dort (`Anschrift.tsx`, `Mailadresse.tsx`). Die Mailadresse liegt dort in
+  zwei Teilen und wird erst im Browser zum mailto:-Link zusammengesetzt — so
+  steht sie in keiner exportierten Datei am Stück. Nicht als Klartext-String
+  in Seiten schreiben.
 
 ## Automatische Abschluss-Zusammenfassung
 

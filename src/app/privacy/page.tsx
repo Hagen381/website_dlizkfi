@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Anschrift from "@/components/Anschrift";
 import EntwurfHinweis from "@/components/EntwurfHinweis";
 import Mailadresse from "@/components/Mailadresse";
 import Platzhalter from "@/components/Platzhalter";
@@ -23,7 +24,9 @@ export default function Datenschutz() {
 
       <h2>1. Verantwortliche Stelle</h2>
       <p>
-        Verantwortlich für diese Website ist: <Platzhalter>Name und Anschrift folgen – siehe Impressum</Platzhalter>
+        Verantwortlich für diese Website ist:
+        <br />
+        <Anschrift />
         <br />
         E-Mail: <Mailadresse />
       </p>

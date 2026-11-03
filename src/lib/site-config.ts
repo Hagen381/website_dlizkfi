@@ -16,9 +16,18 @@ export const siteConfig = {
     "Raus aus dem Irgendwann: Mein ehrlicher Podcast über Auswandern, Familie und den Mut, wirklich loszugehen. Kennst du diesen Gedanken: Irgendwann mache ich das auch mal?",
   sprache: "de-DE",
   feed: "https://anchor.fm/s/104754158/podcast/rss",
-  // Kontakt-Mailadresse ist noch offen. Solange hier null steht, zeigen
-  // Kontaktseite, Impressum und Datenschutz sichtbar "[Mailadresse folgt]".
-  kontaktEmail: null as string | null,
+  // Kontakt-Mailadresse — bewusst in zwei Teilen: So steht sie nirgends im
+  // Export (HTML, JS, RSC) als zusammenhängende Zeichenkette (leichter Schutz
+  // vor Adress-Sammlern). Angezeigt und verlinkt wird sie über
+  // src/components/Mailadresse.tsx. Kontaktseite, Impressum und Datenschutz
+  // lesen nur von hier. Mit null erscheint sichtbar "[Mailadresse folgt]".
+  kontaktEmail: { name: "dlizkfipodcast", domain: "gmail.com" } as { name: string; domain: string } | null,
+  // Verantwortliche Person für Impressum (§ 5 DDG, § 18 Abs. 2 MStV) und
+  // Datenschutzerklärung. Nur hier pflegen.
+  verantwortlich: {
+    name: "Juliette Oppel",
+    anschrift: ["89/8 Moo 6, Bang Por Soi 3", "Mae Nam Subdistrict", "Koh Samui District", "Surat Thani Province 84330", "Thailand"],
+  },
   // Folgen pro Seite auf /episodes/ (wie bei PodView).
   folgenProSeite: 12,
 } as const;
