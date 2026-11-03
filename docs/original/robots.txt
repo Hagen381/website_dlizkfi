@@ -1,0 +1,11 @@
+# Internal application paths are disallowed for all crawlers.
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /accounts/
+
+# AI / LLM crawlers welcomed by the wildcard rule above:
+# GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-Web, anthropic-ai, PerplexityBot, Perplexity-User, Google-Extended, Applebot-Extended, Amazonbot, Meta-ExternalAgent, Bytespider, cohere-ai, CCBot, DuckAssistBot
+
+Sitemap: https://www.daslebenistzukurzfuerirgendwann.de/sitemap.xml

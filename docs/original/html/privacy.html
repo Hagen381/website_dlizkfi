@@ -1,0 +1,1087 @@
+
+
+<!DOCTYPE html>
+<html lang="de" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Das Leben ist zu kurz für irgendwann - Podcast</title>
+
+    
+    
+    <link rel="icon" href="https://podview-media.nyc3.cdn.digitaloceanspaces.com/podcasts/favicons/dlizkfi-favicon.png" type="image/png">
+    
+
+    <!-- Google Fonts for theme typography -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage%20Grotesque:wght@400;600;700&family=Literata:wght@400;500;600&display=swap" rel="stylesheet">
+    
+
+    <!-- Tailwind CSS (built from tailwind.config.js) -->
+    <link rel="stylesheet" href="/static/css/tailwind.434eee975744.css">
+
+    <!-- Plyr (HLS video player chrome) — pinned-major CDN, matches hls.js/htmx/wavesurfer pattern. Plyr JS itself is lazy-loaded by hls-player.js only when a video exists. -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/plyr@3/dist/plyr.css">
+
+    <!-- HTMX 2.x -->
+    <script src="https://unpkg.com/htmx.org@2.0.4"></script>
+    <script src="/static/js/htmx-csrf.eccf6109b4e5.js" defer></script>
+
+    
+    <script src="https://unpkg.com/wavesurfer.js@7.12.11/dist/wavesurfer.min.js"></script>
+
+    <!-- Theme CSS variables and custom styles -->
+    <style>
+        :root {
+            --color-primary: #ffc814;
+            --color-secondary: #ff7828;
+            --color-background: #FEFCE8;
+            --color-text: #1A2E05;
+            --color-accent: #ff7828;
+            --font-heading: 'Bricolage Grotesque', serif;
+            --font-body: 'Literata', sans-serif;
+        }
+        [x-cloak] { display: none !important; }
+        body {
+            background-color: var(--color-background);
+            color: var(--color-text);
+            font-family: var(--font-body);
+            /* Break long unbreakable tokens (e.g. pasted URL runs in an episode
+               description) so they wrap instead of overflowing horizontally.
+               `anywhere` (not `break-word`) is required: it also shrinks the
+               token's min-content width, so a flex/grid column stops growing to
+               fit it. Inherited, so it applies to all theme text. */
+            overflow-wrap: anywhere;
+        }
+        /* A failed image can paint its alt text outside the replaced element.
+           Keep the accessible alternative while containing its visual fallback. */
+        img { overflow: hidden; }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-heading);
+            /* Headings opt DOWN from the body's `anywhere` to `break-word`. Both
+               still break a word that cannot fit, but `anywhere` also shrinks
+               min-content width, so a display heading in a flex/grid column got a
+               narrow column and then shattered mid-word: "TECH FOUNDER / S /
+               UNPLUGG / ED" on the arena hero. `break-word` leaves min-content
+               alone, so the column sizes to the longest word and only breaks as a
+               last resort. Body text keeps `anywhere` for pasted URL runs. */
+            overflow-wrap: break-word;
+        }
+
+        /* Chaptered player - current chapter highlight */
+        .chaptered-player [data-role="chapter-item"].is-current {
+            background: color-mix(in srgb, var(--color-primary) 12%, transparent);
+        }
+        .chaptered-player [data-role="chapter-item"].is-current > span:last-child {
+            color: var(--color-primary);
+            font-weight: 600;
+        }
+
+        /* Episode detail tabs (dramatic layout). Explicit .is-selected swap avoids
+           aria-selected: variant specificity ties with the base text color. */
+        .episode-tab {
+            color: var(--color-text);
+            opacity: 0.55;
+            border-color: transparent;
+        }
+        .episode-tab:hover {
+            opacity: 0.85;
+        }
+        .episode-tab.is-selected {
+            color: var(--color-accent);
+            opacity: 1;
+            border-color: var(--color-accent);
+        }
+
+        /* Align Tailwind Typography (prose) with theme tokens.
+           RSS descriptions often come as loose text (no <p> wrappers), so the
+           prose container's own color must be the theme text color — otherwise
+           it falls back to the plugin's slate defaults and looks washed out. */
+        .prose,
+        .prose.prose-invert {
+            --tw-prose-body: var(--color-text);
+            --tw-prose-headings: var(--color-text);
+            --tw-prose-lead: var(--color-text);
+            --tw-prose-links: var(--color-primary);
+            --tw-prose-bold: var(--color-text);
+            --tw-prose-counters: color-mix(in srgb, var(--color-text) 70%, var(--color-background));
+            --tw-prose-bullets: color-mix(in srgb, var(--color-text) 50%, var(--color-background));
+            --tw-prose-hr: color-mix(in srgb, var(--color-background) 85%, var(--color-text));
+            --tw-prose-quotes: var(--color-text);
+            --tw-prose-quote-borders: var(--color-primary);
+            --tw-prose-captions: color-mix(in srgb, var(--color-text) 70%, var(--color-background));
+            --tw-prose-code: var(--color-text);
+            --tw-prose-pre-code: var(--color-text);
+            --tw-prose-pre-bg: color-mix(in srgb, var(--color-background) 95%, var(--color-text));
+            --tw-prose-th-borders: color-mix(in srgb, var(--color-background) 85%, var(--color-text));
+            --tw-prose-td-borders: color-mix(in srgb, var(--color-background) 85%, var(--color-text));
+            --tw-prose-invert-body: var(--color-text);
+            --tw-prose-invert-headings: var(--color-text);
+            --tw-prose-invert-lead: var(--color-text);
+            --tw-prose-invert-links: var(--color-primary);
+            --tw-prose-invert-bold: var(--color-text);
+            --tw-prose-invert-counters: color-mix(in srgb, var(--color-text) 70%, var(--color-background));
+            --tw-prose-invert-bullets: color-mix(in srgb, var(--color-text) 50%, var(--color-background));
+            --tw-prose-invert-hr: color-mix(in srgb, var(--color-background) 85%, var(--color-text));
+            --tw-prose-invert-quotes: var(--color-text);
+            --tw-prose-invert-quote-borders: var(--color-primary);
+            --tw-prose-invert-captions: color-mix(in srgb, var(--color-text) 70%, var(--color-background));
+            --tw-prose-invert-code: var(--color-text);
+            --tw-prose-invert-pre-code: var(--color-text);
+            --tw-prose-invert-pre-bg: color-mix(in srgb, var(--color-background) 95%, var(--color-text));
+            --tw-prose-invert-th-borders: color-mix(in srgb, var(--color-background) 85%, var(--color-text));
+            --tw-prose-invert-td-borders: color-mix(in srgb, var(--color-background) 85%, var(--color-text));
+            font-family: var(--font-body);
+        }
+        .prose :where(h1, h2, h3, h4, h5, h6):not(:where([class~="not-prose"] *)) {
+            font-family: var(--font-heading);
+        }
+
+        
+        
+    </style>
+
+    
+    
+
+
+
+
+<link rel="canonical" href="https://www.daslebenistzukurzfuerirgendwann.de/privacy/">
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Das Leben ist zu kurz für irgendwann - Podcast" href="https://anchor.fm/s/104754158/podcast/rss">
+
+
+
+
+<meta name="description" content="Raus aus dem Irgendwann: Mein ehrlicher Podcast über Auswandern, Familie und den Mut, wirklich loszugehen Kennst du diesen Gedanken: Irgendwann mache ich das...">
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Das Leben ist zu kurz für irgendwann - Podcast">
+<meta property="og:title" content="Das Leben ist zu kurz für irgendwann - Podcast">
+
+<meta property="og:description" content="Raus aus dem Irgendwann: Mein ehrlicher Podcast über Auswandern, Familie und den Mut, wirklich loszugehen Kennst du diesen Gedanken: Irgendwann mache ich das...">
+
+
+<meta property="og:image" content="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/43597606/43597606-1746338065663-e86d61f96be92.jpg">
+<meta property="og:image:alt" content="Das Leben ist zu kurz für irgendwann - Podcast">
+
+<meta property="og:url" content="https://www.daslebenistzukurzfuerirgendwann.de/privacy/">
+<meta property="og:locale" content="de_DE">
+
+
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Das Leben ist zu kurz für irgendwann - Podcast">
+
+<meta name="twitter:description" content="Raus aus dem Irgendwann: Mein ehrlicher Podcast über Auswandern, Familie und den Mut, wirklich loszugehen Kennst du diesen Gedanken: Irgendwann mache ich das...">
+
+
+<meta name="twitter:image" content="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/43597606/43597606-1746338065663-e86d61f96be92.jpg">
+
+
+
+
+
+<meta name="apple-itunes-app" content="app-id=525463029">
+
+
+
+
+
+
+
+    
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    
+
+    
+    
+</head>
+<body class="h-full antialiased">
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    <div class="min-h-full">
+        
+        
+
+        
+        
+        
+        
+
+<nav class="bg-theme-bg">
+    <div class="mx-auto max-w-7xl px-6 py-6">
+        <div class="flex items-center justify-between gap-4" data-nav-row="minimal">
+            
+            <a href="/" class="min-w-0 shrink md:max-w-xs md:shrink-0" data-nav-brand><img src="https://podview-media.nyc3.cdn.digitaloceanspaces.com/podcasts/logos/Podcast_Cover.png" alt="Das Leben ist zu kurz für irgendwann - Podcast" class="h-8 w-auto max-w-48 object-contain"></a>
+            
+            <div class="hidden shrink-0 items-center gap-6 md:flex">
+                <a href="/episodes/" class="shrink-0 whitespace-nowrap text-sm text-theme-text-muted transition hover:text-theme-text" data-nav-inline-link>Folgen</a><a href="/about/" class="shrink-0 whitespace-nowrap text-sm text-theme-text-muted transition hover:text-theme-text" data-nav-inline-link>Über</a><a href="/contact/" class="shrink-0 whitespace-nowrap text-sm text-theme-text-muted transition hover:text-theme-text" data-nav-inline-link>Kontakt</a><a href="/follow/" class="shrink-0 whitespace-nowrap text-sm text-theme-text-muted transition hover:text-theme-text" data-nav-inline-link>Abonnieren</a>
+            </div>
+            <button type="button" id="minimal-menu-toggle" class="flex h-11 w-11 shrink-0 items-center justify-center rounded-md text-theme-text-muted transition hover:bg-theme-border/50 hover:text-theme-text" aria-expanded="false" aria-controls="minimal-menu-panel" aria-haspopup="dialog">
+                <span class="sr-only">Menü öffnen</span>
+                <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" width="24" height="24" class="h-5 w-5">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+</svg>
+            </button>
+        </div>
+    </div>
+</nav>
+
+
+<div id="minimal-menu-overlay" class="fixed inset-0 z-[60] hidden" aria-hidden="true">
+    <button type="button" class="absolute inset-0 bg-black/60 backdrop-blur-sm" data-nav-dismiss aria-label="Close navigation"></button>
+    <div id="minimal-menu-panel" role="dialog" aria-modal="true" aria-label="Navigation"
+         class="absolute inset-x-0 bottom-0 flex max-h-[80vh] w-full translate-y-full flex-col overflow-hidden rounded-t-2xl border-t border-theme-border bg-theme-surface text-theme-text shadow-2xl transition-transform duration-200 md:inset-y-0 md:left-auto md:right-0 md:max-h-none md:w-96 md:translate-x-full md:translate-y-0 md:rounded-none md:border-l md:border-t-0">
+        <div class="flex items-center justify-between gap-3 border-b border-theme-border px-5 py-4">
+            <span class="min-w-0 truncate font-heading text-base font-bold text-theme-primary">Das Leben ist zu kurz für irgendwann - Podcast</span>
+            <button type="button" class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-theme-text-muted transition hover:bg-theme-border/50 hover:text-theme-text" data-nav-dismiss aria-label="Close navigation">
+                <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" width="24" height="24" class="h-5 w-5">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+</svg>
+            </button>
+        </div>
+        <div class="min-h-0 flex-1 overflow-y-auto overscroll-contain p-3">
+            
+            
+            
+            <a href="/episodes/" class="flex min-h-11 items-center rounded-lg px-4 py-3 text-base font-medium text-theme-text transition hover:bg-theme-border/50 md:hidden" data-nav-link data-nav-overflow-index="0">
+                Folgen
+            </a>
+            
+            
+            
+            <a href="/about/" class="flex min-h-11 items-center rounded-lg px-4 py-3 text-base font-medium text-theme-text transition hover:bg-theme-border/50 md:hidden" data-nav-link data-nav-overflow-index="1">
+                Über
+            </a>
+            
+            
+            
+            <a href="/contact/" class="flex min-h-11 items-center rounded-lg px-4 py-3 text-base font-medium text-theme-text transition hover:bg-theme-border/50 md:hidden" data-nav-link data-nav-overflow-index="2">
+                Kontakt
+            </a>
+            
+            
+            
+            <a href="/follow/" class="flex min-h-11 items-center rounded-lg px-4 py-3 text-base font-medium text-theme-text transition hover:bg-theme-border/50 md:hidden" data-nav-link data-nav-overflow-index="3">
+                Abonnieren
+            </a>
+            
+            
+        </div>
+    </div>
+</div>
+<script>
+(function () {
+    const toggle = document.getElementById('minimal-menu-toggle');
+    const overlay = document.getElementById('minimal-menu-overlay');
+    const panel = document.getElementById('minimal-menu-panel');
+    const row = document.querySelector('[data-nav-row="minimal"]');
+    if (!toggle || !overlay || !panel || !row) return;
+
+    // The toggle carries `flex`, and an author-stylesheet class beats the UA's
+    // [hidden] rule — setting the hidden property leaves it on screen, opening an
+    // empty drawer. Inline style is the only form that wins here.
+    function setToggleVisible(visible) {
+        toggle.style.display = visible ? '' : 'none';
+    }
+
+    function syncOverflow() {
+        const inlineLinks = [...row.querySelectorAll('[data-nav-inline-link]')];
+        const overflowLinks = [...panel.querySelectorAll('[data-nav-overflow-index]')];
+        inlineLinks.forEach((link) => { link.hidden = false; });
+        overflowLinks.forEach((link) => { link.classList.add('md:hidden'); });
+
+        if (!window.matchMedia('(min-width: 768px)').matches) {
+            setToggleVisible(true);
+            return;
+        }
+
+        setToggleVisible(false);
+        for (let index = inlineLinks.length - 1; row.scrollWidth > row.clientWidth && index >= 0; index -= 1) {
+            inlineLinks[index].hidden = true;
+            overflowLinks[index]?.classList.remove('md:hidden');
+            setToggleVisible(true);
+        }
+    }
+
+    // The overlay is hidden only after the close transition. Reopening inside that
+    // window must cancel it, or the drawer vanishes while it still holds the scroll lock.
+    let hideTimer = null;
+
+    function openMenu() {
+        window.clearTimeout(hideTimer);
+        overlay.classList.remove('hidden');
+        overlay.setAttribute('aria-hidden', 'false');
+        toggle.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+        requestAnimationFrame(() => {
+            panel.classList.remove('translate-y-full');
+            panel.classList.remove('md:translate-x-full');
+            const firstVisibleLink = [...panel.querySelectorAll('[data-nav-link]')]
+                .find((link) => link.offsetParent !== null);
+            firstVisibleLink?.focus();
+        });
+    }
+
+    function closeMenu({ restoreFocus = true } = {}) {
+        if (toggle.getAttribute('aria-expanded') !== 'true') return;
+        panel.classList.add('translate-y-full');
+        panel.classList.add('md:translate-x-full');
+        toggle.setAttribute('aria-expanded', 'false');
+        overlay.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+        hideTimer = window.setTimeout(() => overlay.classList.add('hidden'), 200);
+        if (restoreFocus) toggle.focus();
+    }
+
+    // The panel says aria-modal, so focus has to actually stay inside it.
+    function focusables() {
+        return [...panel.querySelectorAll('a[href], button')].filter((el) => el.offsetParent !== null);
+    }
+
+    // Owners type nav URLs by hand, so a fragment need not be valid percent-encoding
+    // (`#50%-off`); decodeURIComponent throws on that, the browser just uses it raw.
+    function fragmentId(hash) {
+        const raw = hash.slice(1);
+        try {
+            return decodeURIComponent(raw);
+        } catch {
+            return raw;
+        }
+    }
+
+    toggle.addEventListener('click', openMenu);
+    overlay.querySelectorAll('[data-nav-dismiss]').forEach((element) => element.addEventListener('click', () => closeMenu()));
+    // Choosing a link doesn't always reload the page: "Keep playing while browsing"
+    // boosts it into a swap of the content region, which keeps this nav in the DOM,
+    // and an in-page anchor never leaves at all. Either way the drawer (and its
+    // scroll lock) would stay up over the destination. A new-tab link (target or
+    // modifier) leaves this page as it was.
+    panel.addEventListener('click', (event) => {
+        const link = event.target.closest('[data-nav-link]');
+        if (!link || link.target === '_blank' || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+        closeMenu({ restoreFocus: false });
+        // Focus follows the link, never stays on it inside the hidden drawer. A boosted
+        // swap re-homes it (pv-boost-nav.js); an in-page jump has to be done here.
+        const inPage = link.origin === location.origin && link.pathname === location.pathname && link.hash;
+        const destination = inPage && document.getElementById(fragmentId(link.hash));
+        if (!destination) return;
+        if (!destination.hasAttribute('tabindex')) destination.setAttribute('tabindex', '-1');
+        destination.focus({ preventScroll: true });
+    });
+    window.addEventListener('keydown', (event) => {
+        if (toggle.getAttribute('aria-expanded') !== 'true') return;
+        if (event.key === 'Escape') {
+            closeMenu();
+            return;
+        }
+        if (event.key !== 'Tab') return;
+
+        const items = focusables();
+        if (!items.length) return;
+        const first = items[0];
+        const last = items[items.length - 1];
+        if (!panel.contains(document.activeElement)) {
+            event.preventDefault();
+            first.focus();
+        } else if (event.shiftKey && document.activeElement === first) {
+            event.preventDefault();
+            last.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+            event.preventDefault();
+            first.focus();
+        }
+    });
+    // The Browse menu is a native <details>, so nothing closes it on its own: a
+    // click elsewhere, Escape, or a boosted page swap that keeps this nav in the
+    // DOM would all leave the panel hanging open over the new page.
+    function closeDropdowns(except) {
+        row.querySelectorAll('[data-nav-dropdown][open]').forEach((dropdown) => {
+            if (dropdown !== except) dropdown.open = false;
+        });
+    }
+
+    document.addEventListener('click', (event) => {
+        const inside = event.target.closest?.('[data-nav-dropdown]');
+        closeDropdowns(inside && row.contains(inside) ? inside : null);
+    });
+    window.addEventListener('keydown', (event) => {
+        if (event.key !== 'Escape') return;
+        const open = row.querySelector('[data-nav-dropdown][open]');
+        if (!open) return;
+        open.open = false;
+        open.querySelector('summary')?.focus();
+    });
+
+    // Every way the page changes while this nav stays in the DOM. A boosted swap
+    // targets the region htmx restores history into — base.html marks it
+    // hx-history-elt exactly when the player is on, the same signal pv-boost-nav.js
+    // keys on — so fragment swaps inside it are not navigations. Back/Forward never
+    // fires beforeSwap (htmx restores the region and fires only htmx:historyRestore),
+    // so popstate catches it, along with in-page hash history. Focus is not ours to
+    // move here: pv-boost-nav.js re-homes it on arrival, and a fragment traversal
+    // lets the browser place it.
+    const isHistoryRegion = (element) => element?.matches?.('[hx-history-elt]') ?? false;
+    function onPageChange() {
+        closeDropdowns(null);
+        closeMenu({ restoreFocus: false });
+    }
+    document.body.addEventListener('htmx:beforeSwap', (event) => {
+        if (isHistoryRegion(event.detail?.target)) onPageChange();
+    });
+    window.addEventListener('popstate', onPageChange);
+
+    // Crossing a breakpoint can reveal links whose final font/image dimensions
+    // settle after the resize callback. Refit when the rendered row changes,
+    // including its children: the row itself can stay the same width while its
+    // links grow and push the menu button out of view.
+    let overflowFrame = null;
+    function scheduleOverflow() {
+        if (overflowFrame !== null) return;
+        overflowFrame = requestAnimationFrame(() => {
+            overflowFrame = null;
+            syncOverflow();
+        });
+    }
+    if (window.ResizeObserver) {
+        const observer = new ResizeObserver(scheduleOverflow);
+        observer.observe(row);
+        [...row.children].forEach((child) => observer.observe(child));
+    }
+    window.addEventListener('resize', scheduleOverflow);
+    document.fonts?.addEventListener('loadingdone', scheduleOverflow);
+    document.fonts?.ready.then(scheduleOverflow);
+    syncOverflow();
+})();
+</script>
+
+
+<style data-pv-player-offset>
+    /* A FLOW SPACER, not `padding-bottom` on the body. `<body class="h-full">` is
+       `height: 100%` and Tailwind's preflight makes everything `border-box`, so
+       body padding is consumed by that fixed height and reserves exactly nothing —
+       the footer's last link sat under the bar with a 157px "reserve" in the
+       computed styles. Found in browser QA; it also silently defeated `floating`'s
+       own 6rem mobile clearance, which had shipped that way. A block-level ::after
+       is a real child in normal flow, so it extends the scrollable content. */
+    body::after {
+        content: "";
+        display: block;
+        height: var(--pv-player-offset, 0px);
+        /* Matches the bar's own 200ms rise, so the page does not jolt open under it. */
+        transition: height 200ms ease-out;
+    }
+    @media (prefers-reduced-motion: reduce) {
+        body::after { transition: none; }
+    }
+
+</style>
+
+
+        
+
+        
+        
+        <main id="pv-public-content" tabindex="-1">
+            
+<div class="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+    <article class="bg-theme-surface rounded-xl shadow-sm border border-theme-border overflow-hidden">
+        <div class="p-6 sm:p-10">
+            <header class="mb-10">
+                <h1 class="text-3xl font-bold text-theme-text font-heading">Privacy Policy</h1>
+                <p class="mt-2 text-sm text-theme-text-muted">Last updated: June 7, 2026</p>
+            </header>
+
+            <div class="space-y-8 text-theme-text">
+                
+                <section>
+                    <h2 class="text-xl font-semibold text-theme-text font-heading mb-3">Introduction</h2>
+                    <p class="text-theme-text-muted leading-relaxed">
+                        This privacy policy explains how Das Leben ist zu kurz für irgendwann - Podcast ("we", "us", or "our") collects, uses, and protects
+                        information when you visit our website.
+                    </p>
+                </section>
+
+                
+                <section>
+                    <h2 class="text-xl font-semibold text-theme-text font-heading mb-3">Information We Collect</h2>
+                    <p class="text-theme-text-muted leading-relaxed mb-4">We may collect the following types of information:</p>
+                    <ul class="list-disc list-outside ml-5 space-y-2 text-theme-text-muted">
+                        <li><strong class="text-theme-text">Usage Data:</strong> Information about how you interact with our website, including pages visited, time spent on pages, and navigation paths.</li>
+                        <li><strong class="text-theme-text">Device Information:</strong> Technical information about your device, browser type, and operating system.</li>
+                        
+                        <li><strong class="text-theme-text">Approximate Location:</strong> Your country, derived from your network connection without storing your IP address.</li>
+                        
+                        
+                        
+                    </ul>
+                </section>
+
+                
+                <section>
+                    <h2 class="text-xl font-semibold text-theme-text font-heading mb-3">Cookies and Tracking Technologies</h2>
+                    <p class="text-theme-text-muted leading-relaxed">
+                        We may use cookies and similar technologies to improve your experience on our website.
+                        Cookies are small text files stored on your device that help us understand how you use our site.
+                        
+                        Our own visit analytics (described below) are <strong class="text-theme-text">cookieless</strong> and store nothing on your device.
+                        
+                    </p>
+                    
+
+                    <h3 class="text-lg font-medium text-theme-text font-heading mt-6 mb-3">Types of Cookies We Use</h3>
+                    <ul class="list-disc list-outside ml-5 space-y-2 text-theme-text-muted">
+                        <li><strong class="text-theme-text">Essential Cookies:</strong> Required for the website to function properly.</li>
+                        
+                    </ul>
+                </section>
+
+                
+                
+                <section>
+                    <h2 class="text-xl font-semibold text-theme-text font-heading mb-3">Site Analytics</h2>
+                    <p class="text-theme-text-muted leading-relaxed mb-4">
+                        This site uses privacy-friendly, cookieless analytics provided by our hosting platform, PodView,
+                        on the site owner's behalf. This measurement does <strong class="text-theme-text">not</strong> use cookies,
+                        does <strong class="text-theme-text">not</strong> store your IP address, and does
+                        <strong class="text-theme-text">not</strong> track you across other websites. It cannot be used to identify you.
+                    </p>
+                    <p class="text-theme-text-muted leading-relaxed mb-4">For each visit we record, in aggregate only:</p>
+                    <ul class="list-disc list-outside ml-5 space-y-2 text-theme-text-muted mb-4">
+                        <li>the page you viewed</li>
+                        <li>the website that referred you, as a domain only (for example, "google.com")</li>
+                        <li>your approximate location (country), derived without storing your IP address</li>
+                        <li>your device type (mobile, tablet, or desktop)</li>
+                    </ul>
+                    <p class="text-theme-text-muted leading-relaxed">
+                        We use this solely to produce aggregate visit statistics for the site owner. The data is anonymous
+                        and is never sold or shared for marketing.
+                    </p>
+                </section>
+                
+
+                
+                <section>
+                    <h2 class="text-xl font-semibold text-theme-text font-heading mb-3">How We Use Your Information</h2>
+                    <p class="text-theme-text-muted leading-relaxed mb-4">We use the collected information to:</p>
+                    <ul class="list-disc list-outside ml-5 space-y-2 text-theme-text-muted">
+                        <li>Improve and optimize our website content and user experience</li>
+                        <li>Understand how visitors navigate and interact with our site</li>
+                        <li>Analyze trends and gather demographic information about our audience</li>
+                        
+                    </ul>
+                </section>
+
+                
+                
+
+                
+                <section>
+                    <h2 class="text-xl font-semibold text-theme-text font-heading mb-3">Data Sharing</h2>
+                    <p class="text-theme-text-muted leading-relaxed">
+                        We do not sell your personal information. We may share aggregated, non-personally identifiable
+                        information with third-party analytics providers to help us analyze website traffic.
+                    </p>
+                </section>
+
+                
+                
+
+                
+                <section>
+                    <h2 class="text-xl font-semibold text-theme-text font-heading mb-3">Your Rights</h2>
+                    <p class="text-theme-text-muted leading-relaxed mb-4">Depending on your location, you may have certain rights regarding your personal data, including:</p>
+                    <ul class="list-disc list-outside ml-5 space-y-2 text-theme-text-muted">
+                        <li>The right to access the personal data we hold about you</li>
+                        <li>The right to request correction of inaccurate data</li>
+                        <li>The right to request deletion of your data</li>
+                        <li>The right to withdraw consent at any time</li>
+                    </ul>
+                </section>
+
+                
+                <section>
+                    <h2 class="text-xl font-semibold text-theme-text font-heading mb-3">Managing Cookies</h2>
+                    <p class="text-theme-text-muted leading-relaxed mb-4">
+                        You can control cookies through your browser settings. Most browsers allow you to:
+                    </p>
+                    <ul class="list-disc list-outside ml-5 space-y-2 text-theme-text-muted mb-4">
+                        <li>View what cookies are stored and delete them individually</li>
+                        <li>Block third-party cookies</li>
+                        <li>Block cookies from specific sites</li>
+                        <li>Block all cookies</li>
+                        <li>Delete all cookies when you close your browser</li>
+                    </ul>
+                    <p class="text-theme-text-muted leading-relaxed">
+                        Please note that blocking cookies may affect the functionality of some websites.
+                    </p>
+                </section>
+
+                
+                <section>
+                    <h2 class="text-xl font-semibold text-theme-text font-heading mb-3">Changes to This Policy</h2>
+                    <p class="text-theme-text-muted leading-relaxed">
+                        We may update this privacy policy from time to time. Any changes will be posted on this page
+                        with an updated revision date.
+                    </p>
+                </section>
+
+                
+                <section>
+                    <h2 class="text-xl font-semibold text-theme-text font-heading mb-3">Contact Us</h2>
+                    <p class="text-theme-text-muted leading-relaxed">
+                        If you have questions about this privacy policy or our data practices, please
+                        <a href="/contact/" class="text-theme-primary hover:opacity-80 transition">contact us</a>.
+                    </p>
+                </section>
+            </div>
+        </div>
+    </article>
+</div>
+
+
+            
+            
+
+<script>
+  (function () {
+    var site = "547:APGat9p8ntGEJa1LLz\u002DmQE8G4FMScdBRxqbtAqoOYjs";
+    // A swapped-in script runs after the document has loaded: that is a boosted
+    // navigation, whose document.referrer is still the original landing referrer.
+    var boosted = document.readyState === "complete";
+    function navId() {
+      try {
+        return crypto.randomUUID();
+      } catch (e) {
+        return "n" + Date.now().toString(16) + Math.random().toString(16).slice(2, 14);
+      }
+    }
+    var nav = navId();
+    function send() {
+      try {
+        // Read location at send time: on a boosted navigation htmx may push the
+        // new URL only after this swapped-in script has run.
+        var payload = JSON.stringify({
+          site: site,
+          nav: nav,
+          path: location.pathname,
+          ref: boosted ? "" : document.referrer,
+          qs: location.search
+        });
+        navigator.sendBeacon("/_pv", new Blob([payload], { type: "application/json" }));
+      } catch (e) {
+        /* best-effort: a blocked/failed beacon simply means this view goes uncounted */
+      }
+    }
+    if (boosted) {
+      setTimeout(send, 50); // after htmx's swap + settle (default settleDelay 20ms)
+    } else {
+      window.addEventListener("load", send, { once: true });
+    }
+  })();
+</script>
+
+
+
+            
+            
+
+            
+            
+        </main>
+
+        
+        
+        
+
+
+
+
+
+<footer class="mt-auto border-t border-theme-border bg-theme-surface">
+    <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 gap-10 md:grid-cols-3 md:gap-12">
+            
+            <div class="min-w-0">
+                
+                <img src="https://podview-media.nyc3.cdn.digitaloceanspaces.com/podcasts/logos/Podcast_Cover.png" alt="Das Leben ist zu kurz für irgendwann - Podcast" class="mb-4 h-10 w-auto">
+                
+                <p class="mt-3 max-w-xs text-sm leading-relaxed text-theme-text-muted">
+                    Raus aus dem Irgendwann: Mein ehrlicher Podcast über Auswandern, Familie und den Mut, wirklich loszugehen Kennst du diesen Gedanken: Irgendwann …
+                </p>
+                
+            </div>
+
+            
+            <div class="min-w-0">
+                <h2 class="text-sm font-semibold uppercase tracking-wider text-theme-text">Anhören</h2>
+                <nav class="mt-4 grid grid-cols-2 gap-x-6 gap-y-1 md:grid-cols-1 md:gap-y-2">
+                    <a href="/" class="tap-target-mobile text-sm text-theme-text-muted transition-colors hover:text-theme-primary">Startseite</a>
+                    <a href="/episodes/" class="tap-target-mobile text-sm text-theme-text-muted transition-colors hover:text-theme-primary">Folgen</a>
+                    <a href="/about/" class="tap-target-mobile text-sm text-theme-text-muted transition-colors hover:text-theme-primary">Über</a>
+                    <a href="/follow/" class="tap-target-mobile text-sm text-theme-text-muted transition-colors hover:text-theme-primary">Abonnieren</a>
+                    
+                    
+
+
+                </nav>
+            </div>
+
+            
+            
+            <div class="min-w-0">
+                <h2 class="text-sm font-semibold uppercase tracking-wider text-theme-text">Abonnieren</h2>
+                <nav class="mt-4 grid grid-cols-2 gap-x-4 gap-y-2">
+                    
+                    <a href="https://podcasts.apple.com/podcast/id1821004400" target="_blank" rel="noopener"
+                       class="tap-target-mobile inline-flex items-center gap-2 text-sm text-theme-text-muted transition-colors hover:text-theme-primary">
+                        
+
+
+<img src="/static/images/platform-logos/apple.81fb483bafac.svg" alt="" class="w-4 h-4 rounded shrink-0" loading="lazy">
+
+
+                        <span class="truncate">Apple Podcasts</span>
+                    </a>
+                    
+                    <a href="https://castbox.fm/vic/1821004400" target="_blank" rel="noopener"
+                       class="tap-target-mobile inline-flex items-center gap-2 text-sm text-theme-text-muted transition-colors hover:text-theme-primary">
+                        
+
+
+<img src="/static/images/platform-logos/castbox.b6404094c983.svg" alt="" class="w-4 h-4 rounded shrink-0" loading="lazy">
+
+
+                        <span class="truncate">Castbox</span>
+                    </a>
+                    
+                    <a href="https://castro.fm/itunes/1821004400" target="_blank" rel="noopener"
+                       class="tap-target-mobile inline-flex items-center gap-2 text-sm text-theme-text-muted transition-colors hover:text-theme-primary">
+                        
+
+
+<img src="/static/images/platform-logos/castro.932428c9f6cf.svg" alt="" class="w-4 h-4 rounded shrink-0" loading="lazy">
+
+
+                        <span class="truncate">Castro</span>
+                    </a>
+                    
+                    <a href="https://www.goodpods.com/podcasts-aid/1821004400" target="_blank" rel="noopener"
+                       class="tap-target-mobile inline-flex items-center gap-2 text-sm text-theme-text-muted transition-colors hover:text-theme-primary">
+                        
+
+
+<img src="/static/images/platform-logos/goodpods.d8bfe98d88ce.svg" alt="" class="w-4 h-4 rounded shrink-0" loading="lazy">
+
+
+                        <span class="truncate">Goodpods</span>
+                    </a>
+                    
+                    <a href="https://moon.fm/itunes/1821004400" target="_blank" rel="noopener"
+                       class="tap-target-mobile inline-flex items-center gap-2 text-sm text-theme-text-muted transition-colors hover:text-theme-primary">
+                        
+
+
+<img src="/static/images/platform-logos/moonfm.993f7bbd4ed7.svg" alt="" class="w-4 h-4 rounded shrink-0" loading="lazy">
+
+
+                        <span class="truncate">Moon FM</span>
+                    </a>
+                    
+                    <a href="https://overcast.fm/itunes1821004400" target="_blank" rel="noopener"
+                       class="tap-target-mobile inline-flex items-center gap-2 text-sm text-theme-text-muted transition-colors hover:text-theme-primary">
+                        
+
+
+<img src="/static/images/platform-logos/overcast.7dd3d35b2224.svg" alt="" class="w-4 h-4 rounded shrink-0" loading="lazy">
+
+
+                        <span class="truncate">Overcast</span>
+                    </a>
+                    
+                    
+
+<a href="/follow/" class="tap-target-mobile inline-flex items-center gap-1.5 col-span-2 text-sm text-theme-text-muted transition-colors hover:text-theme-primary">
+    <span>Alle Podcast-Apps</span>
+    <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" width="24" height="24" class="h-3.5 w-3.5 shrink-0">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+</svg>
+</a>
+
+
+                </nav>
+            </div>
+            
+        </div>
+
+        
+        
+
+
+
+
+        
+        <div class="mt-10 flex flex-col items-center justify-center gap-2 border-t border-theme-border pt-6 text-xs text-theme-text-subtle sm:flex-row sm:gap-4">
+            <p>
+                 &copy; Das Leben ist zu kurz für irgendwann - Podcast.
+                
+
+
+
+
+
+Erstellt mit <a href="https://podview.com/?ref=site&amp;s=dlizkfi" class="text-theme-primary transition-opacity hover:opacity-80">PodView</a>. <a href="https://podseo.com/?ref=site&amp;s=dlizkfi" class="text-theme-primary transition-opacity hover:opacity-80">Podcast-SEO verbessern</a>
+
+            </p>
+            <span aria-hidden="true" class="hidden sm:inline">·</span>
+            <a href="/privacy/" class="tap-target-mobile transition-colors hover:text-theme-primary">Datenschutzerklärung</a>
+        </div>
+    </div>
+</footer>
+
+        
+
+    </div>
+    
+    
+    
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+<div id="pv-showcase-modal" hidden role="dialog" aria-modal="true" aria-labelledby="pv-showcase-modal-title">
+    <style>
+        #pv-showcase-modal[hidden] { display: none !important; }
+        #pv-showcase-modal {
+            position: fixed; inset: 0; z-index: 2147483000;
+            display: flex; align-items: center; justify-content: center;
+            background: rgba(0, 0, 0, 0.6); backdrop-filter: blur(4px);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            animation: pv-fade-in 240ms ease-out;
+        }
+        @keyframes pv-fade-in { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes pv-pop-in {
+            from { opacity: 0; transform: translateY(20px) scale(0.96); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+        #pv-showcase-modal .pv-card {
+            position: relative;
+            max-width: 440px; width: calc(100% - 32px);
+            background: #ffffff; color: #111827;
+            border-radius: 16px; padding: 32px 28px 28px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+            animation: pv-pop-in 280ms cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        #pv-showcase-modal .pv-close {
+            position: absolute; top: 12px; right: 12px;
+            width: 32px; height: 32px; border: 0; border-radius: 50%;
+            background: transparent; cursor: pointer; color: #6b7280;
+            font-size: 20px; line-height: 1; display: flex;
+            align-items: center; justify-content: center;
+        }
+        #pv-showcase-modal .pv-close:hover { background: #f3f4f6; color: #111827; }
+        #pv-showcase-modal .pv-eyebrow {
+            font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
+            text-transform: uppercase; color: #f97316; margin-bottom: 12px;
+        }
+        #pv-showcase-modal h2 {
+            margin: 0 0 12px; font-size: 24px; font-weight: 700;
+            line-height: 1.2; color: #111827;
+        }
+        #pv-showcase-modal p {
+            margin: 0 0 24px; font-size: 15px; line-height: 1.55;
+            color: #4b5563;
+        }
+        #pv-showcase-modal .pv-cta {
+            display: inline-flex; align-items: center; justify-content: center;
+            width: 100%; padding: 14px 20px;
+            background: #f97316; color: #fff;
+            border-radius: 10px; text-decoration: none;
+            font-size: 15px; font-weight: 600;
+            transition: background 160ms ease;
+        }
+        #pv-showcase-modal .pv-cta:hover { background: #ea580c; }
+        #pv-showcase-modal .pv-fineprint {
+            margin-top: 14px; font-size: 12px; color: #9ca3af; text-align: center;
+        }
+    </style>
+    <div class="pv-card" role="document">
+        <button type="button" class="pv-close" aria-label="Close" data-pv-dismiss>&times;</button>
+        <div class="pv-eyebrow">Built with PodView</div>
+        <h2 id="pv-showcase-modal-title">Want a podcast site like this?</h2>
+        <p>Build your own in under 5 minutes. Preview before you sign up — no credit card needed.</p>
+        <a class="pv-cta"
+           href="https://podview.com/onboarding/get-started/?utm_source=podview&utm_medium=showcase_modal&utm_campaign=showcase"
+           data-pv-cta
+           rel="noopener">
+            Create your free site &rarr;
+        </a>
+        <div class="pv-fineprint">Powered by PodView</div>
+    </div>
+</div>
+<script>
+(function () {
+    var STORAGE_KEY = "pv_showcase_modal_seen";
+    var DELAY_MS = 25000;
+    var SCROLL_THRESHOLD = 0.5;
+
+    try {
+        var params = new URLSearchParams(window.location.search);
+        if (params.get("ref") !== "showcase") return;
+        if (window.localStorage && window.localStorage.getItem(STORAGE_KEY)) return;
+    } catch (e) {
+        return;
+    }
+
+    var modal = document.getElementById("pv-showcase-modal");
+    if (!modal) return;
+
+    var shown = false;
+    function show() {
+        if (shown) return;
+        shown = true;
+        modal.hidden = false;
+        document.body.style.overflow = "hidden";
+        try { window.localStorage.setItem(STORAGE_KEY, "1"); } catch (e) {}
+    }
+    function dismiss() {
+        modal.hidden = true;
+        document.body.style.overflow = "";
+        window.removeEventListener("scroll", onScroll);
+        window.removeEventListener("keydown", onKey);
+        if (timer) clearTimeout(timer);
+    }
+    function onScroll() {
+        var top = window.pageYOffset || document.documentElement.scrollTop;
+        var docH = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight) - window.innerHeight;
+        if (docH > 0 && top / docH >= SCROLL_THRESHOLD) show();
+    }
+    function onKey(e) { if (e.key === "Escape") dismiss(); }
+
+    modal.addEventListener("click", function (e) {
+        if (e.target === modal) dismiss();
+        if (e.target.closest("[data-pv-dismiss]")) dismiss();
+        if (e.target.closest("[data-pv-cta]")) {
+            // Keep the modal flag set; visitor heading off-site.
+            try { window.localStorage.setItem(STORAGE_KEY, "1"); } catch (err) {}
+        }
+    });
+
+    var timer = setTimeout(show, DELAY_MS);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("keydown", onKey);
+})();
+</script>
+
+
+    
+
+    
+    
+
+    
+    <p class="sr-only" aria-live="polite" data-pv-route-announce></p>
+
+    <script src="/static/js/transcript-toggle.2caf56525409.js"></script>
+    <script src="/static/js/pv-boost-nav.dc30d8e72e6b.js" defer></script>
+    <script src="/static/js/chapter_seek.df6e32ab809f.js" defer></script>
+    <script src="/static/js/chaptered_player.20b62baf4764.js" defer></script>
+    <script src="/static/js/hls-player.7e1cd4eb69de.js" defer></script>
+    <script src="/static/js/episode_tabs.a0e8bc4376fd.js" defer></script>
+    <script src="/static/js/host-player.a243d8a07ae2.js" defer></script>
+    <script src="/static/js/pv-hero-motion.2f219bb77669.js" defer></script>
+    
+    <!-- email-signup-guard-hydrator:start -->
+    <template id="email-signup-bot-fields-template">
+        
+<!-- email-signup-bot-fields:start -->
+<div aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden;">
+    <label>
+        Website
+        <input type="text"
+               name="website"
+               value=""
+               tabindex="-1"
+               autocomplete="off">
+    </label>
+</div>
+<input type="hidden" name="signup_timing_token" value="eyJpc3N1ZWRfYXQiOjE3OTM2NzMzOTQuOTE1MDQyNn0:1xO4O2:4j15PAXK2Lur7IicoKgFec3VpsoZOd9bS6yda3vLuXY">
+
+<input type="hidden" name="cf-turnstile-response" value="">
+
+<iframe class="email-signup-turnstile-frame"
+        data-src="https://podview.com/_turnstile/email-signup/?embed=Imh0dHBzOi8vd3d3LmRhc2xlYmVuaXN0enVrdXJ6ZnVlcmlyZ2VuZHdhbm4uZGUi%3A1xO4O2%3A6hI93yDIiAQIHZJ8P8yqwclotpqD4kE8uJUPm1TTYZ4"
+        title="Security verification"
+        scrolling="no"
+        style="position:absolute;width:1px;height:1px;border:0;clip-path:inset(50%);overflow:hidden;"></iframe>
+
+<p class="email-signup-challenge-error w-full text-xs text-theme-text-muted" role="alert" hidden>Die Verifizierung konnte nicht geladen werden. Bitte lade die Seite neu und versuche es erneut.</p>
+
+<!-- email-signup-bot-fields:end -->
+
+    </template>
+    <script src="/static/js/email-signup-guards.2dfe65de62dc.js"></script>
+    <!-- email-signup-guard-hydrator:end -->
+    
+    
+
+    
+    
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a547fdfcbd781ed2',t:'MTc5MzY3MzM5NA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a547fdfcbd781ed2',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
