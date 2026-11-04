@@ -1,0 +1,60 @@
+name: Blog auf dem Server aufraeumen
+
+# Entfernt auf All-Inkl Blogartikel-Ordner (blog/<slug>/ und
+# images/blog/<slug>/), die es im aktuellen Export nicht mehr gibt.
+# Dieselbe Logik laeuft nach jedem Deploy automatisch mit
+# (scripts/blog-aufraeumen.sh). Dieser Workflow ist fuer gezielte Laeufe —
+# standardmaessig als Testlauf, der nur auflistet.
+
+on:
+  workflow_dispatch:
+    inputs:
+      testlauf:
+        description: "Nur auflisten, nichts loeschen"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+# Nie gleichzeitig mit einem Deploy
+concurrency:
+  group: deploy-allinkl
+  cancel-in-progress: false
+
+jobs:
+  aufraeumen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Node einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Abhaengigkeiten installieren
+        run: npm ci
+
+      - name: Static Export bauen (wie live)
+        run: npm run build
+        env:
+          NEXT_BUILD_BASE_PATH: ""
+
+      - name: lftp installieren
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq lftp >/dev/null
+
+      - name: Veraltete Blogartikel auflisten bzw. entfernen
+        shell: bash
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          LFTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          TESTLAUF: ${{ inputs.testlauf && '1' || '0' }}
+          EXPORT: out
+          LIVE_URL: https://www.daslebenistzukurzfuerirgendwann.de
+        run: ./scripts/blog-aufraeumen.sh
