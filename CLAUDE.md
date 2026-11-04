@@ -104,6 +104,9 @@ mehr.
 - **Datei mit `_` am Anfang = Entwurf**: live unsichtbar (nicht gelesen, keine
   Bilder im Export, nicht in Navigation/Sitemap), in der Vorschau sichtbar mit
   Hinweis „Entwurf". Veröffentlichen = `_` entfernen, committen, pushen.
+  Zurückziehen = `_` wieder davor, committen, pushen: Der nächste Deploy
+  löscht Artikelseite und Bilder auf dem Server (siehe „Server"), die alte
+  Adresse liefert dann 404. Gleiches gilt beim Umbenennen oder Löschen.
 - Bilder: `content/blog/bilder/<slug>/datei.jpg`, im Text als eigener Absatz
   `![Bildunterschrift](bilder/<slug>/datei.jpg)` (Text = figcaption und alt).
   **Ohne Metadaten** liefern. `scripts/blog-bilder.mjs` kodiert sie vor dem
@@ -190,6 +193,17 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
 - Zugangsdaten nur über Umgebungsvariablen aus den Secrets
   (`lftp --env-password`). **Kein `set -x`, kein lftp-`debug`.**
 - Hochladen **ohne Löschen** (`mirror -R` ohne `--delete`).
+- **Einzige Ausnahme: veraltete Blogartikel.** Nach dem Upload entfernt
+  `scripts/blog-aufraeumen.sh` Ordner `blog/<slug>/` und `images/blog/<slug>/`
+  (inkl. optimierter WEBP-Varianten), die es im aktuellen Export nicht mehr
+  gibt (zurückgezogen, umbenannt, gelöscht). Strikt nur diese zwei Ordnerarten,
+  Slug `^[a-z0-9][a-z0-9-]*$`, keine Dateien direkt in `blog/`. Gibt die Pfade
+  vor und nach dem Löschen aus, prüft danach per FTPS, dass sie weg sind, und
+  per HTTP, dass `/blog/<slug>/` 404 liefert. Bricht ab ohne zu löschen, wenn
+  der Export unvollständig ist (`index.html` oder `blog/index.html` fehlt) oder
+  mehr als 10 Ordner betroffen wären. Gleiche lftp-Sicherheitsregeln wie im
+  Deploy. Von Hand: Workflow „Blog auf dem Server aufraeumen"
+  (`blog-aufraeumen.yml`, Standard = Testlauf, listet nur auf).
 - `.htaccess` wird im Build erzeugt (`scripts/nach-dem-build.mjs`):
   http→https und ohne www → `https://www` (ein 301), alte `/sitemap-pages.xml` und
   `/sitemap-episodes.xml?…` → `/sitemap.xml`, alte `?page=N` →

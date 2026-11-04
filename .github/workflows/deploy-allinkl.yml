@@ -310,9 +310,35 @@ jobs:
             echo "- Dateien im Export: **$(find out -type f | wc -l)** ($(du -sh out | cut -f1))"
             echo "- Folgen: **$(node -p "require('./content/folgen.json').anzahl")**"
             echo "- Kontrolle per FTPS: $([ $fehler -eq 0 ] && echo 'index.html, sitemap.xml, .htaccess und eine Folgenseite identisch' || echo 'ABWEICHUNG')"
-            echo "- Hinweis: Die Domain zeigt bis zum Live-Gang noch auf PodView."
           } >> "$GITHUB_STEP_SUMMARY"
           exit $fehler
+
+      # Der Upload loescht nichts. Zurueckgezogene, umbenannte oder geloeschte
+      # Blogartikel blieben sonst unter ihrer alten Adresse erreichbar. Dieser
+      # Schritt entfernt NUR blog/<slug>/ und images/blog/<slug>/, die es im
+      # Export nicht mehr gibt (Obergrenze 10 pro Lauf, bricht bei
+      # unvollstaendigem Export ab) und prueft danach, dass die Adresse 404
+      # liefert. Alles andere bleibt unangetastet.
+      - name: Veraltete Blogartikel auf dem Server entfernen
+        shell: bash
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          LFTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          EXPORT: out
+          TESTLAUF: "0"
+          MAX_LOESCHEN: "10"
+          LIVE_URL: https://www.daslebenistzukurzfuerirgendwann.de
+        run: |
+          set -euo pipefail
+          ./scripts/blog-aufraeumen.sh | tee "$RUNNER_TEMP/blog-aufraeumen.txt"
+          {
+            echo
+            echo "### Veraltete Blogartikel"
+            echo '```'
+            cat "$RUNNER_TEMP/blog-aufraeumen.txt"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
 
       # Nur bei einem Fehler: Welcher Name steht im Zertifikat des
       # FTP-Servers? Damit sieht man, ob die Pruefung am Hostnamen scheitert.
