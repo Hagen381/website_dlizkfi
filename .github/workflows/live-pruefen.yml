@@ -1,9 +1,9 @@
 name: Live-Seite pruefen
 
-# Prueft die ausgelieferte Seite auf dem All-Inkl-Server im Headless-Browser
-# (nur lesend): www und die Generalprobe test. — ist dort schon die neue
-# Seite? Blog, Artikel, Navigation, Link auf der Folgenseite, alle Bilder.
-# Manuell starten (z. B. nach einem Deploy oder dem Live-Gang).
+# Prueft die Live-Seite (seit 03.11.2026 auf All-Inkl) im Headless-Browser,
+# nur lesend: Weiterleitungen (http, ohne www -> https://www), Blog, Artikel,
+# Navigation, Link auf der Folgenseite, alle Bilder.
+# Manuell starten (z. B. nach einem Deploy).
 
 on:
   workflow_dispatch:
@@ -19,7 +19,6 @@ jobs:
       matrix:
         basis:
           - https://www.daslebenistzukurzfuerirgendwann.de
-          - https://test.daslebenistzukurzfuerirgendwann.de
     steps:
       - name: Repo auschecken
         uses: actions/checkout@v4

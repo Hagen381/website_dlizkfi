@@ -1,8 +1,9 @@
-// Prüft eine ausgelieferte Fassung der Seite (live oder test.) im
-// Headless-Browser — nur lesend. Aufruf (im Workflow live-pruefen.yml):
+// Prüft die Live-Seite im Headless-Browser — nur lesend. Aufruf (im Workflow
+// live-pruefen.yml):
 //   node live-pruefen.mjs https://www.daslebenistzukurzfuerirgendwann.de
 //
-// Prüft: Ist es überhaupt die neue Seite (nicht PodView)? /blog/ mit Karten,
+// Prüft: Weiterleitungen (http -> https, ohne www -> www, alte Sitemaps),
+// kein X-Robots-Tag, ist es die neue Seite? /blog/ mit Karten,
 // jeder veröffentlichte Artikel (Bilder, Bildunterschriften, Zur-Folge-Kasten),
 // „Blog" in der Navigation, „Zum Blogartikel" auf der Folgenseite, alle
 // Bilder/Schriften/CSS/JS ohne Fehler.
@@ -33,9 +34,33 @@ const neueSeite = await start.pg.locator("text=Zum Inhalt springen").count();
 pruefe(start.status === 200 && neueSeite > 0, `${basis}/ liefert die NEUE Seite (HTTP ${start.status}${neueSeite ? "" : ", sieht nach PodView/anderer Seite aus"})`);
 if (!neueSeite) { console.log("Abbruch: Unter dieser Adresse läuft noch nicht die neue Seite."); await browser.close(); process.exit(fehler ? 1 : 0); }
 pruefe((await start.pg.locator('body > header a[href$="/blog/"]').count()) > 0, "„Blog“ in der Navigation");
-const robots = (await start.pg.request.get(basis + "/")).headers()["x-robots-tag"] ?? "–";
-console.log(`       X-Robots-Tag: ${robots}`);
+const robots = (await start.pg.request.get(basis + "/")).headers()["x-robots-tag"];
+pruefe(!robots, `kein X-Robots-Tag auf ${basis}/ ${robots ? "(gefunden: " + robots + ")" : ""}`);
 await start.ctx.close();
+
+// Weiterleitungen (nur wenn die Basis www.<domain> ist)
+const host = new URL(basis).host;
+if (host.startsWith("www.")) {
+  const ohne = host.slice(4);
+  const faelle = [
+    [`http://${host}/`, `https://${host}/`],
+    [`http://${host}/episodes/`, `https://${host}/episodes/`],
+    [`https://${ohne}/`, `https://${host}/`],
+    [`http://${ohne}/about/`, `https://${host}/about/`],
+    [`https://${host}/sitemap-pages.xml`, `https://${host}/sitemap.xml`],
+    [`https://${host}/sitemap-episodes.xml?page=1`, `https://${host}/sitemap.xml`],
+    [`https://${host}/episodes/?page=2`, `https://${host}/episodes/page/2/`],
+  ];
+  for (const [von, nach] of faelle) {
+    try {
+      const r = await fetch(von, { redirect: "manual" });
+      const ziel = r.headers.get("location") ? new URL(r.headers.get("location"), von).href : "";
+      pruefe(r.status === 301 && ziel === nach, `${von} → ${r.status} ${ziel || "(keine Weiterleitung)"}`);
+    } catch (e) {
+      pruefe(false, `${von} → keine Antwort (${e.cause?.code || e.message})`);
+    }
+  }
+}
 
 const blog = await seite("/blog/");
 pruefe(blog.status === 200, `/blog/ HTTP ${blog.status}`);

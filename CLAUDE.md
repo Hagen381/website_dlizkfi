@@ -4,18 +4,20 @@
 
 ## Kontext
 
-Nachbau der bisherigen PodView-Seite https://www.daslebenistzukurzfuerirgendwann.de/
-als statische Next.js-Seite (App Router, Static Export), gehostet bei
-**All-Inkl** (klassisches Webhosting, kein Node.js-Server). Design, Seiten und
-Adressen bleiben 1:1 wie bei PodView.
+Statische Next.js-Seite (App Router, Static Export) für
+https://www.daslebenistzukurzfuerirgendwann.de/ — **live seit 03.11.2026 auf
+All-Inkl** (klassisches Webhosting, kein Node.js-Server). Nachbau der
+früheren PodView-Seite: Design, Seiten und Adressen 1:1 übernommen. PodView
+läuft noch bis zur Kündigung (spätestens 24.11.2026), hat aber keine Domain
+mehr.
 
 - Die Folgen selbst bleiben bei Spotify for Creators. Datenquelle ist der Feed
   https://anchor.fm/s/104754158/podcast/rss (jeden Montag eine neue Folge).
-- Referenz der Live-Seite: `docs/original/` (HTML, Texte, Screenshots mobil +
-  Desktop, berechnete Stile, Bilder, Sitemaps, Feed-Schnappschuss). Neu holen:
-  Workflow „Referenz der Live-Seite sichern" manuell starten. PodViews
-  CSS/JS-Dateien werden nicht kopiert — das Aussehen ist mit eigenem Tailwind
-  nachgebaut.
+- Referenz der alten PodView-Seite: `docs/original/` (HTML, Texte,
+  Screenshots mobil + Desktop, berechnete Stile, Bilder, Sitemaps,
+  Feed-Schnappschuss) — **eingefroren**. Der Workflow „Referenz der Live-Seite
+  sichern" ist stillgelegt (er würde jetzt die eigene Seite holen und die
+  Referenz überschreiben). PodViews CSS/JS wurden nie kopiert.
 - Blog unter `/blog/` (pro Folge ein Artikel), siehe Abschnitt „Blog".
 
 ## Technik
@@ -169,10 +171,10 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
 
 ## Server (All-Inkl)
 
-- Domain: www.daslebenistzukurzfuerirgendwann.de, Hoster All-Inkl.
-  **Die Domain zeigt noch auf PodView.** Bis zum Live-Gang wird trotzdem in
-  den Domain-Ordner hochgeladen, um das Verfahren zu testen. KAS, DNS und
-  Domain-Einstellungen fasst Claude nicht an.
+- Domain: www.daslebenistzukurzfuerirgendwann.de, Hoster All-Inkl, **live
+  seit 03.11.2026** (SSL für Domain und www aktiv, Google Search Console
+  eingerichtet, Sitemap eingereicht). Jeder Deploy geht direkt live. KAS, DNS
+  und Domain-Einstellungen fasst Claude nicht an.
 - Deploy: `.github/workflows/deploy-allinkl.yml` bei Push auf `main`, manuell
   und montags 03:30 UTC (Folgen erscheinen montags 02:00 UTC). Der
   Montagslauf holt erst den Feed, committet eine geänderte
@@ -189,24 +191,20 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   (`lftp --env-password`). **Kein `set -x`, kein lftp-`debug`.**
 - Hochladen **ohne Löschen** (`mirror -R` ohne `--delete`).
 - `.htaccess` wird im Build erzeugt (`scripts/nach-dem-build.mjs`):
-  ohne www → `https://www` (301), sonst http→https mit unverändertem Host
-  (damit `test.` als Generalprobe funktioniert), alte `/sitemap-pages.xml` und
+  http→https und ohne www → `https://www` (ein 301), alte `/sitemap-pages.xml` und
   `/sitemap-episodes.xml?…` → `/sitemap.xml`, alte `?page=N` →
   `/episodes/page/N/`, `ErrorDocument 404`, `Options -Indexes`, Cache-Header
   für Bilder/Schriften.
-- `https://test.daslebenistzukurzfuerirgendwann.de` zeigt auf denselben
-  Ordner (Generalprobe vor dem Live-Gang). Nicht ändern. Die `.htaccess` setzt
-  NUR für genau diesen Host `X-Robots-Tag: noindex, nofollow` (`<If>`-Block);
-  www/live bleibt indexierbar. Der Deploy bricht ab, wenn `X-Robots-Tag`
-  außerhalb dieses Blocks steht oder der Block fehlt.
 - Live-Kontrolle: Workflow „Live-Seite pruefen" (`live-pruefen.yml`, manuell)
-  prüft www und test. im Headless-Browser — nur lesend (neue Seite oder noch
-  PodView? Blog, Artikel, Navigation, Folgenseiten-Link, Bilder).
+  prüft www im Headless-Browser — nur lesend (Weiterleitungen http/ohne www/
+  alte Sitemaps/`?page=N`, kein X-Robots-Tag, Blog, Artikel, Navigation,
+  Folgenseiten-Link, Bilder).
 - Sicherheitsprüfung vor dem Upload (bricht ab, nichts wird hochgeladen):
   kein `noindex` außerhalb der 404-Seiten, kein `hagen381.github.io` und kein
   `/website_dlizkfi` im Export, `index.html` und `sitemap.xml` vorhanden, alle
   alten Folgen-Adressen vorhanden, keine Transkripte, keine Platzhalter und
-  kein Entwurf-Hinweis im Export, keine Bild-Metadaten (EXIF/GPS/XMP/IPTC).
+  kein Entwurf-Hinweis im Export, keine Bild-Metadaten (EXIF/GPS/XMP/IPTC),
+  kein `X-Robots-Tag` im Export (auch nicht in der `.htaccess`).
 
 ## Regeln, die nicht verhandelbar sind
 

@@ -54,14 +54,10 @@ AddDefaultCharset UTF-8
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
-# Ohne www -> https://www (auch von http, in EINEM 301-Schritt)
+# http -> https und ohne www -> mit www, in EINEM 301-Schritt (Ziel immer www)
+RewriteCond %{HTTPS} !=on [OR]
 RewriteCond %{HTTP_HOST} ^${esc(ohneWww)}$ [NC]
 RewriteRule ^(.*)$ https://${host}/$1 [R=301,L]
-
-# Sonst nur http -> https, der Hostname bleibt erhalten (so landet z. B. die
-# Generalprobe auf test.${ohneWww} nicht auf der Live-Domain)
-RewriteCond %{HTTPS} !=on
-RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 
 # Alte PodView-Sitemaps -> /sitemap.xml (Query wie ?page=1 wird verworfen)
 RewriteRule ^sitemap-(pages|episodes)\\.xml$ /sitemap.xml? [R=301,L]
@@ -90,11 +86,6 @@ Header always set Referrer-Policy "strict-origin-when-cross-origin"
 Header always set X-Frame-Options "SAMEORIGIN"
 Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), interest-cohort=()"
 
-# Generalprobe test.${ohneWww}: nie in Suchmaschinen (doppelter Inhalt).
-# Gilt NUR für genau diesen Host, www/live bleibt unberührt.
-<If "%{HTTP_HOST} =~ /^test\\.${esc(ohneWww)}(:[0-9]+)?$/i">
-Header always set X-Robots-Tag "noindex, nofollow"
-</If>
 </IfModule>
 
 <IfModule mod_expires.c>

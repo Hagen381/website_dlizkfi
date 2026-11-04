@@ -1,17 +1,15 @@
 name: Referenz der Live-Seite sichern
 
-# Laedt die bestehende PodView-Seite als Referenzmaterial nach docs/original/
-# (HTML, Texte, Screenshots, berechnete Stile, Bilder, Sitemaps, Feed).
-# Laeuft nur manuell oder wenn sich das Skript bzw. dieser Workflow aendert.
-# PodViews CSS/JS-Dateien werden NICHT gesichert.
+# STILLGELEGT seit dem Live-Gang am 03.11.2026.
+#
+# Hat die alte PodView-Seite als Referenz nach docs/original/ geladen. Unter
+# www.daslebenistzukurzfuerirgendwann.de laeuft jetzt die NEUE Seite — ein
+# Lauf wuerde die PodView-Referenz mit der eigenen Seite ueberschreiben.
+# Deshalb: kein Push-Ausloeser mehr, und der Job bricht sofort ab.
+# docs/original/ ist eingefroren (Stand 03.11.2026).
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - scripts/referenz-holen.mjs
-      - .github/workflows/referenz-holen.yml
 
 permissions:
   contents: write
@@ -24,6 +22,11 @@ jobs:
   sichern:
     runs-on: ubuntu-latest
     steps:
+      - name: Stillgelegt
+        run: |
+          echo "::error::Stillgelegt seit dem Live-Gang (03.11.2026): www zeigt auf die neue Seite, die PodView-Referenz in docs/original/ ist eingefroren."
+          exit 1
+
       - name: Repo auschecken
         uses: actions/checkout@v4
         with:

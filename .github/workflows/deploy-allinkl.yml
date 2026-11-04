@@ -198,17 +198,12 @@ jobs:
           fi
           echo "::endgroup::"
 
-          echo "::group::i) X-Robots-Tag nur fuer test.-Host"
-          # Die .htaccess setzt noindex per Header NUR fuer die Generalprobe
-          # test.<domain>. Jede andere X-Robots-Tag-Zeile wuerde die Live-Seite
-          # aus Google werfen.
-          if ! awk '
-            /^<If .*\^test\\\./ { imblock=1; next }
-            /^<\/If>/ { imblock=0; next }
-            /X-Robots-Tag/ { if (!imblock) { print "ausserhalb: " $0; bad=1 } else n++ }
-            END { if (n != 1) { print "erwartet genau 1 X-Robots-Tag im test.-Block, gefunden: " n+0; bad=1 }; exit bad }
-          ' out/.htaccess; then
-            echo "::error::X-Robots-Tag in der .htaccess nicht wie erwartet auf test.-Host beschraenkt."
+          echo "::group::i) kein X-Robots-Tag im Export"
+          # Ein X-Robots-Tag (z. B. in der .htaccess) koennte die Live-Seite
+          # aus Google werfen. Seit dem Live-Gang gibt es keinen Grund dafuer.
+          if treffer=$(grep -rl --binary-files=without-match "X-Robots-Tag" out/); then
+            echo "::error::X-Robots-Tag im Export:"
+            echo "$treffer" | sed 's/^/  /'
             fehler=1
           else
             echo "sauber"
