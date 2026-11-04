@@ -199,6 +199,9 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   NUR für genau diesen Host `X-Robots-Tag: noindex, nofollow` (`<If>`-Block);
   www/live bleibt indexierbar. Der Deploy bricht ab, wenn `X-Robots-Tag`
   außerhalb dieses Blocks steht oder der Block fehlt.
+- Live-Kontrolle: Workflow „Live-Seite pruefen" (`live-pruefen.yml`, manuell)
+  prüft www und test. im Headless-Browser — nur lesend (neue Seite oder noch
+  PodView? Blog, Artikel, Navigation, Folgenseiten-Link, Bilder).
 - Sicherheitsprüfung vor dem Upload (bricht ab, nichts wird hochgeladen):
   kein `noindex` außerhalb der 404-Seiten, kein `hagen381.github.io` und kein
   `/website_dlizkfi` im Export, `index.html` und `sitemap.xml` vorhanden, alle
