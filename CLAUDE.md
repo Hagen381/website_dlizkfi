@@ -65,6 +65,16 @@ mehr.
 - Neue Folgen bekommen einen Slug nach PodView-Regel: Kleinbuchstaben,
   Umlaute zum Grundbuchstaben (ä→a, ö→o, ü→u; ß fällt ersatzlos weg: „Straßenhunde" → `straenhunde`),
   alles andere zu `-`.
+- Shownotes-Links (`scripts/shownotes-links.mjs`, läuft in `feed-holen.mjs`
+  nach der Bereinigung, also automatisch für jede neue Folge): URLs als reiner
+  Text werden zuerst verlinkt; Zeilen „Bezeichnung: URL" (auch fett/mit Emoji,
+  Bezeichnung bis 3 Wörter) → die Bezeichnung ist der Link, Doppelpunkt und
+  URL entfallen; jede übrige nackte URL als Linktext → Domain (+ Pfad, wenn
+  alles ≤ 40 Zeichen) ohne `https://`/`www`; der Link auf unsere eigene Domain
+  entfällt. Die Kurzbeschreibung (Karten, meta description) entsteht aus den
+  aufgeräumten Shownotes. Der Feed bei Spotify bleibt unverändert. Nach einer
+  Änderung daran: Deploy von Hand mit „Vorher den RSS-Feed abgleichen“
+  starten (die Sandbox erreicht den Feed nicht), Guids/Slugs vergleichen.
 - `content/alte-adressen.json` = alle Folgen-Adressen aus PodViews
   `sitemap-episodes.xml`. `scripts/adressen-pruefen.mjs` läuft vor jedem Build
   und bricht ab, wenn eine davon fehlt.
@@ -124,13 +134,15 @@ mehr.
   Beschreibung als Lead, darunter Button „Zur Podcastfolge", Kasten „Zur
   Folge" mit Player und demselben Button am Ende; Bilder max.
   620 px hoch (object-fit: cover). `/blog/` zeigt Karten mit dem ersten Bild.
-- Button „Zur Podcastfolge" (`src/components/ZurPodcastfolge.tsx`, Stil wie
-  „Abonnieren") kommt automatisch aus der Vorlage, sobald `folge-slug` gesetzt
+- Button „Zur Podcastfolge" (`src/components/ZurPodcastfolge.tsx` über
+  `GelberButton.tsx`, Stil wie „Abonnieren") kommt automatisch aus der Vorlage, sobald `folge-slug` gesetzt
   ist. Ziel immer `/episodes/<folge-slug>/` auf unserer Seite, nie Spotify.
   Links zur Folge im Fließtext bleiben normale Textlinks.
 - „Blog" steht in der Navigation zwischen Folgen und Über, sobald mindestens
   ein veröffentlichter Artikel existiert. Die Folgenseite verlinkt den Artikel
-  („Zum Blogartikel"). JSON-LD `BlogPosting` (Autorin Juliette Oppel, Bild,
+  mit dem Button „Zum Blogartikel" direkt unter Titel/Datum, vor dem Player
+  (gleicher Stil, `GelberButton.tsx`); ohne Artikel kein Button. Live nie zu
+  Entwürfen (die werden live gar nicht gelesen). JSON-LD `BlogPosting` (Autorin Juliette Oppel, Bild,
   Datum, `about` → PodcastEpisode), OG-Bild = erstes Artikelbild.
 
 ### Header
