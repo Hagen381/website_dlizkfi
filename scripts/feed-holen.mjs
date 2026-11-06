@@ -18,6 +18,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { XMLParser } from "fast-xml-parser";
 import sanitizeHtml from "sanitize-html";
+import { linksAufraeumen } from "./shownotes-links.mjs";
 import { slugify } from "./slug.mjs";
 
 const FEED = "https://anchor.fm/s/104754158/podcast/rss";
@@ -53,8 +54,13 @@ function sekunden(d) {
   return t.split(":").map(Number).reduce((s, n) => s * 60 + n, 0);
 }
 
-// Shownotes bereinigen: nur einfache Textauszeichnung und Links.
+// Shownotes bereinigen: nur einfache Textauszeichnung und Links. Danach
+// linksAufraeumen(): „Spotify: https://…" → „Spotify" als Link, nackte URLs
+// → Domain als Linktext, Link auf unsere eigene Domain entfällt.
 function shownotes(html) {
+  return linksAufraeumen(bereinigen(html));
+}
+function bereinigen(html) {
   return sanitizeHtml(html, {
     allowedTags: ["p", "br", "strong", "b", "em", "i", "u", "a", "ul", "ol", "li", "blockquote", "h2", "h3", "h4"],
     allowedAttributes: { a: ["href"] },
@@ -118,6 +124,7 @@ const folgen = items.map((it) => {
   const mp3 = it.enclosure?.["@_url"] || null;
   const datum = new Date(text(it.pubDate)).toISOString();
   const roh = text(it["content:encoded"]) || text(it.description) || "";
+  const notizen = shownotes(roh);
   return {
     guid,
     titel,
@@ -130,8 +137,9 @@ const folgen = items.map((it) => {
     nummer: Number(text(it["itunes:episode"])) || null,
     typ: text(it["itunes:episodeType"]) || "full",
     spotifyLink: text(it.link) || null,
-    beschreibung: auszug(klartext(roh)),
-    shownotes: shownotes(roh),
+    // Kurzbeschreibung aus den aufgeräumten Shownotes: keine nackten URLs.
+    beschreibung: auszug(klartext(notizen)),
+    shownotes: notizen,
   };
 });
 
