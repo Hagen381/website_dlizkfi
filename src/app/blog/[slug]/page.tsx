@@ -5,6 +5,7 @@ import BlogBild from "@/components/BlogBild";
 import EntwurfHinweis from "@/components/EntwurfHinweis";
 import { ChevronLinks } from "@/components/Icons";
 import ZurFolge from "@/components/ZurFolge";
+import ZurPodcastfolge from "@/components/ZurPodcastfolge";
 import { artikel, datumLesbar } from "@/lib/blog";
 import { folgeNachSlug } from "@/lib/folgen";
 import { absolut, breadcrumb, JsonLd, serieId } from "@/lib/seo";
@@ -99,6 +100,7 @@ export default async function BlogArtikel({ params }: Props) {
           </p>
           <h1 className="mt-3 text-3xl leading-tight font-bold text-balance sm:text-4xl">{a.titel}</h1>
           <p className="mt-5 text-xl leading-relaxed text-muted">{a.beschreibung}</p>
+          {folge && <ZurPodcastfolge folgeSlug={folge.slug} className="mt-6" />}
         </header>
 
         <div className="artikel mt-10">

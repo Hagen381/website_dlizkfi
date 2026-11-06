@@ -1,11 +1,11 @@
 import Link from "next/link";
 import Cover from "@/components/Cover";
-import { PfeilRechts } from "@/components/Icons";
 import Player from "@/components/Player";
+import ZurPodcastfolge from "@/components/ZurPodcastfolge";
 import { datumKurz, dauerGesprochen, dauerText, type Folge } from "@/lib/folgen";
 
 // Kasten „Zur Folge" unter einem Blogartikel: Cover, Titel, Player
-// (preload="none" — lädt erst beim Abspielen) und Link zur Folgenseite.
+// (preload="none" — lädt erst beim Abspielen) und Button „Zur Podcastfolge" (Folgenseite).
 export default function ZurFolge({ folge }: { folge: Folge }) {
   return (
     <aside aria-labelledby="zur-folge" className="mt-14 rounded-3xl border border-border bg-surface p-5 shadow-sm sm:p-7">
@@ -36,10 +36,7 @@ export default function ZurFolge({ folge }: { folge: Folge }) {
           <Player src={folge.mp3} titel={folge.titel} dauer={folge.dauer} />
         </div>
       )}
-      <Link href={`/episodes/${folge.slug}/`} className="mt-5 inline-flex min-h-11 items-center gap-2 font-semibold text-text hover:underline">
-        Zur Folgenseite mit Shownotes
-        <PfeilRechts />
-      </Link>
+      <ZurPodcastfolge folgeSlug={folge.slug} className="mt-6" />
     </aside>
   );
 }
