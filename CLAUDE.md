@@ -19,6 +19,9 @@ mehr.
   sichern" ist stillgelegt (er würde jetzt die eigene Seite holen und die
   Referenz überschreiben). PodViews CSS/JS wurden nie kopiert.
 - Blog unter `/blog/` (pro Folge ein Artikel), siehe Abschnitt „Blog".
+- Bewusste Abweichung vom Original (ausdrücklicher Auftrag): Die Überschrift
+  über der neuesten Folge auf der Startseite heißt „Neueste Folge" statt
+  „Frische Folge" (Darstellung unverändert). Dazu der Header (siehe unten).
 
 ## Technik
 
@@ -118,8 +121,13 @@ mehr.
   fremden Kinder. Silhouetten, von hinten, klein im Hintergrund sind okay.
   Vor dem Veröffentlichen jedes Bild daraufhin ansehen.
 - Layout: Lesespalte ~65 Zeichen (36,5 rem), Literata 18 px, `##` in Bricolage,
-  Beschreibung als Lead, Kasten „Zur Folge" mit Player am Ende; Bilder max.
+  Beschreibung als Lead, darunter Button „Zur Podcastfolge", Kasten „Zur
+  Folge" mit Player und demselben Button am Ende; Bilder max.
   620 px hoch (object-fit: cover). `/blog/` zeigt Karten mit dem ersten Bild.
+- Button „Zur Podcastfolge" (`src/components/ZurPodcastfolge.tsx`, Stil wie
+  „Abonnieren") kommt automatisch aus der Vorlage, sobald `folge-slug` gesetzt
+  ist. Ziel immer `/episodes/<folge-slug>/` auf unserer Seite, nie Spotify.
+  Links zur Folge im Fließtext bleiben normale Textlinks.
 - „Blog" steht in der Navigation zwischen Folgen und Über, sobald mindestens
   ein veröffentlichter Artikel existiert. Die Folgenseite verlinkt den Artikel
   („Zum Blogartikel"). JSON-LD `BlogPosting` (Autorin Juliette Oppel, Bild,
