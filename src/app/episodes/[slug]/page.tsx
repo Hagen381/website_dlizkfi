@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Cover from "@/components/Cover";
+import GelberButton from "@/components/GelberButton";
 import { Artikel, ChevronLinks, ChevronRechts, Kalender, Notizen, Uhr } from "@/components/Icons";
 import PlattformLogo from "@/components/PlattformLogo";
 import Player from "@/components/Player";
@@ -102,6 +103,13 @@ export default async function FolgenSeite({ params }: Props) {
                 <TeilenKnopf titel={folge.titel} url={absolut(pfad)} />
               </div>
               <h1 className="mt-4 text-2xl leading-tight font-bold text-balance [overflow-wrap:anywhere] sm:text-3xl lg:text-4xl">{folge.titel}</h1>
+              {/* Blogartikel möglichst weit oben, vor dem Player. Live gibt es nur
+                  veröffentlichte Artikel (Entwürfe liest src/lib/blog.ts dort gar nicht). */}
+              {artikel && (
+                <GelberButton href={`/blog/${artikel.slug}/`} icon={<Artikel className="h-5 w-5" />} className="mt-5">
+                  Zum Blogartikel
+                </GelberButton>
+              )}
             </div>
           </header>
 
@@ -111,21 +119,6 @@ export default async function FolgenSeite({ params }: Props) {
             </div>
           )}
 
-          {artikel && (
-            <Link
-              href={`/blog/${artikel.slug}/`}
-              className="group mt-6 flex min-h-11 items-center gap-4 rounded-2xl border-2 border-primary bg-primary/15 p-4 transition hover:bg-primary/25 sm:p-5"
-            >
-              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-primary text-text">
-                <Artikel className="h-5 w-5" />
-              </span>
-              <span className="min-w-0 flex-1">
-                <span className="block font-heading text-lg font-bold">Zum Blogartikel</span>
-                <span className="block text-muted [overflow-wrap:anywhere]">{artikel.titel}</span>
-              </span>
-              <ChevronRechts className="h-5 w-5 shrink-0 transition group-hover:translate-x-0.5" />
-            </Link>
-          )}
 
           <section aria-labelledby="ueber-folge" className="mt-10">
             <h2 id="ueber-folge" className="mb-4 inline-flex items-center gap-2 text-xl font-semibold">
