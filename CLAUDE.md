@@ -159,6 +159,25 @@ mehr.
   für `position: fixed`). Fokus bleibt im Menü, Escape/außerhalb schließt.
 - Menüpunkte in `navigation`, der Button in `abonnieren` (`site-config.ts`).
 
+## Übergabe vom Projekt-Chat
+
+- Dateien vom Projekt-Chat (Blogbilder, Artikel-Markdown) kommen **nur** über
+  den GitHub-Zweig `uebergabe` (Orphan-Branch, eigene README.md dort lesen) —
+  nicht mehr über D:\ oder den Chat.
+- Pfade dort = Zielpfade auf `main`. Übernehmen:
+  `git fetch origin uebergabe && git checkout origin/uebergabe -- <pfad>`
+- **Nie** von `uebergabe` nach `main` mergen.
+- Bilder dort sind verkleinert, ohne Metadaten und auf Kinder geprüft —
+  trotzdem vor dem Einbau selbst ansehen (Kinder nie frontal erkennbar) und
+  auf Metadaten prüfen.
+- Nach dem Einbau auf `main` die übernommenen Dateien in `uebergabe` wieder
+  löschen (eigener Commit auf `uebergabe`, README bleibt). Der Zweig wird
+  sauber gehalten, keine Ablage.
+- `uebergabe` wird nicht gebaut: Deploy und Vorschau reagieren nur auf Pushes
+  nach `main` (`branches: [main]`), alle anderen Workflows nur manuell; der
+  Zweig enthält außerdem kein `.github/`. Neue Workflows mit Push-Auslöser
+  immer auf `main` beschränken.
+
 ## SEO-Grundregeln
 
 - **Jede Seite setzt ihr eigenes Canonical** (`alternates: { canonical:
