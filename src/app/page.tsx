@@ -102,11 +102,11 @@ export default function Startseite() {
         </section>
       )}
 
-      {/* Neueste Folgen */}
+      {/* Weitere Folgen (Liste unter der neuesten Folge; bewusste Abweichung von PodView: dort „Neueste Folgen") */}
       <section aria-labelledby="neueste-titel" className="mx-auto max-w-7xl px-4 py-16 sm:px-8">
         <div className="mb-8 flex items-center justify-between gap-4">
           <h2 id="neueste-titel" className="text-2xl font-bold">
-            Neueste Folgen
+            Weitere Folgen
           </h2>
           <Link href="/episodes/" className="inline-flex min-h-11 items-center text-sm font-medium text-primary-text hover:underline">
             Alle ansehen <span aria-hidden="true">&nbsp;→</span>

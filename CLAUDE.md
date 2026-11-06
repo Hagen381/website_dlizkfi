@@ -21,7 +21,8 @@ mehr.
 - Blog unter `/blog/` (pro Folge ein Artikel), siehe Abschnitt „Blog".
 - Bewusste Abweichung vom Original (ausdrücklicher Auftrag): Die Überschrift
   über der neuesten Folge auf der Startseite heißt „Neueste Folge" statt
-  „Frische Folge" (Darstellung unverändert). Dazu der Header (siehe unten).
+  „Frische Folge"; die Liste darunter heißt „Weitere Folgen" statt „Neueste
+  Folgen" (Darstellung jeweils unverändert). Dazu der Header (siehe unten).
 
 ## Technik
 
