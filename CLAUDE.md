@@ -233,15 +233,22 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
 - Zugangsdaten nur über Umgebungsvariablen aus den Secrets
   (`lftp --env-password`). **Kein `set -x`, kein lftp-`debug`.**
 - Hochladen **ohne Löschen** (`mirror -R` ohne `--delete`).
-- **Einzige Ausnahme: veraltete Blogartikel.** Nach dem Upload entfernt
-  `scripts/blog-aufraeumen.sh` Ordner `blog/<slug>/` und `images/blog/<slug>/`
-  (inkl. optimierter WEBP-Varianten), die es im aktuellen Export nicht mehr
-  gibt (zurückgezogen, umbenannt, gelöscht). Strikt nur diese zwei Ordnerarten,
-  Slug `^[a-z0-9][a-z0-9-]*$`, keine Dateien direkt in `blog/`. Gibt die Pfade
-  vor und nach dem Löschen aus, prüft danach per FTPS, dass sie weg sind, und
-  per HTTP, dass `/blog/<slug>/` 404 liefert. Bricht ab ohne zu löschen, wenn
-  der Export unvollständig ist (`index.html` oder `blog/index.html` fehlt) oder
-  mehr als 10 Ordner betroffen wären. Gleiche lftp-Sicherheitsregeln wie im
+- **Einzige Ausnahme: veraltete Blogartikel und Blogbilder.** Nach dem Upload
+  entfernt `scripts/blog-aufraeumen.sh`, was es im aktuellen Export nicht mehr
+  gibt — strikt nur:
+  1. Ordner `blog/<slug>/` und `images/blog/<slug>/` (zurückgezogen,
+     umbenannt, gelöscht; inkl. optimierter WEBP-Varianten),
+  2. einzelne Dateien in `images/blog/<slug>/` bzw.
+     `images/blog/<slug>/nextImageExportOptimizer/` noch bestehender Artikel
+     (ausgetauschte Bilder samt WEBP-Varianten).
+  Slug `^[a-z0-9][a-z0-9-]*$`, Dateiname `^[A-Za-z0-9][A-Za-z0-9._-]*$` (nie
+  Punkt-Dateien wie `.htaccess`, andere Namen/Unterordner nur als Warnung),
+  keine Dateien direkt in `blog/` oder `images/blog/`. Gibt die Pfade vor und
+  nach dem Löschen aus, prüft danach per FTPS, dass sie weg sind, und per HTTP,
+  dass Gelöschtes 404 liefert und alle Bilddateien der betroffenen Artikel
+  weiter 200. Bricht ab ohne zu löschen, wenn der Export unvollständig ist
+  (`index.html` oder `blog/index.html` fehlt) oder mehr als 10 Ordner bzw. 50
+  Dateien betroffen wären. Gleiche lftp-Sicherheitsregeln wie im
   Deploy. Von Hand: Workflow „Blog auf dem Server aufraeumen"
   (`blog-aufraeumen.yml`, Standard = Testlauf, listet nur auf).
 - `.htaccess` wird im Build erzeugt (`scripts/nach-dem-build.mjs`):

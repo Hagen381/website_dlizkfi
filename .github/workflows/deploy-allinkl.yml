@@ -314,11 +314,13 @@ jobs:
           exit $fehler
 
       # Der Upload loescht nichts. Zurueckgezogene, umbenannte oder geloeschte
-      # Blogartikel blieben sonst unter ihrer alten Adresse erreichbar. Dieser
-      # Schritt entfernt NUR blog/<slug>/ und images/blog/<slug>/, die es im
-      # Export nicht mehr gibt (Obergrenze 10 pro Lauf, bricht bei
-      # unvollstaendigem Export ab) und prueft danach, dass die Adresse 404
-      # liefert. Alles andere bleibt unangetastet.
+      # Blogartikel und ausgetauschte Blogbilder blieben sonst unter ihrer
+      # alten Adresse erreichbar. Dieser Schritt entfernt NUR blog/<slug>/,
+      # images/blog/<slug>/ und einzelne Dateien in images/blog/<slug>/
+      # (inkl. nextImageExportOptimizer/), die es im Export nicht mehr gibt
+      # (Obergrenzen 10 Ordner / 50 Dateien, bricht bei unvollstaendigem
+      # Export ab) und prueft danach per HTTP (404 fuer Geloeschtes, 200 fuer
+      # die eingebundenen Bilder). Alles andere bleibt unangetastet.
       - name: Veraltete Blogartikel auf dem Server entfernen
         shell: bash
         env:
@@ -328,13 +330,14 @@ jobs:
           EXPORT: out
           TESTLAUF: "0"
           MAX_LOESCHEN: "10"
+          MAX_DATEIEN: "50"
           LIVE_URL: https://www.daslebenistzukurzfuerirgendwann.de
         run: |
           set -euo pipefail
           ./scripts/blog-aufraeumen.sh | tee "$RUNNER_TEMP/blog-aufraeumen.txt"
           {
             echo
-            echo "### Veraltete Blogartikel"
+            echo "### Veraltete Blogartikel und Blogbilder"
             echo '```'
             cat "$RUNNER_TEMP/blog-aufraeumen.txt"
             echo '```'

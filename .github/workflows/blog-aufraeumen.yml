@@ -1,7 +1,8 @@
 name: Blog auf dem Server aufraeumen
 
 # Entfernt auf All-Inkl Blogartikel-Ordner (blog/<slug>/ und
-# images/blog/<slug>/), die es im aktuellen Export nicht mehr gibt.
+# images/blog/<slug>/) sowie einzelne Bilddateien in images/blog/<slug>/,
+# die es im aktuellen Export nicht mehr gibt.
 # Dieselbe Logik laeuft nach jedem Deploy automatisch mit
 # (scripts/blog-aufraeumen.sh). Dieser Workflow ist fuer gezielte Laeufe —
 # standardmaessig als Testlauf, der nur auflistet.
