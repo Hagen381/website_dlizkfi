@@ -25,7 +25,7 @@ Es gibt ein Thüringer Wort dafür: bombfortionös. Also übelster Aufriss.
 
 Wie absurd das werden kann, hat mir neulich ein Reel auf Instagram gezeigt. Eine Mutter filmt eine fertig vorbereitete Party, alles dekoriert, Hüpfburg und allem Pipapo. Und schreibt drunter: Wir haben die ganze Klasse eingeladen, aber keiner ist gekommen. Hier ist unsere Adresse, wer aus der Nachbarschaft Zeit hat, kommt bitte vorbei, mein Kind ist so traurig. Das Video war aus den USA, aber so anders ist es hier nicht. Ich folge im Internet auch einer Mutter, die in Dubai lebt. Da ist jeder Geburtstag eine Motto-Party, das Haus wird nach dem Motto geschmückt, die Gäste kommen verkleidet, das Essen passt zum Motto. Und das schon im Kleinkindalter.
 
-![Schuhe aus, ab auf die Hüpfburg: Nachtmarkt auf Koh Samui](bilder/kindergeburtstag-koh-samui-topfschlagen-statt-beachclub/20251017_190321_schuhe.jpg)
+![Im Wasser bei Sonnenuntergang an Heinrichs Geburtstag letztes Jahr](bilder/kindergeburtstag-koh-samui-topfschlagen-statt-beachclub/20251006_181734.jpg)
 
 Wir waren in dem Jahr, als wir schon mal hier gelebt haben, selbst auf so einer Party. Ein Deutscher, den wir hier kennengelernt haben, hatte für seine Tochter einen Beachclub gemietet. Irgendwann haben wir ihn gefragt, wer die ganzen Leute sind. Seine Antwort: Keine Ahnung, die habe ich noch nie gesehen.
 
