@@ -1,6 +1,9 @@
 // Prüft die Live-Seite im Headless-Browser — nur lesend. Aufruf (im Workflow
 // live-pruefen.yml):
 //   node live-pruefen.mjs https://www.daslebenistzukurzfuerirgendwann.de
+//   node live-pruefen.mjs <basis> --nur-neueste   nur Startseite + neueste Folge
+//                                                 (läuft nach einem Deploy mit
+//                                                 neuer Folge automatisch mit)
 //
 // Prüft: Weiterleitungen (http -> https, ohne www -> www, alte Sitemaps),
 // kein X-Robots-Tag, ist es die neue Seite? neueste Folge erreichbar,
@@ -13,6 +16,7 @@ import { chromium } from "playwright";
 import fs from "node:fs";
 
 const basis = (process.argv[2] || "").replace(/\/$/, "");
+const nurNeueste = process.argv.includes("--nur-neueste");
 const artikel = fs.readdirSync("content/blog").filter((d) => d.endsWith(".md") && !d.startsWith("_") && d.toLowerCase() !== "readme.md");
 const browser = await chromium.launch();
 let fehler = 0;
@@ -45,6 +49,11 @@ const nf = await seite(`/episodes/${neueste.slug}/`);
 const nfTitel = nf.status === 200 ? (await nf.pg.locator("h1").first().innerText()).trim() : "";
 pruefe(nf.status === 200 && nfTitel === neueste.titel, `neueste Folge /episodes/${neueste.slug}/ HTTP ${nf.status}${nfTitel ? ` „${nfTitel}“` : ""}`);
 await nf.ctx.close();
+if (nurNeueste) {
+  await browser.close();
+  console.log(fehler ? `\n${fehler} FEHLER` : "\nLive-Prüfung (neueste Folge) ok");
+  process.exit(fehler ? 1 : 0);
+}
 
 // Weiterleitungen (nur wenn die Basis www.<domain> ist)
 const host = new URL(basis).host;

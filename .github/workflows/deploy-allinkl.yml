@@ -1,19 +1,23 @@
 name: Deploy zu All-Inkl
 
 # Baut den Static Export und liefert ihn per FTPS an All-Inkl aus
-# (Domain-Ordner von www.daslebenistzukurzfuerirgendwann.de).
-#
-# WICHTIG: Die Domain zeigt bis zum Live-Gang noch auf PodView. Der Upload in
-# den Ordner ist trotzdem gewollt (Test des Verfahrens). KAS, DNS und
-# Domain-Einstellungen werden hier nicht angefasst.
+# (Domain-Ordner von www.daslebenistzukurzfuerirgendwann.de, live seit
+# 03.11.2026). KAS, DNS und Domain-Einstellungen werden hier nicht angefasst.
 #
 # Ausloeser:
-#   - Push auf main
-#   - manuell (workflow_dispatch), Feed-Abgleich waehlbar
-#   - montags 03:30 UTC (Folgen erscheinen montags 02:00 UTC)
-# Beim Montagslauf (und manuell, wenn gewuenscht) wird zuerst der Feed geholt.
-# Hat sich content/folgen.json geaendert, wird das committet und gepusht,
-# danach gebaut und ausgeliefert.
+#   - Push auf main: bauen und ausliefern (ohne Feed-Abgleich)
+#   - manuell (workflow_dispatch): Feed-Abgleich waehlbar, baut immer —
+#     ausser mit "wie_zeitplan" (dann wie ein Zeitplan-Lauf, zum Testen)
+#   - Zeitplan fuer die neue Folge am Montag (sie ist meist gegen 06:00 UTC =
+#     13:00 Thailand im Feed; GitHub startet Zeitplaene oft verspaetet):
+#       Mo 06:30 UTC (13:30 Thailand)  Hauptlauf
+#       Mo 11:30 UTC (18:30 Thailand)  Nachlauf
+#       Di 02:30 UTC (09:30 Thailand)  Nachlauf
+#     Zeitplan-Laeufe holen zuerst den Feed. Gebaut und hochgeladen wird NUR,
+#     wenn sich content/folgen.json geaendert hat (dann: committen, pushen,
+#     bauen, ausliefern, Live-Pruefung der neuesten Folge). Sonst endet der
+#     Lauf gruen mit "keine neue Folge". Ist dienstags noch keine Folge vom
+#     Montag im Feed: Warnung "Keine neue Folge seit Montag" (kein roter Lauf).
 #
 # Hochgeladen wird mit lftp wie bei grannyg: All-Inkl verlangt, dass die
 # Datenverbindung die TLS-Sitzung der Anmeldung wiederverwendet.
@@ -21,7 +25,8 @@ name: Deploy zu All-Inkl
 # geprueft (ssl:verify-certificate bleibt an). Zugangsdaten nur aus den
 # Secrets FTP_SERVER, FTP_USERNAME, FTP_PASSWORD ueber Umgebungsvariablen
 # (--env-password). Kein set -x, kein lftp-debug: sonst stuenden sie im Log.
-# mirror -R OHNE --delete: auf dem Server wird nichts geloescht.
+# mirror -R OHNE --delete: auf dem Server wird nichts geloescht (Ausnahme:
+# veraltete Blogartikel/-bilder, siehe scripts/blog-aufraeumen.sh).
 # Der FTP-Nutzer startet direkt im Domain-Ordner, Ziel ist deshalb ./
 
 on:
@@ -33,8 +38,15 @@ on:
         description: "Vorher den RSS-Feed abgleichen"
         type: boolean
         default: true
+      wie_zeitplan:
+        description: "Wie ein Zeitplan-Lauf: Feed holen, nur bei neuer Folge bauen und hochladen (Test)"
+        type: boolean
+        default: false
+  # Push-Ausloeser bleibt auf main beschraenkt (siehe oben).
   schedule:
-    - cron: "30 3 * * 1"
+    - cron: "30 6 * * 1"   # Mo 06:30 UTC = 13:30 Thailand (Hauptlauf)
+    - cron: "30 11 * * 1"  # Mo 11:30 UTC = 18:30 Thailand (Nachlauf)
+    - cron: "30 2 * * 2"   # Di 02:30 UTC = 09:30 Thailand (Nachlauf)
 
 permissions:
   contents: write
@@ -68,12 +80,12 @@ jobs:
       # ------------------------------------------------------------------
       - name: Feed holen
         id: feed
-        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.feed_holen)
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.feed_holen || inputs.wie_zeitplan))
         shell: bash
         run: |
           set -euo pipefail
           if ! node scripts/feed-holen.mjs | tee "$RUNNER_TEMP/feed.txt"; then
-            echo "::warning::Feed konnte nicht geholt werden — es wird mit dem bisherigen Stand gebaut."
+            echo "::warning::Feed konnte nicht geholt werden — es gilt der bisherige Stand."
             git checkout -- content/folgen.json 2>/dev/null || true
             exit 0
           fi
@@ -112,9 +124,52 @@ jobs:
         run: gh workflow run gh-pages.yml --ref main
 
       # ------------------------------------------------------------------
+      # Bauen oder nicht? Zeitplan-Laeufe (und manuell "wie_zeitplan") nur,
+      # wenn sich content/folgen.json geaendert hat. Push und sonstige
+      # manuelle Laeufe bauen immer.
+      # ------------------------------------------------------------------
+      - name: Entscheiden, ob gebaut wird
+        id: plan
+        shell: bash
+        env:
+          EREIGNIS: ${{ github.event_name }}
+          ZEITPLAN: ${{ github.event.schedule }}
+          WIE_ZEITPLAN: ${{ inputs.wie_zeitplan }}
+          GEAENDERT: ${{ steps.feed.outputs.geaendert }}
+        run: |
+          set -euo pipefail
+          if [ "$EREIGNIS" = "schedule" ] || [ "$WIE_ZEITPLAN" = "true" ]; then
+            nur_bei_aenderung=true
+          else
+            nur_bei_aenderung=false
+          fi
+          if [ "$nur_bei_aenderung" = "false" ] || [ "$GEAENDERT" = "ja" ]; then
+            bauen=true
+          else
+            bauen=false
+          fi
+          echo "bauen=$bauen" >> "$GITHUB_OUTPUT"
+          neueste=$(node -p "const f=require('./content/folgen.json').folgen[0]; f.datum.slice(0,10)+' '+f.titel")
+          if [ "$bauen" = "false" ]; then
+            echo "Keine neue Folge im Feed (neueste: $neueste) — es wird nicht gebaut und nichts hochgeladen."
+            { echo "### Keine neue Folge"; echo; echo "Feed unverändert, neueste Folge: $neueste. Kein Build, kein Upload."; } >> "$GITHUB_STEP_SUMMARY"
+          fi
+          # Dienstags-Nachlauf: Ist eine Folge vom Montag im Feed? (Nur Warnung, kein roter Lauf.)
+          if [ "$ZEITPLAN" = "30 2 * * 2" ]; then
+            montag=$(date -u -d 'last monday' +%Y-%m-%d)
+            if node -e "process.exit(require('./content/folgen.json').folgen.some(f => f.datum.slice(0,10) >= '$montag') ? 0 : 1)"; then
+              echo "Folge seit Montag ($montag) vorhanden: $neueste"
+            else
+              echo "::warning::Keine neue Folge seit Montag ($montag). Neueste im Feed: $neueste"
+              { echo; echo "⚠️ **Keine neue Folge seit Montag ($montag).** Neueste im Feed: $neueste"; } >> "$GITHUB_STEP_SUMMARY"
+            fi
+          fi
+
+      # ------------------------------------------------------------------
       # Build (Live: basePath ausdruecklich leer)
       # ------------------------------------------------------------------
       - name: Static Export bauen
+        if: steps.plan.outputs.bauen == 'true'
         run: npm run build
         env:
           NEXT_BUILD_BASE_PATH: ""
@@ -124,6 +179,7 @@ jobs:
       # und es wird NICHTS hochgeladen.
       # ------------------------------------------------------------------
       - name: Export pruefen
+        if: steps.plan.outputs.bauen == 'true'
         shell: bash
         run: |
           set -uo pipefail
@@ -234,6 +290,7 @@ jobs:
           echo "Sicherheitspruefung bestanden ($(find out -type f | wc -l) Dateien, $(du -sh out | cut -f1))."
 
       - name: lftp installieren
+        if: steps.plan.outputs.bauen == 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -242,6 +299,7 @@ jobs:
           lftp --version | head -1
 
       - name: Per FTPS zu All-Inkl ausliefern
+        if: steps.plan.outputs.bauen == 'true'
         shell: bash
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
@@ -272,6 +330,7 @@ jobs:
       # dem Export vergleichen. (Ueber die Domain geht das noch nicht, sie
       # zeigt bis zum Live-Gang auf PodView.)
       - name: Upload kontrollieren
+        if: steps.plan.outputs.bauen == 'true'
         shell: bash
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
@@ -322,6 +381,7 @@ jobs:
       # Export ab) und prueft danach per HTTP (404 fuer Geloeschtes, 200 fuer
       # die eingebundenen Bilder). Alles andere bleibt unangetastet.
       - name: Veraltete Blogartikel auf dem Server entfernen
+        if: steps.plan.outputs.bauen == 'true'
         shell: bash
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
@@ -342,6 +402,27 @@ jobs:
             cat "$RUNNER_TEMP/blog-aufraeumen.txt"
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
+
+      # Neue Folge hochgeladen? Dann gleich live nachsehen, ob sie erreichbar
+      # ist (scripts/live-pruefen.mjs --nur-neueste, nur lesend).
+      - name: Playwright fuer die Live-Pruefung installieren
+        if: steps.plan.outputs.bauen == 'true' && steps.feed.outputs.geaendert == 'ja'
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/werkzeug" && cd "$RUNNER_TEMP/werkzeug"
+          npm init -y >/dev/null
+          npm install --silent playwright@1.49.1
+          npx playwright install --with-deps chromium >/dev/null
+
+      - name: Live-Pruefung der neuesten Folge
+        if: steps.plan.outputs.bauen == 'true' && steps.feed.outputs.geaendert == 'ja'
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp scripts/live-pruefen.mjs "$RUNNER_TEMP/werkzeug/"
+          node "$RUNNER_TEMP/werkzeug/live-pruefen.mjs" https://www.daslebenistzukurzfuerirgendwann.de --nur-neueste | tee "$RUNNER_TEMP/live.txt"
+          { echo; echo "### Live-Prüfung neueste Folge"; echo '```'; cat "$RUNNER_TEMP/live.txt"; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
 
       # Nur bei einem Fehler: Welcher Name steht im Zertifikat des
       # FTP-Servers? Damit sieht man, ob die Pruefung am Hostnamen scheitert.

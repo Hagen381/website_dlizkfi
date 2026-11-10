@@ -218,10 +218,23 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   seit 03.11.2026** (SSL für Domain und www aktiv, Google Search Console
   eingerichtet, Sitemap eingereicht). Jeder Deploy geht direkt live. KAS, DNS
   und Domain-Einstellungen fasst Claude nicht an.
-- Deploy: `.github/workflows/deploy-allinkl.yml` bei Push auf `main`, manuell
-  und montags 03:30 UTC (Folgen erscheinen montags 02:00 UTC). Der
-  Montagslauf holt erst den Feed, committet eine geänderte
-  `content/folgen.json` und baut dann.
+- Deploy: `.github/workflows/deploy-allinkl.yml` bei Push auf `main` (Push-
+  Auslöser nur `main`), manuell und per Zeitplan für die neue Folge. Die Folge
+  ist meist gegen 06:00 UTC (13:00 Thailand) im Feed; GitHub startet
+  Zeitpläne oft verspätet. Zeitplan: **Mo 06:30 UTC** (Hauptlauf),
+  **Mo 11:30 UTC** und **Di 02:30 UTC** (Nachläufe).
+  - Zeitplan-Läufe holen zuerst den Feed. Nur wenn sich `content/folgen.json`
+    geändert hat: committen, pushen, Vorschau anstoßen, bauen, prüfen,
+    hochladen, Blog aufräumen und danach automatisch
+    `scripts/live-pruefen.mjs --nur-neueste` (neueste Folge live erreichbar,
+    Titel stimmt). Sonst endet der Lauf grün mit „Keine neue Folge“ in der
+    Zusammenfassung — kein Build, kein Upload.
+  - Dienstagslauf: Steht noch keine Folge mit Montagsdatum (oder später) im
+    Feed, endet er mit der Warnung „Keine neue Folge seit Montag“ (gelb im
+    Actions-Überblick, nicht rot).
+  - Manuell gestartete Läufe bauen wie bisher immer (Feed-Abgleich wählbar).
+    Mit `wie_zeitplan` verhält sich ein manueller Lauf wie ein Zeitplan-Lauf
+    (zum Testen des „nur bei neuer Folge“-Pfads).
 - Secrets: FTP_SERVER, FTP_USERNAME, FTP_PASSWORD (eingetragen). Der FTP-Nutzer
   startet direkt im Domain-Ordner → Zielverzeichnis `./`.
 - Hochgeladen wird mit `lftp` (nicht mit der FTP-Deploy-Action): All-Inkl
