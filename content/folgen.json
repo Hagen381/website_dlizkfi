@@ -1,8 +1,25 @@
 {
   "hinweis": "Automatisch erzeugt von scripts/feed-holen.mjs. Slugs NICHT von Hand ändern (alte Adressen!).",
   "feed": "https://anchor.fm/s/104754158/podcast/rss",
-  "anzahl": 75,
+  "anzahl": 76,
   "folgen": [
+    {
+      "slug": "skorpione-schlangen-und-regenzeit",
+      "guid": "a307484b-2b9a-4528-866a-2b3eb649c862",
+      "zuordnung": "neu",
+      "titel": "Skorpione, Schlangen und Regenzeit",
+      "datum": "2026-11-09T03:00:00.000Z",
+      "dauer": 1904,
+      "mp3": "https://anchor.fm/s/104754158/podcast/play/129045098/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2Ff0dfd0e9-d222-0323-b127-036f0ae61bff.mp3",
+      "mp3Bytes": 45718927,
+      "mp3Typ": "audio/mpeg",
+      "bild": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/43597606/43597606-1746338065663-e86d61f96be92.jpg",
+      "nummer": null,
+      "typ": "full",
+      "spotifyLink": "https://podcasters.spotify.com/pod/show/dlizkfi/episodes/Skorpione--Schlangen-und-Regenzeit-e3s0l5a",
+      "beschreibung": "Während in Deutschland der graue November angebrochen ist, beschwere ich mich über das Wetter auf einer tropischen Insel. Da hält sich das Mitleid vermutlich in Grenzen. Aber die Regenzeit auf Koh Samui ist tatsächlich nicht ganzohne. Seit Wochen regnet es immer wieder heftig, im Haus ist alles …",
+      "shownotes": "<p>Während in Deutschland der graue November angebrochen ist, beschwere ich mich über das Wetter auf einer tropischen Insel. Da hält sich das Mitleid vermutlich in Grenzen.</p><p>Aber die Regenzeit auf Koh Samui ist tatsächlich nicht ganzohne. Seit Wochen regnet es immer wieder heftig, im Haus ist alles klamm, die Wäsche trocknet kaum noch und inzwischen teilen wir unser Zuhause regelmäßig mit Skorpionen. Und dann wäre da noch die Sache mit den Schlangen, auf derenBesuch ich eigentlich jeden Tag warte.</p><p>In dieser Folge erzähle ich dir, wie sich unser Alltag während der Regenzeit verändert und warum uns das ständige Drinnensitzen so schwerfällt.</p><p>Natürlich weiß ich, dass das Jammern auf hohem Niveau ist.Gerade wenn man sieht, mit welchen Überschwemmungen die Menschen in anderen Teilen Thailands zu kämpfen haben.</p><p>Außerdem räume ich mit einem weitverbreiteten Irrtum auf:Die Regenzeit in Thailand ist nämlich längst nicht überall zur gleichen Zeit.</p><p>Warum gerade Koh Samui, Koh Phangan und Koh Tao wettertechnisch anders ticken und welche Monate ich für einen Urlaub empfehlen würde, erfährst du ebenfalls.</p><p>Doch eigentlich wollte ich in dieser Folge darüber reden, wieunsere Geschichte mit Marv und dem 8.000 Euro Fail ausgegangen ist. Aber Hagen meinte, die Regenzeit sei für euch Zuhörer interessanter. Nun, entscheidetselbst…</p><p>Wenn dir der Podcast gefällt, dann abonnier ihn gern oderlass mir eine Bewertung da. Das hilft mir, dass sich der Podcast verbreiten kann. Empfiehl ihn auch gern weiter, wenn du magst.</p><p>Du findest den Podcast auf allen gängigen Plattformen,insbesondere bei:</p><p><a href=\"https://open.spotify.com/show/0m7DHiEhXuUZJPDkmtmWb0\">Spotify</a></p><p><a href=\"https://podcasts.apple.com/us/podcast/dlizkfi-das-leben-ist-zu-kurz-f%C3%BCr-irgendwann/id1821004400\">ApplePodcasts</a></p><p><a href=\"https://www.youtube.com/@DLIZKFIPodcast\">YouTube</a></p><p>Folge mir auch gern auf:</p><p><a href=\"https://www.instagram.com/molloycrew/\">Instagram</a></p><p><a href=\"https://de.pinterest.com/dlizkfipodcast/\">Pinterest</a></p><p>Alles Liebe<br />Juliette</p>"
+    },
     {
       "slug": "kindergeburtstag-auf-koh-samui-wie-viel-party-muss-eigentlich-sein",
       "guid": "917d35dd-c098-4626-9f6e-3e8a924cbf54",
