@@ -3,7 +3,8 @@
 //   node live-pruefen.mjs https://www.daslebenistzukurzfuerirgendwann.de
 //
 // Prüft: Weiterleitungen (http -> https, ohne www -> www, alte Sitemaps),
-// kein X-Robots-Tag, ist es die neue Seite? /blog/ mit Karten,
+// kein X-Robots-Tag, ist es die neue Seite? neueste Folge erreichbar,
+// /blog/ mit Karten,
 // jeder veröffentlichte Artikel (Bilder, Bildunterschriften, Zur-Folge-Kasten),
 // „Blog" in der Navigation, „Zum Blogartikel" auf der Folgenseite, alle
 // Bilder/Schriften/CSS/JS ohne Fehler.
@@ -37,6 +38,13 @@ pruefe((await start.pg.locator('body > header a[href$="/blog/"]').count()) > 0, 
 const robots = (await start.pg.request.get(basis + "/")).headers()["x-robots-tag"];
 pruefe(!robots, `kein X-Robots-Tag auf ${basis}/ ${robots ? "(gefunden: " + robots + ")" : ""}`);
 await start.ctx.close();
+
+// Neueste Folge aus content/folgen.json muss live erreichbar sein (Titel als h1).
+const neueste = JSON.parse(fs.readFileSync("content/folgen.json", "utf8")).folgen[0];
+const nf = await seite(`/episodes/${neueste.slug}/`);
+const nfTitel = nf.status === 200 ? (await nf.pg.locator("h1").first().innerText()).trim() : "";
+pruefe(nf.status === 200 && nfTitel === neueste.titel, `neueste Folge /episodes/${neueste.slug}/ HTTP ${nf.status}${nfTitel ? ` „${nfTitel}“` : ""}`);
+await nf.ctx.close();
 
 // Weiterleitungen (nur wenn die Basis www.<domain> ist)
 const host = new URL(basis).host;
