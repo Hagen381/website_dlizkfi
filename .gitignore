@@ -50,3 +50,7 @@ __pycache__/
 # Blog-Bilder (aus content/blog/bilder, ohne Metadaten neu erzeugt)
 /public/images/blog/
 /src/generated/
+
+# Entwürfe (nur Vorschau, erzeugt von scripts/entwuerfe.mjs)
+/public/images/startseite-entwurf/
+/src/app/entwurf/

@@ -6,7 +6,9 @@ import type { ArtikelBild } from "@/lib/blog";
 // Blogbild über dieselbe Pipeline wie das Cover (next-image-export-optimizer):
 // basePath-fest, placeholder="empty" (keine Blur-Bilder), lazy, responsive.
 // Hochformat wird auf max. 620 px Höhe begrenzt (object-fit: cover).
-export function BlogBildRoh({ bild, sizes, className = "", priority = false, style }: { bild: ArtikelBild; sizes: string; className?: string; priority?: boolean; style?: CSSProperties }) {
+// Ohne `sizes` gibt es nur 1x/2x-Kandidaten zur Breite `bild.width` (kurzes
+// srcset, z. B. für die kleinen Polaroids im Startseiten-Entwurf).
+export function BlogBildRoh({ bild, sizes, className = "", priority = false, style }: { bild: ArtikelBild; sizes?: string; className?: string; priority?: boolean; style?: CSSProperties }) {
   return (
     <ExportedImage
       // Ohne führenden Schrägstrich: die Bibliothek setzt den basePath davor

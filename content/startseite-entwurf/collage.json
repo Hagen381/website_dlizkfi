@@ -1,0 +1,280 @@
+{
+ "hinweis": "Entwurf Startseiten-Collage, nur Vorschau. 25 Bilder quadratisch 900px, ohne Metadaten, auf Kinder geprüft. Layout für Desktop-Bühne 1440x920 px (Hero), Werte aus dem abgestimmten Entwurf (referenz.html). Keine Beschriftung.",
+ "polaroids": [
+  {
+   "datei": "20251006_181734.jpg",
+   "seite": "links",
+   "abstand_rand_prozent": 0.4,
+   "oben_px": 8,
+   "breite_px": 178,
+   "drehung_grad": -7.0,
+   "z": 5,
+   "band_hinter_der_mitte": false,
+   "mobil": true
+  },
+  {
+   "datei": "20251129_113857.jpg",
+   "seite": "links",
+   "abstand_rand_prozent": 0.8,
+   "oben_px": 220,
+   "breite_px": 188,
+   "drehung_grad": 9.1,
+   "z": 6,
+   "band_hinter_der_mitte": false,
+   "mobil": true
+  },
+  {
+   "datei": "20260926_084325.jpg",
+   "seite": "links",
+   "abstand_rand_prozent": 0.1,
+   "oben_px": 450,
+   "breite_px": 168,
+   "drehung_grad": 5.0,
+   "z": 7,
+   "band_hinter_der_mitte": false,
+   "mobil": false
+  },
+  {
+   "datei": "20251118_165504.jpg",
+   "seite": "links",
+   "abstand_rand_prozent": 1.1,
+   "oben_px": 652,
+   "breite_px": 168,
+   "drehung_grad": -3.8,
+   "z": 8,
+   "band_hinter_der_mitte": false,
+   "mobil": false
+  },
+  {
+   "datei": "20250919_150203.jpg",
+   "seite": "links",
+   "abstand_rand_prozent": 12.7,
+   "oben_px": 17,
+   "breite_px": 168,
+   "drehung_grad": 4.2,
+   "z": 9,
+   "band_hinter_der_mitte": false,
+   "mobil": false
+  },
+  {
+   "datei": "20251006_175647.jpg",
+   "seite": "links",
+   "abstand_rand_prozent": 12.9,
+   "oben_px": 295,
+   "breite_px": 178,
+   "drehung_grad": 4.1,
+   "z": 5,
+   "band_hinter_der_mitte": false,
+   "mobil": false
+  },
+  {
+   "datei": "20250918_213310.jpg",
+   "seite": "links",
+   "abstand_rand_prozent": 12.7,
+   "oben_px": 450,
+   "breite_px": 168,
+   "drehung_grad": 6.0,
+   "z": 6,
+   "band_hinter_der_mitte": false,
+   "mobil": false
+  },
+  {
+   "datei": "20251116_180922.jpg",
+   "seite": "links",
+   "abstand_rand_prozent": 13.7,
+   "oben_px": 726,
+   "breite_px": 188,
+   "drehung_grad": -8.4,
+   "z": 7,
+   "band_hinter_der_mitte": false,
+   "mobil": true
+  },
+  {
+   "datei": "20251116_153451.jpg",
+   "seite": "rechts",
+   "abstand_rand_prozent": 0.7,
+   "oben_px": 13,
+   "breite_px": 188,
+   "drehung_grad": 5.4,
+   "z": 8,
+   "band_hinter_der_mitte": false,
+   "mobil": false
+  },
+  {
+   "datei": "20251013_114024.jpg",
+   "seite": "rechts",
+   "abstand_rand_prozent": 0.7,
+   "oben_px": 227,
+   "breite_px": 168,
+   "drehung_grad": 7.2,
+   "z": 9,
+   "band_hinter_der_mitte": false,
+   "mobil": true
+  },
+  {
+   "datei": "20261003_124935.jpg",
+   "seite": "rechts",
+   "abstand_rand_prozent": 0.1,
+   "oben_px": 467,
+   "breite_px": 168,
+   "drehung_grad": 3.5,
+   "z": 5,
+   "band_hinter_der_mitte": false,
+   "mobil": true
+  },
+  {
+   "datei": "20251105_091626.jpg",
+   "seite": "rechts",
+   "abstand_rand_prozent": 0.3,
+   "oben_px": 658,
+   "breite_px": 188,
+   "drehung_grad": -9.6,
+   "z": 6,
+   "band_hinter_der_mitte": false,
+   "mobil": false
+  },
+  {
+   "datei": "20260926_100209_villa.jpg",
+   "seite": "rechts",
+   "abstand_rand_prozent": 12.7,
+   "oben_px": 81,
+   "breite_px": 188,
+   "drehung_grad": 7.9,
+   "z": 7,
+   "band_hinter_der_mitte": false,
+   "mobil": false
+  },
+  {
+   "datei": "20260802_165035.jpg",
+   "seite": "rechts",
+   "abstand_rand_prozent": 13.6,
+   "oben_px": 231,
+   "breite_px": 168,
+   "drehung_grad": -3.4,
+   "z": 8,
+   "band_hinter_der_mitte": false,
+   "mobil": false
+  },
+  {
+   "datei": "20250919_222215.jpg",
+   "seite": "rechts",
+   "abstand_rand_prozent": 13.3,
+   "oben_px": 520,
+   "breite_px": 168,
+   "drehung_grad": 7.5,
+   "z": 9,
+   "band_hinter_der_mitte": false,
+   "mobil": false
+  },
+  {
+   "datei": "20251116_174540.jpg",
+   "seite": "rechts",
+   "abstand_rand_prozent": 13.0,
+   "oben_px": 671,
+   "breite_px": 188,
+   "drehung_grad": 5.0,
+   "z": 5,
+   "band_hinter_der_mitte": false,
+   "mobil": false
+  },
+  {
+   "datei": "20261003_125121.jpg",
+   "seite": "links",
+   "abstand_rand_prozent": 26.6,
+   "oben_px": -43,
+   "breite_px": 150,
+   "drehung_grad": 9.2,
+   "z": 3,
+   "band_hinter_der_mitte": true,
+   "mobil": false
+  },
+  {
+   "datei": "20251014_182335.jpg",
+   "seite": "links",
+   "abstand_rand_prozent": 38.2,
+   "oben_px": -29,
+   "breite_px": 150,
+   "drehung_grad": 3.2,
+   "z": 4,
+   "band_hinter_der_mitte": true,
+   "mobil": false
+  },
+  {
+   "datei": "20261006_124214.jpg",
+   "seite": "links",
+   "abstand_rand_prozent": 49.9,
+   "oben_px": -31,
+   "breite_px": 150,
+   "drehung_grad": 5.5,
+   "z": 5,
+   "band_hinter_der_mitte": true,
+   "mobil": false
+  },
+  {
+   "datei": "20251021_181515.jpg",
+   "seite": "links",
+   "abstand_rand_prozent": 61.6,
+   "oben_px": -30,
+   "breite_px": 150,
+   "drehung_grad": -6.5,
+   "z": 6,
+   "band_hinter_der_mitte": true,
+   "mobil": false
+  },
+  {
+   "datei": "20251019_161345.jpg",
+   "seite": "links",
+   "abstand_rand_prozent": 29.2,
+   "oben_px": 746,
+   "breite_px": 150,
+   "drehung_grad": -8.4,
+   "z": 2,
+   "band_hinter_der_mitte": true,
+   "mobil": false
+  },
+  {
+   "datei": "20261003_174804.jpg",
+   "seite": "links",
+   "abstand_rand_prozent": 43.7,
+   "oben_px": 739,
+   "breite_px": 150,
+   "drehung_grad": -8.2,
+   "z": 3,
+   "band_hinter_der_mitte": true,
+   "mobil": false
+  },
+  {
+   "datei": "20261006_112754.jpg",
+   "seite": "links",
+   "abstand_rand_prozent": 58.6,
+   "oben_px": 739,
+   "breite_px": 150,
+   "drehung_grad": 5.7,
+   "z": 4,
+   "band_hinter_der_mitte": true,
+   "mobil": false
+  },
+  {
+   "datei": "20251105_093052.jpg",
+   "seite": "links",
+   "abstand_rand_prozent": 24.0,
+   "oben_px": 660,
+   "breite_px": 140,
+   "drehung_grad": 3.6,
+   "z": 5,
+   "band_hinter_der_mitte": true,
+   "mobil": false
+  },
+  {
+   "datei": "20251121_114030.jpg",
+   "seite": "rechts",
+   "abstand_rand_prozent": 24.0,
+   "oben_px": 650,
+   "breite_px": 140,
+   "drehung_grad": 5.8,
+   "z": 6,
+   "band_hinter_der_mitte": true,
+   "mobil": false
+  }
+ ]
+}
