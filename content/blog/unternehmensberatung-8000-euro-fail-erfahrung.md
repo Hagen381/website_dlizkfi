@@ -1,7 +1,6 @@
 ---
 titel: "8.000 Euro für eine Unternehmensberatung: Wie aus großen Erwartungen eine teure Lektion wurde"
 folge-slug: "unser-8000-euro-fail-erfahrungsbericht-mit-einer-unternehmensberatung"
-datum: 2026-11-05
 beschreibung: "Eine Unternehmensberatung für 8.000 Euro, eine Geld-zurück-Garantie und drei Monate voller Ärger: warum wir am Ende auf 4.000 Euro verzichtet haben und was trotzdem bleibt."
 ---
 

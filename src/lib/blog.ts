@@ -3,11 +3,14 @@ import path from "node:path";
 import matter from "gray-matter";
 import { marked, type Token } from "marked";
 import { basePath, istVorschau } from "@/lib/base-path";
+import { folgeNachSlug } from "@/lib/folgen";
 
 // Blogartikel: content/blog/<slug>.md mit Frontmatter
 //   titel:        Überschrift des Artikels
-//   folge-slug:   Slug der zugehörigen Folge (wie in content/folgen.json)
-//   datum:        JJJJ-MM-TT
+//   folge-slug:   Slug der zugehörigen Folge (wie in content/folgen.json) — Pflicht:
+//                 Das Datum des Artikels ist das Erscheinungsdatum dieser Folge
+//                 (aus content/folgen.json). Fehlt die Folge, bricht der Build ab.
+//                 Ein `datum` im Frontmatter wird ignoriert.
 //   beschreibung: Meta-Description / Lead unter dem Titel / Teaser
 // Bilder als eigener Absatz: ![Bildunterschrift](bilder/<slug>/datei.jpg)
 //
@@ -21,8 +24,8 @@ export type ArtikelBlock = { art: "html"; html: string } | ({ art: "bild" } & Ar
 export type Artikel = {
   slug: string;
   titel: string;
-  folgeSlug: string | null;
-  datum: string;
+  folgeSlug: string;
+  datum: string; // ISO-Zeitpunkt der Folge (content/folgen.json)
   beschreibung: string;
   bloecke: ArtikelBlock[];
   erstesBild: ArtikelBild | null;
@@ -87,22 +90,31 @@ function laden(): Artikel[] {
     .map((datei) => {
       const entwurf = datei.startsWith("_");
       const { data, content } = matter(fs.readFileSync(path.join(ordner, datei), "utf8"));
-      for (const feld of ["titel", "datum", "beschreibung"]) {
+      for (const feld of ["titel", "folge-slug", "beschreibung"]) {
         if (!data[feld]) throw new Error(`content/blog/${datei}: Frontmatter-Feld "${feld}" fehlt.`);
+      }
+      const folgeSlug = String(data["folge-slug"]);
+      const folge = folgeNachSlug(folgeSlug);
+      if (!folge) {
+        throw new Error(
+          `content/blog/${datei}: Die Folge "${folgeSlug}" (folge-slug) steht nicht in content/folgen.json — vermutlich noch nicht im Feed. ` +
+            `Das Datum des Artikels kommt aus der Folge; erst Feed abgleichen (Deploy manuell mit „Vorher den RSS-Feed abgleichen“) oder folge-slug prüfen.`,
+        );
       }
       const bloecke = bloeckeBauen(content, datei, manifest);
       const erstesBild = (bloecke.find((b) => b.art === "bild") as ArtikelBild | undefined) ?? null;
       return {
         slug: datei.replace(/^_/, "").replace(/\.md$/, ""),
         titel: String(data.titel),
-        folgeSlug: data["folge-slug"] ? String(data["folge-slug"]) : null,
-        datum: data.datum instanceof Date ? data.datum.toISOString().slice(0, 10) : String(data.datum),
+        folgeSlug,
+        datum: folge.datum,
         beschreibung: String(data.beschreibung),
         bloecke,
         erstesBild: erstesBild ? { src: erstesBild.src, alt: erstesBild.alt, width: erstesBild.width, height: erstesBild.height } : null,
         entwurf,
       };
     })
+    // Neueste Folge zuerst
     .sort((a, b) => b.datum.localeCompare(a.datum));
 }
 
@@ -110,6 +122,5 @@ export const artikel: Artikel[] = laden();
 export const hatBlog = artikel.length > 0;
 export const artikelZurFolge = (folgeSlug: string) => artikel.find((a) => a.folgeSlug === folgeSlug) ?? null;
 
-export function datumLesbar(iso: string) {
-  return new Date(`${iso}T12:00:00Z`).toLocaleDateString("de-DE", { day: "numeric", month: "long", year: "numeric", timeZone: "Europe/Berlin" });
-}
+// Gleiches Format wie auf der Startseite/Folgen („9. November 2026“, Europe/Berlin).
+export { datumLang as datumLesbar } from "@/lib/folgen";

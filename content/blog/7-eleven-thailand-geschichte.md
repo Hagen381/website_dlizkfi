@@ -1,7 +1,6 @@
 ---
 titel: "7-Eleven in Thailand: Warum dieser kleine Supermarkt längst Kultstatus hat"
 folge-slug: "7-eleven-in-thailand-die-geschichte-zum-kult-laden"
-datum: 2026-11-10
 beschreibung: "Warum ist 7-Eleven in Thailand so beliebt? Erfahre mehr über die Geschichte der Kultkette, fast 16.000 Filialen und warum es sie in Deutschland nicht gibt."
 ---
 

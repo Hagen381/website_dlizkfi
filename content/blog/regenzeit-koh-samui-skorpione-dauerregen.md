@@ -1,7 +1,6 @@
 ---
 titel: "Regenzeit auf Koh Samui: Skorpione im Haus, Dauerregen und ein bisschen Inselkoller"
 folge-slug: "skorpione-schlangen-und-regenzeit"
-datum: 2026-11-10
 beschreibung: "Dauerregen, klamme Wäsche und Skorpione im Haus: wie sich die Regenzeit auf Koh Samui im Alltag anfühlt und welche Monate ich für einen Urlaub empfehlen würde."
 ---
 

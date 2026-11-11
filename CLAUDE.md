@@ -111,8 +111,14 @@ mehr.
 ### Blog
 
 - Artikel liegen als Markdown unter `content/blog/<slug>.md` (Frontmatter:
-  `titel`, `folge-slug`, `datum`, `beschreibung`; Vorlage in
+  `titel`, `folge-slug`, `beschreibung`; Vorlage in
   `content/blog/README.md`). Dateiname ohne `.md` = Adresse `/blog/<slug>/`.
+- **Datum = Erscheinungsdatum der Folge** zu `folge-slug` aus
+  `content/folgen.json` (kein `datum` im Frontmatter, wird ignoriert).
+  `folge-slug` ist Pflicht; fehlt die Folge in `folgen.json`, bricht der Build
+  mit Hinweis ab. `/blog/` sortiert danach (neueste Folge zuerst); dasselbe
+  Datum steht auf der Karte, im Artikel („9. November 2026“, `datumLang`),
+  in der Sitemap (`lastmod`) und im JSON-LD (`datePublished`).
 - **Artikel und Bilder liefert Juliette bzw. Claude aus dem Chat. Den Text
   nicht ändern oder umschreiben** — nur einbauen.
 - **Datei mit `_` am Anfang = Entwurf**: live unsichtbar (nicht gelesen, keine

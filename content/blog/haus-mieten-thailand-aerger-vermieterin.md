@@ -1,7 +1,6 @@
 ---
 titel: "Haus mieten in Thailand: Wenn die Vermieterin plötzlich den Garten leerräumt"
 folge-slug: "kulturelle-unterschiede-oder-einfach-schlechtes-benehmen"
-datum: 2026-11-05
 beschreibung: "Haus mieten in Thailand: Unsere Vermieterin nimmt Pflanzen und Möbel mit und räumt den Schuppen leer. Kulturelle Unterschiede oder schlechtes Benehmen?"
 ---
 
