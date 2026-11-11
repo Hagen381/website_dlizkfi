@@ -150,7 +150,7 @@ export default function FolgenRegisterEntwurf() {
           }
         >
           <p className="reg-hinweis">Mausrad, Ziehen oder Pfeiltasten ↑ ↓ · Reiter springen zum Monat</p>
-          <RegisterWalze monate={monate} reiterFotos={reiterFotos} anzahl={karten.length}>
+          <RegisterWalze monate={monate} reiterFotos={reiterFotos} titel={eintraege.map((e) => e.f.titel)}>
             {karten}
           </RegisterWalze>
         </FolgenSuche>

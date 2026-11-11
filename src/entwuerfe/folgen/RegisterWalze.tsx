@@ -4,11 +4,13 @@ import { Children, useCallback, useEffect, useRef, useState, type ReactNode } fr
 
 // Walze des Folgen-Registers (Entwurf, nur Vorschau): alle Folgen als Karten
 // auf einem Zylinder (rotateX, 24° Abstand, Radius 520 px). Drehen per
-// Mausrad, Ziehen, Pfeiltasten ↑/↓ (Fokus in der Walze) und Knöpfen. Sichtbar
-// sind nur die vorderen ±3 Karten. Links Monatsreiter (Klick springt zum
-// ersten Eintrag des Monats). Alle Karten bleiben im DOM (echte Links für
-// Suchmaschinen und Tastatur): bekommt ein Link in einer hinteren Karte den
-// Fokus, dreht die Walze dorthin.
+// Mausrad, Ziehen, Pfeiltasten ↑/↓ (nur bei Fokus in der Walze oder auf den
+// Reitern) und Knöpfen. Sichtbar sind nur die vorderen ±3 Karten, der Rest
+// ist visibility: hidden (per Tab nicht erreichbar). Bekommt ein Link in einer
+// sichtbaren Karte den Fokus, dreht die Walze sie nach vorn — so wandert das
+// Sichtfenster beim Tabben mit. Links Monatsreiter (Klick springt zur neuesten
+// Folge des Monats). Beim Drehen sagt eine höfliche Live-Region „Folge x von
+// y: Titel“ an. Alle Karten bleiben im DOM (echte Links für Suchmaschinen).
 
 export type Monat = { schluessel: string; text: string; start: number };
 
@@ -16,8 +18,10 @@ const SCHRITT = 24; // Grad zwischen zwei Karten
 const SICHTBAR = 3; // Karten vor/hinter der vordersten
 const BILDER_AB = 5; // Fotos erst laden, wenn eine Karte so nah ist
 
-export default function RegisterWalze({ monate, reiterFotos, anzahl, children }: { monate: Monat[]; reiterFotos: ReactNode[]; anzahl: number; children: ReactNode }) {
+export default function RegisterWalze({ monate, reiterFotos, titel, children }: { monate: Monat[]; reiterFotos: ReactNode[]; titel: string[]; children: ReactNode }) {
+  const anzahl = titel.length;
   const [aktuell, setAktuell] = useState(0);
+  const [ansage, setAnsage] = useState("");
   const [nah, setNah] = useState(() => new Set(Array.from({ length: Math.min(anzahl, BILDER_AB + 1) }, (_, i) => i)));
   const aktuellRef = useRef(0);
   const walze = useRef<HTMLDivElement>(null);
@@ -27,6 +31,7 @@ export default function RegisterWalze({ monate, reiterFotos, anzahl, children }:
   const geh = useCallback(
     (i: number) => {
       const z = Math.max(0, Math.min(anzahl - 1, i));
+      if (z !== aktuellRef.current) setAnsage(`Folge ${z + 1} von ${anzahl}: ${titel[z]}`);
       aktuellRef.current = z;
       setAktuell(z);
       setNah((alt) => {
@@ -37,8 +42,20 @@ export default function RegisterWalze({ monate, reiterFotos, anzahl, children }:
         return neu ?? alt;
       });
     },
-    [anzahl],
+    [anzahl, titel],
   );
+
+  // Pfeiltasten nur, wenn der Fokus in der Walze oder auf den Reitern liegt
+  // (nicht global — sonst ginge das Scrollen der Seite per Pfeiltaste kaputt).
+  const pfeile = (e: React.KeyboardEvent) => {
+    if (e.key === "ArrowDown") {
+      geh(aktuellRef.current + 1);
+      e.preventDefault();
+    } else if (e.key === "ArrowUp") {
+      geh(aktuellRef.current - 1);
+      e.preventDefault();
+    }
+  };
 
   // Mausrad (nur über der Walze; an den Enden darf die Seite weiterscrollen)
   useEffect(() => {
@@ -103,7 +120,7 @@ export default function RegisterWalze({ monate, reiterFotos, anzahl, children }:
 
   return (
     <div className="reg-register">
-      <nav className="reg-reiter" aria-label="Monate" ref={reiterLeiste}>
+      <nav className="reg-reiter" aria-label="Monate" ref={reiterLeiste} onKeyDown={pfeile}>
         {monate.map((m, j) => (
           <button key={m.schluessel} type="button" className="reg-reiter-knopf" aria-current={j === aktiverMonat ? "true" : undefined} onClick={() => geh(m.start)}>
             <span className="reg-reiter-foto" aria-hidden="true">
@@ -122,15 +139,7 @@ export default function RegisterWalze({ monate, reiterFotos, anzahl, children }:
           role="region"
           aria-roledescription="Walze"
           aria-label={`Alle Folgen, ${aktuell + 1} von ${anzahl}. Mit Pfeiltasten auf und ab drehen.`}
-          onKeyDown={(e) => {
-            if (e.key === "ArrowDown") {
-              geh(aktuell + 1);
-              e.preventDefault();
-            } else if (e.key === "ArrowUp") {
-              geh(aktuell - 1);
-              e.preventDefault();
-            }
-          }}
+          onKeyDown={pfeile}
           onPointerDown={(e) => {
             if ((e.target as Element).closest("a")) return;
             zugStart.current = e.clientY;
@@ -165,6 +174,9 @@ export default function RegisterWalze({ monate, reiterFotos, anzahl, children }:
             })}
           </ol>
         </div>
+        <p className="sr-only" aria-live="polite">
+          {ansage}
+        </p>
         <div className="reg-steuerung">
           <button type="button" aria-label="Neuere Folge" onClick={() => geh(aktuell - 1)} disabled={aktuell === 0}>
             ↑

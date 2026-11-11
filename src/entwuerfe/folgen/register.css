@@ -255,11 +255,13 @@
   backface-visibility: hidden;
   transition:
     opacity 0.45s ease,
+    visibility 0.45s ease,
     filter 0.45s ease;
 }
+/* Außerhalb ±3: unsichtbar und per Tab nicht erreichbar */
 .reg-platz.weg {
   opacity: 0;
-  pointer-events: none;
+  visibility: hidden;
 }
 .reg-platz.hinten {
   filter: brightness(0.9) saturate(0.75);
