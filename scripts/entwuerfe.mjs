@@ -25,9 +25,9 @@ import { fileURLToPath } from "node:url";
 const wurzel = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const routenOrdner = path.join(wurzel, "src/app/entwurf");
 
-// Name der Route → Modul unter src/entwuerfe/ (aktuell kein Entwurf)
-// Beispiel: { startseite: "startseite/Seite" } → /entwurf/startseite/
-const entwuerfe = {};
+// Name der Route → Modul unter src/entwuerfe/
+// { folgen: "folgen/Seite" } → /entwurf/folgen/ (Folgenübersicht als 3D-Register)
+const entwuerfe = { folgen: "folgen/Seite" };
 
 fs.rmSync(routenOrdner, { recursive: true, force: true });
 

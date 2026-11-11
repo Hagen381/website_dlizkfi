@@ -1,0 +1,501 @@
+/* Entwurf Folgen-Register (nur Vorschau). Nachbau von
+   folgen-register-referenz.html. Wird inline eingebettet (ohne Kommentare). */
+
+.entwurf-balken {
+  margin: 0;
+  padding: 6px 16px;
+  background: var(--text);
+  color: #fff;
+  font: 600 13px/1.4 var(--font-heading);
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.reg-buehne {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 16px 80px;
+}
+.reg-buehne > section {
+  position: relative;
+  z-index: 2;
+  max-width: 1000px;
+  margin: 24px auto 0;
+}
+
+/* ---------- Kopf (Glasfläche mit Suche) ---------- */
+.reg-kopf {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  max-width: 720px;
+  margin: 28px auto 0;
+  padding: 26px 28px 22px;
+  text-align: center;
+}
+@media (min-width: 640px) {
+  .reg-kopf {
+    -webkit-backdrop-filter: blur(18px) saturate(1.2);
+    backdrop-filter: blur(18px) saturate(1.2);
+  }
+}
+.reg-kopf form {
+  width: min(420px, 100%);
+}
+.reg-kopf-klein {
+  margin: 0;
+  font: 600 13px var(--font-heading);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.reg-kopf-titel {
+  margin: 8px 0 0;
+  font: 700 clamp(30px, 5vw, 52px) / 1.05 var(--font-heading);
+  text-wrap: balance;
+}
+
+.reg-hinweis {
+  position: relative;
+  z-index: 2;
+  width: fit-content;
+  max-width: 100%;
+  margin: 18px auto 0;
+  padding: 4px 14px;
+  border-radius: 999px;
+  background: rgb(254 252 232 / 0.9);
+  font: 600 12px var(--font-heading);
+  letter-spacing: 0.12em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+/* ---------- Polaroids links/rechts (nur ≥ 1280 px) ---------- */
+.reg-seitenfotos {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+.reg-pola {
+  position: absolute;
+  width: 150px;
+  pointer-events: auto;
+  perspective: 900px;
+}
+.reg-pola:nth-child(-n + 4) {
+  --o: left center;
+}
+.reg-pola:nth-child(n + 5) {
+  --o: right center;
+}
+.reg-pola-rahmen {
+  position: relative;
+  padding: 7px 7px 26px;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow:
+    0 1px 2px rgb(26 46 5 / 0.1),
+    0 8px 18px rgb(26 46 5 / 0.14);
+  transform: rotate(var(--r)) rotateX(var(--tx, 0deg)) rotateY(var(--ty, 0deg));
+  transform-origin: var(--o);
+  transition:
+    transform 0.55s cubic-bezier(0.2, 0.9, 0.25, 1.12),
+    box-shadow 0.45s ease;
+  overflow: hidden;
+}
+.reg-pola-rahmen::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(260px circle at var(--gx, 50%) var(--gy, 30%), rgb(255 255 255 / 0.35), transparent 60%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.reg-pola-bild {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.2, 0.9, 0.25, 1);
+}
+@media (hover: hover) {
+  .reg-pola:hover {
+    z-index: 9;
+  }
+  .reg-pola:hover .reg-pola-rahmen {
+    transform: rotate(0deg) translateY(-12px) scale(1.24) rotateX(var(--tx, 0deg)) rotateY(var(--ty, 0deg));
+    box-shadow:
+      0 4px 10px rgb(26 46 5 / 0.16),
+      0 26px 50px rgb(26 46 5 / 0.28),
+      0 50px 90px rgb(26 46 5 / 0.12);
+  }
+  .reg-pola:hover .reg-pola-rahmen::after {
+    opacity: 1;
+  }
+  .reg-pola:hover .reg-pola-bild {
+    transform: scale(1.07);
+  }
+}
+@media (max-width: 1279px) {
+  .reg-seitenfotos {
+    display: none;
+  }
+}
+
+/* ---------- Register: Reiter + Walze ---------- */
+.reg-register {
+  position: relative;
+  z-index: 2;
+  max-width: 1000px;
+  margin: 12px auto 0;
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 26px;
+}
+.reg-reiter {
+  position: sticky;
+  top: 96px;
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.reg-reiter-knopf {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 4px 12px 4px 6px;
+  border: 0;
+  border-left: 5px solid var(--primary);
+  border-radius: 0 16px 16px 0;
+  background: rgb(255 255 255 / 0.75);
+  color: var(--text);
+  font: 600 14px var(--font-heading);
+  text-align: left;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgb(26 46 5 / 0.06);
+  transition:
+    transform 0.35s cubic-bezier(0.2, 0.9, 0.25, 1.15),
+    background-color 0.2s,
+    box-shadow 0.3s;
+}
+.reg-reiter-knopf:nth-child(3n + 2) {
+  border-left-color: var(--secondary);
+}
+.reg-reiter-knopf:nth-child(3n) {
+  border-left-color: #e9c45a;
+}
+.reg-reiter-foto {
+  flex: none;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgb(26 46 5 / 0.2);
+}
+.reg-reiter-bild {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (hover: hover) {
+  .reg-reiter-knopf:hover {
+    transform: translateX(5px);
+  }
+}
+.reg-reiter-knopf[aria-current="true"] {
+  background: #fff;
+  transform: translateX(12px);
+  box-shadow: 0 8px 18px rgb(26 46 5 / 0.14);
+}
+
+.reg-walze {
+  position: relative;
+  height: 640px;
+  overflow: hidden;
+  border-radius: 30px;
+  perspective: 1700px;
+  cursor: grab;
+  touch-action: none;
+  -webkit-mask-image: linear-gradient(transparent, #000 14%, #000 86%, transparent);
+  mask-image: linear-gradient(transparent, #000 14%, #000 86%, transparent);
+}
+.reg-walze:focus-visible {
+  outline: 2px solid var(--secondary-text);
+  outline-offset: -2px;
+}
+.reg-zylinder {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: min(700px, 94%);
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  transform-style: preserve-3d;
+  transition: transform 0.7s cubic-bezier(0.2, 0.8, 0.25, 1);
+}
+.reg-platz {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 210px;
+  margin-top: -105px;
+  backface-visibility: hidden;
+  transition:
+    opacity 0.45s ease,
+    filter 0.45s ease;
+}
+.reg-platz.weg {
+  opacity: 0;
+  pointer-events: none;
+}
+.reg-platz.hinten {
+  filter: brightness(0.9) saturate(0.75);
+}
+
+.reg-karte {
+  position: relative;
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr);
+  height: 100%;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 12px 34px rgb(26 46 5 / 0.16);
+}
+.vorne .reg-karte {
+  box-shadow: 0 18px 50px rgb(26 46 5 / 0.24);
+}
+.reg-fahne {
+  position: absolute;
+  top: -15px;
+  left: 228px;
+  padding: 4px 12px;
+  border-radius: 10px 10px 0 0;
+  background: var(--primary);
+  font: 600 12px var(--font-heading);
+  color: var(--text);
+}
+.reg-foto {
+  position: relative;
+  overflow: hidden;
+  border-radius: 22px 0 0 22px;
+  background: var(--surface);
+}
+.reg-foto::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent 60%, rgb(255 255 255 / 0.35));
+}
+.reg-foto-bild {
+  display: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Fotos erst laden, wenn die Karte in die Nähe der vordersten kommt */
+.nah .reg-foto-bild {
+  display: block;
+}
+.reg-cover {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  z-index: 2;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.25);
+}
+.reg-text {
+  min-width: 0;
+  padding: 18px 20px 16px;
+}
+.reg-meta {
+  margin: 0;
+  font: 600 13px var(--font-heading);
+  color: var(--muted);
+}
+.reg-badge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--primary);
+  font: 600 12px var(--font-heading);
+  color: var(--text);
+}
+.reg-titel {
+  margin: 6px 0 8px;
+  font: 700 22px/1.15 var(--font-heading);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.reg-titel a {
+  color: inherit;
+  text-decoration: none;
+}
+.reg-titel a:hover {
+  text-decoration: underline;
+}
+.reg-beschreibung {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--muted);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.reg-aktionen {
+  display: none;
+  gap: 8px;
+  margin-top: 12px;
+}
+.vorne .reg-aktionen {
+  display: flex;
+}
+.reg-knopf {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: var(--text);
+  font: 600 15px var(--font-heading);
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgb(26 46 5 / 0.12);
+  transition:
+    transform 0.25s cubic-bezier(0.2, 0.9, 0.25, 1.15),
+    box-shadow 0.25s;
+}
+.reg-knopf-weiss {
+  background: #fff;
+  border: 1px solid rgb(26 46 5 / 0.1);
+}
+@media (hover: hover) {
+  .reg-knopf:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 18px rgb(26 46 5 / 0.18);
+  }
+}
+
+.reg-steuerung {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+.reg-steuerung button {
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgb(26 46 5 / 0.12);
+  border-radius: 50%;
+  background: rgb(255 255 255 / 0.85);
+  color: var(--text);
+  font: 700 20px var(--font-heading);
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgb(26 46 5 / 0.1);
+}
+.reg-steuerung button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+/* ---------- Mobil (< 760 px): Reiter als wischbare Leiste oben ---------- */
+@media (max-width: 759px) {
+  .reg-register {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+  .reg-reiter {
+    position: static;
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 12px 2px 4px;
+    scrollbar-width: thin;
+  }
+  .reg-reiter-knopf {
+    flex: none;
+    border-left: 0;
+    border-top: 5px solid var(--primary);
+    border-radius: 16px 16px 0 0;
+    white-space: nowrap;
+  }
+  .reg-reiter-knopf:nth-child(3n + 2) {
+    border-top-color: var(--secondary);
+  }
+  .reg-reiter-knopf:nth-child(3n) {
+    border-top-color: #e9c45a;
+  }
+  .reg-reiter-knopf[aria-current="true"] {
+    transform: translateY(-6px);
+  }
+  .reg-walze {
+    height: 470px;
+  }
+  .reg-platz {
+    height: 200px;
+    margin-top: -100px;
+  }
+  .reg-karte {
+    grid-template-columns: 110px minmax(0, 1fr);
+  }
+  .reg-fahne {
+    left: 126px;
+  }
+  .reg-titel {
+    font-size: 18px;
+  }
+  .reg-text {
+    padding: 14px;
+  }
+  .reg-cover {
+    width: 32px;
+    height: 32px;
+  }
+  .reg-aktionen {
+    flex-wrap: wrap;
+  }
+  .reg-knopf {
+    min-height: 44px;
+    padding: 0 14px;
+    font-size: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reg-zylinder,
+  .reg-platz,
+  .reg-reiter-knopf,
+  .reg-knopf,
+  .reg-pola-rahmen,
+  .reg-pola-bild {
+    transition: none;
+  }
+  .reg-pola:hover .reg-pola-rahmen {
+    transform: rotate(var(--r)) scale(1.04);
+  }
+  .reg-pola:hover .reg-pola-bild {
+    transform: none;
+  }
+}

@@ -12,7 +12,8 @@ const normal = (s: string) => s.toLowerCase().normalize("NFKD").replace(/[̀-ͯ]
 // Suche im Browser über den Index /suche.json (aus content/folgen.json gebaut).
 // Ohne Suchbegriff wird die normale, statisch erzeugte Liste (children) gezeigt.
 // Die Adresse /episodes/?q=… funktioniert auch als Link.
-export default function FolgenSuche({ titel, children }: { titel: ReactNode; children: ReactNode }) {
+// kopfClassName: Layout von Titel + Suchfeld (Standard wie auf /episodes/).
+export default function FolgenSuche({ titel, children, kopfClassName = "mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between" }: { titel: ReactNode; children: ReactNode; kopfClassName?: string }) {
   const [eingabe, setEingabe] = useState("");
   const [begriff, setBegriff] = useState("");
   const [index, setIndex] = useState<Eintrag[] | null>(null);
@@ -66,7 +67,7 @@ export default function FolgenSuche({ titel, children }: { titel: ReactNode; chi
 
   return (
     <>
-      <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+      <div className={kopfClassName}>
         {titel}
         <form role="search" onSubmit={suchen} className="flex w-full gap-2 sm:w-auto">
           <label htmlFor="folgen-suche" className="sr-only">
