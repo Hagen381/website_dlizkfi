@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const a = artikel.find((x) => x.slug === slug);
   if (!a) return { title: "Blog" };
   const pfad = `/blog/${a.slug}/`;
-  const bild = a.erstesBild ? [{ url: a.erstesBild.src, width: a.erstesBild.width, height: a.erstesBild.height, alt: a.erstesBild.alt }] : undefined;
+  const bild = a.kartenbild ? [{ url: a.kartenbild.src, width: a.kartenbild.width, height: a.kartenbild.height, alt: a.kartenbild.alt }] : undefined;
   return {
     title: a.titel,
     description: a.beschreibung,
@@ -58,7 +58,7 @@ export default async function BlogArtikel({ params }: Props) {
         mainEntityOfPage: absolut(pfad),
         inLanguage: siteConfig.sprache,
         author: { "@type": "Person", name: siteConfig.verantwortlich.name },
-        ...(a.erstesBild ? { image: absolut(a.erstesBild.src) } : {}),
+        ...(a.kartenbild ? { image: absolut(a.kartenbild.src) } : {}),
         isPartOf: { "@type": "Blog", "@id": `${absolut("/blog/")}#blog`, name: `Blog – ${siteConfig.name}`, url: absolut("/blog/") },
         ...(folge
           ? {

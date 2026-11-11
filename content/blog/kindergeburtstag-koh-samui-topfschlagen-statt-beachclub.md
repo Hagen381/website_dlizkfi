@@ -2,6 +2,7 @@
 titel: "Topfschlagen statt Beachclub: Warum ich beim Kindergeburtstag nicht mitziehe"
 folge-slug: "kindergeburtstag-auf-koh-samui-wie-viel-party-muss-eigentlich-sein"
 beschreibung: "Auf Koh Samui werden Kindergeburtstage gefeiert wie anderswo Hochzeiten. Warum ich da nicht mitmache, was das mit Gruppendruck zu tun hat und warum ich selbst keine Geburtstagsmaus bin."
+kartenbild: "20251006_181734.jpg"
 ---
 
 Ich muss mal was zum Thema Kindergeburtstag loswerden. Diese Woche hat Heinrich seinen Geburtstag mit seinen Freunden nachgefeiert. Und in derselben Woche ist das Kind einer Sportkollegin drei geworden, ich habe ein Video von der Party gesehen. Und da ist es mir wieder aufgegangen, wie hier eigentlich Geburtstage gefeiert werden. Und wie komplett anders das ist als das, was ich von früher kenne.

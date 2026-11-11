@@ -140,7 +140,11 @@ mehr.
 - Layout: Lesespalte ~65 Zeichen (36,5 rem), Literata 18 px, `##` in Bricolage,
   Beschreibung als Lead, darunter Button „Zur Podcastfolge", Kasten „Zur
   Folge" mit Player und demselben Button am Ende; Bilder max.
-  620 px hoch (object-fit: cover). `/blog/` zeigt Karten mit dem ersten Bild.
+  620 px hoch (object-fit: cover). `/blog/` zeigt Karten mit dem Kartenbild:
+  optionales Frontmatter `kartenbild: <datei>` (muss im Artikel vorkommen,
+  sonst Build-Abbruch), ohne Feld das erste Bild; `kartenbild-position`
+  (optional, z. B. `"50% 60%"`) setzt den Ausschnitt. Das Kartenbild ist auch
+  das OG-Bild und das Bild im JSON-LD.
 - Button „Zur Podcastfolge" (`src/components/ZurPodcastfolge.tsx` über
   `GelberButton.tsx`, Stil wie „Abonnieren") kommt automatisch aus der Vorlage, sobald `folge-slug` gesetzt
   ist. Ziel immer `/episodes/<folge-slug>/` auf unserer Seite, nie Spotify.
@@ -150,7 +154,7 @@ mehr.
   mit dem Button „Zum Blogartikel" direkt unter Titel/Datum, vor dem Player
   (gleicher Stil, `GelberButton.tsx`); ohne Artikel kein Button. Live nie zu
   Entwürfen (die werden live gar nicht gelesen). JSON-LD `BlogPosting` (Autorin Juliette Oppel, Bild,
-  Datum, `about` → PodcastEpisode), OG-Bild = erstes Artikelbild.
+  Datum, `about` → PodcastEpisode), OG-Bild = Kartenbild.
 
 ### Header
 

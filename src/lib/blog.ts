@@ -12,6 +12,11 @@ import { folgeNachSlug } from "@/lib/folgen";
 //                 (aus content/folgen.json). Fehlt die Folge, bricht der Build ab.
 //                 Ein `datum` im Frontmatter wird ignoriert.
 //   beschreibung: Meta-Description / Lead unter dem Titel / Teaser
+//   kartenbild:   optional, Dateiname eines Bildes aus bilder/<slug>/, das im
+//                 Artikel vorkommt — Bild der Karte auf /blog/ und OG-Bild.
+//                 Ohne Feld: das erste Bild im Artikel.
+//   kartenbild-position: optional, CSS object-position für den Kartenausschnitt
+//                 (z. B. "50% 70%"), Standard "50% 50%".
 // Bilder als eigener Absatz: ![Bildunterschrift](bilder/<slug>/datei.jpg)
 //
 // Dateien mit "_" am Anfang sind Entwürfe: live NIE sichtbar, nur im
@@ -28,7 +33,8 @@ export type Artikel = {
   datum: string; // ISO-Zeitpunkt der Folge (content/folgen.json)
   beschreibung: string;
   bloecke: ArtikelBlock[];
-  erstesBild: ArtikelBild | null;
+  kartenbild: ArtikelBild | null; // Karte auf /blog/ und OG-Bild
+  kartenbildPosition: string;
   entwurf: boolean;
 };
 
@@ -102,7 +108,19 @@ function laden(): Artikel[] {
         );
       }
       const bloecke = bloeckeBauen(content, datei, manifest);
-      const erstesBild = (bloecke.find((b) => b.art === "bild") as ArtikelBild | undefined) ?? null;
+      const bilder = bloecke.filter((b) => b.art === "bild") as ArtikelBild[];
+      let kartenbild: ArtikelBild | null = bilder[0] ?? null;
+      if (data.kartenbild) {
+        const name = String(data.kartenbild).trim();
+        kartenbild = bilder.find((b) => b.src.split("/").pop() === name) ?? null;
+        if (!kartenbild) {
+          throw new Error(`content/blog/${datei}: kartenbild "${name}" kommt im Artikel nicht als Bild vor (erwartet: Dateiname aus bilder/<slug>/, z. B. ${bilder.map((b) => b.src.split("/").pop()).join(", ")}).`);
+        }
+      }
+      const kartenbildPosition = data["kartenbild-position"] ? String(data["kartenbild-position"]) : "50% 50%";
+      if (!/^\d{1,3}% \d{1,3}%$/.test(kartenbildPosition)) {
+        throw new Error(`content/blog/${datei}: kartenbild-position "${kartenbildPosition}" — erwartet z. B. "50% 70%".`);
+      }
       return {
         slug: datei.replace(/^_/, "").replace(/\.md$/, ""),
         titel: String(data.titel),
@@ -110,7 +128,8 @@ function laden(): Artikel[] {
         datum: folge.datum,
         beschreibung: String(data.beschreibung),
         bloecke,
-        erstesBild: erstesBild ? { src: erstesBild.src, alt: erstesBild.alt, width: erstesBild.width, height: erstesBild.height } : null,
+        kartenbild: kartenbild ? { src: kartenbild.src, alt: kartenbild.alt, width: kartenbild.width, height: kartenbild.height } : null,
+        kartenbildPosition,
         entwurf,
       };
     })

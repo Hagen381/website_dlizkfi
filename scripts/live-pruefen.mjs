@@ -87,11 +87,13 @@ pruefe(karten === artikel.length, `/blog/ zeigt ${karten} Karte(n), veröffentli
 pruefe(blog.kaputt.length === 0, `/blog/ ohne Bildfehler ${blog.kaputt.join(" | ")}`);
 for (const datei of artikel) {
   const slug = datei.replace(/\.md$/, "");
-  const erstes = fs.readFileSync(`content/blog/${datei}`, "utf8").match(/!\[[^\]]*\]\(bilder\/[^/]+\/([^)]+?)\.[a-z]+\)/i)?.[1];
+  const mdText = fs.readFileSync(`content/blog/${datei}`, "utf8");
+  // Kartenbild aus dem Frontmatter, sonst das erste Bild im Artikel
+  const erstes = (mdText.match(/^kartenbild:\s*"?([^"\n]+?)"?\s*$/m)?.[1] || mdText.match(/!\[[^\]]*\]\(bilder\/[^/]+\/([^)]+)\)/i)?.[1] || "").replace(/\.[a-z]+$/i, "") || null;
   if (!erstes) continue;
   const karte = blog.pg.locator(`main article:has(a[href$="/blog/${slug}/"])`);
   const src = (await karte.locator("img").first().getAttribute("srcset").catch(() => null)) || (await karte.locator("img").first().getAttribute("src").catch(() => "")) || "";
-  pruefe(src.includes(erstes), `/blog/ Karte ${slug} zeigt erstes Bild ${erstes}`);
+  pruefe(src.includes(erstes), `/blog/ Karte ${slug} zeigt Kartenbild ${erstes}`);
 }
 await blog.ctx.close();
 
