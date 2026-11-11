@@ -28,8 +28,9 @@ export const metadata: Metadata = {
 
 type Polaroid = (typeof collage.polaroids)[number];
 
-// Reihenfolge der fünf Mobil-Fotos im Fächer = Reihenfolge in collage.json.
-const mobilNr = new Map(collage.polaroids.filter((p) => p.mobil).map((p, i) => [p.datei, i + 1]));
+// Mobil (< 640 px): 8 Fotos in zwei Reihen, Platz laut "mobil_reihenfolge"
+// (1–4 obere Reihe, 5–8 untere Reihe).
+const mobilNr = new Map(collage.polaroids.flatMap((p) => (p.mobil && "mobil_reihenfolge" in p ? [[p.datei, p.mobil_reihenfolge] as const] : [])));
 
 function stil(p: Polaroid): CSSProperties {
   return {

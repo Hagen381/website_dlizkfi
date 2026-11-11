@@ -201,9 +201,15 @@
 }
 /* < 640: nur die fünf Mobil-Fotos als kleiner Fächer über der Glasfläche */
 @media (max-width: 639px) {
+  /* Zwei Reihen à 4 Polaroids über der Glasfläche. Breite ≈ 92 px, bei
+     schmalen Geräten so viel kleiner, dass samt Drehung nichts über den Rand
+     ragt (360 px → ca. 86 px). Nachbarn überlappen sich um 10 px. */
   .collage-hero {
+    --mw: min(92px, calc((100vw - 14px) / 4));
+    --mschritt: calc(var(--mw) - 10px);
+    --mh: calc(var(--mw) + 12px); /* Rahmen: 5 px seitlich/oben, 17 px unten */
     height: auto;
-    padding: 160px 16px 40px;
+    padding: calc(2 * var(--mh) + 20px) 16px 40px;
   }
   /* Oben verankert: Die Höhe hängt hier vom Text ab (Schriftwechsel beim
      Laden), unten verankert würde der Fleck mitrutschen (CLS). */
@@ -238,27 +244,26 @@
   }
   .pola.pola-mobil {
     display: block;
-    left: 50% !important;
+    left: calc(50% - (3 * var(--mschritt) + var(--mw)) / 2 + var(--spalte) * var(--mschritt)) !important;
     right: auto !important;
-    top: 28px !important;
-    width: 100px !important;
+    top: calc(14px + var(--reihe) * (var(--mh) - 10px) + var(--dy)) !important;
+    width: var(--mw) !important;
+    z-index: calc(5 + var(--reihe) * 4 + var(--spalte)) !important;
     transform: none;
   }
-  .pola-m1 {
-    margin-left: -170px;
+  .pola-mobil .pola-rahmen {
+    padding: 5px 5px 17px;
+    transform: rotate(var(--dr));
   }
-  .pola-m2 {
-    margin-left: -108px;
-  }
-  .pola-m3 {
-    margin-left: -50px;
-  }
-  .pola-m4 {
-    margin-left: 8px;
-  }
-  .pola-m5 {
-    margin-left: 66px;
-  }
+  /* Reihe 1 (mobil_reihenfolge 1–4) und Reihe 2 (5–8): Drehung, Höhenversatz */
+  .pola-m1 { --reihe: 0; --spalte: 0; --dr: -6deg; --dy: 4px; }
+  .pola-m2 { --reihe: 0; --spalte: 1; --dr: 4deg; --dy: 0px; }
+  .pola-m3 { --reihe: 0; --spalte: 2; --dr: -3deg; --dy: 7px; }
+  .pola-m4 { --reihe: 0; --spalte: 3; --dr: 5deg; --dy: 2px; }
+  .pola-m5 { --reihe: 1; --spalte: 0; --dr: 5deg; --dy: 1px; }
+  .pola-m6 { --reihe: 1; --spalte: 1; --dr: -4deg; --dy: 8px; }
+  .pola-m7 { --reihe: 1; --spalte: 2; --dr: 6deg; --dy: 3px; }
+  .pola-m8 { --reihe: 1; --spalte: 3; --dr: -5deg; --dy: 6px; }
   .collage-glas {
     position: relative;
     left: auto;

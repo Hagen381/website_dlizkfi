@@ -70,6 +70,8 @@ for (const p of polaroids) {
   const info = await sharp(quelle).rotate().jpeg({ quality: 86, mozjpeg: true }).toFile(path.join(zielOrdner, p.datei));
   if (info.width !== 900 || info.height !== 900) fehler.push(`${p.datei}: ${info.width}×${info.height} statt 900×900`);
 }
+const mobil = polaroids.filter((p) => p.mobil).map((p) => p.mobil_reihenfolge).sort((a, b) => a - b);
+if (mobil.join() !== "1,2,3,4,5,6,7,8") fehler.push(`collage.json: genau 8 Fotos mit "mobil": true und "mobil_reihenfolge" 1–8 erwartet, gefunden: ${mobil.join(", ") || "keine"}`);
 if (fehler.length) {
   console.error("Entwürfe FEHLER:\n  " + fehler.join("\n  "));
   process.exit(1);
