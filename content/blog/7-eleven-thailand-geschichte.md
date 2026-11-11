@@ -2,6 +2,7 @@
 titel: "7-Eleven in Thailand: Warum dieser kleine Supermarkt längst Kultstatus hat"
 folge-slug: "7-eleven-in-thailand-die-geschichte-zum-kult-laden"
 beschreibung: "Warum ist 7-Eleven in Thailand so beliebt? Erfahre mehr über die Geschichte der Kultkette, fast 16.000 Filialen und warum es sie in Deutschland nicht gibt."
+kartenbild: "20250919_222215.jpg"
 ---
 
 Wer schon einmal in Thailand war, kennt ihn mit ziemlicher Sicherheit: 7-Eleven. Egal ob mitten in Bangkok, an einer Tankstelle oder irgendwo auf Koh Samui – das grün-orange-rote Logo begegnet einem praktisch überall. Manchmal sogar mehrfach innerhalb weniger Meter.
@@ -31,6 +32,8 @@ Für uns gehörten diese kleinen Einkäufe früher ganz selbstverständlich zum 
 Inzwischen leben wir dauerhaft auf Koh Samui und unser Einkaufsverhalten hat sich verändert. Den Wocheneinkauf erledigen wir meistens in größeren Supermärkten wie Lotus's oder Big C. Dort ist vieles günstiger.
 
 7-Eleven nutzen wir eher für spontane Besorgungen. Mal einen Kaffee, eine Flasche Wasser oder etwas zu essen, wenn wir unterwegs sind.
+
+![Eiskaffee und Lipovitan-D in Bangkok](bilder/7-eleven-thailand-geschichte/20250921_115240.jpg)
 
 Trotzdem möchte ich diese Läden nicht missen. Schon allein, weil man sich darauf verlassen kann, dass irgendwo in der Nähe einer ist.
 
@@ -81,6 +84,8 @@ Die erste thailändische 7-Eleven-Filiale eröffnete 1989 in Bangkok. Damals war
 Heute ist Thailand einer der größten Märkte der Kette. Ende 2025 gab es landesweit bereits 15.945 Filialen.
 
 Wer schon einmal durch Bangkok gefahren ist, kann sich diese enorme Zahl wahrscheinlich gut vorstellen. Manchmal stehen zwei Filialen direkt gegenüber auf unterschiedlichen Straßenseiten. Ein paar Häuser weiter folgt dann schon die nächste.
+
+![Ein 7-Eleven in Bangkok bei Nacht](bilder/7-eleven-thailand-geschichte/20250919_222215.jpg)
 
 Auch auf Koh Samui ist die Dichte beeindruckend. Selbst dort, wo eigentlich schon ausreichend Einkaufsmöglichkeiten vorhanden sind, wird gelegentlich noch ein weiterer Laden gebaut.
 
