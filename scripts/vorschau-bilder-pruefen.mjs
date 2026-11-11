@@ -62,13 +62,17 @@ for (const breite of [390, 1280]) {
     await page.waitForTimeout(800);
 
     // Zusätzlich: jedes angezeigte <img> muss geladen und dekodiert sein.
-    // Ausgeblendete (display: none, z. B. Collage-Fotos unter 640 px) lädt der
-    // Browser wegen loading="lazy" gewollt nicht — die werden direkt angefragt.
+    // Ausgeblendete (display: none, z. B. Collage-Fotos unter 640 px) und
+    // lazy-Bilder außerhalb des Sichtbereichs lädt der Browser gewollt nicht —
+    // die werden direkt angefragt.
     const { kaputt, versteckt } = await page.evaluate(() => {
       const zeigt = (i) => i.getClientRects().length > 0;
       return {
-        kaputt: [...document.images].filter((i) => zeigt(i) && (!i.complete || i.naturalWidth === 0)).map((i) => i.currentSrc || i.src),
-        versteckt: [...document.images].filter((i) => !zeigt(i) && !i.complete).map((i) => i.currentSrc || i.src),
+        // kaputt: geladen, aber leer — oder nicht lazy und trotzdem nicht fertig
+        kaputt: [...document.images].filter((i) => zeigt(i) && ((i.complete && i.naturalWidth === 0) || (!i.complete && i.loading !== "lazy"))).map((i) => i.currentSrc || i.src),
+        // ausgeblendet oder lazy außerhalb des Sichtbereichs (z. B. waagerecht
+        // gescrollte Leisten, hintere Karten einer Walze): direkt anfragen
+        versteckt: [...document.images].filter((i) => !i.complete && (!zeigt(i) || i.loading === "lazy")).map((i) => i.currentSrc || i.src),
       };
     });
     for (const k of kaputt) fehler.push(`<img> nicht geladen: ${k}`);
