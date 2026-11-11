@@ -305,8 +305,11 @@ jobs:
       # lftp ohne apt-Abhaengigkeit (Runner-Stoerung 11.11.2026): erst das
       # Ubuntu-Paket aus dem Actions-Cache, sonst apt, sonst conda-forge.
       # Details: scripts/lftp-installieren.sh
+      # Zeitplan-Läufe (Mo/Di) holen das Paket immer ab, auch ohne neue Folge:
+      # GitHub löscht Cache-Einträge nach 7 Tagen ohne Zugriff — so ist es am
+      # Montag sicher da (und wird bei funktionierendem apt neu gefüllt).
       - name: lftp-Paket aus dem Cache holen
-        if: steps.plan.outputs.bauen == 'true'
+        if: (steps.plan.outputs.bauen == 'true' || github.event_name == 'schedule')
         uses: actions/cache/restore@v4
         with:
           path: ~/lftp-deb
@@ -314,12 +317,15 @@ jobs:
 
       - name: lftp installieren
         id: lftp
-        if: steps.plan.outputs.bauen == 'true'
+        if: (steps.plan.outputs.bauen == 'true' || github.event_name == 'schedule')
+        # Ohne neue Folge wird nichts hochgeladen — dann macht ein Fehler hier
+        # den Lauf nicht rot.
+        continue-on-error: ${{ steps.plan.outputs.bauen != 'true' }}
         shell: bash
         run: ./scripts/lftp-installieren.sh
 
       - name: lftp-Paket im Cache ablegen
-        if: steps.plan.outputs.bauen == 'true' && steps.lftp.outputs.cache_neu == 'true'
+        if: (steps.plan.outputs.bauen == 'true' || github.event_name == 'schedule') && steps.lftp.outputs.cache_neu == 'true'
         uses: actions/cache/save@v4
         with:
           path: ~/lftp-deb

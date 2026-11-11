@@ -373,6 +373,20 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
 - Hochgeladen wird mit `lftp` (nicht mit der FTP-Deploy-Action): All-Inkl
   verlangt, dass die Datenverbindung die TLS-Sitzung der Anmeldung
   wiederverwendet.
+- **Werkzeuge ohne apt** (seit der Runner-Störung am 11.11.2026, als die
+  Ubuntu-Paketserver im Runner nicht auflösbar waren):
+  `scripts/lftp-installieren.sh` holt lftp erst als Ubuntu-.deb aus dem
+  Actions-Cache (`actions/cache/restore`, Schlüssel `lftp-deb-…-noble-v1`),
+  sonst per apt (danach sofort `actions/cache/save`), sonst von conda-forge
+  über micromamba (Version + SHA-256 fest, lftp 4.9.3 mit OpenSSL; nur dann
+  `ssl:ca-file` auf den System-CA-Bestand in `~/.lftprc`). Die
+  Sicherheitseinstellungen stehen unverändert in den lftp-Befehlen.
+  Zeitplan-Läufe holen das Paket immer ab (hält den Cache über die
+  7-Tage-Frist), ohne neue Folge ohne roten Lauf bei Fehlern.
+  `scripts/playwright-installieren.sh` nutzt das vorinstallierte Google
+  Chrome (`PW_KANAL=chrome` → `chromium.launch({ channel: "chrome" })` in
+  `live-pruefen.mjs`/`vorschau-bilder-pruefen.mjs`), `--with-deps` nur als
+  Rückfall. Lokal ohne `PW_KANAL` Playwrights Chromium.
 - Immer verschlüsselt mit Zertifikatsprüfung: `ftp:ssl-force true`,
   `ftp:ssl-protect-data true`, `ssl:verify-certificate` bleibt an. Nie
   abschalten, auch nicht zum Testen.
