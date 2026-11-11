@@ -65,7 +65,11 @@ Drei Nächte sind in einer Stadt wie Bangkok eigentlich nichts. Wir wollten die 
 
 Einen Vormittag verbrachten wir im neu eröffneten Dusit Central Park, dessen begrünte Bereiche hoch über der Stadt liegen. Zwischen all den Gebäuden ist so ein Garten eine schöne Abwechslung. Wir erledigten dort auch ein paar praktische Dinge und besorgten endlich unsere thailändischen SIM-Karten. Am Nachmittag fuhren wir mit einem Longtailboot über den Chao Phraya. Das hatten wir schon vor Jahren einmal gemacht und wollten es unbedingt wiederholen.
 
+![Blick über Bangkok am Vormittag im Dusit Central Park](bilder/ankommen-thailand-drei-tage-bangkok/20250919_112347.jpg)
+
 Eigentlich stand auch Wat Arun auf dem Plan, einer unserer Lieblingstempel in Bangkok. Aber irgendwann waren wir zu müde, und der Gedanke, uns noch einmal durch den Verkehr zu bewegen, war nicht besonders verlockend. Also ließen wir den Tempel aus. Abends gab es stattdessen koreanisches Barbecue und später noch eine Runde im Hotelpool für die Kinder. Nachts schwimmen zu gehen ist schließlich auch etwas, das nicht zum normalen Alltag in Deutschland gehört.
+
+![Unterwegs mit dem Longtailboot](bilder/ankommen-thailand-drei-tage-bangkok/20250919_150203.jpg)
 
 An einem anderen Tag besuchten wir das Museum Siam, um etwas über die Geschichte und Kultur Thailands zu erfahren. Bei einem allerersten Kurzbesuch in Bangkok würde ich vermutlich andere Dinge empfehlen. Für uns passte es aber gut. Wir kommen schließlich nicht nur zum Sightseeing her, sondern möchten das Land, in dem wir leben, auch besser kennenlernen.
 
