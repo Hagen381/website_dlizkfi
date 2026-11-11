@@ -44,20 +44,26 @@ jobs:
         env:
           NEXT_BUILD_BASE_PATH: ""
 
+      # lftp ohne apt-Abhaengigkeit (Runner-Stoerung 11.11.2026): erst das
+      # Ubuntu-Paket aus dem Actions-Cache, sonst apt, sonst conda-forge.
+      # Details: scripts/lftp-installieren.sh
+      - name: lftp-Paket aus dem Cache holen
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/lftp-deb
+          key: lftp-deb-${{ runner.os }}-${{ runner.arch }}-noble-v1
+
       - name: lftp installieren
-        run: |
-          # Ausweichspiegel: Ist der Azure-Paketspiegel der Runner nicht
-          # erreichbar (DNS-Stoerung wie am 11.11.2026), auf archive.ubuntu.com
-          # umstellen und noch einmal versuchen.
-          spiegel_wechseln() {
-            echo "Paketspiegel gestoert - weiche auf archive.ubuntu.com aus."
-            echo "http://archive.ubuntu.com/ubuntu/" | sudo tee /etc/apt/apt-mirrors.txt >/dev/null
-          }
-          if ! { sudo apt-get update -qq && sudo apt-get install -y -qq lftp >/dev/null; }; then
-            spiegel_wechseln
-            sudo apt-get update -qq
-            sudo apt-get install -y -qq lftp >/dev/null
-          fi
+        id: lftp
+        shell: bash
+        run: ./scripts/lftp-installieren.sh
+
+      - name: lftp-Paket im Cache ablegen
+        if: steps.lftp.outputs.cache_neu == 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: ~/lftp-deb
+          key: lftp-deb-${{ runner.os }}-${{ runner.arch }}-noble-v1
 
       - name: Veraltete Blogartikel auflisten bzw. entfernen
         shell: bash
