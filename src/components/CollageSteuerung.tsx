@@ -2,8 +2,7 @@
 
 import { useEffect } from "react";
 
-// Nur für den Entwurf der Startseiten-Collage (/entwurf/startseite/, nur
-// Vorschau). Ein Listener für den ganzen Hero, nur Maus, per rAF:
+// Polaroid-Collage im Hero der Startseite (src/app/page.tsx). Ein Listener für den ganzen Hero, nur Maus, per rAF:
 // - Polaroid unter der Maus: --tx/--ty (Neigung, max. 8°) und --gx/--gy
 //   (Lichtreflex) auf .pola-rahmen.
 // - Glasfläche: --glas-x/--glas-y (Neigung, max. 2,5°) und --mx/--my

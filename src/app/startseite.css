@@ -1,17 +1,8 @@
-/* Entwurf Startseiten-Collage (nur Vorschau, /entwurf/startseite/).
-   Nachbau des abgestimmten Entwurfs (referenz.html aus dem Zweig uebergabe).
+/* Startseite: Hero mit Polaroid-Collage (src/app/page.tsx).
+   Bewusste Abweichung vom PodView-Original (freigegeben im November 2026).
    Animiert werden nur transform, opacity und box-shadow. Die Collage selbst
-   bewegt sich nie (kein Schweben, kein Parallax, keine Lade-Animation). */
-
-.entwurf-balken {
-  margin: 0;
-  padding: 6px 16px;
-  background: var(--text);
-  color: #fff;
-  font: 600 13px/1.4 var(--font-heading);
-  letter-spacing: 0.04em;
-  text-align: center;
-}
+   bewegt sich nie (kein Schweben, kein Parallax, keine Lade-Animation).
+   Wird inline in die Seite eingebettet (Kommentare werden dabei entfernt). */
 
 /* ---------- Bühne: feste Höhe, damit nichts springt (CLS 0) ---------- */
 .collage-hero {
