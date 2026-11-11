@@ -254,6 +254,19 @@ jobs:
           fi
           echo "::endgroup::"
 
+          echo "::group::k) keine Entwuerfe (nur Vorschau)"
+          # Entwuerfe wie /entwurf/startseite/ gibt es nur im Vorschau-Build
+          # (*.vorschau.tsx, pageExtensions in next.config.ts). Live nie.
+          treffer=$( { find out -ipath '*entwurf/*' -o -ipath '*startseite-entwurf*'; grep -rlE --binary-files=without-match 'entwurf/|startseite-entwurf' out/ || true; } | sort -u )
+          if [ -n "$treffer" ]; then
+            echo "::error::Entwurf im Live-Export:"
+            echo "$treffer" | sed 's/^/  /'
+            fehler=1
+          else
+            echo "sauber"
+          fi
+          echo "::endgroup::"
+
           echo "::group::i) kein X-Robots-Tag im Export"
           # Ein X-Robots-Tag (z. B. in der .htaccess) koennte die Live-Seite
           # aus Google werfen. Seit dem Live-Gang gibt es keinen Grund dafuer.

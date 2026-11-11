@@ -61,11 +61,18 @@ for (const breite of [390, 1280]) {
     await page.waitForLoadState("networkidle");
     await page.waitForTimeout(800);
 
-    // Zusätzlich: jedes <img> im DOM muss geladen und sichtbar dekodiert sein
-    const kaputt = await page.evaluate(() =>
-      [...document.images].filter((i) => !i.complete || i.naturalWidth === 0).map((i) => i.currentSrc || i.src),
-    );
+    // Zusätzlich: jedes angezeigte <img> muss geladen und dekodiert sein.
+    // Ausgeblendete (display: none, z. B. Collage-Fotos unter 640 px) lädt der
+    // Browser wegen loading="lazy" gewollt nicht — die werden direkt angefragt.
+    const { kaputt, versteckt } = await page.evaluate(() => {
+      const zeigt = (i) => i.getClientRects().length > 0;
+      return {
+        kaputt: [...document.images].filter((i) => zeigt(i) && (!i.complete || i.naturalWidth === 0)).map((i) => i.currentSrc || i.src),
+        versteckt: [...document.images].filter((i) => !zeigt(i) && !i.complete).map((i) => i.currentSrc || i.src),
+      };
+    });
     for (const k of kaputt) fehler.push(`<img> nicht geladen: ${k}`);
+    for (const u of versteckt) abgebrochen.add(u);
     for (const u of abgebrochen) {
       const r = await page.request.get(u).catch((e) => ({ status: () => `keine Antwort (${e.message})` }));
       const st = r.status();

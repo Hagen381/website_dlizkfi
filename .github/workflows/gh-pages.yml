@@ -144,6 +144,6 @@ jobs:
             curl -sf -o /dev/null "${PAGE_URL}" && break
             sleep 10
           done
-          node "$RUNNER_TEMP/werkzeug/vorschau-bilder-pruefen.mjs" "${PAGE_URL%/}" / /episodes/ "/episodes/$folge/" /follow/ \
+          node "$RUNNER_TEMP/werkzeug/vorschau-bilder-pruefen.mjs" "${PAGE_URL%/}" / /episodes/ "/episodes/$folge/" /follow/ /entwurf/startseite/ \
             | tee "$RUNNER_TEMP/bilder.txt"
           { echo '### Bildpruefung der Vorschau'; echo '```'; cat "$RUNNER_TEMP/bilder.txt"; echo '```'; } >> "$GITHUB_STEP_SUMMARY"

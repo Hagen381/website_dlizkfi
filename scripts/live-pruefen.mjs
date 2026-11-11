@@ -10,7 +10,8 @@
 // /blog/ mit Karten,
 // jeder veröffentlichte Artikel (Bilder, Bildunterschriften, Zur-Folge-Kasten),
 // „Blog" in der Navigation, Kartenbilder, „Zur Podcastfolge"-Ziele, Sitemap,
-// „Zum Blogartikel" auf der Folgenseite, optional 404 für PRUEFE_404, alle
+// „Zum Blogartikel" auf der Folgenseite, 404 für /entwurf/startseite/
+// (Entwürfe nur in der Vorschau), optional 404 für PRUEFE_404, alle
 // Bilder/Schriften/CSS/JS ohne Fehler.
 
 import { chromium } from "playwright";
@@ -138,6 +139,12 @@ const sitemap = await (await fetch(basis + "/sitemap.xml")).text();
 for (const datei of artikel) {
   const slug = datei.replace(/\.md$/, "");
   pruefe(sitemap.includes(`/blog/${slug}/</loc>`), `sitemap.xml enthält /blog/${slug}/`);
+}
+
+// Entwürfe gibt es nur in der Vorschau (*.vorschau.tsx) — live immer 404.
+for (const pfad of ["/entwurf/startseite/", "/entwurf/"]) {
+  const r = await fetch(basis + pfad, { redirect: "manual" });
+  pruefe(r.status === 404, `Entwurf ${pfad} → ${r.status} (erwartet 404)`);
 }
 
 // Optional: Pfade, die weg sein müssen (PRUEFE_404, kommagetrennt), z. B. entfernte Bilder
