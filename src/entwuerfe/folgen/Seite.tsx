@@ -140,8 +140,12 @@ export default function FolgenRegisterEntwurf() {
           kopfClassName="reg-kopf glas-flaeche"
           titel={
             <div>
-              <p className="reg-kopf-klein">Alle Folgen</p>
-              <h1 className="reg-kopf-titel">Das Leben ist zu kurz für irgendwann</h1>
+              {/* Kleine Zeile wie in der Vorlage; für Screenreader ausgeblendet, weil
+                  sie den Titel nur wiederholt. H1 wie auf /episodes/. */}
+              <p className="reg-kopf-klein" aria-hidden="true">
+                Alle Folgen
+              </p>
+              <h1 className="reg-kopf-titel">Alle Folgen</h1>
             </div>
           }
         >
