@@ -1,0 +1,75 @@
+name: Lighthouse live
+
+# Misst die Live-Seite mit Lighthouse (nur lesend, nur manuell). Je Pfad drei
+# Laeufe mobil und drei Desktop, Ergebnis = Median. Steht im Job-Protokoll
+# und in der Zusammenfassung des Laufs. Die Sandbox erreicht die Live-Domain
+# nicht, deshalb laeuft die Messung hier.
+
+on:
+  workflow_dispatch:
+    inputs:
+      pfade:
+        description: "Pfade (kommagetrennt), z. B. / oder /,/episodes/"
+        type: string
+        default: "/"
+
+permissions:
+  contents: read
+
+jobs:
+  messen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Node einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Lighthouse installieren
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/lh" && cd "$RUNNER_TEMP/lh"
+          npm init -y >/dev/null
+          npm install --silent lighthouse@12.8.2
+
+      - name: Messen
+        shell: bash
+        env:
+          PFADE: ${{ inputs.pfade }}
+          BASIS: https://www.daslebenistzukurzfuerirgendwann.de
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP/lh"
+          CHROME_PATH=$(command -v google-chrome || command -v chromium || true)
+          export CHROME_PATH
+          IFS=',' read -ra liste <<< "$PFADE"
+          {
+            echo "### Lighthouse live (Median aus 3 Läufen)"
+            echo
+            echo "| Pfad | Gerät | Performance | Barrierefreiheit | Best Practices | SEO | FCP | LCP | CLS | TBT |"
+            echo "|---|---|---|---|---|---|---|---|---|---|"
+          } > tabelle.md
+          for pfad in "${liste[@]}"; do
+            pfad=$(echo "$pfad" | xargs)
+            for geraet in mobil desktop; do
+              extra=""
+              [ "$geraet" = desktop ] && extra="--preset=desktop"
+              for i in 1 2 3; do
+                npx lighthouse "$BASIS$pfad" --quiet $extra --chrome-flags="--headless=new --no-sandbox" \
+                  --output=json --output-path="lauf-$geraet-$i.json" >/dev/null 2>&1 || true
+              done
+              node -e '
+                const fs = require("fs");
+                const [pfad, geraet] = process.argv.slice(1);
+                const laeufe = [1, 2, 3].map((i) => `lauf-${geraet}-${i}.json`).filter((f) => fs.existsSync(f)).map((f) => JSON.parse(fs.readFileSync(f, "utf8")));
+                if (!laeufe.length) { console.log(`| ${pfad} | ${geraet} | Messung fehlgeschlagen |`); process.exit(0); }
+                const med = (xs) => xs.sort((a, b) => a - b)[Math.floor(xs.length / 2)];
+                const kat = (k) => med(laeufe.map((r) => Math.round((r.categories[k]?.score ?? 0) * 100)));
+                const au = (k) => med(laeufe.map((r) => r.audits[k].numericValue));
+                console.log(`| ${pfad} | ${geraet} | ${kat("performance")} | ${kat("accessibility")} | ${kat("best-practices")} | ${kat("seo")} | ${(au("first-contentful-paint") / 1000).toFixed(1)} s | ${(au("largest-contentful-paint") / 1000).toFixed(1)} s | ${au("cumulative-layout-shift").toFixed(3)} | ${Math.round(au("total-blocking-time"))} ms |`);
+              ' "$pfad" "$geraet" >> tabelle.md
+            done
+          done
+          cat tabelle.md
+          cat tabelle.md >> "$GITHUB_STEP_SUMMARY"
