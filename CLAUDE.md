@@ -337,6 +337,11 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   (rotateX 24°, Radius 520 px, ±3 sichtbar), Fotos: Kartenbild des
   Blogartikels, sonst Collage-Foto per FNV-1a-Hash des Slugs. Jede Karte hat
   einen echten Link auf `/episodes/<slug>/`. Live-Prüfung erwartet 404.
+  Bedienung: Mausrad (an den Enden scrollt die Seite), Ziehen mit Maus,
+  Wischen am Handy (eigene Touch-Handler, kein `touch-action: none` — am
+  ersten/letzten Eintrag oder waagerecht scrollt die Seite), Pfeiltasten nur
+  bei Fokus in Walze/Reitern, Karten außerhalb ±3 `visibility: hidden`,
+  Fokus dreht die Karte nach vorn, Live-Ansage „Folge x von y: Titel“.
   (`/entwurf/startseite/` ist seit 11.11.2026 die echte Startseite.)
   Eigene Bilder eines Entwurfs nur im Vorschau-Zweig von
   `scripts/entwuerfe.mjs` vorbereiten; Pfade nie mit „startseite-entwurf“
