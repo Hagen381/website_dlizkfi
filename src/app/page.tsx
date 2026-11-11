@@ -45,7 +45,7 @@ export default function Startseite() {
           <ul className="mt-2 flex flex-wrap items-center justify-center gap-2">
             {plattformen.map((p) => (
               <li key={p.id}>
-                <a href={p.url} target="_blank" rel="noopener" aria-label={p.name} title={p.name} className="flex h-11 w-11 items-center justify-center rounded-md border border-border bg-surface/80 transition hover:-translate-y-0.5 hover:shadow-sm">
+                <a href={p.url} target="_blank" rel="noopener" aria-label={p.name} title={p.name} className="kipp kipp-dezent flex h-11 w-11 items-center justify-center rounded-md border border-border bg-surface/80 hover:bg-surface">
                   <PlattformLogo p={p} />
                 </a>
               </li>
@@ -87,11 +87,11 @@ export default function Startseite() {
                 </p>
                 <p className="mt-6 line-clamp-3 leading-relaxed text-muted">{frisch.beschreibung}</p>
                 <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-4">
-                  <Link href={`/episodes/${frisch.slug}/`} className="inline-flex min-h-12 items-center gap-2 rounded-full bg-gradient-to-r from-primary to-secondary px-6 font-semibold text-text shadow-sm transition hover:shadow-md hover:brightness-105">
+                  <Link href={`/episodes/${frisch.slug}/`} className="kipp kipp-dezent inline-flex min-h-12 items-center gap-2 rounded-full bg-gradient-to-r from-primary to-secondary px-6 font-semibold text-text hover:brightness-105">
                     <PlayIcon />
                     Jetzt anhören
                   </Link>
-                  <Link href="/episodes/" className="inline-flex min-h-11 items-center gap-2 font-medium hover:underline">
+                  <Link href="/episodes/" className="kipp kipp-dezent inline-flex min-h-11 items-center gap-2 rounded-full border border-border/70 bg-surface/80 px-5 font-medium">
                     Alle Folgen ansehen
                     <PfeilRechts />
                   </Link>
@@ -108,7 +108,7 @@ export default function Startseite() {
           <h2 id="neueste-titel" className="text-2xl font-bold">
             Weitere Folgen
           </h2>
-          <Link href="/episodes/" className="inline-flex min-h-11 items-center text-sm font-medium text-primary-text hover:underline">
+          <Link href="/episodes/" className="kipp kipp-dezent inline-flex min-h-11 items-center rounded-full border border-border/70 bg-surface/80 px-4 text-sm font-medium text-primary-text">
             Alle ansehen <span aria-hidden="true">&nbsp;→</span>
           </Link>
         </div>

@@ -21,7 +21,7 @@ export default function FolgenListe({ seite }: { seite: number }) {
           <ul className="flex flex-wrap items-center justify-center gap-2">
             {seite > 1 && (
               <li>
-                <Link href={seitenPfad(seite - 1)} rel="prev" className="inline-flex min-h-11 items-center rounded-md border border-border bg-surface px-4 font-medium transition hover:shadow-sm">
+                <Link href={seitenPfad(seite - 1)} rel="prev" className="kipp kipp-dezent inline-flex min-h-11 items-center rounded-md border border-border bg-surface px-4 font-medium">
                   « Zurück
                 </Link>
               </li>
@@ -31,7 +31,7 @@ export default function FolgenListe({ seite }: { seite: number }) {
             </li>
             {seite < seitenAnzahl && (
               <li>
-                <Link href={seitenPfad(seite + 1)} rel="next" className="inline-flex min-h-11 items-center rounded-md border border-border bg-surface px-4 font-medium transition hover:shadow-sm">
+                <Link href={seitenPfad(seite + 1)} rel="next" className="kipp kipp-dezent inline-flex min-h-11 items-center rounded-md border border-border bg-surface px-4 font-medium">
                   Weiter »
                 </Link>
               </li>

@@ -30,10 +30,10 @@ export default function Footer() {
           </div>
           <div>
             <h2 className="text-sm font-semibold tracking-wider uppercase">Abonnieren</h2>
-            <ul className="mt-2 grid grid-cols-1">
+            <ul className="mt-2 grid grid-cols-1 gap-2">
               {plattformen.map((p) => (
                 <li key={p.id}>
-                  <a href={p.url} target="_blank" rel="noopener" className="flex min-h-11 items-center gap-2 text-sm text-muted transition hover:text-text md:min-h-7">
+                  <a href={p.url} target="_blank" rel="noopener" className="kipp kipp-dezent inline-flex min-h-11 items-center gap-2 rounded-lg border border-border/70 bg-bg px-3 text-sm text-muted hover:text-text md:min-h-9">
                     <PlattformLogo p={p} groesse={16} />
                     {p.name}
                   </a>

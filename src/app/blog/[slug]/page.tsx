@@ -83,7 +83,7 @@ export default async function BlogArtikel({ params }: Props) {
     <div className="px-4 pt-6 pb-16 sm:px-6 sm:pt-10">
       <JsonLd daten={jsonLd} />
       <article className="mx-auto max-w-[36.5rem] text-[18px]">
-        <Link href="/blog/" className="group inline-flex min-h-11 items-center gap-3 text-muted transition hover:text-text">
+        <Link href="/blog/" className="kipp kipp-dezent group inline-flex min-h-11 items-center gap-3 rounded-full border border-border/70 bg-surface/80 py-1 pr-5 pl-1.5 text-muted hover:text-text">
           <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary/15 text-primary-text transition group-hover:bg-primary/25">
             <ChevronLinks />
           </span>

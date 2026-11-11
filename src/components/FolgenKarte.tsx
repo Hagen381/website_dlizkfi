@@ -7,11 +7,11 @@ export type KartenFolge = Pick<Folge, "slug" | "titel" | "datum" | "dauer" | "mp
 
 // Folgenkarte wie in "Neueste Folgen" / "Alle Folgen" der Live-Seite.
 // Die ganze Karte ist anklickbar (Link über dem Titel, per ::after gestreckt),
-// der Play-Knopf liegt darüber.
+// der Play-Knopf liegt darüber. 3D-Hover wie die Blog-Karten (.kipp .kipp-karte).
 export default function FolgenKarte({ folge, ueberschrift = "h3" }: { folge: KartenFolge; ueberschrift?: "h2" | "h3" }) {
   const H = ueberschrift;
   return (
-    <article className="group relative flex gap-4 rounded-lg border border-border bg-surface p-4 shadow-xs transition hover:shadow-md sm:gap-6 sm:p-6">
+    <article className="kipp kipp-karte group relative flex gap-4 rounded-lg border border-border bg-surface p-4 sm:gap-6 sm:p-6">
       <Cover groesse={96} sizes="(min-width: 640px) 96px, 64px" className="h-16 w-16 shrink-0 rounded-md shadow-sm sm:h-24 sm:w-24" />
       <div className="min-w-0 flex-1">
         <p className="text-sm text-muted">

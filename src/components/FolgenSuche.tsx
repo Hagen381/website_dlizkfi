@@ -114,7 +114,7 @@ export default function FolgenSuche({ titel, children }: { titel: ReactNode; chi
           </ul>
           <button
             type="button"
-            className="mt-6 inline-flex min-h-11 items-center font-medium hover:underline"
+            className="kipp kipp-dezent mt-6 inline-flex min-h-11 items-center rounded-full border border-border/70 bg-surface/80 px-5 font-medium"
             onClick={() => {
               setEingabe("");
               setBegriff("");

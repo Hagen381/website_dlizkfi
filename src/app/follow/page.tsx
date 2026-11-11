@@ -22,7 +22,7 @@ export default function Abonnieren() {
         <ul className="mt-8 space-y-3 text-left">
           {plattformen.map((p) => (
             <li key={p.id}>
-              <a href={p.url} target="_blank" rel="noopener" className="flex min-h-16 items-center gap-4 rounded-lg border border-border bg-bg px-6 text-lg font-medium transition hover:-translate-y-0.5 hover:shadow-md">
+              <a href={p.url} target="_blank" rel="noopener" className="kipp kipp-dezent flex min-h-16 items-center gap-4 rounded-lg border border-border bg-bg px-6 text-lg font-medium">
                 <PlattformLogo p={p} groesse={32} className="rounded-lg" />
                 <span className="flex-1">{p.name}</span>
                 <Extern className="h-5 w-5 text-muted" />
@@ -33,7 +33,7 @@ export default function Abonnieren() {
         </ul>
         <div className="mt-8 border-t border-border pt-8">
           <p className="text-sm text-muted">Oder per RSS-Feed in jeder anderen Podcast-App abonnieren</p>
-          <a href={siteConfig.feed} className="mt-3 inline-flex min-h-11 items-center gap-2 rounded-lg bg-secondary/15 px-4 text-secondary-text transition hover:bg-secondary/25">
+          <a href={siteConfig.feed} className="kipp kipp-dezent mt-3 inline-flex min-h-11 items-center gap-2 rounded-lg bg-secondary/15 px-4 text-secondary-text hover:bg-secondary/25">
             <Rss className="h-5 w-5" />
             RSS-Feed
           </a>

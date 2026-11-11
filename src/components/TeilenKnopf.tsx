@@ -20,7 +20,7 @@ export default function TeilenKnopf({ titel, url }: { titel: string; url: string
     }
   }
   return (
-    <button type="button" onClick={teilen} className="inline-flex min-h-11 items-center gap-1.5 rounded-full bg-border px-3 text-sm text-text transition hover:bg-border/70">
+    <button type="button" onClick={teilen} className="kipp kipp-dezent inline-flex min-h-11 items-center gap-1.5 rounded-full bg-border px-3 text-sm text-text hover:bg-border/70">
       <Teilen />
       <span aria-live="polite">{kopiert ? "Link kopiert" : "Teilen"}</span>
     </button>

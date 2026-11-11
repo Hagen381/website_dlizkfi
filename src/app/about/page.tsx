@@ -57,7 +57,7 @@ export default function Ueber() {
         <ul className="mt-4 flex flex-wrap gap-3">
           {plattformen.map((p) => (
             <li key={p.id}>
-              <a href={p.url} target="_blank" rel="noopener" className="inline-flex min-h-11 items-center gap-2 rounded-lg bg-border/70 px-4 text-[1.0625rem] transition hover:bg-border">
+              <a href={p.url} target="_blank" rel="noopener" className="kipp kipp-dezent inline-flex min-h-11 items-center gap-2 rounded-lg bg-border/70 px-4 text-[1.0625rem] hover:bg-border">
                 <PlattformLogo p={p} groesse={18} />
                 {p.name}
               </a>

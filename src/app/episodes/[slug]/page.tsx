@@ -75,7 +75,7 @@ export default async function FolgenSeite({ params }: Props) {
     <div className="schein">
       <JsonLd daten={jsonLd} />
       <div className="mx-auto max-w-[52rem] px-4 pt-6 pb-16 sm:px-6 sm:pt-10">
-        <Link href="/episodes/" className="group inline-flex min-h-11 items-center gap-3 text-muted transition hover:text-text">
+        <Link href="/episodes/" className="kipp kipp-dezent group inline-flex min-h-11 items-center gap-3 rounded-full border border-border/70 bg-surface/80 py-1 pr-5 pl-1.5 text-muted hover:text-text">
           <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary/15 text-primary-text transition group-hover:bg-primary/25">
             <ChevronLinks />
           </span>
@@ -137,7 +137,7 @@ export default async function FolgenSeite({ params }: Props) {
             <ul className="mt-4 flex flex-wrap gap-2">
               {plattformen.map((p) => (
                 <li key={p.id}>
-                  <a href={p.url} target="_blank" rel="noopener" className="inline-flex min-h-11 items-center gap-2 rounded-lg bg-border/70 px-4 transition hover:bg-border">
+                  <a href={p.url} target="_blank" rel="noopener" className="kipp kipp-dezent inline-flex min-h-11 items-center gap-2 rounded-lg bg-border/70 px-4 hover:bg-border">
                     <PlattformLogo p={p} groesse={18} />
                     {p.name}
                   </a>
