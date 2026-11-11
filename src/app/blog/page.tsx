@@ -22,8 +22,8 @@ export default function Blog() {
         <p className="mt-8 text-muted">Hier erscheinen bald Artikel zu den Folgen.</p>
       ) : (
         <ul className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {artikel.map((a) => (
-            <li key={a.slug}>
+          {artikel.map((a, i) => (
+            <li key={a.slug} className="karte-ein" style={{ ["--nr" as string]: i }}>
               <BlogKarte a={a} />
             </li>
           ))}

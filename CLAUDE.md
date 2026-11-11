@@ -145,6 +145,13 @@ mehr.
   sonst Build-Abbruch), ohne Feld das erste Bild; `kartenbild-position`
   (optional, z. B. `"50% 60%"`) setzt den Ausschnitt. Das Kartenbild ist auch
   das OG-Bild und das Bild im JSON-LD.
+- Blog-Karten: 3D-Hover (`BlogKippkarte.tsx` setzt nur `--kipp-x/--kipp-y`
+  zur Mausposition, max. ~3,5°; `.blog-karte` in `globals.css`): heben sich um
+  6 px, weicher größerer Schatten, kurzer Bildzoom; Tastaturfokus gleichwertig
+  mit sichtbarem Rahmen; beim Laden gestaffelt einblenden (`.karte-ein` auf dem
+  `<li>`). Nur transform/opacity/Schatten (kein CLS). `prefers-reduced-motion`:
+  keine Neigung, kein Anheben, kein Einblenden, nur Schatten. Touch: kein
+  Hover nötig, ganze Karte ist der Link. Folgen-Kacheln haben das nicht.
 - Button „Zur Podcastfolge" (`src/components/ZurPodcastfolge.tsx` über
   `GelberButton.tsx`, Stil wie „Abonnieren") kommt automatisch aus der Vorlage, sobald `folge-slug` gesetzt
   ist. Ziel immer `/episodes/<folge-slug>/` auf unserer Seite, nie Spotify.

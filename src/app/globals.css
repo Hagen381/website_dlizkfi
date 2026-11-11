@@ -184,3 +184,75 @@
   font-style: italic;
   margin: 0 0 1.4em;
 }
+
+/* Blog-Karten (/blog/): heben sich beim Hovern/Fokus leicht ab, mit sanfter
+   3D-Neigung zur Maus (--kipp-x/--kipp-y setzt BlogKippkarte.tsx, max. ~3,5°)
+   und weichem, größer werdendem Schatten. Einblenden beim Laden: auf dem <li>
+   (.karte-ein), damit sich die Transforms nicht überschreiben.
+   Nur transform/opacity/box-shadow → keine Layoutsprünge.
+   prefers-reduced-motion: keine Neigung, kein Anheben, kein Einblenden, nur
+   der Schatten. Touch: kein Hover-Effekt nötig, die ganze Karte bleibt Link. */
+.blog-karte {
+  --kipp-x: 0deg;
+  --kipp-y: 0deg;
+  --heben: 0px;
+  transform: perspective(900px) rotateX(var(--kipp-x)) rotateY(var(--kipp-y)) translateY(var(--heben));
+  transition:
+    transform 300ms ease-out,
+    box-shadow 300ms ease-out;
+  box-shadow: 0 1px 2px rgb(26 46 5 / 0.06);
+}
+@media (hover: hover) {
+  .blog-karte:hover {
+    --heben: -6px;
+    box-shadow:
+      0 22px 44px -16px rgb(26 46 5 / 0.28),
+      0 8px 16px -8px rgb(26 46 5 / 0.12);
+  }
+}
+.blog-karte:has(a:focus-visible) {
+  --heben: -6px;
+  box-shadow:
+    0 22px 44px -16px rgb(26 46 5 / 0.28),
+    0 8px 16px -8px rgb(26 46 5 / 0.12);
+  outline: 3px solid var(--color-text);
+  outline-offset: 3px;
+}
+.blog-karte a:focus-visible {
+  outline: none;
+}
+.blog-karte:has(a:focus-visible) img {
+  scale: 1.02;
+}
+
+@keyframes karte-ein {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.karte-ein {
+  animation: karte-ein 420ms ease-out both;
+  animation-delay: calc(var(--nr, 0) * 70ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blog-karte,
+  .blog-karte:hover,
+  .blog-karte:has(a:focus-visible) {
+    --kipp-x: 0deg !important;
+    --kipp-y: 0deg !important;
+    --heben: 0px !important;
+    transform: none;
+  }
+  .blog-karte img {
+    scale: none !important;
+  }
+  .karte-ein {
+    animation: none !important;
+  }
+}
