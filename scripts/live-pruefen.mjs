@@ -6,7 +6,8 @@
 //                                                 neuer Folge automatisch mit)
 //
 // Prüft: Weiterleitungen (http -> https, ohne www -> www, alte Sitemaps),
-// kein X-Robots-Tag, ist es die neue Seite? neueste Folge erreichbar,
+// kein X-Robots-Tag, ist es die neue Seite? Polaroid-Collage der Startseite
+// (Anzahl je Breite 360/390/820/1280/1440, Fotos geladen), neueste Folge erreichbar,
 // /blog/ mit Karten,
 // jeder veröffentlichte Artikel (Bilder, Bildunterschriften, Zur-Folge-Kasten),
 // „Blog" in der Navigation, Kartenbilder, „Zur Podcastfolge"-Ziele, Sitemap,
@@ -32,7 +33,9 @@ async function seite(pfad, breite = 1280) {
   const antwort = await pg.goto(basis + pfad, { waitUntil: "networkidle", timeout: 60000 });
   await pg.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += 500) { scrollTo(0, y); await new Promise((r) => setTimeout(r, 100)); } });
   await pg.waitForLoadState("networkidle");
-  const unvollstaendig = await pg.evaluate(() => [...document.images].filter((i) => !i.complete || !i.naturalWidth).map((i) => i.currentSrc || i.src));
+  // Nur angezeigte Bilder: ausgeblendete (display: none, z. B. die kleinen
+  // Mobil-Polaroids am Desktop) lädt der Browser wegen loading="lazy" nie.
+  const unvollstaendig = await pg.evaluate(() => [...document.images].filter((i) => i.getClientRects().length > 0 && (!i.complete || !i.naturalWidth)).map((i) => i.currentSrc || i.src));
   return { pg, ctx, status: antwort?.status(), kaputt: [...kaputt, ...unvollstaendig.map((u) => "nicht geladen " + u)] };
 }
 
@@ -44,6 +47,34 @@ pruefe((await start.pg.locator('body > header a[href$="/blog/"]').count()) > 0, 
 const robots = (await start.pg.request.get(basis + "/")).headers()["x-robots-tag"];
 pruefe(!robots, `kein X-Robots-Tag auf ${basis}/ ${robots ? "(gefunden: " + robots + ")" : ""}`);
 await start.ctx.close();
+
+// Polaroid-Collage im Hero der Startseite: Anzahl sichtbarer Polaroids je
+// Breite (content/startseite/collage.json), jedes sichtbare Foto geladen,
+// unter 640 px nichts über den Rand, Glasfläche mit h1 und 3 Plattform-Kacheln.
+{
+  const { polaroids } = JSON.parse(fs.readFileSync("content/startseite/collage.json", "utf8"));
+  const alle = polaroids.length;
+  const ohneBand = polaroids.filter((p) => !p.band_hinter_der_mitte).length;
+  const mobil = polaroids.filter((p) => p.mobil).length;
+  for (const [breite, erwartet] of [[360, mobil], [390, mobil], [820, ohneBand], [1280, alle], [1440, alle]]) {
+    const s = await seite("/", breite);
+    const c = await s.pg.evaluate(() => {
+      const sicht = [...document.querySelectorAll(".collage-hero .pola")].filter((e) => getComputedStyle(e).display !== "none");
+      const bilder = sicht.map((e) => [...e.querySelectorAll("img")].find((i) => i.getClientRects().length > 0));
+      return {
+        sichtbar: sicht.length,
+        geladen: bilder.filter((i) => i && i.complete && i.naturalWidth > 0).length,
+        ueberRand: innerWidth < 640 ? sicht.filter((e) => { const r = e.querySelector(".pola-rahmen").getBoundingClientRect(); return r.left < 0 || r.right > innerWidth; }).length : 0,
+        h1: document.querySelectorAll(".collage-glas h1").length,
+        kacheln: document.querySelectorAll(".collage-glas a[aria-label]").length,
+      };
+    });
+    pruefe(c.sichtbar === erwartet && c.geladen === erwartet, `${breite}px Startseite: ${c.sichtbar} Polaroids sichtbar (erwartet ${erwartet}), ${c.geladen} Fotos geladen`);
+    pruefe(c.ueberRand === 0 && c.h1 === 1 && c.kacheln === 3, `${breite}px Startseite: Glasfläche mit Titel und ${c.kacheln} Plattform-Kacheln${breite < 640 ? `, ${c.ueberRand} Polaroid(s) über dem Rand` : ""}`);
+    pruefe(s.kaputt.length === 0, `${breite}px Startseite ohne Bild-/Schriftfehler ${s.kaputt.join(" | ")}`);
+    await s.ctx.close();
+  }
+}
 
 // Neueste Folge aus content/folgen.json muss live erreichbar sein (Titel als h1).
 const neueste = JSON.parse(fs.readFileSync("content/folgen.json", "utf8")).folgen[0];

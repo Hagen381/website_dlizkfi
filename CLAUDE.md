@@ -22,7 +22,8 @@ mehr.
 - Bewusste Abweichung vom Original (ausdrücklicher Auftrag): Die Überschrift
   über der neuesten Folge auf der Startseite heißt „Neueste Folge" statt
   „Frische Folge"; die Liste darunter heißt „Weitere Folgen" statt „Neueste
-  Folgen" (Darstellung jeweils unverändert). Dazu der Header (siehe unten).
+  Folgen" (Darstellung jeweils unverändert). Dazu der Header und der Hero
+  der Startseite mit Polaroid-Collage (siehe unten).
 
 ## Technik
 
@@ -160,6 +161,43 @@ mehr.
   Entwürfen (die werden live gar nicht gelesen). JSON-LD `BlogPosting` (Autorin Juliette Oppel, Bild,
   Datum, `about` → PodcastEpisode), OG-Bild = Kartenbild.
 
+### Startseite (Hero mit Polaroid-Collage)
+
+- Bewusste Abweichung vom PodView-Original (Entwurf freigegeben, live seit
+  11.11.2026): Hero mit 25 Polaroid-Fotos um eine Glasfläche. Inhalt der
+  Glasfläche wie vorher (JULIETTE, Titel, Beschreibung, „Anhören auf“ +
+  3 Plattform-Kacheln, gleiche Schriften/Größen). Darunter unverändert
+  `StartseiteFolgen.tsx` („Neueste Folge“, „Weitere Folgen“).
+- Dateien: `src/app/page.tsx` (Hero), `src/app/startseite.css` (wird beim
+  Build ohne Kommentare inline eingebettet — eine Stylesheet-Anfrage weniger),
+  `src/components/CollageSteuerung.tsx` (Maus-Neigung, ein Listener, rAF),
+  Layout `content/startseite/collage.json` (Seite, Abstand zum Rand in %,
+  oben in px, Breite, Drehung, z, `band_hinter_der_mitte`, `mobil`,
+  `mobil_reihenfolge`), Fotos `content/startseite/bilder/` (900×900, ohne
+  Metadaten, auf Kinder geprüft).
+- `scripts/startseite-bilder.mjs` (vor jedem Build, live und Vorschau): kodiert
+  die Fotos ohne EXIF/GPS nach `public/images/startseite/` (Build-Ergebnis),
+  prüft collage.json (jedes Foto da, 900×900, genau 8 Mobil-Fotos mit
+  Reihenfolge 1–8) und entfernt verwaiste Einträge im Hash-Cache des
+  Bildoptimierers. Neue Fotos: Datei + Eintrag in collage.json.
+- Größenstufen: ab 1181 px alle 25 (Band-Fotos liegen oben/unten hinter der
+  Glasfläche); 1024–1180 ohne Band-Fotos; 640–1023 Seitenfotos 85 %; unter
+  640 px nur die 8 Mobil-Fotos in 2 Reihen à 4 (≈ 92 px, bei schmalen Geräten
+  kleiner, nichts ragt über den Rand) über der Glasfläche. Feste Hero-Höhe
+  920 px ab 640 px (CLS 0).
+- Glasfläche: 680 px, Radius 32 px, Hintergrund ab 640 px 90 % Deckkraft
+  (80 % ergab hinter Fotos nur 3,8:1), mobil 80 % ohne Weichzeichner; Neigung
+  zur Maus max. 2,5° (nicht unter 640 px), Titel/Text per translateZ davor.
+- Hover pro Foto (nur `(hover: hover)`): richtet sich auf, hebt sich 12 px,
+  ×1,24, Nachfedern, Neigung max. 8°, Lichtreflex, Bildzoom 1,07, wächst zur
+  Seitenmitte; Band-Fotos bleiben unter dem Glas, unter 1181 px kommt kein
+  Foto vor die Glasfläche. Polaroids sind Deko (`aria-hidden`, nicht
+  fokussierbar). Keine Bewegung der Collage als Ganzes.
+  `prefers-reduced-motion`: keine Neigung, nur Schatten und leichtes
+  Hervorheben.
+- Bilder über `BlogBildRoh` mit fester Breite (srcset 256/384 bzw. mobil
+  128/256), lazy; ausgeblendete Varianten lädt der Browser nicht.
+
 ### Header
 
 - Bewusste Abweichung vom PodView-Original (ausdrücklicher Auftrag):
@@ -253,8 +291,8 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   Export (HTML, CSS, RSC-.txt), die mit `/` beginnt, muss mit
   `/website_dlizkfi/` anfangen.
 - Job `bilder-pruefen` nach dem Deploy: `scripts/vorschau-bilder-pruefen.mjs`
-  ruft Start, `/episodes/`, eine Folgenseite, `/follow/` und
-  `/entwurf/startseite/` (390 und 1280 px) mit Headless-Chromium auf, scrollt
+  ruft Start, `/episodes/`, eine Folgenseite und `/follow/` (390 und
+  1280 px) mit Headless-Chromium auf, scrollt
   bis unten und meldet jedes Bild, jede Schrift und jedes CSS/JS mit Fehler
   (ausgeblendete lazy-Bilder werden direkt angefragt). Lokal: Export unter
   `/website_dlizkfi/` ausliefern und das Skript mit dieser Basis aufrufen.
@@ -263,10 +301,10 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
 
 - Entwurfsseiten liegen unter `src/entwuerfe/` (außerhalb von `src/app`, also
   ohne Route). `scripts/entwuerfe.mjs` (vor jedem Build) legt NUR im
-  Vorschau-Build `src/app/entwurf/<name>/page.tsx` als Re-Export an und
-  bereitet die Bilder vor; im Live-Build löscht es beides. `src/app/entwurf/`
-  und `public/images/startseite-entwurf/` sind Build-Ergebnisse (.gitignore).
-  Neuer Entwurf = Eintrag in `entwuerfe` im Skript.
+  Vorschau-Build `src/app/entwurf/<name>/page.tsx` als Re-Export an
+  (und bereitet ggf. Bilder vor); im Live-Build löscht es die Route. `src/app/entwurf/` ist
+  Build-Ergebnis (.gitignore). Neuer Entwurf = Seite unter
+  `src/entwuerfe/<name>/Seite.tsx` + Eintrag in `entwuerfe` im Skript.
 - Nicht über `pageExtensions` (`page.vorschau.tsx`): Next findet dann die
   Schrift-Preloads nicht. Nicht über `generateStaticParams` mit leerer Liste:
   beim Static Export ein Build-Fehler.
@@ -275,13 +313,10 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
 - Deploy-Prüfung k) bricht ab, wenn `entwurf/` oder `startseite-entwurf` im
   Live-Export steht; `scripts/live-pruefen.mjs` erwartet live 404 für
   `/entwurf/startseite/` und `/entwurf/`.
-- Aktuell: `/entwurf/startseite/` — Startseite mit Polaroid-Collage
-  (`src/entwuerfe/startseite/`, Layout `content/startseite-entwurf/collage.json`,
-  25 Fotos in `content/startseite-entwurf/bilder/`, Steuerung
-  `src/components/CollageSteuerung.tsx`). Unter dem Hero
-  `StartseiteFolgen.tsx`, dieselbe Komponente wie auf der echten Startseite.
-  CSS inline (eine Stylesheet-Anfrage weniger). Glasfläche ab 640 px mit 90 %
-  statt 80 % Deckkraft (sonst < 4,5:1, wo Fotos hinter dem Text liegen).
+- Aktuell: keiner. (Der letzte, `/entwurf/startseite/`, ist seit 11.11.2026
+  die echte Startseite.) Eigene Bilder eines Entwurfs nur im Vorschau-Zweig
+  von `scripts/entwuerfe.mjs` vorbereiten; Pfade nie mit
+  „startseite-entwurf“ (Deploy-Prüfung k).
 
 Repo: `https://github.com/Hagen381/website_dlizkfi` (öffentlich, Pflicht für
 Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
@@ -345,8 +380,14 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   für Bilder/Schriften.
 - Live-Kontrolle: Workflow „Live-Seite pruefen" (`live-pruefen.yml`, manuell)
   prüft www im Headless-Browser — nur lesend (Weiterleitungen http/ohne www/
-  alte Sitemaps/`?page=N`, kein X-Robots-Tag, Blog, Artikel, Navigation,
-  Folgenseiten-Link, Bilder).
+  alte Sitemaps/`?page=N`, kein X-Robots-Tag, Polaroid-Collage der
+  Startseite bei 360/390/820/1280/1440 px (Anzahl sichtbar, Fotos geladen,
+  nichts über den Rand), Blog, Artikel, Navigation, Folgenseiten-Link,
+  Bilder, 404 für `/entwurf/`). Läuft auch mit `--nur-neueste` nach einem
+  Deploy mit neuer Folge.
+- Lighthouse live: Workflow „Lighthouse live" (`lighthouse-live.yml`,
+  manuell, Eingabe `pfade`) — Median aus 3 Läufen mobil und Desktop, Tabelle
+  im Protokoll und in der Zusammenfassung des Laufs.
 - Sicherheitsprüfung vor dem Upload (bricht ab, nichts wird hochgeladen):
   kein `noindex` außerhalb der 404-Seiten, kein `hagen381.github.io` und kein
   `/website_dlizkfi` im Export, `index.html` und `sitemap.xml` vorhanden, alle
