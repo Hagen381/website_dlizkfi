@@ -145,13 +145,10 @@ mehr.
   sonst Build-Abbruch), ohne Feld das erste Bild; `kartenbild-position`
   (optional, z. B. `"50% 60%"`) setzt den Ausschnitt. Das Kartenbild ist auch
   das OG-Bild und das Bild im JSON-LD.
-- Blog-Karten: 3D-Hover (`BlogKippkarte.tsx` setzt nur `--kipp-x/--kipp-y`
-  zur Mausposition, max. ~3,5°; `.blog-karte` in `globals.css`): heben sich um
-  6 px, weicher größerer Schatten, kurzer Bildzoom; Tastaturfokus gleichwertig
-  mit sichtbarem Rahmen; beim Laden gestaffelt einblenden (`.karte-ein` auf dem
-  `<li>`). Nur transform/opacity/Schatten (kein CLS). `prefers-reduced-motion`:
-  keine Neigung, kein Anheben, kein Einblenden, nur Schatten. Touch: kein
-  Hover nötig, ganze Karte ist der Link. Folgen-Kacheln haben das nicht.
+- Blog-Karten: 3D-Hover `.kipp .kipp-karte` (siehe „3D-Kippeffekt“), dazu
+  kurzer Bildzoom (`.kipp-bild`) und beim Laden gestaffelt einblenden
+  (`.karte-ein` auf dem `<li>`, nicht auf der Karte — sonst überschreiben sich
+  die Transforms). Ganze Karte ist der Link.
 - Button „Zur Podcastfolge" (`src/components/ZurPodcastfolge.tsx` über
   `GelberButton.tsx`, Stil wie „Abonnieren") kommt automatisch aus der Vorlage, sobald `folge-slug` gesetzt
   ist. Ziel immer `/episodes/<folge-slug>/` auf unserer Seite, nie Spotify.
@@ -176,6 +173,41 @@ mehr.
   gerendert (sonst wäre der Header wegen `backdrop-filter` der Bezugsrahmen
   für `position: fixed`). Fokus bleibt im Menü, Escape/außerhalb schließt.
 - Menüpunkte in `navigation`, der Button in `abonnieren` (`site-config.ts`).
+- Menüpunkte (Desktop und Mobil-Menü), „Abonnieren“ und „☰ Menü“/„Schließen“
+  sind dezente Kacheln (`.kipp .kipp-dezent`): leichter Grund (surface), feiner
+  Rand, abgerundet. Aktive Seite gelb; bei „Abonnieren“ markiert eine `outline`
+  die aktive Seite (kein `ring` — das wäre box-shadow und würde vom
+  Kachel-Schatten ersetzt). Der Hover-Schatten bleibt innerhalb des
+  Header-Innenabstands (12 px) — beim Ändern von `--kipp-schatten-hoch` der
+  Stufe „dezent“ darauf achten.
+
+### 3D-Kippeffekt (Karten, Buttons, Menü)
+
+- CSS in `globals.css` (`.kipp` + Stufe), JS nur `src/components/KippSteuerung.tsx`
+  (ein Listener für die ganze Seite, im Layout eingebunden; setzt
+  `--kipp-x/--kipp-y` zur Mausposition, nur Maus, per rAF). Keine Bibliothek.
+- Stufen: `.kipp-karte` (hebt 6 px, Neigung max. 3,5°, großer weicher
+  Schatten, Fokus mit 3-px-Rahmen um die Karte über `:has(a:focus-visible)`)
+  und `.kipp-dezent` (hebt 2,5 px, max. 2°, kleiner Schatten, normaler
+  Fokusrahmen). Obergrenze steht als `--kipp-max` in der Stufe. Elemente
+  breiter/höher als 400 px kippen anteilig weniger.
+- Fokus (Tab) = gleiche Hebung und Schatten wie Hover. Hover nur bei
+  `(hover: hover)`, Touch ohne Hover-Zwang. `prefers-reduced-motion`: keine
+  Neigung, kein Anheben, kein Einblenden — nur der Schatten.
+- Nur transform/box-shadow/Farben, kein CLS. `.kipp::before` ist eine
+  unsichtbare Trefferfläche bis zur Ruhelage (sonst zittert ein angehobenes
+  Element am unteren Rand) — deshalb kein `overflow-hidden` auf `.kipp`
+  selbst (bei Bedarf auf ein inneres Element, siehe `BlogKarte.tsx`).
+- `.kipp` steht außerhalb von `@layer` und setzt sich gegen Tailwind durch:
+  auf `.kipp`-Elementen keine `shadow-*`, `ring-*`, `translate-*` oder
+  `transition`-Klassen verwenden.
+- Wo: `.kipp-karte` = Blog-Karten, Folgen-Karten (Start, `/episodes/`, Suche).
+  `.kipp-dezent` = Header (s. o.), `GelberButton.tsx`, „Jetzt anhören“,
+  Plattform-Links (Hero, Folgenseite, `/about/`, `/follow/`, Fusszeile),
+  RSS-Feed, Teilen, Blättern, „Alle Folgen ansehen“/„Alle ansehen“,
+  „Zurück zu allen Folgen“/„Alle Artikel“, Suche zurücksetzen, 404-Buttons.
+- **Kein 3D** für Textlinks im Fließtext (Artikel, Shownotes, Impressum,
+  Datenschutz, Mailadresse) und für Player/Play-Knöpfe.
 
 ## Übergabe vom Projekt-Chat
 
