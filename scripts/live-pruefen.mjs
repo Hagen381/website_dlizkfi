@@ -84,6 +84,15 @@ const blog = await seite("/blog/");
 pruefe(blog.status === 200, `/blog/ HTTP ${blog.status}`);
 const karten = await blog.pg.locator("main article").count();
 pruefe(karten === artikel.length, `/blog/ zeigt ${karten} Karte(n), veröffentlicht: ${artikel.length}`);
+// Reihenfolge = Erscheinungsdatum der Folge (neueste zuerst), Datum auf jeder Karte
+const folgenDaten = Object.fromEntries(JSON.parse(fs.readFileSync("content/folgen.json", "utf8")).folgen.map((f) => [f.slug, f.datum]));
+const erwartet = artikel
+  .map((d) => ({ slug: d.replace(/\.md$/, ""), datum: folgenDaten[fs.readFileSync(`content/blog/${d}`, "utf8").match(/folge-slug:\s*"?([^"\n]+)"?/)?.[1]] || "" }))
+  .sort((x, y) => y.datum.localeCompare(x.datum));
+const reihe = await blog.pg.locator("main article h2 a").evaluateAll((as) => as.map((x) => x.getAttribute("href").replace(/\/$/, "").split("/").pop()));
+pruefe(JSON.stringify(reihe) === JSON.stringify(erwartet.map((e) => e.slug)), `/blog/ Reihenfolge nach Folgendatum: ${reihe.join(", ")}`);
+const kartenDaten = await blog.pg.locator("main article time").evaluateAll((ts) => ts.map((t) => t.getAttribute("datetime")));
+pruefe(JSON.stringify(kartenDaten) === JSON.stringify(erwartet.map((e) => e.datum)), `/blog/ Datum auf jeder Karte = Datum der Folge`);
 pruefe(blog.kaputt.length === 0, `/blog/ ohne Bildfehler ${blog.kaputt.join(" | ")}`);
 for (const datei of artikel) {
   const slug = datei.replace(/\.md$/, "");
@@ -105,6 +114,8 @@ for (const datei of artikel) {
   for (const breite of [390, 1280]) {
     const a = await seite(`/blog/${slug}/`, breite);
     pruefe(a.status === 200, `${breite}px /blog/${slug}/ HTTP ${a.status}`);
+    const zeit = await a.pg.locator("article header time").first().textContent().catch(() => "");
+    pruefe(/^\d{1,2}\. [A-Za-zäÄöÖüÜ]+ \d{4}$/.test(zeit || ""), `${breite}px Datum im Artikel: ${zeit}`);
     const captions = await a.pg.locator("figcaption").allInnerTexts();
     pruefe(JSON.stringify(captions) === JSON.stringify(erwBilder), `${breite}px ${captions.length}/${erwBilder.length} Bilder mit passender Bildunterschrift`);
     pruefe((await a.pg.locator('body > header [aria-current="page"]').allInnerTexts()).join() === "Blog", `${breite}px „Blog“ aktiv`);
