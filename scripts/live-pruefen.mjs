@@ -175,7 +175,7 @@ for (const datei of artikel) {
 }
 
 // Entwürfe gibt es nur in der Vorschau (*.vorschau.tsx) — live immer 404.
-for (const pfad of ["/entwurf/folgen/", "/entwurf/startseite/", "/entwurf/"]) {
+for (const pfad of ["/entwurf/blog/", "/entwurf/folgen/", "/entwurf/startseite/", "/entwurf/"]) {
   const r = await fetch(basis + pfad, { redirect: "manual" });
   pruefe(r.status === 404, `Entwurf ${pfad} → ${r.status} (erwartet 404)`);
 }

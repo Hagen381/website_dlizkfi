@@ -1,0 +1,393 @@
+/* Entwurf Blog-Karussell (nur Vorschau). Nachbau der Optik von
+   blog-karussell-referenz.html. Wird inline eingebettet (ohne Kommentare). */
+
+.entwurf-balken {
+  margin: 0;
+  padding: 6px 16px;
+  background: var(--text);
+  color: #fff;
+  font: 600 13px/1.4 var(--font-heading);
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.kar-buehne {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 16px 80px;
+  overflow-x: clip;
+}
+
+/* ---------- Kopf ---------- */
+.kar-kopf {
+  position: relative;
+  z-index: 3;
+  max-width: 720px;
+  margin: 28px auto 0;
+  padding: 26px 28px 24px;
+  text-align: center;
+}
+@media (min-width: 640px) {
+  .kar-kopf,
+  .kar-info {
+    -webkit-backdrop-filter: blur(18px) saturate(1.2);
+    backdrop-filter: blur(18px) saturate(1.2);
+  }
+}
+.kar-kopf-titel {
+  margin: 0 0 10px;
+  font: 700 clamp(32px, 5vw, 52px) / 1.05 var(--font-heading);
+}
+.kar-kopf-text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.kar-hinweis {
+  position: relative;
+  z-index: 2;
+  width: fit-content;
+  max-width: 100%;
+  margin: 22px auto 0;
+  padding: 4px 14px;
+  border-radius: 999px;
+  background: rgb(254 252 232 / 0.9);
+  font: 600 12px var(--font-heading);
+  letter-spacing: 0.12em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ---------- Polaroids links/rechts (nur ≥ 1280 px) ---------- */
+.kar-seitenfotos {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+.kar-pola {
+  position: absolute;
+  width: 150px;
+  pointer-events: auto;
+}
+.kar-pola-rahmen {
+  padding: 7px 7px 26px;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow:
+    0 1px 2px rgb(26 46 5 / 0.1),
+    0 8px 18px rgb(26 46 5 / 0.14);
+  transform: rotate(var(--r));
+  transition:
+    transform 0.55s cubic-bezier(0.2, 0.9, 0.25, 1.12),
+    box-shadow 0.45s ease;
+}
+.kar-pola-bild {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+@media (hover: hover) {
+  .kar-pola:hover {
+    z-index: 9;
+  }
+  .kar-pola:hover .kar-pola-rahmen {
+    transform: rotate(0deg) translateY(-12px) scale(1.24);
+    box-shadow:
+      0 4px 10px rgb(26 46 5 / 0.16),
+      0 26px 50px rgb(26 46 5 / 0.28);
+  }
+}
+@media (max-width: 1279px) {
+  .kar-seitenfotos {
+    display: none;
+  }
+}
+
+/* ---------- Ring ---------- */
+.kar-bereich {
+  position: relative;
+  z-index: 2;
+  --kw: 300px; /* Kartenbreite */
+  --kh: 420px;
+}
+.kar-ring-buehne {
+  position: relative;
+  height: 560px;
+  margin-top: 10px;
+  perspective: 1500px;
+  cursor: grab;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.kar-ring {
+  /* Radius aus Kartenbreite und Anzahl: Karten berühren sich, + 60 px Luft */
+  --r: calc(var(--kw) / 2 / tan(180deg / var(--n)) + 60px);
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  width: var(--kw);
+  height: var(--kh);
+  margin: 0 0 0 calc(var(--kw) / -2);
+  padding: 0;
+  list-style: none;
+  transform-style: preserve-3d;
+  transform: translateZ(calc(var(--r) * -1)) rotateY(calc(var(--pos) * -360deg / var(--n)));
+  transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.25, 1);
+}
+.kar-platz {
+  position: absolute;
+  inset: 0;
+  transform: rotateY(calc(var(--i) * 360deg / var(--n))) translateZ(var(--r));
+  backface-visibility: hidden;
+  border-radius: 26px;
+  transition: filter 0.5s ease;
+}
+.kar-platz.hinten {
+  filter: brightness(0.82) saturate(0.7);
+}
+/* Fokusrahmen um die ganze Karte (der Link selbst schneidet ab) */
+.kar-platz:has(a:focus-visible) {
+  outline: 3px solid var(--secondary-text);
+  outline-offset: 4px;
+}
+.kar-karte {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 26px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  box-shadow: 0 18px 44px rgb(26 46 5 / 0.24);
+  transition: box-shadow 0.5s ease;
+}
+.kar-karte:focus-visible {
+  outline: none;
+}
+.vorne .kar-karte {
+  box-shadow: 0 30px 70px rgb(26 46 5 / 0.32);
+}
+.hinten .kar-karte {
+  cursor: pointer;
+}
+.kar-karte::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 45%, rgb(26 46 5 / 0.65));
+  pointer-events: none;
+}
+.kar-bild {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+.kar-bild-leer {
+  display: block;
+  background: linear-gradient(160deg, var(--surface), var(--border));
+}
+.kar-klebestreifen {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  z-index: 2;
+  width: 90px;
+  height: 26px;
+  margin-left: -45px;
+  background: rgb(255 200 20 / 0.75);
+  transform: rotate(-3deg);
+}
+/* Schild: 94 % Deckkraft — mit 88 % wie in der Vorlage fiel gedämpfter Text
+   über dunklen Fotos unter 4,5:1. */
+.kar-schild {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 14px;
+  z-index: 2;
+  display: block;
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: rgb(254 252 232 / 0.94);
+}
+.kar-datum {
+  display: block;
+  font: 600 12px var(--font-heading);
+  color: var(--muted);
+}
+.kar-titel {
+  display: block;
+  margin-top: 4px;
+  font: 700 17px/1.2 var(--font-heading);
+}
+
+/* ---------- Info zum vorderen Artikel ---------- */
+.kar-info {
+  position: relative;
+  z-index: 3;
+  max-width: 680px;
+  margin: -10px auto 0;
+  padding: 24px 28px;
+  text-align: center;
+}
+.kar-info-meta {
+  margin: 0;
+  font: 600 13px var(--font-heading);
+  color: var(--muted);
+}
+.kar-info-titel {
+  margin: 8px 0 10px;
+  font: 700 30px/1.15 var(--font-heading);
+  text-wrap: balance;
+}
+.kar-info-text {
+  margin: 0 0 16px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.kar-info-knoepfe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.kar-knopf-weiss {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 20px;
+  border: 1px solid rgb(26 46 5 / 0.12);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--text);
+  font: 700 16px var(--font-heading);
+  text-decoration: none;
+}
+
+/* ---------- Steuerung ---------- */
+.kar-steuerung {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 18px;
+}
+.kar-pfeil {
+  width: 48px;
+  height: 48px;
+  flex: none;
+  border: 1px solid rgb(26 46 5 / 0.12);
+  border-radius: 50%;
+  background: rgb(255 255 255 / 0.85);
+  color: var(--text);
+  font: 700 20px var(--font-heading);
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgb(26 46 5 / 0.1);
+}
+.kar-punkte {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Tippfläche 44 px, sichtbar nur der kleine Punkt */
+.kar-punkt {
+  display: grid;
+  place-items: center;
+  min-width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.kar-punkt span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgb(26 46 5 / 0.35);
+  transition:
+    width 0.3s ease,
+    background-color 0.3s ease;
+}
+.kar-punkt[aria-current="true"] span {
+  width: 26px;
+  border-radius: 6px;
+  background: var(--secondary-text);
+}
+
+/* ---------- 1–2 Artikel: kein Ring, Karten nebeneinander ---------- */
+.kar-flach .kar-ring-buehne {
+  height: auto;
+  perspective: none;
+  cursor: default;
+}
+.kar-flach .kar-ring {
+  position: static;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  width: auto;
+  height: auto;
+  margin: 30px 0;
+  transform: none;
+}
+.kar-flach .kar-platz {
+  position: relative;
+  width: var(--kw);
+  height: var(--kh);
+  transform: none;
+}
+
+/* ---------- Mobil ---------- */
+@media (max-width: 640px) {
+  .kar-bereich {
+    --kw: 230px;
+    --kh: 320px;
+  }
+  .kar-ring-buehne {
+    height: 440px;
+  }
+  .kar-ring {
+    top: 30px;
+  }
+  .kar-titel {
+    font-size: 15px;
+  }
+  .kar-info {
+    padding: 20px 18px;
+  }
+  .kar-info-titel {
+    font-size: 24px;
+  }
+  .kar-flach .kar-ring {
+    flex-wrap: wrap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kar-ring,
+  .kar-platz,
+  .kar-karte,
+  .kar-pola-rahmen,
+  .kar-punkt span {
+    transition: none;
+  }
+  .kar-pola:hover .kar-pola-rahmen {
+    transform: rotate(var(--r)) scale(1.04);
+  }
+}
