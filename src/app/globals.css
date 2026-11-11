@@ -239,6 +239,19 @@
   animation: karte-ein 420ms ease-out both;
   animation-delay: calc(var(--nr, 0) * 70ms);
 }
+/* Erste Karte: nur Gleiten, keine Deckkraft — ihr Bild ist das LCP-Element
+   und würde sonst erst nach dem Einblenden als „gemalt“ zählen. */
+@keyframes karte-ein-gleiten {
+  from {
+    transform: translateY(14px);
+  }
+  to {
+    transform: none;
+  }
+}
+.karte-ein:first-child {
+  animation-name: karte-ein-gleiten;
+}
 
 @media (prefers-reduced-motion: reduce) {
   .blog-karte,
