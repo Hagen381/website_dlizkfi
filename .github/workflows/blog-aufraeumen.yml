@@ -46,8 +46,18 @@ jobs:
 
       - name: lftp installieren
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq lftp >/dev/null
+          # Ausweichspiegel: Ist der Azure-Paketspiegel der Runner nicht
+          # erreichbar (DNS-Stoerung wie am 11.11.2026), auf archive.ubuntu.com
+          # umstellen und noch einmal versuchen.
+          spiegel_wechseln() {
+            echo "Paketspiegel gestoert - weiche auf archive.ubuntu.com aus."
+            echo "http://archive.ubuntu.com/ubuntu/" | sudo tee /etc/apt/apt-mirrors.txt >/dev/null
+          }
+          if ! { sudo apt-get update -qq && sudo apt-get install -y -qq lftp >/dev/null; }; then
+            spiegel_wechseln
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq lftp >/dev/null
+          fi
 
       - name: Veraltete Blogartikel auflisten bzw. entfernen
         shell: bash
