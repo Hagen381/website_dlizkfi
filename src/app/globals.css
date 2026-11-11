@@ -216,6 +216,16 @@
     color 200ms ease-out,
     filter 200ms ease-out;
   box-shadow: var(--kipp-schatten);
+  position: relative;
+}
+/* Unsichtbare Trefferfläche bis zur Ruhelage: Sonst rutscht das angehobene
+   Element am unteren Rand unter dem Mauszeiger weg, Hover endet, es sinkt
+   zurück, Hover beginnt wieder — es zittert. Liegt hinter dem Inhalt. */
+.kipp::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 calc(var(--kipp-hub) - 1px) 0;
+  z-index: -1;
 }
 .kipp-karte {
   --kipp-max: 3.5;

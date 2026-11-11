@@ -6,8 +6,8 @@ import { datumLesbar, type Artikel } from "@/lib/blog";
 // Karte für /blog/ (3D-Hover: .kipp .kipp-karte in globals.css, Neigung über KippSteuerung): Kartenbild (Frontmatter kartenbild, sonst erstes Bild), Titel, Datum, Beschreibung.
 export default function BlogKarte({ a, vorrang = false }: { a: Artikel; vorrang?: boolean }) {
   return (
-    <article className="kipp kipp-karte group relative flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-surface">
-      <div className="aspect-[4/3] overflow-hidden bg-border/40">
+    <article className="kipp kipp-karte group relative flex h-full flex-col rounded-2xl border border-border bg-surface">
+      <div className="aspect-[4/3] overflow-hidden rounded-t-2xl bg-border/40">
         {a.kartenbild ? (
           <BlogBildRoh bild={a.kartenbild} priority={vorrang} sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw" style={{ objectPosition: a.kartenbildPosition }} className="kipp-bild h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]" />
         ) : (
