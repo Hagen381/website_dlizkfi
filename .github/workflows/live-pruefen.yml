@@ -7,6 +7,11 @@ name: Live-Seite pruefen
 
 on:
   workflow_dispatch:
+    inputs:
+      pruefe_404:
+        description: "Optional: Pfade, die 404 liefern muessen (kommagetrennt, z. B. entfernte Bilder)"
+        type: string
+        default: ""
 
 permissions:
   contents: read
@@ -41,6 +46,7 @@ jobs:
         shell: bash
         env:
           BASIS: ${{ matrix.basis }}
+          PRUEFE_404: ${{ inputs.pruefe_404 }}
         run: |
           set -euo pipefail
           cp scripts/live-pruefen.mjs "$RUNNER_TEMP/werkzeug/"

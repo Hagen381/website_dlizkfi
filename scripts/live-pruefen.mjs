@@ -9,7 +9,8 @@
 // kein X-Robots-Tag, ist es die neue Seite? neueste Folge erreichbar,
 // /blog/ mit Karten,
 // jeder veröffentlichte Artikel (Bilder, Bildunterschriften, Zur-Folge-Kasten),
-// „Blog" in der Navigation, „Zum Blogartikel" auf der Folgenseite, alle
+// „Blog" in der Navigation, Kartenbilder, „Zur Podcastfolge"-Ziele, Sitemap,
+// „Zum Blogartikel" auf der Folgenseite, optional 404 für PRUEFE_404, alle
 // Bilder/Schriften/CSS/JS ohne Fehler.
 
 import { chromium } from "playwright";
@@ -84,6 +85,14 @@ pruefe(blog.status === 200, `/blog/ HTTP ${blog.status}`);
 const karten = await blog.pg.locator("main article").count();
 pruefe(karten === artikel.length, `/blog/ zeigt ${karten} Karte(n), veröffentlicht: ${artikel.length}`);
 pruefe(blog.kaputt.length === 0, `/blog/ ohne Bildfehler ${blog.kaputt.join(" | ")}`);
+for (const datei of artikel) {
+  const slug = datei.replace(/\.md$/, "");
+  const erstes = fs.readFileSync(`content/blog/${datei}`, "utf8").match(/!\[[^\]]*\]\(bilder\/[^/]+\/([^)]+?)\.[a-z]+\)/i)?.[1];
+  if (!erstes) continue;
+  const karte = blog.pg.locator(`main article:has(a[href$="/blog/${slug}/"])`);
+  const src = (await karte.locator("img").first().getAttribute("srcset").catch(() => null)) || (await karte.locator("img").first().getAttribute("src").catch(() => "")) || "";
+  pruefe(src.includes(erstes), `/blog/ Karte ${slug} zeigt erstes Bild ${erstes}`);
+}
 await blog.ctx.close();
 
 for (const datei of artikel) {
@@ -98,6 +107,10 @@ for (const datei of artikel) {
     pruefe(JSON.stringify(captions) === JSON.stringify(erwBilder), `${breite}px ${captions.length}/${erwBilder.length} Bilder mit passender Bildunterschrift`);
     pruefe((await a.pg.locator('body > header [aria-current="page"]').allInnerTexts()).join() === "Blog", `${breite}px „Blog“ aktiv`);
     if (folge) pruefe((await a.pg.locator("aside", { hasText: "Zur Folge" }).count()) === 1, `${breite}px Kasten „Zur Folge“`);
+    if (folge) {
+      const ziele = await a.pg.locator("a", { hasText: "Zur Podcastfolge" }).evaluateAll((as) => as.map((x) => x.getAttribute("href")));
+      pruefe(ziele.length === 2 && ziele.every((h) => h.endsWith(`/episodes/${folge}/`)), `${breite}px 2× „Zur Podcastfolge“ → /episodes/${folge}/`);
+    }
     pruefe(a.kaputt.length === 0, `${breite}px Artikel ohne Bild-/Schriftfehler ${a.kaputt.join(" | ")}`);
     await a.ctx.close();
   }
@@ -107,6 +120,19 @@ for (const datei of artikel) {
     await f.ctx.close();
   }
 }
+// Sitemap enthält jeden veröffentlichten Artikel
+const sitemap = await (await fetch(basis + "/sitemap.xml")).text();
+for (const datei of artikel) {
+  const slug = datei.replace(/\.md$/, "");
+  pruefe(sitemap.includes(`/blog/${slug}/</loc>`), `sitemap.xml enthält /blog/${slug}/`);
+}
+
+// Optional: Pfade, die weg sein müssen (PRUEFE_404, kommagetrennt), z. B. entfernte Bilder
+for (const pfad of (process.env.PRUEFE_404 || "").split(",").map((x) => x.trim()).filter(Boolean)) {
+  const r = await fetch(basis + "/" + pfad.replace(/^\//, ""), { redirect: "manual" });
+  pruefe(r.status === 404, `${pfad} → ${r.status} (erwartet 404)`);
+}
+
 await browser.close();
 console.log(fehler ? `\n${fehler} FEHLER` : "\nLive-Prüfung ok");
 process.exit(fehler ? 1 : 0);
