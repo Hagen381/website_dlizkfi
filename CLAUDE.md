@@ -309,7 +309,7 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   `/website_dlizkfi/` anfangen.
 - Job `bilder-pruefen` nach dem Deploy: `scripts/vorschau-bilder-pruefen.mjs`
   ruft Start, `/episodes/`, eine Folgenseite, `/follow/` und aktuelle
-  Entwürfe (`/entwurf/folgen/`) (390 und 1280 px) mit Headless-Chromium auf, scrollt
+  Entwürfe (`/entwurf/folgen/`, `/entwurf/blog/`) (390 und 1280 px) mit Headless-Chromium auf, scrollt
   bis unten und meldet jedes Bild, jede Schrift und jedes CSS/JS mit Fehler
   (ausgeblendete lazy-Bilder werden direkt angefragt). Lokal: Export unter
   `/website_dlizkfi/` ausliefern und das Skript mit dieser Basis aufrufen.
@@ -342,6 +342,19 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   ersten/letzten Eintrag oder waagerecht scrollt die Seite), Pfeiltasten nur
   bei Fokus in Walze/Reitern, Karten außerhalb ±3 `visibility: hidden`,
   Fokus dreht die Karte nach vorn, Live-Ansage „Folge x von y: Titel“.
+- Aktuell außerdem: `/entwurf/blog/` — Blogübersicht als 3D-Karussell
+  (`src/entwuerfe/blog/`: `Seite.tsx`, `BlogKarussell.tsx`, `karussell.css`
+  inline). Kopf als Glasfläche (H1 „Blog“ + Text von `/blog/`), nur
+  veröffentlichte Artikel in der Reihenfolge von `/blog/`, Hochformat-Karten
+  (300×420, mobil 230×320) auf einem Ring (Radius per CSS `tan()` aus
+  Kartenbreite und Anzahl, kein JS-Messen → CLS 0), Kartenbild mit
+  `kartenbild-position`, Schild (94 %, nur das Foto hinterer Karten wird
+  abgedunkelt — sonst < 4,5:1), Glasfläche zum vorderen Artikel mit Datum ·
+  Lesezeit (Wortzahl/200, aufgerundet), „Weiterlesen“, „Zur Podcastfolge“;
+  ← Punkte → (Punkte als Buttons, 44 px). Ziehen/Wischen waagerecht
+  (`touch-action: pan-y`), Klick hinten holt nach vorn, Klick vorn öffnet,
+  nur Tastatur-Fokus dreht (`:focus-visible`), Pfeiltasten nur lokal,
+  Live-Ansage, 1–2 Artikel ohne Ring. Live-Prüfung erwartet 404.
   (`/entwurf/startseite/` ist seit 11.11.2026 die echte Startseite.)
   Eigene Bilder eines Entwurfs nur im Vorschau-Zweig von
   `scripts/entwuerfe.mjs` vorbereiten; Pfade nie mit „startseite-entwurf“
@@ -426,7 +439,7 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   alte Sitemaps/`?page=N`, kein X-Robots-Tag, Polaroid-Collage der
   Startseite bei 360/390/820/1280/1440 px (Anzahl sichtbar, Fotos geladen,
   nichts über den Rand), Blog, Artikel, Navigation, Folgenseiten-Link,
-  Bilder, 404 für `/entwurf/`). Läuft auch mit `--nur-neueste` nach einem
+  Bilder, 404 für `/entwurf/`, `/entwurf/folgen/`, `/entwurf/blog/`). Läuft auch mit `--nur-neueste` nach einem
   Deploy mit neuer Folge.
 - Lighthouse live: Workflow „Lighthouse live" (`lighthouse-live.yml`,
   manuell, Eingabe `pfade`) — Median aus 3 Läufen mobil und Desktop, Tabelle
