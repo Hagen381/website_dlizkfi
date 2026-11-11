@@ -19,11 +19,15 @@ Regenzeit in Thailand klingt für viele nach einem kräftigen Schauer am Nachmit
 
 Es regnet teilweise über Stunden, dann hört es wieder auf, bevor der nächste Schauer kommt. Dazwischen bleibt der Himmel häufig bedeckt. Wenn man aus dem Fenster schaut, erinnert das Wetter manchmal tatsächlich an einen deutschen Novembertag. Mit dem Unterschied, dass hier alles üppig grün ist. Während die Vegetation in Deutschland im Herbst langsam verschwindet, blüht auf Koh Samui durch den vielen Regen gerade alles auf.
 
+![Dunkle Wolken über dem Meer in der Regenzeit](bilder/regenzeit-koh-samui-skorpione-dauerregen/20251021_181515.jpg)
+
 Das sieht wunderschön aus, ändert aber nichts daran, dass wir am Wochenende oft nicht wissen, was wir unternehmen sollen. Wenn es hier regnet, dann häufig so heftig, dass man draußen wirklich nichts machen kann. Dazu kommen immer wieder Gewitter, sodass selbst ein Strandbesuch zum Baden keine vernünftige Alternative ist.
 
 Wir sind einfach keine Familie, die gerne den ganzen Tag zu Hause verbringt. Ich persönlich kann das besonders schlecht. Natürlich können wir mal einen Film schauen, ein Buch lesen oder gemütlich auf der Couch liegen. Aber spätestens am nächsten Tag möchte ich wieder etwas unternehmen.
 
 Auf Koh Samui gibt es zwar Kinos, Cafés, Restaurants und auch ein paar Indoor-Angebote für Kinder. Aber wir leben inzwischen seit über einem Jahr wieder hier, haben schon unglaublich viel gesehen und möchten auch nicht jedes Wochenende ins nächste Café fahren.
+
+![Nasse Straße nach einem Regenschauer](bilder/regenzeit-koh-samui-skorpione-dauerregen/20251022_174844.jpg)
 
 Neulich hatten wir samstags Besuch und saßen sogar am Lagerfeuer, während immer wieder Regen und Wind aufzogen. Das war richtig schön. Aber am Sonntag wollten wir dann gerne wieder raus. Und standen vor demselben Problem wie so oft in den vergangenen Wochen.
 
@@ -77,8 +81,6 @@ Während der Regenzeit kommen auch Schlangen häufiger in die Nähe von Häusern
 
 Wir wohnen direkt neben einem unbebauten Grundstück, auf dem jede Menge Laub liegt und Bananenstauden wachsen. In unserem Garten gibt es außerdem Kröten, unzählige Insekten und kürzlich hatten wir eine riesige Spinne in einem Netz direkt am Haus.
 
-![Das unbebaute Grundstück direkt neben unserem Haus](bilder/regenzeit-koh-samui-skorpione-dauerregen/20261031_134137.jpg)
-
 Eigentlich bietet unsere unmittelbare Nachbarschaft alles, was sich eine Schlange wünschen könnte.
 
 Deshalb rechne ich mittlerweile fast täglich damit, irgendwann eine zu entdecken. Bisher ist uns das zum Glück erspart geblieben.
@@ -124,6 +126,8 @@ Bei allem Genörgel über das Wetter ist mir selbstverständlich bewusst, dass w
 In anderen Teilen Thailands haben die Menschen während der Regenzeit mit massiven Überschwemmungen zu kämpfen. Im vergangenen Jahr bekamen wir beispielsweise Videos von Bekannten aus Nakhon Si Thammarat auf dem Festland. Dort waren ganze Straßen überflutet und Menschen brachten mit kleinen Booten Lebensmittel zu den Betroffenen.
 
 Auf Koh Samui gibt es ebenfalls gelegentlich überflutete Straßen. Wir persönlich haben bisher aber keine vergleichbaren, länger anhaltenden Überschwemmungen erlebt.
+
+![Regentropfen am Autospiegel](bilder/regenzeit-koh-samui-skorpione-dauerregen/20251101_180320.jpg)
 
 Unsere größten Probleme sind momentan also eine Wäsche, die nicht trocken wird, ein paar ungebetene tierische Gäste und die Frage, was wir am Wochenende unternehmen sollen.
 
