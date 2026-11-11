@@ -148,9 +148,10 @@
   transform: rotateY(calc(var(--i) * 360deg / var(--n))) translateZ(var(--r));
   backface-visibility: hidden;
   border-radius: 26px;
-  transition: filter 0.5s ease;
 }
-.kar-platz.hinten {
+/* Hintere Karten: nur das Foto abdunkeln, nicht das Schild — sonst fiele
+   der Text darauf unter 4,5:1. */
+.hinten .kar-bild {
   filter: brightness(0.82) saturate(0.7);
 }
 /* Fokusrahmen um die ganze Karte (der Link selbst schneidet ab) */
@@ -194,6 +195,7 @@
   height: 100%;
   object-fit: cover;
   pointer-events: none;
+  transition: filter 0.5s ease;
 }
 .kar-bild-leer {
   display: block;
@@ -381,7 +383,7 @@
 
 @media (prefers-reduced-motion: reduce) {
   .kar-ring,
-  .kar-platz,
+  .kar-bild,
   .kar-karte,
   .kar-pola-rahmen,
   .kar-punkt span {

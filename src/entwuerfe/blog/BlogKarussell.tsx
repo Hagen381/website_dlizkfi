@@ -75,7 +75,7 @@ export default function BlogKarussell({ titel, infos, children }: { titel: strin
 
   return (
     <section className={`kar-bereich${ring ? "" : " kar-flach"}`} aria-roledescription="Karussell" aria-label="Blogartikel">
-      <p className="kar-hinweis">Ziehen, Pfeile oder ← → · Klick auf eine Karte holt sie nach vorn</p>
+      {ring && <p className="kar-hinweis">Ziehen, Pfeile oder ← → · Klick auf eine Karte holt sie nach vorn</p>}
 
       <div
         ref={buehne}
