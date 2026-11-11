@@ -18,7 +18,8 @@ export default function StartseiteFolgen() {
         <section aria-labelledby="frisch-titel" className="schein relative overflow-hidden px-4 py-16 sm:px-6 lg:py-20">
           <p className="mb-10 flex items-center justify-center gap-4 text-sm font-medium tracking-widest text-primary-text uppercase">
             <span aria-hidden="true" className="h-px w-8 bg-primary/70" />
-            Neueste Folge
+            {/* Untergrund: liegt sonst direkt auf den Farbflecken (< 4,5:1) */}
+            <span className="rounded-full bg-bg/90 px-3 py-1">Neueste Folge</span>
             <span aria-hidden="true" className="h-px w-8 bg-primary/70" />
           </p>
           <div className="mx-auto max-w-7xl rounded-2xl border border-border bg-surface p-5 shadow-lg sm:p-8">

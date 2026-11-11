@@ -55,9 +55,6 @@ export default function Startseite() {
       <section className="collage-hero">
         {/* Deko: für Screenreader unsichtbar, nicht fokussierbar */}
         <div className="collage-deko" aria-hidden="true">
-          <div className="collage-fleck collage-fleck-1" />
-          <div className="collage-fleck collage-fleck-2" />
-          <div className="collage-fleck collage-fleck-3" />
           {collage.polaroids.map((p) => {
             const nr = mobilNr.get(p.datei);
             const klassen = ["pola", p.seite === "rechts" ? "pola-rechts" : "pola-links", p.band_hinter_der_mitte ? "pola-band" : "", nr ? `pola-mobil pola-m${nr}` : ""].filter(Boolean).join(" ");

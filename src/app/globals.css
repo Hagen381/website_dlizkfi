@@ -93,6 +93,78 @@
   font-size: 1.15rem;
 }
 
+/* Gemeinsamer Seitenhintergrund (alle Seiten): drei weiche, statische
+   Farbflecken aus primary/secondary, ursprünglich vom Startseiten-Hero.
+   Eine fixe Ebene hinter allem (SeitenHintergrund.tsx im Layout), nicht pro
+   Seite kopiert. z-index -1 liegt über dem Seitengrund (body-Farbe geht an
+   die Leinwand) und unter allem Inhalt. Höhe 100lvh: ändert sich nicht, wenn
+   mobil die Adressleiste ein-/ausfährt. */
+.seiten-hintergrund {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100lvh;
+  overflow: hidden;
+  pointer-events: none;
+}
+.seiten-fleck {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+}
+.seiten-fleck-1 {
+  width: 620px;
+  height: 620px;
+  left: -160px;
+  top: -180px;
+  background: rgb(255 200 20 / 0.38);
+}
+.seiten-fleck-2 {
+  width: 700px;
+  height: 700px;
+  right: -220px;
+  bottom: -260px;
+  background: rgb(255 120 40 / 0.28);
+}
+.seiten-fleck-3 {
+  width: 420px;
+  height: 420px;
+  right: 14%;
+  top: -160px;
+  background: rgb(255 200 20 / 0.2);
+}
+/* Mobil: weicher Verlauf statt filter: blur(90px) — sieht gleich aus, kostet
+   auf schwachen Handys kaum Rechenzeit beim Zeichnen. */
+@media (max-width: 639px) {
+  .seiten-fleck {
+    filter: none;
+    transform: scale(1.5);
+  }
+  .seiten-fleck-1 {
+    background: radial-gradient(closest-side, rgb(255 200 20 / 0.38) 45%, rgb(255 200 20 / 0));
+  }
+  .seiten-fleck-2 {
+    background: radial-gradient(closest-side, rgb(255 120 40 / 0.28) 45%, rgb(255 120 40 / 0));
+  }
+  .seiten-fleck-3 {
+    background: radial-gradient(closest-side, rgb(255 200 20 / 0.2) 45%, rgb(255 200 20 / 0));
+  }
+}
+
+/* Dezente Glasfläche hinter Fließtext, der sonst direkt auf den Flecken
+   läge (z. B. Blogartikel): 90 % Seitengrund wie die Glasfläche der
+   Startseite, damit Text ≥ 4,5:1 bleibt. */
+.glas-flaeche {
+  background: rgb(254 252 232 / 0.9);
+  border: 1px solid rgb(255 255 255 / 0.7);
+  border-radius: 28px;
+  box-shadow:
+    0 2px 6px rgb(26 46 5 / 0.05),
+    0 24px 60px rgb(26 46 5 / 0.1);
+}
+
 /* Weicher gelber Schein hinter Hero-/Folgenbereich wie auf der Live-Seite */
 .schein {
   background:

@@ -82,7 +82,10 @@ export default async function BlogArtikel({ params }: Props) {
   return (
     <div className="px-4 pt-6 pb-16 sm:px-6 sm:pt-10">
       <JsonLd daten={jsonLd} />
-      <article className="mx-auto max-w-[36.5rem] text-[18px]">
+      {/* Glasfläche: der Artikel liegt sonst direkt auf den Farbflecken des
+          Seitenhintergrunds (gedämpfter Text dort < 4,5:1). Lesespalte innen
+          weiter 36,5 rem. */}
+      <article className="glas-flaeche mx-auto max-w-[calc(36.5rem+2.5rem)] px-5 py-6 text-[18px] sm:max-w-[calc(36.5rem+5rem)] sm:px-10 sm:py-10">
         <Link href="/blog/" className="kipp kipp-dezent group inline-flex min-h-11 items-center gap-3 rounded-full border border-border/70 bg-surface/80 py-1 pr-5 pl-1.5 text-muted hover:text-text">
           <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary/15 text-primary-text transition group-hover:bg-primary/25">
             <ChevronLinks />

@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import KippSteuerung from "@/components/KippSteuerung";
+import SeitenHintergrund from "@/components/SeitenHintergrund";
 import { hatBlog } from "@/lib/blog";
 import { istVorschau } from "@/lib/base-path";
 import { JsonLd, serieId } from "@/lib/seo";
@@ -80,6 +81,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           Zum Inhalt springen
         </a>
         <JsonLd daten={serie} />
+        <SeitenHintergrund />
         <Header blog={hatBlog} />
         <main id="inhalt" className="flex-1">
           {children}

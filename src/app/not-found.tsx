@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function NichtGefunden() {
   return (
-    <section className="mx-auto max-w-2xl px-6 py-24 text-center">
+    <section className="glas-flaeche mx-4 my-16 px-6 py-14 text-center sm:mx-auto sm:my-24 sm:max-w-2xl sm:px-10">
       <p className="text-sm font-medium tracking-widest text-muted uppercase">Fehler 404</p>
       <h1 className="mt-4 text-4xl font-bold tracking-tight lg:text-5xl">Seite nicht gefunden</h1>
       <p className="mt-6 text-lg text-muted">Diese Seite gibt es nicht (mehr). Vielleicht findest du, was du suchst, bei den Folgen.</p>

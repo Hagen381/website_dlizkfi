@@ -9,39 +9,12 @@
   position: relative;
   height: 920px;
   overflow: hidden;
-  background: var(--bg);
+  /* Kein eigener Hintergrund: die Farbflecken kommen aus der gemeinsamen
+     Ebene .seiten-hintergrund (globals.css, im Layout). */
 }
 .collage-deko {
   position: absolute;
   inset: 0;
-}
-
-/* Drei weiche Farbflecken (statisch) */
-.collage-fleck {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(90px);
-}
-.collage-fleck-1 {
-  width: 620px;
-  height: 620px;
-  left: -160px;
-  top: -180px;
-  background: rgb(255 200 20 / 0.38);
-}
-.collage-fleck-2 {
-  width: 700px;
-  height: 700px;
-  right: -220px;
-  bottom: -260px;
-  background: rgb(255 120 40 / 0.28);
-}
-.collage-fleck-3 {
-  width: 420px;
-  height: 420px;
-  right: 14%;
-  top: -160px;
-  background: rgb(255 200 20 / 0.2);
 }
 
 /* ---------- Polaroids ---------- */
@@ -201,28 +174,6 @@
     --mh: calc(var(--mw) + 12px); /* Rahmen: 5 px seitlich/oben, 17 px unten */
     height: auto;
     padding: calc(2 * var(--mh) + 20px) 16px 40px;
-  }
-  /* Oben verankert: Die Höhe hängt hier vom Text ab (Schriftwechsel beim
-     Laden), unten verankert würde der Fleck mitrutschen (CLS). */
-  .collage-fleck-2 {
-    top: 420px;
-    bottom: auto;
-  }
-  /* Mobil: Flecken als weicher Verlauf statt filter: blur(90px) — sieht
-     gleich aus, kostet auf schwachen Handys aber kaum Rechenzeit beim
-     Zeichnen (Lighthouse: LCP/TBT). */
-  .collage-fleck {
-    filter: none;
-    transform: scale(1.5);
-  }
-  .collage-fleck-1 {
-    background: radial-gradient(closest-side, rgb(255 200 20 / 0.38) 45%, rgb(255 200 20 / 0));
-  }
-  .collage-fleck-2 {
-    background: radial-gradient(closest-side, rgb(255 120 40 / 0.28) 45%, rgb(255 120 40 / 0));
-  }
-  .collage-fleck-3 {
-    background: radial-gradient(closest-side, rgb(255 200 20 / 0.2) 45%, rgb(255 200 20 / 0));
   }
   .pola {
     display: none;

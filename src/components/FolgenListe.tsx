@@ -26,7 +26,7 @@ export default function FolgenListe({ seite }: { seite: number }) {
                 </Link>
               </li>
             )}
-            <li className="px-4 py-2 text-muted">
+            <li className="rounded-full bg-bg/90 px-4 py-2 text-muted">
               Seite {seite} von {seitenAnzahl}
             </li>
             {seite < seitenAnzahl && (
