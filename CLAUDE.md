@@ -198,6 +198,23 @@ mehr.
 - Bilder über `BlogBildRoh` mit fester Breite (srcset 256/384 bzw. mobil
   128/256), lazy; ausgeblendete Varianten lädt der Browser nicht.
 
+### Seitenhintergrund (alle Seiten)
+
+- Die drei weichen Farbflecken (primary/secondary, statisch) liegen als EINE
+  fixe Ebene hinter allem Inhalt: `src/components/SeitenHintergrund.tsx` im
+  Layout, Stile `.seiten-hintergrund`/`.seiten-fleck-*` in `globals.css`
+  (`position: fixed`, `z-index: -1`, `pointer-events: none`, Höhe `100lvh`).
+  Nicht pro Seite kopieren; auch die Startseite nutzt diese Ebene. Mobil
+  (< 640 px) weiche radial-gradients statt `filter: blur` (Leistung).
+- Lesbarkeit: Text ohne deckenden Untergrund muss gegen die ungünstigste
+  Fleckfarbe ≥ 4,5:1 haben (die Ebene ist fix, Text scrollt darüber).
+  `text-muted` erreicht dort nur ~4,1:1 → dahinter `.glas-flaeche`
+  (`globals.css`: 90 % Seitengrund, Radius 28 px; Blogartikel, Kopf von
+  `/blog/`, 404-Seite) oder ein kleiner Untergrund `bg-bg/90` („Seite x von
+  y“, „Neueste Folge“). Karten mit `bg-surface` (Folgenseite, Rechtstexte,
+  Folgen-/Blog-Karten) brauchen nichts. Neue Seiten mit gedämpftem Text
+  direkt auf dem Hintergrund entsprechend unterlegen.
+
 ### Header
 
 - Bewusste Abweichung vom PodView-Original (ausdrücklicher Auftrag):
@@ -291,8 +308,8 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   Export (HTML, CSS, RSC-.txt), die mit `/` beginnt, muss mit
   `/website_dlizkfi/` anfangen.
 - Job `bilder-pruefen` nach dem Deploy: `scripts/vorschau-bilder-pruefen.mjs`
-  ruft Start, `/episodes/`, eine Folgenseite und `/follow/` (390 und
-  1280 px) mit Headless-Chromium auf, scrollt
+  ruft Start, `/episodes/`, eine Folgenseite, `/follow/` und aktuelle
+  Entwürfe (`/entwurf/folgen/`) (390 und 1280 px) mit Headless-Chromium auf, scrollt
   bis unten und meldet jedes Bild, jede Schrift und jedes CSS/JS mit Fehler
   (ausgeblendete lazy-Bilder werden direkt angefragt). Lokal: Export unter
   `/website_dlizkfi/` ausliefern und das Skript mit dieser Basis aufrufen.
@@ -313,10 +330,17 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
 - Deploy-Prüfung k) bricht ab, wenn `entwurf/` oder `startseite-entwurf` im
   Live-Export steht; `scripts/live-pruefen.mjs` erwartet live 404 für
   `/entwurf/startseite/` und `/entwurf/`.
-- Aktuell: keiner. (Der letzte, `/entwurf/startseite/`, ist seit 11.11.2026
-  die echte Startseite.) Eigene Bilder eines Entwurfs nur im Vorschau-Zweig
-  von `scripts/entwuerfe.mjs` vorbereiten; Pfade nie mit
-  „startseite-entwurf“ (Deploy-Prüfung k).
+- Aktuell: `/entwurf/folgen/` — Folgenübersicht als 3D-Register
+  (`src/entwuerfe/folgen/`: `Seite.tsx`, `RegisterWalze.tsx`,
+  `register.css` inline). Kopf als Glasfläche mit der echten Suche
+  (`FolgenSuche` mit `kopfClassName`), Monatsreiter, Walze mit allen Folgen
+  (rotateX 24°, Radius 520 px, ±3 sichtbar), Fotos: Kartenbild des
+  Blogartikels, sonst Collage-Foto per FNV-1a-Hash des Slugs. Jede Karte hat
+  einen echten Link auf `/episodes/<slug>/`. Live-Prüfung erwartet 404.
+  (`/entwurf/startseite/` ist seit 11.11.2026 die echte Startseite.)
+  Eigene Bilder eines Entwurfs nur im Vorschau-Zweig von
+  `scripts/entwuerfe.mjs` vorbereiten; Pfade nie mit „startseite-entwurf“
+  (Deploy-Prüfung k).
 
 Repo: `https://github.com/Hagen381/website_dlizkfi` (öffentlich, Pflicht für
 Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
