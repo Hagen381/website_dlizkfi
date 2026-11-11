@@ -135,6 +135,8 @@ Wie beliebt 7-Eleven inzwischen ist, sieht man auch daran, dass rund um die Mark
 
 Es gibt T-Shirts, Socken, Taschen und alle möglichen anderen Dinge mit dem bekannten Logo.
 
+![7-Eleven-Socken mit Logo](bilder/7-eleven-thailand-geschichte/7-eleven-socken.jpg)
+
 Besonders lustig finde ich die kleinen 7-Eleven-Kühlschrankmagneten. Sie sehen aus wie die typischen Ladenschilder und werden so befestigt, dass sie seitlich vom Kühlschrank abstehen.
 
 Manche Modelle spielen sogar die bekannte Melodie ab, die man beim Betreten vieler thailändischer Filialen hört.
