@@ -48,7 +48,9 @@ const KopfhoererIcon = ({ className = "h-5 w-5" }: { className?: string }) => (
 // Header (bewusste Abweichung vom PodView-Original, ausdrücklicher Auftrag):
 // größeres Cover mit Schriftzug, Menüpunkte als Flächen, „Abonnieren" als
 // gelber Button, klebt beim Scrollen oben. Unter 1024 px ersetzt ein
-// „☰ Menü"-Knopf die Links und öffnet ein Menü von oben.
+// „☰ Menü"-Knopf die Links und öffnet ein Menü von oben. Menüpunkte,
+// Abonnieren und die Menü-Knöpfe sind dezente Kacheln mit 3D-Effekt
+// (.kipp .kipp-dezent in globals.css).
 export default function Header({ blog = false }: { blog?: boolean }) {
   const pathname = usePathname() ?? "/";
   const [offen, setOffen] = useState(false);
@@ -132,14 +134,14 @@ export default function Header({ blog = false }: { blog?: boolean }) {
 
         <nav
           aria-label="Hauptnavigation"
-          className="hidden items-center gap-1 lg:flex"
+          className="hidden items-center gap-1.5 lg:flex"
         >
           {punkte.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               aria-current={istAktiv(pathname, item.href) ? "page" : undefined}
-              className="flex min-h-11 items-center rounded-lg px-4 font-heading text-base font-semibold whitespace-nowrap text-text transition hover:bg-primary/20 aria-[current=page]:bg-primary aria-[current=page]:text-text"
+              className="kipp kipp-dezent flex min-h-11 items-center rounded-lg border border-border/70 bg-surface/80 px-4 font-heading text-base font-semibold whitespace-nowrap text-text hover:bg-primary/20 aria-[current=page]:border-primary aria-[current=page]:bg-primary aria-[current=page]:text-text"
             >
               {item.label}
             </Link>
@@ -147,7 +149,7 @@ export default function Header({ blog = false }: { blog?: boolean }) {
           <Link
             href={abonnieren.href}
             aria-current={abonnierenAktiv ? "page" : undefined}
-            className="ml-3 flex min-h-11 items-center gap-2 rounded-full bg-primary px-5 font-heading text-base font-bold whitespace-nowrap text-text shadow-sm ring-text/80 transition hover:shadow-md hover:brightness-105 aria-[current=page]:ring-2"
+            className="kipp kipp-dezent ml-3 flex min-h-11 items-center gap-2 rounded-full bg-primary px-5 font-heading text-base font-bold whitespace-nowrap text-text outline-text/80 hover:brightness-105 aria-[current=page]:outline-2"
           >
             <KopfhoererIcon />
             {abonnieren.label}
@@ -157,7 +159,7 @@ export default function Header({ blog = false }: { blog?: boolean }) {
         <button
           ref={knopf}
           type="button"
-          className="flex min-h-11 min-w-11 shrink-0 items-center gap-2 rounded-lg border border-border bg-surface px-3 font-heading text-base font-semibold text-text transition hover:bg-primary/20 lg:hidden"
+          className="kipp kipp-dezent flex min-h-11 min-w-11 shrink-0 items-center gap-2 rounded-lg border border-border bg-surface px-3 font-heading text-base font-semibold text-text hover:bg-primary/20 lg:hidden"
           aria-expanded={offen}
           aria-controls="menue-panel"
           aria-haspopup="dialog"
@@ -207,7 +209,7 @@ export default function Header({ blog = false }: { blog?: boolean }) {
                 {marke}
                 <button
                   type="button"
-                  className="flex min-h-11 min-w-11 shrink-0 items-center gap-2 rounded-lg border border-border bg-surface px-3 font-heading text-base font-semibold text-text transition hover:bg-primary/20"
+                  className="kipp kipp-dezent flex min-h-11 min-w-11 shrink-0 items-center gap-2 rounded-lg border border-border bg-surface px-3 font-heading text-base font-semibold text-text hover:bg-primary/20"
                   aria-label="Menü schließen"
                   onClick={() => setOffen(false)}
                 >
@@ -230,7 +232,7 @@ export default function Header({ blog = false }: { blog?: boolean }) {
               </div>
               <nav
                 aria-label="Hauptnavigation mobil"
-                className="flex flex-col gap-1 px-4 pt-2 pb-[max(1.25rem,env(safe-area-inset-bottom))] sm:px-6"
+                className="flex flex-col gap-2 px-4 pt-2 pb-[max(1.25rem,env(safe-area-inset-bottom))] sm:px-6"
               >
                 {punkte.map((item) => (
                   <Link
@@ -239,7 +241,7 @@ export default function Header({ blog = false }: { blog?: boolean }) {
                     aria-current={
                       istAktiv(pathname, item.href) ? "page" : undefined
                     }
-                    className="flex min-h-12 items-center rounded-xl px-4 font-heading text-xl font-semibold text-text transition hover:bg-primary/20 aria-[current=page]:bg-primary"
+                    className="kipp kipp-dezent flex min-h-12 items-center rounded-xl border border-border/70 bg-surface/80 px-4 font-heading text-xl font-semibold text-text hover:bg-primary/20 aria-[current=page]:border-primary aria-[current=page]:bg-primary"
                     onClick={() => setOffen(false)}
                   >
                     {item.label}
@@ -248,7 +250,7 @@ export default function Header({ blog = false }: { blog?: boolean }) {
                 <Link
                   href={abonnieren.href}
                   aria-current={abonnierenAktiv ? "page" : undefined}
-                  className="mt-4 flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-primary px-5 font-heading text-xl font-bold text-text shadow-sm ring-text/80 transition hover:brightness-105 aria-[current=page]:ring-2"
+                  className="kipp kipp-dezent mt-4 flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-primary px-5 font-heading text-xl font-bold text-text outline-text/80 hover:brightness-105 aria-[current=page]:outline-2"
                   onClick={() => setOffen(false)}
                 >
                   <KopfhoererIcon className="h-6 w-6" />
