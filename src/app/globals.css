@@ -185,46 +185,82 @@
   margin: 0 0 1.4em;
 }
 
-/* Blog-Karten (/blog/): heben sich beim Hovern/Fokus leicht ab, mit sanfter
-   3D-Neigung zur Maus (--kipp-x/--kipp-y setzt BlogKippkarte.tsx, max. ~3,5°)
-   und weichem, größer werdendem Schatten. Einblenden beim Laden: auf dem <li>
-   (.karte-ein), damit sich die Transforms nicht überschreiben.
-   Nur transform/opacity/box-shadow → keine Layoutsprünge.
+/* 3D-Kippeffekt — gemeinsame Basis für alles Klickbare mit Kachel-Charakter.
+   .kipp + Stärke:
+     .kipp-karte  große Karten (Blog, Folgen): hebt sich 6 px, Neigung max. 3,5°,
+                  weicher großer Schatten, Fokus mit kräftigem Rahmen um die Karte
+     .kipp-dezent Buttons, Menüpunkte, Plattform-Links, Blättern: hebt sich
+                  2,5 px, Neigung max. 2°, kleiner Schatten (bleibt im Header
+                  innerhalb des Innenabstands, ragt also nicht heraus)
+   Die Neigung zur Maus setzt src/components/KippSteuerung.tsx (ein einziger
+   Listener für die ganze Seite) über --kipp-x/--kipp-y; die Obergrenze liest
+   es aus --kipp-max. Nur Maus, kein Touch/Stift.
+   Nur transform/box-shadow (+ Farben) → keine Layoutsprünge (CLS 0).
+   Fokus (Tastatur) = gleiche Hebung und gleicher Schatten wie Hover; bei
+   Karten zählt der Fokus des Links in der Karte (:has).
+   Touch: Hover-Stile nur bei (hover: hover); die Elemente bleiben normale Links.
    prefers-reduced-motion: keine Neigung, kein Anheben, kein Einblenden, nur
-   der Schatten. Touch: kein Hover-Effekt nötig, die ganze Karte bleibt Link. */
-.blog-karte {
+   der Schatten.
+   Steht bewusst außerhalb von @layer: setzt sich gegen Tailwind-Klassen für
+   transform/box-shadow/transition durch (auf .kipp-Elementen keine shadow-*
+   oder translate-Klassen verwenden). */
+.kipp {
   --kipp-x: 0deg;
   --kipp-y: 0deg;
   --heben: 0px;
-  transform: perspective(900px) rotateX(var(--kipp-x)) rotateY(var(--kipp-y)) translateY(var(--heben));
+  transform: perspective(var(--kipp-perspektive)) rotateX(var(--kipp-x)) rotateY(var(--kipp-y)) translateY(var(--heben));
   transition:
-    transform 300ms ease-out,
-    box-shadow 300ms ease-out;
-  box-shadow: 0 1px 2px rgb(26 46 5 / 0.06);
+    transform var(--kipp-dauer) ease-out,
+    box-shadow var(--kipp-dauer) ease-out,
+    background-color 200ms ease-out,
+    color 200ms ease-out,
+    filter 200ms ease-out;
+  box-shadow: var(--kipp-schatten);
 }
-@media (hover: hover) {
-  .blog-karte:hover {
-    --heben: -6px;
-    box-shadow:
-      0 22px 44px -16px rgb(26 46 5 / 0.28),
-      0 8px 16px -8px rgb(26 46 5 / 0.12);
-  }
-}
-.blog-karte:has(a:focus-visible) {
-  --heben: -6px;
-  box-shadow:
+.kipp-karte {
+  --kipp-max: 3.5;
+  --kipp-hub: -6px;
+  --kipp-perspektive: 900px;
+  --kipp-dauer: 300ms;
+  --kipp-schatten: 0 1px 2px rgb(26 46 5 / 0.06);
+  --kipp-schatten-hoch:
     0 22px 44px -16px rgb(26 46 5 / 0.28),
     0 8px 16px -8px rgb(26 46 5 / 0.12);
+}
+.kipp-dezent {
+  --kipp-max: 2;
+  --kipp-hub: -2.5px;
+  --kipp-perspektive: 500px;
+  --kipp-dauer: 200ms;
+  --kipp-schatten: 0 1px 2px rgb(26 46 5 / 0.08);
+  --kipp-schatten-hoch:
+    0 4px 9px -4px rgb(26 46 5 / 0.28),
+    0 1px 3px rgb(26 46 5 / 0.1);
+}
+@media (hover: hover) {
+  .kipp:hover {
+    --heben: var(--kipp-hub);
+    box-shadow: var(--kipp-schatten-hoch);
+  }
+}
+.kipp:focus-visible,
+.kipp-karte:has(a:focus-visible) {
+  --heben: var(--kipp-hub);
+  box-shadow: var(--kipp-schatten-hoch);
+}
+.kipp-karte:has(a:focus-visible) {
   outline: 3px solid var(--color-text);
   outline-offset: 3px;
 }
-.blog-karte a:focus-visible {
+.kipp-karte a:focus-visible {
   outline: none;
 }
-.blog-karte:has(a:focus-visible) img {
+.kipp-karte:has(a:focus-visible) .kipp-bild {
   scale: 1.02;
 }
 
+/* Einblenden der Blog-Karten beim Laden: auf dem <li> (.karte-ein), damit
+   sich die Transforms nicht mit .kipp überschreiben. */
 @keyframes karte-ein {
   from {
     opacity: 0;
@@ -254,15 +290,16 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .blog-karte,
-  .blog-karte:hover,
-  .blog-karte:has(a:focus-visible) {
+  .kipp,
+  .kipp:hover,
+  .kipp:focus-visible,
+  .kipp-karte:has(a:focus-visible) {
     --kipp-x: 0deg !important;
     --kipp-y: 0deg !important;
     --heben: 0px !important;
     transform: none;
   }
-  .blog-karte img {
+  .kipp-bild {
     scale: none !important;
   }
   .karte-ein {
