@@ -35,22 +35,9 @@ jobs:
 
       - name: Playwright installieren
         shell: bash
-        run: |
-          set -euo pipefail
-          mkdir -p "$RUNNER_TEMP/werkzeug" && cd "$RUNNER_TEMP/werkzeug"
-          npm init -y >/dev/null
-          npm install --silent playwright@1.49.1
-          # Ausweichspiegel: Ist der Azure-Paketspiegel der Runner nicht
-          # erreichbar (DNS-Stoerung wie am 11.11.2026), auf archive.ubuntu.com
-          # umstellen und noch einmal versuchen.
-          spiegel_wechseln() {
-            echo "Paketspiegel gestoert - weiche auf archive.ubuntu.com aus."
-            echo "http://archive.ubuntu.com/ubuntu/" | sudo tee /etc/apt/apt-mirrors.txt >/dev/null
-          }
-          if ! npx playwright install --with-deps chromium >/dev/null; then
-            spiegel_wechseln
-            npx playwright install --with-deps chromium >/dev/null
-          fi
+        # Ohne apt: vorinstalliertes Google Chrome (PW_KANAL=chrome), apt nur
+        # als Rückfall. Details: scripts/playwright-installieren.sh
+        run: ./scripts/playwright-installieren.sh
 
       - name: Pruefen
         shell: bash

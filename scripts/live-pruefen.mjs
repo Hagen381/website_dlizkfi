@@ -21,7 +21,9 @@ import fs from "node:fs";
 const basis = (process.argv[2] || "").replace(/\/$/, "");
 const nurNeueste = process.argv.includes("--nur-neueste");
 const artikel = fs.readdirSync("content/blog").filter((d) => d.endsWith(".md") && !d.startsWith("_") && d.toLowerCase() !== "readme.md");
-const browser = await chromium.launch();
+// Im GitHub-Runner das vorinstallierte Google Chrome (PW_KANAL=chrome, siehe
+// scripts/playwright-installieren.sh), lokal Playwrights Chromium.
+const browser = await chromium.launch(process.env.PW_KANAL ? { channel: process.env.PW_KANAL } : {});
 let fehler = 0;
 const pruefe = (ok, text) => { console.log(`${ok ? "ok    " : "FEHLER"} ${text}`); if (!ok) fehler++; };
 

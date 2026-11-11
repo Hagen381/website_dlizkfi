@@ -16,7 +16,9 @@ if (!basis || seiten.length === 0) {
   process.exit(2);
 }
 
-const browser = await chromium.launch();
+// Im GitHub-Runner das vorinstallierte Google Chrome (PW_KANAL=chrome, siehe
+// scripts/playwright-installieren.sh), lokal Playwrights Chromium.
+const browser = await chromium.launch(process.env.PW_KANAL ? { channel: process.env.PW_KANAL } : {});
 let fehlerGesamt = 0;
 
 for (const breite of [390, 1280]) {
