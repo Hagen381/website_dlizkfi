@@ -1,5 +1,5 @@
 {
-  "hinweis": "Entwurf Startseiten-Collage, nur Vorschau. Bilder quadratisch 900px, ohne Metadaten, auf Kinder geprüft (nur Silhouetten/von hinten). Beschriftung = Aufnahmemonat.",
+  "hinweis": "Entwurf Startseiten-Collage, nur Vorschau. 14 Bilder quadratisch 900px, ohne Metadaten, auf Kinder geprüft (nur Silhouetten/von hinten/klein). Beschriftung = Aufnahmemonat. Ebenen: vorn (groß, scharf), mitte (mittel), hinten (klein, transparent, unscharf).",
   "polaroids": [
     {
       "datei": "20251006_181734.jpg",
@@ -13,16 +13,32 @@
       "datei": "20260926_084325.jpg",
       "beschriftung": "Sept. 2026",
       "ebene": "vorn",
-      "position": "links-mitte",
+      "position": "links-mitte-oben",
       "drehung_grad": 6,
       "mobil": true
+    },
+    {
+      "datei": "20251006_175647.jpg",
+      "beschriftung": "Okt. 2025",
+      "ebene": "vorn",
+      "position": "links-mitte-unten",
+      "drehung_grad": -5,
+      "mobil": false
     },
     {
       "datei": "20250919_150203.jpg",
       "beschriftung": "Sept. 2025",
       "ebene": "vorn",
       "position": "links-unten",
-      "drehung_grad": -4,
+      "drehung_grad": 4,
+      "mobil": true
+    },
+    {
+      "datei": "20250918_213310.jpg",
+      "beschriftung": "Sept. 2025",
+      "ebene": "mitte",
+      "position": "links-aussen",
+      "drehung_grad": 9,
       "mobil": false
     },
     {
@@ -37,8 +53,16 @@
       "datei": "20261003_124935.jpg",
       "beschriftung": "Okt. 2026",
       "ebene": "vorn",
-      "position": "rechts-mitte",
+      "position": "rechts-mitte-oben",
       "drehung_grad": -6,
+      "mobil": false
+    },
+    {
+      "datei": "20260926_100209_villa.jpg",
+      "beschriftung": "Sept. 2026",
+      "ebene": "vorn",
+      "position": "rechts-mitte-unten",
+      "drehung_grad": 5,
       "mobil": false
     },
     {
@@ -46,7 +70,15 @@
       "beschriftung": "Aug. 2026",
       "ebene": "vorn",
       "position": "rechts-unten",
-      "drehung_grad": 5,
+      "drehung_grad": -4,
+      "mobil": false
+    },
+    {
+      "datei": "20250919_222215.jpg",
+      "beschriftung": "Sept. 2025",
+      "ebene": "mitte",
+      "position": "rechts-aussen",
+      "drehung_grad": -9,
       "mobil": false
     },
     {
@@ -63,6 +95,22 @@
       "ebene": "hinten",
       "position": "oben-rechts-der-mitte",
       "drehung_grad": -7,
+      "mobil": false
+    },
+    {
+      "datei": "20251019_161345.jpg",
+      "beschriftung": "Okt. 2025",
+      "ebene": "hinten",
+      "position": "unten-links-der-mitte",
+      "drehung_grad": -6,
+      "mobil": false
+    },
+    {
+      "datei": "20261003_174804.jpg",
+      "beschriftung": "Okt. 2026",
+      "ebene": "hinten",
+      "position": "unten-rechts-der-mitte",
+      "drehung_grad": 8,
       "mobil": false
     }
   ]
