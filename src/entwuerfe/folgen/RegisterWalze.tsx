@@ -104,7 +104,65 @@ export default function RegisterWalze({ monate, reiterFotos, titel, children }: 
     return () => document.removeEventListener("pointermove", bewegen);
   }, []);
 
-  // Ziehen (Maus, Stift, Finger)
+  // Wischen mit dem Finger: Beim ersten Wischen wird entschieden. Senkrecht
+  // und die Walze kann in diese Richtung weiter → drehen (Seite scrollt dann
+  // nicht). Am ersten/letzten Eintrag oder waagerecht → nichts abfangen, die
+  // Seite scrollt normal. Pro 50 px eine Karte. Ein Tippen (ohne Bewegung)
+  // bleibt ein normaler Klick.
+  useEffect(() => {
+    const el = walze.current;
+    if (!el) return;
+    let startX = 0;
+    let startY = 0;
+    let letzteY = 0;
+    let modus: "offen" | "drehen" | "seite" | null = null;
+    const start = (e: TouchEvent) => {
+      if (e.touches.length !== 1) {
+        modus = null;
+        return;
+      }
+      startX = e.touches[0].clientX;
+      startY = letzteY = e.touches[0].clientY;
+      modus = "offen";
+    };
+    const bewegen = (e: TouchEvent) => {
+      if (!modus || modus === "seite") return;
+      const t = e.touches[0];
+      if (modus === "offen") {
+        const dx = t.clientX - startX;
+        const dy = t.clientY - startY;
+        if (Math.abs(dx) < 8 && Math.abs(dy) < 8) return;
+        const richtung = dy < 0 ? 1 : -1; // Finger nach oben → ältere Folge
+        const a = aktuellRef.current;
+        if (Math.abs(dx) > Math.abs(dy) || (richtung < 0 && a === 0) || (richtung > 0 && a === anzahl - 1)) {
+          modus = "seite";
+          return;
+        }
+        modus = "drehen";
+        letzteY = startY;
+      }
+      e.preventDefault();
+      const d = t.clientY - letzteY;
+      if (Math.abs(d) >= 50) {
+        geh(aktuellRef.current + (d < 0 ? 1 : -1));
+        letzteY = t.clientY;
+      }
+    };
+    const ende = () => (modus = null);
+    el.addEventListener("touchstart", start, { passive: true });
+    el.addEventListener("touchmove", bewegen, { passive: false });
+    el.addEventListener("touchend", ende);
+    el.addEventListener("touchcancel", ende);
+    return () => {
+      el.removeEventListener("touchstart", start);
+      el.removeEventListener("touchmove", bewegen);
+      el.removeEventListener("touchend", ende);
+      el.removeEventListener("touchcancel", ende);
+    };
+  }, [anzahl, geh]);
+
+  // Ziehen mit Maus oder Stift (Finger: siehe oben). Ein Klick auf einen Link
+  // startet kein Ziehen.
   const zugStart = useRef<number | null>(null);
 
   // Aktiven Reiter in der mobilen Leiste sichtbar halten
@@ -141,7 +199,7 @@ export default function RegisterWalze({ monate, reiterFotos, titel, children }: 
           aria-label={`Alle Folgen, ${aktuell + 1} von ${anzahl}. Mit Pfeiltasten auf und ab drehen.`}
           onKeyDown={pfeile}
           onPointerDown={(e) => {
-            if ((e.target as Element).closest("a")) return;
+            if (e.pointerType === "touch" || (e.target as Element).closest("a")) return;
             zugStart.current = e.clientY;
             e.currentTarget.setPointerCapture(e.pointerId);
           }}

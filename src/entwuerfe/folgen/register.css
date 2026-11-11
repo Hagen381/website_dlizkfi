@@ -226,7 +226,9 @@
   border-radius: 30px;
   perspective: 1700px;
   cursor: grab;
-  touch-action: none;
+  /* Kein touch-action: none — die Seite muss sich am Handy weiter scrollen
+     lassen. Wischen in der Walze entscheidet RegisterWalze.tsx selbst. */
+  touch-action: pan-y;
   -webkit-mask-image: linear-gradient(transparent, #000 14%, #000 86%, transparent);
   mask-image: linear-gradient(transparent, #000 14%, #000 86%, transparent);
 }
