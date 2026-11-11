@@ -253,10 +253,35 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   Export (HTML, CSS, RSC-.txt), die mit `/` beginnt, muss mit
   `/website_dlizkfi/` anfangen.
 - Job `bilder-pruefen` nach dem Deploy: `scripts/vorschau-bilder-pruefen.mjs`
-  ruft Start, `/episodes/`, eine Folgenseite und `/follow/` (390 und 1280 px)
-  mit Headless-Chromium auf, scrollt bis unten und meldet jedes Bild, jede
-  Schrift und jedes CSS/JS mit Fehler. Lokal: Export unter
+  ruft Start, `/episodes/`, eine Folgenseite, `/follow/` und
+  `/entwurf/startseite/` (390 und 1280 px) mit Headless-Chromium auf, scrollt
+  bis unten und meldet jedes Bild, jede Schrift und jedes CSS/JS mit Fehler
+  (ausgeblendete lazy-Bilder werden direkt angefragt). Lokal: Export unter
   `/website_dlizkfi/` ausliefern und das Skript mit dieser Basis aufrufen.
+
+### Entwürfe nur in der Vorschau
+
+- Entwurfsseiten liegen unter `src/entwuerfe/` (außerhalb von `src/app`, also
+  ohne Route). `scripts/entwuerfe.mjs` (vor jedem Build) legt NUR im
+  Vorschau-Build `src/app/entwurf/<name>/page.tsx` als Re-Export an und
+  bereitet die Bilder vor; im Live-Build löscht es beides. `src/app/entwurf/`
+  und `public/images/startseite-entwurf/` sind Build-Ergebnisse (.gitignore).
+  Neuer Entwurf = Eintrag in `entwuerfe` im Skript.
+- Nicht über `pageExtensions` (`page.vorschau.tsx`): Next findet dann die
+  Schrift-Preloads nicht. Nicht über `generateStaticParams` mit leerer Liste:
+  beim Static Export ein Build-Fehler.
+- Entwürfe: `noindex`, eigenes Canonical, nicht in `sitePages`/Navigation,
+  oben Balken „Entwurf – nicht live“.
+- Deploy-Prüfung k) bricht ab, wenn `entwurf/` oder `startseite-entwurf` im
+  Live-Export steht; `scripts/live-pruefen.mjs` erwartet live 404 für
+  `/entwurf/startseite/` und `/entwurf/`.
+- Aktuell: `/entwurf/startseite/` — Startseite mit Polaroid-Collage
+  (`src/entwuerfe/startseite/`, Layout `content/startseite-entwurf/collage.json`,
+  25 Fotos in `content/startseite-entwurf/bilder/`, Steuerung
+  `src/components/CollageSteuerung.tsx`). Unter dem Hero
+  `StartseiteFolgen.tsx`, dieselbe Komponente wie auf der echten Startseite.
+  CSS inline (eine Stylesheet-Anfrage weniger). Glasfläche ab 640 px mit 90 %
+  statt 80 % Deckkraft (sonst < 4,5:1, wo Fotos hinter dem Text liegen).
 
 Repo: `https://github.com/Hagen381/website_dlizkfi` (öffentlich, Pflicht für
 Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
@@ -327,7 +352,8 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   `/website_dlizkfi` im Export, `index.html` und `sitemap.xml` vorhanden, alle
   alten Folgen-Adressen vorhanden, keine Transkripte, keine Platzhalter und
   kein Entwurf-Hinweis im Export, keine Bild-Metadaten (EXIF/GPS/XMP/IPTC),
-  kein `X-Robots-Tag` im Export (auch nicht in der `.htaccess`).
+  kein `X-Robots-Tag` im Export (auch nicht in der `.htaccess`), keine
+  Entwürfe (`entwurf/`, `startseite-entwurf`).
 
 ## Regeln, die nicht verhandelbar sind
 
