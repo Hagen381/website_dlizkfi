@@ -1,0 +1,104 @@
+name: Server aufraeumen
+
+# Entfernt auf All-Inkl alles, was der aktuelle Export nicht mehr braucht —
+# nur in _next/, images/, episodes/, blog/, entwurf/ und bei alten
+# Build-Einzeldateien im Wurzelordner. Regeln: CLAUDE.md, Abschnitt Server,
+# "Server aufraeumen"; Logik: scripts/server-aufraeumen.sh.
+#
+# Nur manuell. Standard ist der TESTLAUF (listet auf, loescht nichts). Der
+# Loeschlauf (modus=loeschen) nur nach Freigabe im Chat und nur mit der
+# Pruefsumme aus dem Testlauf — weicht die Liste ab, wird nichts geloescht.
+
+on:
+  workflow_dispatch:
+    inputs:
+      modus:
+        description: "testlauf = nur auflisten, loeschen = die Liste des Testlaufs loeschen"
+        type: choice
+        options: [testlauf, loeschen]
+        default: testlauf
+      pruefsumme:
+        description: "Nur fuer loeschen: Pruefsumme der Liste aus dem Testlauf"
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+
+# Nie gleichzeitig mit einem Deploy
+concurrency:
+  group: deploy-allinkl
+  cancel-in-progress: false
+
+jobs:
+  aufraeumen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Node einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Abhaengigkeiten installieren
+        run: npm ci
+
+      - name: Static Export bauen (wie live)
+        run: npm run build
+        env:
+          NEXT_BUILD_BASE_PATH: ""
+
+      # lftp ohne apt-Abhaengigkeit (Runner-Stoerung 11.11.2026): erst das
+      # Ubuntu-Paket aus dem Actions-Cache, sonst apt, sonst conda-forge.
+      # Details: scripts/lftp-installieren.sh
+      - name: lftp-Paket aus dem Cache holen
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/lftp-deb
+          key: lftp-deb-${{ runner.os }}-${{ runner.arch }}-noble-v1
+
+      - name: lftp installieren
+        id: lftp
+        shell: bash
+        run: ./scripts/lftp-installieren.sh
+
+      - name: lftp-Paket im Cache ablegen
+        if: steps.lftp.outputs.cache_neu == 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: ~/lftp-deb
+          key: lftp-deb-${{ runner.os }}-${{ runner.arch }}-noble-v1
+
+      - name: Server mit dem Export vergleichen (und ggf. loeschen)
+        shell: bash
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          LFTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          MODUS: ${{ inputs.modus }}
+          PRUEFSUMME: ${{ inputs.pruefsumme }}
+          EXPORT: out
+          MAX_DATEIEN: "3000"
+          MIN_ALTER_TAGE: "7"
+          LIVE_URL: https://www.daslebenistzukurzfuerirgendwann.de
+        run: |
+          set -euo pipefail
+          BERICHT="$GITHUB_STEP_SUMMARY" ./scripts/server-aufraeumen.sh
+
+      # Nach dem Loeschen: die volle Live-Pruefung (nur lesend)
+      - name: Playwright fuer die Live-Pruefung installieren
+        if: inputs.modus == 'loeschen'
+        shell: bash
+        run: ./scripts/playwright-installieren.sh
+
+      - name: Live-Pruefung
+        if: inputs.modus == 'loeschen'
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp scripts/live-pruefen.mjs "$RUNNER_TEMP/werkzeug/"
+          node "$RUNNER_TEMP/werkzeug/live-pruefen.mjs" https://www.daslebenistzukurzfuerirgendwann.de | tee "$RUNNER_TEMP/live.txt"
+          { echo; echo "### Live-Prüfung nach dem Aufräumen"; echo '```'; cat "$RUNNER_TEMP/live.txt"; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
