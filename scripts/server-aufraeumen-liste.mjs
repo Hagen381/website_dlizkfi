@@ -72,7 +72,7 @@ const liveGeschuetzt = (p) =>
                  p === `_next/${liveBuildId}` || p.startsWith(`_next/${liveBuildId}/`)));
 
 // ---- Server-Listen (lftp find -l) ----------------------------------------
-// Zeile: "<rechte> <besitzer> <bytes|-> <JJJJ-MM-TT> [hh:mm[:ss]] <pfad>"
+// Zeile: "<rechte> <besitzer> <bytes|-> <JJJJ-MM-TT> <uhrzeit, optional> <pfad>"
 const ZEILE = /^(\S+)\s+(\S+)\s+(\d+|-)\s+(\d{4}-\d{2}-\d{2})(?:\s+(\d{2}:\d{2}(?::\d{2})?))?\s+(.+)$/;
 const server = new Map(); // pfad -> { ordner, bytes, zeit }
 const unlesbar = [];
