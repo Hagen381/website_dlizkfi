@@ -12,8 +12,9 @@ import PolaroidNeigung from "./PolaroidNeigung";
 // ENTWURF der Über-Seite im Stil von Startseite, /episodes/ und /blog/ —
 // NUR VORSCHAU. Route /entwurf/about/ legt scripts/entwuerfe.mjs nur im
 // Vorschau-Build an. Text WÖRTLICH aus src/app/about/page.tsx (nichts
-// umschreiben, nichts ergänzen). Fotos nur aus content/startseite/bilder/
-// (geprüft), jedes höchstens einmal, rein dekorativ.
+// umschreiben, nichts ergänzen). Fotos NUR aus content/ueber/bilder/ (18
+// Stück, geprüft, vorbereitet von scripts/ueber-bilder.mjs nach
+// public/images/ueber/), jedes höchstens einmal, rein dekorativ.
 
 const ueberCss = fs
   .readFileSync(path.join(process.cwd(), "src/entwuerfe/about/ueber.css"), "utf8")
@@ -27,25 +28,37 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-// Polaroids um den Kopf: ab 1024 px je zwei links/rechts, darunter eine Reihe
-// mit 4 kleinen über dem Kopf (dieselben vier Elemente, nur anders gesetzt).
-// Datei, Seite, Drehung
-const KOPF: [string, "links" | "rechts", number][] = [
-  ["20251006_181734.jpg", "links", -7],
-  ["20261003_124935.jpg", "links", 5],
-  ["20251118_165504.jpg", "rechts", 6],
-  ["20251013_114024.jpg", "rechts", -4],
+// Polaroids um den Kopf: ab 1024 px je drei links/rechts, darunter eine Reihe
+// mit 4 kleinen über dem Kopf (dieselben Elemente, nur anders gesetzt; die
+// beiden mit „nurBreit“ sind dann ausgeblendet und werden nicht geladen).
+// Datei, Seite, Drehung, nurBreit
+const KOPF: [string, "links" | "rechts", number, boolean][] = [
+  ["20251006_130814.jpg", "links", -6, false],
+  ["20260809_144614.jpg", "links", 5, false],
+  ["20260926_081446.jpg", "links", -3, true],
+  ["20261003_055233.jpg", "rechts", 6, false],
+  ["20260801_143154.jpg", "rechts", -5, false],
+  ["20260906_180420.jpg", "rechts", 4, true],
 ];
-// Fotostreifen zwischen den Absätzen: je 3, leicht gedreht
+// Drei Fotostreifen zwischen den Textblöcken: je 4, leicht gedreht; mobil
+// je 3 (das 4. ist ausgeblendet und wird nicht geladen)
 const STREIFEN_1: [string, number][] = [
-  ["20250919_150203.jpg", -4],
-  ["20251116_153451.jpg", 3],
-  ["20260926_084325.jpg", -2],
+  ["20250919_144433.jpg", -4],
+  ["20251001_113748.jpg", 3],
+  ["20260304_101247.jpg", -2],
+  ["20251202_154304.jpg", 4],
 ];
 const STREIFEN_2: [string, number][] = [
-  ["20251116_180922.jpg", 4],
-  ["20261006_112754.jpg", -3],
-  ["20251105_091626.jpg", 2],
+  ["20260320_114129.jpg", 3],
+  ["20260320_131958.jpg", -4],
+  ["20260924_080910.jpg", 2],
+  ["20260303_161139.jpg", -3],
+];
+const STREIFEN_3: [string, number][] = [
+  ["20250508_174528.jpg", -3],
+  ["20260228_194917.jpg", 4],
+  ["20260408_152644.jpg", -2],
+  ["20251019_161100.jpg", 3],
 ];
 
 function Polaroid({ datei, drehung, klasse = "", breite }: { datei: string; drehung: number; klasse?: string; breite: number }) {
@@ -53,7 +66,7 @@ function Polaroid({ datei, drehung, klasse = "", breite }: { datei: string; dreh
     <div className={`ab-pola ${klasse}`} style={{ ["--r" as string]: `${drehung}deg` } as CSSProperties}>
       <div className="ab-pola-rahmen">
         <div className="ab-pola-foto">
-          <BlogBildRoh bild={{ src: `/images/startseite/${datei}`, alt: "", width: breite, height: breite }} className="ab-pola-bild" />
+          <BlogBildRoh bild={{ src: `/images/ueber/${datei}`, alt: "", width: breite, height: breite }} className="ab-pola-bild" />
         </div>
       </div>
     </div>
@@ -82,8 +95,8 @@ export default function UeberEntwurf() {
       <div className="ab-buehne">
         <div className="ab-kopf-bereich">
           <div className="ab-kopf-fotos" aria-hidden="true">
-            {KOPF.map(([datei, seite, r], i) => (
-              <Polaroid key={datei} datei={datei} drehung={r} breite={160} klasse={`ab-pola-${seite} ab-pola-k${i + 1}`} />
+            {KOPF.map(([datei, seite, r, nurBreit], i) => (
+              <Polaroid key={datei} datei={datei} drehung={r} breite={160} klasse={`ab-pola-${seite} ab-pola-k${i + 1}${nurBreit ? " ab-nur-breit" : ""}`} />
             ))}
           </div>
           <header className="ab-kopf glas-flaeche">
@@ -99,6 +112,8 @@ export default function UeberEntwurf() {
           <p>{siteConfig.tagline}</p>
           <p>Kennst du diesen Gedanken: Irgendwann mache ich das auch mal?</p>
         </div>
+
+        <Streifen fotos={STREIFEN_1} />
 
         <p className="ab-irgendwann">
           <span>Irgendwann reisen.</span>
@@ -117,7 +132,7 @@ export default function UeberEntwurf() {
           </p>
         </div>
 
-        <Streifen fotos={STREIFEN_1} />
+        <Streifen fotos={STREIFEN_2} />
 
         <div className="ab-lesen glas-flaeche">
           <p>
@@ -129,7 +144,7 @@ export default function UeberEntwurf() {
           <p>Du findest den Podcast auch auf allen gängigen Plattformen (siehe unten) und auf YouTube.</p>
         </div>
 
-        <Streifen fotos={STREIFEN_2} />
+        <Streifen fotos={STREIFEN_3} />
 
         <section className="ab-anhoeren glas-flaeche" aria-labelledby="ab-anhoeren-titel">
           <h2 id="ab-anhoeren-titel" className="ab-anhoeren-titel">

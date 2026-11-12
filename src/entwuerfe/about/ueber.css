@@ -142,6 +142,12 @@
   width: calc((100% - 3 * 8px) / 4);
   max-width: 104px;
 }
+/* Unter 1024 px nur 4 Kopf-Fotos (display: none → lazy-Bild wird nicht geladen) */
+@media (max-width: 1023px) {
+  .ab-nur-breit {
+    display: none;
+  }
+}
 .ab-kopf-fotos .ab-pola-rahmen {
   padding: 4px 4px 14px;
   transform: rotate(calc(var(--r) * 0.6)) rotateX(var(--tx, 0deg)) rotateY(var(--ty, 0deg));
@@ -152,7 +158,7 @@
   .ab-kopf-bereich {
     display: flex;
     align-items: center;
-    min-height: 390px;
+    min-height: 440px;
   }
   .ab-kopf {
     flex: 1;
@@ -180,31 +186,51 @@
   .ab-pola-rechts .ab-pola-rahmen {
     transform-origin: right center;
   }
-  /* Kopf 600 px (ab 1280: 660 px) mittig, Fotos im Rand daneben:
-     1024 → 196 px Platz je Seite, Foto 130 px + Drehung. */
+  /* Kopf 600 px (ab 1280: 660 px) mittig, je drei Fotos übereinander im Rand
+     daneben (leicht überlappend wie in der Collage): 1024 → 196 px Platz je
+     Seite, Foto 130 px + Drehung. */
   .ab-pola-k1 {
-    left: 26px;
-    top: 14px;
+    left: 30px;
+    top: 0;
   }
   .ab-pola-k2 {
-    left: 6px;
-    top: 206px;
+    left: 4px;
+    top: 132px;
   }
   .ab-pola-k3 {
-    right: 22px;
-    top: 4px;
+    left: 34px;
+    top: 266px;
   }
   .ab-pola-k4 {
+    right: 26px;
+    top: 6px;
+  }
+  .ab-pola-k5 {
     right: 4px;
-    top: 200px;
+    top: 140px;
+  }
+  .ab-pola-k6 {
+    right: 30px;
+    top: 272px;
   }
 }
 @media (min-width: 1280px) {
   .ab-kopf {
     max-width: 660px;
   }
+  .ab-kopf-bereich {
+    min-height: 490px;
+  }
   .ab-kopf-fotos .ab-pola {
     width: 150px;
+  }
+  .ab-pola-k2,
+  .ab-pola-k5 {
+    top: 150px;
+  }
+  .ab-pola-k3,
+  .ab-pola-k6 {
+    top: 300px;
   }
 }
 
@@ -261,31 +287,33 @@
   display: flex;
   justify-content: center;
   gap: 10px;
-  max-width: 640px;
+  max-width: 780px;
   margin: 34px auto 0;
   padding: 0 6px;
 }
 .ab-streifen .ab-pola {
-  width: calc((100% - 2 * 10px) / 3);
-  max-width: 190px;
+  width: calc((100% - 3 * 22px) / 4);
+  max-width: 180px;
 }
-.ab-streifen .ab-pola:nth-child(2) {
+.ab-streifen .ab-pola:nth-child(even) {
   margin-top: 14px;
-}
-@media (max-width: 639px) {
-  .ab-streifen .ab-pola {
-    max-width: 112px;
-  }
-  .ab-streifen .ab-pola-rahmen {
-    padding: 5px 5px 18px;
-  }
 }
 @media (min-width: 640px) {
   .ab-streifen {
-    gap: 24px;
+    gap: 22px;
   }
+}
+/* Mobil je 3 Fotos; das 4. ist ausgeblendet und wird nicht geladen */
+@media (max-width: 639px) {
   .ab-streifen .ab-pola {
-    width: calc((100% - 2 * 24px) / 3);
+    width: calc((100% - 2 * 10px) / 3);
+    max-width: 112px;
+  }
+  .ab-streifen .ab-pola:nth-child(4) {
+    display: none;
+  }
+  .ab-streifen .ab-pola-rahmen {
+    padding: 5px 5px 18px;
   }
 }
 
