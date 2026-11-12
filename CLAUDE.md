@@ -531,7 +531,11 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
     durchsucht), Namen außerhalb `^[A-Za-z0-9][A-Za-z0-9._-]*$` (ausgenommen
     nur der Bereich `_next` selbst und Nexts Manifeste
     `_next/static/<build-id>/_buildManifest.js`, `_ssgManifest.js`,
-    `_clientMiddlewareManifest.js`), Bestätigungsdateien von Suchmaschinen
+    `_clientMiddlewareManifest.js`, Build-IDs mit „_“/„-“ am Anfang genau an
+    ihrer Stelle `_next/<id>` bzw. `_next/static/<id>` sowie RSC-Dateien
+    `__next.….txt` unter `episodes/`, `blog/`, `entwurf/` — z. B.
+    `episodes/page/N/__next.episodes.page.$d$seite.__PAGE__.txt`; Pfade
+    gehen deshalb in Anführungszeichen an lftp, `"`/`\`/Steuerzeichen nie), Bestätigungsdateien von Suchmaschinen
     (`google….html`, `BingSiteAuth.xml`, `yandex_….html`), Dateien der alten
     WordPress-Installation im Wurzelordner (`readme.html`, `license.txt`,
     `index.php`, `wp-*`, `xmlrpc.php` — nur Warnung), die Build-ID der

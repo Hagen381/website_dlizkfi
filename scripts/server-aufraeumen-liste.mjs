@@ -24,7 +24,9 @@
 //   im Wurzelordner mit Build-Endung; alles andere nur Warnung
 // - nie: Punkt-Dateien/-Ordner (auch nichts darunter), was im Export steht,
 //   Namen außerhalb ^[A-Za-z0-9][A-Za-z0-9._-]*$ (Bereich _next selbst und die
-//   Manifeste _next/static/<build-id>/_…Manifest.js ausgenommen), Bestätigungsdateien
+//   Manifeste _next/static/<build-id>/_…Manifest.js, Build-IDs mit „_"/„-" am
+//   Anfang an ihrer Stelle _next/<id> bzw. _next/static/<id> und RSC-Dateien
+//   __next.….txt unter episodes/, blog/, entwurf/ ausgenommen), Bestätigungsdateien
 //   (google….html, BingSiteAuth.xml, yandex_….html)
 // - _next/static/: nur, wenn älter als MIN_ALTER_TAGE (Besucher mit alter
 //   Seite im Cache); Build-ID und Verweise der Live-Seite bleiben immer
@@ -44,6 +46,13 @@ const NAME = /^[A-Za-z0-9][A-Za-z0-9._-]*$/;
 // Einzige Ausnahme von NAME: die drei Manifeste je Build-ID, die Next selbst
 // so benennt (_next/static/<build-id>/_buildManifest.js usw.)
 const NEXT_MANIFEST = /^_(buildManifest|ssgManifest|clientMiddlewareManifest)\.js$/;
+// Zweite Ausnahme: Build-IDs (Nanoid, darf mit „_" oder „-" beginnen), aber
+// nur genau an ihrer Stelle: _next/<id> und _next/static/<id>
+const BUILD_ID = /^[A-Za-z0-9_-]{16,64}$/;
+// Dritte Ausnahme: RSC-Daten wie __next._full.txt oder
+// __next.episodes.page.$d$seite.__PAGE__.txt — nur als Datei unter
+// episodes/, blog/ oder entwurf/
+const NEXT_RSC = /^__next\.[A-Za-z0-9_.$-]+\.txt$/;
 const WURZEL_ENDUNG = /\.(html|txt|xml|json|webp|jpg|png|ico|svg|woff2)$/;
 const WURZEL_TXT = /^(index|404|__next\..+)\.txt$/; // nur RSC-Daten
 const BESTAETIGUNG = /^(google[0-9a-f]+\.html|BingSiteAuth\.xml|yandex_[0-9a-f]+\.html)$/i;
@@ -143,7 +152,11 @@ for (const [p, info] of [...server].sort(([a], [b]) => a.localeCompare(b))) {
   if (info.ordner && exportOrdnerSet.has(p)) { bleibt.add(p); continue; }
   if (!info.ordner && exportDateien.has(p)) { markieren(); continue; }
   // Der Bereich _next selbst beginnt mit „_" — geprüft werden die Namen darunter
-  const nameOk = (t, i) => NAME.test(t) || (i === teile.length - 1 && teile.length === 4 && p.startsWith("_next/static/") && NEXT_MANIFEST.test(t));
+  const nameOk = (t, i) =>
+    NAME.test(t) ||
+    (i === teile.length - 1 && teile.length === 4 && p.startsWith("_next/static/") && NEXT_MANIFEST.test(t)) ||
+    (bereich === "_next" && BUILD_ID.test(t) && ((i === 1 && t !== "static") || (i === 2 && teile[1] === "static"))) ||
+    (!info.ordner && i === teile.length - 1 && ["episodes", "blog", "entwurf"].includes(bereich) && NEXT_RSC.test(t));
   if (!teile.every((t, i) => i === 0 || nameOk(t, i))) { warnungen.push(`Ungewöhnlicher Name: „${p}" — bleibt.`); markieren(); continue; }
 
   if (info.ordner) {

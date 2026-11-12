@@ -77,6 +77,23 @@ EOF
 # (z. B. open --env-password -u u ftp://localhost:2121). Im Workflow nie
 # gesetzt. Verschlüsselung und Zertifikatsprüfung bleiben auch dann an.
 
+# Löscht genau die Einträge aus $1 (kandidaten.tsv: f|d TAB Bytes TAB Pfad):
+# Dateien mit rm -f (je 50 pro Befehl), dann Ordner mit rmdir (nur leere).
+# Jeder Pfad steht in doppelten Anführungszeichen (RSC-Namen enthalten „$");
+# Pfade mit " oder \ oder Steuerzeichen kommen nie in die Liste (geprüft).
+lftp_loeschen() {
+  if LC_ALL=C grep -qP '["\\\x00-\x08\x0a-\x1f]' "$1"; then
+    echo "::error::Liste enthält Pfade mit Anführungszeichen, Backslash oder Steuerzeichen — nichts gelöscht."; exit 1
+  fi
+  {
+    lftp_basis
+    echo "set cmd:fail-exit false"
+    awk -F'\t' '$1=="f" { z = z " \"" $3 "\""; if (++n % 50 == 0) { print "rm -f" z; z = "" } } END { if (z != "") print "rm -f" z }' "$1"
+    awk -F'\t' '$1=="d" { print "rmdir \"" $3 "\"" }' "$1"
+    echo "bye"
+  } | lftp 2> "$ARBEIT/loeschen-fehler.txt" || true
+}
+
 # Dateiliste vom Server in $1 (Ordner) schreiben.
 server_listen() {
   local ziel="$1"; mkdir -p "$ziel"; rm -f "$ziel/wurzel.txt"; for b in "${BEREICHE[@]}"; do rm -f "$ziel/$b.txt"; done
@@ -197,15 +214,7 @@ if [ "$anzahl" -eq 0 ] && ! grep -q '^d' "$ERGEBNIS/kandidaten.tsv"; then
 fi
 
 # --- 6. Löschen: genau die Liste, Dateien einzeln, dann leere Ordner ---------
-# Alle Pfade bestehen nur aus [A-Za-z0-9._-] und / (geprüft), daher ohne
-# Anführungszeichen sicher. rmdir löscht nur leere Ordner.
-{
-  lftp_basis
-  echo "set cmd:fail-exit false"
-  awk -F'\t' '$1=="f" { print $3 }' "$ERGEBNIS/kandidaten.tsv" | xargs -r -n 50 echo rm -f
-  awk -F'\t' '$1=="d" { print "rmdir " $3 }' "$ERGEBNIS/kandidaten.tsv"
-  echo "bye"
-} | lftp 2> "$ARBEIT/loeschen-fehler.txt" || true
+lftp_loeschen "$ERGEBNIS/kandidaten.tsv"
 grep -v -i pass "$ARBEIT/loeschen-fehler.txt" | head -50 | sed 's/^/  (lftp) /' || true
 echo "Gelöscht: $anzahl Dateien, $(grep -c '^d' "$ERGEBNIS/kandidaten.tsv" || true) Ordner."
 
