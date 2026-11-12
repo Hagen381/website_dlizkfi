@@ -47,6 +47,9 @@ const NEXT_MANIFEST = /^_(buildManifest|ssgManifest|clientMiddlewareManifest)\.j
 const WURZEL_ENDUNG = /\.(html|txt|xml|json|webp|jpg|png|ico|svg|woff2)$/;
 const WURZEL_TXT = /^(index|404|__next\..+)\.txt$/; // nur RSC-Daten
 const BESTAETIGUNG = /^(google[0-9a-f]+\.html|BingSiteAuth\.xml|yandex_[0-9a-f]+\.html)$/i;
+// Dateien anderer Software im Wurzelordner (dort liegt noch eine alte
+// WordPress-Installation) — nie Build-Ergebnis
+const FREMD = /^(readme\.html|license\.txt|wp-.*|xmlrpc\.php|index\.php)$/i;
 const minAlter = Number(process.env.MIN_ALTER_TAGE ?? 7) * 86400;
 const jetzt = Number(process.env.JETZT || Math.floor(Date.now() / 1000));
 
@@ -118,6 +121,7 @@ for (const [p, info] of [...server].sort(([a], [b]) => a.localeCompare(b))) {
     }
     if (exportDateien.has(p)) continue;
     if (!NAME.test(p)) { warnungen.push(`Ungewöhnlicher Dateiname im Wurzelordner: „${p}" — bleibt.`); continue; }
+    if (FREMD.test(p)) { warnungen.push(`Datei ${p} im Wurzelordner gehört zu einer anderen Software (WordPress) — bleibt.`); continue; }
     if (BESTAETIGUNG.test(p)) { warnungen.push(`Bestätigungsdatei (Suchmaschine) im Wurzelordner: ${p} — bleibt.`); continue; }
     if (!WURZEL_ENDUNG.test(p) || (p.endsWith(".txt") && !WURZEL_TXT.test(p))) {
       warnungen.push(`Datei ${p} im Wurzelordner ist kein eindeutiges Build-Ergebnis — bleibt.`);
@@ -142,7 +146,10 @@ for (const [p, info] of [...server].sort(([a], [b]) => a.localeCompare(b))) {
   const nameOk = (t, i) => NAME.test(t) || (i === teile.length - 1 && teile.length === 4 && p.startsWith("_next/static/") && NEXT_MANIFEST.test(t));
   if (!teile.every((t, i) => i === 0 || nameOk(t, i))) { warnungen.push(`Ungewöhnlicher Name: „${p}" — bleibt.`); markieren(); continue; }
 
-  if (info.ordner) { kandidatOrdner.add(p); continue; }
+  if (info.ordner) {
+    if (liveGeschuetzt(p)) bleibt.add(p); else kandidatOrdner.add(p);
+    continue;
+  }
   if (liveGeschuetzt(p)) {
     markieren();
     // Die Build-ID der Live-Seite ist bei jedem Build neu — das ist erwartet.
