@@ -50,7 +50,17 @@ mkdir -p "$LISTEN" "$ERGEBNIS"
 BEREICHE=(_next images episodes blog entwurf)
 HIER="$(cd "$(dirname "$0")" && pwd)"
 
-case "$MODUS" in testlauf|loeschen) ;; *) echo "::error::MODUS muss testlauf oder loeschen sein (ist: $MODUS)."; exit 1 ;; esac
+case "$MODUS" in testlauf|loeschen|wordpress-testlauf|wordpress) ;; *) echo "::error::MODUS muss testlauf, loeschen, wordpress-testlauf oder wordpress sein (ist: $MODUS)."; exit 1 ;; esac
+# WordPress-Modus (einmalig, Auftrag 12.11.2026): feste Pfadliste der alten
+# WordPress-Installation statt Vergleich, siehe server-aufraeumen-wordpress.mjs.
+# Die Obergrenze MAX_DATEIEN gilt dort nicht; Prüfsumme, FTPS- und HTTP-
+# Kontrolle wie sonst, zusätzlich müssen die WordPress-Adressen 404/403 liefern.
+WP=false; VERGLEICH="server-aufraeumen-liste.mjs"
+if [[ "$MODUS" == wordpress* ]]; then
+  WP=true; VERGLEICH="server-aufraeumen-wordpress.mjs"
+  BEREICHE=(wp-admin wp-content wp-includes pinterest-media)
+fi
+LOESCHEN=false; [[ "$MODUS" == loeschen || "$MODUS" == wordpress ]] && LOESCHEN=true
 
 # --- 1. Export vollständig? --------------------------------------------------
 for pflicht in index.html episodes/index.html blog/index.html sitemap.xml; do
@@ -150,13 +160,14 @@ live_holen() {
 
 if ! live_holen "$LISTEN"; then
   echo "::warning::Nicht alle Kontrollseiten liefern 200:"; sed 's/^/  /' "$LISTEN/seiten.txt"
-  if [ "$MODUS" = "loeschen" ]; then echo "::error::Live-Seite nicht in Ordnung — es wird nichts gelöscht."; exit 1; fi
+  if $LOESCHEN; then echo "::error::Live-Seite nicht in Ordnung — es wird nichts gelöscht."; exit 1; fi
 fi
 echo "Kontrollseiten (vorher):"; sed 's/^/  /' "$LISTEN/seiten.txt"
 
 # --- 3./4. Server-Liste holen und vergleichen --------------------------------
 server_listen "$LISTEN"
-node "$HIER/server-aufraeumen-liste.mjs" "$LISTEN" "$EXPORT" "$ERGEBNIS" > "$ARBEIT/bericht-konsole.txt"
+vergleich_ok=true
+node "$HIER/$VERGLEICH" "$LISTEN" "$EXPORT" "$ERGEBNIS" > "$ARBEIT/bericht-konsole.txt" || vergleich_ok=false
 pruefsumme="$(cat "$ERGEBNIS/pruefsumme.txt")"
 anzahl="$(cat "$ERGEBNIS/anzahl.txt")"
 
@@ -184,16 +195,21 @@ echo "::endgroup::"
   echo "</details>"
 } >> "$BERICHT"
 while IFS= read -r w; do [ -n "$w" ] && echo "::warning::$w"; done < "$ERGEBNIS/warnungen.txt"
-
-if [ "$anzahl" -gt "$MAX_DATEIEN" ]; then
-  echo "::error::$anzahl Dateien wären betroffen (Obergrenze $MAX_DATEIEN) — im Löschmodus wird abgebrochen."
-  [ "$MODUS" = "loeschen" ] && exit 1
+if ! $vergleich_ok; then
+  echo "::error::Abbruch: Die Liste würde Einträge außerhalb der erlaubten Pfade, aus dem Export oder mit unsicheren Namen betreffen (siehe ABBRUCH im Bericht). Nichts gelöscht."
+  exit 1
 fi
 
-if [ "$MODUS" = "testlauf" ]; then
+if ! $WP && [ "$anzahl" -gt "$MAX_DATEIEN" ]; then
+  echo "::error::$anzahl Dateien wären betroffen (Obergrenze $MAX_DATEIEN) — im Löschmodus wird abgebrochen."
+  $LOESCHEN && exit 1
+fi
+
+if ! $LOESCHEN; then
+  ziel="loeschen"; $WP && ziel="wordpress"
   echo
-  echo "TESTLAUF: nichts gelöscht. Für den Löschlauf: modus=loeschen, pruefsumme=$pruefsumme"
-  { echo; echo "**TESTLAUF: nichts gelöscht.** Löschlauf nur nach Freigabe mit \`modus=loeschen\` und \`pruefsumme=$pruefsumme\`."; } >> "$BERICHT"
+  echo "TESTLAUF: nichts gelöscht. Für den Löschlauf: modus=$ziel, pruefsumme=$pruefsumme"
+  { echo; echo "**TESTLAUF: nichts gelöscht.** Löschlauf nur nach Freigabe mit \`modus=$ziel\` und \`pruefsumme=$pruefsumme\`."; } >> "$BERICHT"
   exit 0
 fi
 
@@ -202,7 +218,7 @@ if [ "${PRUEFSUMME:-}" != "$pruefsumme" ]; then
   echo "::error::Prüfsumme der Liste ($pruefsumme) stimmt nicht mit der Freigabe (${PRUEFSUMME:-leer}) überein — der Server oder der Export hat sich seit dem Testlauf geändert. Neuen Testlauf starten. Nichts gelöscht."
   exit 1
 fi
-if [ ! -s "$LISTEN/live-build-id.txt" ]; then
+if ! $WP && [ ! -s "$LISTEN/live-build-id.txt" ]; then
   echo "::error::Build-ID der Live-Seite nicht gefunden — nichts gelöscht."; exit 1
 fi
 if [ -s "$ERGEBNIS/live-abweichung.txt" ]; then
@@ -249,6 +265,21 @@ while IFS= read -r p; do
   if [ "$code" = "200" ]; then ok=$((ok + 1)); else echo "::error::$LIVE_URL$p liefert $code statt 200."; fehler=1; fi
 done < "$ARBEIT/nachher/live-pfade.txt"
 echo "Kontrolle HTTP: $ok/$alle eingebundene Dateien (JS, CSS, Schriften, Bilder) liefern 200."
+wp_zeile=""
+if $WP; then
+  # Die alten WordPress-Adressen dürfen nichts mehr ausliefern
+  wp_ok=0; wp_alle=0
+  for p in /wp-login.php /wp-admin/ /xmlrpc.php /readme.html /index.htm /license.txt /index.php /wp-content/ /wp-includes/ /pinterest-media/; do
+    wp_alle=$((wp_alle + 1))
+    code="$(http_code "$LIVE_URL$p")"
+    case "$code" in
+      404|403|410) wp_ok=$((wp_ok + 1)); echo "  $code $p" ;;
+      *) echo "::error::$LIVE_URL$p liefert $code (erwartet 404 oder 403)."; fehler=1 ;;
+    esac
+  done
+  echo "Kontrolle WordPress-Adressen: $wp_ok/$wp_alle liefern 404/403."
+  wp_zeile="- WordPress-Adressen: $wp_ok/$wp_alle liefern 404/403"
+fi
 {
   echo
   echo "### Löschlauf"
@@ -256,5 +287,6 @@ echo "Kontrolle HTTP: $ok/$alle eingebundene Dateien (JS, CSS, Schriften, Bilder
   echo "- Gelöscht: $anzahl Dateien, $(grep -c '^d' "$ERGEBNIS/kandidaten.tsv" || true) leere Ordner"
   echo "- FTPS-Kontrolle: $([ -z "$noch" ] && echo 'alles entfernt' || echo 'RESTE, siehe Protokoll')"
   echo "- HTTP-Kontrolle: $(grep -c '^200 ' "$ARBEIT/nachher/seiten.txt")/${#SEITEN[@]} Seiten 200, $ok/$alle Dateien 200"
+  if [ -n "$wp_zeile" ]; then echo "$wp_zeile"; fi
 } >> "$BERICHT"
 exit $fehler

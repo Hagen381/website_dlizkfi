@@ -565,6 +565,26 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   - Gleiche lftp-Sicherheitsregeln wie im Deploy (`ftp:ssl-force`,
     `ftp:ssl-protect-data`, Zertifikatsprüfung an, `--env-password`, kein
     `set -x`/`debug`); `concurrency` wie der Deploy (nie gleichzeitig).
+- **Ausnahme 3: alte WordPress-Installation entfernen** (einmalig,
+  ausdrücklicher Auftrag von Hagen, 12.11.2026; die WordPress-Datenbank im
+  KAS löscht Hagen selbst — nicht anfassen). Gleicher Workflow
+  `server-aufraeumen.yml`, `modus`: `wordpress-testlauf` (listet nur auf:
+  Anzahl, MB, Prüfsumme) | `wordpress` (nur mit `pruefsumme` aus dem
+  Testlauf). Liste `scripts/server-aufraeumen-wordpress.mjs`, **feste
+  Pfadliste statt Vergleich**: Ordner `wp-admin/`, `wp-content/`,
+  `wp-includes/`, `pinterest-media/` (mit Inhalt), Dateien im Wurzelordner
+  `wp-*.php`, `xmlrpc.php`, `index.php`, `readme.html`, `license.txt`,
+  `index.htm`. Die 3000er-Grenze gilt hier nicht.
+  - Nie: Punkt-Dateien/-Ordner (`.htaccess`, `.htpasswd`, `.well-known` …,
+    auch innerhalb der WordPress-Ordner — der Ordner darüber bleibt dann
+    stehen), nichts, was im aktuellen Export steht oder worauf die Live-Seite
+    verweist. Abbruch ohne Löschen, wenn etwas außerhalb der Liste betroffen
+    wäre oder ein Pfad `"`, `\` oder Steuerzeichen enthält.
+  - Danach: FTPS-Kontrolle (alles weg, keine Export-Datei fehlt),
+    Kontrollseiten + ihre Dateien 200, `/wp-login.php`, `/wp-admin/`,
+    `/xmlrpc.php`, `/readme.html`, `/index.htm`, `/license.txt`,
+    `/index.php`, `/wp-content/`, `/wp-includes/`, `/pinterest-media/`
+    liefern 404/403, dann die volle Live-Prüfung.
 - `.htaccess` wird im Build erzeugt (`scripts/nach-dem-build.mjs`):
   http→https und ohne www → `https://www` (ein 301), alte `/sitemap-pages.xml` und
   `/sitemap-episodes.xml?…` → `/sitemap.xml`, `/episodes/page/N/`,

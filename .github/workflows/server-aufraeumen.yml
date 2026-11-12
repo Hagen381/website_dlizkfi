@@ -8,14 +8,18 @@ name: Server aufraeumen
 # Nur manuell. Standard ist der TESTLAUF (listet auf, loescht nichts). Der
 # Loeschlauf (modus=loeschen) nur nach Freigabe im Chat und nur mit der
 # Pruefsumme aus dem Testlauf — weicht die Liste ab, wird nichts geloescht.
+#
+# wordpress-testlauf / wordpress (einmalig, Auftrag 12.11.2026): entfernt die
+# alte WordPress-Installation im Wurzelordner nach fester Pfadliste
+# (scripts/server-aufraeumen-wordpress.mjs), ebenfalls nur mit Pruefsumme.
 
 on:
   workflow_dispatch:
     inputs:
       modus:
-        description: "testlauf = nur auflisten, loeschen = die Liste des Testlaufs loeschen"
+        description: "testlauf = nur auflisten, loeschen = die Liste des Testlaufs loeschen; wordpress-testlauf / wordpress = alte WordPress-Installation (feste Pfadliste, einmalig)"
         type: choice
-        options: [testlauf, loeschen]
+        options: [testlauf, loeschen, wordpress-testlauf, wordpress]
         default: testlauf
       pruefsumme:
         description: "Nur fuer loeschen: Pruefsumme der Liste aus dem Testlauf"
@@ -90,12 +94,12 @@ jobs:
 
       # Nach dem Loeschen: die volle Live-Pruefung (nur lesend)
       - name: Playwright fuer die Live-Pruefung installieren
-        if: inputs.modus == 'loeschen'
+        if: inputs.modus == 'loeschen' || inputs.modus == 'wordpress'
         shell: bash
         run: ./scripts/playwright-installieren.sh
 
       - name: Live-Pruefung
-        if: inputs.modus == 'loeschen'
+        if: inputs.modus == 'loeschen' || inputs.modus == 'wordpress'
         shell: bash
         run: |
           set -euo pipefail
