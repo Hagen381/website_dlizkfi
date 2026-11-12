@@ -92,6 +92,8 @@ export default function Blog() {
         <div className="kar-info-knoepfe">
           <GelberButton href={`/blog/${a.slug}/`} icon={null}>
             Weiterlesen
+            {/* Aussagekräftiger Linktext (Lighthouse „link-text“, Screenreader) */}
+            <span className="sr-only">: {a.titel}</span>
           </GelberButton>
           <Link href={`/episodes/${a.folgeSlug}/`} className="kipp kipp-dezent kar-knopf-weiss">
             <Kopfhoerer className="h-5 w-5" />
