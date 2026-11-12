@@ -7,6 +7,7 @@ import { BlogBildRoh } from "@/components/BlogBild";
 import Cover from "@/components/Cover";
 import FolgenSuche from "@/components/FolgenSuche";
 import RegisterWalze from "@/components/RegisterWalze";
+import { mitBasePath } from "@/lib/base-path";
 import { artikelZurFolge } from "@/lib/blog";
 import { datumKurz, dauerGesprochen, dauerText, folgen } from "@/lib/folgen";
 import { fotoZurFolge } from "@/lib/folgen-foto";
@@ -124,10 +125,15 @@ export default function Folgen() {
           ))}
         </div>
 
-        <FolgenSuche
-          kopfClassName="reg-kopf glas-flaeche"
-          titel={<h1 className="reg-kopf-titel">Alle Folgen</h1>}
-        >
+        {/* Suche aus der Adresse (?q=) vor dem Zeichnen erkennen: Walze gar
+            nicht erst zeigen, Platz für die Treffer halten (CLS 0) und den
+            Suchindex gleich anfordern (FolgenSuche.tsx) */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `try{if(new URLSearchParams(location.search).get("q")){document.documentElement.dataset.suche="";window.__sucheIndex=fetch(${JSON.stringify(mitBasePath("/suche.json"))}).then(function(r){if(!r.ok)throw r.status;return r.json()});window.__sucheIndex.catch(function(){})}}catch(e){}`,
+          }}
+        />
+        <FolgenSuche kopfClassName="reg-kopf glas-flaeche" titel={<h1 className="reg-kopf-titel">Alle Folgen</h1>}>
           <RegisterWalze themen={reiterThemen} kartenThemen={eintraege.map((e) => e.themen)} reiterFotos={reiterFotos} titel={eintraege.map((e) => e.f.titel)}>
             {karten}
           </RegisterWalze>

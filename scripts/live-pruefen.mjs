@@ -178,7 +178,8 @@ for (const breite of [360, 390, 820, 1280, 1440]) {
 // Themenreiter auf /episodes/ (content/themen.json): „Alle“ + jedes Thema mit
 // Folgen, mit Anzahl; Filter per Klick (aria-pressed, ?thema=…, nur die Folgen
 // des Themas), Laden mit ?thema=visum, nochmal klicken = alle. Suche „Schule“
-// findet auch Homeschooling-/Onlineschule-Folgen. Folgenseite: Themen-Chips.
+// findet auch Homeschooling-/Onlineschule-Folgen; ?q=Bali/?q=Schule bei allen
+// fünf Breiten ohne Layoutsprung (CLS 0). Folgenseite: Themen-Chips.
 const themenDaten = JSON.parse(fs.readFileSync("content/themen.json", "utf8"));
 const themenListe = (e) => (Array.isArray(e) ? e : e?.themen ?? []);
 const anzahlThema = (k) => alleFolgen.filter((f) => themenListe(themenDaten.folgen[f.slug]).includes(k)).length;
@@ -281,6 +282,19 @@ await su.pg.waitForSelector("section[aria-live] li", { timeout: 15000 }).catch((
 const suTitel = await su.pg.locator("section[aria-live] li h2").allInnerTexts();
 pruefe(suTitel.some((t) => /home ?schooling/i.test(t)) && suTitel.some((t) => /onlineschule/i.test(t)) && /schule/i.test(suTitel[0] || ""), `/episodes/?q=Schule: ${suTitel.length} Treffer, erster „${suTitel[0] || "-"}“, Homeschooling und Onlineschule dabei`);
 await su.ctx.close();
+// Suche aus der Adresse ohne Layoutsprung: Walze gar nicht erst gezeigt,
+// Platz für die Treffer reserviert (FolgenSuche.tsx) → CLS 0, Treffer da,
+// Walze verborgen, kein Querscrollen.
+for (const breite of [360, 390, 820, 1280, 1440]) {
+  for (const q of ["Bali", "Schule"]) {
+    const c = await mitCls(`/episodes/?q=${q}`, breite);
+    await c.pg.waitForSelector("section[aria-live] li", { timeout: 15000 }).catch(() => {});
+    await c.pg.waitForTimeout(500);
+    const z = await c.pg.evaluate(() => ({ cls: Math.round(window.__cls * 1000) / 1000, treffer: document.querySelectorAll("section[aria-live] li").length, walze: (document.querySelector(".reg-walze")?.getClientRects().length ?? 0) > 0, quer: document.documentElement.scrollWidth > innerWidth }));
+    pruefe(z.cls === 0 && z.treffer > 0 && !z.walze && !z.quer, `${breite}px /episodes/?q=${q}: ${z.treffer} Treffer, CLS ${z.cls}, Walze verborgen, kein Querscrollen`);
+    await c.ctx.close();
+  }
+}
 const chipFolge = alleFolgen.find((f) => themenListe(themenDaten.folgen[f.slug]).length);
 const chipHtml = await (await fetch(`${basis}/episodes/${chipFolge.slug}/`)).text();
 const chips = themenListe(themenDaten.folgen[chipFolge.slug]).filter((k) => chipHtml.includes(`href="/episodes/?thema=${k}"`));
@@ -421,7 +435,7 @@ const chipZustand = (pg) =>
       cls: Math.round((window.__cls ?? 0) * 1000) / 1000,
     };
   });
-async function blogMitCls(pfad, breite) {
+async function mitCls(pfad, breite) {
   const ctx = await browser.newContext({ viewport: { width: breite, height: 900 } });
   const pg = await ctx.newPage();
   await pg.addInitScript(() => {
@@ -434,7 +448,7 @@ async function blogMitCls(pfad, breite) {
 }
 if (blogThemen.length) {
   for (const breite of [360, 390, 820, 1280, 1440]) {
-    const b = await blogMitCls("/blog/", breite);
+    const b = await mitCls("/blog/", breite);
     const c = await chipZustand(b.pg);
     const k = await rasterZustand(b.pg);
     pruefe(
@@ -462,7 +476,7 @@ if (blogThemen.length) {
     if (breite === 390 || breite === 1280) {
       const soll = imThema(testThema);
       const zweite = soll.length > proSeite;
-      const d = await blogMitCls(`/blog/?thema=${testThema}&seite=2`, breite);
+      const d = await mitCls(`/blog/?thema=${testThema}&seite=2`, breite);
       const z = await rasterZustand(d.pg);
       const cz = await chipZustand(d.pg);
       const sollSlugs = zweite ? soll.slice(proSeite, 2 * proSeite) : soll.slice(0, proSeite);
@@ -472,7 +486,7 @@ if (blogThemen.length) {
       );
       await d.ctx.close();
       if (seitenZahl > 1) {
-        const e = await blogMitCls("/blog/?seite=2", breite);
+        const e = await mitCls("/blog/?seite=2", breite);
         const cz2 = await chipZustand(e.pg);
         pruefe(cz2.cls === 0, `${breite}px /blog/?seite=2: CLS ${cz2.cls}`);
         await e.ctx.close();

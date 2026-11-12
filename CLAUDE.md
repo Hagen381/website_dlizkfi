@@ -227,6 +227,17 @@ mehr.
   Krankenhaus↔Hospital/Gesundheit), Reihenfolge Titel > Themen > Text, bei
   Gleichstand neueste zuerst. Blogartikel als eigene Treffer mit Marke
   „Blogartikel“ (`ArtikelTrefferKarte.tsx`).
+  **Ohne Layoutsprung** (seit 12.11.2026, vorher CLS bis 1,13): Ein
+  Inline-Skript in `episodes/page.tsx` setzt bei `?q=` vor dem Zeichnen
+  `<html data-suche>` und fordert `/suche.json` gleich an
+  (`window.__sucheIndex`, `FolgenSuche` übernimmt das Promise). CSS in
+  `register.css`: dann ist die Walze (`.suche-standard`, `display:
+  contents`) verborgen und der gleich aufgebaute Platzhalter `.suche-vorab`
+  („Suche wird geladen …“) sichtbar; der Trefferbereich (`.suche-treffer`)
+  ist mindestens `100vh` hoch, die Treffer füllen nur reservierten Platz,
+  „Suche zurücksetzen“ erscheint erst mit den Treffern. `FolgenSuche`
+  entfernt `data-suche`, sobald die Suche läuft (und beim Verlassen).
+  Bedienung unverändert.
 - **Keine Blätterseiten mehr**: `/episodes/page/N/` (und `/episodes/page/`)
   sowie PodViews `/episodes/?page=N` leiten per 301 direkt auf `/episodes/`
   (ein Schritt, `.htaccess`); nicht im Export, nicht in der Sitemap. Die
@@ -775,7 +786,8 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   aktiv, Reiter nicht über der Walze, Klick auf „Visum & Bürokratie“ filtert
   + `?thema=visum`, nochmal klicken = alle, `/episodes/?thema=visum` lädt
   gefiltert, Fotos geladen), Suche „Schule“ (Homeschooling/Onlineschule
-  dabei, Titeltreffer zuerst), Themen-Chips auf einer Folgenseite, Walze
+  dabei, Titeltreffer zuerst; `?q=Bali`/`?q=Schule` bei
+  360/390/820/1280/1440 px mit CLS 0, Walze verborgen), Themen-Chips auf einer Folgenseite, Walze
   per Touch bei 390 px (kurzer Wisch +1, zu kurz 0, zurück −1, lang+schnell
   ≤ +3, eingerastet; vordere Karte volle Breite, Titel ganz, Knöpfe ≥ 44 px
   frei, ↑ ↓ ≥ 48 px, keine Monatsschilder) und Mausrad bei 1280 px (+1 pro

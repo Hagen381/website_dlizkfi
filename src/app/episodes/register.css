@@ -43,6 +43,25 @@
   text-wrap: balance;
 }
 
+/* ---------- Suche ohne Layoutsprung (FolgenSuche.tsx) ---------- */
+/* Trefferbereich mindestens eine Bildschirmhöhe hoch: die Treffer erscheinen
+   in reserviertem Platz, die Fusszeile liegt schon vorher unterhalb. Beim
+   Laden mit ?q= (html[data-suche], Inline-Skript in page.tsx) statt der Walze
+   der gleich aufgebaute Platzhalter .suche-vorab. */
+.suche-treffer {
+  min-height: 100vh;
+}
+.suche-standard {
+  display: contents;
+}
+.suche-vorab,
+html[data-suche] .suche-standard {
+  display: none;
+}
+html[data-suche] .suche-vorab {
+  display: block;
+}
+
 /* ---------- Polaroids links/rechts (nur ≥ 1280 px) ---------- */
 .reg-seitenfotos {
   position: absolute;

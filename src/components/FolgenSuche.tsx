@@ -15,7 +15,28 @@ type IndexEintrag = Eintrag & { themen: string[]; text: string };
 // Ohne Suchbegriff wird die normale, statisch erzeugte Liste (children) gezeigt.
 // Die Adresse /episodes/?q=… funktioniert auch als Link.
 // kopfClassName: Layout von Titel + Suchfeld (Standard wie auf /episodes/).
-export default function FolgenSuche({ titel, children, kopfClassName = "mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between" }: { titel: ReactNode; children: ReactNode; kopfClassName?: string }) {
+//
+// Ohne Layoutsprung bei /episodes/?q=… (CLS 0): Ein Inline-Skript in
+// episodes/page.tsx setzt vor dem Zeichnen <html data-suche>, wenn ?q= in der
+// Adresse steht. Dann blendet CSS (register.css) die statische Liste/Walze
+// (.suche-standard) aus und zeigt stattdessen den Platzhalter .suche-vorab —
+// gleicher Aufbau wie der Trefferbereich (Zeile „Suche wird geladen …“) und
+// wie dieser mindestens eine Bildschirmhöhe hoch. Die Treffer füllen danach
+// nur diesen Platz; nichts darüber oder daneben verschiebt sich, die
+// Fusszeile liegt schon vorher unterhalb des Bildschirms. Dasselbe Skript
+// fordert /suche.json gleich an (window.__sucheIndex), damit die Treffer
+// nicht erst nach dem JavaScript geladen werden. Sobald die Suche
+// läuft, entfernt die Komponente das Attribut wieder (sonst bliebe die Walze
+// nach „Suche zurücksetzen“ verborgen).
+export default function FolgenSuche({
+  titel,
+  children,
+  kopfClassName = "mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between",
+}: {
+  titel: ReactNode;
+  children: ReactNode;
+  kopfClassName?: string;
+}) {
   const [eingabe, setEingabe] = useState("");
   const [begriff, setBegriff] = useState("");
   const [index, setIndex] = useState<IndexEintrag[] | null>(null);
@@ -26,8 +47,12 @@ export default function FolgenSuche({ titel, children, kopfClassName = "mb-8 fle
     if (geladen.current) return;
     geladen.current = true;
     try {
-      const r = await fetch(mitBasePath("/suche.json"));
-      setIndex(await r.json());
+      // Beim Laden mit ?q= hat das Inline-Skript (episodes/page.tsx) den Index
+      // schon angefordert — parallel zum JavaScript statt danach.
+      const w = window as Window & { __sucheIndex?: Promise<IndexEintrag[]> };
+      const frueh = w.__sucheIndex;
+      delete w.__sucheIndex;
+      setIndex(await (frueh ?? fetch(mitBasePath("/suche.json")).then((r) => r.json())));
     } catch {
       setFehler(true);
       geladen.current = false;
@@ -46,6 +71,13 @@ export default function FolgenSuche({ titel, children, kopfClassName = "mb-8 fle
     }, 0);
     return () => clearTimeout(t);
   }, []);
+
+  // Platzhalter-Attribut entfernen, sobald React die Treffer (oder wieder die
+  // Liste) selbst zeigt
+  useEffect(() => {
+    if (begriff) delete document.documentElement.dataset.suche;
+  }, [begriff]);
+  useEffect(() => () => void delete document.documentElement.dataset.suche, []);
 
   function suchen(e: React.FormEvent) {
     e.preventDefault();
@@ -95,7 +127,7 @@ export default function FolgenSuche({ titel, children, kopfClassName = "mb-8 fle
       </div>
 
       {begriff ? (
-        <section aria-live="polite">
+        <section aria-live="polite" className="suche-treffer">
           <p className="mb-4 text-muted">
             {fehler
               ? "Die Suche konnte nicht geladen werden."
@@ -108,22 +140,31 @@ export default function FolgenSuche({ titel, children, kopfClassName = "mb-8 fle
               <li key={`${t.art}-${t.slug}`}>{t.art === "folge" ? <FolgenKarte folge={t} ueberschrift="h2" /> : <ArtikelTrefferKarte artikel={t} />}</li>
             ))}
           </ul>
-          <button
-            type="button"
-            className="kipp kipp-dezent mt-6 inline-flex min-h-11 items-center rounded-full border border-border/70 bg-surface/80 px-5 font-medium"
-            onClick={() => {
-              setEingabe("");
-              setBegriff("");
-              const url = new URL(window.location.href);
-              url.searchParams.delete("q");
-              window.history.replaceState(null, "", url);
-            }}
-          >
-            Suche zurücksetzen
-          </button>
+          {/* erst mit den Treffern — sonst rutschte der Knopf beim Laden nach unten */}
+          {(index || fehler) && (
+            <button
+              type="button"
+              className="kipp kipp-dezent mt-6 inline-flex min-h-11 items-center rounded-full border border-border/70 bg-surface/80 px-5 font-medium"
+              onClick={() => {
+                setEingabe("");
+                setBegriff("");
+                const url = new URL(window.location.href);
+                url.searchParams.delete("q");
+                window.history.replaceState(null, "", url);
+              }}
+            >
+              Suche zurücksetzen
+            </button>
+          )}
         </section>
       ) : (
-        children
+        <>
+          {/* nur sichtbar, solange <html data-suche> gesetzt ist (Laden mit ?q=) */}
+          <section className="suche-vorab suche-treffer" aria-hidden="true">
+            <p className="mb-4 text-muted">Suche wird geladen …</p>
+          </section>
+          <div className="suche-standard">{children}</div>
+        </>
       )}
     </>
   );
