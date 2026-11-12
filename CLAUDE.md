@@ -109,6 +109,41 @@ mehr.
   `dlizkfi-transkript` im Export auftaucht; `lftp` schließt `transkripte/`
   zusätzlich aus. MP3s werden nur im Runner geladen, nie ins Repo.
 
+### Folgenübersicht /episodes/ (3D-Register)
+
+- Live seit 12.11.2026 (vorher Entwurf `/entwurf/folgen/`):
+  `src/app/episodes/page.tsx`, `src/components/RegisterWalze.tsx`, Stile
+  `src/app/episodes/register.css` (inline ohne Kommentare). Adresse,
+  Canonical `/episodes/`, Titel/Description, BreadcrumbList, „Folgen“ aktiv
+  in der Navigation unverändert.
+- Kopf als Glasfläche: nur H1 „Alle Folgen“ und die echte Suche
+  (`FolgenSuche` mit `kopfClassName`; Treffer als normale Liste mit
+  `FolgenKarte`). Darunter Hinweiszeile, Monatsreiter (Klick springt zur
+  neuesten Folge des Monats) und die Walze mit ALLEN Folgen (rotateX 24°,
+  Radius 520 px, ±3 sichtbar, außerhalb `visibility: hidden`). Fotos:
+  Kartenbild des Blogartikels, sonst Collage-Foto per FNV-1a-Hash des Slugs
+  (erst geladen, wenn die Karte in die Nähe kommt).
+- Jede Karte hat einen echten Link auf `/episodes/<slug>/` im ausgelieferten
+  HTML. Ohne JavaScript greift `src/app/episodes/register-ohne-js.css` (in
+  `<noscript>`): einfache Liste aller Folgen, ohne Reiter, Steuerung, Hinweis.
+- Bedienung: Mausrad (an den Enden scrollt die Seite), Ziehen mit Maus,
+  Wischen am Handy (eigene Touch-Handler, kein `touch-action: none` — am
+  ersten/letzten Eintrag oder waagerecht scrollt die Seite), Pfeiltasten nur
+  bei Fokus in Walze/Reitern, Knöpfe ↑ ↓, Fokus dreht die Karte nach vorn,
+  Live-Ansage „Folge x von y: Titel“.
+- Die vordere Karte sitzt im oberen Drittel (`--mitte` 150 px, mobil 140 px,
+  `perspective-origin` auf gleicher Höhe), darunter 2–3 Karten. Polaroids:
+  „kopf“ neben der Kopf-Glasfläche (ab 1280 px), „seite“ an der Kante des
+  Registers ausgerichtet, nur ab 1360 px — nie über Reitern oder Walze.
+  Mobil: Reiter als wischbare Leiste, Suchfeld volle Breite, „Suchen“
+  darunter; Karte 236 px hoch, die Knöpfe als eigene Zeile über die ganze
+  Kartenbreite (`.reg-text` dort `display: contents`).
+- **Keine Blätterseiten mehr**: `/episodes/page/N/` (und `/episodes/page/`)
+  sowie PodViews `/episodes/?page=N` leiten per 301 direkt auf `/episodes/`
+  (ein Schritt, `.htaccess`); nicht im Export, nicht in der Sitemap. Die
+  alten Ordner auf dem Server bleiben liegen (Upload ohne Löschen), die
+  Regel greift vorher.
+
 ### Blog
 
 - Artikel liegen als Markdown unter `content/blog/<slug>.md` (Frontmatter:
@@ -232,8 +267,8 @@ mehr.
   Fleckfarbe ≥ 4,5:1 haben (die Ebene ist fix, Text scrollt darüber).
   `text-muted` erreicht dort nur ~4,1:1 → dahinter `.glas-flaeche`
   (`globals.css`: 90 % Seitengrund, Radius 28 px; Blogartikel, Kopf von
-  `/blog/`, 404-Seite) oder ein kleiner Untergrund `bg-bg/90` („Seite x von
-  y“, „Neueste Folge“). Karten mit `bg-surface` (Folgenseite, Rechtstexte,
+  `/blog/`, 404-Seite) oder ein kleiner Untergrund `bg-bg/90` („Neueste
+  Folge“, Hinweiszeilen auf `/episodes/` und `/blog/`). Karten mit `bg-surface` (Folgenseite, Rechtstexte,
   Folgen-/Blog-Karten) brauchen nichts. Neue Seiten mit gedämpftem Text
   direkt auf dem Hintergrund entsprechend unterlegen.
 
@@ -285,12 +320,13 @@ mehr.
 - `.kipp` steht außerhalb von `@layer` und setzt sich gegen Tailwind durch:
   auf `.kipp`-Elementen keine `shadow-*`, `ring-*`, `translate-*` oder
   `transition`-Klassen verwenden.
-- Wo: `.kipp-karte` = Folgen-Karten (Start, `/episodes/`, Suche). Die
+- Wo: `.kipp-karte` = Folgen-Karten (Start, Suchtreffer auf `/episodes/`).
+  Die Register-Karten auf `/episodes/` haben kein `.kipp` (die Walze dreht). Die
   Karussell-Karten auf `/blog/` haben kein `.kipp` (der Ring dreht selbst).
   `.kipp-dezent` = Header (s. o.), `GelberButton.tsx`, „Jetzt anhören“,
   Plattform-Links (Hero, Folgenseite, `/about/`, `/follow/`, Fusszeile),
   „Zur Podcastfolge“ in der Info-Kachel von `/blog/`,
-  RSS-Feed, Teilen, Blättern, „Alle Folgen ansehen“/„Alle ansehen“,
+  RSS-Feed, Teilen, „Alle Folgen ansehen“/„Alle ansehen“,
   „Zurück zu allen Folgen“/„Alle Artikel“, Suche zurücksetzen, 404-Buttons.
 - **Kein 3D** für Textlinks im Fließtext (Artikel, Shownotes, Impressum,
   Datenschutz, Mailadresse) und für Player/Play-Knöpfe.
@@ -319,7 +355,8 @@ mehr.
 - **Jede Seite setzt ihr eigenes Canonical** (`alternates: { canonical:
   "/pfad/" }`). Das Layout setzt keins.
 - **Jede feste Seite gehört in `sitePages`** in `src/lib/site-config.ts`.
-  Folgen, Blätterseiten und Blogartikel ergänzt `src/app/sitemap.ts` selbst.
+  Folgen und Blogartikel ergänzt `src/app/sitemap.ts` selbst (Blätterseiten
+  gibt es seit 12.11.2026 nicht mehr).
 - `trailingSlash: true` ist Pflicht (alle URLs enden auf `/`).
 - JSON-LD: PodcastSeries (Layout), PodcastEpisode (Folgenseiten),
   BreadcrumbList (jede Unterseite, unsichtbar — kein sichtbarer
@@ -340,7 +377,7 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   `/website_dlizkfi/` anfangen.
 - Job `bilder-pruefen` nach dem Deploy: `scripts/vorschau-bilder-pruefen.mjs`
   ruft Start, `/episodes/`, eine Folgenseite, `/follow/`, `/blog/` und
-  aktuelle Entwürfe (`/entwurf/folgen/`) (390 und 1280 px) mit Headless-Chromium auf, scrollt
+  ggf. aktuelle Entwürfe (390 und 1280 px) mit Headless-Chromium auf, scrollt
   bis unten und meldet jedes Bild, jede Schrift und jedes CSS/JS mit Fehler
   (ausgeblendete lazy-Bilder werden direkt angefragt). Lokal: Export unter
   `/website_dlizkfi/` ausliefern und das Skript mit dieser Basis aufrufen.
@@ -361,25 +398,11 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
 - Deploy-Prüfung k) bricht ab, wenn `entwurf/` oder `startseite-entwurf` im
   Live-Export steht; `scripts/live-pruefen.mjs` erwartet live 404 für
   `/entwurf/startseite/` und `/entwurf/`.
-- Aktuell: `/entwurf/folgen/` — Folgenübersicht als 3D-Register
-  (`src/entwuerfe/folgen/`: `Seite.tsx`, `RegisterWalze.tsx`,
-  `register.css` inline). Kopf als Glasfläche mit der echten Suche
-  (`FolgenSuche` mit `kopfClassName`), Monatsreiter, Walze mit allen Folgen
-  (rotateX 24°, Radius 520 px, ±3 sichtbar), Fotos: Kartenbild des
-  Blogartikels, sonst Collage-Foto per FNV-1a-Hash des Slugs. Jede Karte hat
-  einen echten Link auf `/episodes/<slug>/`. Live-Prüfung erwartet 404.
-  Bedienung: Mausrad (an den Enden scrollt die Seite), Ziehen mit Maus,
-  Wischen am Handy (eigene Touch-Handler, kein `touch-action: none` — am
-  ersten/letzten Eintrag oder waagerecht scrollt die Seite), Pfeiltasten nur
-  bei Fokus in Walze/Reitern, Karten außerhalb ±3 `visibility: hidden`,
-  Fokus dreht die Karte nach vorn, Live-Ansage „Folge x von y: Titel“.
-  Die vordere Karte sitzt im oberen Drittel (`--mitte` 150 px, mobil 140 px,
-  `perspective-origin` auf gleicher Höhe), darunter 2–3 Karten. Polaroids:
-  „kopf“ neben der Kopf-Glasfläche (ab 1280 px), „seite“ an der Kante des
-  Registers ausgerichtet, nur ab 1360 px — nie über Reitern oder Walze.
-  Mobil: Suchfeld volle Breite, „Suchen“ darunter; Karte 236 px hoch, die
-  Knöpfe als eigene Zeile über die ganze Kartenbreite (`.reg-text` dort
-  `display: contents`).
+- **Aktuell gibt es keinen Entwurf** (`entwuerfe` in `scripts/entwuerfe.mjs`
+  ist leer, `src/entwuerfe/` existiert nicht). Live-Prüfung erwartet 404 für
+  `/entwurf/`, `/entwurf/folgen/`, `/entwurf/blog/`, `/entwurf/startseite/`.
+- Früher: `/entwurf/folgen/` ist seit 12.11.2026 die echte Folgenübersicht
+  `/episodes/` (siehe „Folgenübersicht“).
 - Früher: `/entwurf/blog/` ist seit 12.11.2026 die echte Blogübersicht
   `/blog/` (siehe „Blog“), `src/entwuerfe/blog/` und der Eintrag in
   `scripts/entwuerfe.mjs` sind entfernt; live liefert `/entwurf/blog/` 404.
@@ -459,18 +482,24 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   (`blog-aufraeumen.yml`, Standard = Testlauf, listet nur auf).
 - `.htaccess` wird im Build erzeugt (`scripts/nach-dem-build.mjs`):
   http→https und ohne www → `https://www` (ein 301), alte `/sitemap-pages.xml` und
-  `/sitemap-episodes.xml?…` → `/sitemap.xml`, alte `?page=N` →
-  `/episodes/page/N/`, `ErrorDocument 404`, `Options -Indexes`, Cache-Header
+  `/sitemap-episodes.xml?…` → `/sitemap.xml`, `/episodes/page/N/`,
+  `/episodes/page/` und alte `/episodes/?page=N` → `/episodes/` (je ein 301,
+  keine Kette), `ErrorDocument 404`, `Options -Indexes`, Cache-Header
   für Bilder/Schriften.
 - Live-Kontrolle: Workflow „Live-Seite pruefen" (`live-pruefen.yml`, manuell)
   prüft www im Headless-Browser — nur lesend (Weiterleitungen http/ohne www/
-  alte Sitemaps/`?page=N`, kein X-Robots-Tag, Polaroid-Collage der
+  alte Sitemaps/`?page=N`/`/episodes/page/2/` → `/episodes/`, kein
+  X-Robots-Tag, Polaroid-Collage der
   Startseite bei 360/390/820/1280/1440 px (Anzahl sichtbar, Fotos geladen,
-  nichts über den Rand), Blog-Karussell (alle Artikel als Link im HTML,
+  nichts über den Rand), Folgen-Register (alle Folgen als Link im HTML; bei
+  360/390/820/1280/1440 px Walze sichtbar, vordere Karte im Bild, Fotos
+  geladen — Bilder außerhalb eines waagerecht scrollbaren Ausschnitts wie der
+  mobilen Reiterleiste zählen nicht —, nichts über den Rand, H1), Blog-Karussell (alle Artikel als Link im HTML,
   Reihenfolge/Datum, Kartenbilder; bei 360/390/820/1280/1440 px sichtbar,
   vordere Karte im Bild, Steuerung zwischen Ring und Info-Kachel, kein
   Querscrollen), Artikel, Navigation, Folgenseiten-Link,
-  Bilder, 404 für `/entwurf/`, `/entwurf/folgen/`, `/entwurf/blog/`). Läuft auch mit `--nur-neueste` nach einem
+  Bilder, 404 für `/entwurf/`, `/entwurf/folgen/`, `/entwurf/blog/`,
+  `/entwurf/startseite/`). Läuft auch mit `--nur-neueste` nach einem
   Deploy mit neuer Folge.
 - Lighthouse live: Workflow „Lighthouse live" (`lighthouse-live.yml`,
   manuell, Eingabe `pfade`) — Median aus 3 Läufen mobil und Desktop, Tabelle
