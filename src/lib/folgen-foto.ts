@@ -4,7 +4,7 @@ import { artikelZurFolge } from "@/lib/blog";
 import collage from "../../content/startseite/collage.json";
 
 // „Foto zur Folge“ — EINE Stelle für alle Folgenkarten: /episodes/ (Walze,
-// Monatsreiter, Liste ohne JS), Suchtreffer (über /suche.json) und Startseite
+// Themenreiter, Liste ohne JS), Suchtreffer (über /suche.json) und Startseite
 // („Neueste Folge“, „Weitere Folgen“). Die Folgenseiten selbst behalten das
 // Podcast-Cover.
 //

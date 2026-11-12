@@ -146,8 +146,8 @@
   max-width: 1000px;
   margin: 28px auto 0;
   display: grid;
-  grid-template-columns: 170px minmax(0, 1fr);
-  gap: 26px;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 22px;
 }
 .reg-reiter {
   position: sticky;
@@ -155,20 +155,24 @@
   align-self: start;
   display: flex;
   flex-direction: column;
-  gap: 7px;
+  gap: 6px;
 }
+/* Themenreiter (Filter): Foto, Label, Anzahl. Aktiv = gelb (aria-pressed). */
 .reg-reiter-knopf {
+  /* positioniert: die sr-only-Texte der Anzahl bleiben so in der Leiste
+     (sonst ragen sie mobil aus der wischbaren Leiste → Querscrollen) */
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 10px;
-  min-height: 48px;
-  padding: 4px 12px 4px 6px;
+  gap: 8px;
+  min-height: 44px;
+  padding: 3px 8px 3px 5px;
   border: 0;
   border-left: 5px solid var(--primary);
   border-radius: 0 16px 16px 0;
   background: rgb(255 255 255 / 0.75);
   color: var(--text);
-  font: 600 14px var(--font-heading);
+  font: 600 13px/1.2 var(--font-heading);
   text-align: left;
   cursor: pointer;
   box-shadow: 0 2px 6px rgb(26 46 5 / 0.06);
@@ -183,10 +187,23 @@
 .reg-reiter-knopf:nth-child(3n) {
   border-left-color: #e9c45a;
 }
+.reg-reiter-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.reg-reiter-zahl {
+  flex: none;
+  min-width: 24px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: rgb(26 46 5 / 0.07);
+  font-size: 12px;
+  text-align: center;
+}
 .reg-reiter-foto {
   flex: none;
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
   overflow: hidden;
   border: 2px solid #fff;
   border-radius: 50%;
@@ -203,10 +220,36 @@
     transform: translateX(5px);
   }
 }
-.reg-reiter-knopf[aria-current="true"] {
-  background: #fff;
-  transform: translateX(12px);
-  box-shadow: 0 8px 18px rgb(26 46 5 / 0.14);
+.reg-reiter-knopf[aria-pressed="true"] {
+  background: var(--primary);
+  transform: translateX(10px);
+  box-shadow: 0 8px 18px rgb(26 46 5 / 0.16);
+  animation: reg-reiter-an 0.45s cubic-bezier(0.2, 0.9, 0.25, 1.2);
+}
+.reg-reiter-knopf[aria-pressed="true"] .reg-reiter-zahl {
+  background: rgb(255 255 255 / 0.7);
+}
+@keyframes reg-reiter-an {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  55% {
+    transform: translateX(12px) scale(1.06);
+  }
+  100% {
+    transform: translateX(10px) scale(1);
+  }
+}
+@keyframes reg-reiter-an-mobil {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  55% {
+    transform: translateY(-7px) scale(1.06);
+  }
+  100% {
+    transform: translateY(-5px) scale(1);
+  }
 }
 
 /* Die vordere Karte sitzt im oberen Drittel (--mitte = Mitte der vorderen
@@ -254,6 +297,10 @@
     opacity 0.45s ease,
     visibility 0.45s ease,
     filter 0.45s ease;
+}
+/* Vom Themenfilter ausgeblendet */
+.reg-platz.aus {
+  display: none;
 }
 /* Außerhalb ±3: unsichtbar und per Tab nicht erreichbar */
 .reg-platz.weg {
@@ -427,7 +474,8 @@
     gap: 8px;
   }
   .reg-reiter {
-    position: static;
+    position: relative;
+    top: auto;
     flex-direction: row;
     overflow-x: auto;
     padding: 12px 2px 4px;
@@ -446,8 +494,9 @@
   .reg-reiter-knopf:nth-child(3n) {
     border-top-color: #e9c45a;
   }
-  .reg-reiter-knopf[aria-current="true"] {
-    transform: translateY(-6px);
+  .reg-reiter-knopf[aria-pressed="true"] {
+    transform: translateY(-5px);
+    animation-name: reg-reiter-an-mobil;
   }
   .reg-walze {
     --mitte: 140px;
@@ -535,6 +584,9 @@
   .reg-pola-rahmen,
   .reg-pola-bild {
     transition: none;
+  }
+  .reg-reiter-knopf[aria-pressed="true"] {
+    animation: none;
   }
   .reg-pola:hover .reg-pola-rahmen {
     transform: rotate(var(--r)) scale(1.04);

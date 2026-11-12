@@ -1,6 +1,6 @@
 "use client";
 
-import { Children, useCallback, useEffect, useRef, useState, type ReactNode } from "react";
+import { Children, useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 
 // Walze des Folgen-Registers /episodes/ (Stile: src/app/episodes/register.css): alle Folgen als Karten
 // auf einem Zylinder (rotateX, 24° Abstand, Radius 520 px). Drehen per
@@ -8,42 +8,101 @@ import { Children, useCallback, useEffect, useRef, useState, type ReactNode } fr
 // Reitern) und Knöpfen. Sichtbar sind nur die vorderen ±3 Karten, der Rest
 // ist visibility: hidden (per Tab nicht erreichbar). Bekommt ein Link in einer
 // sichtbaren Karte den Fokus, dreht die Walze sie nach vorn — so wandert das
-// Sichtfenster beim Tabben mit. Links Monatsreiter (Klick springt zur neuesten
-// Folge des Monats). Beim Drehen sagt eine höfliche Live-Region „Folge x von
-// y: Titel“ an. Alle Karten bleiben im DOM (echte Links für Suchmaschinen).
+// Sichtfenster beim Tabben mit. Links Themenreiter als Filter („Alle“ + die
+// Themen aus content/themen.json mit Anzahl): Klick zeigt nur die Folgen des
+// Themas (neueste vorn), nochmal klicken oder „Alle“ zeigt wieder alle. Das
+// Thema steht als ?thema=<key> in der Adresse (beim Laden ausgewertet).
+// Beim Drehen sagt eine höfliche Live-Region „Folge x von y: Titel“ an, beim
+// Filtern „Thema X: n Folgen“. Alle Karten bleiben im DOM (echte Links für
+// Suchmaschinen); herausgefilterte sind display: none.
 
-export type Monat = { schluessel: string; text: string; start: number };
+export type ReiterThema = { key: string; label: string; anzahl: number };
 
 const SCHRITT = 24; // Grad zwischen zwei Karten
 const SICHTBAR = 3; // Karten vor/hinter der vordersten
 const BILDER_AB = 5; // Fotos erst laden, wenn eine Karte so nah ist
 
-export default function RegisterWalze({ monate, reiterFotos, titel, children }: { monate: Monat[]; reiterFotos: ReactNode[]; titel: string[]; children: ReactNode }) {
-  const anzahl = titel.length;
+// Fotos der Karten bis ±BILDER_AB um Platz z (in der gefilterten Liste l) laden
+function naeher(alt: Set<number>, l: number[], z: number) {
+  let neu: Set<number> | null = null;
+  for (let k = z - BILDER_AB; k <= z + BILDER_AB; k++) {
+    if (k >= 0 && k < l.length && !alt.has(l[k])) (neu ??= new Set(alt)).add(l[k]);
+  }
+  return neu ?? alt;
+}
+
+// reiterFotos: [Foto für „Alle“, dann je Thema] — in derselben Reihenfolge wie themen.
+// kartenThemen: Themen-Schlüssel je Karte (gleiche Reihenfolge wie children).
+export default function RegisterWalze({
+  themen,
+  kartenThemen,
+  reiterFotos,
+  titel,
+  children,
+}: {
+  themen: ReiterThema[];
+  kartenThemen: string[][];
+  reiterFotos: ReactNode[];
+  titel: string[];
+  children: ReactNode;
+}) {
+  const [thema, setThema] = useState<string | null>(null);
+  // Indizes (in children) der Karten, die der Filter zeigt — neueste zuerst
+  const liste = useMemo(() => titel.map((_, i) => i).filter((i) => !thema || kartenThemen[i].includes(thema)), [thema, titel, kartenThemen]);
+  const platz = useMemo(() => new Map(liste.map((i, p) => [i, p])), [liste]);
+  const anzahl = liste.length;
   const [aktuell, setAktuell] = useState(0);
   const [ansage, setAnsage] = useState("");
-  const [nah, setNah] = useState(() => new Set(Array.from({ length: Math.min(anzahl, BILDER_AB + 1) }, (_, i) => i)));
+  const [nah, setNah] = useState(() => new Set(Array.from({ length: Math.min(titel.length, BILDER_AB + 1) }, (_, i) => i)));
   const aktuellRef = useRef(0);
+  // Gefilterte Liste für Ereignis-Handler (wird in waehle() gesetzt)
+  const listeRef = useRef(liste);
   const walze = useRef<HTMLDivElement>(null);
   const reiterLeiste = useRef<HTMLElement>(null);
   const karten = Children.toArray(children);
 
   const geh = useCallback(
     (i: number) => {
-      const z = Math.max(0, Math.min(anzahl - 1, i));
-      if (z !== aktuellRef.current) setAnsage(`Folge ${z + 1} von ${anzahl}: ${titel[z]}`);
+      const l = listeRef.current;
+      const z = Math.max(0, Math.min(l.length - 1, i));
+      if (z !== aktuellRef.current) setAnsage(`Folge ${z + 1} von ${l.length}: ${titel[l[z]]}`);
       aktuellRef.current = z;
       setAktuell(z);
-      setNah((alt) => {
-        let neu: Set<number> | null = null;
-        for (let k = z - BILDER_AB; k <= z + BILDER_AB; k++) {
-          if (k >= 0 && k < anzahl && !alt.has(k)) (neu ??= new Set(alt)).add(k);
-        }
-        return neu ?? alt;
-      });
+      setNah((alt) => naeher(alt, l, z));
     },
-    [anzahl, titel],
+    [titel],
   );
+
+  // Thema wählen (null = alle). Nochmals dasselbe Thema = wieder alle.
+  const waehle = useCallback(
+    (key: string | null, inAdresse = true) => {
+      const t = key && themen.some((x) => x.key === key) ? key : null;
+      const l = titel.map((_, i) => i).filter((i) => !t || kartenThemen[i].includes(t));
+      listeRef.current = l;
+      aktuellRef.current = 0;
+      setThema(t);
+      setAktuell(0);
+      setNah((alt) => naeher(alt, l, 0));
+      const label = themen.find((x) => x.key === t)?.label;
+      setAnsage(label ? `Thema ${label}: ${l.length} ${l.length === 1 ? "Folge" : "Folgen"}` : `Alle Folgen: ${l.length} Folgen`);
+      if (inAdresse) {
+        const url = new URL(window.location.href);
+        if (t) url.searchParams.set("thema", t);
+        else url.searchParams.delete("thema");
+        window.history.replaceState(null, "", url);
+      }
+    },
+    [themen, titel, kartenThemen],
+  );
+
+  // ?thema=<key> aus der Adresse übernehmen (erst nach dem ersten Rendern —
+  // das statische HTML zeigt alle Folgen)
+  useEffect(() => {
+    const key = new URLSearchParams(window.location.search).get("thema");
+    if (!key || !themen.some((x) => x.key === key)) return;
+    const t = setTimeout(() => waehle(key, false), 0);
+    return () => clearTimeout(t);
+  }, [themen, waehle]);
 
   // Pfeiltasten nur, wenn der Fokus in der Walze oder auf den Reitern liegt
   // (nicht global — sonst ginge das Scrollen der Seite per Pfeiltaste kaputt).
@@ -168,23 +227,36 @@ export default function RegisterWalze({ monate, reiterFotos, titel, children }: 
   // Aktiven Reiter in der mobilen Leiste sichtbar halten
   useEffect(() => {
     const leiste = reiterLeiste.current;
-    const aktiv = leiste?.querySelector<HTMLElement>("[aria-current='true']");
+    const aktiv = leiste?.querySelector<HTMLElement>("[aria-pressed='true']");
     if (leiste && aktiv && getComputedStyle(leiste).flexDirection === "row") {
-      leiste.scrollTo({ left: aktiv.offsetLeft - leiste.clientWidth / 2 + aktiv.clientWidth / 2, behavior: "smooth" });
+      const ruhig = matchMedia("(prefers-reduced-motion: reduce)").matches;
+      leiste.scrollTo({ left: aktiv.offsetLeft - leiste.clientWidth / 2 + aktiv.clientWidth / 2, behavior: ruhig ? "auto" : "smooth" });
     }
-  }, [aktuell]);
+  }, [thema]);
 
-  const aktiverMonat = monate.findLastIndex((m) => m.start <= aktuell);
+  const reiter = [{ key: null, label: "Alle", anzahl: titel.length }, ...themen];
+  const themaLabel = themen.find((x) => x.key === thema)?.label;
 
   return (
     <div className="reg-register">
-      <nav className="reg-reiter" aria-label="Monate" ref={reiterLeiste} onKeyDown={pfeile}>
-        {monate.map((m, j) => (
-          <button key={m.schluessel} type="button" className="reg-reiter-knopf" aria-current={j === aktiverMonat ? "true" : undefined} onClick={() => geh(m.start)}>
+      <nav className="reg-reiter" aria-label="Themen" ref={reiterLeiste} onKeyDown={pfeile}>
+        {reiter.map((r, j) => (
+          <button
+            key={r.key ?? "alle"}
+            type="button"
+            className="reg-reiter-knopf"
+            aria-pressed={r.key === thema}
+            onClick={() => waehle(r.key === thema ? null : r.key)}
+          >
             <span className="reg-reiter-foto" aria-hidden="true">
               {reiterFotos[j]}
             </span>
-            {m.text}
+            <span className="reg-reiter-text">{r.label}</span>
+            <span className="reg-reiter-zahl">
+              <span className="sr-only">, </span>
+              {r.anzahl}
+              <span className="sr-only"> {r.anzahl === 1 ? "Folge" : "Folgen"}</span>
+            </span>
           </button>
         ))}
       </nav>
@@ -196,7 +268,7 @@ export default function RegisterWalze({ monate, reiterFotos, titel, children }: 
           tabIndex={0}
           role="region"
           aria-roledescription="Walze"
-          aria-label={`Alle Folgen, ${aktuell + 1} von ${anzahl}. Mit Pfeiltasten auf und ab drehen.`}
+          aria-label={`${themaLabel ? `Thema ${themaLabel}` : "Alle Folgen"}, ${aktuell + 1} von ${anzahl}. Mit Pfeiltasten auf und ab drehen.`}
           onKeyDown={pfeile}
           onPointerDown={(e) => {
             if (e.pointerType === "touch" || (e.target as Element).closest("a")) return;
@@ -216,14 +288,15 @@ export default function RegisterWalze({ monate, reiterFotos, titel, children }: 
         >
           <ol className="reg-zylinder" style={{ transform: `translateZ(-520px) rotateX(${aktuell * SCHRITT}deg)` }}>
             {karten.map((karte, i) => {
-              const abstand = Math.abs(i - aktuell);
+              const p = platz.get(i);
+              const abstand = p === undefined ? Infinity : Math.abs(p - aktuell);
               return (
                 <li
                   key={i}
-                  className={`reg-platz${abstand === 0 ? " vorne" : ""}${abstand > 0 ? " hinten" : ""}${abstand > SICHTBAR ? " weg" : ""}${nah.has(i) ? " nah" : ""}`}
-                  style={{ transform: `rotateX(${-i * SCHRITT}deg) translateZ(520px)` }}
+                  className={`reg-platz${abstand === 0 ? " vorne" : ""}${abstand > 0 ? " hinten" : ""}${abstand > SICHTBAR ? " weg" : ""}${p === undefined ? " aus" : ""}${nah.has(i) ? " nah" : ""}`}
+                  style={{ transform: `rotateX(${-(p ?? i) * SCHRITT}deg) translateZ(520px)` }}
                   onFocus={() => {
-                    if (i !== aktuell) geh(i);
+                    if (p !== undefined && p !== aktuell) geh(p);
                   }}
                 >
                   {karte}
