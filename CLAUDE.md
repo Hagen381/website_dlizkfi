@@ -227,8 +227,15 @@ mehr.
 - Unter 1024 px „☰ Menü"-Knopf; das Menü wird per Portal in `<body>`
   gerendert (sonst wäre der Header wegen `backdrop-filter` der Bezugsrahmen
   für `position: fixed`). Fokus bleibt im Menü, Escape/außerhalb schließt.
+- Die Marke oben links (Cover + „DLIZKFI“, ab 640 px mit Untertitel) ist
+  ebenfalls eine dezente Kachel (`.kipp .kipp-dezent`, gleicher Grund/Rand/
+  Radius wie die Menüpunkte), Link auf die Startseite, dort gelb mit
+  `aria-current="page"` (Untertitel dann `text-text`, `text-muted` hätte auf
+  Gelb nur ~3,7:1). Genau 44 px hoch (`h-11` inkl. Rand), das 44-px-Cover
+  liegt bündig links über dem Rand (`-my-px -ml-px`) — so bleibt die
+  Header-Höhe gleich (CLS 0). „☰ Menü“ hat `whitespace-nowrap`.
 - Menüpunkte in `navigation`, der Button in `abonnieren` (`site-config.ts`).
-- Menüpunkte (Desktop und Mobil-Menü), „Abonnieren“ und „☰ Menü“/„Schließen“
+- Marke, Menüpunkte (Desktop und Mobil-Menü), „Abonnieren“ und „☰ Menü“/„Schließen“
   sind dezente Kacheln (`.kipp .kipp-dezent`): leichter Grund (surface), feiner
   Rand, abgerundet. Aktive Seite gelb; bei „Abonnieren“ markiert eine `outline`
   die aktive Seite (kein `ring` — das wäre box-shadow und würde vom

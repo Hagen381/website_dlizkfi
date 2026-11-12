@@ -100,25 +100,31 @@ export default function Header({ blog = false }: { blog?: boolean }) {
     };
   }, [offen]);
 
+  // Marke = Kachel wie die Menüpunkte (.kipp .kipp-dezent). Genau 44 px hoch
+  // (h-11 inkl. Rand), das Cover (44 px) liegt bündig links über dem Rand —
+  // so bleibt die Header-Höhe unverändert. Auf der Startseite gelb.
+  const startAktiv = pathname.replace(/\/+$/, "") === "";
   const marke = (
     <Link
       href="/"
-      className="flex min-h-11 min-w-0 items-center gap-3 rounded-lg"
-      aria-label={`${siteConfig.name} – Startseite`}
+      aria-current={startAktiv ? "page" : undefined}
+      className="group kipp kipp-dezent flex h-11 min-w-0 items-center gap-3 rounded-lg border border-border/70 bg-surface/80 pr-3 hover:bg-primary/20 aria-[current=page]:border-primary aria-[current=page]:bg-primary"
     >
       <Cover
         groesse={44}
         sizes="44px"
-        className="h-11 w-11 shrink-0 rounded-md shadow-sm"
+        className="-my-px -ml-px h-11 w-11 shrink-0 rounded-l-lg"
         priority
       />
       <span className="min-w-0 leading-tight">
         <span className="block font-heading text-lg font-bold tracking-tight text-text">
           {siteConfig.kurzname}
         </span>
-        <span className="hidden truncate text-xs text-muted sm:block">
+        <span className="hidden truncate text-xs text-muted group-aria-[current=page]:text-text sm:block">
           Das Leben ist zu kurz für irgendwann
         </span>
+        {/* Sichtbarer Text vorn im Namen (WCAG 2.5.3), dann das Ziel */}
+        <span className="sr-only"> – Startseite</span>
       </span>
     </Link>
   );
@@ -159,7 +165,7 @@ export default function Header({ blog = false }: { blog?: boolean }) {
         <button
           ref={knopf}
           type="button"
-          className="kipp kipp-dezent flex min-h-11 min-w-11 shrink-0 items-center gap-2 rounded-lg border border-border bg-surface px-3 font-heading text-base font-semibold text-text hover:bg-primary/20 lg:hidden"
+          className="kipp kipp-dezent flex min-h-11 min-w-11 shrink-0 items-center gap-2 rounded-lg border border-border bg-surface px-3 font-heading text-base font-semibold whitespace-nowrap text-text hover:bg-primary/20 lg:hidden"
           aria-expanded={offen}
           aria-controls="menue-panel"
           aria-haspopup="dialog"
