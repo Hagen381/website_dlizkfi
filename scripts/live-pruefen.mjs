@@ -8,6 +8,8 @@
 // Prüft: Weiterleitungen (http -> https, ohne www -> www, alte Sitemaps),
 // kein X-Robots-Tag, ist es die neue Seite? Polaroid-Collage der Startseite
 // (Anzahl je Breite 360/390/820/1280/1440, Fotos geladen), neueste Folge erreichbar,
+// /episodes/ als 3D-Register (alle Folgen verlinkt im HTML, Walze, Fotos, nichts
+// über den Rand bei 360/390/820/1280/1440 px), 301 der alten Blätteradressen,
 // /blog/ als Karussell (alle Artikel verlinkt, Bilder, nichts über den Rand
 // bei 360/390/820/1280/1440 px, Steuerung zwischen Ring und Info-Kachel),
 // jeder veröffentlichte Artikel (Bilder, Bildunterschriften, Zur-Folge-Kasten),
@@ -39,7 +41,21 @@ async function seite(pfad, breite = 1280) {
   await pg.waitForLoadState("networkidle");
   // Nur angezeigte Bilder: ausgeblendete (display: none, z. B. die kleinen
   // Mobil-Polaroids am Desktop) lädt der Browser wegen loading="lazy" nie.
-  const unvollstaendig = await pg.evaluate(() => [...document.images].filter((i) => i.getClientRects().length > 0 && (!i.complete || !i.naturalWidth)).map((i) => i.currentSrc || i.src));
+  // Ebenso Bilder außerhalb des sichtbaren Ausschnitts eines waagerecht
+  // scrollbaren Bereichs (z. B. Monatsreiter auf /episodes/ mobil) — die lädt
+  // der Browser erst beim Wischen.
+  const unvollstaendig = await pg.evaluate(() => {
+    const imAusschnitt = (i) => {
+      const b = i.getBoundingClientRect();
+      for (let el = i.parentElement; el; el = el.parentElement) {
+        if (!/(auto|scroll)/.test(getComputedStyle(el).overflowX)) continue;
+        const r = el.getBoundingClientRect();
+        if (b.right <= r.left || b.left >= r.right) return false;
+      }
+      return true;
+    };
+    return [...document.images].filter((i) => i.getClientRects().length > 0 && imAusschnitt(i) && (!i.complete || !i.naturalWidth)).map((i) => i.currentSrc || i.src);
+  });
   return { pg, ctx, status: antwort?.status(), kaputt: [...kaputt, ...unvollstaendig.map((u) => "nicht geladen " + u)] };
 }
 
@@ -103,7 +119,9 @@ if (host.startsWith("www.")) {
     [`http://${ohne}/about/`, `https://${host}/about/`],
     [`https://${host}/sitemap-pages.xml`, `https://${host}/sitemap.xml`],
     [`https://${host}/sitemap-episodes.xml?page=1`, `https://${host}/sitemap.xml`],
-    [`https://${host}/episodes/?page=2`, `https://${host}/episodes/page/2/`],
+    // Blätterseiten gibt es seit 12.11.2026 nicht mehr: je EIN 301 auf /episodes/
+    [`https://${host}/episodes/?page=2`, `https://${host}/episodes/`],
+    [`https://${host}/episodes/page/2/`, `https://${host}/episodes/`],
   ];
   for (const [von, nach] of faelle) {
     try {
@@ -114,6 +132,41 @@ if (host.startsWith("www.")) {
       pruefe(false, `${von} → keine Antwort (${e.cause?.code || e.message})`);
     }
   }
+}
+
+// Folgenübersicht = 3D-Register: alle Folgen als Link im ausgelieferten HTML,
+// je Breite Walze sichtbar, vordere Karte im Bild, Fotos geladen, nichts über
+// den Rand, kein waagerechtes Scrollen.
+const alleFolgen = JSON.parse(fs.readFileSync("content/folgen.json", "utf8")).folgen;
+const epHtml = await (await fetch(basis + "/episodes/")).text();
+const epImHtml = alleFolgen.filter((f) => epHtml.includes(`href="/episodes/${f.slug}/"`)).length;
+pruefe(epImHtml === alleFolgen.length, `/episodes/ alle ${alleFolgen.length} Folgen-Links im ausgelieferten HTML (${epImHtml})`);
+for (const breite of [360, 390, 820, 1280, 1440]) {
+  const e = await seite("/episodes/", breite);
+  const w = await e.pg.evaluate(() => {
+    const r = (s) => document.querySelector(s)?.getBoundingClientRect();
+    const walze = r(".reg-walze"), vorn = r(".vorne .reg-karte");
+    const sichtbar = (el) => el.getClientRects().length > 0 && getComputedStyle(el).visibility !== "hidden";
+    // Mobil ist die Reiterleiste waagerecht wischbar: Fotos außerhalb ihres
+    // sichtbaren Ausschnitts lädt der Browser (lazy) erst beim Wischen.
+    const leiste = r(".reg-reiter");
+    const imAusschnitt = (i) => { const b = i.getBoundingClientRect(); return !i.closest(".reg-reiter") || (b.right > leiste.left && b.left < leiste.right); };
+    const fotos = [...document.querySelectorAll(".reg-walze img, .reg-reiter img, .reg-pola img")].filter((i) => sichtbar(i) && imAusschnitt(i));
+    const polas = [...document.querySelectorAll(".reg-pola")].filter(sichtbar).map((p) => p.getBoundingClientRect());
+    return {
+      karten: document.querySelectorAll(".reg-karte").length,
+      walze: !!walze && walze.height > 0,
+      vornImBild: !!vorn && vorn.left >= 0 && vorn.right <= innerWidth,
+      ueberRand: polas.filter((p) => p.left < -20 || p.right > innerWidth + 20).length,
+      querScroll: document.documentElement.scrollWidth > innerWidth,
+      geladen: fotos.filter((i) => i.complete && i.naturalWidth > 0).length,
+      fotos: fotos.length,
+      h1: [...document.querySelectorAll("h1")].map((h) => h.textContent.trim()).join("|"),
+    };
+  });
+  pruefe(w.walze && w.vornImBild && w.ueberRand === 0 && !w.querScroll && w.h1 === "Alle Folgen", `${breite}px /episodes/: Walze sichtbar, vordere Karte im Bild, nichts über den Rand, kein Querscrollen, H1 „${w.h1}“`);
+  pruefe(w.karten === alleFolgen.length && w.geladen === w.fotos && e.kaputt.length === 0, `${breite}px /episodes/: ${w.karten} Karten, ${w.geladen}/${w.fotos} Fotos geladen ${e.kaputt.join(" | ")}`);
+  await e.ctx.close();
 }
 
 const blog = await seite("/blog/");
