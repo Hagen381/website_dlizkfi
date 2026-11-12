@@ -28,8 +28,6 @@ export const siteConfig = {
     name: "Juliette Oppel",
     anschrift: ["89/8 Moo 6, Bang Por Soi 3", "Mae Nam Subdistrict", "Koh Samui District", "Surat Thani Province 84330", "Thailand"],
   },
-  // Folgen pro Seite auf /episodes/ (wie bei PodView).
-  folgenProSeite: 12,
 } as const;
 
 export const MAIL_PLATZHALTER = "[Mailadresse folgt]";

@@ -1,5 +1,4 @@
 import daten from "../../content/folgen.json";
-import { siteConfig } from "@/lib/site-config";
 
 export type Folge = {
   slug: string;
@@ -22,16 +21,6 @@ export type Folge = {
 export const folgen: Folge[] = [...(daten.folgen as Folge[])].sort((a, b) => b.datum.localeCompare(a.datum));
 
 export const folgeNachSlug = (slug: string) => folgen.find((f) => f.slug === slug);
-
-export const seitenAnzahl = Math.max(1, Math.ceil(folgen.length / siteConfig.folgenProSeite));
-
-export function folgenAufSeite(seite: number) {
-  const n = siteConfig.folgenProSeite;
-  return folgen.slice((seite - 1) * n, seite * n);
-}
-
-// Seite 1 = /episodes/, ab Seite 2 /episodes/page/N/
-export const seitenPfad = (seite: number) => (seite <= 1 ? "/episodes/" : `/episodes/page/${seite}/`);
 
 export function nachbarn(slug: string) {
   const i = folgen.findIndex((f) => f.slug === slug);
