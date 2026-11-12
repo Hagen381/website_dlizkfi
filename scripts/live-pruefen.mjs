@@ -42,7 +42,7 @@ async function seite(pfad, breite = 1280) {
   // Nur angezeigte Bilder: ausgeblendete (display: none, z. B. die kleinen
   // Mobil-Polaroids am Desktop) lädt der Browser wegen loading="lazy" nie.
   // Ebenso Bilder außerhalb des sichtbaren Ausschnitts eines waagerecht
-  // scrollbaren Bereichs (z. B. Monatsreiter auf /episodes/ mobil) — die lädt
+  // scrollbaren Bereichs (z. B. Themenreiter auf /episodes/ mobil) — die lädt
   // der Browser erst beim Wischen.
   const unvollstaendig = await pg.evaluate(() => {
     const imAusschnitt = (i) => {
@@ -168,6 +168,56 @@ for (const breite of [360, 390, 820, 1280, 1440]) {
   pruefe(w.karten === alleFolgen.length && w.geladen === w.fotos && e.kaputt.length === 0, `${breite}px /episodes/: ${w.karten} Karten, ${w.geladen}/${w.fotos} Fotos geladen ${e.kaputt.join(" | ")}`);
   await e.ctx.close();
 }
+
+// Themenreiter auf /episodes/ (content/themen.json): „Alle“ + jedes Thema mit
+// Folgen, mit Anzahl; Filter per Klick (aria-pressed, ?thema=…, nur die Folgen
+// des Themas), Laden mit ?thema=visum, nochmal klicken = alle. Suche „Schule“
+// findet auch Homeschooling-/Onlineschule-Folgen. Folgenseite: Themen-Chips.
+const themenDaten = JSON.parse(fs.readFileSync("content/themen.json", "utf8"));
+const themenListe = (e) => (Array.isArray(e) ? e : e?.themen ?? []);
+const anzahlThema = (k) => alleFolgen.filter((f) => themenListe(themenDaten.folgen[f.slug]).includes(k)).length;
+const themenMitFolgen = Object.keys(themenDaten.themen).filter((k) => anzahlThema(k) > 0);
+const zustand = (pg) =>
+  pg.evaluate(() => ({
+    reiter: [...document.querySelectorAll(".reg-reiter-knopf")].map((b) => b.querySelector(".reg-reiter-text")?.textContent.trim()),
+    gedrueckt: [...document.querySelectorAll(".reg-reiter-knopf[aria-pressed='true']")].map((b) => b.querySelector(".reg-reiter-text")?.textContent.trim()),
+    karten: document.querySelectorAll(".reg-platz:not(.aus)").length,
+    vorn: !!document.querySelector(".reg-platz:not(.aus).vorne"),
+    fotos: [...document.querySelectorAll(".reg-platz.nah:not(.aus):not(.weg) .reg-foto-bild")].map((i) => i.complete && i.naturalWidth > 0),
+    querScroll: document.documentElement.scrollWidth > innerWidth,
+    suche: location.search,
+    // Reiter dürfen die Walze nicht überdecken (mobil darüber, Desktop links daneben)
+    frei: (() => { const n = document.querySelector(".reg-reiter").getBoundingClientRect(), w = document.querySelector(".reg-walze").getBoundingClientRect(); return n.bottom <= w.top + 1 || n.right <= w.left + 1; })(),
+  }));
+const visumLabel = themenDaten.themen.visum;
+for (const breite of [390, 1280]) {
+  const e = await seite("/episodes/", breite);
+  let z = await zustand(e.pg);
+  pruefe(z.reiter.length === themenMitFolgen.length + 1 && z.reiter[0] === "Alle" && z.gedrueckt.join() === "Alle" && z.karten === alleFolgen.length && z.frei, `${breite}px /episodes/: ${z.reiter.length} Themenreiter (erwartet ${themenMitFolgen.length + 1}), aktiv „${z.gedrueckt.join()}“, ${z.karten} Folgen, Reiter ${z.frei ? "neben/über" : "ÜBER"} der Walze`);
+  await e.pg.locator(".reg-reiter-knopf", { hasText: visumLabel }).click();
+  await e.pg.waitForTimeout(900);
+  z = await zustand(e.pg);
+  pruefe(z.gedrueckt.join() === visumLabel && z.karten === anzahlThema("visum") && z.vorn && z.suche === "?thema=visum" && z.fotos.every(Boolean) && !z.querScroll, `${breite}px /episodes/: Klick „${visumLabel}“ → ${z.karten} Folgen (erwartet ${anzahlThema("visum")}), Adresse ${z.suche}, ${z.fotos.filter(Boolean).length}/${z.fotos.length} Fotos`);
+  await e.pg.locator(".reg-reiter-knopf", { hasText: visumLabel }).click();
+  await e.pg.waitForTimeout(400);
+  z = await zustand(e.pg);
+  pruefe(z.gedrueckt.join() === "Alle" && z.karten === alleFolgen.length && z.suche === "", `${breite}px /episodes/: nochmal klicken → wieder alle ${z.karten} Folgen`);
+  await e.ctx.close();
+  const g = await seite("/episodes/?thema=visum", breite);
+  await g.pg.waitForTimeout(900);
+  z = await zustand(g.pg);
+  pruefe(z.gedrueckt.join() === visumLabel && z.karten === anzahlThema("visum") && z.fotos.every(Boolean) && !z.querScroll && g.kaputt.length === 0, `${breite}px /episodes/?thema=visum lädt gefiltert: ${z.karten} Folgen, ${z.fotos.filter(Boolean).length}/${z.fotos.length} Fotos ${g.kaputt.join(" | ")}`);
+  await g.ctx.close();
+}
+const su = await seite("/episodes/?q=Schule", 390);
+await su.pg.waitForSelector("section[aria-live] li", { timeout: 15000 }).catch(() => {});
+const suTitel = await su.pg.locator("section[aria-live] li h2").allInnerTexts();
+pruefe(suTitel.some((t) => /home ?schooling/i.test(t)) && suTitel.some((t) => /onlineschule/i.test(t)) && /schule/i.test(suTitel[0] || ""), `/episodes/?q=Schule: ${suTitel.length} Treffer, erster „${suTitel[0] || "-"}“, Homeschooling und Onlineschule dabei`);
+await su.ctx.close();
+const chipFolge = alleFolgen.find((f) => themenListe(themenDaten.folgen[f.slug]).length);
+const chipHtml = await (await fetch(`${basis}/episodes/${chipFolge.slug}/`)).text();
+const chips = themenListe(themenDaten.folgen[chipFolge.slug]).filter((k) => chipHtml.includes(`href="/episodes/?thema=${k}"`));
+pruefe(chips.length === themenListe(themenDaten.folgen[chipFolge.slug]).length, `/episodes/${chipFolge.slug}/: Themen-Chips ${chips.join(", ")}`);
 
 const blog = await seite("/blog/");
 pruefe(blog.status === 200, `/blog/ HTTP ${blog.status}`);

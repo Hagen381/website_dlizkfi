@@ -118,9 +118,10 @@ mehr.
   in der Navigation unverändert.
 - Kopf als Glasfläche: nur H1 „Alle Folgen“ und die echte Suche
   (`FolgenSuche` mit `kopfClassName`; Treffer als normale Liste mit
-  `FolgenKarte`). Darunter (ohne Hinweiszeile, seit 12.11.2026 entfernt;
-  Abstand Kopf → Register 28 px) Monatsreiter (Klick springt zur
-  neuesten Folge des Monats) und die Walze mit ALLEN Folgen (rotateX 24°,
+  `FolgenKarte` bzw. `ArtikelTrefferKarte`, siehe „Suche“). Darunter (ohne
+  Hinweiszeile, seit 12.11.2026 entfernt; Abstand Kopf → Register 28 px) die
+  Themenreiter (siehe „Themen“; seit 12.11.2026 statt der Monatsreiter) und
+  die Walze mit ALLEN Folgen bzw. denen des gewählten Themas (rotateX 24°,
   Radius 520 px, ±3 sichtbar, außerhalb `visibility: hidden`). Fotos:
   „Foto zur Folge“ (siehe „Folgenbilder“), erst geladen, wenn die Karte in
   die Nähe kommt.
@@ -139,7 +140,7 @@ mehr.
   `fotoZurFolge()` in `src/lib/folgen-foto.ts`, Reihenfolge: 1. Kartenbild
   des Blogartikels (mit `kartenbild-position`), 2. Folgenbild
   `/images/folgen/<slug>.jpg`, 3. Rückfall Collage-Foto per FNV-1a-Hash des
-  Slugs. Genutzt in Walzen-Karten, Monatsreitern, Liste ohne JS,
+  Slugs. Genutzt in Walzen-Karten, Themenreitern, Liste ohne JS,
   Suchtreffern (`FolgenKarte`, Foto steht in `/suche.json`) und auf der
   Startseite („Neueste Folge“, „Weitere Folgen“). Die Folgenseiten
   `/episodes/<slug>/` behalten das Podcast-Cover. Alt-Text leer (Titel steht
@@ -158,9 +159,55 @@ mehr.
   „kopf“ neben der Kopf-Glasfläche (ab 1280 px, oben 8–12 px — tiefer
   berühren sie bei 1280 px Reiter bzw. Walze), „seite“ an der Kante des
   Registers ausgerichtet, nur ab 1360 px — nie über Reitern oder Walze.
-  Mobil: Reiter als wischbare Leiste, Suchfeld volle Breite, „Suchen“
+  Mobil: Themenreiter als wischbare Leiste, Suchfeld volle Breite, „Suchen“
   darunter; Karte 236 px hoch, die Knöpfe als eigene Zeile über die ganze
   Kartenbreite (`.reg-text` dort `display: contents`).
+- **Themen** (seit 12.11.2026): `content/themen.json` (vom Projekt-Chat,
+  von Hagen freigegeben; Labels und Zuordnung wörtlich übernehmen):
+  `{"themen": {key: Label, …}, "folgen": {slug: [keys] | {"themen": [keys],
+  "auto": true}}}`. Reihenfolge der Themen = Reihenfolge der Reiter. Ein
+  Array = geprüft, ein Objekt mit `"auto": true` = automatisch vergeben,
+  noch nicht geprüft (für die Seite gleichwertig). Gelesen nur über
+  `src/lib/themen.ts` (`themen`, `themenZurFolge()`).
+  - `scripts/themen-pruefen.mjs` läuft vor jedem Build (live und Vorschau,
+    nach `adressen-pruefen.mjs`) und im Montagslauf vor dem Commit der neuen
+    Folge: Abbruch bei unbekanntem Slug, unbekanntem Thema, leerer Liste,
+    falschem Format. **Neue Folge ohne Eintrag: KEIN Abbruch** — Themen per
+    Stichwortregeln aus Titel/Shownotes (`scripts/themen-regeln.mjs`: Titel
+    zählt immer, Shownotes ab 2 Treffern, ohne den Standard-Schluss; max. 3,
+    sonst „updates“), Eintrag mit `"auto": true`, Warnung „Themen
+    automatisch vergeben: <slug> → …“ gelb im Log und in der
+    Zusammenfassung des Laufs (auch danach bei jedem Build, solange der
+    Eintrag ungeprüft ist). Der Deploy committet `content/themen.json`
+    zusammen mit `content/folgen.json`. Der Projekt-Chat schickt die
+    geprüften Themen per `uebergabe` (dann als Array, ohne `"auto"`).
+  - Themenreiter auf `/episodes/` (`RegisterWalze.tsx`, gleicher Platz und
+    Stil wie früher die Monatsreiter: links 190 px, mobil eine wischbare
+    Leiste): „Alle“ + jedes Thema mit Folgen, je mit Anzahl und dem Foto der
+    neuesten Folge des Themas. Klick = Filter: Reiter gelb (`aria-pressed`,
+    kurze Animation, nicht bei `prefers-reduced-motion`), die Walze zeigt
+    nur die Folgen des Themas (neueste vorn, die anderen Karten bleiben als
+    `.aus` im DOM), Live-Ansage „Thema X: n Folgen“; nochmal klicken oder
+    „Alle“ = alle. `?thema=<key>` in der Adresse (teilbar, beim Laden
+    ausgewertet; Canonical bleibt `/episodes/`). Ohne JS: Liste aller Folgen
+    (Reiter ausgeblendet). Die Reiterleiste ist positioniert (sonst ragen
+    die `sr-only`-Texte der Anzahl mobil aus der Leiste → Querscrollen);
+    mobil `top: auto` (das Desktop-`top: 96px` der Sticky-Spalte würde die
+    Leiste sonst unter die Walze schieben).
+  - Themen-Chips (`src/components/ThemenChips.tsx`): Folgenseite (unter den
+    Shownotes, nach dem Player) und Blogartikel (vor dem Kasten „Zur
+    Folge“), Link auf `/episodes/?thema=<key>`, dezent, Trefferfläche 44 px,
+    kein 3D.
+- **Suche** (seit 12.11.2026): Index `/suche.json`
+  (`src/app/suche.json/route.ts`) mit Folgen (Titel, Themen-Labels,
+  Shownotes) und Blogartikeln (Titel, Beschreibung, Text; live nur
+  veröffentlichte, Vorschau auch Entwürfe). **Keine Transkripte.** Logik
+  `src/lib/suche.ts`: Teilwörter, jedes Suchwort muss vorkommen, Synonyme
+  (`SYNONYME`: Schule↔Homeschooling/Onlineschule/Unterricht, Visum↔Visa,
+  Geld↔Finanzen/Steuern, Hund↔Hunde/Tiere,
+  Krankenhaus↔Hospital/Gesundheit), Reihenfolge Titel > Themen > Text, bei
+  Gleichstand neueste zuerst. Blogartikel als eigene Treffer mit Marke
+  „Blogartikel“ (`ArtikelTrefferKarte.tsx`).
 - **Keine Blätterseiten mehr**: `/episodes/page/N/` (und `/episodes/page/`)
   sowie PodViews `/episodes/?page=N` leiten per 301 direkt auf `/episodes/`
   (ein Schritt, `.htaccess`); nicht im Export, nicht in der Sitemap. Die
@@ -630,7 +677,12 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   alte Sitemaps/`?page=N`/`/episodes/page/2/` → `/episodes/`, kein
   X-Robots-Tag, Polaroid-Collage der
   Startseite bei 360/390/820/1280/1440 px (Anzahl sichtbar, Fotos geladen,
-  nichts über den Rand), Folgen-Register (alle Folgen als Link im HTML; bei
+  nichts über den Rand), Themenreiter bei 390/1280 px (Anzahl, „Alle“
+  aktiv, Reiter nicht über der Walze, Klick auf „Visum & Bürokratie“ filtert
+  + `?thema=visum`, nochmal klicken = alle, `/episodes/?thema=visum` lädt
+  gefiltert, Fotos geladen), Suche „Schule“ (Homeschooling/Onlineschule
+  dabei, Titeltreffer zuerst), Themen-Chips auf einer Folgenseite,
+  Folgen-Register (alle Folgen als Link im HTML; bei
   360/390/820/1280/1440 px Walze sichtbar, vordere Karte im Bild, Fotos
   geladen — Bilder außerhalb eines waagerecht scrollbaren Ausschnitts wie der
   mobilen Reiterleiste zählen nicht —, nichts über den Rand, H1), Blog-Karussell (alle Artikel als Link im HTML,
