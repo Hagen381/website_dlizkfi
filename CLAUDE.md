@@ -610,6 +610,15 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
     `/xmlrpc.php`, `/readme.html`, `/index.htm`, `/license.txt`,
     `/index.php`, `/wp-content/`, `/wp-includes/`, `/pinterest-media/`
     liefern 404/403, dann die volle Live-Prüfung.
+  - **Erledigt am 12.11.2026** (Prüfsumme `828e45ccd35ccfff`): 27.200
+    Dateien (855 MB) und 3.590 Ordner gelöscht, FTPS-Kontrolle ok, alle 10
+    WordPress-Adressen 404 (`/wp-content/` 403, weil dort Punkt-Dateien
+    liegen), Live-Prüfung grün. Stehen geblieben sind nur 33 Punkt-Dateien
+    (z. B. `.htaccess` in Backup-/Cache-Ordnern von `wp-content/`) samt
+    ihren Ordnern — bei Bedarf löscht Hagen sie im KAS-Dateimanager.
+    Hinweis: Listen dieser Größe passen nicht in die Zusammenfassung des
+    Laufs (GitHub-Grenze 1 MB, Fehlermeldung im Protokoll ohne Folgen), die
+    vollständige Liste steht im Protokoll. Der Lauf dauerte ~3,5 h.
 - `.htaccess` wird im Build erzeugt (`scripts/nach-dem-build.mjs`):
   http→https und ohne www → `https://www` (ein 301), alte `/sitemap-pages.xml` und
   `/sitemap-episodes.xml?…` → `/sitemap.xml`, `/episodes/page/N/`,
