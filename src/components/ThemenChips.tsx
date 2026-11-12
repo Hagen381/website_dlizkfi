@@ -2,10 +2,11 @@ import Link from "next/link";
 import type { Thema } from "@/lib/themen";
 
 // Themen einer Folge als kleine Chips (Folgenseite, Blogartikel), jeweils Link
-// auf die gefilterte Übersicht /episodes/?thema=<key>. Dezent und unterhalb
+// auf die gefilterte Übersicht: Folgenseite → /episodes/?thema=<key>,
+// Blogartikel (ziel="blog") → /blog/?thema=<key>. Dezent und unterhalb
 // des Inhalts, nie über dem Player. Die Trefferfläche ist 44 px hoch, der
 // sichtbare Chip kleiner. Kein 3D (wie Textlinks).
-export default function ThemenChips({ themen, className = "" }: { themen: Thema[]; className?: string }) {
+export default function ThemenChips({ themen, className = "", ziel = "episodes" }: { themen: Thema[]; className?: string; ziel?: "episodes" | "blog" }) {
   if (!themen.length) return null;
   return (
     <nav aria-label="Themen dieser Folge" className={className}>
@@ -15,7 +16,7 @@ export default function ThemenChips({ themen, className = "" }: { themen: Thema[
         </li>
         {themen.map((t) => (
           <li key={t.key}>
-            <Link href={`/episodes/?thema=${t.key}`} className="group inline-flex min-h-11 items-center rounded-full focus-visible:outline-offset-0">
+            <Link href={`/${ziel}/?thema=${t.key}`} className="group inline-flex min-h-11 items-center rounded-full focus-visible:outline-offset-0">
               <span className="rounded-full border border-border bg-bg/70 px-3 py-1 text-sm leading-tight text-text transition-colors group-hover:border-primary group-hover:bg-primary/25">{t.label}</span>
             </Link>
           </li>

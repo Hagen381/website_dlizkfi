@@ -116,7 +116,7 @@
   position: relative;
   z-index: 2;
   max-width: 1040px;
-  margin: 32px auto 0;
+  margin: 18px auto 0;
 }
 @media (min-width: 1280px) {
   .br-bereich {
@@ -146,14 +146,15 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
-/* Blättern: Seite 1 ist Standard; die Seite steht als data-blog-seite am
-   <html> (gesetzt vom Inline-Skript vor dem Raster und von BlogBlaettern.tsx)
-   — so ist ?seite=N schon beim ersten Zeichnen richtig (CLS 0). Die Regeln
-   je Seite erzeugt page.tsx. Ohne JS zeigt blog-ohne-js.css alle Kacheln. */
+/* Filter/Blättern: Seite 1 ohne Thema ist Standard; Thema und Seite stehen
+   als data-blog-thema/data-blog-seite am <html> (gesetzt vom Inline-Skript
+   vor den Chips und von BlogBlaettern.tsx) — so sind ?thema=…&seite=N schon
+   beim ersten Zeichnen richtig (CLS 0). Die Regeln je Thema/Seite erzeugt
+   page.tsx. Ohne JS zeigt blog-ohne-js.css alle Kacheln. */
 .br-platz:not([data-seite="1"]) {
   display: none;
 }
-/* Überblenden nur nach einem Klick auf ← / → (nicht beim Laden) */
+/* Überblenden nur nach einem Klick auf ← / → oder einen Chip (nicht beim Laden) */
 [data-blog-geblaettert] .br-platz {
   animation: br-ein 0.35s ease both;
 }
@@ -165,6 +166,82 @@
   to {
     opacity: 1;
     transform: none;
+  }
+}
+
+/* ---------- Themen-Chips (Filter, BlogBlaettern.tsx) ---------- */
+/* Eine Zeile, waagerecht wischbar (nie umbrechen, die Seite scrollt nicht
+   quer). Stil wie die mobilen Themenreiter auf /episodes/ (farbige Kante
+   oben, ohne Foto). Aktiv = gelb: die Regeln dafür erzeugt page.tsx je
+   Thema aus data-blog-thema am <html> (stimmt schon vor dem Hydrieren). Die
+   Leiste ist positioniert, damit die sr-only-Texte der Anzahl in ihr bleiben. */
+.br-themen {
+  position: relative;
+  display: flex;
+  gap: 6px;
+  margin: 0 0 18px;
+  padding: 10px 2px 6px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: thin;
+}
+/* mittig, solange alles passt; sonst ab dem linken Rand scrollbar */
+.br-chip:first-child {
+  margin-left: auto;
+}
+.br-chip:last-child {
+  margin-right: auto;
+}
+.br-chip {
+  position: relative;
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 3px 8px 3px 12px;
+  border: 0;
+  border-top: 5px solid var(--primary);
+  border-radius: 16px 16px 0 0;
+  background: rgb(255 255 255 / 0.75);
+  color: var(--text);
+  font: 600 13px/1.2 var(--font-heading);
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgb(26 46 5 / 0.06);
+  transition:
+    transform 0.35s cubic-bezier(0.2, 0.9, 0.25, 1.15),
+    background-color 0.2s,
+    box-shadow 0.3s;
+}
+.br-chip:nth-child(3n + 2) {
+  border-top-color: var(--secondary);
+}
+.br-chip:nth-child(3n) {
+  border-top-color: #e9c45a;
+}
+.br-chip-zahl {
+  min-width: 24px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: rgb(26 46 5 / 0.07);
+  font-size: 12px;
+  text-align: center;
+}
+@media (hover: hover) {
+  .br-chip:hover {
+    transform: translateY(-3px);
+  }
+}
+@keyframes br-chip-an {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  55% {
+    transform: translateY(-7px) scale(1.06);
+  }
+  100% {
+    transform: translateY(-5px) scale(1);
   }
 }
 
@@ -310,6 +387,7 @@
 @media (prefers-reduced-motion: reduce) {
   .br-pola-rahmen,
   .br-bild,
+  .br-chip,
   .br-weiter span[aria-hidden] {
     transition: none;
   }

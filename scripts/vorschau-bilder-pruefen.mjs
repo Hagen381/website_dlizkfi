@@ -158,7 +158,8 @@ for (const breite of [390, 1280]) {
 // zuerst), Datum je Kachel, Spalten 1/2/3 bei 360/390/820/1280/1440 px, alles
 // im Bild, Polaroids nicht über dem Raster, kein Querscrollen, Kartenbilder
 // geladen; ab 7 Artikeln Blättern (→, ?seite=2, Fokus, „2 / n“) und ?seite=2
-// direkt, sonst keine Steuerung.
+// direkt, sonst keine Steuerung; Themen-Chips in einer Zeile (≥ 44 px) und
+// ?thema=<größtes Thema>&seite=2 direkt (nur das Thema, CLS 0).
 if (seiten.includes("/blog/")) {
   const fs = await import("node:fs");
   const pfadBasis = new URL(basis).pathname.replace(/\/$/, "");
@@ -191,7 +192,8 @@ if (seiten.includes("/blog/")) {
         imBild: rects.every((r) => r.left >= 0 && r.right <= innerWidth),
         polaUeberRaster: !!bereich && polas.some((p) => p.right > bereich.left && p.left < bereich.right && p.bottom > bereich.top && p.top < bereich.bottom),
         querScroll: document.documentElement.scrollWidth > innerWidth,
-        steuerung: !!document.querySelector(".br-steuerung"),
+        steuerung: (document.querySelector(".br-steuerung")?.getClientRects().length ?? 0) > 0,
+        chips: [...document.querySelectorAll(".br-chip")].map((c) => ({ key: c.dataset.thema, anzahl: Number(c.querySelector(".br-chip-zahl").textContent.replace(/\D/g, "")), oben: c.offsetTop, hoehe: c.getBoundingClientRect().height, an: c.getAttribute("aria-pressed") === "true" })),
         zaehler: document.querySelector(".br-zaehler")?.textContent.replace(/\s+/g, " ").trim() ?? "",
         fokus: document.activeElement?.closest?.(".br-platz")?.querySelector("a")?.getAttribute("href") ?? "",
         suche: location.search,
@@ -230,6 +232,25 @@ if (seiten.includes("/blog/")) {
       meld(JSON.stringify(z.slugs) === JSON.stringify(slugs.slice(proSeite, 2 * proSeite)) && z.zaehler.endsWith(`2 / ${seitenZahl}`), `${breite}px /blog/?seite=2 lädt Seite 2 direkt`);
     } else {
       meld(!z.steuerung, `${breite}px /blog/: ${soll.length} Artikel → keine Blätter-Steuerung`);
+    }
+    // Themen-Chips: eine Zeile, ≥ 44 px, „Alle“ + Anzahl aller Artikel;
+    // ?thema=<größtes Thema>&seite=2 lädt gefiltert (Seite 2 nur bei > 6),
+    // ohne Layoutsprung (CLS 0), Chip aktiv, kein Querscrollen.
+    if (z.chips.length) {
+      const alle = z.chips[0];
+      meld(new Set(z.chips.map((c) => c.oben)).size === 1 && z.chips.every((c) => c.hoehe >= 44) && alle.key === "alle" && alle.anzahl === soll.length, `${breite}px /blog/: ${z.chips.length} Themen-Chips in einer Zeile, ≥ 44 px, „Alle“ ${alle.anzahl}`);
+      const t = [...z.chips.slice(1)].sort((x, y) => y.anzahl - x.anzahl)[0];
+      await page.addInitScript(() => {
+        window.__cls = 0;
+        new PerformanceObserver((l) => { for (const e of l.getEntries()) if (!e.hadRecentInput) window.__cls += e.value; }).observe({ type: "layout-shift", buffered: true });
+      });
+      await page.goto(`${basis}/blog/?thema=${t.key}&seite=2`, { waitUntil: "networkidle", timeout: 60000 });
+      await page.waitForTimeout(800);
+      z = await zustand(page);
+      const cls = await page.evaluate(() => window.__cls);
+      const sollAnzahl = t.anzahl > proSeite ? Math.min(proSeite, t.anzahl - proSeite) : t.anzahl;
+      const nurThema = await page.evaluate((k) => [...document.querySelectorAll(".br-platz")].filter((l) => l.getClientRects().length > 0).every((l) => l.hasAttribute(`data-t-${k}`)), t.key);
+      meld(z.slugs.length === sollAnzahl && nurThema && z.chips.find((c) => c.an)?.key === t.key && cls === 0 && !z.querScroll, `${breite}px /blog/?thema=${t.key}&seite=2: ${z.slugs.length} Kachel(n) (erwartet ${sollAnzahl}), nur das Thema, Chip aktiv, CLS ${cls}`);
     }
     await ctx.close();
   }

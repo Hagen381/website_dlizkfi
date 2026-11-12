@@ -214,9 +214,9 @@ mehr.
     mobil `top: auto` (das Desktop-`top: 96px` der Sticky-Spalte würde die
     Leiste sonst unter die Walze schieben).
   - Themen-Chips (`src/components/ThemenChips.tsx`): Folgenseite (unter den
-    Shownotes, nach dem Player) und Blogartikel (vor dem Kasten „Zur
-    Folge“), Link auf `/episodes/?thema=<key>`, dezent, Trefferfläche 44 px,
-    kein 3D.
+    Shownotes, nach dem Player) → `/episodes/?thema=<key>`; Blogartikel (vor
+    dem Kasten „Zur Folge“, `ziel="blog"`) → `/blog/?thema=<key>` (seit
+    12.11.2026). Dezent, Trefferfläche 44 px, kein 3D.
 - **Suche** (seit 12.11.2026): Index `/suche.json`
   (`src/app/suche.json/route.ts`) mit Folgen (Titel, Themen-Labels,
   Shownotes) und Blogartikeln (Titel, Beschreibung, Text; live nur
@@ -306,8 +306,32 @@ mehr.
     Laden; `prefers-reduced-motion`: ohne), Fokus auf die erste Kachel der
     neuen Seite, Live-Ansage „Seite x von y“, `?seite=N` (Seite 1 ohne
     Parameter; Canonical bleibt `/blog/`).
+  - **Themenfilter** (seit 12.11.2026, Wunsch Hagen: platzsparend): Themen
+    eines Artikels = Themen seiner Folge (`folge-slug` → `content/themen.json`,
+    kein eigenes Frontmatter-Feld). Unter dem Kopf EINE waagerecht wischbare
+    Chip-Leiste (`.br-themen`, in `BlogBlaettern.tsx`): „Alle“ + nur Themen
+    mit mindestens einem Artikel, je mit Anzahl; Stil wie die mobilen
+    Themenreiter auf `/episodes/` (farbige Kante oben, ohne Foto), ≥ 44 px,
+    nie zweite Zeile (mittig, solange alles passt, sonst scrollbar), kein
+    Querscrollen der Seite. Aktiv = gelb + `aria-pressed`; das Gelb kommt aus
+    Regeln je Thema (`html[data-blog-thema=…] .br-chip[data-thema=…]`), damit
+    es schon vor dem Hydrieren stimmt; kurze Hervorhebung nur nach Klick
+    (`data-blog-gefiltert`, `prefers-reduced-motion`: ohne). Klick filtert
+    (nochmal = alle), Seite zurück auf 1, Live-Ansage „Thema X: n Artikel“,
+    `?thema=<key>` (kombinierbar mit `?seite=N`; Canonical bleibt `/blog/`).
+    Blättern rechnet je Thema neu (6 pro Seite, Steuerung nur bei > 6
+    Treffern, per CSS je Thema ausgeblendet).
+  - Sichtbarkeit nur über zwei Attribute am `<html>`: `data-blog-thema`
+    (fehlt = alle) und `data-blog-seite` (fehlt = 1). Jede Kachel trägt
+    `data-seite` (Seite ohne Filter) und je Thema `data-t-<key>="N"` (Seite
+    im Thema); `page.tsx` erzeugt die Regeln je Thema/Seite. Das Inline-Skript
+    vor den Chips liest `?thema`/`?seite` vor dem Zeichnen (CLS 0; unbekanntes
+    Thema oder zu große Seite = ignoriert). `BlogBlaettern` gleicht beim
+    Einhängen ab (wichtig nach Klick auf einen Artikel-Chip — Client-
+    Navigation, dort läuft das Inline-Skript nicht) und entfernt die
+    Attribute beim Verlassen. Themen-Schlüssel nur `a–z0–9-` (Build-Abbruch).
   - Ohne JavaScript: `src/app/blog/blog-ohne-js.css` (in `<noscript>`): alle
-    Kacheln, keine Steuerung.
+    Kacheln, keine Steuerung, keine Chips.
   - `.karte-ein` (globals.css) gibt es nicht mehr.
 - Button „Zur Podcastfolge" (`src/components/ZurPodcastfolge.tsx` über
   `GelberButton.tsx`, Stil wie „Abonnieren") kommt automatisch aus der Vorlage, sobald `folge-slug` gesetzt
@@ -529,7 +553,9 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   Artikel als Link im HTML, Reihenfolge/Datum, Marke „Entwurf“ genau bei
   Entwürfen, bei 360/390/820/1280/1440 px Spalten, alles im Bild, kein
   Querscrollen, Polaroids nicht über dem Raster, Kartenbilder geladen,
-  Blättern (→, `?seite=2`, Fokus, „2 / n“) und `?seite=2` direkt. Lokal: Export unter
+  Blättern (→, `?seite=2`, Fokus, „2 / n“) und `?seite=2` direkt,
+  Themen-Chips in einer Zeile (≥ 44 px) und `?thema=<größtes Thema>&seite=2`
+  direkt (nur das Thema, Chip aktiv, CLS 0). Lokal: Export unter
   `/website_dlizkfi/` ausliefern und das Skript mit dieser Basis aufrufen.
 
 ### Entwürfe nur in der Vorschau
@@ -745,7 +771,11 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   Reihenfolge/Datum, Kartenbilder; bei 360/390/820/1280/1440 px Spalten
   1/1/2/3/3, Seite 1 mit bis zu 6 Kacheln, alles im Bild, Polaroids nicht
   über dem Raster, kein Querscrollen; ab 7 Artikeln Blättern bei 390/1280 px
-  und `?seite=2` direkt, sonst keine Steuerung), Artikel, Navigation, Folgenseiten-Link,
+  und `?seite=2` direkt, sonst keine Steuerung; Themen-Chips bei allen
+  fünf Breiten: „Alle“ + Themen mit Artikeln samt Anzahl, eine Zeile,
+  ≥ 44 px, kein Querscrollen, CLS 0; bei 390/1280 px Klick auf das größte
+  Thema filtert + `?thema=…` + Ansage, nochmal = alle, `?thema=…&seite=2`
+  und `?seite=2` direkt mit CLS 0; Artikel-Chips → `/blog/?thema=…`), Artikel, Navigation, Folgenseiten-Link,
   Bilder, 404 für `/entwurf/`, `/entwurf/about/`, `/entwurf/folgen/`,
   `/entwurf/blog/`, `/entwurf/startseite/`). Läuft auch mit `--nur-neueste` nach einem
   Deploy mit neuer Folge.

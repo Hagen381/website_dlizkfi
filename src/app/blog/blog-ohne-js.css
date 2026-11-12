@@ -1,9 +1,10 @@
 /* Nur ohne JavaScript: page.tsx bettet diese Regeln in <noscript> ein. Alle
    Kacheln untereinander bzw. im Raster (jede ist ein echter Link), ohne
-   Blättern. !important, weil die Seiten-Regeln aus page.tsx sonst greifen. */
+   Blättern und ohne Themen-Chips. !important, weil die Seiten-Regeln aus page.tsx sonst greifen. */
 .br-platz {
   display: block !important;
 }
-.br-steuerung {
+.br-steuerung,
+.br-themen {
   display: none !important;
 }

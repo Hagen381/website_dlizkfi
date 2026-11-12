@@ -15,6 +15,8 @@
 // /blog/ als Kachel-Raster (alle Artikel verlinkt, Reihenfolge/Datum,
 // Kartenbilder, Spalten 1/2/3, nichts über den Rand, kein Querscrollen bei
 // 360/390/820/1280/1440 px, Blättern ab 7 Artikeln, sonst keine Steuerung,
+// Themen-Chips: eine Zeile, Filter per Klick, ?thema=…&seite=2, CLS 0;
+// Themen-Chips im Artikel → /blog/?thema=…,
 // Polaroids 0/0/0/4/8, keine Dopplung mit Kartenbildern, Kacheln ≥ 260 px),
 // jeder veröffentlichte Artikel (Bilder, Bildunterschriften, Zur-Folge-Kasten),
 // „Blog" in der Navigation, Kartenbilder, „Zur Podcastfolge"-Ziele, Sitemap,
@@ -334,7 +336,7 @@ const rasterZustand = (pg) =>
       imBild: rects.every((r) => r.left >= 0 && r.right <= innerWidth),
       polaUeberRaster: !!bereich && polas.some((p) => p.right > bereich.left && p.left < bereich.right && p.bottom > bereich.top && p.top < bereich.bottom),
       querScroll: document.documentElement.scrollWidth > innerWidth,
-      steuerung: !!document.querySelector(".br-steuerung"),
+      steuerung: (document.querySelector(".br-steuerung")?.getClientRects().length ?? 0) > 0,
       zaehler: document.querySelector(".br-zaehler")?.textContent.replace(/\s+/g, " ").trim() ?? "",
       fokus: document.activeElement?.closest?.(".br-platz")?.querySelector("a")?.getAttribute("href") ?? "",
       suche: location.search,
@@ -382,6 +384,96 @@ for (const breite of [360, 390, 820, 1280, 1440]) {
   }
 }
 
+// Themen-Chips auf /blog/ (Themen eines Artikels = Themen seiner Folge):
+// „Alle“ + jedes Thema mit Artikeln, mit Anzahl; eine Zeile, Chips ≥ 44 px,
+// kein Querscrollen; „Alle“ aktiv. Bei 390/1280 px: Klick filtert (nur die
+// Artikel des Themas, ?thema=…, Live-Ansage), nochmal klicken = alle;
+// /blog/?thema=<key>&seite=2 lädt gefiltert ohne Layoutsprung (CLS 0; die
+// Seite gilt nur, wenn das Thema mehr als 6 Artikel hat).
+const artikelThemen = Object.fromEntries(
+  erwartet.map((e) => {
+    const f = fs.readFileSync(`content/blog/${e.slug}.md`, "utf8").match(/folge-slug:\s*"?([^"\n]+)"?/)?.[1];
+    return [e.slug, themenListe(themenDaten.folgen[f])];
+  }),
+);
+const blogThemen = Object.keys(themenDaten.themen).filter((k) => reiheSlugs.some((s) => artikelThemen[s].includes(k)));
+const imThema = (k) => reiheSlugs.filter((s) => artikelThemen[s].includes(k));
+// Thema mit den meisten Artikeln (bei Gleichstand das erste)
+const testThema = [...blogThemen].sort((a, b) => imThema(b).length - imThema(a).length)[0];
+const chipZustand = (pg) =>
+  pg.evaluate(() => {
+    const chips = [...document.querySelectorAll(".br-chip")].filter((c) => c.getClientRects().length > 0);
+    return {
+      themen: chips.map((c) => c.dataset.thema),
+      zahlen: chips.map((c) => Number(c.querySelector(".br-chip-zahl").textContent.replace(/\D/g, ""))),
+      zeilen: new Set(chips.map((c) => c.offsetTop)).size,
+      hoehe: Math.round(Math.min(...chips.map((c) => c.getBoundingClientRect().height))),
+      gedrueckt: chips.filter((c) => c.getAttribute("aria-pressed") === "true").map((c) => c.dataset.thema),
+      gelb: chips.filter((c) => getComputedStyle(c).backgroundColor === "rgb(255, 200, 20)").map((c) => c.dataset.thema),
+      ansage: [...document.querySelectorAll(".br-bereich [aria-live]")].map((x) => x.textContent).join(" "),
+      cls: Math.round((window.__cls ?? 0) * 1000) / 1000,
+    };
+  });
+async function blogMitCls(pfad, breite) {
+  const ctx = await browser.newContext({ viewport: { width: breite, height: 900 } });
+  const pg = await ctx.newPage();
+  await pg.addInitScript(() => {
+    window.__cls = 0;
+    new PerformanceObserver((l) => { for (const e of l.getEntries()) if (!e.hadRecentInput) window.__cls += e.value; }).observe({ type: "layout-shift", buffered: true });
+  });
+  await pg.goto(basis + pfad, { waitUntil: "networkidle", timeout: 60000 });
+  await pg.waitForTimeout(800);
+  return { ctx, pg };
+}
+if (blogThemen.length) {
+  for (const breite of [360, 390, 820, 1280, 1440]) {
+    const b = await blogMitCls("/blog/", breite);
+    const c = await chipZustand(b.pg);
+    const k = await rasterZustand(b.pg);
+    pruefe(
+      JSON.stringify(c.themen) === JSON.stringify(["alle", ...blogThemen]) && c.zahlen[0] === reiheSlugs.length && blogThemen.every((t, i) => c.zahlen[i + 1] === imThema(t).length) && c.zeilen === 1 && c.hoehe >= 44 && c.gedrueckt.join() === "alle" && c.gelb.join() === "alle" && !k.querScroll && c.cls === 0,
+      `${breite}px /blog/: Themen-Chips „Alle“ + ${blogThemen.length} mit Anzahl, ${c.zeilen} Zeile, ≥ 44 px (${c.hoehe}), aktiv ${c.gelb.join()}, kein Querscrollen, CLS ${c.cls}`,
+    );
+    if (breite === 390 || breite === 1280) {
+      const soll = imThema(testThema);
+      const label = themenDaten.themen[testThema];
+      await b.pg.locator(`.br-chip[data-thema="${testThema}"]`).click();
+      await b.pg.waitForTimeout(600);
+      let z = await rasterZustand(b.pg);
+      let cz = await chipZustand(b.pg);
+      pruefe(
+        JSON.stringify(z.slugs) === JSON.stringify(soll.slice(0, proSeite)) && z.suche === `?thema=${testThema}` && cz.gedrueckt.join() === testThema && cz.gelb.join() === testThema && cz.ansage.includes(`Thema ${label}: ${soll.length} Artikel`) && z.steuerung === soll.length > proSeite && !z.querScroll,
+        `${breite}px /blog/: Klick „${label}“ → ${z.slugs.length} Artikel (erwartet ${soll.length}), ${z.suche}, Ansage „${cz.ansage.trim()}“, Blättern ${z.steuerung ? "ja" : "nein"}`,
+      );
+      await b.pg.locator(`.br-chip[data-thema="${testThema}"]`).click();
+      await b.pg.waitForTimeout(600);
+      z = await rasterZustand(b.pg);
+      cz = await chipZustand(b.pg);
+      pruefe(JSON.stringify(z.slugs) === JSON.stringify(reiheSlugs.slice(0, proSeite)) && z.suche === "" && cz.gedrueckt.join() === "alle", `${breite}px /blog/: nochmal klicken → alle (${z.slugs.length} Kacheln), Adresse ohne ?thema`);
+    }
+    await b.ctx.close();
+    if (breite === 390 || breite === 1280) {
+      const soll = imThema(testThema);
+      const zweite = soll.length > proSeite;
+      const d = await blogMitCls(`/blog/?thema=${testThema}&seite=2`, breite);
+      const z = await rasterZustand(d.pg);
+      const cz = await chipZustand(d.pg);
+      const sollSlugs = zweite ? soll.slice(proSeite, 2 * proSeite) : soll.slice(0, proSeite);
+      pruefe(
+        JSON.stringify(z.slugs) === JSON.stringify(sollSlugs) && cz.gelb.join() === testThema && cz.gedrueckt.join() === testThema && cz.cls === 0 && !z.querScroll && z.geladen === z.bilder,
+        `${breite}px /blog/?thema=${testThema}&seite=2 lädt gefiltert (${z.slugs.length} Kachel(n), ${zweite ? "Seite 2" : "Thema hat eine Seite → Seite 1"}), CLS ${cz.cls}`,
+      );
+      await d.ctx.close();
+      if (seitenZahl > 1) {
+        const e = await blogMitCls("/blog/?seite=2", breite);
+        const cz2 = await chipZustand(e.pg);
+        pruefe(cz2.cls === 0, `${breite}px /blog/?seite=2: CLS ${cz2.cls}`);
+        await e.ctx.close();
+      }
+    }
+  }
+}
+
 for (const datei of artikel) {
   const slug = datei.replace(/\.md$/, "");
   const md = fs.readFileSync(`content/blog/${datei}`, "utf8");
@@ -404,7 +496,7 @@ for (const datei of artikel) {
     if (folge && breite === 390) {
       const sollChips = themenListe(themenDaten.folgen[folge]);
       const chipZiele = await a.pg.locator("nav[aria-label='Themen dieser Folge'] a").evaluateAll((as) => as.map((x) => x.getAttribute("href")));
-      pruefe(sollChips.length > 0 && sollChips.every((k) => chipZiele.some((h) => h.endsWith(`/episodes/?thema=${k}`))), `Artikel /blog/${slug}/: Themen-Chips ${sollChips.join(", ")}`);
+      pruefe(sollChips.length > 0 && sollChips.every((k) => chipZiele.some((h) => h.endsWith(`/blog/?thema=${k}`))), `Artikel /blog/${slug}/: Themen-Chips ${sollChips.join(", ")} → /blog/?thema=…`);
     }
     await a.ctx.close();
   }

@@ -112,7 +112,7 @@ export default async function BlogArtikel({ params }: Props) {
           {a.bloecke.map((b, i) => (b.art === "bild" ? <BlogBild key={i} bild={b} /> : <div key={i} dangerouslySetInnerHTML={{ __html: b.html }} />))}
         </div>
 
-        {folge && <ThemenChips themen={themenZurFolge(folge.slug)} className="mt-8" />}
+        {folge && <ThemenChips themen={themenZurFolge(folge.slug)} ziel="blog" className="mt-8" />}
 
         {folge && <ZurFolge folge={folge} />}
       </article>

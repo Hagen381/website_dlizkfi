@@ -4,14 +4,17 @@ import type { CSSProperties } from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { BlogBildRoh } from "@/components/BlogBild";
-import BlogBlaettern from "@/components/BlogBlaettern";
+import BlogBlaettern, { type BlogThema } from "@/components/BlogBlaettern";
 import { artikel, datumLesbar } from "@/lib/blog";
 import { breadcrumb, JsonLd } from "@/lib/seo";
 import { siteConfig } from "@/lib/site-config";
+import { themen, themenZurFolge } from "@/lib/themen";
 
 // Blogübersicht als Kachel-Raster (seit 12.11.2026, vorher 3D-Karussell):
 // 6 Artikel pro Seite (ab 1024 px 3 × 2, 640–1023 px 2 Spalten, darunter 1),
-// Blättern mit ← „1 / 2“ → (src/components/BlogBlaettern.tsx, ?seite=N).
+// Blättern mit ← „1 / 2“ → und Themen-Chips darüber (Themen eines Artikels =
+// Themen seiner Folge aus content/themen.json; src/components/BlogBlaettern.tsx,
+// ?thema=<key>&seite=N).
 // Stile: ./blog.css (beim Build ohne Kommentare inline eingebettet) und
 // ./blog-ohne-js.css (nur in <noscript>: alle Kacheln, kein Blättern). Alle
 // Artikel-Links stehen im ausgelieferten HTML.
@@ -84,14 +87,50 @@ for (const p of POLAROIDS) {
 // Solange es keine veröffentlichten Artikel gibt, ist /blog/ weder in der
 // Navigation noch in der Sitemap (hatBlog in src/lib/blog.ts).
 export default function Blog() {
+  // Themen je Artikel (über die Folge) und Seite des Artikels innerhalb jedes
+  // seiner Themen (data-t-<key>="N" an der Kachel).
+  const artikelThemen = artikel.map((a) => themenZurFolge(a.folgeSlug).map((t) => t.key));
+  const chipThemen: BlogThema[] = themen.map((t) => ({ ...t, anzahl: artikelThemen.filter((k) => k.includes(t.key)).length })).filter((t) => t.anzahl > 0);
+  for (const t of chipThemen) if (!/^[a-z0-9-]+$/.test(t.key)) throw new Error(`/blog/: Themen-Schlüssel "${t.key}" nur aus a–z, 0–9, „-“ erlaubt.`);
+  const seiteImThema = artikel.map(() => ({}) as Record<string, number>);
+  for (const t of chipThemen) {
+    let n = 0;
+    artikelThemen.forEach((k, i) => {
+      if (k.includes(t.key)) seiteImThema[i][t.key] = Math.floor(n++ / PRO_SEITE) + 1;
+    });
+  }
   const seiten = Math.max(1, Math.ceil(artikel.length / PRO_SEITE));
-  // Je Seite: Kacheln der Seite 1 aus-, die der Seite N einblenden, wenn
-  // <html data-blog-seite="N"> gesetzt ist (siehe BlogBlaettern.tsx).
-  const seitenCss = Array.from({ length: seiten - 1 }, (_, k) => k + 2)
-    .map((n) => `html[data-blog-seite="${n}"] .br-platz[data-seite="1"]{display:none}html[data-blog-seite="${n}"] .br-platz[data-seite="${n}"]{display:block}`)
-    .join("");
-  // Läuft vor dem Zeichnen des Rasters: ?seite=N sofort anwenden (CLS 0)
-  const seitenSkript = `try{var s=Number(new URLSearchParams(location.search).get("seite"));if(s>1&&s<=${seiten}&&s%1===0)document.documentElement.dataset.blogSeite=s}catch(e){}`;
+  const seitenJe: Record<string, number> = { "": seiten, ...Object.fromEntries(chipThemen.map((t) => [t.key, Math.ceil(t.anzahl / PRO_SEITE)])) };
+
+  // Sichtbarkeit je Thema/Seite über <html data-blog-thema data-blog-seite>
+  // (siehe BlogBlaettern.tsx). Ohne Thema: Seiten wie bisher.
+  const ohne = "html:not([data-blog-thema])";
+  const regeln: string[] = [];
+  for (let n = 2; n <= seiten; n++) {
+    regeln.push(`${ohne}[data-blog-seite="${n}"] .br-platz[data-seite="1"]{display:none}${ohne}[data-blog-seite="${n}"] .br-platz[data-seite="${n}"]{display:block}`);
+  }
+  if (seiten < 2) regeln.push(`${ohne} .br-steuerung{display:none}`);
+  for (const t of chipThemen) {
+    const h = `html[data-blog-thema="${t.key}"]`;
+    regeln.push(`${h} .br-platz{display:none}${h} .br-platz[data-t-${t.key}="1"]{display:block}`);
+    for (let n = 2; n <= seitenJe[t.key]; n++) {
+      regeln.push(`${h}[data-blog-seite="${n}"] .br-platz[data-t-${t.key}="1"]{display:none}${h}[data-blog-seite="${n}"] .br-platz[data-t-${t.key}="${n}"]{display:block}`);
+    }
+    if (seitenJe[t.key] < 2) regeln.push(`${h} .br-steuerung{display:none}`);
+  }
+  // Aktiver Chip (gelb) — schon vor dem Hydrieren richtig; Hervorhebung nur
+  // nach einem Klick (data-blog-gefiltert, gesetzt von BlogBlaettern.tsx).
+  const aktiv = [`${ohne} .br-chip[data-thema="alle"]`, ...chipThemen.map((t) => `html[data-blog-thema="${t.key}"] .br-chip[data-thema="${t.key}"]`)];
+  regeln.push(`${aktiv.join(",")}{background:var(--primary);transform:translateY(-5px);box-shadow:0 8px 18px rgb(26 46 5 / 0.16)}`);
+  regeln.push(`${aktiv.map((x) => `${x} .br-chip-zahl`).join(",")}{background:rgb(255 255 255 / 0.7)}`);
+  regeln.push(
+    `@media (prefers-reduced-motion: no-preference){${aktiv.map((x) => x.replace(/^html/, "html[data-blog-gefiltert]")).join(",")}{animation:br-chip-an 0.45s cubic-bezier(0.2, 0.9, 0.25, 1.2)}}`,
+  );
+  const seitenCss = regeln.join("");
+
+  // Läuft vor dem Zeichnen von Chips und Raster: ?thema=<key>&seite=N sofort
+  // anwenden (CLS 0). Unbekanntes Thema/zu große Seite = ignorieren.
+  const seitenSkript = `try{var p=new URLSearchParams(location.search),d=document.documentElement,m=${JSON.stringify(seitenJe)},t=p.get("thema"),n=m[""];if(t&&Object.prototype.hasOwnProperty.call(m,t)&&t!==""){d.dataset.blogThema=t;n=m[t]}var s=Number(p.get("seite"));if(s>1&&s<=n&&s%1===0)d.dataset.blogSeite=s}catch(e){}`;
 
   return (
     <>
@@ -123,52 +162,53 @@ export default function Blog() {
           <p className="br-hinweis">Hier erscheinen bald Artikel zu den Folgen.</p>
         ) : (
           <section className="br-bereich" aria-label="Blogartikel">
-            {seiten > 1 && <script dangerouslySetInnerHTML={{ __html: seitenSkript }} />}
-            <ol className="br-raster">
-              {artikel.map((a, i) => {
-                const minuten = lesezeit(a.bloecke);
-                return (
-                  <li key={a.slug} className="br-platz" data-seite={Math.floor(i / PRO_SEITE) + 1}>
-                    <article className="kipp kipp-karte br-kachel">
-                      <Link href={`/blog/${a.slug}/`} className="br-link">
-                        <span className="br-bild-rahmen">
-                          {a.kartenbild && (
-                            <BlogBildRoh
-                              bild={{ src: a.kartenbild.src, alt: "", width: 640, height: 480 }}
-                              // Kachelbreite je Stufe (blog.css): 1 Spalte = Breite − 32 px,
-                              // 2 Spalten, 3 Spalten (ab 1280 px neben den Polaroids)
-                              sizes="(min-width: 1440px) calc(33vw - 196px), (min-width: 1280px) calc(33vw - 150px), (min-width: 1024px) calc(33vw - 27px), (min-width: 640px) calc(50vw - 28px), calc(100vw - 32px)"
-                              // Vorderste Kachel = LCP: nicht lazy, fetchpriority="high"
-                              wichtig={i === 0}
-                              className="kipp-bild br-bild"
-                              style={{ objectPosition: a.kartenbildPosition }}
-                            />
-                          )}
-                        </span>
-                        <span className="br-text">
-                          <span className="br-meta">
-                            <time dateTime={a.datum}>{datumLesbar(a.datum)}</time>
-                            {minuten && (
-                              <>
-                                <span aria-hidden="true">·</span>
-                                <span>{minuten} Min. Lesezeit</span>
-                              </>
+            <script dangerouslySetInnerHTML={{ __html: seitenSkript }} />
+            <BlogBlaettern themen={chipThemen} seitenJe={seitenJe} gesamt={artikel.length}>
+              <ol className="br-raster">
+                {artikel.map((a, i) => {
+                  const minuten = lesezeit(a.bloecke);
+                  return (
+                    <li key={a.slug} className="br-platz" data-seite={Math.floor(i / PRO_SEITE) + 1} {...Object.fromEntries(Object.entries(seiteImThema[i]).map(([k, n]) => [`data-t-${k}`, n]))}>
+                      <article className="kipp kipp-karte br-kachel">
+                        <Link href={`/blog/${a.slug}/`} className="br-link">
+                          <span className="br-bild-rahmen">
+                            {a.kartenbild && (
+                              <BlogBildRoh
+                                bild={{ src: a.kartenbild.src, alt: "", width: 640, height: 480 }}
+                                // Kachelbreite je Stufe (blog.css): 1 Spalte = Breite − 32 px,
+                                // 2 Spalten, 3 Spalten (ab 1280 px neben den Polaroids)
+                                sizes="(min-width: 1440px) calc(33vw - 196px), (min-width: 1280px) calc(33vw - 150px), (min-width: 1024px) calc(33vw - 27px), (min-width: 640px) calc(50vw - 28px), calc(100vw - 32px)"
+                                // Vorderste Kachel = LCP: nicht lazy, fetchpriority="high"
+                                wichtig={i === 0}
+                                className="kipp-bild br-bild"
+                                style={{ objectPosition: a.kartenbildPosition }}
+                              />
                             )}
-                            {a.entwurf && <span className="br-marke">Entwurf</span>}
                           </span>
-                          <h2 className="br-titel">{a.titel}</h2>
-                          <span className="br-beschreibung">{a.beschreibung}</span>
-                          <span className="br-weiter">
-                            Weiterlesen <span aria-hidden="true">→</span>
+                          <span className="br-text">
+                            <span className="br-meta">
+                              <time dateTime={a.datum}>{datumLesbar(a.datum)}</time>
+                              {minuten && (
+                                <>
+                                  <span aria-hidden="true">·</span>
+                                  <span>{minuten} Min. Lesezeit</span>
+                                </>
+                              )}
+                              {a.entwurf && <span className="br-marke">Entwurf</span>}
+                            </span>
+                            <h2 className="br-titel">{a.titel}</h2>
+                            <span className="br-beschreibung">{a.beschreibung}</span>
+                            <span className="br-weiter">
+                              Weiterlesen <span aria-hidden="true">→</span>
+                            </span>
                           </span>
-                        </span>
-                      </Link>
-                    </article>
-                  </li>
-                );
-              })}
-            </ol>
-            {seiten > 1 && <BlogBlaettern seiten={seiten} />}
+                        </Link>
+                      </article>
+                    </li>
+                  );
+                })}
+              </ol>
+            </BlogBlaettern>
           </section>
         )}
       </div>
