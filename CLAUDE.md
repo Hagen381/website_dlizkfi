@@ -380,7 +380,7 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   `/website_dlizkfi/` anfangen.
 - Job `bilder-pruefen` nach dem Deploy: `scripts/vorschau-bilder-pruefen.mjs`
   ruft Start, `/episodes/`, eine Folgenseite, `/follow/`, `/blog/` und
-  ggf. aktuelle Entwürfe (390 und 1280 px) mit Headless-Chromium auf, scrollt
+  aktuelle Entwürfe (`/entwurf/about/`) (390 und 1280 px) mit Headless-Chromium auf, scrollt
   bis unten und meldet jedes Bild, jede Schrift und jedes CSS/JS mit Fehler
   (ausgeblendete lazy-Bilder werden direkt angefragt). Lokal: Export unter
   `/website_dlizkfi/` ausliefern und das Skript mit dieser Basis aufrufen.
@@ -401,9 +401,24 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
 - Deploy-Prüfung k) bricht ab, wenn `entwurf/` oder `startseite-entwurf` im
   Live-Export steht; `scripts/live-pruefen.mjs` erwartet live 404 für
   `/entwurf/startseite/` und `/entwurf/`.
-- **Aktuell gibt es keinen Entwurf** (`entwuerfe` in `scripts/entwuerfe.mjs`
-  ist leer, `src/entwuerfe/` existiert nicht). Live-Prüfung erwartet 404 für
-  `/entwurf/`, `/entwurf/folgen/`, `/entwurf/blog/`, `/entwurf/startseite/`.
+- **Aktuell: `/entwurf/about/`** — Über-Seite im Stil von Startseite,
+  `/episodes/` und `/blog/` (`src/entwuerfe/about/`: `Seite.tsx`,
+  `ueber.css` inline, `PolaroidNeigung.tsx`). `/about/` bleibt live
+  unverändert bis zur Freigabe. Text WÖRTLICH aus `src/app/about/page.tsx`
+  (maschinell verglichen). Aufbau: Kopf als Glasfläche (Cover, H1 „Über …“
+  aus `siteConfig`, „Moderiert von …“); ab 1024 px je zwei Polaroids links
+  und rechts daneben (Kopf 600 px, ab 1280 px 660 px — nie über dem Kopf),
+  darunter dieselben vier als Reihe kleiner Polaroids über dem Kopf. Lesespalte
+  in Glasflächen (36,5 rem, Literata 18 px, 90 %), Irgendwann-Zeilen als eigene
+  Kachel (Bricolage, gelbe Kante, 94 %), zwei Fotostreifen mit je 3 Polaroids
+  (nur zwischen den Glasflächen, nie hinter Text), „Anhören auf“ als
+  Glasfläche mit den drei Plattform-Kacheln (`.kipp-dezent`, 56 px).
+  10 verschiedene Fotos aus `content/startseite/bilder/` über `BlogBildRoh`
+  (lazy, `aria-hidden`), Hover/Neigung wie Startseite. BreadcrumbList „Über“
+  → `/about/` für den späteren Livegang. Live 404 (Live-Prüfung), in der
+  Vorschau-Bildprüfung enthalten.
+- Live-Prüfung erwartet 404 für `/entwurf/`, `/entwurf/about/`,
+  `/entwurf/folgen/`, `/entwurf/blog/`, `/entwurf/startseite/`.
 - Früher: `/entwurf/folgen/` ist seit 12.11.2026 die echte Folgenübersicht
   `/episodes/` (siehe „Folgenübersicht“).
 - Früher: `/entwurf/blog/` ist seit 12.11.2026 die echte Blogübersicht
@@ -501,8 +516,8 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   Reihenfolge/Datum, Kartenbilder; bei 360/390/820/1280/1440 px sichtbar,
   vordere Karte im Bild, Steuerung zwischen Ring und Info-Kachel, kein
   Querscrollen), Artikel, Navigation, Folgenseiten-Link,
-  Bilder, 404 für `/entwurf/`, `/entwurf/folgen/`, `/entwurf/blog/`,
-  `/entwurf/startseite/`). Läuft auch mit `--nur-neueste` nach einem
+  Bilder, 404 für `/entwurf/`, `/entwurf/about/`, `/entwurf/folgen/`,
+  `/entwurf/blog/`, `/entwurf/startseite/`). Läuft auch mit `--nur-neueste` nach einem
   Deploy mit neuer Folge.
 - Lighthouse live: Workflow „Lighthouse live" (`lighthouse-live.yml`,
   manuell, Eingabe `pfade`) — Median aus 3 Läufen mobil und Desktop, Tabelle

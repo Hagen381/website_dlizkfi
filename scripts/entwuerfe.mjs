@@ -26,10 +26,11 @@ const wurzel = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const routenOrdner = path.join(wurzel, "src/app/entwurf");
 
 // Name der Route → Modul unter src/entwuerfe/, z. B. { folgen: "folgen/Seite" }
-// → /entwurf/folgen/. Aktuell keiner: /entwurf/blog/ ist seit 12.11.2026
-// /blog/, /entwurf/folgen/ seit 12.11.2026 /episodes/.
+// → /entwurf/folgen/. (/entwurf/blog/ ist seit 12.11.2026 /blog/,
+// /entwurf/folgen/ seit 12.11.2026 /episodes/.)
+// { about: "about/Seite" } → /entwurf/about/ (Über-Seite im neuen Stil)
 /** @type {Record<string, string>} */
-const entwuerfe = {};
+const entwuerfe = { about: "about/Seite" };
 
 fs.rmSync(routenOrdner, { recursive: true, force: true });
 

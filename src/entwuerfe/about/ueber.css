@@ -1,0 +1,328 @@
+/* Entwurf Über-Seite (nur Vorschau). Stil wie Startseite, /episodes/, /blog/:
+   gemeinsamer Seitenhintergrund (Layout), Glasflächen, Polaroids, 3D-Kacheln.
+   Wird inline eingebettet (ohne Kommentare). */
+
+.entwurf-balken {
+  margin: 0;
+  padding: 6px 16px;
+  background: var(--text);
+  color: #fff;
+  font: 600 13px/1.4 var(--font-heading);
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.ab-buehne {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px 80px;
+  overflow-x: clip;
+}
+
+/* ---------- Kopf ---------- */
+.ab-kopf-bereich {
+  position: relative;
+  margin-top: 24px;
+}
+.ab-kopf {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 26px 22px 24px;
+  text-align: center;
+}
+.ab-cover {
+  width: 144px;
+  height: 144px;
+  flex: none;
+  border-radius: 14px;
+  box-shadow: 0 8px 22px rgb(26 46 5 / 0.18);
+}
+.ab-titel {
+  margin: 0;
+  font: 700 clamp(26px, 4vw, 36px) / 1.15 var(--font-heading);
+  text-wrap: balance;
+}
+.ab-moderation {
+  margin: 10px 0 0;
+  font-size: 18px;
+  color: var(--muted);
+}
+@media (min-width: 640px) {
+  .ab-kopf {
+    flex-direction: row;
+    gap: 28px;
+    padding: 30px 34px;
+    text-align: left;
+    -webkit-backdrop-filter: blur(18px) saturate(1.2);
+    backdrop-filter: blur(18px) saturate(1.2);
+  }
+  .ab-cover {
+    width: 176px;
+    height: 176px;
+  }
+}
+
+/* ---------- Polaroids (Optik wie Startseite) ---------- */
+.ab-pola {
+  perspective: 900px;
+}
+.ab-pola-rahmen {
+  position: relative;
+  padding: 7px 7px 26px;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow:
+    0 1px 2px rgb(26 46 5 / 0.1),
+    0 8px 18px rgb(26 46 5 / 0.14);
+  transform: rotate(var(--r)) rotateX(var(--tx, 0deg)) rotateY(var(--ty, 0deg));
+  transition:
+    transform 0.55s cubic-bezier(0.2, 0.9, 0.25, 1.12),
+    box-shadow 0.45s ease;
+}
+.ab-pola-rahmen::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(260px circle at var(--gx, 50%) var(--gy, 30%), rgb(255 255 255 / 0.35), transparent 60%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.ab-pola-foto {
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: var(--surface);
+}
+.ab-pola-bild {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.2, 0.9, 0.25, 1);
+}
+@media (hover: hover) {
+  .ab-pola {
+    position: relative;
+  }
+  .ab-pola:hover {
+    z-index: 9;
+  }
+  .ab-pola:hover .ab-pola-rahmen {
+    transform: rotate(0deg) translateY(-12px) scale(1.24) rotateX(var(--tx, 0deg)) rotateY(var(--ty, 0deg));
+    box-shadow:
+      0 4px 10px rgb(26 46 5 / 0.16),
+      0 26px 50px rgb(26 46 5 / 0.28),
+      0 50px 90px rgb(26 46 5 / 0.12);
+  }
+  .ab-pola:hover .ab-pola-rahmen::after {
+    opacity: 1;
+  }
+  .ab-pola:hover .ab-pola-bild {
+    transform: scale(1.07);
+  }
+}
+
+/* Kopf-Fotos mobil: eine Reihe mit 4 kleinen über dem Kopf, nichts ragt
+   über den Rand (Breite aus der verfügbaren Zeile, Drehung klein). */
+.ab-kopf-fotos {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 auto 18px;
+  padding: 6px 6px 0;
+}
+.ab-kopf-fotos .ab-pola {
+  width: calc((100% - 3 * 8px) / 4);
+  max-width: 104px;
+}
+.ab-kopf-fotos .ab-pola-rahmen {
+  padding: 4px 4px 14px;
+  transform: rotate(calc(var(--r) * 0.6)) rotateX(var(--tx, 0deg)) rotateY(var(--ty, 0deg));
+}
+
+/* Ab 1024 px: je zwei Polaroids links und rechts neben dem Kopf, nie darüber */
+@media (min-width: 1024px) {
+  .ab-kopf-bereich {
+    display: flex;
+    align-items: center;
+    min-height: 390px;
+  }
+  .ab-kopf {
+    flex: 1;
+    max-width: 600px;
+  }
+  .ab-kopf-fotos {
+    position: absolute;
+    inset: 0;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .ab-kopf-fotos .ab-pola {
+    position: absolute;
+    width: 130px;
+    max-width: none;
+  }
+  .ab-kopf-fotos .ab-pola-rahmen {
+    padding: 7px 7px 26px;
+    transform: rotate(var(--r)) rotateX(var(--tx, 0deg)) rotateY(var(--ty, 0deg));
+  }
+  .ab-pola-links .ab-pola-rahmen {
+    transform-origin: left center;
+  }
+  .ab-pola-rechts .ab-pola-rahmen {
+    transform-origin: right center;
+  }
+  /* Kopf 600 px (ab 1280: 660 px) mittig, Fotos im Rand daneben:
+     1024 → 196 px Platz je Seite, Foto 130 px + Drehung. */
+  .ab-pola-k1 {
+    left: 26px;
+    top: 14px;
+  }
+  .ab-pola-k2 {
+    left: 6px;
+    top: 206px;
+  }
+  .ab-pola-k3 {
+    right: 22px;
+    top: 4px;
+  }
+  .ab-pola-k4 {
+    right: 4px;
+    top: 200px;
+  }
+}
+@media (min-width: 1280px) {
+  .ab-kopf {
+    max-width: 660px;
+  }
+  .ab-kopf-fotos .ab-pola {
+    width: 150px;
+  }
+}
+
+/* ---------- Lesespalte (wie Blogartikel: ~65 Zeichen, Literata 18 px) ---------- */
+.ab-lesen {
+  position: relative;
+  z-index: 2;
+  max-width: 36.5rem;
+  margin: 28px auto 0;
+  padding: 26px 22px;
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--text);
+}
+.ab-lesen p {
+  margin: 0 0 1.1em;
+}
+.ab-lesen p:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 640px) {
+  .ab-lesen {
+    padding: 32px 40px;
+  }
+}
+
+/* Irgendwann-Zeilen: eigene Kachel, Bricolage, gelbe Kante */
+.ab-irgendwann {
+  position: relative;
+  z-index: 2;
+  max-width: 36.5rem;
+  margin: 28px auto 0;
+  padding: 22px 24px 22px 22px;
+  border-left: 6px solid var(--primary);
+  border-radius: 6px 22px 22px 6px;
+  background: rgb(254 252 232 / 0.94);
+  box-shadow:
+    0 2px 6px rgb(26 46 5 / 0.06),
+    0 18px 44px rgb(26 46 5 / 0.12);
+  font: 600 clamp(19px, 2.6vw, 23px) / 1.4 var(--font-heading);
+  color: var(--text);
+}
+.ab-irgendwann span {
+  display: block;
+}
+.ab-irgendwann span + span {
+  margin-top: 6px;
+}
+
+/* ---------- Fotostreifen (rein dekorativ) ---------- */
+.ab-streifen {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 640px;
+  margin: 34px auto 0;
+  padding: 0 6px;
+}
+.ab-streifen .ab-pola {
+  width: calc((100% - 2 * 10px) / 3);
+  max-width: 190px;
+}
+.ab-streifen .ab-pola:nth-child(2) {
+  margin-top: 14px;
+}
+@media (max-width: 639px) {
+  .ab-streifen .ab-pola {
+    max-width: 112px;
+  }
+  .ab-streifen .ab-pola-rahmen {
+    padding: 5px 5px 18px;
+  }
+}
+@media (min-width: 640px) {
+  .ab-streifen {
+    gap: 24px;
+  }
+  .ab-streifen .ab-pola {
+    width: calc((100% - 2 * 24px) / 3);
+  }
+}
+
+/* ---------- Anhören auf ---------- */
+.ab-anhoeren {
+  position: relative;
+  z-index: 2;
+  max-width: 36.5rem;
+  margin: 34px auto 0;
+  padding: 26px 22px 28px;
+  text-align: center;
+}
+.ab-anhoeren-titel {
+  margin: 0;
+  font: 600 13px var(--font-heading);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.ab-plattformen {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ab-pola-rahmen,
+  .ab-pola-bild {
+    transition: none;
+  }
+  .ab-pola:hover .ab-pola-rahmen {
+    transform: rotate(var(--r)) scale(1.04);
+  }
+  .ab-pola:hover .ab-pola-bild {
+    transform: none;
+  }
+}

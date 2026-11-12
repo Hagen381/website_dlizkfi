@@ -14,7 +14,7 @@
 // bei 360/390/820/1280/1440 px, Steuerung zwischen Ring und Info-Kachel),
 // jeder veröffentlichte Artikel (Bilder, Bildunterschriften, Zur-Folge-Kasten),
 // „Blog" in der Navigation, Kartenbilder, „Zur Podcastfolge"-Ziele, Sitemap,
-// „Zum Blogartikel" auf der Folgenseite, 404 für /entwurf/, /entwurf/folgen/,
+// „Zum Blogartikel" auf der Folgenseite, 404 für /entwurf/, /entwurf/about/, /entwurf/folgen/,
 // /entwurf/startseite/ und /entwurf/blog/
 // (Entwürfe nur in der Vorschau), optional 404 für PRUEFE_404, alle
 // Bilder/Schriften/CSS/JS ohne Fehler.
@@ -258,7 +258,7 @@ for (const datei of artikel) {
 
 // Entwürfe gibt es nur in der Vorschau (scripts/entwuerfe.mjs) — live immer 404.
 // /entwurf/blog/ ist seit 12.11.2026 /blog/ und bleibt live ebenfalls 404.
-for (const pfad of ["/entwurf/blog/", "/entwurf/folgen/", "/entwurf/startseite/", "/entwurf/"]) {
+for (const pfad of ["/entwurf/about/", "/entwurf/blog/", "/entwurf/folgen/", "/entwurf/startseite/", "/entwurf/"]) {
   const r = await fetch(basis + pfad, { redirect: "manual" });
   pruefe(r.status === 404, `Entwurf ${pfad} → ${r.status} (erwartet 404)`);
 }
