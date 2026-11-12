@@ -260,13 +260,23 @@ mehr.
   Info-Kachel sind gelöscht): `src/app/blog/page.tsx`, Stile
   `src/app/blog/blog.css` (inline ohne Kommentare), Blättern
   `src/components/BlogBlaettern.tsx`. Kopf als Glasfläche (H1 „Blog“ +
-  Text), Polaroids links/rechts ab 1280 px (Deko, `aria-hidden`; das Raster
-  bleibt dazwischen: ab 1280 px max. `100% − 540px`, sonst 1040 px).
+  Text), Polaroids links/rechts (Deko, `aria-hidden`, nie über dem Raster):
+  1280–1439 px nur die zwei äußeren je Seite (`.br-pola.aussen`; die inneren
+  ausgeblendet und nicht geladen), Raster max. `100% − 400px`; ab 1440 px
+  alle vier je Seite, Raster max. `100% − 540px`; höchstens 1040 px. So
+  bleiben die Kacheln ab 1024 px ≥ 260 px breit (1280: 267, 1440: 273 px).
+  **Kein Polaroid zeigt dasselbe Foto wie ein Kartenbild auf `/blog/`**:
+  `POLAROIDS` in `page.tsx` (Quelle `startseite` = `content/startseite/
+  bilder/`, `folgen` = `content/folgen-bilder/<slug>.jpg`, Herkunft über
+  `quellen.json`); bei Dopplung (Kamera-Dateiname) bricht der Build ab.
+  Neuer Artikel mit einem Polaroid-Foto als Kartenbild → Polaroid tauschen.
   - Raster: 6 Artikel pro Seite, ab 1024 px 3 Spalten (3 × 2), 640–1023 px
     2, darunter 1. Neueste Folge zuerst. Kachel (`.kipp .kipp-karte`,
     `bg-surface`, Fokus-Rahmen über `:has(a:focus-visible)`) = EIN Link auf
     `/blog/<slug>/`: Kartenbild 4:3 mit `kartenbild-position` (Bild
-    `.kipp-bild`, erste Kachel `priority`), Datum · Lesezeit (Wortzahl/200,
+    `.kipp-bild`; vorderste Kachel = LCP: nicht lazy, `fetchpriority="high"`
+    über `BlogBildRoh wichtig`, ohne Preload; `sizes` je Stufe passend zur
+    Kachelbreite; alle anderen lazy), Datum · Lesezeit (Wortzahl/200,
     aufgerundet), Titel (h2, Silbentrennung), Beschreibung (max. 3 Zeilen),
     unten „Weiterlesen →“. Vorschau: Entwürfe mit Marke „Entwurf“.
   - Blättern (erst ab 7 Artikeln, sonst keine Steuerung): ← „1 / 2“ → (44 px,

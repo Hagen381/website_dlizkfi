@@ -45,17 +45,39 @@ function lesezeit(bloecke: (typeof artikel)[number]["bloecke"]) {
   return woerter > 0 ? Math.ceil(woerter / 200) : null;
 }
 
-// Polaroids links/rechts (nur ≥ 1280 px, Deko): Datei, Seite, Abstand zum Rand, oben, Drehung
-const POLAROIDS: [string, "links" | "rechts", number, number, number][] = [
-  ["20251006_181734.jpg", "links", 18, 20, -7],
-  ["20251013_114024.jpg", "links", 100, 230, 5],
-  ["20261003_124935.jpg", "links", 22, 450, -4],
-  ["20251116_180922.jpg", "links", 96, 640, 6],
-  ["20251118_165504.jpg", "rechts", 20, 10, 6],
-  ["20260926_084325.jpg", "rechts", 100, 220, -5],
-  ["20251116_153451.jpg", "rechts", 16, 450, 4],
-  ["20250919_150203.jpg", "rechts", 96, 640, -6],
+// Polaroids links/rechts (Deko, aria-hidden): Quelle, Datei, Seite, Lage,
+// Abstand zum Rand, oben, Drehung. Quelle „startseite“ = content/startseite/
+// bilder/<datei>, „folgen“ = content/folgen-bilder/<slug>.jpg. Lage „aussen“
+// ab 1280 px, „innen“ erst ab 1440 px (darunter ausgeblendet und nicht
+// geladen — sonst würden die Kacheln zu schmal, blog.css).
+// Kein Polaroid darf dasselbe Foto zeigen wie ein Kartenbild auf /blog/
+// (Prüfung unten, Build-Abbruch).
+type Polaroid = ["startseite" | "folgen", string, "links" | "rechts", "aussen" | "innen", number, number, number];
+const POLAROIDS: Polaroid[] = [
+  ["startseite", "20251019_161345.jpg", "links", "aussen", 18, 20, -7],
+  ["startseite", "20251013_114024.jpg", "links", "innen", 100, 230, 5],
+  ["startseite", "20261003_124935.jpg", "links", "aussen", 22, 450, -4],
+  ["startseite", "20251116_180922.jpg", "links", "innen", 96, 640, 6],
+  ["startseite", "20251118_165504.jpg", "rechts", "aussen", 20, 10, 6],
+  ["startseite", "20261003_174804.jpg", "rechts", "innen", 100, 220, -5],
+  ["startseite", "20251116_153451.jpg", "rechts", "aussen", 16, 450, 4],
+  ["startseite", "20250919_150203.jpg", "rechts", "innen", 96, 640, -6],
 ];
+
+// Ursprüngliche Kamera-Datei eines Polaroids (Folgenbilder heißen nach dem
+// Slug, ihre Herkunft steht in content/folgen-bilder/quellen.json).
+const folgenQuellen: Record<string, string> = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/folgen-bilder/quellen.json"), "utf8"));
+const polaroidSrc = ([quelle, datei]: Polaroid) => (quelle === "folgen" ? `/images/folgen/${datei}` : `/images/startseite/${datei}`);
+const polaroidFoto = ([quelle, datei]: Polaroid) => (quelle === "folgen" ? (folgenQuellen[datei.replace(/\.jpg$/, "")] ?? datei) : datei);
+const kartenFotos = new Set(artikel.flatMap((a) => (a.kartenbild ? [a.kartenbild.src.split("/").pop()!] : [])));
+const doppelt = POLAROIDS.filter((p) => kartenFotos.has(polaroidFoto(p)));
+if (doppelt.length) {
+  throw new Error(`/blog/: Polaroid zeigt dasselbe Foto wie ein Kartenbild: ${doppelt.map((p) => polaroidFoto(p)).join(", ")} — anderes Foto in POLAROIDS (src/app/blog/page.tsx) wählen.`);
+}
+for (const p of POLAROIDS) {
+  const pfad = p[0] === "folgen" ? `content/folgen-bilder/${p[1]}` : `content/startseite/bilder/${p[1]}`;
+  if (!fs.existsSync(path.join(process.cwd(), pfad))) throw new Error(`/blog/: Polaroid-Foto fehlt: ${pfad}`);
+}
 
 // Neueste Folge zuerst (Reihenfolge aus src/lib/blog.ts). Live nur
 // veröffentlichte Artikel; in der Vorschau auch Entwürfe („_“) mit Marke.
@@ -83,10 +105,10 @@ export default function Blog() {
 
       <div className="br-buehne">
         <div className="br-seitenfotos" aria-hidden="true">
-          {POLAROIDS.map(([datei, seite, x, y, r]) => (
-            <div key={datei} className="br-pola" style={{ [seite === "links" ? "left" : "right"]: `${x}px`, top: `${y}px`, ["--r" as string]: `${r}deg` } as CSSProperties}>
+          {POLAROIDS.map((p) => (
+            <div key={p[1]} className={`br-pola ${p[3]}`} style={{ [p[2] === "links" ? "left" : "right"]: `${p[4]}px`, top: `${p[5]}px`, ["--r" as string]: `${p[6]}deg` } as CSSProperties}>
               <div className="br-pola-rahmen">
-                <BlogBildRoh bild={{ src: `/images/startseite/${datei}`, alt: "", width: 150, height: 150 }} className="br-pola-bild" />
+                <BlogBildRoh bild={{ src: polaroidSrc(p), alt: "", width: 150, height: 150 }} className="br-pola-bild" />
               </div>
             </div>
           ))}
@@ -113,8 +135,11 @@ export default function Blog() {
                           {a.kartenbild && (
                             <BlogBildRoh
                               bild={{ src: a.kartenbild.src, alt: "", width: 640, height: 480 }}
-                              sizes="(min-width: 1280px) 340px, (min-width: 1024px) 31vw, (min-width: 640px) 47vw, 94vw"
-                              priority={i === 0}
+                              // Kachelbreite je Stufe (blog.css): 1 Spalte = Breite − 32 px,
+                              // 2 Spalten, 3 Spalten (ab 1280 px neben den Polaroids)
+                              sizes="(min-width: 1440px) calc(33vw - 196px), (min-width: 1280px) calc(33vw - 150px), (min-width: 1024px) calc(33vw - 27px), (min-width: 640px) calc(50vw - 28px), calc(100vw - 32px)"
+                              // Vorderste Kachel = LCP: nicht lazy, fetchpriority="high"
+                              wichtig={i === 0}
                               className="kipp-bild br-bild"
                               style={{ objectPosition: a.kartenbildPosition }}
                             />

@@ -98,11 +98,20 @@
     display: none;
   }
 }
+/* 1280–1439 px: nur die äußeren zwei Polaroids je Seite (die inneren sind
+   ausgeblendet und werden nicht geladen) — das Raster wird breiter. */
+@media (max-width: 1439px) {
+  .br-pola.innen {
+    display: none;
+  }
+}
 
 /* ---------- Raster ---------- */
 /* 1 Spalte < 640 px, 2 Spalten 640–1023 px, 3 Spalten ab 1024 px. Ab 1280 px
-   stehen links/rechts die Polaroids (bis ~270 px vom Rand) — das Raster
-   bleibt dazwischen. */
+   stehen links/rechts die Polaroids — das Raster bleibt dazwischen:
+   1280–1439 px nur die äußeren (bis ~185 px vom Rand) → 100 % − 400 px
+   (Kacheln ≥ 277 px), ab 1440 px alle vier (bis ~265 px) → 100 % − 540 px
+   (Kacheln ≥ 284 px), höchstens 1040 px. */
 .br-bereich {
   position: relative;
   z-index: 2;
@@ -110,6 +119,11 @@
   margin: 32px auto 0;
 }
 @media (min-width: 1280px) {
+  .br-bereich {
+    max-width: min(1040px, calc(100% - 400px));
+  }
+}
+@media (min-width: 1440px) {
   .br-bereich {
     max-width: min(1040px, calc(100% - 540px));
   }

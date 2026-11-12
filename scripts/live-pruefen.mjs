@@ -12,7 +12,8 @@
 // über den Rand bei 360/390/820/1280/1440 px), 301 der alten Blätteradressen,
 // /blog/ als Kachel-Raster (alle Artikel verlinkt, Reihenfolge/Datum,
 // Kartenbilder, Spalten 1/2/3, nichts über den Rand, kein Querscrollen bei
-// 360/390/820/1280/1440 px, Blättern ab 7 Artikeln, sonst keine Steuerung),
+// 360/390/820/1280/1440 px, Blättern ab 7 Artikeln, sonst keine Steuerung,
+// Polaroids 0/0/0/4/8, keine Dopplung mit Kartenbildern, Kacheln ≥ 260 px),
 // jeder veröffentlichte Artikel (Bilder, Bildunterschriften, Zur-Folge-Kasten),
 // „Blog" in der Navigation, Kartenbilder, „Zur Podcastfolge"-Ziele, Sitemap,
 // „Zum Blogartikel" auf der Folgenseite, 404 für /entwurf/, /entwurf/about/, /entwurf/folgen/,
@@ -276,8 +277,18 @@ const rasterZustand = (pg) =>
       suche: location.search,
       geladen: bilder.filter((i) => i.complete && i.naturalWidth > 0).length,
       bilder: bilder.length,
+      // Polaroids: Anzahl je Seite, schmalste Kachel, Fotos (Dateiname vor
+      // „-opt-“) von Polaroids und Kartenbildern, ausgeblendete nicht geladen
+      polasSichtbar: polas.length,
+      kachelMin: Math.round(Math.min(...rects.map((r) => r.width))),
+      polaFotos: [...document.querySelectorAll(".br-pola img")].map((i) => (i.getAttribute("srcset") || i.getAttribute("src") || "").split(",")[0].trim().split(" ")[0].split("/").pop().replace(/-opt-\d+\.\w+$/i, "").replace(/\.\w+$/, "")),
+      kartenFotos: [...document.querySelectorAll(".br-platz img")].map((i) => (i.getAttribute("srcset") || i.getAttribute("src") || "").split(",")[0].trim().split(" ")[0].split("/").pop().replace(/-opt-\d+\.\w+$/i, "").replace(/\.\w+$/, "")),
+      // ausgeblendete Polaroids (display: none, lazy) lädt der Browser nicht
+      versteckteGeladen: [...document.querySelectorAll(".br-pola img")].filter((i) => i.getClientRects().length === 0 && (i.currentSrc || (i.complete && i.naturalWidth > 0))).length,
     };
   });
+const folgenQuellen = JSON.parse(fs.readFileSync("content/folgen-bilder/quellen.json", "utf8"));
+const kameraName = (n) => (folgenQuellen[n] ?? n).replace(/\.\w+$/, "");
 const reiheSlugs = erwartet.map((e) => e.slug);
 for (const breite of [360, 390, 820, 1280, 1440]) {
   const b = await seite("/blog/", breite);
@@ -285,6 +296,12 @@ for (const breite of [360, 390, 820, 1280, 1440]) {
   const spaltenSoll = Math.min(breite >= 1024 ? 3 : breite >= 640 ? 2 : 1, artikel.length);
   pruefe(k.spalten === spaltenSoll && JSON.stringify(k.slugs) === JSON.stringify(reiheSlugs.slice(0, proSeite)) && k.imBild && !k.polaUeberRaster && !k.querScroll, `${breite}px /blog/: ${k.slugs.length} Kacheln auf Seite 1, ${k.spalten} Spalte(n) (erwartet ${spaltenSoll}), alles im Bild, Polaroids nicht über dem Raster, kein Querscrollen`);
   pruefe(k.geladen === k.bilder && b.kaputt.length === 0, `${breite}px /blog/: ${k.geladen}/${k.bilder} Kartenbilder geladen ${b.kaputt.join(" | ")}`);
+  // Polaroids: unter 1280 px keine, 1280–1439 px zwei je Seite, ab 1440 px vier;
+  // ausgeblendete nicht geladen; Kacheln ab 1024 px mindestens 260 px breit;
+  // kein Polaroid zeigt dasselbe Foto wie ein Kartenbild
+  const polaSoll = breite >= 1440 ? 8 : breite >= 1280 ? 4 : 0;
+  const doppelt = k.polaFotos.map(kameraName).filter((n) => k.kartenFotos.map(kameraName).includes(n));
+  pruefe(k.polasSichtbar === polaSoll && k.versteckteGeladen === 0 && (breite < 1024 || k.kachelMin >= 260) && doppelt.length === 0, `${breite}px /blog/: ${k.polasSichtbar} Polaroids (erwartet ${polaSoll}), ausgeblendete nicht geladen, schmalste Kachel ${k.kachelMin} px, Dopplung Polaroid/Kartenbild: ${doppelt.join(", ") || "keine"}`);
   if (seitenZahl > 1 && (breite === 390 || breite === 1280)) {
     await b.pg.locator(".br-pfeil[aria-label='Nächste Seite']").click();
     await b.pg.waitForTimeout(600);
@@ -321,13 +338,25 @@ for (const datei of artikel) {
       pruefe(ziele.length === 2 && ziele.every((h) => h.endsWith(`/episodes/${folge}/`)), `${breite}px 2× „Zur Podcastfolge“ → /episodes/${folge}/`);
     }
     pruefe(a.kaputt.length === 0, `${breite}px Artikel ohne Bild-/Schriftfehler ${a.kaputt.join(" | ")}`);
+    if (folge && breite === 390) {
+      const sollChips = themenListe(themenDaten.folgen[folge]);
+      const chipZiele = await a.pg.locator("nav[aria-label='Themen dieser Folge'] a").evaluateAll((as) => as.map((x) => x.getAttribute("href")));
+      pruefe(sollChips.length > 0 && sollChips.every((k) => chipZiele.some((h) => h.endsWith(`/episodes/?thema=${k}`))), `Artikel /blog/${slug}/: Themen-Chips ${sollChips.join(", ")}`);
+    }
     await a.ctx.close();
   }
   if (folge) {
     const f = await seite(`/episodes/${folge}/`);
     pruefe((await f.pg.locator(`a[href$="/blog/${slug}/"]`, { hasText: "Zum Blogartikel" }).count()) === 1, `Folgenseite /episodes/${folge}/ verlinkt „Zum Blogartikel“`);
     await f.ctx.close();
+    // Walze auf /episodes/: Karte der Folge zeigt das Kartenbild des Artikels
+    const kb = (md.match(/^kartenbild:\s*"?([^"\n]+?)"?\s*$/m)?.[1] || md.match(/!\[[^\]]*\]\(bilder\/[^/]+\/([^)]+)\)/i)?.[1] || "").replace(/\.[a-z]+$/i, "");
+    const karte = epHtml.split('<article class="reg-karte"').find((t) => t.includes(`href="/episodes/${folge}/"`)) || "";
+    pruefe(!!kb && karte.includes(kb), `/episodes/: Walzen-Karte ${folge} zeigt Kartenbild ${kb}`);
   }
+  // Suche auf /episodes/ (Index /suche.json) findet den Artikel über seinen Titel
+  const idx = await (await fetch(basis + "/suche.json")).json();
+  pruefe(idx.some((e) => e.art === "artikel" && e.slug === slug), `/suche.json enthält Artikel ${slug}`);
 }
 // Sitemap enthält jeden veröffentlichten Artikel
 const sitemap = await (await fetch(basis + "/sitemap.xml")).text();

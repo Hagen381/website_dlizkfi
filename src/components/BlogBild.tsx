@@ -8,7 +8,9 @@ import type { ArtikelBild } from "@/lib/blog";
 // Hochformat wird auf max. 620 px Höhe begrenzt (object-fit: cover).
 // Ohne `sizes` gibt es nur 1x/2x-Kandidaten zur Breite `bild.width` (kurzes
 // srcset, z. B. für die kleinen Polaroids im Startseiten-Entwurf).
-export function BlogBildRoh({ bild, sizes, className = "", priority = false, style }: { bild: ArtikelBild; sizes?: string; className?: string; priority?: boolean; style?: CSSProperties }) {
+// wichtig: für das LCP-Bild (nicht lazy, fetchpriority="high", ohne Preload —
+// so empfiehlt es Next 16 statt des veralteten priority).
+export function BlogBildRoh({ bild, sizes, className = "", priority = false, wichtig = false, style }: { bild: ArtikelBild; sizes?: string; className?: string; priority?: boolean; wichtig?: boolean; style?: CSSProperties }) {
   return (
     <ExportedImage
       // Ohne führenden Schrägstrich: die Bibliothek setzt den basePath davor
@@ -20,6 +22,7 @@ export function BlogBildRoh({ bild, sizes, className = "", priority = false, sty
       height={bild.height}
       sizes={sizes}
       priority={priority}
+      {...(wichtig ? { loading: "eager" as const, fetchPriority: "high" as const } : {})}
       basePath={basePath || undefined}
       placeholder="empty"
       className={className}
