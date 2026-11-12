@@ -532,9 +532,12 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
     nur der Bereich `_next` selbst und Nexts Manifeste
     `_next/static/<build-id>/_buildManifest.js`, `_ssgManifest.js`,
     `_clientMiddlewareManifest.js`), Bestätigungsdateien von Suchmaschinen
-    (`google….html`, `BingSiteAuth.xml`, `yandex_….html`), die Build-ID der
+    (`google….html`, `BingSiteAuth.xml`, `yandex_….html`), Dateien der alten
+    WordPress-Installation im Wurzelordner (`readme.html`, `license.txt`,
+    `index.php`, `wp-*`, `xmlrpc.php` — nur Warnung), die Build-ID der
     Live-Seite (`_next/static/<id>/`, `_next/<id>/` — sie ist bei jedem
-    Build neu, deshalb aus der Live-Startseite gelesen) und jede Datei, auf
+    Build neu, deshalb aus der Live-Startseite gelesen; auch ihre leeren
+    Ordner) und jede Datei, auf
     die die Kontrollseiten live verweisen.
   - `_next/static/`: Dateien, die der Export nicht kennt, erst löschen, wenn
     sie älter als 7 Tage sind (Besucher mit alter Seite im Cache).
