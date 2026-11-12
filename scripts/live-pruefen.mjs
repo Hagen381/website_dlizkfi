@@ -295,6 +295,17 @@ for (const breite of [360, 390, 820, 1280, 1440]) {
     await c.ctx.close();
   }
 }
+// Abstand Header-Unterkante → erste Fläche (Glasfläche bzw. Polaroid-Reihe
+// auf /about/) mobil 24–28 px, auf allen drei Seiten gleich.
+for (const breite of [360, 390]) {
+  const abstaende = [];
+  for (const [pfad, sel] of [["/blog/", ".br-kopf"], ["/episodes/", ".reg-kopf"], ["/about/", ".ab-kopf-bereich"]]) {
+    const c = await mitCls(pfad, breite);
+    abstaende.push([pfad, await c.pg.evaluate((s) => Math.round(document.querySelector(s).getBoundingClientRect().top - document.querySelector("body > header").getBoundingClientRect().bottom), sel)]);
+    await c.ctx.close();
+  }
+  pruefe(abstaende.every(([, a]) => a >= 24 && a <= 28) && new Set(abstaende.map(([, a]) => a)).size === 1, `${breite}px Abstand unter dem Header: ${abstaende.map(([p, a]) => `${p} ${a} px`).join(", ")}`);
+}
 const chipFolge = alleFolgen.find((f) => themenListe(themenDaten.folgen[f.slug]).length);
 const chipHtml = await (await fetch(`${basis}/episodes/${chipFolge.slug}/`)).text();
 const chips = themenListe(themenDaten.folgen[chipFolge.slug]).filter((k) => chipHtml.includes(`href="/episodes/?thema=${k}"`));

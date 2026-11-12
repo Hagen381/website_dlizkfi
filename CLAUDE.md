@@ -448,6 +448,15 @@ mehr.
   Rand, kein Querscrollen, H1, „Über“ aktiv, kein noindex, Canonical,
   Kontrast des Texts ≥ 4,5:1 (gemessen 5,46:1).
 
+### Abstand unter dem Header
+
+- Erste Fläche unter dem Header (Kopf-Glasfläche auf `/blog/` und
+  `/episodes/`, Polaroid-Reihe über dem Kopf auf `/about/` mobil): mobil
+  (< 640 px) genau 28 px unter der Header-Unterkante, auf allen drei Seiten
+  gleich (`.br-kopf`, `.reg-kopf` margin-top 28 px; `.ab-kopf-bereich`
+  mobil 28 px, ab 640 px 24 px). `live-pruefen.mjs` prüft das bei 360/390 px
+  (24–28 px, überall gleich). Startseiten-Hero unverändert.
+
 ### Seitenhintergrund (alle Seiten)
 
 - Die drei weichen Farbflecken (primary/secondary, statisch) liegen als EINE

@@ -15,6 +15,12 @@
   position: relative;
   margin-top: 24px;
 }
+/* Mobil wie /blog/ und /episodes/: 28 px Abstand zur Header-Unterkante */
+@media (max-width: 639px) {
+  .ab-kopf-bereich {
+    margin-top: 28px;
+  }
+}
 .ab-kopf {
   position: relative;
   z-index: 3;
