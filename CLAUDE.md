@@ -349,6 +349,13 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   ersten/letzten Eintrag oder waagerecht scrollt die Seite), Pfeiltasten nur
   bei Fokus in Walze/Reitern, Karten außerhalb ±3 `visibility: hidden`,
   Fokus dreht die Karte nach vorn, Live-Ansage „Folge x von y: Titel“.
+  Die vordere Karte sitzt im oberen Drittel (`--mitte` 150 px, mobil 140 px,
+  `perspective-origin` auf gleicher Höhe), darunter 2–3 Karten. Polaroids:
+  „kopf“ neben der Kopf-Glasfläche (ab 1280 px), „seite“ an der Kante des
+  Registers ausgerichtet, nur ab 1360 px — nie über Reitern oder Walze.
+  Mobil: Suchfeld volle Breite, „Suchen“ darunter; Karte 236 px hoch, die
+  Knöpfe als eigene Zeile über die ganze Kartenbreite (`.reg-text` dort
+  `display: contents`).
 - Aktuell außerdem: `/entwurf/blog/` — Blogübersicht als 3D-Karussell
   (`src/entwuerfe/blog/`: `Seite.tsx`, `BlogKarussell.tsx`, `karussell.css`
   inline). Kopf als Glasfläche (H1 „Blog“ + Text von `/blog/`), nur

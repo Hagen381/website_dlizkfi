@@ -87,11 +87,32 @@
   pointer-events: auto;
   perspective: 900px;
 }
-.reg-pola:nth-child(-n + 4) {
+.reg-pola.links {
   --o: left center;
 }
-.reg-pola:nth-child(n + 5) {
+.reg-pola.rechts {
   --o: right center;
+}
+/* Neben dem Kopf: fester Abstand zum Rand (Kopf ist nur 720 px breit). */
+.reg-pola.kopf.links {
+  left: var(--x);
+}
+.reg-pola.kopf.rechts {
+  right: var(--x);
+}
+/* Neben dem Register (Reiter + Walze, 1000 px breit, mittig): Kante am
+   Register ausgerichtet, nie darüber. Platz erst ab 1360 px
+   (2 × (500 + 14 + 150 + Drehung)); schmaler → weglassen. */
+.reg-pola.seite.links {
+  right: calc(50% + 514px + var(--x));
+}
+.reg-pola.seite.rechts {
+  left: calc(50% + 514px + var(--x));
+}
+@media (max-width: 1359px) {
+  .reg-pola.seite {
+    display: none;
+  }
 }
 .reg-pola-rahmen {
   position: relative;
@@ -219,18 +240,23 @@
   box-shadow: 0 8px 18px rgb(26 46 5 / 0.14);
 }
 
+/* Die vordere Karte sitzt im oberen Drittel (--mitte = Mitte der vorderen
+   Karte). Darunter bleiben die nächsten 2–3 Karten sichtbar, oben kein Loch.
+   perspective-origin auf derselben Höhe, damit die Walze symmetrisch wirkt. */
 .reg-walze {
+  --mitte: 150px;
   position: relative;
   height: 640px;
   overflow: hidden;
   border-radius: 30px;
   perspective: 1700px;
+  perspective-origin: 50% var(--mitte);
   cursor: grab;
   /* Kein touch-action: none — die Seite muss sich am Handy weiter scrollen
      lassen. Wischen in der Walze entscheidet RegisterWalze.tsx selbst. */
   touch-action: pan-y;
-  -webkit-mask-image: linear-gradient(transparent, #000 14%, #000 86%, transparent);
-  mask-image: linear-gradient(transparent, #000 14%, #000 86%, transparent);
+  -webkit-mask-image: linear-gradient(transparent, #000 3%, #000 84%, transparent);
+  mask-image: linear-gradient(transparent, #000 3%, #000 84%, transparent);
 }
 .reg-walze:focus-visible {
   outline: 2px solid var(--secondary-text);
@@ -238,7 +264,7 @@
 }
 .reg-zylinder {
   position: absolute;
-  top: 50%;
+  top: var(--mitte);
   left: 0;
   right: 0;
   width: min(700px, 94%);
@@ -455,35 +481,80 @@
     transform: translateY(-6px);
   }
   .reg-walze {
-    height: 470px;
+    --mitte: 140px;
+    height: 560px;
   }
+  /* Höher als vorher (200 → 236 px), die Knöpfe laufen als eigene Zeile über
+     die ganze Kartenbreite — so passen „Anhören“ und „Zum Blogartikel“
+     nebeneinander und nichts verschwindet unter der nächsten Karte. */
   .reg-platz {
-    height: 200px;
-    margin-top: -100px;
+    height: 236px;
+    margin-top: -118px;
   }
   .reg-karte {
-    grid-template-columns: 110px minmax(0, 1fr);
+    grid-template-columns: 100px minmax(0, 1fr);
+    grid-template-rows: auto auto auto 1fr auto;
+  }
+  .reg-foto {
+    grid-row: 1 / -1;
+    border-radius: 22px 0 0 22px;
+  }
+  .vorne .reg-foto {
+    grid-row: 1 / 5;
+    border-radius: 22px 0 0 0;
+  }
+  .reg-text {
+    display: contents;
+  }
+  .reg-meta,
+  .reg-titel,
+  .reg-beschreibung {
+    grid-column: 2;
+    padding: 0 14px 0 12px;
+  }
+  .reg-meta {
+    padding-top: 14px;
   }
   .reg-fahne {
-    left: 126px;
+    left: 116px;
   }
   .reg-titel {
     font-size: 18px;
   }
-  .reg-text {
-    padding: 14px;
+  .reg-beschreibung {
+    font-size: 14px;
   }
   .reg-cover {
     width: 32px;
     height: 32px;
   }
   .reg-aktionen {
-    flex-wrap: wrap;
+    grid-column: 1 / -1;
+    grid-row: 5;
+    margin: 0;
+    padding: 10px 12px 12px;
   }
   .reg-knopf {
+    flex: 1 1 auto;
+    justify-content: center;
     min-height: 44px;
-    padding: 0 14px;
+    padding: 0 12px;
     font-size: 14px;
+    white-space: nowrap;
+  }
+  /* Suche: Feld volle Breite, Knopf darunter — kein abgeschnittener Platzhalter */
+  .reg-kopf {
+    padding: 22px 18px 18px;
+  }
+  .reg-kopf form {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .reg-kopf form > div {
+    flex: 1 1 100%;
+  }
+  .reg-kopf form > button {
+    flex: 1 1 100%;
   }
 }
 

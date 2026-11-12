@@ -54,16 +54,19 @@ function fotoZurFolge(slug: string): { src: string; position: string } {
   return { src: `/images/startseite/${fotoListe[fnv1a(slug) % fotoListe.length]}`, position: "50% 50%" };
 }
 
-// Polaroids links/rechts (nur ≥ 1280 px): Seite, Abstand zum Rand, oben, Drehung
-const POLAROIDS: [string, "links" | "rechts", number, number, number][] = [
-  ["20251006_181734.jpg", "links", 18, 40, -7],
-  ["20251013_114024.jpg", "links", 96, 250, 5],
-  ["20261003_124935.jpg", "links", 22, 470, -4],
-  ["20251116_180922.jpg", "links", 100, 690, 6],
-  ["20251118_165504.jpg", "rechts", 20, 30, 6],
-  ["20260926_084325.jpg", "rechts", 100, 240, -5],
-  ["20251116_153451.jpg", "rechts", 16, 470, 4],
-  ["20250919_150203.jpg", "rechts", 96, 690, -6],
+// Polaroids links/rechts (nur ≥ 1280 px): Seite, Lage, Abstand x, oben, Drehung.
+// „kopf“ = neben der Kopf-Glasfläche (x = Abstand zum Bühnenrand), endet
+// oberhalb des Registers. „seite“ = neben Reitern/Walze (x = Abstand zur
+// Registerkante), nur ab 1360 px — darunter ist dort kein Platz (register.css).
+const POLAROIDS: [string, "links" | "rechts", "kopf" | "seite", number, number, number][] = [
+  ["20251006_181734.jpg", "links", "kopf", 18, 40, -7],
+  ["20251013_114024.jpg", "links", "seite", 30, 330, 5],
+  ["20261003_124935.jpg", "links", "seite", 6, 560, -4],
+  ["20251116_180922.jpg", "links", "seite", 28, 790, 6],
+  ["20251118_165504.jpg", "rechts", "kopf", 20, 30, 6],
+  ["20260926_084325.jpg", "rechts", "seite", 8, 320, -5],
+  ["20251116_153451.jpg", "rechts", "seite", 30, 550, 4],
+  ["20250919_150203.jpg", "rechts", "seite", 10, 780, -6],
 ];
 
 export default function FolgenRegisterEntwurf() {
@@ -127,8 +130,8 @@ export default function FolgenRegisterEntwurf() {
 
       <div className="reg-buehne">
         <div className="reg-seitenfotos" aria-hidden="true">
-          {POLAROIDS.map(([datei, seite, x, y, r]) => (
-            <div key={datei} className="reg-pola" style={{ [seite === "links" ? "left" : "right"]: `${x}px`, top: `${y}px`, ["--r" as string]: `${r}deg` } as CSSProperties}>
+          {POLAROIDS.map(([datei, seite, lage, x, y, r]) => (
+            <div key={datei} className={`reg-pola ${seite} ${lage}`} style={{ top: `${y}px`, ["--x" as string]: `${x}px`, ["--r" as string]: `${r}deg` } as CSSProperties}>
               <div className="reg-pola-rahmen">
                 <BlogBildRoh bild={{ src: `/images/startseite/${datei}`, alt: "", width: 150, height: 150 }} className="reg-pola-bild" />
               </div>
