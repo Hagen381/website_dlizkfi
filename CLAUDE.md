@@ -409,17 +409,25 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   `ueber.css` inline, `PolaroidNeigung.tsx`). `/about/` bleibt live
   unverändert bis zur Freigabe. Text WÖRTLICH aus `src/app/about/page.tsx`
   (maschinell verglichen). Aufbau: Kopf als Glasfläche (Cover, H1 „Über …“
-  aus `siteConfig`, „Moderiert von …“); ab 1024 px je zwei Polaroids links
-  und rechts daneben (Kopf 600 px, ab 1280 px 660 px — nie über dem Kopf),
-  darunter dieselben vier als Reihe kleiner Polaroids über dem Kopf. Lesespalte
-  in Glasflächen (36,5 rem, Literata 18 px, 90 %), Irgendwann-Zeilen als eigene
-  Kachel (Bricolage, gelbe Kante, 94 %), zwei Fotostreifen mit je 3 Polaroids
-  (nur zwischen den Glasflächen, nie hinter Text), „Anhören auf“ als
+  aus `siteConfig`, „Moderiert von …“); ab 1024 px je DREI Polaroids links
+  und rechts daneben, leicht überlappend übereinander (Kopf 600 px, ab
+  1280 px 660 px — nie über dem Kopf); darunter vier davon als Reihe kleiner
+  Polaroids über dem Kopf (die zwei `.ab-nur-breit` ausgeblendet, nicht
+  geladen). Lesespalte in Glasflächen (36,5 rem, Literata 18 px, 90 %),
+  Irgendwann-Zeilen als eigene Kachel (Bricolage, gelbe Kante, 94 %). Drei
+  Fotostreifen mit je 4 Polaroids (mobil < 640 px je 3, das 4. ausgeblendet
+  und nicht geladen): zwischen Text A und Irgendwann-Kachel, zwischen B und
+  C, zwischen C und „Anhören auf“ — nie hinter Text. „Anhören auf“ als
   Glasfläche mit den drei Plattform-Kacheln (`.kipp-dezent`, 56 px).
-  10 verschiedene Fotos aus `content/startseite/bilder/` über `BlogBildRoh`
-  (lazy, `aria-hidden`), Hover/Neigung wie Startseite. BreadcrumbList „Über“
-  → `/about/` für den späteren Livegang. Live 404 (Live-Prüfung), in der
-  Vorschau-Bildprüfung enthalten.
+- Fotos der Über-Seite: NUR `content/ueber/bilder/` (18 Stück, 900×900, ohne
+  Metadaten, auf Kinder geprüft; aus der Übergabe vom 12.11.2026), jedes
+  genau einmal (6 Kopf + 12 Streifen), keine Collage-Fotos.
+  `scripts/ueber-bilder.mjs` kodiert sie vor jedem Build (live UND Vorschau,
+  vor `startseite-bilder.mjs`) ohne EXIF nach `public/images/ueber/`
+  (Build-Ergebnis, .gitignore) — der spätere Livegang braucht dafür nichts
+  mehr. Über `BlogBildRoh` (lazy, `aria-hidden`), Hover/Neigung wie Startseite
+  (`PolaroidNeigung.tsx`). BreadcrumbList „Über“ → `/about/` für den späteren
+  Livegang. Live 404 (Live-Prüfung), in der Vorschau-Bildprüfung enthalten.
 - Live-Prüfung erwartet 404 für `/entwurf/`, `/entwurf/about/`,
   `/entwurf/folgen/`, `/entwurf/blog/`, `/entwurf/startseite/`.
 - Früher: `/entwurf/folgen/` ist seit 12.11.2026 die echte Folgenübersicht
