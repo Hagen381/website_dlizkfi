@@ -1,16 +1,6 @@
-/* Entwurf Über-Seite (nur Vorschau). Stil wie Startseite, /episodes/, /blog/:
+/* Über-Seite /about/ (src/app/about/page.tsx). Stil wie Startseite, /episodes/, /blog/:
    gemeinsamer Seitenhintergrund (Layout), Glasflächen, Polaroids, 3D-Kacheln.
    Wird inline eingebettet (ohne Kommentare). */
-
-.entwurf-balken {
-  margin: 0;
-  padding: 6px 16px;
-  background: var(--text);
-  color: #fff;
-  font: 600 13px/1.4 var(--font-heading);
-  letter-spacing: 0.04em;
-  text-align: center;
-}
 
 .ab-buehne {
   position: relative;

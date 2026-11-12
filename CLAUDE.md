@@ -346,6 +346,40 @@ mehr.
 - Bilder über `BlogBildRoh` mit fester Breite (srcset 256/384 bzw. mobil
   128/256), lazy; ausgeblendete Varianten lädt der Browser nicht.
 
+### Über-Seite /about/ (seit 12.11.2026)
+
+- Vorher Entwurf `/entwurf/about/` (Freigabe Hagen); `/entwurf/about/`
+  liefert live weiter 404. Dateien: `src/app/about/page.tsx`,
+  `src/app/about/ueber.css` (inline ohne Kommentare),
+  `src/app/about/PolaroidNeigung.tsx`. Titel „Über“, Description wie vorher
+  (`siteConfig.description`), Canonical `/about/`, BreadcrumbList „Über“,
+  „Über“ aktiv, in `sitePages`; kein noindex, kein Entwurf-Balken.
+- Text WÖRTLICH wie die frühere `/about/` (PodView-Text,
+  `docs/original/text/about.txt`; beim Livegang maschinell verglichen:
+  identisch, nur die Plattformnamen stehen jetzt als `aria-label`/`title`
+  der Icon-Kacheln statt als sichtbarer Text).
+- Aufbau: Kopf als Glasfläche (Cover, H1 „Über …“ aus `siteConfig`,
+  „Moderiert von …“); ab 1024 px je DREI Polaroids links und rechts daneben,
+  leicht überlappend übereinander (Kopf 600 px, ab 1280 px 660 px — nie über
+  dem Kopf); darunter vier davon als Reihe kleiner Polaroids über dem Kopf
+  (die zwei `.ab-nur-breit` ausgeblendet, nicht geladen). Lesespalte in
+  Glasflächen (36,5 rem, Literata 18 px, 90 %), Irgendwann-Zeilen als eigene
+  Kachel (Bricolage, gelbe Kante, 94 %). Drei Fotostreifen mit je 4
+  Polaroids (mobil < 640 px je 3, das 4. ausgeblendet und nicht geladen):
+  zwischen Text A und Irgendwann-Kachel, zwischen B und C, zwischen C und
+  „Anhören auf“ — nie hinter Text. „Anhören auf“ als Glasfläche mit den drei
+  Plattform-Kacheln (`.kipp-dezent`, 56 px).
+- Fotos: NUR `content/ueber/bilder/` (18 Stück, 900×900, ohne Metadaten, auf
+  Kinder geprüft; aus der Übergabe vom 12.11.2026), jedes genau einmal
+  (6 Kopf + 12 Streifen), keine Collage-Fotos. `scripts/ueber-bilder.mjs`
+  kodiert sie vor jedem Build (live und Vorschau, vor
+  `startseite-bilder.mjs`) ohne EXIF nach `public/images/ueber/`
+  (Build-Ergebnis, .gitignore). Über `BlogBildRoh` (lazy, `aria-hidden`),
+  Hover/Neigung wie Startseite (`PolaroidNeigung.tsx`).
+- Live-Prüfung je 360/390/820/1280/1440 px: Fotos geladen, nichts über den
+  Rand, kein Querscrollen, H1, „Über“ aktiv, kein noindex, Canonical,
+  Kontrast des Texts ≥ 4,5:1 (gemessen 5,46:1).
+
 ### Seitenhintergrund (alle Seiten)
 
 - Die drei weichen Farbflecken (primary/secondary, statisch) liegen als EINE
@@ -469,7 +503,7 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   `/website_dlizkfi/` anfangen.
 - Job `bilder-pruefen` nach dem Deploy: `scripts/vorschau-bilder-pruefen.mjs`
   ruft Start, `/episodes/`, eine Folgenseite, `/follow/`, `/blog/` und
-  aktuelle Entwürfe (`/entwurf/about/`) (390 und 1280 px) mit Headless-Chromium auf, scrollt
+  `/about/` (390 und 1280 px) mit Headless-Chromium auf, scrollt
   bis unten und meldet jedes Bild, jede Schrift und jedes CSS/JS mit Fehler
   (ausgeblendete lazy-Bilder werden direkt angefragt). Vorübergehende Fehler
   (5xx, 429, Verbindungsabbruch — GitHub Pages direkt nach dem Deploy) werden
@@ -498,30 +532,9 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
 - Deploy-Prüfung k) bricht ab, wenn `entwurf/` oder `startseite-entwurf` im
   Live-Export steht; `scripts/live-pruefen.mjs` erwartet live 404 für
   `/entwurf/startseite/` und `/entwurf/`.
-- **Aktuell: `/entwurf/about/`** — Über-Seite im Stil von Startseite,
-  `/episodes/` und `/blog/` (`src/entwuerfe/about/`: `Seite.tsx`,
-  `ueber.css` inline, `PolaroidNeigung.tsx`). `/about/` bleibt live
-  unverändert bis zur Freigabe. Text WÖRTLICH aus `src/app/about/page.tsx`
-  (maschinell verglichen). Aufbau: Kopf als Glasfläche (Cover, H1 „Über …“
-  aus `siteConfig`, „Moderiert von …“); ab 1024 px je DREI Polaroids links
-  und rechts daneben, leicht überlappend übereinander (Kopf 600 px, ab
-  1280 px 660 px — nie über dem Kopf); darunter vier davon als Reihe kleiner
-  Polaroids über dem Kopf (die zwei `.ab-nur-breit` ausgeblendet, nicht
-  geladen). Lesespalte in Glasflächen (36,5 rem, Literata 18 px, 90 %),
-  Irgendwann-Zeilen als eigene Kachel (Bricolage, gelbe Kante, 94 %). Drei
-  Fotostreifen mit je 4 Polaroids (mobil < 640 px je 3, das 4. ausgeblendet
-  und nicht geladen): zwischen Text A und Irgendwann-Kachel, zwischen B und
-  C, zwischen C und „Anhören auf“ — nie hinter Text. „Anhören auf“ als
-  Glasfläche mit den drei Plattform-Kacheln (`.kipp-dezent`, 56 px).
-- Fotos der Über-Seite: NUR `content/ueber/bilder/` (18 Stück, 900×900, ohne
-  Metadaten, auf Kinder geprüft; aus der Übergabe vom 12.11.2026), jedes
-  genau einmal (6 Kopf + 12 Streifen), keine Collage-Fotos.
-  `scripts/ueber-bilder.mjs` kodiert sie vor jedem Build (live UND Vorschau,
-  vor `startseite-bilder.mjs`) ohne EXIF nach `public/images/ueber/`
-  (Build-Ergebnis, .gitignore) — der spätere Livegang braucht dafür nichts
-  mehr. Über `BlogBildRoh` (lazy, `aria-hidden`), Hover/Neigung wie Startseite
-  (`PolaroidNeigung.tsx`). BreadcrumbList „Über“ → `/about/` für den späteren
-  Livegang. Live 404 (Live-Prüfung), in der Vorschau-Bildprüfung enthalten.
+- **Derzeit keine Entwürfe** (`entwuerfe = {}` in `scripts/entwuerfe.mjs`,
+  `src/entwuerfe/` gibt es nicht mehr). Früher: `/entwurf/about/` ist seit
+  12.11.2026 die echte `/about/` (siehe „Über-Seite“).
 - Live-Prüfung erwartet 404 für `/entwurf/`, `/entwurf/about/`,
   `/entwurf/folgen/`, `/entwurf/blog/`, `/entwurf/startseite/`.
 - Früher: `/entwurf/folgen/` ist seit 12.11.2026 die echte Folgenübersicht

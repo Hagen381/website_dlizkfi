@@ -10,6 +10,7 @@
 // (Anzahl je Breite 360/390/820/1280/1440, Fotos geladen), neueste Folge erreichbar,
 // /episodes/ als 3D-Register (alle Folgen verlinkt im HTML, Walze, Fotos, nichts
 // über den Rand bei 360/390/820/1280/1440 px), 301 der alten Blätteradressen,
+// /about/ (Fotos, Rand, Querscrollen, Kontrast, kein noindex),
 // /blog/ als Kachel-Raster (alle Artikel verlinkt, Reihenfolge/Datum,
 // Kartenbilder, Spalten 1/2/3, nichts über den Rand, kein Querscrollen bei
 // 360/390/820/1280/1440 px, Blättern ab 7 Artikeln, sonst keine Steuerung,
@@ -363,6 +364,39 @@ const sitemap = await (await fetch(basis + "/sitemap.xml")).text();
 for (const datei of artikel) {
   const slug = datei.replace(/\.md$/, "");
   pruefe(sitemap.includes(`/blog/${slug}/</loc>`), `sitemap.xml enthält /blog/${slug}/`);
+}
+
+// Über-Seite /about/ (live seit 12.11.2026, vorher /entwurf/about/): je
+// Breite alle angezeigten Fotos geladen, nichts über den Rand, kein
+// Querscrollen, H1, „Über“ aktiv, kein noindex, Canonical /about/; Kontrast
+// des Fließtexts (Glasflächen) gegen deren Hintergrund ≥ 4,5:1.
+for (const breite of [360, 390, 820, 1280, 1440]) {
+  const u = await seite("/about/", breite);
+  const z = await u.pg.evaluate(() => {
+    const sichtbar = (el) => el.getClientRects().length > 0;
+    const fotos = [...document.querySelectorAll(".ab-pola img")].filter(sichtbar);
+    const polas = [...document.querySelectorAll(".ab-pola")].filter(sichtbar).map((p) => p.getBoundingClientRect());
+    const rgb = (c) => (c.match(/[\d.]+/g) || []).map(Number);
+    const lum = ([r, g, b]) => { const f = (v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; }; return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b); };
+    // Hintergrund: erste Fläche mit deckender Farbe nach oben, mit Seitengrund gemischt
+    const grund = (el) => { for (let e = el; e; e = e.parentElement) { const c = rgb(getComputedStyle(e).backgroundColor); if (c.length >= 3 && (c[3] ?? 1) > 0) { const a = c[3] ?? 1; const s = [254, 252, 232]; return c.slice(0, 3).map((v, i) => v * a + s[i] * (1 - a)); } } return [254, 252, 232]; };
+    const kontraste = [...document.querySelectorAll(".ab-lesen p, .ab-moderation, .ab-titel, .ab-irgendwann span, .ab-anhoeren-titel")].filter(sichtbar).map((el) => { const v = lum(rgb(getComputedStyle(el).color)), h = lum(grund(el)); return (Math.max(v, h) + 0.05) / (Math.min(v, h) + 0.05); });
+    return {
+      geladen: fotos.filter((i) => i.complete && i.naturalWidth > 0).length,
+      fotos: fotos.length,
+      ueberRand: polas.filter((p) => p.left < -2 || p.right > innerWidth + 2).length,
+      querScroll: document.documentElement.scrollWidth > innerWidth,
+      h1: document.querySelector("h1")?.textContent.trim(),
+      aktiv: [...document.querySelectorAll('body > header [aria-current="page"]')].map((a) => a.textContent.trim()).join(),
+      noindex: !!document.querySelector('meta[name="robots"][content*="noindex"]'),
+      canonical: document.querySelector('link[rel="canonical"]')?.getAttribute("href") || "",
+      minKontrast: Math.min(...kontraste),
+      balken: document.body.textContent.includes("Entwurf – nicht live"),
+    };
+  });
+  pruefe(u.status === 200 && z.geladen === z.fotos && z.fotos > 0 && z.ueberRand === 0 && !z.querScroll && u.kaputt.length === 0, `${breite}px /about/: ${z.geladen}/${z.fotos} Fotos geladen, nichts über den Rand, kein Querscrollen ${u.kaputt.join(" | ")}`);
+  pruefe(/^Über /.test(z.h1 || "") && z.aktiv.includes("Über") && !z.noindex && !z.balken && z.canonical.endsWith("/about/") && z.minKontrast >= 4.5, `${breite}px /about/: H1 „${z.h1}“, „Über“ aktiv, kein noindex, kein Entwurf-Balken, Canonical /about/, Kontrast min. ${z.minKontrast.toFixed(2)}:1`);
+  await u.ctx.close();
 }
 
 // Entwürfe gibt es nur in der Vorschau (scripts/entwuerfe.mjs) — live immer 404.

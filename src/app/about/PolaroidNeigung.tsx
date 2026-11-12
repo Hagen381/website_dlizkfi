@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-// Polaroids der Über-Seite (Entwurf): Neigung zur Maus (max. 8°) und
+// Polaroids der Über-Seite /about/: Neigung zur Maus (max. 8°) und
 // Lichtreflex wie auf der Startseite. Ein Listener für die ganze Seite, nur
 // Maus, per rAF, nicht bei prefers-reduced-motion.
 export default function PolaroidNeigung() {
