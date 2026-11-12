@@ -382,7 +382,10 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   ruft Start, `/episodes/`, eine Folgenseite, `/follow/`, `/blog/` und
   aktuelle Entwürfe (`/entwurf/about/`) (390 und 1280 px) mit Headless-Chromium auf, scrollt
   bis unten und meldet jedes Bild, jede Schrift und jedes CSS/JS mit Fehler
-  (ausgeblendete lazy-Bilder werden direkt angefragt). Lokal: Export unter
+  (ausgeblendete lazy-Bilder werden direkt angefragt). Vorübergehende Fehler
+  (5xx, 429, Verbindungsabbruch — GitHub Pages direkt nach dem Deploy) werden
+  bis zu 3× mit Pause 2/4/6 s neu angefragt und erst dann rot; im Protokoll
+  als „(vorübergehend) … nach n× Wiederholung“. Echte 404/4xx sofort rot. Lokal: Export unter
   `/website_dlizkfi/` ausliefern und das Skript mit dieser Basis aufrufen.
 
 ### Entwürfe nur in der Vorschau

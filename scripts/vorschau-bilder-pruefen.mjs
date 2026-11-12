@@ -7,6 +7,11 @@
 // temporär installiert, das Skript daneben kopiert).
 //
 // Aufruf: node vorschau-bilder-pruefen.mjs https://hagen381.github.io/website_dlizkfi / /episodes/ …
+//
+// Vorübergehende Fehler (5xx, 429, Verbindungsabbruch) — GitHub Pages liefert
+// direkt nach dem Deploy gelegentlich kurz 503 oder bricht ab — werden bis zu
+// 3× mit kurzer Pause (2 s, 4 s, 6 s) direkt neu angefragt und erst dann als
+// Fehler gemeldet. Echte 404 (und andere 4xx) zählen sofort.
 
 import { chromium } from "playwright";
 
@@ -21,6 +26,28 @@ if (!basis || seiten.length === 0) {
 const browser = await chromium.launch(process.env.PW_KANAL ? { channel: process.env.PW_KANAL } : {});
 let fehlerGesamt = 0;
 
+const WIEDERHOLUNGEN = 3;
+const pause = (ms) => new Promise((ok) => setTimeout(ok, ms));
+// 5xx und 429 gelten als vorübergehend, andere 4xx (404, 403 …) als echt
+const voruebergehend = (st) => st >= 500 || st === 429;
+
+// Fragt eine Datei direkt an; bei vorübergehenden Fehlern bis zu 3× erneut.
+// schonGescheitert: Der Browser hat die Datei bereits einmal vergeblich
+// angefragt — dann ist schon die erste direkte Anfrage Wiederholung Nr. 1.
+// Ergebnis: { ok, status, wiederholt } (wiederholt = Anzahl Wiederholungen)
+async function nachfragen(anfrage, u, schonGescheitert) {
+  let st = "";
+  let wiederholt = schonGescheitert ? 1 : 0;
+  for (;;) {
+    if (wiederholt > 0) await pause(2000 * wiederholt);
+    const r = await anfrage.get(u, { timeout: 30000 }).catch((e) => ({ status: () => `keine Antwort (${e.message.split("\n")[0]})` }));
+    st = r.status();
+    if (typeof st === "number" && st < 400) return { ok: true, status: st, wiederholt };
+    if ((typeof st === "number" && !voruebergehend(st)) || wiederholt >= WIEDERHOLUNGEN) return { ok: false, status: st, wiederholt };
+    wiederholt++;
+  }
+}
+
 for (const breite of [390, 1280]) {
   for (const pfad of seiten) {
     const url = basis.replace(/\/$/, "") + pfad;
@@ -28,12 +55,18 @@ for (const breite of [390, 1280]) {
     const page = await ctx.newPage();
     const bilder = new Map(); // url -> status
     const fehler = [];
+    const hinweise = [];
+    // Vorübergehende Fehler: url -> Beschreibung (werden unten wiederholt)
+    const wiederholen = new Map();
 
     page.on("response", (r) => {
       const typ = r.request().resourceType();
       if (["image", "font", "stylesheet", "script"].includes(typ)) {
         if (typ === "image") bilder.set(r.url(), r.status());
-        if (r.status() >= 400) fehler.push(`${r.status()} ${typ} ${r.url()}`);
+        if (r.status() >= 400) {
+          if (voruebergehend(r.status())) wiederholen.set(r.url(), `${r.status()} ${typ}`);
+          else fehler.push(`${r.status()} ${typ} ${r.url()}`);
+        }
       }
     });
     // Abgebrochene Anfragen (net::ERR_ABORTED) sind meist der Browser selbst:
@@ -46,11 +79,22 @@ for (const breite of [390, 1280]) {
       if (!["image", "font", "stylesheet", "script"].includes(typ)) return;
       const grund = r.failure()?.errorText ?? "";
       if (grund.includes("ERR_ABORTED")) abgebrochen.add(r.url());
-      else fehler.push(`FEHLGESCHLAGEN ${typ} ${r.url()} (${grund})`);
+      else wiederholen.set(r.url(), `FEHLGESCHLAGEN ${typ} (${grund})`);
     });
 
-    const antwort = await page.goto(url, { waitUntil: "networkidle", timeout: 60000 });
-    if (!antwort || antwort.status() >= 400) fehler.push(`Seite selbst: ${antwort?.status()} ${url}`);
+    // Die Seite selbst: bei vorübergehendem Fehler bis zu 3× neu laden
+    let antwort = null;
+    for (let versuch = 0; versuch <= WIEDERHOLUNGEN; versuch++) {
+      if (versuch > 0) {
+        await pause(2000 * versuch);
+        fehler.length = 0;
+        wiederholen.clear();
+        bilder.clear();
+      }
+      antwort = await page.goto(url, { waitUntil: "networkidle", timeout: 60000 }).catch(() => null);
+      if (antwort && !voruebergehend(antwort.status())) break;
+    }
+    if (!antwort || antwort.status() >= 400) fehler.push(`Seite selbst: ${antwort?.status() ?? "keine Antwort"} ${url}`);
 
     // Schrittweise nach unten scrollen, damit lazy-Bilder laden
     await page.evaluate(async () => {
@@ -67,7 +111,7 @@ for (const breite of [390, 1280]) {
     // Ausgeblendete (display: none, z. B. Collage-Fotos unter 640 px) und
     // lazy-Bilder außerhalb des Sichtbereichs lädt der Browser gewollt nicht —
     // die werden direkt angefragt.
-    const { kaputt, versteckt } = await page.evaluate(() => {
+    const { kaputt: kaputtAlle, versteckt } = await page.evaluate(() => {
       const zeigt = (i) => i.getClientRects().length > 0;
       return {
         // kaputt: geladen, aber leer — oder nicht lazy und trotzdem nicht fertig
@@ -77,18 +121,32 @@ for (const breite of [390, 1280]) {
         versteckt: [...document.images].filter((i) => !i.complete && (!zeigt(i) || i.loading === "lazy")).map((i) => i.currentSrc || i.src),
       };
     });
-    for (const k of kaputt) fehler.push(`<img> nicht geladen: ${k}`);
+    // Nicht geladene Bilder, deren Anfrage vorübergehend scheiterte, kommen in
+    // die Wiederholung; alle anderen (z. B. 200, aber leer/kaputt) sind Fehler.
+    for (const k of kaputtAlle) {
+      if (wiederholen.has(k)) continue;
+      const st = bilder.get(k);
+      if (st !== undefined && st >= 400 && !voruebergehend(st)) continue; // schon als 4xx gezählt
+      fehler.push(`<img> nicht geladen: ${k}`);
+    }
     for (const u of versteckt) abgebrochen.add(u);
     for (const u of abgebrochen) {
-      const r = await page.request.get(u).catch((e) => ({ status: () => `keine Antwort (${e.message})` }));
-      const st = r.status();
-      if (typeof st !== "number" || st >= 400) fehler.push(`${st} (nach Abbruch direkt geprüft) ${u}`);
+      if (wiederholen.has(u)) continue;
+      const r = await nachfragen(page.request, u, false);
+      if (!r.ok) fehler.push(`${r.status} (nach Abbruch direkt geprüft${r.wiederholt ? `, ${r.wiederholt}× wiederholt` : ""}) ${u}`);
+      else if (r.wiederholt) hinweise.push(`${u} erst nach ${r.wiederholt}× Wiederholung ok`);
+    }
+    for (const [u, was] of wiederholen) {
+      const r = await nachfragen(page.request, u, true);
+      if (!r.ok) fehler.push(`${was} → ${r.status}${voruebergehend(Number(r.status)) || typeof r.status !== "number" ? ` auch nach ${r.wiederholt}× Wiederholung` : ""}: ${u}`);
+      else hinweise.push(`${was} ${u} → nach ${r.wiederholt}× Wiederholung ${r.status}`);
     }
     const anzahlImg = await page.evaluate(() => document.images.length);
 
     const status = fehler.length ? "FEHLER" : "ok";
     console.log(`${status.padEnd(6)} ${String(breite).padStart(4)}px ${pfad}  — ${anzahlImg} <img>, ${bilder.size} Bildanfragen, ${fehler.length} Fehler${abgebrochen.size ? ` (${abgebrochen.size} vom Browser abgebrochen, direkt nachgeprüft)` : ""}`);
     for (const f of fehler) console.log(`         ${f}`);
+    for (const h of hinweise) console.log(`         (vorübergehend) ${h}`);
     fehlerGesamt += fehler.length;
     await ctx.close();
   }
