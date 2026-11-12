@@ -1,22 +1,24 @@
 "use client";
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
+import ArtikelTrefferKarte, { type TrefferArtikel } from "@/components/ArtikelTrefferKarte";
 import FolgenKarte, { type KartenFolge } from "@/components/FolgenKarte";
 import { Lupe } from "@/components/Icons";
 import { mitBasePath } from "@/lib/base-path";
+import { suchen as suche } from "@/lib/suche";
 
-type Eintrag = KartenFolge & { text: string };
+type Eintrag = ({ art: "folge" } & KartenFolge) | ({ art: "artikel" } & TrefferArtikel);
+type IndexEintrag = Eintrag & { themen: string[]; text: string };
 
-const normal = (s: string) => s.toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "").replace(/ß/g, "ss");
-
-// Suche im Browser über den Index /suche.json (aus content/folgen.json gebaut).
+// Suche im Browser über den Index /suche.json (Folgen + Blogartikel, siehe
+// src/app/suche.json/route.ts; Suchlogik src/lib/suche.ts).
 // Ohne Suchbegriff wird die normale, statisch erzeugte Liste (children) gezeigt.
 // Die Adresse /episodes/?q=… funktioniert auch als Link.
 // kopfClassName: Layout von Titel + Suchfeld (Standard wie auf /episodes/).
 export default function FolgenSuche({ titel, children, kopfClassName = "mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between" }: { titel: ReactNode; children: ReactNode; kopfClassName?: string }) {
   const [eingabe, setEingabe] = useState("");
   const [begriff, setBegriff] = useState("");
-  const [index, setIndex] = useState<Eintrag[] | null>(null);
+  const [index, setIndex] = useState<IndexEintrag[] | null>(null);
   const [fehler, setFehler] = useState(false);
   const geladen = useRef(false);
 
@@ -56,14 +58,9 @@ export default function FolgenSuche({ titel, children, kopfClassName = "mb-8 fle
     if (q) void ladeIndex();
   }
 
-  const woerter = normal(begriff).split(/\s+/).filter(Boolean);
-  const treffer =
-    index && woerter.length
-      ? index.filter((f) => {
-          const heu = normal(`${f.titel} ${f.text}`);
-          return woerter.every((w) => heu.includes(w));
-        })
-      : [];
+  const treffer = index ? suche(index, begriff) : [];
+  const nFolgen = treffer.filter((t) => t.art === "folge").length;
+  const nArtikel = treffer.length - nFolgen;
 
   return (
     <>
@@ -104,13 +101,11 @@ export default function FolgenSuche({ titel, children, kopfClassName = "mb-8 fle
               ? "Die Suche konnte nicht geladen werden."
               : !index
                 ? "Suche wird geladen …"
-                : `${treffer.length} ${treffer.length === 1 ? "Folge" : "Folgen"} zu „${begriff}"`}
+                : `${nFolgen} ${nFolgen === 1 ? "Folge" : "Folgen"}${nArtikel ? ` und ${nArtikel} ${nArtikel === 1 ? "Blogartikel" : "Blogartikel"}` : ""} zu „${begriff}"`}
           </p>
           <ul className="space-y-4">
-            {treffer.map((f) => (
-              <li key={f.slug}>
-                <FolgenKarte folge={f} ueberschrift="h2" />
-              </li>
+            {treffer.map((t) => (
+              <li key={`${t.art}-${t.slug}`}>{t.art === "folge" ? <FolgenKarte folge={t} ueberschrift="h2" /> : <ArtikelTrefferKarte artikel={t} />}</li>
             ))}
           </ul>
           <button
