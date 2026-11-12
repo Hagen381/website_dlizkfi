@@ -491,7 +491,7 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
 - Zugangsdaten nur über Umgebungsvariablen aus den Secrets
   (`lftp --env-password`). **Kein `set -x`, kein lftp-`debug`.**
 - Hochladen **ohne Löschen** (`mirror -R` ohne `--delete`).
-- **Einzige Ausnahme: veraltete Blogartikel und Blogbilder.** Nach dem Upload
+- **Ausnahme 1: veraltete Blogartikel und Blogbilder.** Nach dem Upload
   entfernt `scripts/blog-aufraeumen.sh`, was es im aktuellen Export nicht mehr
   gibt — strikt nur:
   1. Ordner `blog/<slug>/` und `images/blog/<slug>/` (zurückgezogen,
@@ -509,6 +509,55 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   Dateien betroffen wären. Gleiche lftp-Sicherheitsregeln wie im
   Deploy. Von Hand: Workflow „Blog auf dem Server aufraeumen"
   (`blog-aufraeumen.yml`, Standard = Testlauf, listet nur auf).
+- **Ausnahme 2: „Server aufräumen“** (ausdrücklicher Auftrag von Hagen,
+  12.11.2026). Workflow `server-aufraeumen.yml`, **nur manuell**, Eingabe
+  `modus`: `testlauf` (Standard, listet nur auf) | `loeschen`. **Gelöscht
+  wird nur per manuellem Lauf nach Freigabe im Chat**, nie automatisch im
+  Deploy. Skript `scripts/server-aufraeumen.sh` (FTPS/HTTP, Löschen) +
+  `scripts/server-aufraeumen-liste.mjs` (Vergleich, löscht nichts).
+  - Vorgehen: frischen Live-Export bauen, Dateiliste vom Server per FTPS
+    (`find -l`, Wurzelordner eine Ebene + die Bereiche), mit dem Export
+    vergleichen. Kandidaten = Server-Dateien/-Ordner, die es im Export nicht
+    gibt, NUR in `_next/`, `images/`, `episodes/`, `blog/`, `entwurf/` und
+    alte Einzeldateien direkt im Wurzelordner, die eindeutig Build-Ergebnis
+    sind (`*.html`, RSC-`*.txt`, `*.xml`, `*.json`, `*.webp`, `*.jpg`,
+    `*.png`, `*.ico`, `*.svg`, `*.woff2`). Alles andere nur als Warnung.
+    Ordner werden nur entfernt, wenn darunter nichts bleibt (`rmdir`, kein
+    `rm -r`).
+  - **Nie gelöscht:** Punkt-Dateien/-Ordner (`.htaccess`, `.htpasswd`,
+    `.well-known` …) samt allem darunter, alles, was im aktuellen Export
+    existiert (z. B. die 18 Über-Fotos `images/ueber/`), Ordner außerhalb
+    der Bereiche (z. B. Logs/Statistik von All-Inkl, sie werden gar nicht
+    durchsucht), Namen außerhalb `^[A-Za-z0-9][A-Za-z0-9._-]*$` (ausgenommen
+    nur der Bereich `_next` selbst und Nexts Manifeste
+    `_next/static/<build-id>/_buildManifest.js`, `_ssgManifest.js`,
+    `_clientMiddlewareManifest.js`), Bestätigungsdateien von Suchmaschinen
+    (`google….html`, `BingSiteAuth.xml`, `yandex_….html`), die Build-ID der
+    Live-Seite (`_next/static/<id>/`, `_next/<id>/` — sie ist bei jedem
+    Build neu, deshalb aus der Live-Startseite gelesen) und jede Datei, auf
+    die die Kontrollseiten live verweisen.
+  - `_next/static/`: Dateien, die der Export nicht kennt, erst löschen, wenn
+    sie älter als 7 Tage sind (Besucher mit alter Seite im Cache).
+  - Ausgabe (Protokoll + Zusammenfassung des Laufs): Tabelle je Bereich
+    (Dateien, MB, leere Ordner), Gesamt, `_next/static/` unter 7 Tagen,
+    Warnungen, vollständige Liste und eine **Prüfsumme der Liste**.
+  - Sicherheitsgrenzen: Abbruch ohne Löschen, wenn der Export unvollständig
+    ist (`index.html`, `episodes/index.html`, `blog/index.html`,
+    `sitemap.xml`), mehr als 3000 Dateien betroffen wären, eine
+    Kontrollseite nicht 200 liefert, die Build-ID der Live-Seite fehlt oder
+    die Live-Seite auf Dateien verweist, die nicht im Export stehen (Server
+    nicht auf dem Stand des Exports).
+  - Löschmodus: braucht die Eingabe `pruefsumme` aus dem freigegebenen
+    Testlauf; nur wenn die neu berechnete Liste genau dieselbe ist, wird
+    gelöscht (sonst neuer Testlauf). Dateien einzeln (`rm -f`), dann leere
+    Ordner (`rmdir`, tiefste zuerst). Danach per FTPS prüfen, dass alles weg
+    ist und keine Export-Datei fehlt, per HTTP, dass Startseite,
+    `/episodes/`, `/blog/`, `/about/`, die neueste Folgenseite, ein Artikel
+    und alle ihre Dateien (JS, CSS, Schriften, Bilder) weiter 200 liefern;
+    danach die volle Live-Prüfung (`live-pruefen.mjs`).
+  - Gleiche lftp-Sicherheitsregeln wie im Deploy (`ftp:ssl-force`,
+    `ftp:ssl-protect-data`, Zertifikatsprüfung an, `--env-password`, kein
+    `set -x`/`debug`); `concurrency` wie der Deploy (nie gleichzeitig).
 - `.htaccess` wird im Build erzeugt (`scripts/nach-dem-build.mjs`):
   http→https und ohne www → `https://www` (ein 301), alte `/sitemap-pages.xml` und
   `/sitemap-episodes.xml?…` → `/sitemap.xml`, `/episodes/page/N/`,
