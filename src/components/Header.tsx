@@ -7,7 +7,7 @@ import { createPortal } from "react-dom";
 import Cover from "@/components/Cover";
 import { abonnieren, navigation, siteConfig } from "@/lib/site-config";
 
-// Aktiv auch auf Unterseiten: /episodes/<slug>/ und /episodes/page/2/ → „Folgen".
+// Aktiv auch auf Unterseiten: /episodes/<slug>/ → „Folgen".
 function istAktiv(pathname: string, href: string) {
   const p = pathname.replace(/\/+$/, "");
   const h = href.replace(/\/+$/, "");

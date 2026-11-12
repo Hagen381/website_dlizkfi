@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { artikel, hatBlog } from "@/lib/blog";
-import { folgen, seitenAnzahl, seitenPfad } from "@/lib/folgen";
+import { folgen } from "@/lib/folgen";
 import { siteConfig, sitePages } from "@/lib/site-config";
 
 export const dynamic = "force-static";
@@ -15,7 +15,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: p.priority,
       ...(p.path === "/" || p.path === "/episodes/" ? { lastModified: neueste } : {}),
     })),
-    ...Array.from({ length: seitenAnzahl - 1 }, (_, i) => ({ url: url(seitenPfad(i + 2)), changeFrequency: "weekly" as const, priority: 0.4 })),
     ...folgen.map((f) => ({ url: url(`/episodes/${f.slug}/`), lastModified: f.datum, changeFrequency: "monthly" as const, priority: 0.8 })),
     // Blog erst, wenn es Artikel gibt
     ...(hatBlog

@@ -62,10 +62,13 @@ RewriteRule ^(.*)$ https://${host}/$1 [R=301,L]
 # Alte PodView-Sitemaps -> /sitemap.xml (Query wie ?page=1 wird verworfen)
 RewriteRule ^sitemap-(pages|episodes)\\.xml$ /sitemap.xml? [R=301,L]
 
-# Alte PodView-Blätteradressen: /episodes/?page=N -> /episodes/page/N/
-RewriteCond %{QUERY_STRING} (^|&)page=([2-9]|[1-9][0-9]+)(&|$)
-RewriteRule ^episodes/?$ /episodes/page/%2/? [R=301,L]
-RewriteCond %{QUERY_STRING} (^|&)page=1(&|$)
+# Blätterseiten gibt es nicht mehr (seit 12.11.2026 enthält das Register auf
+# /episodes/ alle Folgen). Je EIN 301 direkt auf /episodes/, keine Kette:
+# - /episodes/page/N/ (eigene Blätterseiten bis 12.11.2026; alte Ordner auf
+#   dem Server bleiben liegen, die Regel greift vor der Auslieferung)
+# - /episodes/?page=N (PodView)
+RewriteRule ^episodes/page(/[0-9]+)?/?$ /episodes/? [R=301,L]
+RewriteCond %{QUERY_STRING} (^|&)page=[0-9]+(&|$)
 RewriteRule ^episodes/?$ /episodes/? [R=301,L]
 
 # Fehlenden Schrägstrich am Ende ergänzen (nur für vorhandene Ordner)
