@@ -10,6 +10,8 @@ import { artikel, datumLesbar } from "@/lib/blog";
 import { folgeNachSlug } from "@/lib/folgen";
 import { absolut, breadcrumb, JsonLd, serieId } from "@/lib/seo";
 import { siteConfig } from "@/lib/site-config";
+import ThemenChips from "@/components/ThemenChips";
+import { themenZurFolge } from "@/lib/themen";
 
 // Static Export verlangt mindestens einen Parameter. Solange es keine Artikel
 // gibt, wird deshalb nur ein Platzhalter erzeugt, den scripts/nach-dem-build.mjs
@@ -109,6 +111,8 @@ export default async function BlogArtikel({ params }: Props) {
         <div className="artikel mt-10">
           {a.bloecke.map((b, i) => (b.art === "bild" ? <BlogBild key={i} bild={b} /> : <div key={i} dangerouslySetInnerHTML={{ __html: b.html }} />))}
         </div>
+
+        {folge && <ThemenChips themen={themenZurFolge(folge.slug)} className="mt-8" />}
 
         {folge && <ZurFolge folge={folge} />}
       </article>

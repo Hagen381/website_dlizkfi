@@ -11,6 +11,8 @@ import { artikelZurFolge } from "@/lib/blog";
 import { datumKurz, dauerGesprochen, dauerIso, dauerText, folgeNachSlug, folgen, nachbarn } from "@/lib/folgen";
 import { absolut, breadcrumb, JsonLd, serieId } from "@/lib/seo";
 import { plattformen, siteConfig } from "@/lib/site-config";
+import ThemenChips from "@/components/ThemenChips";
+import { themenZurFolge } from "@/lib/themen";
 
 export function generateStaticParams() {
   return folgen.map((f) => ({ slug: f.slug }));
@@ -128,6 +130,7 @@ export default async function FolgenSeite({ params }: Props) {
               Über diese Folge
             </h2>
             <div className="prosa leading-relaxed [overflow-wrap:anywhere]" dangerouslySetInnerHTML={{ __html: folge.shownotes }} />
+            <ThemenChips themen={themenZurFolge(folge.slug)} className="mt-6" />
           </section>
 
           <section aria-labelledby="anhoeren-auf" className="mt-10 border-t border-border pt-8">
