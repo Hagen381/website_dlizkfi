@@ -11,7 +11,8 @@ const nextConfig: NextConfig = {
   basePath: basePath || undefined,
   images: {
     loader: "custom",
-    imageSizes: [32, 48, 64, 96, 128, 256, 384],
+    // 480: kleinere Variante für schmale Bildschirme (Kartenbild auf /blog/, LCP mobil)
+    imageSizes: [32, 48, 64, 96, 128, 256, 384, 480],
     deviceSizes: [640, 750, 828, 1080, 1200],
   },
   transpilePackages: ["next-image-export-optimizer"],

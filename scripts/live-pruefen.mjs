@@ -294,6 +294,13 @@ pruefe(karten === artikel.length, `/blog/ hat ${karten} Kachel(n), veröffentlic
 const html = await (await fetch(basis + "/blog/")).text();
 const imHtml = artikel.filter((d) => html.includes(`href="/blog/${d.replace(/\.md$/, "")}/"`)).length;
 pruefe(imHtml === artikel.length, `/blog/ alle ${artikel.length} Artikel-Links im ausgelieferten HTML (${imHtml})`);
+// LCP mobil: vorderstes Kartenbild als 4:3-Ausschnitt (.karte) mit 480er-Variante,
+// Preload mit imagesrcset/imagesizes; keine Preloads für Literata kursiv/500/600
+// und Bricolage 400 (scripts/nach-dem-build.mjs).
+const lcpPreload = html.match(/<link rel="preload" as="image" [^>]*fetchPriority="high"[^>]*>/i)?.[0] ?? "";
+pruefe(/\.karte-opt-480\.WEBP 480w/.test(lcpPreload) && /imageSizes="[^"]*calc\(100vw - 32px\)"/.test(lcpPreload), `/blog/ LCP-Preload: Kartenausschnitt mit 480w, imagesrcset/imagesizes`);
+const fontPreloads = [...html.matchAll(/<link rel="preload" href="[^"]*\/([a-z_]+_latin_\d{3}_(?:normal|italic))[^"]*" as="font"/g)].map((m) => m[1]);
+pruefe(!fontPreloads.some((f) => /literata_latin_(400_italic|500|600)|bricolage_grotesque_latin_400/.test(f)), `/blog/ Schrift-Preloads nur ${fontPreloads.join(", ")}`);
 // Reihenfolge = Erscheinungsdatum der Folge (neueste zuerst), Datum auf jeder Karte
 const folgenDaten = Object.fromEntries(JSON.parse(fs.readFileSync("content/folgen.json", "utf8")).folgen.map((f) => [f.slug, f.datum]));
 const erwartet = artikel

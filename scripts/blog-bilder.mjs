@@ -8,11 +8,18 @@
 //      Die Ausrichtung aus EXIF wird vorher angewendet (rotate()).
 //   3. Breite/Höhe landen in src/generated/blog-bilder.json (für width/height
 //      der <img>-Tags, verhindert Layout-Springen).
+//   4. Kartenausschnitt für /blog/: das Kartenbild (Frontmatter `kartenbild`,
+//      sonst das erste Bild) zugeschnitten auf 4:3 an `kartenbild-position`
+//      (wie object-position), höchstens 1200 px breit, als
+//      public/images/blog/<slug>/<name>.karte.jpg — die Kachel lädt nur noch
+//      den sichtbaren Ausschnitt statt des ganzen (oft hochformatigen) Fotos
+//      (LCP mobil). Manifest-Schlüssel "karten/<slug>".
 // public/images/blog/ und src/generated/ sind Build-Ergebnisse (.gitignore).
 
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import matter from "gray-matter";
 import sharp from "sharp";
 
 const wurzel = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -63,9 +70,38 @@ for (const datei of dateien) {
   }
 }
 
+// 4. Kartenausschnitt 4:3 je Artikel (Regeln für kartenbild/-position wie in
+//    src/lib/blog.ts; Fehler dort meldet der Build ausführlich).
+for (const datei of dateien) {
+  const { data, content } = matter(fs.readFileSync(path.join(blogOrdner, datei), "utf8"));
+  const bilder = [...content.matchAll(BILD)].map(([, , src]) => src.replace(/^\.?\//, "")).filter((rel) => manifest[rel]);
+  const rel = data.kartenbild ? bilder.find((r) => r.split("/").pop() === String(data.kartenbild).trim()) : bilder[0];
+  if (!rel) continue;
+  const pos = String(data["kartenbild-position"] ?? "50% 50%").match(/^(\d{1,3})% (\d{1,3})%$/);
+  const [px, py] = pos ? [Number(pos[1]) / 100, Number(pos[2]) / 100] : [0.5, 0.5];
+  const quelle = path.join(zielOrdner, rel.replace(/^bilder\//, ""));
+  const { width: w, height: h } = manifest[rel];
+  // Ausschnitt wie object-fit: cover + object-position in einem 4:3-Rahmen
+  const breit = w / h > 4 / 3;
+  const cw = breit ? Math.round((h * 4) / 3) : w;
+  const ch = breit ? h : Math.round((w * 3) / 4);
+  const left = Math.round((w - cw) * px);
+  const top = Math.round((h - ch) * py);
+  const slug = datei.replace(/^_/, "").replace(/\.md$/, "");
+  const name = rel.split("/").pop().replace(/\.jpe?g$/i, "");
+  const zielRel = `${slug}/${name}.karte.jpg`;
+  const info = await sharp(quelle)
+    .extract({ left, top, width: cw, height: ch })
+    .resize({ width: Math.min(cw, 1200), withoutEnlargement: true })
+    .jpeg({ quality: 86, mozjpeg: true })
+    .toFile(path.join(zielOrdner, zielRel));
+  manifest[`karten/${slug}`] = { width: info.width, height: info.height, pfad: `/images/blog/${zielRel}` };
+}
+
 if (fehler.length) {
   console.error("Blog-Bilder FEHLER:\n  " + fehler.join("\n  "));
   process.exit(1);
 }
 fs.writeFileSync(manifestDatei, JSON.stringify(manifest, null, 2) + "\n");
-console.log(`Blog-Bilder: ${Object.keys(manifest).length} Bild(er) ohne Metadaten vorbereitet.`);
+const nKarten = Object.keys(manifest).filter((k) => k.startsWith("karten/")).length;
+console.log(`Blog-Bilder: ${Object.keys(manifest).length - nKarten} Bild(er) ohne Metadaten vorbereitet, ${nKarten} Kartenausschnitt(e) 4:3.`);

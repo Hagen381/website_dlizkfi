@@ -296,6 +296,23 @@ mehr.
     `sizes` je Stufe passend zur Kachelbreite; alle anderen lazy), Datum · Lesezeit (Wortzahl/200,
     aufgerundet), Titel (h2, Silbentrennung), Beschreibung (max. 3 Zeilen),
     unten „Weiterlesen →“. Vorschau: Entwürfe mit Marke „Entwurf“.
+  - **LCP mobil** (seit 12.11.2026, vorher live 3,2 s): Die Kachel zeigt
+    nicht das ganze Foto, sondern einen 4:3-Ausschnitt an
+    `kartenbild-position`, den `scripts/blog-bilder.mjs` vor dem Build
+    schneidet (`images/blog/<slug>/<name>.karte.jpg`, max. 1200 px, ohne
+    Metadaten, Manifest-Schlüssel `karten/<slug>`, in `blog.ts` als
+    `karte`) — die Kartenbilder sind oft Hochformat (747×1600), davon war
+    nur ein Drittel zu sehen. `imageSizes` enthält 480 (kleinere Variante für
+    schmale Bildschirme), `sizes`: < 640 px `100vw − 32px`, 640–1023 px
+    `50vw − 28px`, 1024–1279 px `33.3vw − 27px`, 1280–1439 px
+    `33.3vw − 160px`, ab 1440 px 273 px; der Preload trägt dieselben
+    `imagesrcset`/`imagesizes`. `scripts/nach-dem-build.mjs` entfernt in
+    `out/blog/index.html` die Preloads von Literata kursiv/500/600 und
+    Bricolage 400 (oben nicht gebraucht, liefen parallel zum LCP-Bild);
+    Warnung, wenn sie nicht gefunden werden. Startseite, `/episodes/` und
+    OG-Bild nutzen weiter das ganze Kartenbild mit `kartenbild-position`.
+    CSS-Inlining (`experimental.inlineCss`) getestet: kein Gewinn, minimaler
+    CLS → nicht genutzt.
   - Blättern (erst ab 7 Artikeln, sonst keine Steuerung): ← „1 / 2“ → (44 px,
     `.kipp-dezent`, am Ende `disabled`). Alle Kacheln stehen im HTML
     (`data-seite` je Kachel); sichtbar ist die Seite aus `data-blog-seite`
@@ -767,7 +784,7 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   Folgen-Register (alle Folgen als Link im HTML; bei
   360/390/820/1280/1440 px Walze sichtbar, vordere Karte im Bild, Fotos
   geladen — Bilder außerhalb eines waagerecht scrollbaren Ausschnitts wie der
-  mobilen Reiterleiste zählen nicht —, nichts über den Rand, H1), Blog-Raster (alle Artikel als Link im HTML,
+  mobilen Reiterleiste zählen nicht —, nichts über den Rand, H1), Blog-Raster (alle Artikel als Link im HTML, LCP-Preload mit Kartenausschnitt 480w und ohne die vier unnötigen Schrift-Preloads,
   Reihenfolge/Datum, Kartenbilder; bei 360/390/820/1280/1440 px Spalten
   1/1/2/3/3, Seite 1 mit bis zu 6 Kacheln, alles im Bild, Polaroids nicht
   über dem Raster, kein Querscrollen; ab 7 Artikeln Blättern bei 390/1280 px

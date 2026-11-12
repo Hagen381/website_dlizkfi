@@ -35,6 +35,9 @@ export type Artikel = {
   bloecke: ArtikelBlock[];
   kartenbild: ArtikelBild | null; // Karte auf /blog/ und OG-Bild
   kartenbildPosition: string;
+  // 4:3-Ausschnitt des Kartenbilds an kartenbildPosition (scripts/blog-bilder.mjs)
+  // — nur für die Kachel auf /blog/ (kleinere Datei, LCP mobil).
+  karte: ArtikelBild | null;
   entwurf: boolean;
 };
 
@@ -121,8 +124,10 @@ function laden(): Artikel[] {
       if (!/^\d{1,3}% \d{1,3}%$/.test(kartenbildPosition)) {
         throw new Error(`content/blog/${datei}: kartenbild-position "${kartenbildPosition}" — erwartet z. B. "50% 70%".`);
       }
+      const slug = datei.replace(/^_/, "").replace(/\.md$/, "");
+      const karte = kartenbild ? manifest[`karten/${slug}`] : undefined;
       return {
-        slug: datei.replace(/^_/, "").replace(/\.md$/, ""),
+        slug,
         titel: String(data.titel),
         folgeSlug,
         datum: folge.datum,
@@ -130,6 +135,7 @@ function laden(): Artikel[] {
         bloecke,
         kartenbild: kartenbild ? { src: kartenbild.src, alt: kartenbild.alt, width: kartenbild.width, height: kartenbild.height } : null,
         kartenbildPosition,
+        karte: karte ? { src: karte.pfad, alt: "", width: karte.width, height: karte.height } : null,
         entwurf,
       };
     })

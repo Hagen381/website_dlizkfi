@@ -1,7 +1,13 @@
 // Läuft nach "next build" + Bildoptimierung (npm run build).
 //  1. Entfernt den Platzhalter /blog/_noch-keine-artikel/ (nur nötig, solange
 //     es keine Blogartikel gibt — Static Export braucht einen Parameter).
-//  2. Live-Build (ohne NEXT_BUILD_BASE_PATH): schreibt out/.htaccess.
+//  2. /blog/ (Übersicht): entfernt die Preloads der Schriften, die oben auf
+//     der Seite nicht vorkommen (Literata kursiv/500/600, Bricolage 400) —
+//     sonst laden sie mit hoher Priorität parallel zum LCP-Bild (mobil).
+//     Gebraucht oben: Bricolage 600/700 (Kopf, Chips, Kacheln) und Literata
+//     400 (Text). Die übrigen lädt der Browser später nach, falls nötig.
+//     (Live und Vorschau.)
+//  3. Live-Build (ohne NEXT_BUILD_BASE_PATH): schreibt out/.htaccess.
 //     Der Vorschau-Build für GitHub Pages bekommt keine .htaccess.
 
 import fs from "node:fs";
@@ -24,6 +30,17 @@ for (const rest of ["blog/_noch-keine-artikel"]) {
 }
 for (const datei of fs.readdirSync(path.join(out, "blog"), { withFileTypes: true }).filter((d) => d.isFile() && d.name.includes("_noch-keine-artikel"))) {
   fs.rmSync(path.join(out, "blog", datei.name));
+}
+
+const blogIndex = path.join(out, "blog/index.html");
+if (fs.existsSync(blogIndex)) {
+  const ohnePreload = ["literata_latin_400_italic", "literata_latin_500_normal", "literata_latin_600_normal", "bricolage_grotesque_latin_400_normal"];
+  let html = fs.readFileSync(blogIndex, "utf8");
+  let n = 0;
+  html = html.replace(/<link rel="preload" href="[^"]*\/([a-z_]+_latin_\d{3}_(?:normal|italic))[^"]*\.woff2" as="font"[^>]*\/>/g, (link, name) => (ohnePreload.includes(name) ? (n++, "") : link));
+  fs.writeFileSync(blogIndex, html);
+  if (n === ohnePreload.length) console.log(`/blog/: ${n} Schrift-Preloads entfernt (${ohnePreload.join(", ")}).`);
+  else console.warn(`::warning::/blog/: ${n} statt ${ohnePreload.length} Schrift-Preloads entfernt — Dateinamen der Schriften geändert? (scripts/nach-dem-build.mjs)`);
 }
 
 if (process.env.NEXT_BUILD_BASE_PATH) {

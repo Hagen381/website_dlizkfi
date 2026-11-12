@@ -174,14 +174,17 @@ export default function Blog() {
                           <span className="br-bild-rahmen">
                             {a.kartenbild && (
                               <BlogBildRoh
-                                bild={{ src: a.kartenbild.src, alt: "", width: 640, height: 480 }}
-                                // Kachelbreite je Stufe (blog.css): 1 Spalte = Breite − 32 px,
-                                // 2 Spalten, 3 Spalten (ab 1280 px neben den Polaroids)
-                                sizes="(min-width: 1440px) calc(33vw - 196px), (min-width: 1280px) calc(33vw - 150px), (min-width: 1024px) calc(33vw - 27px), (min-width: 640px) calc(50vw - 28px), calc(100vw - 32px)"
-                                // Vorderste Kachel = LCP: nicht lazy, fetchpriority="high"
+                                // 4:3-Ausschnitt (scripts/blog-bilder.mjs) statt des ganzen Fotos
+                                bild={a.karte ?? { src: a.kartenbild.src, alt: "", width: 640, height: 480 }}
+                                // Kachelbreite je Stufe (blog.css): < 640 px 1 Spalte = Breite − 32 px,
+                                // 640–1023 px 2 Spalten, ab 1024 px 3 (1280–1439 px neben zwei
+                                // Polaroids je Seite, ab 1440 px fest 273 px)
+                                sizes="(min-width: 1440px) 273px, (min-width: 1280px) calc(33.3vw - 160px), (min-width: 1024px) calc(33.3vw - 27px), (min-width: 640px) calc(50vw - 28px), calc(100vw - 32px)"
+                                // Vorderste Kachel = LCP: nicht lazy, Preload mit
+                                // imagesrcset/imagesizes, fetchpriority="high"
                                 wichtig={i === 0}
                                 className="kipp-bild br-bild"
-                                style={{ objectPosition: a.kartenbildPosition }}
+                                style={a.karte ? undefined : { objectPosition: a.kartenbildPosition }}
                               />
                             )}
                           </span>
