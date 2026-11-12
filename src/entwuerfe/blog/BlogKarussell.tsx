@@ -127,7 +127,9 @@ export default function BlogKarussell({ titel, infos, children }: { titel: strin
       <div className="kar-info glas-flaeche">{infos[vorn]}</div>
 
       {n > 1 && (
-        <div className="kar-steuerung" onKeyDown={pfeile}>
+        // Punkte brechen nie um: Ab 5 Artikeln (mobil) bzw. 11 (breit) zeigt
+        // stattdessen „3 / 6“ zwischen den Pfeilen (karussell.css).
+        <div className={`kar-steuerung${n >= 5 ? " viele" : ""}${n >= 11 ? " sehr-viele" : ""}`} onKeyDown={pfeile}>
           <button type="button" className="kar-pfeil" aria-label="Vorheriger Artikel" onClick={() => geh(posRef.current - 1)}>
             ←
           </button>
@@ -138,6 +140,10 @@ export default function BlogKarussell({ titel, infos, children }: { titel: strin
               </button>
             ))}
           </div>
+          {/* Für Screenreader reicht die Live-Ansage */}
+          <p className="kar-zaehler" aria-hidden="true">
+            {vorn + 1} / {n}
+          </p>
           <button type="button" className="kar-pfeil" aria-label="Nächster Artikel" onClick={() => geh(posRef.current + 1)}>
             →
           </button>

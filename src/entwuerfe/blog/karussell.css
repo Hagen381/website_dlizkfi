@@ -303,8 +303,37 @@
 }
 .kar-punkte {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
+}
+/* Statt der Punkte „3 / 6“, wenn sie nicht in eine Zeile passen:
+   6 × 44 px + Pfeile wären mobil breiter als 358 px. */
+.kar-zaehler {
+  display: none;
+  min-width: 72px;
+  margin: 0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgb(254 252 232 / 0.9);
+  font: 700 16px var(--font-heading);
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+  white-space: nowrap;
+  color: var(--text);
+}
+.kar-steuerung.sehr-viele .kar-punkte {
+  display: none;
+}
+.kar-steuerung.sehr-viele .kar-zaehler {
+  display: block;
+}
+@media (max-width: 639px) {
+  .kar-steuerung.viele .kar-punkte {
+    display: none;
+  }
+  .kar-steuerung.viele .kar-zaehler {
+    display: block;
+  }
 }
 /* Tippfläche 44 px, sichtbar nur der kleine Punkt */
 .kar-punkt {
