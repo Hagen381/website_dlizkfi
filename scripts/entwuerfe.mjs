@@ -27,8 +27,8 @@ const routenOrdner = path.join(wurzel, "src/app/entwurf");
 
 // Name der Route → Modul unter src/entwuerfe/
 // { folgen: "folgen/Seite" } → /entwurf/folgen/ (Folgenübersicht als 3D-Register)
-// { blog: "blog/Seite" } → /entwurf/blog/ (Blogübersicht als 3D-Karussell)
-const entwuerfe = { folgen: "folgen/Seite", blog: "blog/Seite" };
+// (/entwurf/blog/ ist seit 12.11.2026 die echte Blogübersicht /blog/.)
+const entwuerfe = { folgen: "folgen/Seite" };
 
 fs.rmSync(routenOrdner, { recursive: true, force: true });
 

@@ -8,10 +8,12 @@
 // Prüft: Weiterleitungen (http -> https, ohne www -> www, alte Sitemaps),
 // kein X-Robots-Tag, ist es die neue Seite? Polaroid-Collage der Startseite
 // (Anzahl je Breite 360/390/820/1280/1440, Fotos geladen), neueste Folge erreichbar,
-// /blog/ mit Karten,
+// /blog/ als Karussell (alle Artikel verlinkt, Bilder, nichts über den Rand
+// bei 360/390/820/1280/1440 px, Steuerung zwischen Ring und Info-Kachel),
 // jeder veröffentlichte Artikel (Bilder, Bildunterschriften, Zur-Folge-Kasten),
 // „Blog" in der Navigation, Kartenbilder, „Zur Podcastfolge"-Ziele, Sitemap,
-// „Zum Blogartikel" auf der Folgenseite, 404 für /entwurf/startseite/
+// „Zum Blogartikel" auf der Folgenseite, 404 für /entwurf/, /entwurf/folgen/,
+// /entwurf/startseite/ und /entwurf/blog/
 // (Entwürfe nur in der Vorschau), optional 404 für PRUEFE_404, alle
 // Bilder/Schriften/CSS/JS ohne Fehler.
 
@@ -116,16 +118,20 @@ if (host.startsWith("www.")) {
 
 const blog = await seite("/blog/");
 pruefe(blog.status === 200, `/blog/ HTTP ${blog.status}`);
-const karten = await blog.pg.locator("main article").count();
-pruefe(karten === artikel.length, `/blog/ zeigt ${karten} Karte(n), veröffentlicht: ${artikel.length}`);
+// Karussell: jede Karte ist ein echter Link im ausgelieferten HTML
+const karten = await blog.pg.locator("main .kar-karte").count();
+pruefe(karten === artikel.length, `/blog/ zeigt ${karten} Karte(n) im Karussell, veröffentlicht: ${artikel.length}`);
+const html = await (await fetch(basis + "/blog/")).text();
+const imHtml = artikel.filter((d) => html.includes(`href="/blog/${d.replace(/\.md$/, "")}/"`)).length;
+pruefe(imHtml === artikel.length, `/blog/ alle ${artikel.length} Artikel-Links im ausgelieferten HTML (${imHtml})`);
 // Reihenfolge = Erscheinungsdatum der Folge (neueste zuerst), Datum auf jeder Karte
 const folgenDaten = Object.fromEntries(JSON.parse(fs.readFileSync("content/folgen.json", "utf8")).folgen.map((f) => [f.slug, f.datum]));
 const erwartet = artikel
   .map((d) => ({ slug: d.replace(/\.md$/, ""), datum: folgenDaten[fs.readFileSync(`content/blog/${d}`, "utf8").match(/folge-slug:\s*"?([^"\n]+)"?/)?.[1]] || "" }))
   .sort((x, y) => y.datum.localeCompare(x.datum));
-const reihe = await blog.pg.locator("main article h2 a").evaluateAll((as) => as.map((x) => x.getAttribute("href").replace(/\/$/, "").split("/").pop()));
+const reihe = await blog.pg.locator("main .kar-karte").evaluateAll((as) => as.map((x) => x.getAttribute("href").replace(/\/$/, "").split("/").pop()));
 pruefe(JSON.stringify(reihe) === JSON.stringify(erwartet.map((e) => e.slug)), `/blog/ Reihenfolge nach Folgendatum: ${reihe.join(", ")}`);
-const kartenDaten = await blog.pg.locator("main article time").evaluateAll((ts) => ts.map((t) => t.getAttribute("datetime")));
+const kartenDaten = await blog.pg.locator("main .kar-karte time").evaluateAll((ts) => ts.map((t) => t.getAttribute("datetime")));
 pruefe(JSON.stringify(kartenDaten) === JSON.stringify(erwartet.map((e) => e.datum)), `/blog/ Datum auf jeder Karte = Datum der Folge`);
 pruefe(blog.kaputt.length === 0, `/blog/ ohne Bildfehler ${blog.kaputt.join(" | ")}`);
 for (const datei of artikel) {
@@ -134,11 +140,34 @@ for (const datei of artikel) {
   // Kartenbild aus dem Frontmatter, sonst das erste Bild im Artikel
   const erstes = (mdText.match(/^kartenbild:\s*"?([^"\n]+?)"?\s*$/m)?.[1] || mdText.match(/!\[[^\]]*\]\(bilder\/[^/]+\/([^)]+)\)/i)?.[1] || "").replace(/\.[a-z]+$/i, "") || null;
   if (!erstes) continue;
-  const karte = blog.pg.locator(`main article:has(a[href$="/blog/${slug}/"])`);
+  const karte = blog.pg.locator(`main a.kar-karte[href$="/blog/${slug}/"]`);
   const src = (await karte.locator("img").first().getAttribute("srcset").catch(() => null)) || (await karte.locator("img").first().getAttribute("src").catch(() => "")) || "";
   pruefe(src.includes(erstes), `/blog/ Karte ${slug} zeigt Kartenbild ${erstes}`);
 }
 await blog.ctx.close();
+
+// Karussell je Breite: sichtbar, vordere Karte und Steuerung im Bild, nichts
+// über den Rand, kein waagerechtes Scrollen, Steuerung zwischen Ring und
+// Info-Kachel, angezeigte Kartenbilder geladen.
+for (const breite of [360, 390, 820, 1280, 1440]) {
+  const b = await seite("/blog/", breite);
+  const k = await b.pg.evaluate(() => {
+    const r = (s) => document.querySelector(s)?.getBoundingClientRect();
+    const ring = r(".kar-ring"), vorn = r(".vorne .kar-karte"), st = r(".kar-steuerung"), info = r(".kar-info");
+    const bilder = [...document.querySelectorAll(".kar-karte img")].filter((i) => i.getClientRects().length > 0);
+    return {
+      ring: !!ring && ring.width > 0,
+      vornImBild: !!vorn && vorn.left >= 0 && vorn.right <= innerWidth,
+      steuerung: !st || (st.left >= 0 && st.right <= innerWidth && st.top >= vorn.bottom && (!info || st.bottom <= info.top)),
+      querScroll: document.documentElement.scrollWidth > innerWidth,
+      geladen: bilder.filter((i) => i.complete && i.naturalWidth > 0).length,
+      bilder: bilder.length,
+    };
+  });
+  pruefe(k.ring && k.vornImBild && k.steuerung && !k.querScroll, `${breite}px /blog/: Karussell sichtbar, vordere Karte im Bild, Steuerung zwischen Ring und Info-Kachel, kein Querscrollen`);
+  pruefe(k.geladen === k.bilder && b.kaputt.length === 0, `${breite}px /blog/: ${k.geladen}/${k.bilder} Kartenbilder geladen ${b.kaputt.join(" | ")}`);
+  await b.ctx.close();
+}
 
 for (const datei of artikel) {
   const slug = datei.replace(/\.md$/, "");
@@ -174,7 +203,8 @@ for (const datei of artikel) {
   pruefe(sitemap.includes(`/blog/${slug}/</loc>`), `sitemap.xml enthält /blog/${slug}/`);
 }
 
-// Entwürfe gibt es nur in der Vorschau (*.vorschau.tsx) — live immer 404.
+// Entwürfe gibt es nur in der Vorschau (scripts/entwuerfe.mjs) — live immer 404.
+// /entwurf/blog/ ist seit 12.11.2026 /blog/ und bleibt live ebenfalls 404.
 for (const pfad of ["/entwurf/blog/", "/entwurf/folgen/", "/entwurf/startseite/", "/entwurf/"]) {
   const r = await fetch(basis + pfad, { redirect: "manual" });
   pruefe(r.status === 404, `Entwurf ${pfad} → ${r.status} (erwartet 404)`);

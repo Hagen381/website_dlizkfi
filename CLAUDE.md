@@ -141,15 +141,37 @@ mehr.
 - Layout: Lesespalte ~65 Zeichen (36,5 rem), Literata 18 px, `##` in Bricolage,
   Beschreibung als Lead, darunter Button „Zur Podcastfolge", Kasten „Zur
   Folge" mit Player und demselben Button am Ende; Bilder max.
-  620 px hoch (object-fit: cover). `/blog/` zeigt Karten mit dem Kartenbild:
-  optionales Frontmatter `kartenbild: <datei>` (muss im Artikel vorkommen,
-  sonst Build-Abbruch), ohne Feld das erste Bild; `kartenbild-position`
-  (optional, z. B. `"50% 60%"`) setzt den Ausschnitt. Das Kartenbild ist auch
-  das OG-Bild und das Bild im JSON-LD.
-- Blog-Karten: 3D-Hover `.kipp .kipp-karte` (siehe „3D-Kippeffekt“), dazu
-  kurzer Bildzoom (`.kipp-bild`) und beim Laden gestaffelt einblenden
-  (`.karte-ein` auf dem `<li>`, nicht auf der Karte — sonst überschreiben sich
-  die Transforms). Ganze Karte ist der Link.
+  620 px hoch (object-fit: cover). Jede Karte auf `/blog/` zeigt das
+  Kartenbild: optionales Frontmatter `kartenbild: <datei>` (muss im Artikel
+  vorkommen, sonst Build-Abbruch), ohne Feld das erste Bild;
+  `kartenbild-position` (optional, z. B. `"50% 60%"`) setzt den Ausschnitt.
+  Das Kartenbild ist auch das OG-Bild und das Bild im JSON-LD.
+- **`/blog/` = 3D-Karussell** (live seit 12.11.2026, vorher Entwurf
+  `/entwurf/blog/`): `src/app/blog/page.tsx`, `src/components/BlogKarussell.tsx`,
+  Stile `src/app/blog/karussell.css` (inline ohne Kommentare). Kopf als
+  Glasfläche (H1 „Blog“ + Text), Hinweiszeile, Hochformat-Karten (300×420,
+  mobil 230×320) auf einem Ring (Radius per CSS `tan()` aus Kartenbreite und
+  Anzahl, kein JS-Messen → CLS 0), Kartenbild mit `kartenbild-position`,
+  Schild mit Datum + Kurztitel (94 %, nur das Foto hinterer Karten wird
+  abgedunkelt — sonst < 4,5:1). Darunter, mittig **zwischen Ring und
+  Info-Kachel**, die Steuerung ← Punkte → (gleicher Abstand `--abstand`
+  oben/unten, 32 px bzw. mobil 24 px; die Bühne endet an der Unterkante der
+  vorderen Karte, Kartenschatten nach unten knapp; Punkte als Buttons mit
+  44-px-Trefferfläche; die Reihe bricht nie um — ab 5 Artikeln unter 640 px
+  bzw. ab 11 immer „3 / 6“ zwischen den Pfeilen). Dann die Info-Kachel
+  (Glasfläche) zum vorderen Artikel: Datum · Lesezeit (Wortzahl/200,
+  aufgerundet), Titel (h2), Beschreibung, „Weiterlesen“, „Zur Podcastfolge“.
+  Polaroids links/rechts ab 1280 px (Deko, `aria-hidden`).
+- Bedienung: Ziehen/Wischen waagerecht (`touch-action: pan-y`), Klick hinten
+  holt nach vorn, Klick vorn öffnet, nur Tastatur-Fokus dreht
+  (`:focus-visible`), Pfeiltasten nur lokal, Live-Ansage „Artikel x von y“.
+  1–2 Artikel: kein Ring, Karten nebeneinander (`.kar-flach`).
+- Jede Karte ist ein echter Link im ausgelieferten HTML. Ohne JavaScript
+  greift `src/app/blog/karussell-ohne-js.css` (in `<noscript>`): einfache
+  Kartenliste, ohne Steuerung, Hinweis und Info-Kachel. In der Vorschau
+  stehen Entwürfe („_“) mit im Karussell, Marke „Entwurf“ auf Schild und
+  Info-Kachel. `BlogKarte.tsx` ist gelöscht; `.karte-ein` (globals.css) wird
+  derzeit nicht mehr verwendet.
 - Button „Zur Podcastfolge" (`src/components/ZurPodcastfolge.tsx` über
   `GelberButton.tsx`, Stil wie „Abonnieren") kommt automatisch aus der Vorlage, sobald `folge-slug` gesetzt
   ist. Ziel immer `/episodes/<folge-slug>/` auf unserer Seite, nie Spotify.
@@ -259,13 +281,15 @@ mehr.
 - Nur transform/box-shadow/Farben, kein CLS. `.kipp::before` ist eine
   unsichtbare Trefferfläche bis zur Ruhelage (sonst zittert ein angehobenes
   Element am unteren Rand) — deshalb kein `overflow-hidden` auf `.kipp`
-  selbst (bei Bedarf auf ein inneres Element, siehe `BlogKarte.tsx`).
+  selbst (bei Bedarf auf ein inneres Element).
 - `.kipp` steht außerhalb von `@layer` und setzt sich gegen Tailwind durch:
   auf `.kipp`-Elementen keine `shadow-*`, `ring-*`, `translate-*` oder
   `transition`-Klassen verwenden.
-- Wo: `.kipp-karte` = Blog-Karten, Folgen-Karten (Start, `/episodes/`, Suche).
+- Wo: `.kipp-karte` = Folgen-Karten (Start, `/episodes/`, Suche). Die
+  Karussell-Karten auf `/blog/` haben kein `.kipp` (der Ring dreht selbst).
   `.kipp-dezent` = Header (s. o.), `GelberButton.tsx`, „Jetzt anhören“,
   Plattform-Links (Hero, Folgenseite, `/about/`, `/follow/`, Fusszeile),
+  „Zur Podcastfolge“ in der Info-Kachel von `/blog/`,
   RSS-Feed, Teilen, Blättern, „Alle Folgen ansehen“/„Alle ansehen“,
   „Zurück zu allen Folgen“/„Alle Artikel“, Suche zurücksetzen, 404-Buttons.
 - **Kein 3D** für Textlinks im Fließtext (Artikel, Shownotes, Impressum,
@@ -315,8 +339,8 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   Export (HTML, CSS, RSC-.txt), die mit `/` beginnt, muss mit
   `/website_dlizkfi/` anfangen.
 - Job `bilder-pruefen` nach dem Deploy: `scripts/vorschau-bilder-pruefen.mjs`
-  ruft Start, `/episodes/`, eine Folgenseite, `/follow/` und aktuelle
-  Entwürfe (`/entwurf/folgen/`, `/entwurf/blog/`) (390 und 1280 px) mit Headless-Chromium auf, scrollt
+  ruft Start, `/episodes/`, eine Folgenseite, `/follow/`, `/blog/` und
+  aktuelle Entwürfe (`/entwurf/folgen/`) (390 und 1280 px) mit Headless-Chromium auf, scrollt
   bis unten und meldet jedes Bild, jede Schrift und jedes CSS/JS mit Fehler
   (ausgeblendete lazy-Bilder werden direkt angefragt). Lokal: Export unter
   `/website_dlizkfi/` ausliefern und das Skript mit dieser Basis aufrufen.
@@ -356,23 +380,9 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   Mobil: Suchfeld volle Breite, „Suchen“ darunter; Karte 236 px hoch, die
   Knöpfe als eigene Zeile über die ganze Kartenbreite (`.reg-text` dort
   `display: contents`).
-- Aktuell außerdem: `/entwurf/blog/` — Blogübersicht als 3D-Karussell
-  (`src/entwuerfe/blog/`: `Seite.tsx`, `BlogKarussell.tsx`, `karussell.css`
-  inline). Kopf als Glasfläche (H1 „Blog“ + Text von `/blog/`), nur
-  veröffentlichte Artikel in der Reihenfolge von `/blog/`, Hochformat-Karten
-  (300×420, mobil 230×320) auf einem Ring (Radius per CSS `tan()` aus
-  Kartenbreite und Anzahl, kein JS-Messen → CLS 0), Kartenbild mit
-  `kartenbild-position`, Schild (94 %, nur das Foto hinterer Karten wird
-  abgedunkelt — sonst < 4,5:1), Glasfläche zum vorderen Artikel mit Datum ·
-  Lesezeit (Wortzahl/200, aufgerundet), „Weiterlesen“, „Zur Podcastfolge“;
-  ← Punkte → zwischen Ring und Info-Kachel (gleicher Abstand `--abstand`
-  oben/unten, 32 px bzw. mobil 24 px; Bühne endet an der Unterkante der
-  vorderen Karte, Kartenschatten nach unten knapp) (Punkte als Buttons, 44 px; die Reihe bricht nie um — ab
-  5 Artikeln unter 640 px bzw. ab 11 Artikeln immer steht stattdessen
-  „3 / 6“ zwischen den Pfeilen, Ansage über die Live-Region). Ziehen/Wischen waagerecht
-  (`touch-action: pan-y`), Klick hinten holt nach vorn, Klick vorn öffnet,
-  nur Tastatur-Fokus dreht (`:focus-visible`), Pfeiltasten nur lokal,
-  Live-Ansage, 1–2 Artikel ohne Ring. Live-Prüfung erwartet 404.
+- Früher: `/entwurf/blog/` ist seit 12.11.2026 die echte Blogübersicht
+  `/blog/` (siehe „Blog“), `src/entwuerfe/blog/` und der Eintrag in
+  `scripts/entwuerfe.mjs` sind entfernt; live liefert `/entwurf/blog/` 404.
   (`/entwurf/startseite/` ist seit 11.11.2026 die echte Startseite.)
   Eigene Bilder eines Entwurfs nur im Vorschau-Zweig von
   `scripts/entwuerfe.mjs` vorbereiten; Pfade nie mit „startseite-entwurf“
@@ -456,7 +466,10 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   prüft www im Headless-Browser — nur lesend (Weiterleitungen http/ohne www/
   alte Sitemaps/`?page=N`, kein X-Robots-Tag, Polaroid-Collage der
   Startseite bei 360/390/820/1280/1440 px (Anzahl sichtbar, Fotos geladen,
-  nichts über den Rand), Blog, Artikel, Navigation, Folgenseiten-Link,
+  nichts über den Rand), Blog-Karussell (alle Artikel als Link im HTML,
+  Reihenfolge/Datum, Kartenbilder; bei 360/390/820/1280/1440 px sichtbar,
+  vordere Karte im Bild, Steuerung zwischen Ring und Info-Kachel, kein
+  Querscrollen), Artikel, Navigation, Folgenseiten-Link,
   Bilder, 404 für `/entwurf/`, `/entwurf/folgen/`, `/entwurf/blog/`). Läuft auch mit `--nur-neueste` nach einem
   Deploy mit neuer Folge.
 - Lighthouse live: Workflow „Lighthouse live" (`lighthouse-live.yml`,

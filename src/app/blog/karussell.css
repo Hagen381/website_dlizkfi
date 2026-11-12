@@ -1,15 +1,6 @@
-/* Entwurf Blog-Karussell (nur Vorschau). Nachbau der Optik von
-   blog-karussell-referenz.html. Wird inline eingebettet (ohne Kommentare). */
-
-.entwurf-balken {
-  margin: 0;
-  padding: 6px 16px;
-  background: var(--text);
-  color: #fff;
-  font: 600 13px/1.4 var(--font-heading);
-  letter-spacing: 0.04em;
-  text-align: center;
-}
+/* Blogübersicht /blog/ als 3D-Karussell (src/app/blog/page.tsx,
+   src/components/BlogKarussell.tsx). Wird inline eingebettet (ohne
+   Kommentare) — eine Stylesheet-Anfrage weniger. */
 
 .kar-buehne {
   position: relative;
@@ -237,6 +228,15 @@
   display: block;
   font: 600 12px var(--font-heading);
   color: var(--muted);
+}
+.kar-marke {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 6px;
+  border-radius: 4px;
+  background: rgb(255 120 40 / 0.2);
+  font: 600 11px/1.6 var(--font-heading);
+  color: var(--text);
 }
 .kar-titel {
   display: block;

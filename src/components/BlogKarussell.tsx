@@ -2,7 +2,7 @@
 
 import { Children, useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 
-// Karussell der Blogübersicht (Entwurf, nur Vorschau): alle Artikel als
+// Karussell der Blogübersicht /blog/ (Stile: src/app/blog/karussell.css): alle Artikel als
 // Hochformat-Karten auf einem Ring (rotateY 360°/Anzahl). Ringgröße und
 // Kartenpositionen rechnet das CSS (tan() aus Kartenbreite und Anzahl), hier
 // nur die Drehung. Bedienung: Ziehen/Wischen waagerecht (≥ 40 px), Pfeiltasten
