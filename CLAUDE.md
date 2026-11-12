@@ -274,9 +274,10 @@ mehr.
     2, darunter 1. Neueste Folge zuerst. Kachel (`.kipp .kipp-karte`,
     `bg-surface`, Fokus-Rahmen über `:has(a:focus-visible)`) = EIN Link auf
     `/blog/<slug>/`: Kartenbild 4:3 mit `kartenbild-position` (Bild
-    `.kipp-bild`; vorderste Kachel = LCP: nicht lazy, `fetchpriority="high"`
-    über `BlogBildRoh wichtig`, ohne Preload; `sizes` je Stufe passend zur
-    Kachelbreite; alle anderen lazy), Datum · Lesezeit (Wortzahl/200,
+    `.kipp-bild`; vorderste Kachel = LCP: `BlogBildRoh wichtig` → Next-16-
+    `preload` (nicht lazy, `<link rel="preload" as="image">` mit
+    `imagesrcset`/`imagesizes` im `<head>`) + `fetchpriority="high"`;
+    `sizes` je Stufe passend zur Kachelbreite; alle anderen lazy), Datum · Lesezeit (Wortzahl/200,
     aufgerundet), Titel (h2, Silbentrennung), Beschreibung (max. 3 Zeilen),
     unten „Weiterlesen →“. Vorschau: Entwürfe mit Marke „Entwurf“.
   - Blättern (erst ab 7 Artikeln, sonst keine Steuerung): ← „1 / 2“ → (44 px,
