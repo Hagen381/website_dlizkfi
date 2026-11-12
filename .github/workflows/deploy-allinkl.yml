@@ -103,11 +103,14 @@ jobs:
           set -euo pipefail
           # Adressen pruefen, bevor etwas committet wird
           node scripts/adressen-pruefen.mjs
+          # Neue Folgen ohne Thema: Themen automatisch vergeben ("auto": true,
+          # Warnung „Themen automatisch vergeben: <slug>“ in der Zusammenfassung)
+          node scripts/themen-pruefen.mjs
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           anzahl=$(node -p "require('./content/folgen.json').anzahl")
           neueste=$(node -p "require('./content/folgen.json').folgen[0].titel")
-          git add content/folgen.json
+          git add content/folgen.json content/themen.json
           git commit -m "Feed-Abgleich: $anzahl Folgen (neueste: $neueste)"
           for i in 1 2 3; do
             git pull --rebase origin main && git push origin HEAD:main && break
