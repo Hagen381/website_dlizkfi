@@ -116,10 +116,14 @@
   z-index: 2;
   --kw: 300px; /* Kartenbreite */
   --kh: 420px;
+  --oben: 40px; /* Luft über der vorderen Karte */
+  --abstand: 32px; /* Ring → Steuerung → Info-Kachel, gleich groß */
 }
+/* Bühne endet genau an der Unterkante der vorderen Karte (hintere Karten
+   sind kleiner und liegen höher) — die Steuerung folgt mit --abstand. */
 .kar-ring-buehne {
   position: relative;
-  height: 560px;
+  height: calc(var(--oben) + var(--kh));
   margin-top: 10px;
   perspective: 1500px;
   cursor: grab;
@@ -131,7 +135,7 @@
   /* Radius aus Kartenbreite und Anzahl: Karten berühren sich, + 60 px Luft */
   --r: calc(var(--kw) / 2 / tan(180deg / var(--n)) + 60px);
   position: absolute;
-  top: 40px;
+  top: var(--oben);
   left: 50%;
   width: var(--kw);
   height: var(--kh);
@@ -169,14 +173,18 @@
   background: var(--surface);
   color: var(--text);
   text-decoration: none;
-  box-shadow: 0 18px 44px rgb(26 46 5 / 0.24);
+  /* Schatten nach unten knapp (negativer Spread), damit er nicht unter die
+     Steuerung läuft. */
+  box-shadow: 0 14px 32px -12px rgb(26 46 5 / 0.3);
   transition: box-shadow 0.5s ease;
 }
 .kar-karte:focus-visible {
   outline: none;
 }
 .vorne .kar-karte {
-  box-shadow: 0 30px 70px rgb(26 46 5 / 0.32);
+  box-shadow:
+    0 18px 36px -14px rgb(26 46 5 / 0.38),
+    0 4px 12px rgb(26 46 5 / 0.1);
 }
 .hinten .kar-karte {
   cursor: pointer;
@@ -241,7 +249,7 @@
   position: relative;
   z-index: 3;
   max-width: 680px;
-  margin: -10px auto 0;
+  margin: var(--abstand) auto 0;
   padding: 24px 28px;
   text-align: center;
 }
@@ -282,12 +290,17 @@
 }
 
 /* ---------- Steuerung ---------- */
+/* Zwischen Ring und Info-Kachel, gleicher Abstand oben und unten. Eigene
+   Ebene über dem (transformierten) Ring, damit kein Kartenschatten darüber
+   liegt. */
 .kar-steuerung {
+  position: relative;
+  z-index: 3;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 18px;
+  margin-top: var(--abstand);
 }
 .kar-pfeil {
   width: 48px;
@@ -374,7 +387,7 @@
   gap: 24px;
   width: auto;
   height: auto;
-  margin: 30px 0;
+  margin: var(--oben) 0 0;
   transform: none;
 }
 .kar-flach .kar-platz {
@@ -389,12 +402,8 @@
   .kar-bereich {
     --kw: 230px;
     --kh: 320px;
-  }
-  .kar-ring-buehne {
-    height: 440px;
-  }
-  .kar-ring {
-    top: 30px;
+    --oben: 30px;
+    --abstand: 24px;
   }
   .kar-titel {
     font-size: 15px;

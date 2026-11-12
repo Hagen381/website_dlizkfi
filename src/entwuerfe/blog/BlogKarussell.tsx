@@ -10,6 +10,7 @@ import { Children, useCallback, useEffect, useRef, useState, type ReactNode } fr
 // Punkte, Klick auf eine hintere Karte holt sie nach vorn, Klick auf die
 // vordere öffnet den Artikel. Fokus auf eine Karte dreht sie nach vorn.
 // Live-Region „Artikel x von y: Titel“. Bei 1–2 Artikeln kein Ring.
+// Reihenfolge: Ring → Steuerung (← Punkte →) → Info-Kachel zum vorderen Artikel.
 
 export default function BlogKarussell({ titel, infos, children }: { titel: string[]; infos: ReactNode[]; children: ReactNode }) {
   const n = titel.length;
@@ -124,8 +125,6 @@ export default function BlogKarussell({ titel, infos, children }: { titel: strin
         </ol>
       </div>
 
-      <div className="kar-info glas-flaeche">{infos[vorn]}</div>
-
       {n > 1 && (
         // Punkte brechen nie um: Ab 5 Artikeln (mobil) bzw. 11 (breit) zeigt
         // stattdessen „3 / 6“ zwischen den Pfeilen (karussell.css).
@@ -149,6 +148,8 @@ export default function BlogKarussell({ titel, infos, children }: { titel: strin
           </button>
         </div>
       )}
+
+      <div className="kar-info glas-flaeche">{infos[vorn]}</div>
 
       <p className="sr-only" aria-live="polite">
         {ansage}

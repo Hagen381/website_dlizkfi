@@ -365,7 +365,9 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   `kartenbild-position`, Schild (94 %, nur das Foto hinterer Karten wird
   abgedunkelt — sonst < 4,5:1), Glasfläche zum vorderen Artikel mit Datum ·
   Lesezeit (Wortzahl/200, aufgerundet), „Weiterlesen“, „Zur Podcastfolge“;
-  ← Punkte → (Punkte als Buttons, 44 px; die Reihe bricht nie um — ab
+  ← Punkte → zwischen Ring und Info-Kachel (gleicher Abstand `--abstand`
+  oben/unten, 32 px bzw. mobil 24 px; Bühne endet an der Unterkante der
+  vorderen Karte, Kartenschatten nach unten knapp) (Punkte als Buttons, 44 px; die Reihe bricht nie um — ab
   5 Artikeln unter 640 px bzw. ab 11 Artikeln immer steht stattdessen
   „3 / 6“ zwischen den Pfeilen, Ansage über die Live-Region). Ziehen/Wischen waagerecht
   (`touch-action: pan-y`), Klick hinten holt nach vorn, Klick vorn öffnet,
