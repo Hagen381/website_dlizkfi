@@ -4,17 +4,17 @@ import type { CSSProperties } from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { BlogBildRoh } from "@/components/BlogBild";
-import BlogKarussell from "@/components/BlogKarussell";
-import GelberButton from "@/components/GelberButton";
-import { Kopfhoerer } from "@/components/Icons";
+import BlogBlaettern from "@/components/BlogBlaettern";
 import { artikel, datumLesbar } from "@/lib/blog";
 import { breadcrumb, JsonLd } from "@/lib/seo";
 import { siteConfig } from "@/lib/site-config";
 
-// Blogübersicht als 3D-Karussell (live seit 12.11.2026, vorher Entwurf
-// /entwurf/blog/). Stile: ./karussell.css (beim Build ohne Kommentare inline
-// eingebettet) und ./karussell-ohne-js.css (nur in <noscript>: einfache
-// Kartenliste statt Ring). Alle Artikel-Links stehen im ausgelieferten HTML.
+// Blogübersicht als Kachel-Raster (seit 12.11.2026, vorher 3D-Karussell):
+// 6 Artikel pro Seite (ab 1024 px 3 × 2, 640–1023 px 2 Spalten, darunter 1),
+// Blättern mit ← „1 / 2“ → (src/components/BlogBlaettern.tsx, ?seite=N).
+// Stile: ./blog.css (beim Build ohne Kommentare inline eingebettet) und
+// ./blog-ohne-js.css (nur in <noscript>: alle Kacheln, kein Blättern). Alle
+// Artikel-Links stehen im ausgelieferten HTML.
 
 function cssLesen(datei: string) {
   return fs
@@ -22,8 +22,10 @@ function cssLesen(datei: string) {
     .replace(/\/\*[\s\S]*?\*\//g, "")
     .replace(/\n\s*\n/g, "\n");
 }
-const karussellCss = cssLesen("karussell.css");
-const ohneJsCss = cssLesen("karussell-ohne-js.css");
+const blogCss = cssLesen("blog.css");
+const ohneJsCss = cssLesen("blog-ohne-js.css");
+
+const PRO_SEITE = 6;
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -56,86 +58,93 @@ const POLAROIDS: [string, "links" | "rechts", number, number, number][] = [
 ];
 
 // Neueste Folge zuerst (Reihenfolge aus src/lib/blog.ts). Live nur
-// veröffentlichte Artikel; in der Vorschau auch Entwürfe („_“) mit Hinweis.
+// veröffentlichte Artikel; in der Vorschau auch Entwürfe („_“) mit Marke.
 // Solange es keine veröffentlichten Artikel gibt, ist /blog/ weder in der
 // Navigation noch in der Sitemap (hatBlog in src/lib/blog.ts).
 export default function Blog() {
-  const karten = artikel.map((a, i) => (
-    <Link key={a.slug} href={`/blog/${a.slug}/`} className="kar-karte" draggable={false}>
-      {a.kartenbild ? (
-        <BlogBildRoh bild={{ src: a.kartenbild.src, alt: "", width: 300, height: 420 }} priority={i === 0} className="kar-bild" style={{ objectPosition: a.kartenbildPosition }} />
-      ) : (
-        <span className="kar-bild kar-bild-leer" />
-      )}
-      {i % 2 === 0 && <span className="kar-klebestreifen" aria-hidden="true" />}
-      <span className="kar-schild">
-        <span className="kar-datum">
-          <time dateTime={a.datum}>{datumLesbar(a.datum)}</time>
-          {a.entwurf && <span className="kar-marke">Entwurf</span>}
-        </span>
-        <span className="kar-titel">{a.titel.split(":")[0]}</span>
-      </span>
-    </Link>
-  ));
-
-  const infos = artikel.map((a) => {
-    const minuten = lesezeit(a.bloecke);
-    return (
-      <div key={a.slug}>
-        <p className="kar-info-meta">
-          <time dateTime={a.datum}>{datumLesbar(a.datum)}</time>
-          {minuten && <> · {minuten} Min. Lesezeit</>}
-          {a.entwurf && <span className="kar-marke">Entwurf</span>}
-        </p>
-        <h2 className="kar-info-titel">{a.titel}</h2>
-        <p className="kar-info-text">{a.beschreibung}</p>
-        <div className="kar-info-knoepfe">
-          <GelberButton href={`/blog/${a.slug}/`} icon={null}>
-            Weiterlesen
-            {/* Aussagekräftiger Linktext (Lighthouse „link-text“, Screenreader) */}
-            <span className="sr-only">: {a.titel}</span>
-          </GelberButton>
-          <Link href={`/episodes/${a.folgeSlug}/`} className="kipp kipp-dezent kar-knopf-weiss">
-            <Kopfhoerer className="h-5 w-5" />
-            Zur Podcastfolge
-          </Link>
-        </div>
-      </div>
-    );
-  });
+  const seiten = Math.max(1, Math.ceil(artikel.length / PRO_SEITE));
+  // Je Seite: Kacheln der Seite 1 aus-, die der Seite N einblenden, wenn
+  // <html data-blog-seite="N"> gesetzt ist (siehe BlogBlaettern.tsx).
+  const seitenCss = Array.from({ length: seiten - 1 }, (_, k) => k + 2)
+    .map((n) => `html[data-blog-seite="${n}"] .br-platz[data-seite="1"]{display:none}html[data-blog-seite="${n}"] .br-platz[data-seite="${n}"]{display:block}`)
+    .join("");
+  // Läuft vor dem Zeichnen des Rasters: ?seite=N sofort anwenden (CLS 0)
+  const seitenSkript = `try{var s=Number(new URLSearchParams(location.search).get("seite"));if(s>1&&s<=${seiten}&&s%1===0)document.documentElement.dataset.blogSeite=s}catch(e){}`;
 
   return (
     <>
-      <style href="blog-karussell" precedence="default">
-        {karussellCss}
+      <style href="blog-raster" precedence="default">
+        {blogCss + seitenCss}
       </style>
       <noscript>
         <style>{ohneJsCss}</style>
       </noscript>
       <JsonLd daten={{ "@graph": [breadcrumb([{ name: "Blog", pfad: "/blog/" }])] }} />
 
-      <div className="kar-buehne">
-        <div className="kar-seitenfotos" aria-hidden="true">
+      <div className="br-buehne">
+        <div className="br-seitenfotos" aria-hidden="true">
           {POLAROIDS.map(([datei, seite, x, y, r]) => (
-            <div key={datei} className="kar-pola" style={{ [seite === "links" ? "left" : "right"]: `${x}px`, top: `${y}px`, ["--r" as string]: `${r}deg` } as CSSProperties}>
-              <div className="kar-pola-rahmen">
-                <BlogBildRoh bild={{ src: `/images/startseite/${datei}`, alt: "", width: 150, height: 150 }} className="kar-pola-bild" />
+            <div key={datei} className="br-pola" style={{ [seite === "links" ? "left" : "right"]: `${x}px`, top: `${y}px`, ["--r" as string]: `${r}deg` } as CSSProperties}>
+              <div className="br-pola-rahmen">
+                <BlogBildRoh bild={{ src: `/images/startseite/${datei}`, alt: "", width: 150, height: 150 }} className="br-pola-bild" />
               </div>
             </div>
           ))}
         </div>
 
-        <header className="kar-kopf glas-flaeche">
-          <h1 className="kar-kopf-titel">Blog</h1>
-          <p className="kar-kopf-text">Geschichten und Gedanken zu den Folgen – zum Lesen statt Hören.</p>
+        <header className="br-kopf glas-flaeche">
+          <h1 className="br-kopf-titel">Blog</h1>
+          <p className="br-kopf-text">Geschichten und Gedanken zu den Folgen – zum Lesen statt Hören.</p>
         </header>
 
         {artikel.length === 0 ? (
-          <p className="kar-hinweis">Hier erscheinen bald Artikel zu den Folgen.</p>
+          <p className="br-hinweis">Hier erscheinen bald Artikel zu den Folgen.</p>
         ) : (
-          <BlogKarussell titel={artikel.map((a) => a.titel)} infos={infos}>
-            {karten}
-          </BlogKarussell>
+          <section className="br-bereich" aria-label="Blogartikel">
+            {seiten > 1 && <script dangerouslySetInnerHTML={{ __html: seitenSkript }} />}
+            <ol className="br-raster">
+              {artikel.map((a, i) => {
+                const minuten = lesezeit(a.bloecke);
+                return (
+                  <li key={a.slug} className="br-platz" data-seite={Math.floor(i / PRO_SEITE) + 1}>
+                    <article className="kipp kipp-karte br-kachel">
+                      <Link href={`/blog/${a.slug}/`} className="br-link">
+                        <span className="br-bild-rahmen">
+                          {a.kartenbild && (
+                            <BlogBildRoh
+                              bild={{ src: a.kartenbild.src, alt: "", width: 640, height: 480 }}
+                              sizes="(min-width: 1280px) 340px, (min-width: 1024px) 31vw, (min-width: 640px) 47vw, 94vw"
+                              priority={i === 0}
+                              className="kipp-bild br-bild"
+                              style={{ objectPosition: a.kartenbildPosition }}
+                            />
+                          )}
+                        </span>
+                        <span className="br-text">
+                          <span className="br-meta">
+                            <time dateTime={a.datum}>{datumLesbar(a.datum)}</time>
+                            {minuten && (
+                              <>
+                                <span aria-hidden="true">·</span>
+                                <span>{minuten} Min. Lesezeit</span>
+                              </>
+                            )}
+                            {a.entwurf && <span className="br-marke">Entwurf</span>}
+                          </span>
+                          <h2 className="br-titel">{a.titel}</h2>
+                          <span className="br-beschreibung">{a.beschreibung}</span>
+                          <span className="br-weiter">
+                            Weiterlesen <span aria-hidden="true">→</span>
+                          </span>
+                        </span>
+                      </Link>
+                    </article>
+                  </li>
+                );
+              })}
+            </ol>
+            {seiten > 1 && <BlogBlaettern seiten={seiten} />}
+          </section>
         )}
       </div>
     </>

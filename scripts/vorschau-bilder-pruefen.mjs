@@ -152,6 +152,89 @@ for (const breite of [390, 1280]) {
   }
 }
 
+// Blogübersicht als Kachel-Raster (nur wenn /blog/ geprüft wird). In der
+// Vorschau stehen Entwürfe („_“) mit drin, mit Marke „Entwurf“.
+// Geprüft: alle Artikel als Link im HTML, Reihenfolge = Folgendatum (neueste
+// zuerst), Datum je Kachel, Spalten 1/2/3 bei 360/390/820/1280/1440 px, alles
+// im Bild, Polaroids nicht über dem Raster, kein Querscrollen, Kartenbilder
+// geladen; ab 7 Artikeln Blättern (→, ?seite=2, Fokus, „2 / n“) und ?seite=2
+// direkt, sonst keine Steuerung.
+if (seiten.includes("/blog/")) {
+  const fs = await import("node:fs");
+  const pfadBasis = new URL(basis).pathname.replace(/\/$/, "");
+  const folgenDatum = Object.fromEntries(JSON.parse(fs.readFileSync("content/folgen.json", "utf8")).folgen.map((f) => [f.slug, f.datum]));
+  const dateien = fs.readdirSync("content/blog").filter((d) => d.endsWith(".md") && d.toLowerCase() !== "readme.md");
+  const soll = dateien
+    .map((d) => ({ slug: d.replace(/^_/, "").replace(/\.md$/, ""), entwurf: d.startsWith("_"), datum: folgenDatum[fs.readFileSync(`content/blog/${d}`, "utf8").match(/folge-slug:\s*"?([^"\n]+)"?/)?.[1]] || "" }))
+    .sort((x, y) => y.datum.localeCompare(x.datum));
+  const slugs = soll.map((a) => a.slug);
+  const proSeite = 6;
+  const seitenZahl = Math.ceil(soll.length / proSeite);
+  const meld = (ok, text) => {
+    console.log(`${ok ? "ok    " : "FEHLER"} ${text}`);
+    if (!ok) fehlerGesamt++;
+  };
+  const html = await (await fetch(`${basis}/blog/`)).text();
+  const imHtml = slugs.filter((sl) => html.includes(`href="${pfadBasis}/blog/${sl}/"`)).length;
+  meld(imHtml === slugs.length, `/blog/ alle ${slugs.length} Artikel (inkl. Entwürfe) als Link im HTML (${imHtml})`);
+  const zustand = (page) =>
+    page.evaluate(() => {
+      const sichtbar = [...document.querySelectorAll(".br-platz")].filter((l) => l.getClientRects().length > 0);
+      const rects = sichtbar.map((l) => l.getBoundingClientRect());
+      const bereich = document.querySelector(".br-bereich")?.getBoundingClientRect();
+      const polas = [...document.querySelectorAll(".br-pola")].filter((p) => p.getClientRects().length > 0).map((p) => p.getBoundingClientRect());
+      const bilder = [...document.querySelectorAll(".br-platz img")].filter((i) => i.getClientRects().length > 0);
+      return {
+        slugs: sichtbar.map((l) => l.querySelector("a").getAttribute("href").replace(/\/$/, "").split("/").pop()),
+        alle: [...document.querySelectorAll(".br-platz")].map((l) => ({ slug: l.querySelector("a").getAttribute("href").replace(/\/$/, "").split("/").pop(), datum: l.querySelector("time")?.getAttribute("datetime"), entwurf: !!l.querySelector(".br-marke") })),
+        spalten: new Set(rects.map((r) => Math.round(r.left))).size,
+        imBild: rects.every((r) => r.left >= 0 && r.right <= innerWidth),
+        polaUeberRaster: !!bereich && polas.some((p) => p.right > bereich.left && p.left < bereich.right && p.bottom > bereich.top && p.top < bereich.bottom),
+        querScroll: document.documentElement.scrollWidth > innerWidth,
+        steuerung: !!document.querySelector(".br-steuerung"),
+        zaehler: document.querySelector(".br-zaehler")?.textContent.replace(/\s+/g, " ").trim() ?? "",
+        fokus: document.activeElement?.closest?.(".br-platz")?.querySelector("a")?.getAttribute("href") ?? "",
+        suche: location.search,
+        geladen: bilder.filter((i) => i.complete && i.naturalWidth > 0).length,
+        bilder: bilder.length,
+      };
+    });
+  for (const breite of [360, 390, 820, 1280, 1440]) {
+    const ctx = await browser.newContext({ viewport: { width: breite, height: 900 } });
+    const page = await ctx.newPage();
+    await page.goto(`${basis}/blog/`, { waitUntil: "networkidle", timeout: 60000 });
+    await page.evaluate(async () => {
+      for (let y = 0; y <= document.body.scrollHeight; y += 500) {
+        scrollTo(0, y);
+        await new Promise((ok) => setTimeout(ok, 120));
+      }
+    });
+    await page.waitForLoadState("networkidle");
+    let z = await zustand(page);
+    if (breite === 360) {
+      meld(JSON.stringify(z.alle.map((a) => a.slug)) === JSON.stringify(slugs), `/blog/ Reihenfolge nach Folgendatum: ${z.alle.map((a) => a.slug).join(", ")}`);
+      meld(z.alle.every((a, i) => a.datum === soll[i].datum && a.entwurf === soll[i].entwurf), `/blog/ Datum je Kachel = Datum der Folge, Marke „Entwurf“ genau bei Entwürfen (${soll.filter((a) => a.entwurf).length})`);
+    }
+    const spaltenSoll = Math.min(breite >= 1024 ? 3 : breite >= 640 ? 2 : 1, soll.length);
+    meld(z.spalten === spaltenSoll && JSON.stringify(z.slugs) === JSON.stringify(slugs.slice(0, proSeite)) && z.imBild && !z.polaUeberRaster && !z.querScroll, `${breite}px /blog/: ${z.slugs.length} Kacheln auf Seite 1, ${z.spalten} Spalte(n) (erwartet ${spaltenSoll}), alles im Bild, Polaroids nicht über dem Raster, kein Querscrollen`);
+    meld(z.geladen === z.bilder, `${breite}px /blog/: ${z.geladen}/${z.bilder} Kartenbilder geladen`);
+    if (seitenZahl > 1) {
+      await page.locator(".br-pfeil[aria-label='Nächste Seite']").click();
+      await page.waitForTimeout(700);
+      await page.waitForLoadState("networkidle");
+      z = await zustand(page);
+      meld(JSON.stringify(z.slugs) === JSON.stringify(slugs.slice(proSeite, 2 * proSeite)) && z.suche === "?seite=2" && z.zaehler.endsWith(`2 / ${seitenZahl}`) && z.fokus.endsWith(`/blog/${slugs[proSeite]}/`) && z.imBild && !z.querScroll && z.geladen === z.bilder, `${breite}px /blog/: Blättern → Seite 2 (${z.slugs.join(", ")}), ${z.suche}, „${z.zaehler}“, Fokus auf erster Kachel, ${z.geladen}/${z.bilder} Bilder`);
+      await page.goto(`${basis}/blog/?seite=2`, { waitUntil: "networkidle", timeout: 60000 });
+      await page.waitForTimeout(500);
+      z = await zustand(page);
+      meld(JSON.stringify(z.slugs) === JSON.stringify(slugs.slice(proSeite, 2 * proSeite)) && z.zaehler.endsWith(`2 / ${seitenZahl}`), `${breite}px /blog/?seite=2 lädt Seite 2 direkt`);
+    } else {
+      meld(!z.steuerung, `${breite}px /blog/: ${soll.length} Artikel → keine Blätter-Steuerung`);
+    }
+    await ctx.close();
+  }
+}
+
 await browser.close();
 if (fehlerGesamt) {
   console.log(`\nBildprüfung FEHLGESCHLAGEN: ${fehlerGesamt} Fehler.`);

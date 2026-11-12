@@ -3,7 +3,7 @@ titel: "Auf Koh Samui angekommen – und erst mal eine Spüle kaufen"
 folge-slug: "die-erste-folge-von-koh-samui"
 beschreibung: "Unsere ersten Tage auf Koh Samui: zwei Bungalows mit Outdoor-Küche, rostendes Besteck, ein Skorpion und ein Straßenverkehr, an den ich mich erst wieder gewöhnen muss."
 kartenbild: "20250924_143845.jpg"
-kartenbild-position: "50% 95%"
+kartenbild-position: "50% 75%"
 ---
 
 Eine Spüle, ein Wasserkocher, ein Schrank, Ablagen fürs Badezimmer und ein Toaster. Das waren einige der Dinge, mit denen wir uns in unseren ersten Tagen auf Koh Samui beschäftigten. Während die Kinder verständlicherweise lieber etwas unternehmen wollten, fuhren Hagen und ich von Geschäft zu Geschäft und versuchten, unsere beiden Bungalows einigermaßen alltagstauglich einzurichten.

@@ -249,35 +249,36 @@ mehr.
   620 px hoch (object-fit: cover). Jede Karte auf `/blog/` zeigt das
   Kartenbild: optionales Frontmatter `kartenbild: <datei>` (muss im Artikel
   vorkommen, sonst Build-Abbruch), ohne Feld das erste Bild;
-  `kartenbild-position` (optional, z. B. `"50% 60%"`) setzt den Ausschnitt.
+  `kartenbild-position` (optional, z. B. `"50% 60%"`) setzt den Ausschnitt
+  (Kachel 4:3 auf `/blog/`, quadratisch auf `/episodes/` und der Startseite).
   Das Kartenbild ist auch das OG-Bild und das Bild im JSON-LD.
-- **`/blog/` = 3D-Karussell** (live seit 12.11.2026, vorher Entwurf
-  `/entwurf/blog/`): `src/app/blog/page.tsx`, `src/components/BlogKarussell.tsx`,
-  Stile `src/app/blog/karussell.css` (inline ohne Kommentare). Kopf als
-  Glasfläche (H1 „Blog“ + Text), darunter direkt der Ring (keine Hinweiszeile
-  mehr, seit 12.11.2026; Abstand 24 px), Hochformat-Karten (300×420,
-  mobil 230×320) auf einem Ring (Radius per CSS `tan()` aus Kartenbreite und
-  Anzahl, kein JS-Messen → CLS 0), Kartenbild mit `kartenbild-position`,
-  Schild mit Datum + Kurztitel (94 %, nur das Foto hinterer Karten wird
-  abgedunkelt — sonst < 4,5:1). Darunter, mittig **zwischen Ring und
-  Info-Kachel**, die Steuerung ← Punkte → (gleicher Abstand `--abstand`
-  oben/unten, 32 px bzw. mobil 24 px; die Bühne endet an der Unterkante der
-  vorderen Karte, Kartenschatten nach unten knapp; Punkte als Buttons mit
-  44-px-Trefferfläche; die Reihe bricht nie um — ab 5 Artikeln unter 640 px
-  bzw. ab 11 immer „3 / 6“ zwischen den Pfeilen). Dann die Info-Kachel
-  (Glasfläche) zum vorderen Artikel: Datum · Lesezeit (Wortzahl/200,
-  aufgerundet), Titel (h2), Beschreibung, „Weiterlesen“, „Zur Podcastfolge“.
-  Polaroids links/rechts ab 1280 px (Deko, `aria-hidden`).
-- Bedienung: Ziehen/Wischen waagerecht (`touch-action: pan-y`), Klick hinten
-  holt nach vorn, Klick vorn öffnet, nur Tastatur-Fokus dreht
-  (`:focus-visible`), Pfeiltasten nur lokal, Live-Ansage „Artikel x von y“.
-  1–2 Artikel: kein Ring, Karten nebeneinander (`.kar-flach`).
-- Jede Karte ist ein echter Link im ausgelieferten HTML. Ohne JavaScript
-  greift `src/app/blog/karussell-ohne-js.css` (in `<noscript>`): einfache
-  Kartenliste, ohne Steuerung und Info-Kachel. In der Vorschau
-  stehen Entwürfe („_“) mit im Karussell, Marke „Entwurf“ auf Schild und
-  Info-Kachel. `BlogKarte.tsx` ist gelöscht; `.karte-ein` (globals.css) wird
-  derzeit nicht mehr verwendet.
+- **`/blog/` = Kachel-Raster** (seit 12.11.2026, vorher 3D-Karussell —
+  `BlogKarussell.tsx`, `karussell.css`, `karussell-ohne-js.css` und die
+  Info-Kachel sind gelöscht): `src/app/blog/page.tsx`, Stile
+  `src/app/blog/blog.css` (inline ohne Kommentare), Blättern
+  `src/components/BlogBlaettern.tsx`. Kopf als Glasfläche (H1 „Blog“ +
+  Text), Polaroids links/rechts ab 1280 px (Deko, `aria-hidden`; das Raster
+  bleibt dazwischen: ab 1280 px max. `100% − 540px`, sonst 1040 px).
+  - Raster: 6 Artikel pro Seite, ab 1024 px 3 Spalten (3 × 2), 640–1023 px
+    2, darunter 1. Neueste Folge zuerst. Kachel (`.kipp .kipp-karte`,
+    `bg-surface`, Fokus-Rahmen über `:has(a:focus-visible)`) = EIN Link auf
+    `/blog/<slug>/`: Kartenbild 4:3 mit `kartenbild-position` (Bild
+    `.kipp-bild`, erste Kachel `priority`), Datum · Lesezeit (Wortzahl/200,
+    aufgerundet), Titel (h2, Silbentrennung), Beschreibung (max. 3 Zeilen),
+    unten „Weiterlesen →“. Vorschau: Entwürfe mit Marke „Entwurf“.
+  - Blättern (erst ab 7 Artikeln, sonst keine Steuerung): ← „1 / 2“ → (44 px,
+    `.kipp-dezent`, am Ende `disabled`). Alle Kacheln stehen im HTML
+    (`data-seite` je Kachel); sichtbar ist die Seite aus `data-blog-seite`
+    am `<html>` (CSS-Regeln je Seite aus `page.tsx`). Ein Inline-Skript vor
+    dem Raster setzt es aus `?seite=N`, bevor gezeichnet wird (CLS 0);
+    `BlogBlaettern` gleicht beim Einhängen mit der Adresse ab und entfernt
+    es beim Verlassen. Klick: kurze Überblendung (nur nach Klick, nicht beim
+    Laden; `prefers-reduced-motion`: ohne), Fokus auf die erste Kachel der
+    neuen Seite, Live-Ansage „Seite x von y“, `?seite=N` (Seite 1 ohne
+    Parameter; Canonical bleibt `/blog/`).
+  - Ohne JavaScript: `src/app/blog/blog-ohne-js.css` (in `<noscript>`): alle
+    Kacheln, keine Steuerung.
+  - `.karte-ein` (globals.css) gibt es nicht mehr.
 - Button „Zur Podcastfolge" (`src/components/ZurPodcastfolge.tsx` über
   `GelberButton.tsx`, Stil wie „Abonnieren") kommt automatisch aus der Vorlage, sobald `folge-slug` gesetzt
   ist. Ziel immer `/episodes/<folge-slug>/` auf unserer Seite, nie Spotify.
@@ -395,12 +396,13 @@ mehr.
 - `.kipp` steht außerhalb von `@layer` und setzt sich gegen Tailwind durch:
   auf `.kipp`-Elementen keine `shadow-*`, `ring-*`, `translate-*` oder
   `transition`-Klassen verwenden.
-- Wo: `.kipp-karte` = Folgen-Karten (Start, Suchtreffer auf `/episodes/`).
+- Wo: `.kipp-karte` = Folgen-Karten (Start, Suchtreffer auf `/episodes/`),
+  Artikel-Kacheln auf `/blog/`.
   Die Register-Karten auf `/episodes/` haben kein `.kipp` (die Walze dreht). Die
-  Karussell-Karten auf `/blog/` haben kein `.kipp` (der Ring dreht selbst).
+  Kacheln auf `/blog/` sind `.kipp-karte`.
   `.kipp-dezent` = Header (s. o.), `GelberButton.tsx`, „Jetzt anhören“,
   Plattform-Links (Hero, Folgenseite, `/about/`, `/follow/`, Fusszeile),
-  „Zur Podcastfolge“ in der Info-Kachel von `/blog/`,
+  Blätter-Pfeile auf `/blog/`,
   RSS-Feed, Teilen, „Alle Folgen ansehen“/„Alle ansehen“,
   „Zurück zu allen Folgen“/„Alle Artikel“, Suche zurücksetzen, 404-Buttons.
 - **Kein 3D** für Textlinks im Fließtext (Artikel, Shownotes, Impressum,
@@ -457,7 +459,12 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   (ausgeblendete lazy-Bilder werden direkt angefragt). Vorübergehende Fehler
   (5xx, 429, Verbindungsabbruch — GitHub Pages direkt nach dem Deploy) werden
   bis zu 3× mit Pause 2/4/6 s neu angefragt und erst dann rot; im Protokoll
-  als „(vorübergehend) … nach n× Wiederholung“. Echte 404/4xx sofort rot. Lokal: Export unter
+  als „(vorübergehend) … nach n× Wiederholung“. Echte 404/4xx sofort rot.
+  Wenn `/blog/` dabei ist, zusätzlich das Blog-Raster mit Entwürfen: alle
+  Artikel als Link im HTML, Reihenfolge/Datum, Marke „Entwurf“ genau bei
+  Entwürfen, bei 360/390/820/1280/1440 px Spalten, alles im Bild, kein
+  Querscrollen, Polaroids nicht über dem Raster, Kartenbilder geladen,
+  Blättern (→, `?seite=2`, Fokus, „2 / n“) und `?seite=2` direkt. Lokal: Export unter
   `/website_dlizkfi/` ausliefern und das Skript mit dieser Basis aufrufen.
 
 ### Entwürfe nur in der Vorschau
@@ -685,10 +692,11 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   Folgen-Register (alle Folgen als Link im HTML; bei
   360/390/820/1280/1440 px Walze sichtbar, vordere Karte im Bild, Fotos
   geladen — Bilder außerhalb eines waagerecht scrollbaren Ausschnitts wie der
-  mobilen Reiterleiste zählen nicht —, nichts über den Rand, H1), Blog-Karussell (alle Artikel als Link im HTML,
-  Reihenfolge/Datum, Kartenbilder; bei 360/390/820/1280/1440 px sichtbar,
-  vordere Karte im Bild, Steuerung zwischen Ring und Info-Kachel, kein
-  Querscrollen), Artikel, Navigation, Folgenseiten-Link,
+  mobilen Reiterleiste zählen nicht —, nichts über den Rand, H1), Blog-Raster (alle Artikel als Link im HTML,
+  Reihenfolge/Datum, Kartenbilder; bei 360/390/820/1280/1440 px Spalten
+  1/1/2/3/3, Seite 1 mit bis zu 6 Kacheln, alles im Bild, Polaroids nicht
+  über dem Raster, kein Querscrollen; ab 7 Artikeln Blättern bei 390/1280 px
+  und `?seite=2` direkt, sonst keine Steuerung), Artikel, Navigation, Folgenseiten-Link,
   Bilder, 404 für `/entwurf/`, `/entwurf/about/`, `/entwurf/folgen/`,
   `/entwurf/blog/`, `/entwurf/startseite/`). Läuft auch mit `--nur-neueste` nach einem
   Deploy mit neuer Folge.

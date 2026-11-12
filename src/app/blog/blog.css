@@ -1,0 +1,308 @@
+/* Blogübersicht /blog/ als Kachel-Raster (src/app/blog/page.tsx,
+   src/components/BlogBlaettern.tsx). Wird inline eingebettet (ohne
+   Kommentare) — eine Stylesheet-Anfrage weniger. */
+
+.br-buehne {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 16px 80px;
+  overflow-x: clip;
+}
+
+/* ---------- Kopf ---------- */
+.br-kopf {
+  position: relative;
+  z-index: 3;
+  max-width: 720px;
+  margin: 28px auto 0;
+  padding: 26px 28px 24px;
+  text-align: center;
+}
+@media (min-width: 640px) {
+  .br-kopf {
+    -webkit-backdrop-filter: blur(18px) saturate(1.2);
+    backdrop-filter: blur(18px) saturate(1.2);
+  }
+}
+.br-kopf-titel {
+  margin: 0 0 10px;
+  font: 700 clamp(32px, 5vw, 52px) / 1.05 var(--font-heading);
+}
+.br-kopf-text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.br-hinweis {
+  position: relative;
+  z-index: 2;
+  width: fit-content;
+  max-width: 100%;
+  margin: 22px auto 0;
+  padding: 4px 14px;
+  border-radius: 999px;
+  background: rgb(254 252 232 / 0.9);
+  font: 600 12px var(--font-heading);
+  letter-spacing: 0.12em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ---------- Polaroids links/rechts (nur ≥ 1280 px, Deko) ---------- */
+.br-seitenfotos {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+.br-pola {
+  position: absolute;
+  width: 150px;
+  pointer-events: auto;
+}
+.br-pola-rahmen {
+  padding: 7px 7px 26px;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow:
+    0 1px 2px rgb(26 46 5 / 0.1),
+    0 8px 18px rgb(26 46 5 / 0.14);
+  transform: rotate(var(--r));
+  transition:
+    transform 0.55s cubic-bezier(0.2, 0.9, 0.25, 1.12),
+    box-shadow 0.45s ease;
+}
+.br-pola-bild {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+@media (hover: hover) {
+  .br-pola:hover {
+    z-index: 9;
+  }
+  .br-pola:hover .br-pola-rahmen {
+    transform: rotate(0deg) translateY(-12px) scale(1.24);
+    box-shadow:
+      0 4px 10px rgb(26 46 5 / 0.16),
+      0 26px 50px rgb(26 46 5 / 0.28);
+  }
+}
+@media (max-width: 1279px) {
+  .br-seitenfotos {
+    display: none;
+  }
+}
+
+/* ---------- Raster ---------- */
+/* 1 Spalte < 640 px, 2 Spalten 640–1023 px, 3 Spalten ab 1024 px. Ab 1280 px
+   stehen links/rechts die Polaroids (bis ~270 px vom Rand) — das Raster
+   bleibt dazwischen. */
+.br-bereich {
+  position: relative;
+  z-index: 2;
+  max-width: 1040px;
+  margin: 32px auto 0;
+}
+@media (min-width: 1280px) {
+  .br-bereich {
+    max-width: min(1040px, calc(100% - 540px));
+  }
+}
+.br-raster {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@media (min-width: 640px) {
+  .br-raster {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1024px) {
+  .br-raster {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+/* Blättern: Seite 1 ist Standard; die Seite steht als data-blog-seite am
+   <html> (gesetzt vom Inline-Skript vor dem Raster und von BlogBlaettern.tsx)
+   — so ist ?seite=N schon beim ersten Zeichnen richtig (CLS 0). Die Regeln
+   je Seite erzeugt page.tsx. Ohne JS zeigt blog-ohne-js.css alle Kacheln. */
+.br-platz:not([data-seite="1"]) {
+  display: none;
+}
+/* Überblenden nur nach einem Klick auf ← / → (nicht beim Laden) */
+[data-blog-geblaettert] .br-platz {
+  animation: br-ein 0.35s ease both;
+}
+@keyframes br-ein {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---------- Kachel ---------- */
+.br-kachel {
+  position: relative;
+  height: 100%;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: var(--surface);
+}
+.br-link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+.br-bild-rahmen {
+  display: block;
+  overflow: hidden;
+  border-radius: 19px 19px 0 0;
+  aspect-ratio: 4 / 3;
+  background: var(--border);
+}
+.br-bild {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: scale 0.3s ease;
+}
+.br-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 16px 20px 20px;
+}
+.br-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  margin: 0;
+  font: 600 13px var(--font-heading);
+  color: var(--muted);
+}
+.br-marke {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgb(255 120 40 / 0.16);
+  font-size: 12px;
+  color: var(--text);
+}
+.br-titel {
+  margin: 8px 0 8px;
+  font: 700 20px/1.2 var(--font-heading);
+  text-wrap: balance;
+  /* Silbentrennung statt Umbruch mitten im Wort (lang="de" am <html>) */
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+@media (min-width: 1024px) {
+  .br-titel {
+    font-size: 18px;
+  }
+}
+.br-beschreibung {
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--muted);
+}
+.br-weiter {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: auto;
+  padding-top: 14px;
+  font: 600 15px var(--font-heading);
+  color: var(--text);
+}
+.br-weiter span[aria-hidden] {
+  transition: translate 0.2s ease;
+}
+@media (hover: hover) {
+  .br-kachel:hover .br-weiter {
+    text-decoration: underline;
+  }
+  .br-kachel:hover .br-weiter span[aria-hidden] {
+    translate: 4px 0;
+  }
+}
+
+/* ---------- Blättern ---------- */
+.br-steuerung {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+.br-pfeil {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  flex: none;
+  border: 1px solid rgb(26 46 5 / 0.12);
+  border-radius: 50%;
+  background: rgb(255 255 255 / 0.85);
+  color: var(--text);
+  font: 700 20px var(--font-heading);
+  cursor: pointer;
+}
+.br-pfeil:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.br-zaehler {
+  min-width: 72px;
+  margin: 0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgb(254 252 232 / 0.9);
+  font: 700 16px var(--font-heading);
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+  white-space: nowrap;
+  color: var(--text);
+}
+
+@media (max-width: 639px) {
+  .br-kopf {
+    padding: 22px 18px 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .br-pola-rahmen,
+  .br-bild,
+  .br-weiter span[aria-hidden] {
+    transition: none;
+  }
+  .br-pola:hover .br-pola-rahmen {
+    transform: rotate(var(--r)) scale(1.04);
+  }
+  [data-blog-geblaettert] .br-platz {
+    animation: none;
+  }
+}
