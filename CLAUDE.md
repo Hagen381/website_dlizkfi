@@ -118,14 +118,15 @@ mehr.
   in der Navigation unverändert.
 - Kopf als Glasfläche: nur H1 „Alle Folgen“ und die echte Suche
   (`FolgenSuche` mit `kopfClassName`; Treffer als normale Liste mit
-  `FolgenKarte`). Darunter Hinweiszeile, Monatsreiter (Klick springt zur
+  `FolgenKarte`). Darunter (ohne Hinweiszeile, seit 12.11.2026 entfernt;
+  Abstand Kopf → Register 28 px) Monatsreiter (Klick springt zur
   neuesten Folge des Monats) und die Walze mit ALLEN Folgen (rotateX 24°,
   Radius 520 px, ±3 sichtbar, außerhalb `visibility: hidden`). Fotos:
   Kartenbild des Blogartikels, sonst Collage-Foto per FNV-1a-Hash des Slugs
   (erst geladen, wenn die Karte in die Nähe kommt).
 - Jede Karte hat einen echten Link auf `/episodes/<slug>/` im ausgelieferten
   HTML. Ohne JavaScript greift `src/app/episodes/register-ohne-js.css` (in
-  `<noscript>`): einfache Liste aller Folgen, ohne Reiter, Steuerung, Hinweis.
+  `<noscript>`): einfache Liste aller Folgen, ohne Reiter und Steuerung.
 - Bedienung: Mausrad (an den Enden scrollt die Seite), Ziehen mit Maus,
   Wischen am Handy (eigene Touch-Handler, kein `touch-action: none` — am
   ersten/letzten Eintrag oder waagerecht scrollt die Seite), Pfeiltasten nur
@@ -133,7 +134,8 @@ mehr.
   Live-Ansage „Folge x von y: Titel“.
 - Die vordere Karte sitzt im oberen Drittel (`--mitte` 150 px, mobil 140 px,
   `perspective-origin` auf gleicher Höhe), darunter 2–3 Karten. Polaroids:
-  „kopf“ neben der Kopf-Glasfläche (ab 1280 px), „seite“ an der Kante des
+  „kopf“ neben der Kopf-Glasfläche (ab 1280 px, oben 8–12 px — tiefer
+  berühren sie bei 1280 px Reiter bzw. Walze), „seite“ an der Kante des
   Registers ausgerichtet, nur ab 1360 px — nie über Reitern oder Walze.
   Mobil: Reiter als wischbare Leiste, Suchfeld volle Breite, „Suchen“
   darunter; Karte 236 px hoch, die Knöpfe als eigene Zeile über die ganze
@@ -184,7 +186,8 @@ mehr.
 - **`/blog/` = 3D-Karussell** (live seit 12.11.2026, vorher Entwurf
   `/entwurf/blog/`): `src/app/blog/page.tsx`, `src/components/BlogKarussell.tsx`,
   Stile `src/app/blog/karussell.css` (inline ohne Kommentare). Kopf als
-  Glasfläche (H1 „Blog“ + Text), Hinweiszeile, Hochformat-Karten (300×420,
+  Glasfläche (H1 „Blog“ + Text), darunter direkt der Ring (keine Hinweiszeile
+  mehr, seit 12.11.2026; Abstand 24 px), Hochformat-Karten (300×420,
   mobil 230×320) auf einem Ring (Radius per CSS `tan()` aus Kartenbreite und
   Anzahl, kein JS-Messen → CLS 0), Kartenbild mit `kartenbild-position`,
   Schild mit Datum + Kurztitel (94 %, nur das Foto hinterer Karten wird
@@ -203,7 +206,7 @@ mehr.
   1–2 Artikel: kein Ring, Karten nebeneinander (`.kar-flach`).
 - Jede Karte ist ein echter Link im ausgelieferten HTML. Ohne JavaScript
   greift `src/app/blog/karussell-ohne-js.css` (in `<noscript>`): einfache
-  Kartenliste, ohne Steuerung, Hinweis und Info-Kachel. In der Vorschau
+  Kartenliste, ohne Steuerung und Info-Kachel. In der Vorschau
   stehen Entwürfe („_“) mit im Karussell, Marke „Entwurf“ auf Schild und
   Info-Kachel. `BlogKarte.tsx` ist gelöscht; `.karte-ein` (globals.css) wird
   derzeit nicht mehr verwendet.
@@ -268,7 +271,7 @@ mehr.
   `text-muted` erreicht dort nur ~4,1:1 → dahinter `.glas-flaeche`
   (`globals.css`: 90 % Seitengrund, Radius 28 px; Blogartikel, Kopf von
   `/blog/`, 404-Seite) oder ein kleiner Untergrund `bg-bg/90` („Neueste
-  Folge“, Hinweiszeilen auf `/episodes/` und `/blog/`). Karten mit `bg-surface` (Folgenseite, Rechtstexte,
+  Folge“). Karten mit `bg-surface` (Folgenseite, Rechtstexte,
   Folgen-/Blog-Karten) brauchen nichts. Neue Seiten mit gedämpftem Text
   direkt auf dem Hintergrund entsprechend unterlegen.
 

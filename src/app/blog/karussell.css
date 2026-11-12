@@ -115,7 +115,7 @@
 .kar-ring-buehne {
   position: relative;
   height: calc(var(--oben) + var(--kh));
-  margin-top: 10px;
+  margin-top: 24px;
   perspective: 1500px;
   cursor: grab;
   touch-action: pan-y;

@@ -1,6 +1,6 @@
 /* Nur ohne JavaScript: page.tsx bettet diese Regeln in <noscript> ein. Statt des Rings eine
-   einfache Kartenliste (alle Karten sind echte Links), ohne Steuerung,
-   Hinweis und Info-Kachel (die gehört zur vorderen Karte und braucht JS). */
+   einfache Kartenliste (alle Karten sind echte Links), ohne Steuerung
+   und Info-Kachel (die gehört zur vorderen Karte und braucht JS). */
 .kar-bereich .kar-ring-buehne {
   height: auto;
   perspective: none;
@@ -26,7 +26,6 @@
 .kar-bereich .hinten .kar-bild {
   filter: none;
 }
-.kar-bereich .kar-hinweis,
 .kar-bereich .kar-steuerung,
 .kar-bereich .kar-info {
   display: none;

@@ -1,13 +1,12 @@
 /* Nur ohne JavaScript: page.tsx bettet diese Regeln in <noscript> ein. Statt
    der Walze eine einfache Liste aller Folgen-Karten (jede mit echtem Link),
-   ohne Reiter, Steuerung und Hinweis (die brauchen JS). Die Transforms der
+   ohne Reiter und Steuerung (die brauchen JS). Die Transforms der
    Walze stehen inline am Element, deshalb !important. */
 .reg-register {
   grid-template-columns: minmax(0, 1fr);
 }
 .reg-reiter,
 .reg-steuerung,
-.reg-hinweis,
 .reg-aktionen {
   display: none !important;
 }

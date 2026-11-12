@@ -68,11 +68,11 @@ function fotoZurFolge(slug: string): { src: string; position: string } {
 // oberhalb des Registers. „seite“ = neben Reitern/Walze (x = Abstand zur
 // Registerkante), nur ab 1360 px — darunter ist dort kein Platz (register.css).
 const POLAROIDS: [string, "links" | "rechts", "kopf" | "seite", number, number, number][] = [
-  ["20251006_181734.jpg", "links", "kopf", 18, 40, -7],
+  ["20251006_181734.jpg", "links", "kopf", 18, 12, -7],
   ["20251013_114024.jpg", "links", "seite", 30, 330, 5],
   ["20261003_124935.jpg", "links", "seite", 6, 560, -4],
   ["20251116_180922.jpg", "links", "seite", 28, 790, 6],
-  ["20251118_165504.jpg", "rechts", "kopf", 20, 30, 6],
+  ["20251118_165504.jpg", "rechts", "kopf", 20, 8, 6],
   ["20260926_084325.jpg", "rechts", "seite", 8, 320, -5],
   ["20251116_153451.jpg", "rechts", "seite", 30, 550, 4],
   ["20250919_150203.jpg", "rechts", "seite", 10, 780, -6],
@@ -155,7 +155,6 @@ export default function Folgen() {
           kopfClassName="reg-kopf glas-flaeche"
           titel={<h1 className="reg-kopf-titel">Alle Folgen</h1>}
         >
-          <p className="reg-hinweis">Mausrad, Ziehen oder Pfeiltasten ↑ ↓ · Reiter springen zum Monat</p>
           <RegisterWalze monate={monate} reiterFotos={reiterFotos} titel={eintraege.map((e) => e.f.titel)}>
             {karten}
           </RegisterWalze>

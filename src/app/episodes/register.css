@@ -43,21 +43,6 @@
   text-wrap: balance;
 }
 
-.reg-hinweis {
-  position: relative;
-  z-index: 2;
-  width: fit-content;
-  max-width: 100%;
-  margin: 18px auto 0;
-  padding: 4px 14px;
-  border-radius: 999px;
-  background: rgb(254 252 232 / 0.9);
-  font: 600 12px var(--font-heading);
-  letter-spacing: 0.12em;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--muted);
-}
 /* ---------- Polaroids links/rechts (nur ≥ 1280 px) ---------- */
 .reg-seitenfotos {
   position: absolute;
@@ -159,7 +144,7 @@
   position: relative;
   z-index: 2;
   max-width: 1000px;
-  margin: 12px auto 0;
+  margin: 28px auto 0;
   display: grid;
   grid-template-columns: 170px minmax(0, 1fr);
   gap: 26px;
