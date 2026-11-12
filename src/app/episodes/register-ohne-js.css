@@ -1,0 +1,47 @@
+/* Nur ohne JavaScript: page.tsx bettet diese Regeln in <noscript> ein. Statt
+   der Walze eine einfache Liste aller Folgen-Karten (jede mit echtem Link),
+   ohne Reiter, Steuerung und Hinweis (die brauchen JS). Die Transforms der
+   Walze stehen inline am Element, deshalb !important. */
+.reg-register {
+  grid-template-columns: minmax(0, 1fr);
+}
+.reg-reiter,
+.reg-steuerung,
+.reg-hinweis,
+.reg-aktionen {
+  display: none !important;
+}
+.reg-walze {
+  height: auto;
+  overflow: visible;
+  perspective: none;
+  cursor: default;
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+.reg-zylinder {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 24px auto 0;
+  transform: none !important;
+}
+.reg-platz {
+  position: relative;
+  margin: 0;
+  transform: none !important;
+}
+.reg-platz.weg {
+  opacity: 1;
+  visibility: visible;
+}
+.reg-platz.hinten {
+  filter: none;
+}
+.reg-foto-bild {
+  display: block;
+}
+.reg-foto {
+  grid-row: 1 / -1 !important;
+}

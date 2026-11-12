@@ -25,10 +25,11 @@ import { fileURLToPath } from "node:url";
 const wurzel = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const routenOrdner = path.join(wurzel, "src/app/entwurf");
 
-// Name der Route → Modul unter src/entwuerfe/
-// { folgen: "folgen/Seite" } → /entwurf/folgen/ (Folgenübersicht als 3D-Register)
-// (/entwurf/blog/ ist seit 12.11.2026 die echte Blogübersicht /blog/.)
-const entwuerfe = { folgen: "folgen/Seite" };
+// Name der Route → Modul unter src/entwuerfe/, z. B. { folgen: "folgen/Seite" }
+// → /entwurf/folgen/. Aktuell keiner: /entwurf/blog/ ist seit 12.11.2026
+// /blog/, /entwurf/folgen/ seit 12.11.2026 /episodes/.
+/** @type {Record<string, string>} */
+const entwuerfe = {};
 
 fs.rmSync(routenOrdner, { recursive: true, force: true });
 

@@ -2,7 +2,7 @@
 
 import { Children, useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 
-// Walze des Folgen-Registers (Entwurf, nur Vorschau): alle Folgen als Karten
+// Walze des Folgen-Registers /episodes/ (Stile: src/app/episodes/register.css): alle Folgen als Karten
 // auf einem Zylinder (rotateX, 24° Abstand, Radius 520 px). Drehen per
 // Mausrad, Ziehen, Pfeiltasten ↑/↓ (nur bei Fokus in der Walze oder auf den
 // Reitern) und Knöpfen. Sichtbar sind nur die vorderen ±3 Karten, der Rest
