@@ -10,7 +10,8 @@ import { fotoZurFolge } from "@/lib/folgen-foto";
 // src/app/entwurf/) genau denselben unteren Teil zeigen.
 export default function StartseiteFolgen() {
   const [frisch] = folgen;
-  const neueste = folgen.slice(0, 5).map((f) => ({ ...f, foto: fotoZurFolge(f.slug) }));
+  // „Weitere Folgen“: die fünf nächsten — die neueste steht schon unter „Neueste Folge“
+  const neueste = folgen.slice(1, 6).map((f) => ({ ...f, foto: fotoZurFolge(f.slug) }));
   const frischFoto = frisch ? fotoZurFolge(frisch.slug) : null;
 
   return (

@@ -300,7 +300,8 @@ mehr.
   12.11.2026 mit dem Foto zur Folge statt Podcast-Cover (`fotoZurFolge()`,
   siehe „Folgenbilder“ unter Folgenübersicht): „Neueste Folge“ 420 px
   (`sizes` wie vorher), lazy, weil sie wegen der 920-px-Collage nie im
-  ersten Bildschirm liegt; „Weitere Folgen“ über `FolgenKarte` (64/96 px).
+  ersten Bildschirm liegt; „Weitere Folgen“ über `FolgenKarte` (64/96 px):
+  die fünf Folgen NACH der neuesten (die steht schon unter „Neueste Folge“).
 - Dateien: `src/app/page.tsx` (Hero), `src/app/startseite.css` (wird beim
   Build ohne Kommentare inline eingebettet — eine Stylesheet-Anfrage weniger),
   `src/components/CollageSteuerung.tsx` (Maus-Neigung, ein Listener, rAF),
