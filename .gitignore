@@ -53,6 +53,7 @@ __pycache__/
 
 # Startseiten-Collage (aus content/startseite/bilder, ohne Metadaten neu erzeugt)
 /public/images/startseite/
+/public/images/ueber/
 
 # Entwürfe (nur Vorschau, erzeugt von scripts/entwuerfe.mjs)
 /src/app/entwurf/
