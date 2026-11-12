@@ -10,7 +10,8 @@
 // (Anzahl je Breite 360/390/820/1280/1440, Fotos geladen), neueste Folge erreichbar,
 // /episodes/ als 3D-Register (alle Folgen verlinkt im HTML, Walze, Fotos, nichts
 // über den Rand bei 360/390/820/1280/1440 px), 301 der alten Blätteradressen,
-// /about/ (Fotos, Rand, Querscrollen, Kontrast, kein noindex),
+// /about/ (Fotos, Rand, Querscrollen, Kontrast, kein noindex), Walze per
+// Touch (390 px) und Mausrad (1280 px), vordere Karte mobil,
 // /blog/ als Kachel-Raster (alle Artikel verlinkt, Reihenfolge/Datum,
 // Kartenbilder, Spalten 1/2/3, nichts über den Rand, kein Querscrollen bei
 // 360/390/820/1280/1440 px, Blättern ab 7 Artikeln, sonst keine Steuerung,
@@ -211,6 +212,67 @@ for (const breite of [390, 1280]) {
   z = await zustand(g.pg);
   pruefe(z.gedrueckt.join() === visumLabel && z.karten === anzahlThema("visum") && z.fotos.every(Boolean) && !z.querScroll && g.kaputt.length === 0, `${breite}px /episodes/?thema=visum lädt gefiltert: ${z.karten} Folgen, ${z.fotos.filter(Boolean).length}/${z.fotos.length} Fotos ${g.kaputt.join(" | ")}`);
   await g.ctx.close();
+}
+// Walze bedienen (seit 12.11.2026): Wischen per Touch bei 390 px — kurzer
+// Wisch genau +1, zu kurzer bleibt, zurück −1, langer schneller höchstens +3,
+// danach sauber eingerastet (Vielfaches von 24°); Mausrad bei 1280 px = +1
+// pro Raststufe, Trackpad-Schwung höchstens +1. Vordere Karte < 640 px volle
+// Breite, Titel nicht abgeschnitten, Knöpfe ≥ 44 px und nicht verdeckt,
+// ↑ ↓ ≥ 48 px mit Abstand; keine Monatsschilder mehr.
+{
+  const vorne = (pg) => pg.evaluate(() => [...document.querySelectorAll(".reg-platz:not(.aus)")].findIndex((l) => l.classList.contains("vorne")));
+  const eingerastet = (pg) => pg.evaluate(() => { const z = document.querySelector(".reg-zylinder"); const m = z.style.transform.match(/rotateX\((-?[\d.]+)deg\)/); return !z.classList.contains("zieht") && !!m && Number(m[1]) % 24 === 0; });
+  // Touch-Wisch in der Seite (genaue Zeitabstände)
+  const wisch = async (pg, x, y0, dy, dauer) => {
+    await pg.evaluate(async ([x, y0, dy, dauer]) => {
+      const el = document.elementFromPoint(x, y0);
+      const t = (y) => new Touch({ identifier: 1, target: el, clientX: x, clientY: y, pageX: x, pageY: y + scrollY });
+      const feuer = (typ, y, an) => el.dispatchEvent(new TouchEvent(typ, { bubbles: true, cancelable: true, touches: an ? [t(y)] : [], targetTouches: an ? [t(y)] : [], changedTouches: [t(y)] }));
+      feuer("touchstart", y0, true);
+      for (let i = 1; i <= 12; i++) { await new Promise((r) => setTimeout(r, dauer / 12)); feuer("touchmove", y0 + (dy * i) / 12, true); }
+      feuer("touchend", y0 + dy, false);
+    }, [x, y0, dy, dauer]);
+    await pg.waitForTimeout(700);
+  };
+  const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, hasTouch: true, isMobile: true });
+  const pg = await ctx.newPage();
+  await pg.goto(basis + "/episodes/", { waitUntil: "networkidle", timeout: 60000 });
+  const w0 = await pg.locator(".reg-walze").boundingBox();
+  await pg.evaluate((y) => scrollTo(0, y - 80), w0.y);
+  await pg.waitForTimeout(300);
+  const w = await pg.locator(".reg-walze").boundingBox();
+  const x = w.x + w.width / 2, y = w.y + 420;
+  const faelle = [["kurzer Wisch 80 px", -80, 300, [1, 1]], ["zu kurz 30 px", -30, 150, [0, 0]], ["zurück 80 px", 80, 250, [-1, -1]], ["kurz und schnell 120 px/80 ms", -120, 80, [1, 1]], ["lang und schnell 420 px/120 ms", -420, 120, [2, 3]]];
+  for (const [name, dy, ms, [min, max]] of faelle) {
+    const vor = await vorne(pg);
+    await wisch(pg, x, dy > 0 ? y - 200 : y, dy, ms);
+    const d = (await vorne(pg)) - vor;
+    pruefe(d >= min && d <= max && (await eingerastet(pg)), `390px /episodes/ Touch ${name}: ${d >= 0 ? "+" : ""}${d} (erwartet ${min === max ? min : `${min}…${max}`}), eingerastet`);
+  }
+  const k = await pg.evaluate(() => {
+    const r = document.querySelector(".vorne .reg-karte").getBoundingClientRect();
+    const t = document.querySelector(".vorne .reg-titel");
+    const knoepfe = [...document.querySelectorAll(".vorne .reg-knopf")].map((kn) => { const b = kn.getBoundingClientRect(); return { h: b.height, frei: kn.contains(document.elementFromPoint(b.left + b.width / 2, b.top + b.height / 2)) }; });
+    const st = [...document.querySelectorAll(".reg-steuerung button")].map((b) => b.getBoundingClientRect());
+    return { breite: r.width, platz: innerWidth - 32, titelGanz: t.scrollHeight <= t.clientHeight + 1, knoepfe, pfeile: st.map((b) => Math.min(b.width, b.height)), abstand: st[1].left - st[0].right, fahnen: document.querySelectorAll(".reg-fahne").length, quer: document.documentElement.scrollWidth > innerWidth };
+  });
+  pruefe(k.breite >= k.platz - 2 && k.titelGanz && k.knoepfe.length > 0 && k.knoepfe.every((b) => b.h >= 44 && b.frei) && k.pfeile.every((g) => g >= 48) && k.abstand >= 16 && k.fahnen === 0 && !k.quer, `390px /episodes/: vordere Karte ${Math.round(k.breite)} px breit (Platz ${k.platz}), Titel ${k.titelGanz ? "ganz" : "ABGESCHNITTEN"}, Knöpfe ${k.knoepfe.map((b) => `${Math.round(b.h)} px${b.frei ? "" : " VERDECKT"}`).join("/")}, ↑ ↓ ${k.pfeile.map(Math.round).join("/")} px, Abstand ${Math.round(k.abstand)} px, Monatsschilder ${k.fahnen}${k.quer ? ", QUERSCROLLEN" : ""}`);
+  await ctx.close();
+  const m = await seite("/episodes/", 1280);
+  await m.pg.evaluate(() => scrollTo(0, document.querySelector(".reg-walze").getBoundingClientRect().top + scrollY - 100));
+  await m.pg.waitForTimeout(300);
+  const mb2 = await m.pg.locator(".reg-walze").boundingBox();
+  await m.pg.mouse.move(mb2.x + mb2.width / 2, mb2.y + 200);
+  const a0 = await vorne(m.pg);
+  await m.pg.mouse.wheel(0, 100); await m.pg.waitForTimeout(400);
+  const a1 = await vorne(m.pg);
+  await m.pg.mouse.wheel(0, 100); await m.pg.waitForTimeout(400);
+  const a2 = await vorne(m.pg);
+  for (let i = 0; i < 40; i++) { await m.pg.mouse.wheel(0, 6); await m.pg.waitForTimeout(16); }
+  await m.pg.waitForTimeout(400);
+  const a3 = await vorne(m.pg);
+  pruefe(a1 - a0 === 1 && a2 - a1 === 1 && a3 - a2 <= 1 && (await eingerastet(m.pg)), `1280px /episodes/ Mausrad: ${a0} → ${a1} → ${a2} (je +1 pro Raststufe), Trackpad-Schwung +${a3 - a2} (≤ 1)`);
+  await m.ctx.close();
 }
 const su = await seite("/episodes/?q=Schule", 390);
 await su.pg.waitForSelector("section[aria-live] li", { timeout: 15000 }).catch(() => {});

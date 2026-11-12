@@ -122,17 +122,29 @@ mehr.
   Hinweiszeile, seit 12.11.2026 entfernt; Abstand Kopf → Register 28 px) die
   Themenreiter (siehe „Themen“; seit 12.11.2026 statt der Monatsreiter) und
   die Walze mit ALLEN Folgen bzw. denen des gewählten Themas (rotateX 24°,
-  Radius 520 px, ±3 sichtbar, außerhalb `visibility: hidden`). Fotos:
+  Radius `--radius` 520 px, unter 640 px 640 px, ±3 sichtbar, außerhalb
+  `visibility: hidden`). Kein Monatsschild mehr über den Karten (seit
+  12.11.2026 entfernt, das Datum steht in der Karte). Fotos:
   „Foto zur Folge“ (siehe „Folgenbilder“), erst geladen, wenn die Karte in
   die Nähe kommt.
 - Jede Karte hat einen echten Link auf `/episodes/<slug>/` im ausgelieferten
   HTML. Ohne JavaScript greift `src/app/episodes/register-ohne-js.css` (in
   `<noscript>`): einfache Liste aller Folgen, ohne Reiter und Steuerung.
-- Bedienung: Mausrad (an den Enden scrollt die Seite), Ziehen mit Maus,
-  Wischen am Handy (eigene Touch-Handler, kein `touch-action: none` — am
-  ersten/letzten Eintrag oder waagerecht scrollt die Seite), Pfeiltasten nur
-  bei Fokus in Walze/Reitern, Knöpfe ↑ ↓, Fokus dreht die Karte nach vorn,
-  Live-Ansage „Folge x von y: Titel“.
+- Bedienung (seit 12.11.2026 ruhiger, Rückmeldung Hagen): Wischen am Handy
+  (eigene Touch-Handler, kein `touch-action: none` — am ersten/letzten
+  Eintrag oder waagerecht scrollt die Seite) und Ziehen mit der Maus: Die
+  Walze folgt gedämpft (1 Karte ≈ Kartenhöhe, max. ±1,25 Karten, Klasse
+  `.zieht` ohne Übergang), beim Loslassen rastet sie ein (0,45 s,
+  `prefers-reduced-motion`: ohne): unter 40 px zurück, sonst genau EINE
+  Folge; nur lang (≥ 180 px) UND schnell (≥ 1 px/ms, letzte 120 ms) springt
+  weiter: 180–359 px 2, ab 360 px 3 Folgen (`wischSchritte()` in
+  `RegisterWalze.tsx`). Mausrad: höchstens 1 Folge pro Raststufe, danach
+  250 ms Sperre; kleine Schritte (Trackpad) werden gesammelt und verlängern
+  die Sperre (kein Durchrauschen), an den Enden scrollt die Seite.
+  Pfeiltasten nur bei Fokus in Walze/Reitern, Knöpfe ↑ ↓, Fokus dreht die
+  Karte nach vorn, Live-Ansage „Folge x von y: Titel“. Fotos der nahen
+  Karten (±5) werden aktiv geladen (`loading` → eager), weil gedrehte
+  hintere Karten außerhalb des Ausschnitts liegen.
 - **Folgenbilder** (seit 12.11.2026): Jede Folge hat ein eigenes Foto
   `content/folgen-bilder/<slug>.jpg` (900×900, ohne Metadaten, auf Kinder,
   Kennzeichen und Bildschirme geprüft; `quellen.json` daneben = Herkunft aus
@@ -161,7 +173,11 @@ mehr.
   Registers ausgerichtet, nur ab 1360 px — nie über Reitern oder Walze.
   Mobil: Themenreiter als wischbare Leiste, Suchfeld volle Breite, „Suchen“
   darunter; Karte 236 px hoch, die Knöpfe als eigene Zeile über die ganze
-  Kartenbreite (`.reg-text` dort `display: contents`).
+  Kartenbreite (`.reg-text` dort `display: contents`). Unter 640 px: volle
+  Breite, die VORDERE Karte 284 px hoch (Titel bis 5 Zeilen ganz — so lang
+  ist der längste bei 360 px; Knöpfe ≥ 44 px, nicht von der nächsten Karte
+  verdeckt dank Radius 640 px), Walze 600 px, Knöpfe ↑ ↓ 52 px mit 28 px
+  Abstand.
 - **Themen** (seit 12.11.2026): `content/themen.json` (vom Projekt-Chat,
   von Hagen freigegeben; Labels und Zuordnung wörtlich übernehmen):
   `{"themen": {key: Label, …}, "folgen": {slug: [keys] | {"themen": [keys],
@@ -716,7 +732,12 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   aktiv, Reiter nicht über der Walze, Klick auf „Visum & Bürokratie“ filtert
   + `?thema=visum`, nochmal klicken = alle, `/episodes/?thema=visum` lädt
   gefiltert, Fotos geladen), Suche „Schule“ (Homeschooling/Onlineschule
-  dabei, Titeltreffer zuerst), Themen-Chips auf einer Folgenseite,
+  dabei, Titeltreffer zuerst), Themen-Chips auf einer Folgenseite, Walze
+  per Touch bei 390 px (kurzer Wisch +1, zu kurz 0, zurück −1, lang+schnell
+  ≤ +3, eingerastet; vordere Karte volle Breite, Titel ganz, Knöpfe ≥ 44 px
+  frei, ↑ ↓ ≥ 48 px, keine Monatsschilder) und Mausrad bei 1280 px (+1 pro
+  Stufe, Trackpad-Schwung ≤ +1), `/about/` je Breite (Fotos, Rand,
+  Querscrollen, Kontrast ≥ 4,5:1, kein noindex, Canonical),
   Folgen-Register (alle Folgen als Link im HTML; bei
   360/390/820/1280/1440 px Walze sichtbar, vordere Karte im Bild, Fotos
   geladen — Bilder außerhalb eines waagerecht scrollbaren Ausschnitts wie der

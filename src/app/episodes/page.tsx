@@ -37,16 +37,6 @@ export const metadata: Metadata = {
   alternates: { canonical: "/episodes/" },
 };
 
-const MONATE = ["Jan", "Feb", "März", "Apr", "Mai", "Juni", "Juli", "Aug", "Sept", "Okt", "Nov", "Dez"];
-const TZ = "Europe/Berlin";
-// Monat der Folge für die Fahne an der Karte („Okt 2026“)
-function monatJahr(iso: string) {
-  const d = new Date(iso);
-  const m = Number(new Intl.DateTimeFormat("de-DE", { month: "numeric", timeZone: TZ }).format(d));
-  const j = new Intl.DateTimeFormat("de-DE", { year: "numeric", timeZone: TZ }).format(d);
-  return `${MONATE[m - 1]} ${j}`;
-}
-
 // Foto je Folge: src/lib/folgen-foto.ts (Blog-Kartenbild, sonst Folgenbild,
 // sonst Collage-Foto).
 
@@ -66,7 +56,7 @@ const POLAROIDS: [string, "links" | "rechts", "kopf" | "seite", number, number, 
 ];
 
 export default function Folgen() {
-  const eintraege = folgen.map((f) => ({ f, artikel: artikelZurFolge(f.slug), foto: fotoZurFolge(f.slug), monat: monatJahr(f.datum), themen: themenZurFolge(f.slug).map((t) => t.key) }));
+  const eintraege = folgen.map((f) => ({ f, artikel: artikelZurFolge(f.slug), foto: fotoZurFolge(f.slug), themen: themenZurFolge(f.slug).map((t) => t.key) }));
 
   // Themenreiter: Anzahl je Thema, Foto = Foto der neuesten Folge des Themas
   // („Alle“: neueste Folge überhaupt). Themen ohne Folge entfallen.
@@ -76,11 +66,8 @@ export default function Folgen() {
     return <BlogBildRoh key={key ?? "alle"} bild={{ src: e.foto.src, alt: "", width: 40, height: 40 }} className="reg-reiter-bild" style={{ objectPosition: e.foto.position }} />;
   });
 
-  const karten = eintraege.map(({ f, artikel, foto, monat }, i) => (
+  const karten = eintraege.map(({ f, artikel, foto }, i) => (
     <article key={f.slug} className="reg-karte">
-      <span className="reg-fahne" aria-hidden="true">
-        {monat}
-      </span>
       <div className="reg-foto">
         <BlogBildRoh bild={{ src: foto.src, alt: "", width: 210, height: 210 }} priority={i === 0} className="reg-foto-bild" style={{ objectPosition: foto.position }} />
         <span className="reg-cover">

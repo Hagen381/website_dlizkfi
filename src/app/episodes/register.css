@@ -257,6 +257,8 @@
    perspective-origin auf derselben Höhe, damit die Walze symmetrisch wirkt. */
 .reg-walze {
   --mitte: 150px;
+  /* Radius der Walze (RegisterWalze.tsx nutzt ihn in den Transforms) */
+  --radius: 520px;
   position: relative;
   height: 640px;
   overflow: hidden;
@@ -284,7 +286,12 @@
   padding: 0;
   list-style: none;
   transform-style: preserve-3d;
-  transition: transform 0.7s cubic-bezier(0.2, 0.8, 0.25, 1);
+  /* Einrasten nach Wischen/Ziehen/Klick: kurz und weich */
+  transition: transform 0.45s cubic-bezier(0.2, 0.8, 0.25, 1);
+}
+/* Während des Ziehens folgt die Walze dem Finger direkt (RegisterWalze.tsx) */
+.reg-zylinder.zieht {
+  transition: none;
 }
 .reg-platz {
   position: absolute;
@@ -322,16 +329,6 @@
 }
 .vorne .reg-karte {
   box-shadow: 0 18px 50px rgb(26 46 5 / 0.24);
-}
-.reg-fahne {
-  position: absolute;
-  top: -15px;
-  left: 228px;
-  padding: 4px 12px;
-  border-radius: 10px 10px 0 0;
-  background: var(--primary);
-  font: 600 12px var(--font-heading);
-  color: var(--text);
 }
 .reg-foto {
   position: relative;
@@ -533,9 +530,6 @@
   .reg-meta {
     padding-top: 14px;
   }
-  .reg-fahne {
-    left: 116px;
-  }
   .reg-titel {
     font-size: 18px;
   }
@@ -573,6 +567,41 @@
   }
   .reg-kopf form > button {
     flex: 1 1 100%;
+  }
+}
+
+/* ---------- Handy (< 640 px): vordere Karte größer ---------- */
+/* Volle Breite, die vordere Karte 284 px hoch (Titel ganz, Knöpfe ≥ 44 px);
+   die hinteren bleiben 236 px. Die Walze ist dafür etwas höher
+   (feste Höhe → CLS 0). Knöpfe ↑ ↓ 52 px mit Abstand. */
+@media (max-width: 639px) {
+  .reg-walze {
+    --mitte: 160px;
+    /* größerer Radius: Bogen je Karte 640 × 24° ≈ 268 px ≥ halbe vordere
+       (142) + halbe hintere Karte (118) — nichts verdeckt die Knöpfe */
+    --radius: 640px;
+    height: 600px;
+  }
+  .reg-zylinder {
+    width: 100%;
+  }
+  .reg-platz.vorne {
+    height: 284px;
+    margin-top: -142px;
+  }
+  /* Titel der vorderen Karte ganz (bis 5 Zeilen — so lang ist bei 360 px
+     der längste); passt mit 2 Zeilen Beschreibung und den Knöpfen in 284 px */
+  .vorne .reg-titel {
+    -webkit-line-clamp: 5;
+  }
+  .reg-steuerung {
+    gap: 28px;
+    margin-top: 14px;
+  }
+  .reg-steuerung button {
+    width: 52px;
+    height: 52px;
+    font-size: 22px;
   }
 }
 
