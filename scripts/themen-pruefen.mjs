@@ -16,7 +16,8 @@
 // Montagslauf) → Themen per Stichwortregeln (scripts/themen-regeln.mjs) mit
 // "auto": true eintragen und als Warnung „Themen automatisch vergeben: <slug>“
 // melden (Build-Log + Zusammenfassung des Laufs, gelb). Auch schon
-// automatisch vergebene, noch nicht geprüfte Einträge werden gemeldet.
+// automatisch vergebene, noch nicht geprüfte Einträge werden gemeldet —
+// pro Lauf (Job) nur einmal.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -70,8 +71,14 @@ if (neu.length) {
 
 const auto = Object.entries(daten.folgen).filter(([, e]) => !Array.isArray(e));
 const zeilen = auto.map(([slug, e]) => `Themen automatisch vergeben: ${slug} → ${e.themen.map((k) => daten.themen[k]).join(", ")}${neu.includes(slug) ? "" : " (noch nicht geprüft)"}`);
-for (const z of zeilen) console.log(`::warning::${z}`);
-if (zeilen.length && process.env.GITHUB_STEP_SUMMARY) {
+// Pro Lauf nur EINMAL als Warnung und in der Zusammenfassung melden: Im
+// Montagslauf läuft das Skript zweimal im selben Job (vor dem Commit der
+// neuen Folge und im Build). Die Markierung in RUNNER_TEMP gilt je Job.
+const marke = process.env.RUNNER_TEMP ? path.join(process.env.RUNNER_TEMP, "themen-auto-gemeldet") : null;
+const schonGemeldet = !!marke && fs.existsSync(marke);
+for (const z of zeilen) console.log(schonGemeldet ? `${z} (schon gemeldet)` : `::warning::${z}`);
+if (zeilen.length && marke && !schonGemeldet) fs.writeFileSync(marke, "");
+if (zeilen.length && process.env.GITHUB_STEP_SUMMARY && !schonGemeldet) {
   fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `\n⚠️ **Themen automatisch vergeben** (bitte im Projekt-Chat prüfen, geprüfte Themen per \`uebergabe\`):\n\n${zeilen.map((z) => `- ${z.replace("Themen automatisch vergeben: ", "")}`).join("\n")}\n`);
 }
 console.log(`Themen ok: ${themen.size} Themen, ${Object.keys(daten.folgen).length} Folgen${auto.length ? `, davon ${auto.length} automatisch` : ""}.`);

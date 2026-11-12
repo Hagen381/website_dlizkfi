@@ -178,7 +178,10 @@ mehr.
     sonst „updates“), Eintrag mit `"auto": true`, Warnung „Themen
     automatisch vergeben: <slug> → …“ gelb im Log und in der
     Zusammenfassung des Laufs (auch danach bei jedem Build, solange der
-    Eintrag ungeprüft ist). Der Deploy committet `content/themen.json`
+    Eintrag ungeprüft ist) — pro Lauf nur EINMAL: Im Montagslauf läuft das
+    Skript vor dem Commit und im Build; eine Markierung in `RUNNER_TEMP`
+    (`themen-auto-gemeldet`) verhindert die zweite Meldung (dann nur
+    „(schon gemeldet)“ im Log, keine Annotation). Der Deploy committet `content/themen.json`
     zusammen mit `content/folgen.json`. Der Projekt-Chat schickt die
     geprüften Themen per `uebergabe` (dann als Array, ohne `"auto"`).
   - Themenreiter auf `/episodes/` (`RegisterWalze.tsx`, gleicher Platz und
