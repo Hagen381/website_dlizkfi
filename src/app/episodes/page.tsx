@@ -9,8 +9,8 @@ import FolgenSuche from "@/components/FolgenSuche";
 import RegisterWalze, { type Monat } from "@/components/RegisterWalze";
 import { artikelZurFolge } from "@/lib/blog";
 import { datumKurz, dauerGesprochen, dauerText, folgen } from "@/lib/folgen";
+import { fotoZurFolge } from "@/lib/folgen-foto";
 import { breadcrumb, JsonLd } from "@/lib/seo";
-import collage from "../../../content/startseite/collage.json";
 
 // Folgenübersicht als 3D-Register (live seit 12.11.2026, vorher Entwurf
 // /entwurf/folgen/). Alle Folgen stehen als Karten mit echtem Link im
@@ -44,24 +44,8 @@ function monatJahr(iso: string) {
   return { schluessel: `${j}-${m}`, text: `${MONATE[m - 1]} ${j}` };
 }
 
-// Foto je Folge: mit Blogartikel dessen Kartenbild, sonst ein Foto der
-// Startseiten-Collage. Zuordnung über einen Hash des Slugs (FNV-1a) — hängt
-// nur vom eigenen Slug und der festen Fotoliste ab, ändert sich also nicht,
-// wenn neue Folgen dazukommen.
-const fotoListe = collage.polaroids.map((p) => p.datei);
-function fnv1a(s: string) {
-  let h = 0x811c9dc5;
-  for (let i = 0; i < s.length; i++) {
-    h ^= s.charCodeAt(i);
-    h = Math.imul(h, 0x01000193) >>> 0;
-  }
-  return h;
-}
-function fotoZurFolge(slug: string): { src: string; position: string } {
-  const a = artikelZurFolge(slug);
-  if (a?.kartenbild) return { src: a.kartenbild.src, position: a.kartenbildPosition };
-  return { src: `/images/startseite/${fotoListe[fnv1a(slug) % fotoListe.length]}`, position: "50% 50%" };
-}
+// Foto je Folge: src/lib/folgen-foto.ts (Blog-Kartenbild, sonst Folgenbild,
+// sonst Collage-Foto).
 
 // Polaroids links/rechts (nur ≥ 1280 px): Seite, Lage, Abstand x, oben, Drehung.
 // „kopf“ = neben der Kopf-Glasfläche (x = Abstand zum Bühnenrand), endet

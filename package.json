@@ -7,10 +7,10 @@
     "node": "20"
   },
   "scripts": {
-    "dev": "node scripts/blog-bilder.mjs && node scripts/ueber-bilder.mjs && node scripts/startseite-bilder.mjs && node scripts/entwuerfe.mjs && next dev",
+    "dev": "node scripts/blog-bilder.mjs && node scripts/ueber-bilder.mjs && node scripts/startseite-bilder.mjs && node scripts/folgen-bilder.mjs && node scripts/entwuerfe.mjs && next dev",
     "feed": "node scripts/feed-holen.mjs",
     "pruefen": "node scripts/adressen-pruefen.mjs",
-    "build": "node scripts/adressen-pruefen.mjs && node scripts/blog-bilder.mjs && node scripts/ueber-bilder.mjs && node scripts/startseite-bilder.mjs && node scripts/entwuerfe.mjs && next build && next-image-export-optimizer && node scripts/nach-dem-build.mjs",
+    "build": "node scripts/adressen-pruefen.mjs && node scripts/blog-bilder.mjs && node scripts/ueber-bilder.mjs && node scripts/startseite-bilder.mjs && node scripts/folgen-bilder.mjs && node scripts/entwuerfe.mjs && next build && next-image-export-optimizer && node scripts/nach-dem-build.mjs",
     "lint": "eslint"
   },
   "dependencies": {

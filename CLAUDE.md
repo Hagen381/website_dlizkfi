@@ -122,8 +122,8 @@ mehr.
   Abstand Kopf → Register 28 px) Monatsreiter (Klick springt zur
   neuesten Folge des Monats) und die Walze mit ALLEN Folgen (rotateX 24°,
   Radius 520 px, ±3 sichtbar, außerhalb `visibility: hidden`). Fotos:
-  Kartenbild des Blogartikels, sonst Collage-Foto per FNV-1a-Hash des Slugs
-  (erst geladen, wenn die Karte in die Nähe kommt).
+  „Foto zur Folge“ (siehe „Folgenbilder“), erst geladen, wenn die Karte in
+  die Nähe kommt.
 - Jede Karte hat einen echten Link auf `/episodes/<slug>/` im ausgelieferten
   HTML. Ohne JavaScript greift `src/app/episodes/register-ohne-js.css` (in
   `<noscript>`): einfache Liste aller Folgen, ohne Reiter und Steuerung.
@@ -132,6 +132,27 @@ mehr.
   ersten/letzten Eintrag oder waagerecht scrollt die Seite), Pfeiltasten nur
   bei Fokus in Walze/Reitern, Knöpfe ↑ ↓, Fokus dreht die Karte nach vorn,
   Live-Ansage „Folge x von y: Titel“.
+- **Folgenbilder** (seit 12.11.2026): Jede Folge hat ein eigenes Foto
+  `content/folgen-bilder/<slug>.jpg` (900×900, ohne Metadaten, auf Kinder,
+  Kennzeichen und Bildschirme geprüft; `quellen.json` daneben = Herkunft aus
+  Hagens Kamera-Ordner, wird nicht veröffentlicht). EINE Funktion
+  `fotoZurFolge()` in `src/lib/folgen-foto.ts`, Reihenfolge: 1. Kartenbild
+  des Blogartikels (mit `kartenbild-position`), 2. Folgenbild
+  `/images/folgen/<slug>.jpg`, 3. Rückfall Collage-Foto per FNV-1a-Hash des
+  Slugs. Genutzt in Walzen-Karten, Monatsreitern, Liste ohne JS,
+  Suchtreffern (`FolgenKarte`, Foto steht in `/suche.json`) und auf der
+  Startseite („Neueste Folge“, „Weitere Folgen“). Die Folgenseiten
+  `/episodes/<slug>/` behalten das Podcast-Cover. Alt-Text leer (Titel steht
+  daneben), gleiche Bildgrößen wie vorher (CLS 0).
+- `scripts/folgen-bilder.mjs` (vor jedem Build, live und Vorschau, nach
+  `startseite-bilder.mjs`): kodiert die Bilder ohne EXIF/GPS nach
+  `public/images/folgen/` (Build-Ergebnis, .gitignore), bricht ab, wenn ein
+  Bild nicht 900×900 ist oder der Dateiname kein Slug aus
+  `content/folgen.json` ist, entfernt verwaiste Einträge im Hash-Cache des
+  Bildoptimierers. Neue Folge ohne Bild (Montagslauf): KEIN Abbruch, Karte
+  zeigt das Collage-Foto, Warnung „Neue Folge ohne Folgenbild: <slug>“ im
+  Build-Log und in der Zusammenfassung des Laufs (gelb, nicht rot). Bild
+  nachreichen = `content/folgen-bilder/<slug>.jpg` über `uebergabe`.
 - Die vordere Karte sitzt im oberen Drittel (`--mitte` 150 px, mobil 140 px,
   `perspective-origin` auf gleicher Höhe), darunter 2–3 Karten. Polaroids:
   „kopf“ neben der Kopf-Glasfläche (ab 1280 px, oben 8–12 px — tiefer
@@ -226,8 +247,12 @@ mehr.
 - Bewusste Abweichung vom PodView-Original (Entwurf freigegeben, live seit
   11.11.2026): Hero mit 25 Polaroid-Fotos um eine Glasfläche. Inhalt der
   Glasfläche wie vorher (JULIETTE, Titel, Beschreibung, „Anhören auf“ +
-  3 Plattform-Kacheln, gleiche Schriften/Größen). Darunter unverändert
-  `StartseiteFolgen.tsx` („Neueste Folge“, „Weitere Folgen“).
+  3 Plattform-Kacheln, gleiche Schriften/Größen). Darunter
+  `StartseiteFolgen.tsx` („Neueste Folge“, „Weitere Folgen“) — seit
+  12.11.2026 mit dem Foto zur Folge statt Podcast-Cover (`fotoZurFolge()`,
+  siehe „Folgenbilder“ unter Folgenübersicht): „Neueste Folge“ 420 px
+  (`sizes` wie vorher), lazy, weil sie wegen der 920-px-Collage nie im
+  ersten Bildschirm liegt; „Weitere Folgen“ über `FolgenKarte` (64/96 px).
 - Dateien: `src/app/page.tsx` (Hero), `src/app/startseite.css` (wird beim
   Build ohne Kommentare inline eingebettet — eine Stylesheet-Anfrage weniger),
   `src/components/CollageSteuerung.tsx` (Maus-Neigung, ein Listener, rAF),

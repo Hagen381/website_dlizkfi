@@ -57,3 +57,6 @@ __pycache__/
 
 # Entwürfe (nur Vorschau, erzeugt von scripts/entwuerfe.mjs)
 /src/app/entwurf/
+
+# Folgenbilder (aus content/folgen-bilder, ohne Metadaten neu erzeugt)
+/public/images/folgen/
