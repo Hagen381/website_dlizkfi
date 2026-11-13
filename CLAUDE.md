@@ -113,10 +113,13 @@ mehr.
 
 - Live seit 12.11.2026 (vorher Entwurf `/entwurf/folgen/`):
   `src/app/episodes/page.tsx`, `src/components/RegisterWalze.tsx`, Stile
-  `src/app/episodes/register.css` (inline ohne Kommentare). Adresse,
-  Canonical `/episodes/`, Titel/Description, BreadcrumbList, „Folgen“ aktiv
-  in der Navigation unverändert.
-- Kopf als Glasfläche: nur H1 „Alle Folgen“ und die echte Suche
+  `src/app/episodes/register.css` (inline ohne Kommentare). Adresse und
+  Canonical `/episodes/` unverändert. Seit 13.11.2026 (Wunsch Hagen):
+  Menüpunkt „Podcast“ (statt „Folgen“, aktiv auch auf `/episodes/<slug>/`),
+  Titel „Podcast – alle Folgen“, BreadcrumbList-Name „Podcast“ (auch auf
+  den Folgenseiten). Buttons wie „Alle Folgen ansehen“ bleiben.
+- Kopf als Glasfläche: nur H1 „DLIZKFI – Podcast“ (`SeitenTitel`, siehe
+  „Seitenüberschriften“) und die echte Suche
   (`FolgenSuche` mit `kopfClassName`; Treffer als normale Liste mit
   `FolgenKarte` bzw. `ArtikelTrefferKarte`, siehe „Suche“). Darunter (ohne
   Hinweiszeile, seit 12.11.2026 entfernt; Abstand Kopf → Register 28 px) die
@@ -290,8 +293,8 @@ mehr.
   `BlogKarussell.tsx`, `karussell.css`, `karussell-ohne-js.css` und die
   Info-Kachel sind gelöscht): `src/app/blog/page.tsx`, Stile
   `src/app/blog/blog.css` (inline ohne Kommentare), Blättern
-  `src/components/BlogBlaettern.tsx`. Kopf als Glasfläche (H1 „Blog“ +
-  Text), Polaroids links/rechts (Deko, `aria-hidden`, nie über dem Raster):
+  `src/components/BlogBlaettern.tsx`. Kopf als Glasfläche (H1 „DLIZKFI – Blog“
+  über `SeitenTitel`, siehe „Seitenüberschriften“, + Text), Polaroids links/rechts (Deko, `aria-hidden`, nie über dem Raster):
   1280–1439 px nur die zwei äußeren je Seite (`.br-pola.aussen`; die inneren
   ausgeblendet und nicht geladen), Raster max. `100% − 400px`; ab 1440 px
   alle vier je Seite, Raster max. `100% − 540px`; höchstens 1040 px. So
@@ -369,7 +372,7 @@ mehr.
   `GelberButton.tsx`, Stil wie „Abonnieren") kommt automatisch aus der Vorlage, sobald `folge-slug` gesetzt
   ist. Ziel immer `/episodes/<folge-slug>/` auf unserer Seite, nie Spotify.
   Links zur Folge im Fließtext bleiben normale Textlinks.
-- „Blog" steht in der Navigation zwischen Folgen und Über, sobald mindestens
+- „Blog" steht in der Navigation zwischen Podcast und Über, sobald mindestens
   ein veröffentlichter Artikel existiert. Die Folgenseite verlinkt den Artikel
   mit dem Button „Zum Blogartikel" direkt unter Titel/Datum, vor dem Player
   (gleicher Stil, `GelberButton.tsx`); ohne Artikel kein Button. Live nie zu
@@ -477,6 +480,25 @@ mehr.
   Folge“). Karten mit `bg-surface` (Folgenseite, Rechtstexte,
   Folgen-/Blog-Karten) brauchen nichts. Neue Seiten mit gedämpftem Text
   direkt auf dem Hintergrund entsprechend unterlegen.
+
+### Seitenüberschriften /blog/ und /episodes/ (seit 13.11.2026)
+
+- Gemeinsame Komponente `src/components/SeitenTitel.tsx` (`zusatz`),
+  Stile `.seiten-titel`/`.st-*` in `globals.css`; Schriftgröße/Abstand
+  weiter aus `.br-kopf-titel` bzw. `.reg-kopf-titel`. H1-Text exakt
+  „DLIZKFI – Blog“ / „DLIZKFI – Podcast“ (Halbgeviertstrich).
+- Links das Podcast-Cover als Logo über `Cover.tsx` (44 px, ab 640 px
+  56 px, gerundet, `aria-hidden`, Hover `.kipp .kipp-dezent`). „DLIZKFI“
+  Bricolage 800 mit gelber Unterstreichung (`--primary`, `::after` hinter
+  dem Wort); „DLIZKFI –“ ist `nowrap`, umgebrochen wird nur vor dem Zusatz
+  (bei 360 px auf `/episodes/` zwei Zeilen, sonst eine).
+- Animation einmal beim Laden (≤ 750 ms): Logo federt herein, Strich zieht
+  von links auf, Text blendet von 65 % ein (sofort lesbar). Nur
+  transform/opacity, CLS 0; `prefers-reduced-motion`: keine.
+- `live-pruefen.mjs` prüft je 360/390/820/1280/1440 px: H1-Text, Logo
+  geladen, „DLIZKFI –“ zusammen, im Rahmen, kein Querscrollen, CLS 0,
+  Kontrast ≥ 4,5:1, Animation einmal; reduced-motion ohne; Menü „Podcast“
+  aktiv auf `/episodes/` und einer Folgenseite, kein „Folgen“ im Menü.
 
 ### Header
 

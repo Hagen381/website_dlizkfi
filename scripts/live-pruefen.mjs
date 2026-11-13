@@ -19,7 +19,9 @@
 // Themen-Chips im Artikel → /blog/?thema=…,
 // Polaroids 0/0/0/4/8, keine Dopplung mit Kartenbildern, Kacheln ≥ 260 px),
 // jeder veröffentlichte Artikel (Bilder, Bildunterschriften, Zur-Folge-Kasten),
-// „Blog" in der Navigation, Kartenbilder, „Zur Podcastfolge"-Ziele, Sitemap,
+// Seitenüberschriften „DLIZKFI – Podcast“/„DLIZKFI – Blog“ (Logo, Animation,
+// reduced-motion, CLS 0, Kontrast), Menüpunkt „Podcast“ (aktiv auch auf
+// Folgenseiten), „Blog" in der Navigation, Kartenbilder, „Zur Podcastfolge"-Ziele, Sitemap,
 // „Zum Blogartikel" auf der Folgenseite, 404 für /entwurf/, /entwurf/about/, /entwurf/folgen/,
 // /entwurf/startseite/ und /entwurf/blog/
 // (Entwürfe nur in der Vorschau), optional 404 für PRUEFE_404, alle
@@ -170,7 +172,7 @@ for (const breite of [360, 390, 820, 1280, 1440]) {
       h1: [...document.querySelectorAll("h1")].map((h) => h.textContent.trim()).join("|"),
     };
   });
-  pruefe(w.walze && w.vornImBild && w.ueberRand === 0 && !w.querScroll && w.h1 === "Alle Folgen", `${breite}px /episodes/: Walze sichtbar, vordere Karte im Bild, nichts über den Rand, kein Querscrollen, H1 „${w.h1}“`);
+  pruefe(w.walze && w.vornImBild && w.ueberRand === 0 && !w.querScroll && w.h1 === "DLIZKFI – Podcast", `${breite}px /episodes/: Walze sichtbar, vordere Karte im Bild, nichts über den Rand, kein Querscrollen, H1 „${w.h1}“`);
   pruefe(w.karten === alleFolgen.length && w.geladen === w.fotos && e.kaputt.length === 0, `${breite}px /episodes/: ${w.karten} Karten, ${w.geladen}/${w.fotos} Fotos geladen ${e.kaputt.join(" | ")}`);
   await e.ctx.close();
 }
@@ -557,6 +559,78 @@ const sitemap = await (await fetch(basis + "/sitemap.xml")).text();
 for (const datei of artikel) {
   const slug = datei.replace(/\.md$/, "");
   pruefe(sitemap.includes(`/blog/${slug}/</loc>`), `sitemap.xml enthält /blog/${slug}/`);
+}
+
+// Seitenüberschriften im DLIZKFI-Stil (src/components/SeitenTitel.tsx, seit
+// 13.11.2026): /episodes/ „DLIZKFI – Podcast“, /blog/ „DLIZKFI – Blog“. Je
+// Breite: H1-Text exakt, Cover-Logo geladen, „DLIZKFI –“ nicht umgebrochen,
+// nichts über den Rand der Glasfläche/des Fensters, kein Querscrollen, CLS 0,
+// Kontrast ≥ 4,5:1 (Text auf der Glasfläche, Wortmarke auf der gelben
+// Unterstreichung), Animation genau einmal (iterations 1, fertig, ≤ 900 ms);
+// mit prefers-reduced-motion keine Animation. Menü: „Podcast“ statt „Folgen“,
+// aktiv auf /episodes/ und einer Folgenseite.
+const titelSoll = { "/episodes/": "DLIZKFI – Podcast", ...(artikel.length ? { "/blog/": "DLIZKFI – Blog" } : {}) };
+const titelZustand = (pg) =>
+  pg.evaluate(() => {
+    const h = document.querySelector(".seiten-titel");
+    const img = h?.querySelector(".st-logo img");
+    const kopf = h?.closest(".glas-flaeche")?.getBoundingClientRect();
+    const r = h?.getBoundingClientRect();
+    const text = h?.querySelector(".st-text");
+    const rgb = (c) => (c.match(/[\d.]+/g) || []).map(Number);
+    const lum = ([r, g, b]) => { const f = (v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; }; return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b); };
+    const kontrast = (a, b) => { const x = lum(a), y = lum(b); return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05); };
+    const glas = rgb(getComputedStyle(h.closest(".glas-flaeche")).backgroundColor);
+    const a = glas[3] ?? 1;
+    const grund = glas.slice(0, 3).map((v, i) => v * a + [254, 252, 232][i] * (1 - a));
+    const farbe = rgb(getComputedStyle(h).color);
+    const gelb = rgb(getComputedStyle(h.querySelector(".st-marke"), "::after").backgroundColor);
+    const anim = document.getAnimations().filter((x) => /^st-/.test(x.animationName || ""));
+    return {
+      h1: [...document.querySelectorAll("h1")].map((x) => x.textContent.trim()).join("|"),
+      logo: !!img && img.complete && img.naturalWidth > 0,
+      logoPx: img ? Math.round(img.getBoundingClientRect().width) : 0,
+      zeilen: text ? Math.round(text.getBoundingClientRect().height / parseFloat(getComputedStyle(h).lineHeight)) : 0,
+      festEinzeilig: (() => { const rs = [...(h?.querySelector(".st-fest")?.getClientRects() || [])]; return rs.length > 0 && rs.every((x) => Math.abs(x.top - rs[0].top) < 4); })(),
+      imRahmen: !!r && !!kopf && r.left >= kopf.left - 1 && r.right <= kopf.right + 1 && r.left >= 0 && r.right <= innerWidth,
+      querScroll: document.documentElement.scrollWidth > innerWidth,
+      kontrast: Math.min(kontrast(farbe, grund), kontrast(farbe, gelb)),
+      anim: anim.map((x) => x.animationName).sort().join(","),
+      einmal: anim.every((x) => x.effect.getTiming().iterations === 1 && x.playState === "finished" && x.effect.getComputedTiming().endTime <= 900),
+      cls: Math.round(window.__cls * 1000) / 1000,
+    };
+  });
+for (const [pfad, soll] of Object.entries(titelSoll)) {
+  for (const breite of [360, 390, 820, 1280, 1440]) {
+    const t = await mitCls(pfad, breite);
+    await t.pg.waitForFunction(() => { const i = document.querySelector(".seiten-titel img"); return i && i.complete; }, null, { timeout: 15000 }).catch(() => {});
+    const z = await titelZustand(t.pg);
+    pruefe(
+      z.h1 === soll && z.logo && z.festEinzeilig && z.imRahmen && !z.querScroll && z.cls === 0 && z.kontrast >= 4.5,
+      `${breite}px ${pfad}: H1 „${z.h1}“, Logo ${z.logo ? "geladen" : "FEHLT"} (${z.logoPx} px), ${z.zeilen} Zeile(n), „DLIZKFI –“ ${z.festEinzeilig ? "zusammen" : "ZERRISSEN"}, ${z.imRahmen ? "im Rahmen" : "ÜBER DEN RAND"}, Querscrollen ${z.querScroll ? "JA" : "nein"}, CLS ${z.cls}, Kontrast ${z.kontrast.toFixed(2)}:1`,
+    );
+    pruefe(z.anim === "st-logo-ein,st-strich-auf,st-text-ein" && z.einmal, `${breite}px ${pfad}: Animation einmal (${z.anim || "keine"})`);
+    await t.ctx.close();
+  }
+  const ctx = await browser.newContext({ viewport: { width: 390, height: 900 }, reducedMotion: "reduce" });
+  const pg = await ctx.newPage();
+  await pg.goto(basis + pfad, { waitUntil: "networkidle", timeout: 60000 });
+  const anim = await pg.evaluate(() => document.getAnimations().filter((x) => /^st-/.test(x.animationName || "")).length);
+  pruefe(anim === 0, `390px ${pfad} mit prefers-reduced-motion: ${anim} Titel-Animationen (erwartet 0)`);
+  await ctx.close();
+}
+{
+  const folge = alleFolgen[0];
+  for (const pfad of ["/episodes/", `/episodes/${folge.slug}/`]) {
+    const m = await seite(pfad, 1280);
+    const z = await m.pg.evaluate(() => ({
+      aktiv: [...document.querySelectorAll('body > header [aria-current="page"]')].map((a) => a.textContent.trim()).join(),
+      menue: [...document.querySelectorAll("body > header a")].map((a) => a.textContent.trim()),
+      fuss: [...document.querySelectorAll('footer a[href$="/episodes/"]')].map((a) => a.textContent.trim()),
+    }));
+    pruefe(z.aktiv === "Podcast" && z.menue.includes("Podcast") && !z.menue.includes("Folgen") && (z.fuss.length === 0 || z.fuss.every((t) => t === "Podcast")), `1280px ${pfad}: Menü „Podcast“ aktiv (${z.aktiv}), kein „Folgen“ im Menü, Fusszeile ${z.fuss.join("/") || "–"}`);
+    await m.ctx.close();
+  }
 }
 
 // Über-Seite /about/ (live seit 12.11.2026, vorher /entwurf/about/): je
