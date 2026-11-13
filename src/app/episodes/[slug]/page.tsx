@@ -67,7 +67,7 @@ export default async function FolgenSeite({ params }: Props) {
           : {}),
       },
       breadcrumb([
-        { name: "Folgen", pfad: "/episodes/" },
+        { name: "Podcast", pfad: "/episodes/" },
         { name: folge.titel, pfad },
       ]),
     ],

@@ -7,7 +7,7 @@ import { createPortal } from "react-dom";
 import Cover from "@/components/Cover";
 import { abonnieren, navigation, siteConfig } from "@/lib/site-config";
 
-// Aktiv auch auf Unterseiten: /episodes/<slug>/ → „Folgen".
+// Aktiv auch auf Unterseiten: /episodes/<slug>/ → „Podcast".
 function istAktiv(pathname: string, href: string) {
   const p = pathname.replace(/\/+$/, "");
   const h = href.replace(/\/+$/, "");
@@ -59,7 +59,7 @@ export default function Header({ blog = false }: { blog?: boolean }) {
   const panel = useRef<HTMLDivElement>(null);
 
   // Blog erscheint erst in der Navigation, wenn es Artikel gibt — dann
-  // zwischen „Folgen" und „Über".
+  // zwischen „Podcast" und „Über".
   const punkte = blog
     ? [navigation[0], { label: "Blog", href: "/blog/" }, ...navigation.slice(1)]
     : [...navigation];

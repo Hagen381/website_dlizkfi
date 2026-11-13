@@ -34,8 +34,8 @@ const registerCss = cssLesen("register.css");
 const ohneJsCss = cssLesen("register-ohne-js.css");
 
 export const metadata: Metadata = {
-  title: "Alle Folgen",
-  description: "Alle Folgen von „Das Leben ist zu kurz für irgendwann“: Auswandern nach Thailand, Familie, Mut und das Leben auf Koh Samui.",
+  title: "Podcast – alle Folgen",
+  description: "Alle Folgen des Podcasts „Das Leben ist zu kurz für irgendwann“: Auswandern nach Thailand, Familie, Mut und das Leben auf Koh Samui.",
   alternates: { canonical: "/episodes/" },
 };
 
@@ -113,7 +113,7 @@ export default function Folgen() {
       <noscript>
         <style>{ohneJsCss}</style>
       </noscript>
-      <JsonLd daten={{ "@graph": [breadcrumb([{ name: "Folgen", pfad: "/episodes/" }])] }} />
+      <JsonLd daten={{ "@graph": [breadcrumb([{ name: "Podcast", pfad: "/episodes/" }])] }} />
 
       <div className="reg-buehne">
         <div className="reg-seitenfotos" aria-hidden="true">
