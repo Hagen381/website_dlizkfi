@@ -116,7 +116,9 @@ mehr.
   `src/app/episodes/register.css` (inline ohne Kommentare). Adresse und
   Canonical `/episodes/` unverändert. Seit 13.11.2026 (Wunsch Hagen):
   Menüpunkt „Podcast“ (statt „Folgen“, aktiv auch auf `/episodes/<slug>/`),
-  Titel „Podcast – alle Folgen“, BreadcrumbList-Name „Podcast“ (auch auf
+  Titel „Alle Folgen — <Podcastname>“ (wie die anderen Seiten, auch
+  og:/twitter:title; nicht „Podcast – alle Folgen“, sonst „Podcast“ doppelt),
+  BreadcrumbList-Name „Podcast“ (auch auf
   den Folgenseiten). Buttons wie „Alle Folgen ansehen“ bleiben.
 - Kopf als Glasfläche: nur H1 „DLIZKFI – Podcast“ (`SeitenTitel`, siehe
   „Seitenüberschriften“) und die echte Suche

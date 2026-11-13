@@ -13,6 +13,7 @@ import { artikelZurFolge } from "@/lib/blog";
 import { datumKurz, dauerGesprochen, dauerText, folgen } from "@/lib/folgen";
 import { fotoZurFolge } from "@/lib/folgen-foto";
 import { breadcrumb, JsonLd } from "@/lib/seo";
+import { siteConfig } from "@/lib/site-config";
 import { themen, themenZurFolge } from "@/lib/themen";
 
 // Folgenübersicht als 3D-Register (live seit 12.11.2026, vorher Entwurf
@@ -33,10 +34,25 @@ function cssLesen(datei: string) {
 const registerCss = cssLesen("register.css");
 const ohneJsCss = cssLesen("register-ohne-js.css");
 
+// Titel „Alle Folgen — <Podcastname>“ (Muster wie die anderen Seiten; „Podcast“
+// stünde sonst doppelt). og:/twitter:title gleich; openGraph/twitter ersetzen
+// die Angaben aus layout.tsx ganz, deshalb vollständig.
+const titel = "Alle Folgen";
+const beschreibung = "Alle Folgen des Podcasts „Das Leben ist zu kurz für irgendwann“: Auswandern nach Thailand, Familie, Mut und das Leben auf Koh Samui.";
 export const metadata: Metadata = {
-  title: "Podcast – alle Folgen",
-  description: "Alle Folgen des Podcasts „Das Leben ist zu kurz für irgendwann“: Auswandern nach Thailand, Familie, Mut und das Leben auf Koh Samui.",
+  title: titel,
+  description: beschreibung,
   alternates: { canonical: "/episodes/" },
+  openGraph: {
+    type: "website",
+    locale: "de_DE",
+    siteName: siteConfig.name,
+    url: "/episodes/",
+    title: `${titel} — ${siteConfig.name}`,
+    description: beschreibung,
+    images: [{ url: "/images/og-cover.jpg", width: 1200, height: 1200, alt: siteConfig.name }],
+  },
+  twitter: { card: "summary", title: `${titel} — ${siteConfig.name}`, description: beschreibung, images: ["/images/og-cover.jpg"] },
 };
 
 // Foto je Folge: src/lib/folgen-foto.ts (Blog-Kartenbild, sonst Folgenbild,

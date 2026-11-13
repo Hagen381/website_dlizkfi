@@ -629,6 +629,19 @@ for (const [pfad, soll] of Object.entries(titelSoll)) {
       fuss: [...document.querySelectorAll('footer a[href$="/episodes/"]')].map((a) => a.textContent.trim()),
     }));
     pruefe(z.aktiv === "Podcast" && z.menue.includes("Podcast") && !z.menue.includes("Folgen") && (z.fuss.length === 0 || z.fuss.every((t) => t === "Podcast")), `1280px ${pfad}: Menü „Podcast“ aktiv (${z.aktiv}), kein „Folgen“ im Menü, Fusszeile ${z.fuss.join("/") || "–"}`);
+    if (pfad === "/episodes/") {
+      // Seitentitel nach dem Muster der anderen Seiten („Podcast“ nicht doppelt),
+      // og:/twitter:title gleich; H1 bleibt „DLIZKFI – Podcast“, Canonical /episodes/.
+      const t = await m.pg.evaluate(() => ({
+        title: document.title,
+        og: document.querySelector('meta[property="og:title"]')?.content,
+        tw: document.querySelector('meta[name="twitter:title"]')?.content,
+        canonical: document.querySelector('link[rel="canonical"]')?.href,
+        h1: document.querySelector("h1")?.textContent.trim(),
+      }));
+      const soll = "Alle Folgen — Das Leben ist zu kurz für irgendwann - Podcast";
+      pruefe(t.title === soll && t.og === soll && t.tw === soll && /\/episodes\/$/.test(t.canonical || "") && t.h1 === "DLIZKFI – Podcast", `/episodes/: Titel „${t.title}“, og:title „${t.og}“, twitter:title „${t.tw}“, Canonical ${t.canonical}, H1 „${t.h1}“`);
+    }
     await m.ctx.close();
   }
 }
