@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BlogBildRoh } from "@/components/BlogBild";
 import BlogBlaettern, { type BlogThema } from "@/components/BlogBlaettern";
+import SeitenTitel from "@/components/SeitenTitel";
 import { artikel, datumLesbar } from "@/lib/blog";
 import { breadcrumb, JsonLd } from "@/lib/seo";
 import { siteConfig } from "@/lib/site-config";
@@ -154,7 +155,7 @@ export default function Blog() {
         </div>
 
         <header className="br-kopf glas-flaeche">
-          <h1 className="br-kopf-titel">Blog</h1>
+          <SeitenTitel zusatz="Blog" className="br-kopf-titel" />
           <p className="br-kopf-text">Geschichten und Gedanken zu den Folgen – zum Lesen statt Hören.</p>
         </header>
 

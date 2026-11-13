@@ -355,3 +355,112 @@
     scale: none !important;
   }
 }
+
+/* Seitenüberschrift im DLIZKFI-Stil (src/components/SeitenTitel.tsx, /blog/
+   und /episodes/): Cover-Logo links (mobil 44 px, ab 640 px 56 px), Wortmarke
+   „DLIZKFI“ mit gelber Unterstreichung dahinter, „– Blog“/„– Podcast“ normal.
+   Schriftgröße/Abstand kommen von der Seite (.br-kopf-titel, .reg-kopf-titel).
+   Einmal beim Laden (insgesamt ≤ 800 ms): Logo federt herein (0–620 ms),
+   Unterstreichung zieht sich von links auf (200–750 ms), Text blendet von
+   65 % Deckkraft ein (0–380 ms) — der Text ist also sofort lesbar. Nur
+   transform/opacity (CLS 0), feste Logo-Größe. prefers-reduced-motion: ohne
+   Animation. Logo-Hover: .kipp .kipp-dezent (nur (hover: hover)). */
+.seiten-titel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: 100%;
+}
+.st-logo {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+}
+.st-logo-innen {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: inherit;
+  transform-origin: 50% 80%;
+}
+.st-logo-bild {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.st-text {
+  min-width: 0;
+  text-align: left;
+  text-wrap: balance;
+}
+.st-fest {
+  white-space: nowrap;
+}
+.st-marke {
+  position: relative;
+  z-index: 0;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+.st-marke::after {
+  content: "";
+  position: absolute;
+  left: -0.04em;
+  right: -0.04em;
+  bottom: 0.06em;
+  height: 0.3em;
+  z-index: -1;
+  border-radius: 0.15em;
+  background: var(--primary);
+  transform-origin: left center;
+}
+@media (min-width: 640px) {
+  .seiten-titel {
+    gap: 14px;
+  }
+  .st-logo {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .st-logo-innen {
+    animation: st-logo-ein 620ms cubic-bezier(0.25, 1.4, 0.45, 1) both;
+  }
+  .st-marke::after {
+    animation: st-strich-auf 550ms cubic-bezier(0.3, 0.8, 0.3, 1) 200ms both;
+  }
+  .st-text {
+    animation: st-text-ein 380ms ease-out both;
+  }
+}
+@keyframes st-logo-ein {
+  from {
+    transform: perspective(300px) rotateX(-35deg) rotate(-8deg) scale(0.82);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes st-strich-auf {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes st-text-ein {
+  from {
+    opacity: 0.65;
+    transform: translateY(3px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
