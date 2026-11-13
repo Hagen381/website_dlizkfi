@@ -287,7 +287,10 @@ await su.ctx.close();
 // Walze verborgen, kein Querscrollen.
 for (const breite of [360, 390, 820, 1280, 1440]) {
   for (const q of ["Bali", "Schule"]) {
-    const c = await mitCls(`/episodes/?q=${q}`, breite);
+    // mit warmem Schrift-Cache (erst /episodes/ laden): geprüft wird der
+    // Wechsel Walze → Treffer, nicht das Nachladen der Schriften (kalter
+    // Ladevorgang: Workflow „Lighthouse live“)
+    const c = await mitCls(`/episodes/?q=${q}`, breite, "/episodes/");
     await c.pg.waitForSelector("section[aria-live] li", { timeout: 15000 }).catch(() => {});
     await c.pg.waitForTimeout(500);
     const z = await c.pg.evaluate(() => ({ cls: Math.round(window.__cls * 1000) / 1000, treffer: document.querySelectorAll("section[aria-live] li").length, walze: (document.querySelector(".reg-walze")?.getClientRects().length ?? 0) > 0, quer: document.documentElement.scrollWidth > innerWidth }));
@@ -446,9 +449,13 @@ const chipZustand = (pg) =>
       cls: Math.round((window.__cls ?? 0) * 1000) / 1000,
     };
   });
-async function mitCls(pfad, breite) {
+async function mitCls(pfad, breite, vorher = null) {
   const ctx = await browser.newContext({ viewport: { width: breite, height: 900 } });
   const pg = await ctx.newPage();
+  if (vorher) {
+    await pg.goto(basis + vorher, { waitUntil: "networkidle", timeout: 60000 });
+    await pg.evaluate(() => document.fonts.ready);
+  }
   await pg.addInitScript(() => {
     window.__cls = 0;
     new PerformanceObserver((l) => { for (const e of l.getEntries()) if (!e.hadRecentInput) window.__cls += e.value; }).observe({ type: "layout-shift", buffered: true });

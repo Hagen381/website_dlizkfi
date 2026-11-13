@@ -237,7 +237,11 @@ mehr.
   ist mindestens `100vh` hoch, die Treffer füllen nur reservierten Platz,
   „Suche zurücksetzen“ erscheint erst mit den Treffern. `FolgenSuche`
   entfernt `data-suche`, sobald die Suche läuft (und beim Verlassen).
-  Bedienung unverändert.
+  Bedienung unverändert. „Suchen“ hat ab 640 px eine feste Breite (`w-24`),
+  damit der Knopf beim Nachladen der Schrift (Literata 500) nicht springt.
+  Rest-Sprünge durch späten Schrift-Tausch (swap) hängen vom Netz ab und
+  betreffen alle Seiten; die Live-Prüfung misst `?q=` deshalb mit warmem
+  Schrift-Cache, den kalten Ladevorgang deckt „Lighthouse live“ ab.
 - **Keine Blätterseiten mehr**: `/episodes/page/N/` (und `/episodes/page/`)
   sowie PodViews `/episodes/?page=N` leiten per 301 direkt auf `/episodes/`
   (ein Schritt, `.htaccess`); nicht im Export, nicht in der Sitemap. Die
@@ -796,7 +800,7 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   + `?thema=visum`, nochmal klicken = alle, `/episodes/?thema=visum` lädt
   gefiltert, Fotos geladen), Suche „Schule“ (Homeschooling/Onlineschule
   dabei, Titeltreffer zuerst; `?q=Bali`/`?q=Schule` bei
-  360/390/820/1280/1440 px mit CLS 0, Walze verborgen), Themen-Chips auf einer Folgenseite, Walze
+  360/390/820/1280/1440 px mit CLS 0 (warmer Schrift-Cache), Walze verborgen), Themen-Chips auf einer Folgenseite, Walze
   per Touch bei 390 px (kurzer Wisch +1, zu kurz 0, zurück −1, lang+schnell
   ≤ +3, eingerastet; vordere Karte volle Breite, Titel ganz, Knöpfe ≥ 44 px
   frei, ↑ ↓ ≥ 48 px, keine Monatsschilder) und Mausrad bei 1280 px (+1 pro

@@ -120,7 +120,8 @@ export default function FolgenSuche({
               className="h-11 w-full rounded-md border border-border bg-surface pr-3 pl-10 text-text placeholder:text-muted focus:border-secondary-text focus:outline-none"
             />
           </div>
-          <button type="submit" className="h-11 shrink-0 rounded-md bg-primary px-4 font-medium text-text transition hover:opacity-90">
+          {/* feste Breite: kein seitlicher Sprung, wenn die Schrift nachlädt */}
+          <button type="submit" className="h-11 w-24 shrink-0 rounded-md bg-primary px-2 font-medium text-text transition hover:opacity-90">
             Suchen
           </button>
         </form>
