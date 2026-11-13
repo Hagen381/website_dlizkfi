@@ -489,7 +489,7 @@ mehr.
   „DLIZKFI – Blog“ / „DLIZKFI – Podcast“ (Halbgeviertstrich).
 - Links das Podcast-Cover als Logo über `Cover.tsx` (44 px, ab 640 px
   56 px, gerundet, `aria-hidden`, Hover `.kipp .kipp-dezent`). „DLIZKFI“
-  Bricolage 800 mit gelber Unterstreichung (`--primary`, `::after` hinter
+  Bricolage 700 (wie die H1, eine Schriftdatei; 800 gibt es nicht) mit gelber Unterstreichung (`--primary`, `::after` hinter
   dem Wort); „DLIZKFI –“ ist `nowrap`, umgebrochen wird nur vor dem Zusatz
   (bei 360 px auf `/episodes/` zwei Zeilen, sonst eine).
 - Animation einmal beim Laden (≤ 750 ms): Logo federt herein, Strich zieht
