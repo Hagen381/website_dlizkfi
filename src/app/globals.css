@@ -36,7 +36,10 @@
   html {
     -webkit-text-size-adjust: 100%;
     /* Klebender Header (ca. 69 px): Sprungziele/Anker nicht darunter verstecken */
-    scroll-padding-top: calc(5.5rem + env(safe-area-inset-top));
+    scroll-padding-top: 5.5rem;
+    /* Nur helles Design: verhindert, dass Nachtmodi (Chrome/Brave
+       „Forced Dark“) die Farben umrechnen. */
+    color-scheme: light;
   }
   body {
     background: var(--color-bg);

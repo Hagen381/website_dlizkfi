@@ -129,9 +129,12 @@ export default function Header({ blog = false }: { blog?: boolean }) {
     </Link>
   );
 
+  // top-0, NICHT env(safe-area-inset-top): Android (edge-to-edge, z. B. Brave)
+  // meldet dort die Statusleiste (~28 px); ein sticky Header rutscht dann
+  // schon bei Scroll 0 nach unten und überdeckt den Abstand darunter.
   return (
     <header
-      className={`sticky top-[env(safe-area-inset-top)] z-50 border-b bg-bg/85 backdrop-blur-md transition-colors supports-[not(backdrop-filter:blur(1px))]:bg-bg ${
+      className={`sticky top-0 z-50 border-b bg-bg/85 backdrop-blur-md transition-colors supports-[not(backdrop-filter:blur(1px))]:bg-bg ${
         gescrollt ? "border-border" : "border-transparent"
       }`}
     >
@@ -209,7 +212,7 @@ export default function Header({ blog = false }: { blog?: boolean }) {
               role="dialog"
               aria-modal="true"
               aria-label="Navigation"
-              className="absolute inset-x-0 top-0 flex max-h-[100dvh] flex-col overflow-y-auto rounded-b-2xl border-b border-border bg-bg pt-[env(safe-area-inset-top)] text-text shadow-2xl"
+              className="absolute inset-x-0 top-0 flex max-h-[100dvh] flex-col overflow-y-auto rounded-b-2xl border-b border-border bg-bg text-text shadow-2xl"
             >
               <div className="flex items-center justify-between gap-4 px-4 py-3 sm:px-6">
                 {marke}

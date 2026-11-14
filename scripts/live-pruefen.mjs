@@ -311,6 +311,51 @@ for (const breite of [360, 390]) {
   }
   pruefe(abstaende.every(([, a]) => a >= 24 && a <= 28) && new Set(abstaende.map(([, a]) => a)).size === 1, `${breite}px Abstand unter dem Header: ${abstaende.map(([p, a]) => `${p} ${a} px`).join(", ")}`);
 }
+// Header bündig oben (Oberkante 0) und Abstand genau 28 px — auch wie auf
+// Android: Touch, Nachtmodus (dark), Safe-Area oben 28 px (Statusleiste bei
+// edge-to-edge; früher rutschte der sticky Header mit top: env(safe-area-
+// inset-top) darum nach unten und überdeckte den Abstand), nach Scroll 30 px
+// hin und zurück und nach Zurück-Navigation von einer Artikel-/Folgenseite.
+for (const breite of [360, 390]) {
+  for (const [pfad, sel, ziel] of [["/blog/", ".br-kopf", "a.br-link"], ["/episodes/", ".reg-kopf", ".reg-walze a[href^='/episodes/']"], ["/about/", ".ab-kopf-bereich", null]]) {
+    const ctx = await browser.newContext({ viewport: { width: breite, height: 780 }, isMobile: true, hasTouch: true, colorScheme: "dark" });
+    const pg = await ctx.newPage();
+    let inset = "ohne Safe-Area-Emulation";
+    try {
+      await (await ctx.newCDPSession(pg)).send("Emulation.setSafeAreaInsetsOverride", { insets: { top: 28, topMax: 28 } });
+      inset = "Safe-Area oben 28 px";
+    } catch {}
+    await pg.addInitScript(() => {
+      window.__cls = 0;
+      new PerformanceObserver((l) => { for (const e of l.getEntries()) if (!e.hadRecentInput) window.__cls += e.value; }).observe({ type: "layout-shift", buffered: true });
+    });
+    const messen = () => pg.evaluate((s) => {
+      const h = document.querySelector("body > header").getBoundingClientRect();
+      return { oben: Math.round(h.top), abstand: Math.round(document.querySelector(s).getBoundingClientRect().top - h.bottom), y: Math.round(scrollY) };
+    }, sel);
+    await pg.goto(basis + pfad, { waitUntil: "networkidle", timeout: 60000 });
+    await pg.waitForTimeout(800);
+    const werte = [["frisch", await messen()]];
+    await pg.evaluate(() => scrollTo(0, 30));
+    await pg.waitForTimeout(300);
+    const unten = await messen();
+    await pg.evaluate(() => scrollTo(0, 0));
+    await pg.waitForTimeout(300);
+    werte.push(["nach Scroll 30 px und zurück", await messen()]);
+    const cls = await pg.evaluate(() => Math.round(window.__cls * 1000) / 1000);
+    if (ziel) {
+      await pg.locator(ziel).first().evaluate((a) => a.click());
+      await pg.waitForURL((u) => u.pathname !== new URL(basis + pfad).pathname, { timeout: 15000 });
+      await pg.waitForTimeout(500);
+      await pg.goBack({ waitUntil: "networkidle" });
+      await pg.evaluate(() => scrollTo(0, 0));
+      await pg.waitForTimeout(800);
+      werte.push(["nach Zurück-Navigation", await messen()]);
+    }
+    pruefe(unten.oben === 0 && werte.every(([, w]) => w.oben === 0 && w.abstand === 28 && w.y === 0) && cls === 0, `${breite}px ${pfad} (dark, Touch, ${inset}): Header oben 0 / Abstand 28 px — ${werte.map(([n, w]) => `${n}: ${w.oben}/${w.abstand}`).join(", ")}; bei 30 px gescrollt Header oben ${unten.oben}; CLS ${cls}`);
+    await ctx.close();
+  }
+}
 const chipFolge = alleFolgen.find((f) => themenListe(themenDaten.folgen[f.slug]).length);
 const chipHtml = await (await fetch(`${basis}/episodes/${chipFolge.slug}/`)).text();
 const chips = themenListe(themenDaten.folgen[chipFolge.slug]).filter((k) => chipHtml.includes(`href="/episodes/?thema=${k}"`));

@@ -465,6 +465,23 @@ mehr.
   gleich (`.br-kopf`, `.reg-kopf` margin-top 28 px; `.ab-kopf-bereich`
   mobil 28 px, ab 640 px 24 px). `live-pruefen.mjs` prüft das bei 360/390 px
   (24–28 px, überall gleich). Startseiten-Hero unverändert.
+- Seit 14.11.2026 (Rückmeldung Hagen, Android/Brave ~360 px: Glasfläche
+  klebte am Header, darüber ein ~28-px-Streifen): Ursache war
+  `top: env(safe-area-inset-top)` am sticky Header — Android meldet bei
+  edge-to-edge die Statusleiste als Inset, ein sticky Element rutscht dann
+  schon bei Scroll 0 um diesen Wert nach unten und überdeckt den Abstand.
+  Jetzt `top-0` (auch das Mobil-Menü ohne `pt-[env(...)]`, `scroll-padding-top`
+  ohne `env()`); ohne `viewport-fit=cover` hält der Browser die Statusleiste
+  selbst frei. **Kein `env(safe-area-inset-top)` als Versatz eines sticky/
+  fixed Elements oben.** Der Abstand selbst bleibt margin-top (kann den
+  Header nicht verschieben: der steht vor `<main>`, `<main>` ist Flex-Item).
+  Dazu `color-scheme: light` (Meta über `viewport.colorScheme` und CSS auf
+  `html`) gegen Nachtmodi. `live-pruefen.mjs` prüft bei 360/390 px auf
+  `/blog/`, `/episodes/`, `/about/` mit Touch, `colorScheme: dark` und
+  emulierter Safe-Area oben 28 px (CDP `Emulation.setSafeAreaInsetsOverride`,
+  ohne Unterstützung im Browser ohne Emulation): Header-Oberkante 0 und
+  Abstand genau 28 px frisch, nach Scroll 30 px hin und zurück und nach
+  Zurück-Navigation von einer Artikel-/Folgenseite, CLS 0.
 
 ### Seitenhintergrund (alle Seiten)
 
@@ -509,7 +526,7 @@ mehr.
   kurz für irgendwann"), Menüpunkte als Flächen (Bricolage semibold 16 px,
   min. 44 px hoch), aktive Seite gelb mit `aria-current="page"` (auch auf
   Unterseiten), „Abonnieren" als gelber Button mit Kopfhörer-Icon.
-- Klebt oben (`position: sticky`), halbtransparent mit backdrop-blur, Linie
+- Klebt oben (`position: sticky`, `top-0` — nie `env(safe-area-inset-top)`, siehe „Abstand unter dem Header“), halbtransparent mit backdrop-blur, Linie
   unten erst nach dem Scrollen; `scroll-padding-top` in `globals.css`.
 - Unter 1024 px „☰ Menü"-Knopf; das Menü wird per Portal in `<body>`
   gerendert (sonst wäre der Header wegen `backdrop-filter` der Bezugsrahmen
