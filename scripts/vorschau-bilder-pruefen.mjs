@@ -225,7 +225,18 @@ if (seiten.includes("/blog/")) {
       await page.waitForTimeout(700);
       await page.waitForLoadState("networkidle");
       z = await zustand(page);
-      meld(JSON.stringify(z.slugs) === JSON.stringify(slugs.slice(proSeite, 2 * proSeite)) && z.suche === "?seite=2" && z.zaehler.endsWith(`2 / ${seitenZahl}`) && z.fokus.endsWith(`/blog/${slugs[proSeite]}/`) && z.imBild && !z.querScroll && z.geladen === z.bilder, `${breite}px /blog/: Blättern → Seite 2 (${z.slugs.join(", ")}), ${z.suche}, „${z.zaehler}“, Fokus auf erster Kachel, ${z.geladen}/${z.bilder} Bilder`);
+      // Bilder erst nach dem Durchscrollen zählen (wie auf Seite 1): Die
+      // Kartenbilder sind lazy, mobil (eine Spalte) liegen die hinteren
+      // Kacheln von Seite 2 weit unter dem Bildschirm.
+      await page.evaluate(async () => {
+        for (let y = 0; y <= document.body.scrollHeight; y += 500) {
+          scrollTo(0, y);
+          await new Promise((ok) => setTimeout(ok, 120));
+        }
+      });
+      await page.waitForLoadState("networkidle");
+      const zb = await zustand(page);
+      meld(JSON.stringify(z.slugs) === JSON.stringify(slugs.slice(proSeite, 2 * proSeite)) && z.suche === "?seite=2" && z.zaehler.endsWith(`2 / ${seitenZahl}`) && z.fokus.endsWith(`/blog/${slugs[proSeite]}/`) && z.imBild && !z.querScroll && zb.geladen === zb.bilder, `${breite}px /blog/: Blättern → Seite 2 (${z.slugs.join(", ")}), ${z.suche}, „${z.zaehler}“, Fokus auf erster Kachel, ${zb.geladen}/${zb.bilder} Bilder (nach Durchscrollen)`);
       await page.goto(`${basis}/blog/?seite=2`, { waitUntil: "networkidle", timeout: 60000 });
       await page.waitForTimeout(500);
       z = await zustand(page);
