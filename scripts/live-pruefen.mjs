@@ -542,12 +542,17 @@ if (blogThemen.length) {
       const soll = imThema(testThema);
       const zweite = soll.length > proSeite;
       const d = await mitCls(`/blog/?thema=${testThema}&seite=2`, breite);
-      const z = await rasterZustand(d.pg);
+      // CLS und Chips direkt nach dem Laden; die Bilder erst nach dem
+      // Durchscrollen zählen (lazy — mobil liegen hintere Kacheln unter dem
+      // Bildschirm, wie in seite()).
       const cz = await chipZustand(d.pg);
+      await d.pg.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += 500) { scrollTo(0, y); await new Promise((r) => setTimeout(r, 100)); } });
+      await d.pg.waitForLoadState("networkidle");
+      const z = await rasterZustand(d.pg);
       const sollSlugs = zweite ? soll.slice(proSeite, 2 * proSeite) : soll.slice(0, proSeite);
       pruefe(
         JSON.stringify(z.slugs) === JSON.stringify(sollSlugs) && cz.gelb.join() === testThema && cz.gedrueckt.join() === testThema && cz.cls === 0 && !z.querScroll && z.geladen === z.bilder,
-        `${breite}px /blog/?thema=${testThema}&seite=2 lädt gefiltert (${z.slugs.length} Kachel(n), ${zweite ? "Seite 2" : "Thema hat eine Seite → Seite 1"}), CLS ${cz.cls}`,
+        `${breite}px /blog/?thema=${testThema}&seite=2 lädt gefiltert (${z.slugs.length} Kachel(n), ${zweite ? "Seite 2" : "Thema hat eine Seite → Seite 1"}, ${z.geladen}/${z.bilder} Bilder nach Durchscrollen), CLS ${cz.cls}`,
       );
       await d.ctx.close();
       if (seitenZahl > 1) {
