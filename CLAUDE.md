@@ -699,8 +699,12 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
     eine Folge vom selben Tag holt). Sonst endet der Lauf grün mit „Keine
     neue Folge“ — kein Build, kein Upload.
   - Sicherheitsnetz: Fallen Läufe aus, holt der nächste die Folge ganz normal
-    (Vergleich über die guid mit dem Stand vorher). Getestet am 16.11.2026
-    per `wie_zeitplan`.
+    (geänderte `folgen.json` = bauen; neue Folgen per guid-Vergleich mit dem
+    Stand vorher benannt). 16.11.2026: Die ausgefallene Folge holte ein
+    manueller Lauf um 13:50 UTC nach (noch mit dem alten Workflow); der
+    Testlauf mit `wie_zeitplan` danach (neuer Workflow) endete grün mit
+    „Keine neue Folge“ ohne Build. Die Zeile „Neue Folge geholt“ ist lokal
+    getestet und erscheint live erstmals beim nächsten Montagslauf.
   - Letzter Dienstagslauf (04:17 UTC, Cron `17 4 * * 2`): Steht noch keine
     Folge mit Montagsdatum (oder später) im Feed, endet er mit der Warnung
     „Keine neue Folge seit Montag“ (gelb im Actions-Überblick, nicht rot).
