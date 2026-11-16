@@ -682,18 +682,28 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   und Domain-Einstellungen fasst Claude nicht an.
 - Deploy: `.github/workflows/deploy-allinkl.yml` bei Push auf `main` (Push-
   Auslöser nur `main`), manuell und per Zeitplan für die neue Folge. Die Folge
-  ist meist gegen 06:00 UTC (13:00 Thailand) im Feed; GitHub startet
-  Zeitpläne oft verspätet. Zeitplan: **Mo 06:30 UTC** (Hauptlauf),
-  **Mo 11:30 UTC** und **Di 02:30 UTC** (Nachläufe).
-  - Zeitplan-Läufe holen zuerst den Feed. Nur wenn sich `content/folgen.json`
-    geändert hat: committen, pushen, Vorschau anstoßen, bauen, prüfen,
-    hochladen, Blog aufräumen und danach automatisch
+  kommt montags zwischen ca. 02:00 und 06:00 UTC in den Feed. **Zeitplan
+  (seit 16.11.2026) auf Minute 17, viele Versuche:** Mo 03:17, 05:17, 07:17,
+  09:17, 11:17, 13:17, 15:17 UTC, Di 01:17 und 04:17 UTC. Grund: GitHub
+  verwirft Zeitpläne zur vollen/halben Stunde bei Last oft ganz (16.11.2026:
+  weder 06:30 noch 11:30 gestartet, Folge kam nicht auf die Seite; 09.11.:
+  nur 1 von 3 Läufen, 28 min spät). **Nie wieder `:00`/`:30`** als Minute.
+  `concurrency` (eine Gruppe, `cancel-in-progress: false`): nie zwei Deploys
+  gleichzeitig, ein laufender wird nie abgebrochen.
+  - Jeder Zeitplan-Lauf ist idempotent: Er holt den Feed. Nur wenn sich
+    `content/folgen.json` geändert hat: committen, pushen, Vorschau anstoßen,
+    bauen, prüfen, hochladen, Blog aufräumen und danach automatisch
     `scripts/live-pruefen.mjs --nur-neueste` (neueste Folge live erreichbar,
-    Titel stimmt). Sonst endet der Lauf grün mit „Keine neue Folge“ in der
-    Zusammenfassung — kein Build, kein Upload.
-  - Dienstagslauf: Steht noch keine Folge mit Montagsdatum (oder später) im
-    Feed, endet er mit der Warnung „Keine neue Folge seit Montag“ (gelb im
-    Actions-Überblick, nicht rot).
+    Titel stimmt); in der Zusammenfassung „Neue Folge geholt: <Titel>“ (mit
+    Datum und Adresse; „(nachgeholt)“, wenn ein Lauf montags ab 09:00 UTC
+    eine Folge vom selben Tag holt). Sonst endet der Lauf grün mit „Keine
+    neue Folge“ — kein Build, kein Upload.
+  - Sicherheitsnetz: Fallen Läufe aus, holt der nächste die Folge ganz normal
+    (Vergleich über die guid mit dem Stand vorher). Getestet am 16.11.2026
+    per `wie_zeitplan`.
+  - Letzter Dienstagslauf (04:17 UTC, Cron `17 4 * * 2`): Steht noch keine
+    Folge mit Montagsdatum (oder später) im Feed, endet er mit der Warnung
+    „Keine neue Folge seit Montag“ (gelb im Actions-Überblick, nicht rot).
   - Manuell gestartete Läufe bauen wie bisher immer (Feed-Abgleich wählbar).
     Mit `wie_zeitplan` verhält sich ein manueller Lauf wie ein Zeitplan-Lauf
     (zum Testen des „nur bei neuer Folge“-Pfads).

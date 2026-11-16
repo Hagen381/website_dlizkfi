@@ -8,16 +8,19 @@ name: Deploy zu All-Inkl
 #   - Push auf main: bauen und ausliefern (ohne Feed-Abgleich)
 #   - manuell (workflow_dispatch): Feed-Abgleich waehlbar, baut immer —
 #     ausser mit "wie_zeitplan" (dann wie ein Zeitplan-Lauf, zum Testen)
-#   - Zeitplan fuer die neue Folge am Montag (sie ist meist gegen 06:00 UTC =
-#     13:00 Thailand im Feed; GitHub startet Zeitplaene oft verspaetet):
-#       Mo 06:30 UTC (13:30 Thailand)  Hauptlauf
-#       Mo 11:30 UTC (18:30 Thailand)  Nachlauf
-#       Di 02:30 UTC (09:30 Thailand)  Nachlauf
-#     Zeitplan-Laeufe holen zuerst den Feed. Gebaut und hochgeladen wird NUR,
-#     wenn sich content/folgen.json geaendert hat (dann: committen, pushen,
-#     bauen, ausliefern, Live-Pruefung der neuesten Folge). Sonst endet der
-#     Lauf gruen mit "keine neue Folge". Ist dienstags noch keine Folge vom
-#     Montag im Feed: Warnung "Keine neue Folge seit Montag" (kein roter Lauf).
+#   - Zeitplan fuer die neue Folge am Montag (sie kommt zwischen ca. 02:00
+#     und 06:00 UTC in den Feed). GitHub verwirft Zeitplaene zur vollen/halben
+#     Stunde bei Last oft ganz (16.11.2026: kein einziger Lauf) oder startet
+#     sie stark verspaetet — deshalb Minute 17 und viele Versuche:
+#       Mo 03:17, 05:17, 07:17, 09:17, 11:17, 13:17, 15:17 UTC
+#       Di 01:17, 04:17 UTC (04:17 = letzter Lauf, prueft „seit Montag“)
+#     Jeder Lauf ist idempotent: Er holt den Feed; gebaut und hochgeladen wird
+#     NUR, wenn sich content/folgen.json geaendert hat (dann: committen,
+#     pushen, bauen, ausliefern, Live-Pruefung der neuesten Folge,
+#     „Neue Folge geholt: <Titel>“ in der Zusammenfassung). Sonst endet der
+#     Lauf gruen mit "Keine neue Folge". Fallen Laeufe aus, holt der naechste
+#     die Folge ganz normal nach. Ist beim letzten Dienstagslauf noch keine
+#     Folge vom Montag im Feed: Warnung "Keine neue Folge seit Montag" (gelb).
 #
 # Hochgeladen wird mit lftp wie bei grannyg: All-Inkl verlangt, dass die
 # Datenverbindung die TLS-Sitzung der Anmeldung wiederverwendet.
@@ -43,15 +46,18 @@ on:
         type: boolean
         default: false
   # Push-Ausloeser bleibt auf main beschraenkt (siehe oben).
+  # Ungerade Minute (17) statt :00/:30 — die verwirft GitHub bei Last oft.
   schedule:
-    - cron: "30 6 * * 1"   # Mo 06:30 UTC = 13:30 Thailand (Hauptlauf)
-    - cron: "30 11 * * 1"  # Mo 11:30 UTC = 18:30 Thailand (Nachlauf)
-    - cron: "30 2 * * 2"   # Di 02:30 UTC = 09:30 Thailand (Nachlauf)
+    - cron: "17 3,5,7,9,11,13,15 * * 1"  # Mo 03:17 … 15:17 UTC, alle 2 h
+    - cron: "17 1 * * 2"                 # Di 01:17 UTC
+    - cron: "17 4 * * 2"                 # Di 04:17 UTC (letzter Lauf, Warnung „seit Montag“)
 
 permissions:
   contents: write
   actions: write
 
+# Nie zwei Deploys gleichzeitig (Upload, Blog-Aufraeumen, Feed-Commit):
+# ein laufender Lauf wird nie abgebrochen, der naechste wartet.
 concurrency:
   group: deploy-allinkl
   cancel-in-progress: false
@@ -84,6 +90,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          # Stand vorher merken, um neue Folgen beim Namen nennen zu koennen
+          cp content/folgen.json "$RUNNER_TEMP/folgen-vorher.json"
           if ! node scripts/feed-holen.mjs | tee "$RUNNER_TEMP/feed.txt"; then
             echo "::warning::Feed konnte nicht geholt werden — es gilt der bisherige Stand."
             git checkout -- content/folgen.json 2>/dev/null || true
@@ -94,6 +102,25 @@ jobs:
             echo "geaendert=nein" >> "$GITHUB_OUTPUT"
           else
             echo "geaendert=ja" >> "$GITHUB_OUTPUT"
+            # Neue Folgen (guid vorher unbekannt) in Log und Zusammenfassung.
+            # Montag ab 09:00 UTC mit einer Folge vom selben Tag = nachgeholt
+            # (fruehere Laeufe ausgefallen oder Folge spaet im Feed).
+            node - "$RUNNER_TEMP/folgen-vorher.json" >> "$RUNNER_TEMP/neu.txt" <<'JS'
+          const fs = require("fs");
+          const vorher = new Set(JSON.parse(fs.readFileSync(process.argv[2], "utf8")).folgen.map((f) => f.guid));
+          const jetzt = new Date();
+          const heute = jetzt.toISOString().slice(0, 10);
+          const nachgeholt = jetzt.getUTCDay() === 1 && jetzt.getUTCHours() >= 9;
+          for (const f of JSON.parse(fs.readFileSync("content/folgen.json", "utf8")).folgen) {
+            if (vorher.has(f.guid)) continue;
+            const spaet = nachgeholt && f.datum.slice(0, 10) === heute ? " (nachgeholt)" : "";
+            console.log(`Neue Folge geholt: ${f.titel} (${f.datum.slice(0, 10)}, /episodes/${f.slug}/)${spaet}`);
+          }
+          JS
+            if [ -s "$RUNNER_TEMP/neu.txt" ]; then
+              cat "$RUNNER_TEMP/neu.txt"
+              { echo; echo '### Neue Folge'; echo; sed 's/^/- /' "$RUNNER_TEMP/neu.txt"; } >> "$GITHUB_STEP_SUMMARY"
+            fi
           fi
 
       - name: Neue Folgen committen und pushen
@@ -157,8 +184,8 @@ jobs:
             echo "Keine neue Folge im Feed (neueste: $neueste) — es wird nicht gebaut und nichts hochgeladen."
             { echo "### Keine neue Folge"; echo; echo "Feed unverändert, neueste Folge: $neueste. Kein Build, kein Upload."; } >> "$GITHUB_STEP_SUMMARY"
           fi
-          # Dienstags-Nachlauf: Ist eine Folge vom Montag im Feed? (Nur Warnung, kein roter Lauf.)
-          if [ "$ZEITPLAN" = "30 2 * * 2" ]; then
+          # Letzter Dienstagslauf: Ist eine Folge vom Montag im Feed? (Nur Warnung, kein roter Lauf.)
+          if [ "$ZEITPLAN" = "17 4 * * 2" ]; then
             montag=$(date -u -d 'last monday' +%Y-%m-%d)
             if node -e "process.exit(require('./content/folgen.json').folgen.some(f => f.datum.slice(0,10) >= '$montag') ? 0 : 1)"; then
               echo "Folge seit Montag ($montag) vorhanden: $neueste"
