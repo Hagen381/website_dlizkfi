@@ -1,8 +1,25 @@
 {
   "hinweis": "Automatisch erzeugt von scripts/feed-holen.mjs. Slugs NICHT von Hand ändern (alte Adressen!).",
   "feed": "https://anchor.fm/s/104754158/podcast/rss",
-  "anzahl": 76,
+  "anzahl": 77,
   "folgen": [
+    {
+      "slug": "update-kundenbindung-mit-marv",
+      "guid": "272d39b3-1b16-4273-9b02-13df2a3f81e6",
+      "zuordnung": "neu",
+      "titel": "Update: Kundenbindung mit Marv",
+      "datum": "2026-11-16T02:21:50.000Z",
+      "dauer": 2056,
+      "mp3": "https://anchor.fm/s/104754158/podcast/play/129513889/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-16%2F92116a1f-6292-14f7-dec8-c81a611434e1.mp3",
+      "mp3Bytes": 49347649,
+      "mp3Typ": "audio/mpeg",
+      "bild": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/43597606/43597606-1746338065663-e86d61f96be92.jpg",
+      "nummer": null,
+      "typ": "full",
+      "spotifyLink": "https://podcasters.spotify.com/pod/show/dlizkfi/episodes/Update-Kundenbindung-mit-Marv-e3seuv1",
+      "beschreibung": "Eigentlich dachten wir, das Kapitel Unternehmensberatungwäre nach drei Monaten endlich abgeschlossen. 4.000 Euro Lehrgeld bezahlt, Zusammenarbeit beendet, Haken dran. Aber weit gefehlt! Denn was danach passiert ist, war teilweise noch absurder als die eigentliche Beratung. In dieser Folge gibt es …",
+      "shownotes": "<p>Eigentlich dachten wir, das Kapitel Unternehmensberatungwäre nach drei Monaten endlich abgeschlossen. 4.000 Euro Lehrgeld bezahlt, Zusammenarbeit beendet, Haken dran. Aber weit gefehlt! Denn was danach passiert ist, war teilweise noch absurder als die eigentliche Beratung.</p><p> In dieser Folge gibt es also das versprochene Update zu Marvund unserer 8.000-Euro-Unternehmensberatung. Und ich kann dir sagen: Inzwischen können wir über vieles davon tatsächlich nur noch lachen.</p><p>Da wäre zum Beispiel unser letztes Gespräch mit Marv, in demer mir ausgerechnet erklären wollte, wie ich meine Kunden besser an mich binden kann. Ausgerechnet derjenige, dessen eigene Kundenbetreuung einer der Hauptgründe für unsere Kündigung war!</p><p>Oder der Aufhebungsvertrag, den wir plötzlich ein zweitesMal unterschreiben sollten. Diesmal inklusive Stillschweigen und einer ziemlich fragwürdigen Vertragsstrafe.</p><p>Und als wäre das nicht genug, flatterte kurz darauf eineE-Mail des Geschäftsführers ins Postfach: Ob ich nicht jemanden kennen würde, der ebenfalls von ihrer Beratung profitieren könnte? Für eine erfolgreiche Empfehlung gäbe es bis zu 3.000 Euro Provision.</p><p>Sorry, aber wie dreist kann man eigentlich sein?</p><p>Doch damit nicht genug. In einer internen Kundengruppetauchte plötzlich eine Nachricht auf, in der ein anderer Teilnehmer nahezu identische Erfahrungen schilderte wie wir. Und die war schneller wieder gelöscht, als wir sie lesen konnten.</p><p>In dieser Folge erzähle ich dir, wie die Zusammenarbeitendgültig beendet wurde, welche unglaublichen Nachrichten uns danach noch erreichten und warum ich immer noch überlege, ob ich unsere Erfahrungen irgendwann öffentlich mit dem Namen der Agentur teilen sollte.</p><p>🎧 Falls du die erste Folge über unsere Erfahrungen mit dieser Unternehmensberatung noch nicht gehört hast, hör am besten dort zuerst rein!</p><p>Wenn dir der Podcast gefällt, dann abonniere ihn gern oderlass mir eine Bewertung da. Das hilft mir, dass der Podcast sich verbreiten kann. Empfiehl ihn auch gern weiter, wenn du magst.</p><p>Du findest den Podcast auf allen gängigen Plattformen.Insbesondere bei:</p><p>🎧 <a href=\"https://open.spotify.com/show/0m7DHiEhXuUZJPDkmtmWb0\" target=\"_blank\" rel=\"noopener\">Spotify</a></p><p>🎧 <a href=\"https://podcasts.apple.com/us/podcast/dlizkfi-das-leben-ist-zu-kurz-f%C3%BCr-irgendwann/id1821004400\" target=\"_blank\" rel=\"noopener\">Apple Podcasts</a></p><p>🎧 <a href=\"https://www.youtube.com/@DLIZKFIPodcast\" target=\"_blank\" rel=\"noopener\">YouTube</a></p><p>Folge mir auch gern auf:</p><p>📸 <a href=\"https://www.instagram.com/molloycrew/\" target=\"_blank\" rel=\"noopener\">Instagram</a></p><p>📌 <a href=\"https://de.pinterest.com/dlizkfipodcast/\" target=\"_blank\" rel=\"noopener\">Pinterest</a></p><p>Alles Liebe,</p><p>Juliette </p>"
+    },
     {
       "slug": "skorpione-schlangen-und-regenzeit",
       "guid": "a307484b-2b9a-4528-866a-2b3eb649c862",
