@@ -9,7 +9,9 @@
 // kein X-Robots-Tag, ist es die neue Seite? Polaroid-Collage der Startseite
 // (Anzahl je Breite 360/390/820/1280/1440, Fotos geladen), neueste Folge erreichbar,
 // /episodes/ als 3D-Register (alle Folgen verlinkt im HTML, Walze, Fotos, nichts
-// über den Rand bei 360/390/820/1280/1440 px), 301 der alten Blätteradressen,
+// über den Rand bei 360/390/820/1280/1440 px), Podcast-Cover statt Folgenfotos
+// (Startseite, Walze, Themenreiter, Suchtreffer; je Breite geladen, CLS 0),
+// 301 der alten Blätteradressen,
 // /about/ (Fotos, Rand, Querscrollen, Kontrast, kein noindex), Walze per
 // Touch (390 px) und Mausrad (1280 px), vordere Karte mobil,
 // /blog/ als Kachel-Raster (alle Artikel verlinkt, Reihenfolge/Datum,
@@ -175,6 +177,50 @@ for (const breite of [360, 390, 820, 1280, 1440]) {
   pruefe(w.walze && w.vornImBild && w.ueberRand === 0 && !w.querScroll && w.h1 === "DLIZKFI – Podcast", `${breite}px /episodes/: Walze sichtbar, vordere Karte im Bild, nichts über den Rand, kein Querscrollen, H1 „${w.h1}“`);
   pruefe(w.karten === alleFolgen.length && w.geladen === w.fotos && e.kaputt.length === 0, `${breite}px /episodes/: ${w.karten} Karten, ${w.geladen}/${w.fotos} Fotos geladen ${e.kaputt.join(" | ")}`);
   await e.ctx.close();
+}
+
+// Podcast-Cover statt eigener Fotos (seit 18.11.2026): Walzen-Karten,
+// Themenreiter, Suchtreffer (Folgen) und Startseite („Neueste Folge“,
+// „Weitere Folgen“) zeigen das Cover (Dateiname „cover.“ im src/srcset), je
+// Breite geladen, keine Fehler, CLS 0, kein Querscrollen. Kein Bild mehr aus
+// /images/folgen/.
+const istCover = (src) => /\/cover\.[^/]*$/.test(src.split(",")[0].trim().split(" ")[0]);
+for (const breite of [360, 390, 820, 1280, 1440]) {
+  for (const [pfad, sel, vorher] of [
+    ["/", "section[aria-labelledby='frisch-titel'] img, section[aria-labelledby='neueste-titel'] img", null],
+    ["/episodes/", ".reg-walze .reg-foto img, .reg-reiter img", null],
+    ["/episodes/?q=Schule", "section[aria-live] li:has(a[href*='/episodes/']) img", "/episodes/"],
+  ]) {
+    const kaputt = [];
+    const c = await mitCls(pfad, breite, vorher);
+    c.pg.on("response", (r) => { if (["image", "font", "stylesheet", "script"].includes(r.request().resourceType()) && r.status() >= 400) kaputt.push(`${r.status()} ${r.url()}`); });
+    if (pfad.includes("?q=")) await c.pg.waitForSelector("section[aria-live] li", { timeout: 15000 }).catch(() => {});
+    await c.pg.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += 500) { scrollTo(0, y); await new Promise((r) => setTimeout(r, 100)); } });
+    await c.pg.waitForLoadState("networkidle");
+    // Sichtbare Bilder in die Ansicht holen (lazy) und auf das Laden warten
+    await c.pg.evaluate(async (s) => {
+      for (const i of document.querySelectorAll(s)) if (i.getClientRects().length && getComputedStyle(i).visibility !== "hidden") { i.scrollIntoView({ block: "center", inline: "nearest" }); await new Promise((r) => setTimeout(r, 60)); }
+      scrollTo(0, 0);
+    }, sel);
+    await c.pg.waitForLoadState("networkidle");
+    const z = await c.pg.evaluate((s) => {
+      const bilder = [...document.querySelectorAll(s)];
+      const sichtbar = bilder.filter((i) => i.getClientRects().length && getComputedStyle(i).visibility !== "hidden");
+      return {
+        alle: bilder.map((i) => i.getAttribute("srcset") || i.getAttribute("src") || ""),
+        sichtbar: sichtbar.length,
+        geladen: sichtbar.filter((i) => i.complete && i.naturalWidth > 0).length,
+        altLeer: bilder.every((i) => i.getAttribute("alt") === ""),
+        folgenBilder: [...document.images].filter((i) => /\/images\/folgen\//.test(i.getAttribute("srcset") || i.getAttribute("src") || "")).length,
+        quer: document.documentElement.scrollWidth > innerWidth,
+        cls: Math.round((window.__cls ?? 0) * 1000) / 1000,
+      };
+    }, sel);
+    const keinCover = z.alle.filter((x) => !istCover(x));
+    pruefe(z.alle.length > 0 && keinCover.length === 0 && z.altLeer && z.folgenBilder === 0, `${breite}px ${pfad}: ${z.alle.length} Folgenbild(er), alle Podcast-Cover, Alt-Text leer${keinCover.length ? " — NICHT Cover: " + keinCover.slice(0, 3).join(" | ") : ""}${z.folgenBilder ? `, ${z.folgenBilder} Bild(er) aus /images/folgen/` : ""}`);
+    pruefe(z.geladen === z.sichtbar && kaputt.length === 0 && z.cls === 0 && !z.quer, `${breite}px ${pfad}: ${z.geladen}/${z.sichtbar} sichtbare Cover geladen, keine 404, CLS ${z.cls}, kein Querscrollen ${kaputt.join(" | ")}`);
+    await c.ctx.close();
+  }
 }
 
 // Themenreiter auf /episodes/ (content/themen.json): „Alle“ + jedes Thema mit
@@ -434,8 +480,7 @@ const rasterZustand = (pg) =>
       versteckteGeladen: [...document.querySelectorAll(".br-pola img")].filter((i) => i.getClientRects().length === 0 && (i.currentSrc || (i.complete && i.naturalWidth > 0))).length,
     };
   });
-const folgenQuellen = JSON.parse(fs.readFileSync("content/folgen-bilder/quellen.json", "utf8"));
-const kameraName = (n) => (folgenQuellen[n] ?? n).replace(/\.\w+$/, "");
+const kameraName = (n) => n.replace(/\.\w+$/, "");
 const reiheSlugs = erwartet.map((e) => e.slug);
 for (const breite of [360, 390, 820, 1280, 1440]) {
   const b = await seite("/blog/", breite);
@@ -595,10 +640,10 @@ for (const datei of artikel) {
     const f = await seite(`/episodes/${folge}/`);
     pruefe((await f.pg.locator(`a[href$="/blog/${slug}/"]`, { hasText: "Zum Blogartikel" }).count()) === 1, `Folgenseite /episodes/${folge}/ verlinkt „Zum Blogartikel“`);
     await f.ctx.close();
-    // Walze auf /episodes/: Karte der Folge zeigt das Kartenbild des Artikels
-    const kb = (md.match(/^kartenbild:\s*"?([^"\n]+?)"?\s*$/m)?.[1] || md.match(/!\[[^\]]*\]\(bilder\/[^/]+\/([^)]+)\)/i)?.[1] || "").replace(/\.[a-z]+$/i, "");
-    const karte = epHtml.split('<article class="reg-karte"').find((t) => t.includes(`href="/episodes/${folge}/"`)) || "";
-    pruefe(!!kb && karte.includes(kb), `/episodes/: Walzen-Karte ${folge} zeigt Kartenbild ${kb}`);
+    // Walze auf /episodes/: Karte der Folge zeigt das Podcast-Cover (seit
+    // 18.11.2026 nicht mehr das Kartenbild des Artikels)
+    const karte = (epHtml.split('<article class="reg-karte"').find((t) => t.includes(`href="/episodes/${folge}/"`)) || "").split("</article>")[0];
+    pruefe(/\/cover\./.test(karte) && !/\/images\/(blog|folgen)\//.test(karte), `/episodes/: Walzen-Karte ${folge} zeigt das Podcast-Cover`);
   }
   // Suche auf /episodes/ (Index /suche.json) findet den Artikel über seinen Titel
   const idx = await (await fetch(basis + "/suche.json")).json();

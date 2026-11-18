@@ -129,9 +129,9 @@ mehr.
   die Walze mit ALLEN Folgen bzw. denen des gewählten Themas (rotateX 24°,
   Radius `--radius` 520 px, unter 640 px 640 px, ±3 sichtbar, außerhalb
   `visibility: hidden`). Kein Monatsschild mehr über den Karten (seit
-  12.11.2026 entfernt, das Datum steht in der Karte). Fotos:
-  „Foto zur Folge“ (siehe „Folgenbilder“), erst geladen, wenn die Karte in
-  die Nähe kommt.
+  12.11.2026 entfernt, das Datum steht in der Karte). Bild jeder Karte:
+  das Podcast-Cover (siehe „Cover statt Folgenbilder“), erst geladen, wenn
+  die Karte in die Nähe kommt.
 - Jede Karte hat einen echten Link auf `/episodes/<slug>/` im ausgelieferten
   HTML. Ohne JavaScript greift `src/app/episodes/register-ohne-js.css` (in
   `<noscript>`): einfache Liste aller Folgen, ohne Reiter und Steuerung.
@@ -147,30 +147,28 @@ mehr.
   250 ms Sperre; kleine Schritte (Trackpad) werden gesammelt und verlängern
   die Sperre (kein Durchrauschen), an den Enden scrollt die Seite.
   Pfeiltasten nur bei Fokus in Walze/Reitern, Knöpfe ↑ ↓, Fokus dreht die
-  Karte nach vorn, Live-Ansage „Folge x von y: Titel“. Fotos der nahen
+  Karte nach vorn, Live-Ansage „Folge x von y: Titel“. Bilder der nahen
   Karten (±5) werden aktiv geladen (`loading` → eager), weil gedrehte
   hintere Karten außerhalb des Ausschnitts liegen.
-- **Folgenbilder** (seit 12.11.2026): Jede Folge hat ein eigenes Foto
-  `content/folgen-bilder/<slug>.jpg` (900×900, ohne Metadaten, auf Kinder,
-  Kennzeichen und Bildschirme geprüft; `quellen.json` daneben = Herkunft aus
-  Hagens Kamera-Ordner, wird nicht veröffentlicht). EINE Funktion
-  `fotoZurFolge()` in `src/lib/folgen-foto.ts`, Reihenfolge: 1. Kartenbild
-  des Blogartikels (mit `kartenbild-position`), 2. Folgenbild
-  `/images/folgen/<slug>.jpg`, 3. Rückfall Collage-Foto per FNV-1a-Hash des
-  Slugs. Genutzt in Walzen-Karten, Themenreitern, Liste ohne JS,
-  Suchtreffern (`FolgenKarte`, Foto steht in `/suche.json`) und auf der
-  Startseite („Neueste Folge“, „Weitere Folgen“). Die Folgenseiten
-  `/episodes/<slug>/` behalten das Podcast-Cover. Alt-Text leer (Titel steht
-  daneben), gleiche Bildgrößen wie vorher (CLS 0).
-- `scripts/folgen-bilder.mjs` (vor jedem Build, live und Vorschau, nach
-  `startseite-bilder.mjs`): kodiert die Bilder ohne EXIF/GPS nach
-  `public/images/folgen/` (Build-Ergebnis, .gitignore), bricht ab, wenn ein
-  Bild nicht 900×900 ist oder der Dateiname kein Slug aus
-  `content/folgen.json` ist, entfernt verwaiste Einträge im Hash-Cache des
-  Bildoptimierers. Neue Folge ohne Bild (Montagslauf): KEIN Abbruch, Karte
-  zeigt das Collage-Foto, Warnung „Neue Folge ohne Folgenbild: <slug>“ im
-  Build-Log und in der Zusammenfassung des Laufs (gelb, nicht rot). Bild
-  nachreichen = `content/folgen-bilder/<slug>.jpg` über `uebergabe`.
+- **Cover statt Folgenbilder** (seit 18.11.2026, Wunsch Hagen): Alle Folgen
+  zeigen einheitlich das Podcast-Cover `src/assets/images/cover.jpg` (wie bei
+  Spotify), immer über `src/components/Cover.tsx`: Walzen-Karten (210 px,
+  die erste mit `priority`), Themenreiter (40 px), Liste ohne JS,
+  Suchtreffer (`FolgenKarte`, 64/96 px) und Startseite („Neueste Folge“
+  420 px mit `sizes`, „Weitere Folgen“ über `FolgenKarte`). Ohne `sizes`
+  erzeugt `Cover` ein 1x/2x-srcset für die feste Größe. Alt-Text leer (Titel
+  steht daneben), gleiche Bildgrößen wie vorher, CLS 0. Mobil (< 640 px)
+  ist die Bildspalte der Walzen-Karte schmaler als hoch, das Cover wird dort
+  seitlich beschnitten (`object-fit: cover`). Die frühere kleine
+  Cover-Plakette unten links auf dem Kartenfoto (`.reg-cover`) entfällt.
+  `/suche.json` hat für Folgen kein Bildfeld mehr; Blog-Treffer behalten ihr
+  Kartenbild (ohne Kartenbild: Cover). Folgenseiten unverändert (Cover).
+  Vorher (12.–18.11.2026) hatte jede Folge ein eigenes Foto
+  (`content/folgen-bilder/`, `src/lib/folgen-foto.ts`,
+  `scripts/folgen-bilder.mjs`, Warnung „Neue Folge ohne Folgenbild“) — alles
+  entfernt. Auf dem Server liegen unter `images/folgen/` noch die alten
+  Dateien (nicht gelöscht, Upload ohne Löschen; sie werden nirgends mehr
+  verlinkt). Neue Folgen brauchen kein Bild mehr.
 - Die vordere Karte sitzt im oberen Drittel (`--mitte` 150 px, mobil 140 px,
   `perspective-origin` auf gleicher Höhe), darunter 2–3 Karten. Polaroids:
   „kopf“ neben der Kopf-Glasfläche (ab 1280 px, oben 8–12 px — tiefer
@@ -207,8 +205,8 @@ mehr.
     geprüften Themen per `uebergabe` (dann als Array, ohne `"auto"`).
   - Themenreiter auf `/episodes/` (`RegisterWalze.tsx`, gleicher Platz und
     Stil wie früher die Monatsreiter: links 190 px, mobil eine wischbare
-    Leiste): „Alle“ + jedes Thema mit Folgen, je mit Anzahl und dem Foto der
-    neuesten Folge des Themas. Klick = Filter: Reiter gelb (`aria-pressed`,
+    Leiste): „Alle“ + jedes Thema mit Folgen, je mit Anzahl und dem
+    Podcast-Cover (seit 18.11.2026; vorher Foto der neuesten Folge). Klick = Filter: Reiter gelb (`aria-pressed`,
     kurze Animation, nicht bei `prefers-reduced-motion`), die Walze zeigt
     nur die Folgen des Themas (neueste vorn, die anderen Karten bleiben als
     `.aus` im DOM), Live-Ansage „Thema X: n Folgen“; nochmal klicken oder
@@ -302,9 +300,9 @@ mehr.
   alle vier je Seite, Raster max. `100% − 540px`; höchstens 1040 px. So
   bleiben die Kacheln ab 1024 px ≥ 260 px breit (1280: 267, 1440: 273 px).
   **Kein Polaroid zeigt dasselbe Foto wie ein Kartenbild auf `/blog/`**:
-  `POLAROIDS` in `page.tsx` (Quelle `startseite` = `content/startseite/
-  bilder/`, `folgen` = `content/folgen-bilder/<slug>.jpg`, Herkunft über
-  `quellen.json`); bei Dopplung (Kamera-Dateiname) bricht der Build ab.
+  `POLAROIDS` in `page.tsx` (einzige Quelle `content/startseite/bilder/`;
+  die Quelle `folgen` gibt es seit 18.11.2026 nicht mehr); bei Dopplung
+  (Kamera-Dateiname) bricht der Build ab.
   Neuer Artikel mit einem Polaroid-Foto als Kartenbild → Polaroid tauschen.
   - Raster: 6 Artikel pro Seite, ab 1024 px 3 Spalten (3 × 2), 640–1023 px
     2, darunter 1. Neueste Folge zuerst. Kachel (`.kipp .kipp-karte`,
@@ -387,9 +385,9 @@ mehr.
   11.11.2026): Hero mit 25 Polaroid-Fotos um eine Glasfläche. Inhalt der
   Glasfläche wie vorher (JULIETTE, Titel, Beschreibung, „Anhören auf“ +
   3 Plattform-Kacheln, gleiche Schriften/Größen). Darunter
-  `StartseiteFolgen.tsx` („Neueste Folge“, „Weitere Folgen“) — seit
-  12.11.2026 mit dem Foto zur Folge statt Podcast-Cover (`fotoZurFolge()`,
-  siehe „Folgenbilder“ unter Folgenübersicht): „Neueste Folge“ 420 px
+  `StartseiteFolgen.tsx` („Neueste Folge“, „Weitere Folgen“) — mit dem
+  Podcast-Cover (12.–18.11.2026 kurz mit eigenem Foto je Folge, siehe
+  „Cover statt Folgenbilder“ unter Folgenübersicht): „Neueste Folge“ 420 px
   (`sizes` wie vorher), lazy, weil sie wegen der 920-px-Collage nie im
   ersten Bildschirm liegt; „Weitere Folgen“ über `FolgenKarte` (64/96 px):
   die fünf Folgen NACH der neuesten (die steht schon unter „Neueste Folge“).
@@ -631,6 +629,9 @@ Weitere Prüfungen im Vorschau-Workflow (Lauf wird sonst rot):
   (5xx, 429, Verbindungsabbruch — GitHub Pages direkt nach dem Deploy) werden
   bis zu 3× mit Pause 2/4/6 s neu angefragt und erst dann rot; im Protokoll
   als „(vorübergehend) … nach n× Wiederholung“. Echte 404/4xx sofort rot.
+  Dazu bei 360/390/820/1280/1440 px die Cover-Prüfung (Startseite, Walze +
+  Themenreiter, Suchtreffer `?q=Schule`: nur das Podcast-Cover, Alt leer,
+  geladen, CLS 0, kein Querscrollen, nichts aus `/images/folgen/`).
   Wenn `/blog/` dabei ist, zusätzlich das Blog-Raster mit Entwürfen: alle
   Artikel als Link im HTML, Reihenfolge/Datum, Marke „Entwurf“ genau bei
   Entwürfen, bei 360/390/820/1280/1440 px Spalten, alles im Bild, kein
@@ -861,6 +862,10 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   frei, ↑ ↓ ≥ 48 px, keine Monatsschilder) und Mausrad bei 1280 px (+1 pro
   Stufe, Trackpad-Schwung ≤ +1), `/about/` je Breite (Fotos, Rand,
   Querscrollen, Kontrast ≥ 4,5:1, kein noindex, Canonical),
+  Podcast-Cover statt Folgenfotos bei 360/390/820/1280/1440 px (Startseite
+  „Neueste Folge“/„Weitere Folgen“, Walze + Themenreiter, Suchtreffer
+  `?q=Schule`: nur `cover.`, Alt leer, geladen, keine 404, CLS 0, kein
+  Querscrollen; Walzen-Karte jeder Folge mit Blogartikel zeigt das Cover),
   Folgen-Register (alle Folgen als Link im HTML; bei
   360/390/820/1280/1440 px Walze sichtbar, vordere Karte im Bild, Fotos
   geladen — Bilder außerhalb eines waagerecht scrollbaren Ausschnitts wie der

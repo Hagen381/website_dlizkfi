@@ -152,6 +152,60 @@ for (const breite of [390, 1280]) {
   }
 }
 
+// Podcast-Cover statt eigener Fotos (seit 18.11.2026, nur wenn / bzw.
+// /episodes/ geprüft wird): Startseite („Neueste Folge“, „Weitere Folgen“),
+// Walzen-Karten und Themenreiter auf /episodes/ und Folgen-Suchtreffer
+// (/episodes/?q=Schule) zeigen bei 360/390/820/1280/1440 px nur das Cover
+// (Dateiname „cover.“), Alt-Text leer, sichtbare geladen, keine Fehler,
+// CLS 0, kein Querscrollen, kein Bild aus /images/folgen/.
+{
+  const istCover = (src) => /\/cover\.[^/]*$/.test(src.split(",")[0].trim().split(" ")[0]);
+  const ziele = [
+    ["/", "section[aria-labelledby='frisch-titel'] img, section[aria-labelledby='neueste-titel'] img"],
+    ["/episodes/", ".reg-walze .reg-foto img, .reg-reiter img"],
+    ["/episodes/?q=Schule", "section[aria-live] li:has(a[href*='/episodes/']) img"],
+  ].filter(([pfad]) => seiten.includes(pfad.split("?")[0]));
+  for (const breite of [360, 390, 820, 1280, 1440]) {
+    for (const [pfad, sel] of ziele) {
+      const ctx = await browser.newContext({ viewport: { width: breite, height: 900 } });
+      const page = await ctx.newPage();
+      const kaputt = [];
+      page.on("response", (r) => { if (["image", "font", "stylesheet", "script"].includes(r.request().resourceType()) && r.status() >= 400 && !voruebergehend(r.status())) kaputt.push(`${r.status()} ${r.url()}`); });
+      await page.addInitScript(() => {
+        window.__cls = 0;
+        new PerformanceObserver((l) => { for (const e of l.getEntries()) if (!e.hadRecentInput) window.__cls += e.value; }).observe({ type: "layout-shift", buffered: true });
+      });
+      await page.goto(basis.replace(/\/$/, "") + pfad, { waitUntil: "networkidle", timeout: 60000 }).catch(() => null);
+      if (pfad.includes("?q=")) await page.waitForSelector("section[aria-live] li", { timeout: 15000 }).catch(() => {});
+      await page.evaluate(async (s) => {
+        for (let y = 0; y <= document.body.scrollHeight; y += 500) { scrollTo(0, y); await new Promise((ok) => setTimeout(ok, 100)); }
+        for (const i of document.querySelectorAll(s)) if (i.getClientRects().length && getComputedStyle(i).visibility !== "hidden") { i.scrollIntoView({ block: "center", inline: "nearest" }); await new Promise((ok) => setTimeout(ok, 60)); }
+        scrollTo(0, 0);
+      }, sel);
+      await page.waitForLoadState("networkidle");
+      await page.waitForTimeout(500);
+      const z = await page.evaluate((s) => {
+        const bilder = [...document.querySelectorAll(s)];
+        const sichtbar = bilder.filter((i) => i.getClientRects().length && getComputedStyle(i).visibility !== "hidden");
+        return {
+          alle: bilder.map((i) => i.getAttribute("srcset") || i.getAttribute("src") || ""),
+          sichtbar: sichtbar.length,
+          geladen: sichtbar.filter((i) => i.complete && i.naturalWidth > 0).length,
+          altLeer: bilder.every((i) => i.getAttribute("alt") === ""),
+          folgenBilder: [...document.images].filter((i) => /\/images\/folgen\//.test(i.getAttribute("srcset") || i.getAttribute("src") || "")).length,
+          quer: document.documentElement.scrollWidth > innerWidth,
+          cls: Math.round((window.__cls ?? 0) * 1000) / 1000,
+        };
+      }, sel);
+      const keinCover = z.alle.filter((x) => !istCover(x));
+      const ok = z.alle.length > 0 && keinCover.length === 0 && z.altLeer && z.folgenBilder === 0 && z.geladen === z.sichtbar && kaputt.length === 0 && z.cls === 0 && !z.quer;
+      console.log(`${(ok ? "ok" : "FEHLER").padEnd(6)} ${String(breite).padStart(4)}px ${pfad}  — Cover: ${z.alle.length} Bild(er), ${z.geladen}/${z.sichtbar} sichtbare geladen, CLS ${z.cls}${z.quer ? ", QUERSCROLLEN" : ""}${z.altLeer ? "" : ", Alt-Text nicht leer"}${keinCover.length ? `, NICHT Cover: ${keinCover.slice(0, 3).join(" | ")}` : ""}${z.folgenBilder ? `, ${z.folgenBilder} aus /images/folgen/` : ""}${kaputt.length ? `, Fehler: ${kaputt.join(" | ")}` : ""}`);
+      if (!ok) fehlerGesamt++;
+      await ctx.close();
+    }
+  }
+}
+
 // Blogübersicht als Kachel-Raster (nur wenn /blog/ geprüft wird). In der
 // Vorschau stehen Entwürfe („_“) mit drin, mit Marke „Entwurf“.
 // Geprüft: alle Artikel als Link im HTML, Reihenfolge = Folgendatum (neueste
