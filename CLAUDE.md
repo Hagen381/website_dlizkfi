@@ -864,8 +864,8 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   Querscrollen, Kontrast ≥ 4,5:1, kein noindex, Canonical),
   Podcast-Cover statt Folgenfotos bei 360/390/820/1280/1440 px (Startseite
   „Neueste Folge“/„Weitere Folgen“, Walze + Themenreiter, Suchtreffer
-  `?q=Schule`: nur `cover.`, Alt leer, geladen, keine 404, CLS 0, kein
-  Querscrollen; Walzen-Karte jeder Folge mit Blogartikel zeigt das Cover),
+  `?q=Schule`: nur `cover.`, Alt leer, geladen, keine 404, CLS 0 mit warmem
+  Schrift-Cache, kein Querscrollen; Walzen-Karte jeder Folge mit Blogartikel zeigt das Cover),
   Folgen-Register (alle Folgen als Link im HTML; bei
   360/390/820/1280/1440 px Walze sichtbar, vordere Karte im Bild, Fotos
   geladen — Bilder außerhalb eines waagerecht scrollbaren Ausschnitts wie der

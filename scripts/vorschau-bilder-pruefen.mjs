@@ -157,7 +157,8 @@ for (const breite of [390, 1280]) {
 // Walzen-Karten und Themenreiter auf /episodes/ und Folgen-Suchtreffer
 // (/episodes/?q=Schule) zeigen bei 360/390/820/1280/1440 px nur das Cover
 // (Dateiname „cover.“), Alt-Text leer, sichtbare geladen, keine Fehler,
-// CLS 0, kein Querscrollen, kein Bild aus /images/folgen/.
+// CLS 0, kein Querscrollen, kein Bild aus /images/folgen/. CLS mit warmem
+// Schrift-Cache (Seite vorher einmal laden), wie in live-pruefen.mjs.
 {
   const istCover = (src) => /\/cover\.[^/]*$/.test(src.split(",")[0].trim().split(" ")[0]);
   const ziele = [
@@ -171,6 +172,8 @@ for (const breite of [390, 1280]) {
       const page = await ctx.newPage();
       const kaputt = [];
       page.on("response", (r) => { if (["image", "font", "stylesheet", "script"].includes(r.request().resourceType()) && r.status() >= 400 && !voruebergehend(r.status())) kaputt.push(`${r.status()} ${r.url()}`); });
+      await page.goto(basis.replace(/\/$/, "") + pfad.split("?")[0], { waitUntil: "networkidle", timeout: 60000 }).catch(() => null);
+      await page.evaluate(() => document.fonts.ready).catch(() => {});
       await page.addInitScript(() => {
         window.__cls = 0;
         new PerformanceObserver((l) => { for (const e of l.getEntries()) if (!e.hadRecentInput) window.__cls += e.value; }).observe({ type: "layout-shift", buffered: true });

@@ -183,12 +183,14 @@ for (const breite of [360, 390, 820, 1280, 1440]) {
 // Themenreiter, Suchtreffer (Folgen) und Startseite („Neueste Folge“,
 // „Weitere Folgen“) zeigen das Cover (Dateiname „cover.“ im src/srcset), je
 // Breite geladen, keine Fehler, CLS 0, kein Querscrollen. Kein Bild mehr aus
-// /images/folgen/.
+// /images/folgen/. CLS mit warmem Schrift-Cache (Seite vorher einmal laden,
+// wie bei ?q=): geprüft werden die Cover, nicht der Schrift-Tausch beim
+// kalten Laden (den deckt „Lighthouse live“ ab).
 const istCover = (src) => /\/cover\.[^/]*$/.test(src.split(",")[0].trim().split(" ")[0]);
 for (const breite of [360, 390, 820, 1280, 1440]) {
   for (const [pfad, sel, vorher] of [
-    ["/", "section[aria-labelledby='frisch-titel'] img, section[aria-labelledby='neueste-titel'] img", null],
-    ["/episodes/", ".reg-walze .reg-foto img, .reg-reiter img", null],
+    ["/", "section[aria-labelledby='frisch-titel'] img, section[aria-labelledby='neueste-titel'] img", "/"],
+    ["/episodes/", ".reg-walze .reg-foto img, .reg-reiter img", "/episodes/"],
     ["/episodes/?q=Schule", "section[aria-live] li:has(a[href*='/episodes/']) img", "/episodes/"],
   ]) {
     const kaputt = [];
