@@ -51,12 +51,12 @@ function lesezeit(bloecke: (typeof artikel)[number]["bloecke"]) {
 
 // Polaroids links/rechts (Deko, aria-hidden): Quelle, Datei, Seite, Lage,
 // Abstand zum Rand, oben, Drehung. Quelle „startseite“ = content/startseite/
-// bilder/<datei>, „folgen“ = content/folgen-bilder/<slug>.jpg. Lage „aussen“
+// bilder/<datei> (die einzige Quelle seit 18.11.2026). Lage „aussen“
 // ab 1280 px, „innen“ erst ab 1440 px (darunter ausgeblendet und nicht
 // geladen — sonst würden die Kacheln zu schmal, blog.css).
 // Kein Polaroid darf dasselbe Foto zeigen wie ein Kartenbild auf /blog/
 // (Prüfung unten, Build-Abbruch).
-type Polaroid = ["startseite" | "folgen", string, "links" | "rechts", "aussen" | "innen", number, number, number];
+type Polaroid = ["startseite", string, "links" | "rechts", "aussen" | "innen", number, number, number];
 const POLAROIDS: Polaroid[] = [
   ["startseite", "20251019_161345.jpg", "links", "aussen", 18, 20, -7],
   ["startseite", "20251013_114024.jpg", "links", "innen", 100, 230, 5],
@@ -68,18 +68,15 @@ const POLAROIDS: Polaroid[] = [
   ["startseite", "20250919_150203.jpg", "rechts", "innen", 96, 640, -6],
 ];
 
-// Ursprüngliche Kamera-Datei eines Polaroids (Folgenbilder heißen nach dem
-// Slug, ihre Herkunft steht in content/folgen-bilder/quellen.json).
-const folgenQuellen: Record<string, string> = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/folgen-bilder/quellen.json"), "utf8"));
-const polaroidSrc = ([quelle, datei]: Polaroid) => (quelle === "folgen" ? `/images/folgen/${datei}` : `/images/startseite/${datei}`);
-const polaroidFoto = ([quelle, datei]: Polaroid) => (quelle === "folgen" ? (folgenQuellen[datei.replace(/\.jpg$/, "")] ?? datei) : datei);
+const polaroidSrc = ([, datei]: Polaroid) => `/images/startseite/${datei}`;
+const polaroidFoto = ([, datei]: Polaroid) => datei;
 const kartenFotos = new Set(artikel.flatMap((a) => (a.kartenbild ? [a.kartenbild.src.split("/").pop()!] : [])));
 const doppelt = POLAROIDS.filter((p) => kartenFotos.has(polaroidFoto(p)));
 if (doppelt.length) {
   throw new Error(`/blog/: Polaroid zeigt dasselbe Foto wie ein Kartenbild: ${doppelt.map((p) => polaroidFoto(p)).join(", ")} — anderes Foto in POLAROIDS (src/app/blog/page.tsx) wählen.`);
 }
 for (const p of POLAROIDS) {
-  const pfad = p[0] === "folgen" ? `content/folgen-bilder/${p[1]}` : `content/startseite/bilder/${p[1]}`;
+  const pfad = `content/startseite/bilder/${p[1]}`;
   if (!fs.existsSync(path.join(process.cwd(), pfad))) throw new Error(`/blog/: Polaroid-Foto fehlt: ${pfad}`);
 }
 
