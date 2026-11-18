@@ -27,7 +27,8 @@ mehr.
 
 ## Technik
 
-- Next.js 16.4.x (unabhängig von website_molloybusiness), App Router,
+- Next.js 16.4.x (seit 18.11.2026 16.4.6, schließt GHSA-mfr8-8qww-v76h und
+  GHSA-vc7v-qv4w-wrv8; unabhängig von website_molloybusiness), App Router,
   `output: "export"`, `trailingSlash: true`, Tailwind 4. Kein Server, alles
   statisch. `next-image-export-optimizer` statt Next/Image-Serveroptimierung.
 - **Bilder nur über `src/components/Cover.tsx` bzw. `BlogBild.tsx`**, nie
@@ -468,7 +469,7 @@ mehr.
   `top: env(safe-area-inset-top)` am sticky Header — Android meldet bei
   edge-to-edge die Statusleiste als Inset, ein sticky Element rutscht dann
   schon bei Scroll 0 um diesen Wert nach unten und überdeckt den Abstand.
-  Jetzt `top-0` (auch das Mobil-Menü ohne `pt-[env(...)]`, `scroll-padding-top`
+  Jetzt `top-0` (auch das Mobil-Menü ohne padding-top mit `env()`, `scroll-padding-top`
   ohne `env()`); ohne `viewport-fit=cover` hält der Browser die Statusleiste
   selbst frei. **Kein `env(safe-area-inset-top)` als Versatz eines sticky/
   fixed Elements oben.** Der Abstand selbst bleibt margin-top (kann den
