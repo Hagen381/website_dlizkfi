@@ -371,18 +371,6 @@ html[data-suche] .suche-vorab {
 .nah .reg-foto-bild {
   display: block;
 }
-.reg-cover {
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
-  z-index: 2;
-  width: 42px;
-  height: 42px;
-  overflow: hidden;
-  border: 2px solid #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgb(0 0 0 / 0.25);
-}
 .reg-text {
   min-width: 0;
   padding: 18px 20px 16px;
@@ -554,10 +542,6 @@ html[data-suche] .suche-vorab {
   }
   .reg-beschreibung {
     font-size: 14px;
-  }
-  .reg-cover {
-    width: 32px;
-    height: 32px;
   }
   .reg-aktionen {
     grid-column: 1 / -1;

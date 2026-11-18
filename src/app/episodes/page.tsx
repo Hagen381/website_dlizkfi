@@ -11,7 +11,6 @@ import SeitenTitel from "@/components/SeitenTitel";
 import { mitBasePath } from "@/lib/base-path";
 import { artikelZurFolge } from "@/lib/blog";
 import { datumKurz, dauerGesprochen, dauerText, folgen } from "@/lib/folgen";
-import { fotoZurFolge } from "@/lib/folgen-foto";
 import { breadcrumb, JsonLd } from "@/lib/seo";
 import { siteConfig } from "@/lib/site-config";
 import { themen, themenZurFolge } from "@/lib/themen";
@@ -55,8 +54,8 @@ export const metadata: Metadata = {
   twitter: { card: "summary", title: `${titel} — ${siteConfig.name}`, description: beschreibung, images: ["/images/og-cover.jpg"] },
 };
 
-// Foto je Folge: src/lib/folgen-foto.ts (Blog-Kartenbild, sonst Folgenbild,
-// sonst Collage-Foto).
+// Bild je Folge: das Podcast-Cover (Cover.tsx), wie bei Spotify — in der
+// Walze, in den Themenreitern und in der Liste ohne JS.
 
 // Polaroids links/rechts (nur ≥ 1280 px): Seite, Lage, Abstand x, oben, Drehung.
 // „kopf“ = neben der Kopf-Glasfläche (x = Abstand zum Bühnenrand), endet
@@ -74,23 +73,17 @@ const POLAROIDS: [string, "links" | "rechts", "kopf" | "seite", number, number, 
 ];
 
 export default function Folgen() {
-  const eintraege = folgen.map((f) => ({ f, artikel: artikelZurFolge(f.slug), foto: fotoZurFolge(f.slug), themen: themenZurFolge(f.slug).map((t) => t.key) }));
+  const eintraege = folgen.map((f) => ({ f, artikel: artikelZurFolge(f.slug), themen: themenZurFolge(f.slug).map((t) => t.key) }));
 
-  // Themenreiter: Anzahl je Thema, Foto = Foto der neuesten Folge des Themas
-  // („Alle“: neueste Folge überhaupt). Themen ohne Folge entfallen.
+  // Themenreiter: Anzahl je Thema, Bild = Podcast-Cover. Themen ohne Folge
+  // entfallen.
   const reiterThemen = themen.map((t) => ({ ...t, anzahl: eintraege.filter((e) => e.themen.includes(t.key)).length })).filter((t) => t.anzahl > 0);
-  const reiterFotos = [null, ...reiterThemen.map((t) => t.key)].map((key) => {
-    const e = eintraege.find((x) => !key || x.themen.includes(key))!;
-    return <BlogBildRoh key={key ?? "alle"} bild={{ src: e.foto.src, alt: "", width: 40, height: 40 }} className="reg-reiter-bild" style={{ objectPosition: e.foto.position }} />;
-  });
+  const reiterFotos = [null, ...reiterThemen.map((t) => t.key)].map((key) => <Cover key={key ?? "alle"} groesse={40} className="reg-reiter-bild" />);
 
-  const karten = eintraege.map(({ f, artikel, foto }, i) => (
+  const karten = eintraege.map(({ f, artikel }, i) => (
     <article key={f.slug} className="reg-karte">
       <div className="reg-foto">
-        <BlogBildRoh bild={{ src: foto.src, alt: "", width: 210, height: 210 }} priority={i === 0} className="reg-foto-bild" style={{ objectPosition: foto.position }} />
-        <span className="reg-cover">
-          <Cover groesse={42} sizes="42px" className="h-full w-full" />
-        </span>
+        <Cover groesse={210} priority={i === 0} className="reg-foto-bild" />
       </div>
       <div className="reg-text">
         <p className="reg-meta">

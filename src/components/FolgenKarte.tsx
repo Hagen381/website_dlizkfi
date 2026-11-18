@@ -1,23 +1,21 @@
 import Link from "next/link";
-import { BlogBildRoh } from "@/components/BlogBild";
+import Cover from "@/components/Cover";
 import PlayKnopf from "@/components/PlayKnopf";
 import { datumKurz, dauerGesprochen, dauerText, type Folge } from "@/lib/folgen";
-import type { FolgenFoto } from "@/lib/folgen-foto";
 
-// foto: aus src/lib/folgen-foto.ts (fotoZurFolge) — auf der Startseite direkt,
-// in den Suchtreffern über /suche.json
-export type KartenFolge = Pick<Folge, "slug" | "titel" | "datum" | "dauer" | "mp3" | "beschreibung"> & { foto: FolgenFoto };
+// Startseite direkt, Suchtreffer über /suche.json
+export type KartenFolge = Pick<Folge, "slug" | "titel" | "datum" | "dauer" | "mp3" | "beschreibung">;
 
 // Folgenkarte wie in "Neueste Folgen" / "Alle Folgen" der Live-Seite.
 // Die ganze Karte ist anklickbar (Link über dem Titel, per ::after gestreckt),
 // der Play-Knopf liegt darüber. 3D-Hover wie die Blog-Karten (.kipp .kipp-karte).
-// Bild: das Foto zur Folge (gleiche Größe wie früher das Cover: 64 px, ab
-// 640 px 96 px), lazy, Alt-Text leer — der Titel steht daneben.
+// Bild: das Podcast-Cover (64 px, ab 640 px 96 px), lazy, Alt-Text leer —
+// der Titel steht daneben.
 export default function FolgenKarte({ folge, ueberschrift = "h3" }: { folge: KartenFolge; ueberschrift?: "h2" | "h3" }) {
   const H = ueberschrift;
   return (
     <article className="kipp kipp-karte group relative flex gap-4 rounded-lg border border-border bg-surface p-4 sm:gap-6 sm:p-6">
-      <BlogBildRoh bild={{ src: folge.foto.src, alt: "", width: 96, height: 96 }} className="aspect-square h-16 w-16 shrink-0 rounded-md object-cover shadow-sm sm:h-24 sm:w-24" style={{ objectPosition: folge.foto.position }} />
+      <Cover groesse={96} className="h-16 w-16 shrink-0 rounded-md shadow-sm sm:h-24 sm:w-24" />
       <div className="min-w-0 flex-1">
         <p className="text-sm text-muted">
           <time dateTime={folge.datum}>{datumKurz(folge.datum)}</time>

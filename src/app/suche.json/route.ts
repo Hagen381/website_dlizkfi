@@ -1,6 +1,5 @@
 import { artikel } from "@/lib/blog";
 import { folgen } from "@/lib/folgen";
-import { fotoZurFolge } from "@/lib/folgen-foto";
 import { themenZurFolge } from "@/lib/themen";
 
 // Kleiner Suchindex für die Suche auf /episodes/ (wird erst beim Suchen
@@ -21,8 +20,6 @@ export function GET() {
     dauer,
     mp3,
     beschreibung,
-    // Foto für die Trefferkarte (src/lib/folgen-foto.ts)
-    foto: fotoZurFolge(slug),
     themen: themenZurFolge(slug).map((t) => t.label),
     // Klartext der Shownotes für die Volltextsuche
     text: klartext(shownotes),
@@ -34,7 +31,9 @@ export function GET() {
     datum: a.datum,
     beschreibung: a.beschreibung,
     entwurf: a.entwurf,
-    foto: a.kartenbild ? { src: a.kartenbild.src, position: a.kartenbildPosition } : fotoZurFolge(a.folgeSlug),
+    // Kartenbild für die Trefferkarte; ohne Kartenbild zeigt sie das Cover
+    // (Folgentreffer zeigen immer das Cover, deshalb dort kein Bildfeld)
+    foto: a.kartenbild ? { src: a.kartenbild.src, position: a.kartenbildPosition } : undefined,
     themen: themenZurFolge(a.folgeSlug).map((t) => t.label),
     text: klartext(a.bloecke.map((b) => (b.art === "html" ? b.html : b.alt)).join(" ")),
   }));

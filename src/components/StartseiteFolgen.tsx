@@ -1,9 +1,8 @@
 import Link from "next/link";
-import { BlogBildRoh } from "@/components/BlogBild";
+import Cover from "@/components/Cover";
 import FolgenKarte from "@/components/FolgenKarte";
 import { PfeilRechts, PlayIcon } from "@/components/Icons";
 import { datumLang, dauerGesprochen, dauerText, folgen } from "@/lib/folgen";
-import { fotoZurFolge } from "@/lib/folgen-foto";
 
 // Alles unter dem Hero der Startseite: „Neueste Folge“ und „Weitere Folgen“.
 // Eigene Komponente, damit Entwürfe der Startseite (nur Vorschau, siehe
@@ -11,8 +10,7 @@ import { fotoZurFolge } from "@/lib/folgen-foto";
 export default function StartseiteFolgen() {
   const [frisch] = folgen;
   // „Weitere Folgen“: die fünf nächsten — die neueste steht schon unter „Neueste Folge“
-  const neueste = folgen.slice(1, 6).map((f) => ({ ...f, foto: fotoZurFolge(f.slug) }));
-  const frischFoto = frisch ? fotoZurFolge(frisch.slug) : null;
+  const neueste = folgen.slice(1, 6);
 
   return (
     <>
@@ -27,14 +25,9 @@ export default function StartseiteFolgen() {
           </p>
           <div className="mx-auto max-w-7xl rounded-2xl border border-border bg-surface p-5 shadow-lg sm:p-8">
             <div className="grid items-center gap-8 md:grid-cols-[minmax(0,2fr)_minmax(0,3fr)] lg:gap-12">
-              {/* Foto zur Folge statt Podcast-Cover; lazy — die Hero-Collage ist
-                  ab 640 px 920 px hoch, die Karte liegt nie im ersten Bildschirm */}
-              <BlogBildRoh
-                bild={{ src: frischFoto!.src, alt: "", width: 420, height: 420 }}
-                sizes="(min-width: 1280px) 420px, (min-width: 768px) 40vw, 92vw"
-                className="aspect-square w-full rounded-xl object-cover shadow-md"
-                style={{ objectPosition: frischFoto!.position }}
-              />
+              {/* Podcast-Cover; lazy — die Hero-Collage ist ab 640 px 920 px
+                  hoch, die Karte liegt nie im ersten Bildschirm */}
+              <Cover groesse={420} sizes="(min-width: 1280px) 420px, (min-width: 768px) 40vw, 92vw" className="w-full rounded-xl shadow-md" />
               <div>
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-primary/15 px-3 py-1 text-sm font-medium text-primary-text">
                   <span aria-hidden="true" className="h-2 w-2 rounded-full bg-primary" />
