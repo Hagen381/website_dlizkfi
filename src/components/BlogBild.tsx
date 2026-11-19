@@ -33,10 +33,16 @@ export function BlogBildRoh({ bild, sizes, className = "", priority = false, wic
   );
 }
 
+// Bilder schmaler als die Lesespalte (584 px) werden nicht hochskaliert:
+// höchstens Originalbreite, zentriert.
+const SPALTE = 584;
+
 export default function BlogBild({ bild }: { bild: ArtikelBild }) {
+  const schmal = bild.width < SPALTE;
+  const sizes = schmal ? `(min-width: 768px) ${bild.width}px, min(calc(100vw - 2rem), ${bild.width}px)` : `(min-width: 768px) ${SPALTE}px, calc(100vw - 2rem)`;
   return (
     <figure className="my-10">
-      <BlogBildRoh bild={bild} sizes="(min-width: 768px) 584px, calc(100vw - 2rem)" className="h-auto max-h-[620px] w-full rounded-2xl object-cover shadow-sm" />
+      <BlogBildRoh bild={bild} sizes={sizes} className="mx-auto h-auto max-h-[620px] w-full rounded-2xl object-cover shadow-sm" style={schmal ? { maxWidth: bild.width } : undefined} />
       <figcaption className="mt-3 text-center text-sm text-muted">{bild.alt}</figcaption>
     </figure>
   );
