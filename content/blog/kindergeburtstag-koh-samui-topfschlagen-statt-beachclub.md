@@ -19,7 +19,7 @@ Und dann die Giveaways. Bevor wir Kinder hatten, wusste ich gar nicht, dass die 
 
 Hier auf Koh Samui, also bei uns Ausländern, wird ein Kindergeburtstag so gefeiert, wie man in Deutschland vielleicht eine Konfirmation, eine Jugendweihe oder sogar eine Hochzeit feiert. Beachclub oder Hotelanlage mit Pool gemietet, Buffet, übelste Luftballon-Arrangements, und eingeladen ist die komplette Klasse mitsamt Eltern. Auch, wenn das Kind gerade drei wird.
 
-![Pool und Palmen auf Koh Samui](bilder/kindergeburtstag-koh-samui-topfschlagen-statt-beachclub/20261025_182553_pool.jpg)
+![Geburtstagstisch im Garten.](bilder/kindergeburtstag-koh-samui-topfschlagen-statt-beachclub/geburtstagstisch-garten.jpg)
 
 Es gibt ein Thüringer Wort dafür: bombfortionös. Also übelster Aufriss.
 
@@ -47,7 +47,7 @@ Ich gebe zu, meine Meinung ist da sehr subjektiv. Ich bin einfach keine Geburtst
 
 Ansonsten ist mir das Geld schlichtweg zu schade. Von dem, was ich für eine Party ausgeben würde, fahre ich lieber weg. Und das habe ich an den meisten Geburtstagen auch gemacht, mal eine längere Reise, mal nur übers Wochenende.
 
-![Sonnenuntergang am Strand an Heinrichs Geburtstag letztes Jahr](bilder/kindergeburtstag-koh-samui-topfschlagen-statt-beachclub/20251006_181705.jpg)
+![Geschenke und Ballons zu Hause.](bilder/kindergeburtstag-koh-samui-topfschlagen-statt-beachclub/geschenke-ballons.jpg)
 
 ## Wie wir es machen
 
@@ -59,7 +59,7 @@ Da dachte ich schon wieder: Okay. In Deutschland hatten wir im Kleinkindalter di
 
 Letztes Jahr waren wir mit Heinrich in der Paradise Park Farm, haben danach am Strand eine Schnitzeljagd gemacht und abends ein Lagerfeuer. Dieses Jahr gab es eine Stunde VR-Arena, selbstgemachte Burger und eine Übernachtung mit vier Jungs.
 
-![Lagerfeuer am Strand](bilder/kindergeburtstag-koh-samui-topfschlagen-statt-beachclub/20251006_175647.jpg)
+![Ausblick an Heinrichs Geburtstag letztes Jahr.](bilder/kindergeburtstag-koh-samui-topfschlagen-statt-beachclub/20251006_115727.jpg)
 
 Günstig war auch das nicht. Allein die Stunde VR hat knapp 150 Euro gekostet. Aber es ist ein Rahmen, den man auch in Deutschland für einen Kindergeburtstag einplant, wenn man in die Trampolinhalle oder zum Bowlen geht.
 

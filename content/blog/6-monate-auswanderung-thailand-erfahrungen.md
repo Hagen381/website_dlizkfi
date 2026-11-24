@@ -2,15 +2,15 @@
 titel: "Sechs Monate nach unserer Auswanderung nach Thailand: Zwischen hohen Erwartungen und echter Freiheit"
 folge-slug: "6-monate-nach-auswanderung-ein-resumee"
 beschreibung: "Sechs Monate nach unserer Auswanderung nach Thailand: Was uns auf Koh Samui überrascht hat, welche Zweifel es gab und wie wir heute leben."
-kartenbild: "20260116_175919.jpg"
-kartenbild-position: "50% 70%"
+kartenbild: "20251004_140001.jpg"
+kartenbild-position: "50% 55%"
 ---
 
 Sechs Monate leben wir inzwischen auf Koh Samui. Ein halbes Jahr! Ich finde es unglaublich, wie schnell diese Zeit vergangen ist. Und als ich darüber nachgedacht habe, wie es uns seit unserer Auswanderung eigentlich ergangen ist, wurde mir bewusst, dass es zumindest für mich ziemlich unterschiedliche Phasen gab.
 
 Wir kannten Thailand gut und hatten sogar schon einmal ein Jahr hier gelebt. Trotzdem war die erste Zeit anders als erwartet – auch wegen meiner eigenen Vorstellungen vom Auswandern.
 
-![Abendstimmung am Meer, kurz nach unserer Ankunft.](bilder/6-monate-auswanderung-thailand-erfahrungen/20251006_175824.jpg)
+![Mit der Fähre nach Koh Samui.](bilder/6-monate-auswanderung-thailand-erfahrungen/20250924_131140.jpg)
 
 ## Warum ich ständig wissen wollte, ob ich glücklich bin
 
@@ -28,7 +28,7 @@ Dazu kam der Staub. Wenn ich bei uns den Küchentisch abwische, ist der Lappen a
 
 Und dann die Hitze. Im Thailandurlaub stört sie mich weniger, wenn ich am Pool liegen oder schwimmen gehen kann. Beim Einrichten eines Haushalts sieht das anders aus. Dazu kamen ein Kabelbrand, Probleme mit dem Auto, die Geschichte mit dem Hund und Begegnungen mit einem Skorpion und einer Schlange. Einzeln vielleicht keine großen Dramen, in dieser Häufung irgendwann einfach viel.
 
-![32 Grad am frühen Abend.](bilder/6-monate-auswanderung-thailand-erfahrungen/20251217_174929.jpg)
+![In der Trainingshalle.](bilder/6-monate-auswanderung-thailand-erfahrungen/20251004_161237.jpg)
 
 Gleichzeitig wollte ich endlich all das machen, worauf ich mich so lange gefreut hatte: regelmäßig Sport, Massagen, Ausflüge und möglichst viel unternehmen. Während wir gerade erst angekommen waren, recherchierte ich sogar schon Flüge für unsere erste Visa-Reise ein halbes Jahr später. Ich war also kaum in Thailand angekommen und beschäftigte mich bereits mit der nächsten Reise. Irgendwann habe ich gemerkt, dass ich ziemlich erschöpft war. Ich bin jemand, der sich gerne viel vornimmt und häufig erst hinterher feststellt, dass es vielleicht etwas zu viel gewesen ist. Genau das war hier wieder passiert.
 
@@ -48,7 +48,7 @@ Inzwischen hat sich mein Gefühl zu unserem Leben hier ziemlich verändert. Ich 
 
 Ich kenne dieses Gefühl noch aus meiner Kindheit. Früher war ich häufig mit meinem Vater in Kroatien. Wenn wir auf der Fahrt über die Berge kamen und ich zum ersten Mal das Meer in der Ferne sehen konnte, war ich jedes Mal völlig begeistert. Später habe ich 17 Jahre in Rostock gelebt und hatte die Ostsee ebenfalls in der Nähe. Trotzdem habe ich mich immer darüber gefreut, nach der Arbeit oder am Wochenende ans Wasser fahren zu können. Hier auf Koh Samui ist das Meer noch präsenter. Von unserem Bett aus können wir es theoretisch sehen, und zum Strand brauche ich ungefähr 30 Sekunden.
 
-![Sonnenuntergang über dem Meer.](bilder/6-monate-auswanderung-thailand-erfahrungen/20251203_174822.jpg)
+![Strand auf Koh Samui.](bilder/6-monate-auswanderung-thailand-erfahrungen/20251004_140001.jpg)
 
 Mindestens genauso wertvoll ist für mich allerdings die Freiheit, unseren Alltag selbst zu gestalten. Ich weiß manchmal nicht einmal, welcher Wochentag gerade ist. Mein Bruder meinte neulich am Telefon, dieses Problem hätte er auch gerne. Er wüsste nämlich ziemlich genau, wie viele Arbeitstage noch bis zum Wochenende vor ihm liegen.
 
@@ -60,7 +60,7 @@ Diese Möglichkeit hatte ich durch meine Selbstständigkeit teilweise schon in D
 
 Natürlich ist auch auf Koh Samui nicht alles wunderbar. Die Insel hat sich seit unserem ersten längeren Aufenthalt verändert. Damals, kurz nach Corona, war es wesentlich ruhiger. Inzwischen sind die Touristen zurück. Einerseits ist das gut für alle, die vom Tourismus leben. Andererseits kann es ziemlich nerven, wenn man hier wohnt: Strecken, für die man normalerweise eine halbe Stunde braucht, dauern plötzlich eine Stunde. Im Supermarkt laufen einem oberkörperfreie Urlauber über den Weg, und am Strand gibt es auch mal gröhlende Menschen, die offensichtlich zu viel getrunken haben.
 
-![Roller und Autos gehören auf Koh Samui zum Alltag.](bilder/6-monate-auswanderung-thailand-erfahrungen/20251003_174333.jpg)
+![Abends auf dem Markt.](bilder/6-monate-auswanderung-thailand-erfahrungen/20260106_181707.jpg)
 
 Das kannte ich übrigens auch aus Rostock. Als Einwohner einer Urlaubsregion sieht man manche Dinge anders als jemand, der nur zwei Wochen zu Besuch ist. Trotzdem hat Koh Samui für mich etwas Besonderes. Ich habe schon lange das Gefühl, dass Thailand und vor allem diese Insel eine wichtige Rolle in meinem Leben spielen. Dass ich hier irgendwie hingehöre. Das bedeutet nicht, dass wir für immer auf Koh Samui bleiben müssen. Vielleicht entscheiden wir irgendwann, noch einmal woanders zu leben.
 
@@ -76,7 +76,7 @@ Aber dieser Moment kam nicht. Beide sagen nach wie vor ganz deutlich, dass sie n
 
 Nach sechs Monaten kann ich jedenfalls sagen, dass wir uns alle vier hier sehr wohlfühlen. Und trotzdem bin ich gespannt, wie sich unser Leben weiterentwickelt. Wir haben schon einmal ungefähr ein Jahr in Thailand verbracht. Interessant wird für mich deshalb besonders der Zeitpunkt, an dem wir länger hier leben als damals.
 
-![Abendstimmung bei Ebbe.](bilder/6-monate-auswanderung-thailand-erfahrungen/20260116_175919.jpg)
+![Auf den Felsen am Meer.](bilder/6-monate-auswanderung-thailand-erfahrungen/20260130_172539.jpg)
 
 Zunächst steht unsere erste Visa-Reise nach Hanoi an. Danach sind Uwe und Heike auf Samui, und im April kommen meine Mutter und mein Bruder zu Besuch. Von Langeweile sind wir also weit entfernt.
 

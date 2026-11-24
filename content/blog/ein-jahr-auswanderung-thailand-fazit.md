@@ -2,8 +2,8 @@
 titel: "Ein Jahr nach unserer Auswanderung nach Thailand: Warum unser Leben nicht immer Urlaub ist"
 folge-slug: "1-jahr-nach-auswanderung-bilanz-einer-familie-in-thailand"
 beschreibung: "Ein Jahr nach der Auswanderung nach Thailand: Unser Familienalltag auf Koh Samui zwischen Freiheit, Arbeit, Homeschooling und schwierigen Phasen."
-kartenbild: "20260827_062502.jpg"
-kartenbild-position: "42% 50%"
+kartenbild: "20260830_171750.jpg"
+kartenbild-position: "50% 70%"
 ---
 
 Fast hätte ich unseren ersten Auswanderungsgeburtstag vergessen. Nicht, weil mir das Datum egal wäre, sondern weil ich überhaupt nicht auf dem Schirm hatte, dass wir schon ein ganzes Jahr nicht mehr in Deutschland leben. Erst als wir unsere zweite Visa-Reise planten, fiel mir auf, dass sich unsere Abreise bereits zum ersten Mal jährt.
@@ -48,7 +48,7 @@ Ich weiß selbst nicht genau, warum, aber irgendwie habe ich die Vorstellung, ir
 
 Für mich zeigt das aber auch, dass Zuhause nicht unbedingt nur ein bestimmtes Haus oder ein Land sein muss. Ich fühle mich in unserem jetzigen Zuhause wohl und habe trotzdem eine besondere Verbindung zu dem Ort, an dem wir vorher gewohnt haben.
 
-![Morgenstimmung am Meer auf Koh Samui.](bilder/ein-jahr-auswanderung-thailand-fazit/20260827_062502.jpg)
+![Palmenweg in unserer Nähe.](bilder/ein-jahr-auswanderung-thailand-fazit/20260830_171750.jpg)
 
 ## Viermal die Woche Sport und plötzlich spricht die Familie Englisch
 
@@ -68,7 +68,7 @@ Und bei einem Hyrox-Wettkampf muss man insgesamt acht Kilometer laufen. Bis dahi
 
 Das Training bestimmt inzwischen einen großen Teil unserer Woche. Das Fitnessstudio liegt leider nicht gerade um die Ecke. Normalerweise brauchen wir ungefähr 45 Minuten für eine Strecke, in der Hochsaison kann daraus auch mal über eine Stunde werden. Dass die Trainingszeiten der Kinder und unsere Hyrox-Kurse zusammenpassen, ist deshalb Gold wert.
 
-![Im Fitnessstudio.](bilder/ein-jahr-auswanderung-thailand-fazit/20260808_135915.jpg)
+![Training in der Halle.](bilder/ein-jahr-auswanderung-thailand-fazit/20260904_181920.jpg)
 
 Fast noch spannender finde ich allerdings, was sich bei den Kindern sprachlich getan hat.
 

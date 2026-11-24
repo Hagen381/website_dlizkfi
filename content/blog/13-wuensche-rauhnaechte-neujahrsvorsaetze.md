@@ -68,7 +68,7 @@ Mit unserer Auswanderung gehörten sie wieder zu unserem Alltag.
 
 Wir haben uns also keinen eigenen Hund angeschafft. Trotzdem hatte ich genau das, was hinter meinem Wunsch steckte: Hunde, die mich im Alltag begleiten.
 
-![Hunde begleiten uns hier im Alltag.](bilder/13-wuensche-rauhnaechte-neujahrsvorsaetze/20260113_092212.jpg)
+![Hunde begleiten uns hier im Alltag.](bilder/13-wuensche-rauhnaechte-neujahrsvorsaetze/20260118_183353.jpg)
 
 Ein anderes Beispiel finde ich fast noch kurioser.
 
@@ -156,7 +156,7 @@ Wenn das ein oder zwei Monate funktioniert, kann ich immer noch mehr machen.
 
 Vielleicht schaffe ich es dann bis zum Sommer, tatsächlich dreimal pro Woche laufen zu gehen. Vielleicht dauert es länger. Das ist doch völlig egal.
 
-![Lagerfeuer am Strand, Anfang Januar.](bilder/13-wuensche-rauhnaechte-neujahrsvorsaetze/20260104_180143.jpg)
+![Frühmorgens auf der Straße, Ende Januar.](bilder/13-wuensche-rauhnaechte-neujahrsvorsaetze/20260128_075202.jpg)
 
 Ähnlich sehe ich es bei der Ernährung.
 

@@ -284,7 +284,13 @@ mehr.
 - Layout: Lesespalte ~65 Zeichen (36,5 rem), Literata 18 px, `##` in Bricolage,
   Beschreibung als Lead, darunter Button „Zur Podcastfolge", Kasten „Zur
   Folge" mit Player und demselben Button am Ende; Bilder max.
-  620 px hoch (object-fit: cover). Jede Karte auf `/blog/` zeigt das
+  620 px hoch (object-fit: cover). **Kein Hochskalieren:** Bilder, die
+  schmaler als die Lesespalte (584 px, `SPALTE` in
+  `src/components/BlogBild.tsx`) sind, werden höchstens in Originalbreite
+  gezeigt (`max-width` = Bildbreite, zentriert; `sizes` entsprechend, damit
+  der Browser keine größere Variante lädt). Breitere Bilder füllen die
+  Spalte. Die Hochformat-Fotos der Übergaben (747×1600) sind breiter als
+  584 px und füllen die Spalte (bis 620 px Höhe beschnitten). Jede Karte auf `/blog/` zeigt das
   Kartenbild: optionales Frontmatter `kartenbild: <datei>` (muss im Artikel
   vorkommen, sonst Build-Abbruch), ohne Feld das erste Bild;
   `kartenbild-position` (optional, z. B. `"50% 60%"`) setzt den Ausschnitt

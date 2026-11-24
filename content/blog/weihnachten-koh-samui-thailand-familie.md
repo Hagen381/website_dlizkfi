@@ -10,7 +10,7 @@ Während in Deutschland die Weihnachtsmärkte geöffnet haben, die ersten Plätz
 
 Weihnachtsstimmung? Bei mir ehrlich gesagt Fehlanzeige.
 
-![31 Grad Anfang Dezember.](bilder/weihnachten-koh-samui-thailand-familie/31-grad.jpg)
+![Weihnachtskerze vor Palmen im Regen.](bilder/weihnachten-koh-samui-thailand-familie/kerze-palmen-regen.jpg)
 
 Allerdings muss ich dazusagen, dass weder Hagen noch ich jemals besonders große Weihnachtsfans waren. Schon in Deutschland gehörten wir nicht zu den Menschen, die sich wochenlang auf Weihnachten gefreut und voller Begeisterung das ganze Haus dekoriert haben. Natürlich fanden wir Weihnachtsmärkte schön und haben auch mit den Kindern verschiedene Traditionen gepflegt. Aber wenn Weihnachten vorbei war, waren wir auch nicht sonderlich traurig darüber.
 

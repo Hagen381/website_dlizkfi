@@ -84,7 +84,7 @@ Anschließend ging es auf einen über 400 Meter langen Skywalk, der durch das Ge
 
 Mir gefiel besonders, dass die Tiere nicht unmittelbar zu uns geführt wurden, sondern selbst zur Futterstelle kamen. Natürlich wissen sie, dass es dort etwas zu essen gibt. Aber das ist für mich zunächst einmal ein nachvollziehbares Verhalten.
 
-![Die Elefanten kommen selbst an die Futterstelle.](bilder/elefantencamps-koh-samui-sanctuary-erfahrungen/futterstelle.jpg)
+![Ein junger Elefant im Elephant Kingdom.](bilder/elefantencamps-koh-samui-sanctuary-erfahrungen/elefant-jung.jpg)
 
 Etwas kritischer sehe ich dagegen den letzten Teil des Besuchs.
 

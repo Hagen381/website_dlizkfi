@@ -24,7 +24,7 @@ Fünfeinhalb Jahre später wohnten wir wieder in derselben Anlage. Wir konnten s
 
 Eigentlich wollten wir diesmal nur zwei Nächte bleiben und anschließend nach Koh Samui weiterfahren. Allerdings war die Fähre ausgebucht, sodass wir unseren Aufenthalt um einen Tag verlängern mussten.
 
-![Hua Hin: Wegen der ausgebuchten Fähre blieben wir einen Tag länger.](bilder/ankommen-koh-samui-bungalows-einrichten/20250923_152508.jpg)
+![Blick über Hua Hin.](bilder/ankommen-koh-samui-bungalows-einrichten/20250923_171433.jpg)
 
 Als wir am Strand beim Essen saßen, wurde uns bewusst, wie angenehm diese neue Flexibilität war. Wir mussten nicht zu einem bestimmten Termin wieder in Deutschland sein. Kein Arbeitsbeginn, kein Schulstart, kein Rückflug, auf den wir Rücksicht nehmen mussten. Ob wir nun einen Tag früher oder später auf Koh Samui ankamen, war eigentlich völlig egal.
 
