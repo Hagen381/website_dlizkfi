@@ -14,6 +14,10 @@ on:
         description: "Nur auflisten, nichts loeschen"
         type: boolean
         default: true
+      max_dateien:
+        description: "Obergrenze einzelner Bilddateien (Standard 50, hoechstens 300 — z. B. beim Tausch vieler Bilder: je Bild 14 Dateien)"
+        type: number
+        default: 50
 
 permissions:
   contents: read
@@ -74,4 +78,10 @@ jobs:
           TESTLAUF: ${{ inputs.testlauf && '1' || '0' }}
           EXPORT: out
           LIVE_URL: https://www.daslebenistzukurzfuerirgendwann.de
-        run: ./scripts/blog-aufraeumen.sh
+          MAX_DATEIEN_EINGABE: ${{ inputs.max_dateien }}
+        run: |
+          if ! [[ "$MAX_DATEIEN_EINGABE" =~ ^[0-9]+$ ]] || [ "$MAX_DATEIEN_EINGABE" -lt 1 ] || [ "$MAX_DATEIEN_EINGABE" -gt 300 ]; then
+            echo "::error::max_dateien muss eine Zahl von 1 bis 300 sein."; exit 1
+          fi
+          export MAX_DATEIEN="$MAX_DATEIEN_EINGABE"
+          ./scripts/blog-aufraeumen.sh

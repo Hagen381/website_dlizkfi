@@ -761,7 +761,13 @@ Pages), Default-Branch `main`, Pages-Quelle: GitHub Actions.
   (`index.html` oder `blog/index.html` fehlt) oder mehr als 10 Ordner bzw. 50
   Dateien betroffen wären. Gleiche lftp-Sicherheitsregeln wie im
   Deploy. Von Hand: Workflow „Blog auf dem Server aufraeumen"
-  (`blog-aufraeumen.yml`, Standard = Testlauf, listet nur auf).
+  (`blog-aufraeumen.yml`, Standard = Testlauf, listet nur auf). Eingabe
+  `max_dateien` (Standard 50, höchstens 300) für größere Bildtausche — je
+  ersetztem Bild 14 Dateien (Original + 13 WEBP), bei einem ersetzten
+  Kartenbild weitere 14 (`.karte.jpg` + WEBP). So am 24.11.2026 (Bildtausch
+  Runde 2, 15 Bilder = 238 Dateien): Deploy brach korrekt ab, danach
+  Testlauf, Liste geprüft, Löschlauf mit `max_dateien` 250. Der Deploy
+  selbst bleibt bei 50.
 - **Ausnahme 2: „Server aufräumen“** (ausdrücklicher Auftrag von Hagen,
   12.11.2026). Workflow `server-aufraeumen.yml`, **nur manuell**, Eingabe
   `modus`: `testlauf` (Standard, listet nur auf) | `loeschen`. **Gelöscht
